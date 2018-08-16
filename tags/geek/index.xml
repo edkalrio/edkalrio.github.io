@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geek on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/geek/</link>
+    <description>Recent content in Geek on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 05 Mar 2012 17:50:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/geek/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reflexiones sobre la refrigeración líquida</title>
+      <link>https://lunaticgeek.com/2012-03-05-reflexiones-sobre-la-refrigeracion/</link>
+      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-03-05-reflexiones-sobre-la-refrigeracion/</guid>
+      <description>Uno podría preguntarse cuál es la razón para comprarse una refrigeración líquida.Es una pregunta con respuestas pocos convincentes. En los tiempos que corren, la necesidad de una refrigeración líquida está solo razonada en los i7 socket 2011 porque consumen 120w. En el resto de procesadores no hacen ninguna falta. El overclock tampoco es una excusa demasiado buena. Desde que se popularizaron los procesadores mulinúcleo, la refrigeración líquida murió. Para aumentar la velocidad de procesamiento ya no era necesario aumentar el FSB y con ello la velocidad del reloj sino simplemente escalar el procesador poniéndole un núcleo más.</description>
+    </item>
+    
+    <item>
+      <title>El frikismo de las disqueteras</title>
+      <link>https://lunaticgeek.com/2012-02-18-el-frikismo-de-las-disqueteras/</link>
+      <pubDate>Sat, 18 Feb 2012 13:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-02-18-el-frikismo-de-las-disqueteras/</guid>
+      <description>Una disquetera no sirve para nada. 1.44MB de información hoy en día no pueden albergar ni una fotografía en una resolución alta y ya ni siquiera Sony fabrica disquetes.
+Sin embargo hay algo que se puede hacer con una disquetera. Arte. Reprogramando el READ, WRITE y las otras 14 órdenes básicas de estos lectores, se consiguen sonidos que podemos afinar hasta conseguir notas concretas y unir para interpretar partituras completas.</description>
+    </item>
+    
+    <item>
+      <title>Origen de los nombres de grandes empresas geek</title>
+      <link>https://lunaticgeek.com/2011-07-28-origen-de-los-nombres-de-empresas-geek/</link>
+      <pubDate>Thu, 28 Jul 2011 13:14:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-28-origen-de-los-nombres-de-empresas-geek/</guid>
+      <description>Apple: La fruta favorita de Steve Jobs, su fundador.Cisco: Es el diminutivo de San Francisco.
+Compaq: Se formo utilizando COM de computer y PAQ que significa un objeto pequeño.Corel: Deriva del nombre del fundador Dr. Michael Cowpland y se formó tomando COwpland REsearch Laboratory.Google: El nombre comenzó como un chiste acerca de la cantidad de información que el motor de búsqueda podría llegar a buscar. Originalmente se llamó Googol, pero después fue cambiado pues los fundadores recibieron un cheque de un inversor que decía Google.</description>
+    </item>
+    
+    <item>
+      <title>Reflexiones Geek</title>
+      <link>https://lunaticgeek.com/2010-09-08-reflexiones-geek_08/</link>
+      <pubDate>Wed, 08 Sep 2010 02:17:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-08-reflexiones-geek_08/</guid>
+      <description>&#34;No me fio de la gente que pasa mas de 24 horas desconectada... A saber que vidas extrañas tienen ahi fuera&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

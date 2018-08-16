@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ntfs on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ntfs/</link>
+    <description>Recent content in Ntfs on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 Aug 2011 23:51:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ntfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Como conseguir permisos en particiones NTFS en Ubuntu 11.04</title>
+      <link>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</link>
+      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</guid>
+      <description>Llevaba mucho tiempo comiéndome la cabeza con un problema incapaz de solucionar, y es que no podía dar permisos a ningún archivo en particiones NTFS en Ubuntu 11.04, cuando daba propiedades--permisos y modificaba algo, automáticamente volvía a cambiarse anulándose los cambios, siendo un incordio sobretodo al instalar los juegos o aplicaciones Java que necesitan bit de ejecución en particiones diferentes a /.
+Probé con sudo nautilus, chmod 777 y nada.</description>
+    </item>
+    
+  </channel>
+</rss>

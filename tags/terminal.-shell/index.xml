@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal. Shell on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/terminal.-shell/</link>
+    <description>Recent content in Terminal. Shell on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 17 Sep 2016 13:10:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/terminal.-shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mi Prompt de Bash</title>
+      <link>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</link>
+      <pubDate>Sat, 17 Sep 2016 13:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</guid>
+      <description>Para celebrar el lanzamiento de Bash 4.4 se me ha ocurrido que podría ser interesante compartir con todos la configuración de mi prompt.&amp;nbsp;La configuración por defecto del prompt de Bash tiene un defecto importante, a mi modo de ver. Es demasiado larga para un terminal de 80x24, dimensiones que yo siempre intento respetar. Mi configuración personal pretende ser más breve pero a la vez conservando la misma funcionalidad e incluso añadiendo alguna característica extra.</description>
+    </item>
+    
+    <item>
+      <title>Tyrs. Twitter en CLI</title>
+      <link>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</link>
+      <pubDate>Wed, 16 Nov 2011 16:14:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</guid>
+      <description>En este blog hemos recomendado twidge como cliente de microblogging para terminal.
+Sin embargo, hace unos días, leí un post revelador en muylinux.com sobre un pequeño programa libre, escrito en python cuyo nombre es Tyrs.Tyrs es de lejos el mejor software para controlar twitter e identi.ca desde el terminal. Twidge y el resto de clientes anteriores a tyrs eran demasiado simples y poco intuitivos, cosa que en un programa de terminal no es raro pero tyrs utiliza ncurses para crear una interfaz a base de unicode como en mocp o mc, programas que también comentamos.</description>
+    </item>
+    
+    <item>
+      <title>Informática de la Vieja Escuela</title>
+      <link>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</link>
+      <pubDate>Thu, 23 Jun 2011 16:28:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</guid>
+      <description>Por razones que no vienen a cuento he tenido que trabajar últimamente en entornos sin interfaz gráfica, es decir, en un terminal o emulador de terminal como lo llaman los puristas. No soy como esos cobardes windowseros que nunca han oído hablar de líneas de comandos o que evitan a toda costa cualquier programa para su cmd pero tampoco soy un talibán del terminal como Richard Stallman que odia los entornos con GUI porque los controladores de las gráficas son privativos.</description>
+    </item>
+    
+  </channel>
+</rss>

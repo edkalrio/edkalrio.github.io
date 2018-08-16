@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elementary Project on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/elementary-project/</link>
+    <description>Recent content in Elementary Project on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 28 Jan 2016 19:04:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/elementary-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 años de involución personal en el escritorio</title>
+      <link>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</guid>
+      <description>Por casualidad, he encontrado unas capturas de pantalla de mi escritorio de hace un lustro y me gustaría compartirlas, con unos comentarios sobre la evolución (en mi caso involución), como se ha hecho con enorme éxito en unix.se.La verdad es que antes era muy superficial y empecé en el mundo Linux hace 8 años por las enormes posibilidades que este sistema operativo ofrece en cuanto a personalización: temas GTK, iconos, docks, efectos de compiz, etc.</description>
+    </item>
+    
+    <item>
+      <title>Elementary GTK</title>
+      <link>https://lunaticgeek.com/2011-03-07-elementary-gtk/</link>
+      <pubDate>Mon, 07 Mar 2011 16:55:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-07-elementary-gtk/</guid>
+      <description>El famosísimo tema GTK de DanRabbit ha sido actualizado a la versión 2.1. Entre las mejoras de esta versión se encuentran la compatibilidad con GTK 3 y el abandono del motor Aurora.
+Además, ahora viene por defecto la versión oscura y es por esto por lo que os escribo. Me encanta la versión dark de elementary, incluso la he usado cuando no era más que una opción menor del tema pero ahora no va bien con mi escritorio.</description>
+    </item>
+    
+  </channel>
+</rss>

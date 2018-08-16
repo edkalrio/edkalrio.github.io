@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>DNS Raíz alternativo - Lunatic Geek</title>
+  <meta property="og:title" content="DNS Raíz alternativo - Lunatic Geek" />
+  <meta name="twitter:title" content="DNS Raíz alternativo - Lunatic Geek" />
+  <meta name="description" content="En el inicio de internet, los nombres de dominios estaban almacenados en un único archivo HOSTS.TXT situado en el servidor del NIC en Stanford. Como es lógico, esa fórmula quedó obsoleta rápidamente por la imposibilidad de escalarse adecuadamente.&nbsp;
+El actual sistema de DNS es el sustituto que desde hace 35 años lleva asignando nombres de dominio, y en todo ese tiempo, muy poco ha cambiado en este campo. La introducción de DNSSEC está siendo realmente lenta, DNS over TLS parece una solución abandonada y DoH es todavía un borrador.">
+  <meta property="og:description" content="En el inicio de internet, los nombres de dominios estaban almacenados en un único archivo HOSTS.TXT situado en el servidor del NIC en Stanford. Como es lógico, esa fórmula quedó obsoleta rápidamente por la imposibilidad de escalarse adecuadamente.&nbsp;
+El actual sistema de DNS es el sustituto que desde hace 35 años lleva asignando nombres de dominio, y en todo ese tiempo, muy poco ha cambiado en este campo. La introducción de DNSSEC está siendo realmente lenta, DNS over TLS parece una solución abandonada y DoH es todavía un borrador.">
+  <meta name="twitter:description" content="En el inicio de internet, los nombres de dominios estaban almacenados en un único archivo HOSTS.TXT situado en el servidor del NIC en Stanford. Como es lógico, esa fórmula quedó obsoleta rápidamente …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2018-04-11-dns-raiz-alternativo/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">DNS Raíz alternativo</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2018-04-11</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/dns/">
+						<i class="fas fa-tag"></i>
+						DNS
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<div class="separator" style="clear: both; text-align: center;"><a href="https://whois.icann.org/sites/default/files/ICAN-Infographic---DNS-Query_Large.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="388" data-original-width="726" height="213" src="https://whois.icann.org/sites/default/files/ICAN-Infographic---DNS-Query_Large.gif" width="400" /></a></div><div style="text-align: justify;">En el inicio de internet, los nombres de dominios estaban almacenados en un único archivo HOSTS.TXT situado en el servidor del NIC en Stanford. Como es lógico, esa fórmula quedó obsoleta rápidamente por la imposibilidad de escalarse adecuadamente.&nbsp;</div><div style="text-align: justify;"></div><a name='more'></a><br /><div style="text-align: justify;">El actual sistema de DNS es el sustituto que desde hace 35 años lleva asignando nombres de dominio, y en todo ese tiempo, muy poco ha cambiado en este campo. La introducción de DNSSEC está siendo realmente lenta, <a href="https://tools.ietf.org/html/rfc7858" rel="nofollow">DNS over TLS</a> parece una solución abandonada y <a href="https://tools.ietf.org/html/draft-ietf-doh-dns-over-https-02" rel="nofollow">DoH</a> es todavía un borrador.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Si este inmovilismo tecnológico resulta molesto, más aún lo es en su aspecto burocrático. La asignación de direcciones IPs y TLDs se encuentra centralizada en el ICANN, organismo dependiente del departamento de comercio de los Estados Unidos, aunque toda la parte operativa está delegada en los ISPs y registradores de dominio.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Ahora bien, si profundizamos lo suficiente, nos podemos encontrar alternativas bastante curiosas a este modelo monopolístico que ha gobernado internet durante 35 años. Las direcciones .onion son una solución muy inteligente pero bastante desafortunada. Al ser un hash basado en la clave pública del servicio, la url acaba midiendo 16 caracteres alfanuméricos (planean aumentar la longitud todavía más), incluso más difícil de recordar que una IP.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Los Blockchains pueden ser la clave para resolver el triángulo de <a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle" rel="nofollow">Zooko</a> pero es una solución bastante ineficiente ya que supone que cada terminal tenga una copia de todas las direcciones. Esto no supone un problema en la actualidad pero hay que recordar que el Blockchain de Bitcoin ocupa 140GB y subiendo.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">La otra alternativa es la que nos ofrece <a href="https://www.opennic.org/" rel="nofollow">Opennic</a>, asociación que mantiene una red de servidores DNS raíz alternativos a los del ICANN. Esta red en ningún caso contradice las asignaciones del ICANN sino que expande la lista de direcciones con TLDs propios. Esta comunidad está plagada de retro geeks, apasionados de tecnologías obsoletas como los <a href="http://www.bbscorner.com/usersinfo/bbshistory.htm" rel="nofollow">bulletin board systems</a> o los <a href="http://gopher.floodgap.com/gopher/gw.lite?gopher://gopher.floodgap.com:70/0/gopher/welcome" rel="nofollow">gopher holes</a>.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Para acceder a estos dominios hay que añadir uno de los DNSs de su pool para que el navegador pueda resolver la dirección correctamente pero adelanto que no hay ninguno tan bonito como <a href="https://1.1.1.1/" rel="nofollow">1.1.1.1</a>, <a href="http://8.8.8.8/">8.8.8.8</a> o <a href="http://9.9.9.9/">9.9.9.9</a>. Hay que elegir uno de su lista, dependiendo de la situación geográfica, así que no voy a recomendar ninguno en particular. Podéis consultar la lista completa aquí aunque hay una forma menos invasiva de conectarse a esta red gracias a la extensión <a href="https://blockchain-dns.info/">BDNS</a>. Su funcionamiento es sencillo, Cada vez que navegamos hacia un dominio con TLD alternativo, hace una petición a su base de datos, que nos devuelve la dirección IP del servidor correspondiente.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Aunque por razones de seguridad no puedo recomendar a nadie que se cambie a un servidor DNS alternativo, me parece un experimento muy interesante que sirve para profundizar en la estructura de internet y aprender de las tecnologías más decadentes.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Por cierto, puedes encontrarme en <a href="http://lunatic.geek/">http://lunatic.geek</a></div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

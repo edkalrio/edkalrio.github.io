@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wii on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/wii/</link>
+    <description>Recent content in Wii on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 10 Jun 2011 18:46:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/wii/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mal empieza...</title>
+      <link>https://lunaticgeek.com/2011-06-10-mal-empieza/</link>
+      <pubDate>Fri, 10 Jun 2011 18:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-10-mal-empieza/</guid>
+      <description>Siempre que hay una anuncio importante en el mundo tecnológico me pongo a mirar la cotización en bolsa de la compañía para saber cuál es la opinión del mercado sobre la novedad y la verdad es que a Nintendo no le ha podido ir peor con la Wii U. Desde su anuncio, la cotización de Nintendo Co. Ltd en el Nikkei ha bajado un 9% como muestra este gráfico.</description>
+    </item>
+    
+    <item>
+      <title>Reflexiones Frikis</title>
+      <link>https://lunaticgeek.com/2011-06-07-reflexiones-frikis_07/</link>
+      <pubDate>Tue, 07 Jun 2011 20:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-07-reflexiones-frikis_07/</guid>
+      <description>&#34;Wii U es un máldito híbrido, fruto de la relación incestuosa de Wii y NDS. Esperemos que, como el resto de híbridos, no pueda tener descendencia.</description>
+    </item>
+    
+    <item>
+      <title>Project Cafe</title>
+      <link>https://lunaticgeek.com/2011-04-21-project-cafe/</link>
+      <pubDate>Thu, 21 Apr 2011 15:30:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-21-project-cafe/</guid>
+      <description>Mucho estábamos tardando en comentar algo sobre los rumores acerca de la próxima consola de Nintendo, por el momento conocida como &#34;Project Cafe&#34;, y a veces como &#34;Project Butterfly&#34;.El caso es que páginas web fiables y en ocasiones de renombre como 01net,IGN o Gameinformer afirman que la conocen e incluso podrían haberla probado. Sí que tienen suerte, ¿eh? Quizá por eso a nosotros nos manden una 3DS, a ver si se estiran con un Café de estos también.</description>
+    </item>
+    
+  </channel>
+</rss>

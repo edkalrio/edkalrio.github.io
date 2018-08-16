@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Simplemente Bash - Lunatic Geek</title>
+  <meta property="og:title" content="Simplemente Bash - Lunatic Geek" />
+  <meta name="twitter:title" content="Simplemente Bash - Lunatic Geek" />
+  <meta name="description" content="Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos.">
+  <meta property="og:description" content="Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos.">
+  <meta name="twitter:description" content="Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2017-08-15-simplemente-bash/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Simplemente Bash</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2017-08-15</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/bash/">
+						<i class="fas fa-tag"></i>
+						Bash
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						Unix
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/gnu/">
+						<i class="fas fa-tag"></i>
+						GNU
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<div class="separator" style="clear: both; text-align: center;"><a href="https://tiswww.case.edu/php/chet/img/bash-logo-web.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="158" data-original-width="376" height="134" src="https://tiswww.case.edu/php/chet/img/bash-logo-web.png" width="320" /></a></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.</div><a name='more'></a><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos. La sintaxis de Bash produce unos programas complejos difíciles de mantener, bastante ofuscados, por lo que personalmente no recomiendo que Bash se utilice para escribir programas completos como los que voy a comentar a continuación. Son programas que reflejan este potencial oculto de Bash y que en algún caso resultará sorprendente que programas de uso generalizado, sobre los que se ha escrito en todos los blogs de Linux no sean más que simples scripts de Bash.</div><h3 style="text-align: justify;"><br /></h3><h3 style="text-align: justify;"><a href="https://git.zx2c4.com/password-store/tree/src/password-store.sh" rel="nofollow">Pass</a></h3><div style="text-align: justify;">Definido así mismo como el gestor de contraseñas estándar de Unix. Mucho se ha escrito sobre este programa que permite manipular contraseñas almacenadas como archivos, sin necesidad de bases de datos, mediante las herramientas básicas de línea de comandos. Lo que poca gente sabe es que Pass no es más que un wrapper de GPG escrito en Bash de apenas 650 SLOC. Una pequeña joya que puede integrarse fácilmente con otros programas (como dmenu) gracias a la modularidad conseguida por el seguimiento de la filosofía Unix.</div><div style="text-align: justify;"><br /></div><h3 style="text-align: justify;"><a href="https://github.com/KittyKatt/screenFetch/blob/master/screenfetch-dev" rel="nofollow">ScreenFetch</a></h3><div style="text-align: justify;">Probablemente sea el programa más popular de la lista. Su uso es prácticamente obligatorio para todos los amantes de la personalización de escritorios. Por si fuera poco, una de sus mayores alternativas,&nbsp;<a href="https://github.com/dylanaraps/neofetch/blob/master/neofetch" rel="nofollow">neofetch</a>, también está escrito en Bash y ofrece a mi modo de ver mejores opciones y recorta unas cuantas líneas de código. Honestamente, hay que decir que son programas muy farragosos debido a su orientación necesaria hacia la compatibilidad con todos los sistemas basados en Unix que se os puedan ocurrir. La variedad de formas en las que estos SOs almacenan la información del sistema y los enormes logotipos de ASCII art que incluye, le obliga a sobrepasar las 5000 SLOC pero el resultado es un programa impecable, funcional y popular.</div><div style="text-align: justify;"><br /></div><h3 style="text-align: justify;"><a href="https://github.com/p8952/bocker/blob/master/bocker" rel="nofollow">Bocker</a></h3><div style="text-align: justify;">Este software merece una mención especial al conseguir implementar Docker en Bash. Concretamente en poco más de 100 SLOC. Es el mayor exponente que conozco del potencial de Bash para escribir software que reutilice recursos generados por otros programas. Esto se debe a que Docker es una interfaz para una serie de recursos del kernel como cgroups, namespaces e IPtables, que combinados dan lugar a los contenedores que están tan de moda entre los DevOps. Bocker consigue manejar todas esas tecnologías con un puñado de líneas de Bash. Quién sabe cuál será el gran logro de Bash, un lenguaje de scripts para administradores de sistemas que ha sobrepasado todas las expectativas de popularidad, utilidad y funcionalidad.</div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

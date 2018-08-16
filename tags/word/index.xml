@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Word on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/word/</link>
+    <description>Recent content in Word on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 31 Oct 2017 12:03:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/word/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ofimática Lunática</title>
+      <link>https://lunaticgeek.com/2017-10-31-ofimatica-lunatica/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-10-31-ofimatica-lunatica/</guid>
+      <description>Aunque Google Drive está ganando terreno, Microsoft Office sigue dominando el mundo del software ofimático. Unos compañeros y yo nos pusimos a comentar este tipo de herramientas y les resultó curioso que yo trabajase con programas que nada tienen que ver con los convencionales, a los que ellos estaban acostumbrados, así que voy a profundizar en el asunto y presentar mis alternativas, que utilizo a diario y que tan buenos resultados me traen, por si alguien quiere copiar mi estilo.</description>
+    </item>
+    
+  </channel>
+</rss>

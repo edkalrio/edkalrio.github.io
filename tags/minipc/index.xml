@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minipc on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/minipc/</link>
+    <description>Recent content in Minipc on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 09 Jul 2012 17:26:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/minipc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://lunaticgeek.com/2012-07-09-raspberry-pi/</link>
+      <pubDate>Mon, 09 Jul 2012 17:26:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-07-09-raspberry-pi/</guid>
+      <description>Hace un par de semanas, tras pedirlo el primer&amp;nbsp;día&amp;nbsp;que lo anunciaron, y a la primera hora (7 de la mañana, pues estaba en el curro y lo pedí desde el&amp;nbsp;móvil), después de mas de 3 meses esperando, por fin me llegó el ansiado RaspberryPi, y estos&amp;nbsp;días&amp;nbsp;no he hecho otra cosa que pruebas y pruebas con él.
+El Raspberry que yo cogí es el de clase B, cuyas especificaciones son:Procesador ARM v7 @ 700MhzGPU&amp;nbsp;Broadcom VideoCore IV,26 OpenGL ES 2.</description>
+    </item>
+    
+  </channel>
+</rss>

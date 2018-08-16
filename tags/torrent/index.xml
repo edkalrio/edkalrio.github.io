@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Torrent on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/torrent/</link>
+    <description>Recent content in Torrent on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 20 Aug 2014 19:34:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/torrent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El Futuro de las Aplicaciones de Mensajería</title>
+      <link>https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/</link>
+      <pubDate>Wed, 20 Aug 2014 19:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/</guid>
+      <description>Hace unos días estuve hablando con un amigo sobre el futuro de las aplicaciones de mensajería. La conversación fue agradable pero falta de rigor porque mi amigo no es informático y no le quería aburrir con tecnicismos y jerga que no iba a entender. Pero el tema era verdaderamente interesante y por eso quiero profundizar en ello, ahora sí, dando rienda suelta a la pedantería informática.La conversación se centraba en el diseño interno de las apps de mensajería que creo que deberían tener en el futuro.</description>
+    </item>
+    
+    <item>
+      <title>Low Orbit Server Stations</title>
+      <link>https://lunaticgeek.com/2012-03-19-low-orbit-server-stations/</link>
+      <pubDate>Mon, 19 Mar 2012 12:35:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-03-19-low-orbit-server-stations/</guid>
+      <description>Interesante la última entrada del blog de thepiratebay donde nos explican sus planes de futuro que más parecen sacados de una peli de ciencia ficción. A conquistar la galaxia!
+Uno de los retos técnicos que siempre intentamos optimizar es la posición de nuestras máquinas frontales. Ellas son las que redirigen el tráfico a un lugar secreto. Ahora hemos decidido tratar de construir algo extraordinario.Con el desarrollo de drones (aviones no tripulados) controlados por GPS, &amp;nbsp;equipos&amp;nbsp;baratos&amp;nbsp;de radio&amp;nbsp;de gran alcance&amp;nbsp;y pequeños ordenadores como el Raspberry Pi, vamos a experimentar con el envío de algunos drones pequeños que flotarán algunos kilómetros en el aire.</description>
+    </item>
+    
+  </channel>
+</rss>

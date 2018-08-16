@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/game/</link>
+    <description>Recent content in Game on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 01 Aug 2011 11:33:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu Game Pack</title>
+      <link>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</link>
+      <pubDate>Mon, 01 Aug 2011 11:33:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</guid>
+      <description>Uno de los mayores inconvenientes que tiene la gente para pasarse a Ubuntu es la incompatibilidad con muchos juegos de windows, aunque, últimamente, hasta yo me estoy quedando sorprendido de la fuerza que tiene Wine para moverlos.
+Pese a todo, Linux también tiene juegos específicos (estamos preparando desde aquí un par de análisis).Mirando en internet he encontrado un pack de 5 dvd repletos de juegos específicos de Ubuntu. 156 juegos ni mas ni menos con todas sus dependencias para que solo haya que instalarlos desde un script .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartphone on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/smartphone/</link>
+    <description>Recent content in Smartphone on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 03 Jan 2013 19:01:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/smartphone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu for Phones</title>
+      <link>https://lunaticgeek.com/2013-01-03-ubuntu-for-phones/</link>
+      <pubDate>Thu, 03 Jan 2013 19:01:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-01-03-ubuntu-for-phones/</guid>
+      <description>Todo apunta a que el 2013 va a ser el año de Ubuntu y los de Canonical empiezan con fuerza presentando Ubuntu for Phones.
+Ubuntu for Phones ya se había comentado durante gran parte del 2012 y habían asegurado que llegaría con la próxima LTS, en abril del año que viene aunque ya podemos ver la presentación oficial que han montado para el CES.
+
+Ubuntu for Phones es precioso, elegante y ultraminimalista, con una interfaz que nos recuerda en gran parte a Unity y consigue conciliar el diseño de escritorio con el de smartphone, algo que no logró Microsoft con Metro.</description>
+    </item>
+    
+    <item>
+      <title>Opiniones referentes a los diferentes Sistemas Operativos Moviles</title>
+      <link>https://lunaticgeek.com/2012-05-13-opiniones-referentes-los-diferentes/</link>
+      <pubDate>Sun, 13 May 2012 23:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-13-opiniones-referentes-los-diferentes/</guid>
+      <description>Últimamente hay una gran guerra referente a los diferentes sistemas operativos móviles, que si Windows Phone, que si Android, que si iOS...Vamos a publicar opiniones sobre dichos sistemas operativos desde el punto de vista de varias personas. La gente que va a opinar ha probado los diferentes sistemas en sus propias manos, no van a dar una mera&amp;nbsp;opinión&amp;nbsp;ideológica.Podéis&amp;nbsp;dejar vuestras opiniones&amp;nbsp;también&amp;nbsp;en los comentarios, y darnos consejos... también si veo que tiene éxito puedo llevarlo a sistemas operativos para PC o mas ideas que nos deis.</description>
+    </item>
+    
+    <item>
+      <title>Los usuarios de smartphones</title>
+      <link>https://lunaticgeek.com/2010-11-07-los-usuarios-de-smartphones/</link>
+      <pubDate>Sun, 07 Nov 2010 13:13:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-11-07-los-usuarios-de-smartphones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resurrección</title>
+      <link>https://lunaticgeek.com/2010-08-06-resurreccion/</link>
+      <pubDate>Fri, 06 Aug 2010 18:13:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-06-resurreccion/</guid>
+      <description>El Nexus One, el móvil que Google había dejado de distribuir online por sus bajas ventas, vuelve a estar disponible en la red aunque esta vez es solo para verdaderos geeks.&amp;nbsp;Si bien todavía puede adquirirse un Nexus One a través de las operadoras móviles, la versión liberada que solo se podía comprar a través de la web de Google, desapareció hace un tiempo pero ha resurgido como el fénix porque los encargados de Android han decidido utilizar y distribuir el Nexus One como el smartphone oficial para que los desarrolladores de Android puedan testear sus apps en él.</description>
+    </item>
+    
+  </channel>
+</rss>

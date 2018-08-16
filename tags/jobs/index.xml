@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/jobs/</link>
+    <description>Recent content in Jobs on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 25 Aug 2011 18:28:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crónica de una Dimisión Anunciada</title>
+      <link>https://lunaticgeek.com/2011-08-25-cronica-de-una-dimision-anunciada/</link>
+      <pubDate>Thu, 25 Aug 2011 18:28:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-25-cronica-de-una-dimision-anunciada/</guid>
+      <description>Es irónico que ayer mismo, ruvelro y yo quedásemos para tomar unas patatas bravas y estuviéramos hablando de la sucesión de Jobs en Apple.Yo comenté mi preferencia por Stephen&amp;nbsp;Wozniak en la inminente sucesión de la empresa de Cupertino. Cómo íbamos a pensar que Steve Jobs iba a presentar su dimisión como CEO mientras nosotros disfrutábamos de unas patatas y un aquarius bien frío. Esta es la carta que encontré en mi correo electrónico cuando llegué a casa.</description>
+    </item>
+    
+    <item>
+      <title>De un león y un suricato</title>
+      <link>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</link>
+      <pubDate>Thu, 21 Oct 2010 17:24:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</guid>
+      <description>He estado liado últimamente y no he tenido tiempo para comentar tantas y tantas noticias como el precio exagerado del primer sintonizador de Google TV, la salida de Ubuntu 10.10 y el anuncio de ayer de Mac OSX lion.Me voy a centrar en estas dos últimos topics por ser de mayor trascendencia en este blog y en toda la comunidad geek.Ubuntu 10.10 es una birria.&amp;nbsp;Eso es lo que diría si me lo preguntaran y no pudiera explicarme.</description>
+    </item>
+    
+  </channel>
+</rss>

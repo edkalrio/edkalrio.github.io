@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sopa on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/sopa/</link>
+    <description>Recent content in Sopa on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 30 Jan 2012 16:36:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/sopa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El pirata Coelho</title>
+      <link>https://lunaticgeek.com/2012-01-30-el-pirata-coelho/</link>
+      <pubDate>Mon, 30 Jan 2012 16:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-30-el-pirata-coelho/</guid>
+      <description>El escritor brasileño Paulo Coelho, famoso mundialmente por novelas como El Alquimista, ha expresado en su blog personal una serie de ideas contrarias a la SOPA y a favor de la piratería.Además ha promocionado su obra en thepiratebay.org. Según Coelho, desde que sus lectores comparten sus libros por P2P, las ventas en formato físico han aumentado considerablemente. Coelho es de esos pocos artistas que aprecian la gran herramienta de promoción y distribución que pueden llegar a ser las redes P2P y anima a todo el mundo a que descargue su bibliografía desde el torrent y que si algún libro les gusta, que luego lo compren.</description>
+    </item>
+    
+  </channel>
+</rss>

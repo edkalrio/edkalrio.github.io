@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 28 Apr 2016 19:35:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTTP/2</title>
+      <link>https://lunaticgeek.com/2016-04-28-http2/</link>
+      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-04-28-http2/</guid>
+      <description>No se me ocurre mejor forma de estrenar el reciente Ubuntu Server 16.04 LTS, que probar la nueva versión de Nginx, que acaba de incorporar la compatibilidad con el protocolo HTTP/2.
+HTTP/2 no es el futuro; es el presente. Sin embargo, la desidia y el conservadurismo de los administradores de sistemas demorarán su adopción como ya sucedió con SPDY. No voy a comentar las bondades del nuevo protocolo porque son conocidas por todos desde hace tiempo aunque el lanzamiento de la versión estable de Nginx con soporte se ha producido esta semana, coincidiendo con la actualización de la LTS de Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>El regalo más friki para el informático más friki</title>
+      <link>https://lunaticgeek.com/2015-09-07-el-regalo-mas-friki-para-el-informatico/</link>
+      <pubDate>Mon, 07 Sep 2015 19:01:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-09-07-el-regalo-mas-friki-para-el-informatico/</guid>
+      <description>Los frikis somos muy predecibles en cuestión de regalos. Cualquier gadget o producto geek nos encanta y siempre quedamos satisfechos, pero acaban siendo regalos poco originales y repetitivos. Voy a proponer en este post un regalo verdaderamente sorprendente, que va a dejar de piedra a cualquier geek.
+Desde que empecé a usar mi Cr-48 me di cuenta de un pequeño detalle que parecía odioso pero que al final acabó siendo muy útil.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu está confuso</title>
+      <link>https://lunaticgeek.com/2015-03-06-ubuntu-esta-confuso/</link>
+      <pubDate>Fri, 06 Mar 2015 19:14:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-03-06-ubuntu-esta-confuso/</guid>
+      <description>Tan confuso que se hiere a sí mismo.
+Hace unos días se ha congelado la lista de novedades previstas para incluir en Ubuntu 15.04 pero esos cambios no van más allá de las obligadas actualizaciones, lanzadas en su mayoría por desarrolladores ajenos a Canonical. La migración a systemd, el gran hito que iba a marcar la principal novedad de la distribución no está preparado y no ha pasado el corte, aunque se están planteando seguir intentando que llegue a 15.</description>
+    </item>
+    
+    <item>
+      <title>Manía de apt-get</title>
+      <link>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</link>
+      <pubDate>Fri, 25 Jul 2014 18:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</guid>
+      <description>Sólo una breve reflexión sobre los bloggers.
+Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.</description>
+    </item>
+    
+    <item>
+      <title>Análisis técnico del fracaso de Ubuntu Edge</title>
+      <link>https://lunaticgeek.com/2013-08-22-analisis-tecnico-del-fracaso-de-ubuntu/</link>
+      <pubDate>Thu, 22 Aug 2013 17:09:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-08-22-analisis-tecnico-del-fracaso-de-ubuntu/</guid>
+      <description>Predigo el fracaso de Ubuntu Edge.
+— lunaticgeek.com (@lunaticgeek) July 22, 2013Escribí este tweet un par de horas después del inicio de la campaña de Ubuntu Edge y no me gusta hacer leña del árbol caído pero el fracaso de Ubuntu Edge ha sido la crónica de una muerte anunciada desde el primer momento. A lo largo de este post, doblemente friki, ya que tendrá una parte geek y otra nerd, explicaré exhaustiva y sistemáticamente lo que para mí era una evidencia, en contra de la opinión popular.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu for Phones</title>
+      <link>https://lunaticgeek.com/2013-01-03-ubuntu-for-phones/</link>
+      <pubDate>Thu, 03 Jan 2013 19:01:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-01-03-ubuntu-for-phones/</guid>
+      <description>Todo apunta a que el 2013 va a ser el año de Ubuntu y los de Canonical empiezan con fuerza presentando Ubuntu for Phones.
+Ubuntu for Phones ya se había comentado durante gran parte del 2012 y habían asegurado que llegaría con la próxima LTS, en abril del año que viene aunque ya podemos ver la presentación oficial que han montado para el CES.
+
+Ubuntu for Phones es precioso, elegante y ultraminimalista, con una interfaz que nos recuerda en gran parte a Unity y consigue conciliar el diseño de escritorio con el de smartphone, algo que no logró Microsoft con Metro.</description>
+    </item>
+    
+    <item>
+      <title>Steam for Linux. Probamos la beta privada!!</title>
+      <link>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</link>
+      <pubDate>Sun, 11 Nov 2012 20:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</guid>
+      <description>El pasado día 6 de Noviembre, en el equipo de lunaticgeek nos&amp;nbsp;encontrábamos&amp;nbsp;con un email por parte de Steam invitándonos &amp;nbsp;a probar la beta privada de Steam para Linux.
+Dicho email traía principalmente los requisitos&amp;nbsp;mínimos&amp;nbsp;de hardware (que los&amp;nbsp;cumplíamos&amp;nbsp;cuando nos dimos de alta en la beta) así como un link al archivo .deb para descargar en Ubuntu 12.04 y unas instrucciones sobre el proceso de reporte de fallos. También&amp;nbsp;hacían incapié en la necesidad de tener instalados los drivers privativos de Nvidia, especialmente la versión beta experimental 310.</description>
+    </item>
+    
+    <item>
+      <title>La solución de Linux para UEFI</title>
+      <link>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</link>
+      <pubDate>Fri, 12 Oct 2012 12:11:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</guid>
+      <description>Si la intención de Microsoft de exigir a los OEMs la instalación de Windows 8 en placas base con UEFI y Secureboot era mejorar la seguridad de los sistemas, no lo han conseguido. Y si su intención era tocar las pelotas a los usuarios de Linux, tampoco lo han logrado.
+Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan agoreros como otros blogs que anunciaban el armageddon para las distros que no se pudieran instalar en ordenadores nuevos.</description>
+    </item>
+    
+    <item>
+      <title>Guacamole, servidor VNC para acceso web</title>
+      <link>https://lunaticgeek.com/2012-05-10-guacamole-servidor-vnc-para-acceso-web/</link>
+      <pubDate>Thu, 10 May 2012 17:09:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-10-guacamole-servidor-vnc-para-acceso-web/</guid>
+      <description>Como dice un viejo dicho friki: Solo hay dos, un servidor y un cliente...
+Guacamole es un programa en Java que desafía la concepción tradicional de cliente/servidor de una forma curiosa. Es un servidor VNC que permite acceder a nuestro ordenador remotamente pero no a traveś de un cliente VNC sino a través de cualquier navegador web. Esto es muy útil ya que elimina la necesidad del cliente que en sistemas como iOS es fundamental ya que las apps que ofrecen estos servicios son excesivamente caras.</description>
+    </item>
+    
+    <item>
+      <title>La venganza de los servidores</title>
+      <link>https://lunaticgeek.com/2012-04-07-la-venganza-de-los-servidores/</link>
+      <pubDate>Sat, 07 Apr 2012 18:53:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-04-07-la-venganza-de-los-servidores/</guid>
+      <description>Me consideraba un experto en prácticamente todos los asuntos frikis pero ayer, mi colega ruvelro me demostró que estaba muy lejos de ser un verdadero gurú de la informática.
+Todo empezó cuando comentamos mi anterior post sobre windows 8 server. A él le había encantado pero me comentó que no había tenido en cuenta el precio. Yo he usado, lamentablemente, windows 2008 server RC2 pero nunca había comprado, ni tan siquiera me había interesado en el precio de una licencia de windows server porque independientemente del precio que tuviera, cualquier distro de Linux para servidor le da mil vueltas.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu para Android</title>
+      <link>https://lunaticgeek.com/2012-02-21-ubuntu-para-android/</link>
+      <pubDate>Tue, 21 Feb 2012 19:11:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-02-21-ubuntu-para-android/</guid>
+      <description>&#34;Solo hace falta que cojas el smartphone y lo conectes a un monitor para conseguir una inmersión total en un escritorio Ubuntu con todas las aplicaciones nativas que quieras, ejecutándose en el mismo dispositivo, dentro de Android.&#34;
+Parece que Canonical quiere revolucionar la industria de las telecomunicaciones de nuevo con una idea tan revolucionaria como utilizar los smartphones de última generación, supervitaminados, con múltiples núcleos y 1GB de RAM o más para algo más productivo y acorde a su potencial.</description>
+    </item>
+    
+    <item>
+      <title>alexandra. Mi nueva estación de trabajo</title>
+      <link>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</link>
+      <pubDate>Tue, 10 Jan 2012 18:51:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</guid>
+      <description>Hablemos con propiedad, una workstation es un equipo informático construido a partir de hardware de servidor pero con software de escritorio y destinado al trabajo del usuario final. Una estación de trabajo no es un ordenador, es más potente, por eso digo que hay que hablar con propiedad porque me he comprado una workstation.&amp;nbsp;La definición que da wikipedia de workstation es algo liosa y también se refiere a los terminales de una red LAN pero creo que la mía se acerca bastante más a la realidad.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu. TV for human beings</title>
+      <link>https://lunaticgeek.com/2012-01-09-ubuntu-tv-for-human-beings/</link>
+      <pubDate>Mon, 09 Jan 2012 20:10:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-09-ubuntu-tv-for-human-beings/</guid>
+      <description>Ya llegó el CES y los rumores sobre una futura TV con Ubuntu se han hecho realidad. En el Stand de Canonical está expuesta una televisión inteligente con una versión modificada de Unity que nos permite tener todo el contenido que queremos en la televisión, en la televisión.
+Los comerciales de Canonical han prometido que la Ubuntu TV llegará antes de que acabe el año y ya están trabajando con OEMs y distribuidores.</description>
+    </item>
+    
+    <item>
+      <title>Traslada el Dock de Unity</title>
+      <link>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</link>
+      <pubDate>Thu, 01 Dec 2011 18:48:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</guid>
+      <description>A pesar de todas las críticas que desde hace meses se han publicado por toda la blogosfera, sigo pensando que Unity es un escritorio&amp;nbsp;increíble&amp;nbsp;y lo utilizo por defecto en mi estación de trabajo.&amp;nbsp;Unity me encanta porque se parece enormemente a la configuración que hacía de gnome 2 y porque zeitgeist es un motor de búsqueda impresionante que aumenta mi productividad.
+Sólo hay una cosa que habría cambiado en Unity. El dock en la parte izquiera.</description>
+    </item>
+    
+    <item>
+      <title>El futuro de Ubuntu</title>
+      <link>https://lunaticgeek.com/2011-10-31-el-futuro-de-ubuntu/</link>
+      <pubDate>Mon, 31 Oct 2011 17:47:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-31-el-futuro-de-ubuntu/</guid>
+      <description>Esta semana han surgido varios comentarios sobre el futuro de Ubuntu a partir de la versión 14.04 que Mark Shuttleworth acaba de hacer oficiales en su blog.
+Como se especulaba, Ubuntu 14.04 estará presente en tablets, smatphones y TVs inteligentes; conectará todos esos dispositivos al escritorio, a un servidor o a la nube. Para ello desarrollaron Unity. Esta interfaz le daría unidad y coherencia a las distintas versiones.En Canonical se han dado cuenta de que el mundo avanza y con ello las tecnologías.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 11.10</title>
+      <link>https://lunaticgeek.com/2011-10-13-ubuntu-1110/</link>
+      <pubDate>Thu, 13 Oct 2011 16:09:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-13-ubuntu-1110/</guid>
+      <description>Escribo este post mientras hago tiempo para que acabe la descarga de la .iso de la nueva versión de Ubuntu 11.10 Oneiric Ocelot. Como cada 6 meses los desarrolladores de Canonical liberan una nueva actualización de esta distro de Linux que ya se ha convertido en la más popular entre los linuxeros.&amp;nbsp;Yo debería escribir un post más extenso, explicando los cambios y novedades pero prefiero ocupar mi tiempo probando Ubuntu. Es ridículo que me ponga a escribir un post sobre Oneiric Ocelot cuando los compañeros de&amp;nbsp;webupd8.</description>
+    </item>
+    
+    <item>
+      <title>De LTS a LTS y no hay rolling release porque no toca</title>
+      <link>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</link>
+      <pubDate>Tue, 11 Oct 2011 11:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</guid>
+      <description>Esta semana sale Ubuntu 11.10 y los encargados de organizar el calendario han presentado la hoja de ruta para las próximas versiones. Como recoge muylinux.com&amp;nbsp;las fechas provisionales de lanzamiento de las futuras versiones de Ubuntu son las siguientes:
+26 de abril de 2012: Ubuntu 12.04 LTS18 de octubre de 2012: Ubuntu 12.1025 de abril de 2013: Ubuntu 13.0417 de octubre de 2013: Ubuntu 13.1025 de abril de 2014: Ubuntu 14.04 LTSNos podemos ir olvidando de la adopción de un ciclo de desarrollo en formato rolling release como venimos defendiendo en este blog.</description>
+    </item>
+    
+    <item>
+      <title>Lunaticgeek Utilities 1.1</title>
+      <link>https://lunaticgeek.com/2011-09-27-lunaticgeek-utilities-11/</link>
+      <pubDate>Tue, 27 Sep 2011 14:15:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-27-lunaticgeek-utilities-11/</guid>
+      <description>Lunaticgeek Utilities 1.1
+Hace una semana, en este hilo,&amp;nbsp;os presenté un script que creé con la finalidad de facilitar la instalación de los programas mas elementales para un uso normal de Ubuntu, para no echar nada de menos, y, cuando se instala el sistema de nuevo, no tener que andar instalando las aplicaciones una a una y ahorrarse todo ese rollo.
+Hoy os traigo una actualización del script con varios añadidos y modificaciones:-He añadido el programa qBittorrent-He actualizado el programa Openshot,&amp;nbsp;añadiéndole&amp;nbsp;efectos, plugins y extras-He añadido todos los extras de la comunidad de banshee, menos la&amp;nbsp;extensión&amp;nbsp;LIRC-He añadido la instalación de los extras restringidos de Ubuntu (ubuntu-restricted-extras)-He añadido la instalación de Wine 1.</description>
+    </item>
+    
+    <item>
+      <title>Aplicaciones imprescindibles para Ubuntu y Lunaticgeek Utilities 1.0</title>
+      <link>https://lunaticgeek.com/2011-09-16-aplicaciones-imprescindibles-para/</link>
+      <pubDate>Fri, 16 Sep 2011 13:57:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-16-aplicaciones-imprescindibles-para/</guid>
+      <description>Conozco a mucha gente que no se atreve a probar Ubuntu por al miedo a no poder satisfacer sus necesidades de software respecto a los programas que utiliza en Windows, pese a tener un casi perfecto emulador llamado Wine, y la posibilidad de utilizar máquinas virtuales como Virtual Box con la que podemos emular de una forma muy sencilla un XP.
+Debido a esto, he decidido hacer hacer 2 cosas para todos vosotros:1- Os voy a crear aquí un listado de programas que, a mi entender son imprescindibles en Ubuntu, con su correspondiente manual de instalación y a quien sustituyen en Windows.</description>
+    </item>
+    
+    <item>
+      <title>Oda al Rolling Release</title>
+      <link>https://lunaticgeek.com/2011-09-09-oda-al-rolling-release/</link>
+      <pubDate>Fri, 09 Sep 2011 20:12:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-09-oda-al-rolling-release/</guid>
+      <description>Esta mañana mientras revisaba las noticias, encontré un artículo fantástico en phoronix en el que hablaban de la propuesta de&amp;nbsp;Scott James Remnant, ex-jefe de desarrollo de Ubuntu y actual trabajador de Google.
+Este programador que sigue formando parte del mando técnico de Ubuntu ha expresado su deseo de que Canonical lance una versión final del sistema operativo cada mes en vez de seguir con su clásico ciclo de desarrollo semestral y bianual para las LTS.</description>
+    </item>
+    
+    <item>
+      <title>Como conseguir permisos en particiones NTFS en Ubuntu 11.04</title>
+      <link>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</link>
+      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</guid>
+      <description>Llevaba mucho tiempo comiéndome la cabeza con un problema incapaz de solucionar, y es que no podía dar permisos a ningún archivo en particiones NTFS en Ubuntu 11.04, cuando daba propiedades--permisos y modificaba algo, automáticamente volvía a cambiarse anulándose los cambios, siendo un incordio sobretodo al instalar los juegos o aplicaciones Java que necesitan bit de ejecución en particiones diferentes a /.
+Probé con sudo nautilus, chmod 777 y nada.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft descarta a Linux como rival</title>
+      <link>https://lunaticgeek.com/2011-08-16-microsoft-descarta-linux-como-rival/</link>
+      <pubDate>Tue, 16 Aug 2011 22:47:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-16-microsoft-descarta-linux-como-rival/</guid>
+      <description>En un informe presentado en el mercado de valores de los Estados Unidos, los llamados &#34;dispositivos alternativos&#34; son los que ahora suponen un peligro para Microsoft, especialmente se refiere a Google y a Apple, olvidándose de Linux, que según ellos, ya no supone un peligro tan grande como hace unos años.
+Y en realidad, yo aún no he visto a nadie con ningún smartphone que use Windows Phone... Conozco gente con Android, iOS, Simbian, Bada.</description>
+    </item>
+    
+    <item>
+      <title>Distribuciones de linux mas populares</title>
+      <link>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</link>
+      <pubDate>Sun, 14 Aug 2011 11:29:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</guid>
+      <description>En los últimos días esta circulando por internet una lista con las distribuciones de linux mas populares de los últimos tiempos.Aquí la tenéis, ¿Que os parece el bajón que pegó ubuntu con 10.10 y el subidón con 11.04?Click para aumentar</description>
+    </item>
+    
+    <item>
+      <title>Nuevo Ubuntu Software Centre</title>
+      <link>https://lunaticgeek.com/2011-08-03-nuevo-ubuntu-software-centre/</link>
+      <pubDate>Wed, 03 Aug 2011 23:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-03-nuevo-ubuntu-software-centre/</guid>
+      <description>A partir de Ubuntu 11.10 este va a ser el nuevo Ubuntu Software Centre.
+¿A vosotros que os parece? ¿No se os da un aire al Market de Android?</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Game Pack</title>
+      <link>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</link>
+      <pubDate>Mon, 01 Aug 2011 11:33:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</guid>
+      <description>Uno de los mayores inconvenientes que tiene la gente para pasarse a Ubuntu es la incompatibilidad con muchos juegos de windows, aunque, últimamente, hasta yo me estoy quedando sorprendido de la fuerza que tiene Wine para moverlos.
+Pese a todo, Linux también tiene juegos específicos (estamos preparando desde aquí un par de análisis).Mirando en internet he encontrado un pack de 5 dvd repletos de juegos específicos de Ubuntu. 156 juegos ni mas ni menos con todas sus dependencias para que solo haya que instalarlos desde un script .</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu One aumenta de tamaño.</title>
+      <link>https://lunaticgeek.com/2011-07-28-ubuntu-one-aumenta-de-tamano/</link>
+      <pubDate>Thu, 28 Jul 2011 20:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-28-ubuntu-one-aumenta-de-tamano/</guid>
+      <description>Ubuntu One ha llegado al millón de usuarios registrados.¿Que haría un software de Microsoft para festejarlo? Algo parecido a Spotify (tu antes molabas &#34;spotty&#34;), seguro que lo ponía de pago o añadiria odiosas restricciones.Ubuntu One, a cambio, aumenta su capacidad de 2Gb a 5Gb para todos los usuarios gratuitos.¿Buena noticia, no? Pues aun hay mas, para los usuarios de Ubuntu One Music Streaming, la capacidad aumenta a 20Gb a un precio mensual de 3.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 11.10 alhpa2</title>
+      <link>https://lunaticgeek.com/2011-07-08-ubuntu-1010-alhpa2/</link>
+      <pubDate>Fri, 08 Jul 2011 15:55:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-08-ubuntu-1010-alhpa2/</guid>
+      <description>Hoy se ha liberado la versión Alpha2 de la que será la próxima entrega de la conocida distribución Ubuntu.
+
+DescargarYo, personalmente no recomiendo probar versiones Alpha ya que están muy verdes y pueden tener graves problemas de estabilidad, incluso a nivel lógico con particiones, pero si quieres probarla de manera segura, puedes hacerlo desde una unidad de Vmware o Virtualbox.</description>
+    </item>
+    
+    <item>
+      <title>Calendario de Ubuntu 11.10</title>
+      <link>https://lunaticgeek.com/2011-05-18-calendario-de-ubuntu-1110/</link>
+      <pubDate>Wed, 18 May 2011 16:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-05-18-calendario-de-ubuntu-1110/</guid>
+      <description>Alpha 1 &amp;nbsp;02/06/11Alpha 2 &amp;nbsp;30/06/11Alpha 3 &amp;nbsp;04/08/11Beta 1 &amp;nbsp;01/09/11Beta 2 &amp;nbsp;22/09/11Release Candidate &amp;nbsp;06/10/11Ubuntu 11.10 13/10/11</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 11.04</title>
+      <link>https://lunaticgeek.com/2011-04-28-ubuntu-1104/</link>
+      <pubDate>Thu, 28 Apr 2011 16:42:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-28-ubuntu-1104/</guid>
+      <description>Por fin! llegó el 28 de Abril y con la puntualidad que caracteriza a Canonical, salió la que es sin duda, la versión más revolucionaria, novedosa y potente de la distro de Linux más popular.
+No voy a explayarme en este post que solo escribo a la espera de que se acabe de descargar mi .iso para poder probarla. Las principales mejoras de Ubuntu 11.04 son la inclusión de Unity, el cambio de openoffice por libreoffice, banshee 2, Firefox 4 y Linux 2.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu en la nube</title>
+      <link>https://lunaticgeek.com/2011-04-27-ubuntu-en-la-nube/</link>
+      <pubDate>Wed, 27 Apr 2011 13:17:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-27-ubuntu-en-la-nube/</guid>
+      <description>Si hace una semana nos lamentaba el fin del servicio de distribución gratuita de CDs de Canonical, ShipIt, ahora nos alegramos porque la promesa que nos hicieron los desarrolladores de Ubuntu de que iban a lanzar una aplicación en la nube para probar cada nuevo sistema operativo antes de su lanzamiento, ha llegado. Gracias a Amazon Cloud y Ubuntu Server, Canonical ha conseguido que la beta 2 de Ubuntu 11.04 corra en la nube igual de bien que en un escritorio.</description>
+    </item>
+    
+    <item>
+      <title>ShipIt llega a su fin</title>
+      <link>https://lunaticgeek.com/2011-04-06-shipit-llega-su-fin/</link>
+      <pubDate>Wed, 06 Apr 2011 20:33:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-06-shipit-llega-su-fin/</guid>
+      <description>Hace seis meses estaría escribiendo un post para anunciaros que ya estaban disponibles los CDs de Ubuntu para que los pidiérais pero eso ya nunca más pasará pues los responsables de Canonical han decidido poner fin al exitoso programa de difusión física de la distro más popular del mundo.
+ShipIt tenía sentido hace años cuando no había conexiones de internet tan rápidas como las que tenemos disponibles en la actualidad. Ahora, los CDs de Ubuntu se han convertido en un producto de colección más que en discos de instalación.</description>
+    </item>
+    
+    <item>
+      <title>Elementary GTK</title>
+      <link>https://lunaticgeek.com/2011-03-07-elementary-gtk/</link>
+      <pubDate>Mon, 07 Mar 2011 16:55:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-07-elementary-gtk/</guid>
+      <description>El famosísimo tema GTK de DanRabbit ha sido actualizado a la versión 2.1. Entre las mejoras de esta versión se encuentran la compatibilidad con GTK 3 y el abandono del motor Aurora.
+Además, ahora viene por defecto la versión oscura y es por esto por lo que os escribo. Me encanta la versión dark de elementary, incluso la he usado cuando no era más que una opción menor del tema pero ahora no va bien con mi escritorio.</description>
+    </item>
+    
+    <item>
+      <title>Me pareció ver un lindo gatito...</title>
+      <link>https://lunaticgeek.com/2011-03-07-me-parecio-ver-un-lindo-gatito/</link>
+      <pubDate>Mon, 07 Mar 2011 16:16:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-07-me-parecio-ver-un-lindo-gatito/</guid>
+      <description>Mark Shuttleworth, fundador de Canonical, anunció en su blog que la versión 11.10 de Ubuntu se llamará Oneiric Ocelot (ocelote onírico) siguiendo con la tradición de apodar a las versiones de Ubuntu con un adjetivo y un nombre de animal que empiecen por la misma letra.
+Según Mark, le puso ese nombre porque le recuerdaba la forma en la que surge la innovación: en parte soñar despierto, y en parte ser disciplinado.</description>
+    </item>
+    
+    <item>
+      <title>¿Ubuntu juega con Sony?</title>
+      <link>https://lunaticgeek.com/2011-03-03-ubuntu-juega-con-sony/</link>
+      <pubDate>Thu, 03 Mar 2011 23:43:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-03-ubuntu-juega-con-sony/</guid>
+      <description>Una de las movidas mas importantes de este año pasado fue el acto dictador por parte de Sony de quitarnos la posibilidad de instalar Linux en nuestra PS3, acto por el cual se ha conseguido piratear su videoconsola. Estoy seguro de que si Sony no hubiera ignorado las peticiones de los usuarios de mantenerlo y actuado por su propia cuenta, su consola seguiría siendo Inpirateable.
+
+
+El caso es que, en la pagina de Ubuntu, podemos observar que han hecho una compilación de 11.</description>
+    </item>
+    
+    <item>
+      <title>Arrancar una .iso en grub</title>
+      <link>https://lunaticgeek.com/2011-02-12-arrancar-una-iso-en-grub/</link>
+      <pubDate>Sat, 12 Feb 2011 19:22:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-02-12-arrancar-una-iso-en-grub/</guid>
+      <description>El otro día salió Debian 6. Una semana antes se liberó otra alpha de Ubuntu y el día 14 saldrá Comfusion 3 (al que dedicaré un post). Es impensable para cualquier geek que se precie que para probar toda esta avalancha de distros tenga que gastar un montón de discos y DVDs. La alternativa que usamos todos es algún software tipo unetbootin para ripear nuestras .iso en un pendrive que será grabado una y otra vez y a una velocidad muy superior a la de un DVD.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Rolling Release [edited]</title>
+      <link>https://lunaticgeek.com/2010-11-24-ubuntu-rolling-release/</link>
+      <pubDate>Wed, 24 Nov 2010 20:01:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-11-24-ubuntu-rolling-release/</guid>
+      <description>Recientemente Mark Shuttleworth ha dicho con respecto a los ciclos de actualización lo siguiente:
+“Today we have a six-month release cycle, in an internet-oriented world, we need to be able to release something every day. That’s an area we will put a lot of work into in the next five years. The small steps we are putting in to the Software Center today, they will go further and faster than people might have envisioned in the past.</description>
+    </item>
+    
+    <item>
+      <title>Lo último de Ubuntu</title>
+      <link>https://lunaticgeek.com/2010-10-25-lo-ultimo-de-ubuntu/</link>
+      <pubDate>Mon, 25 Oct 2010 19:09:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-25-lo-ultimo-de-ubuntu/</guid>
+      <description>&#34;11.04 will have Unity as the default desktop for new users&#34;Mark Shuttleworth</description>
+    </item>
+    
+    <item>
+      <title>De un león y un suricato</title>
+      <link>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</link>
+      <pubDate>Thu, 21 Oct 2010 17:24:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</guid>
+      <description>He estado liado últimamente y no he tenido tiempo para comentar tantas y tantas noticias como el precio exagerado del primer sintonizador de Google TV, la salida de Ubuntu 10.10 y el anuncio de ayer de Mac OSX lion.Me voy a centrar en estas dos últimos topics por ser de mayor trascendencia en este blog y en toda la comunidad geek.Ubuntu 10.10 es una birria.&amp;nbsp;Eso es lo que diría si me lo preguntaran y no pudiera explicarme.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 11.04</title>
+      <link>https://lunaticgeek.com/2010-08-18-ubuntu-1104/</link>
+      <pubDate>Wed, 18 Aug 2010 12:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-18-ubuntu-1104/</guid>
+      <description>Mark Shuttleworth, fundador de Canonical, anunció en su blog que la versión 11.04 de Ubuntu se llamará Natty Narwhal (unicornio de mar elegante) siguiendo con la tradición de apodar a las versiones de Ubuntu con un adjetivo y un nombre de animal que empiecen por la misma letra.&amp;nbsp;Mark Shuttleworth ha prometido que la versión 11.04 va a ser &#34;la mejor vestida&#34; hasta la fecha aunque particularmente no creo que les dé tiempo a incluir Gnome 3.</description>
+    </item>
+    
+  </channel>
+</rss>

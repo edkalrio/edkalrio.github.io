@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/linux/</link>
+    <description>Recent content in Linux on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 13 Jul 2018 13:37:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RTFM</title>
+      <link>https://lunaticgeek.com/2018-07-13-rtfm/</link>
+      <pubDate>Fri, 13 Jul 2018 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-07-13-rtfm/</guid>
+      <description>Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto Elbinario). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.</description>
+    </item>
+    
+    <item>
+      <title>calendar</title>
+      <link>https://lunaticgeek.com/2018-03-22-calendar/</link>
+      <pubDate>Thu, 22 Mar 2018 12:50:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-03-22-calendar/</guid>
+      <description>Por suerte o por desgracia, mi vida es tan rutinaria que no necesito una agenda. De hecho, mi último recordatorio fue de septiembre del año pasado (tenía que ir al dentista) pero hay mucha gente con vidas ajetreadas que necesitan organizar su valioso tiempo y para ello hacen uso de google calendar o de anacrónicas agendas de papel.
+Los fans de UNIX tenemos a nuestra disposición una herramienta igual de potente que sus alternativas modernas, pero mucho más simple y ligera.</description>
+    </item>
+    
+    <item>
+      <title>Fanboys de la Programación Orientada a Objetos</title>
+      <link>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</link>
+      <pubDate>Tue, 30 Jan 2018 13:52:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</guid>
+      <description>TV-Online-TDT-Spain, el proyecto del colega&amp;nbsp;@ruvelro está ganando popularidad y ya son dos programadores los que amable y desinteresadamente han aportado código para mejorar su idea original. Esto me ha hecho acercarme más a un proyecto de software libre en el que los programadores no se conocen pero colaboran para sacar adelante un concepto común. Al no dedicarme a la programación, todo esto me resulta novedoso y ha servido para demostrarme que el hype por la programación orientada a objetos sigue siendo omnipresente.</description>
+    </item>
+    
+    <item>
+      <title>Simplemente Bash</title>
+      <link>https://lunaticgeek.com/2017-08-15-simplemente-bash/</link>
+      <pubDate>Tue, 15 Aug 2017 13:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-08-15-simplemente-bash/</guid>
+      <description>Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos.</description>
+    </item>
+    
+    <item>
+      <title>Distrohopping útil</title>
+      <link>https://lunaticgeek.com/2017-07-11-distrohopping-util/</link>
+      <pubDate>Tue, 11 Jul 2017 12:40:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-07-11-distrohopping-util/</guid>
+      <description>El ecosistema de Linux no es tan extenso como para llenar blogs con noticias diarias y sin embargo existe la necesidad perpetua de crear contenido para generar clicks y rentabilizar la web. Esta paradoja tiene una difícil solución así que se suele recurrir a cierto tipo de artículos facilones y triviales, precocinados y vacíos de contenido entre los que destacan por su antigüedad y popularidad los dedicados al distrohopping. Numerosos son los blogs, principalmente españoles, dedicados a tan estéril actividad.</description>
+    </item>
+    
+    <item>
+      <title>Fracasos con el Certificado Digital de la FNMT</title>
+      <link>https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/</link>
+      <pubDate>Wed, 03 May 2017 20:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/</guid>
+      <description>Hace mucho tiempo que disfruto de las ventajas que ofrece el certificado digital de persona física, emitido por la FNMT-RCM pero últimamente me he estado preguntando cuáles eran los límites de su capacidad de identificación y encriptación personales.
+Después de mucho trastear con él puedo decir sin temor a equivocarme que el certificado de la FNMT es útil pero muy aburrido y no nos permite realizar tareas más complejas que otros certificados cumplen sin ningún problema.</description>
+    </item>
+    
+    <item>
+      <title>Mi Prompt de Bash</title>
+      <link>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</link>
+      <pubDate>Sat, 17 Sep 2016 13:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</guid>
+      <description>Para celebrar el lanzamiento de Bash 4.4 se me ha ocurrido que podría ser interesante compartir con todos la configuración de mi prompt.&amp;nbsp;La configuración por defecto del prompt de Bash tiene un defecto importante, a mi modo de ver. Es demasiado larga para un terminal de 80x24, dimensiones que yo siempre intento respetar. Mi configuración personal pretende ser más breve pero a la vez conservando la misma funcionalidad e incluso añadiendo alguna característica extra.</description>
+    </item>
+    
+    <item>
+      <title>HTTP/2</title>
+      <link>https://lunaticgeek.com/2016-04-28-http2/</link>
+      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-04-28-http2/</guid>
+      <description>No se me ocurre mejor forma de estrenar el reciente Ubuntu Server 16.04 LTS, que probar la nueva versión de Nginx, que acaba de incorporar la compatibilidad con el protocolo HTTP/2.
+HTTP/2 no es el futuro; es el presente. Sin embargo, la desidia y el conservadurismo de los administradores de sistemas demorarán su adopción como ya sucedió con SPDY. No voy a comentar las bondades del nuevo protocolo porque son conocidas por todos desde hace tiempo aunque el lanzamiento de la versión estable de Nginx con soporte se ha producido esta semana, coincidiendo con la actualización de la LTS de Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Gira el monitor!!</title>
+      <link>https://lunaticgeek.com/2016-03-03-gira-el-monitor/</link>
+      <pubDate>Thu, 03 Mar 2016 19:31:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-03-03-gira-el-monitor/</guid>
+      <description>Este año 46 de la era Unix ha sido bisiesto y para celebrar el leap day suelo comprarme algún capricho geek. Llevo mucho tiempo detrás de un buen soporte para el monitor y al final he adquirido uno. Con uno de estos soportes se puede posicionar el monitor en los ángulos que nos resulten más útiles y cómodos. Además ahorran espacio en la mesa, al desaparecer las bases originales del monitor.</description>
+    </item>
+    
+    <item>
+      <title>5 años de involución personal en el escritorio</title>
+      <link>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</guid>
+      <description>Por casualidad, he encontrado unas capturas de pantalla de mi escritorio de hace un lustro y me gustaría compartirlas, con unos comentarios sobre la evolución (en mi caso involución), como se ha hecho con enorme éxito en unix.se.La verdad es que antes era muy superficial y empecé en el mundo Linux hace 8 años por las enormes posibilidades que este sistema operativo ofrece en cuanto a personalización: temas GTK, iconos, docks, efectos de compiz, etc.</description>
+    </item>
+    
+    <item>
+      <title>El Cero de Enero y Otros Hitos Informáticos</title>
+      <link>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</link>
+      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</guid>
+      <description>Vamos a empezar el año con una pregunta lunática. En qué año estamos? La respuesta no es tan evidente como parece. Todo depende del hito del calendario que estemos usando. En occidente se emplea el calendario gregoriano que nos sitúa en el 2016 pero no me parece muy apropiado utilizar la fecha de nacimiento de un carpintero judío de hace dos milenios como referencia temporal. En el mundo informático tampoco les parece la mejor opción y desarrolladores muy importantes han utilizado otras fechas para iniciar su calendario.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu está confuso</title>
+      <link>https://lunaticgeek.com/2015-03-06-ubuntu-esta-confuso/</link>
+      <pubDate>Fri, 06 Mar 2015 19:14:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-03-06-ubuntu-esta-confuso/</guid>
+      <description>Tan confuso que se hiere a sí mismo.
+Hace unos días se ha congelado la lista de novedades previstas para incluir en Ubuntu 15.04 pero esos cambios no van más allá de las obligadas actualizaciones, lanzadas en su mayoría por desarrolladores ajenos a Canonical. La migración a systemd, el gran hito que iba a marcar la principal novedad de la distribución no está preparado y no ha pasado el corte, aunque se están planteando seguir intentando que llegue a 15.</description>
+    </item>
+    
+    <item>
+      <title>Generador Cuántico de Contraseñas</title>
+      <link>https://lunaticgeek.com/2015-02-24-generador-cuantico-de-contrasenas/</link>
+      <pubDate>Tue, 24 Feb 2015 12:10:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-02-24-generador-cuantico-de-contrasenas/</guid>
+      <description>A quién le gustan los números aleatorios?
+A mí me gustan los números aleatorios! Quizás sea por esa faceta mía de económetra o simplemente por frikismo pero siempre me han interesado los números aleatorios y las formas de calcularlos.
+En este sentido, soy un gran fan de Theodore Ts&#39;o, mantenedor del random.c de Linux, un módulo que permite producir números aleatorios a partir de la entropía que generan los periféricos del ordenador, principalmente del HDD, ratón y teclado.</description>
+    </item>
+    
+    <item>
+      <title>Manía de apt-get</title>
+      <link>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</link>
+      <pubDate>Fri, 25 Jul 2014 18:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</guid>
+      <description>Sólo una breve reflexión sobre los bloggers.
+Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.</description>
+    </item>
+    
+    <item>
+      <title>Mi router-consola</title>
+      <link>https://lunaticgeek.com/2013-12-05-mi-router-consola/</link>
+      <pubDate>Thu, 05 Dec 2013 12:00:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-12-05-mi-router-consola/</guid>
+      <description>La nueva generación de consolas ha llegado al mercado y todos los gamers están sobreexcitados, decidiendo si comprar la PS4, Xbox One o ambas si sus bolsillos se lo permiten. Ciertamente, la nueva generación es muy interesante por muchos motivos pero no es lo suficientemente geek. Por suerte, en este blog siempre apostamos por las soluciones absurdas para problemas que no existen y así es como llegamos a la conclusión de que teníamos que fabricar nuestra propia consola con el frikismo como leitmotiv.</description>
+    </item>
+    
+    <item>
+      <title>Análisis de la beta privada de la web app de Spotify</title>
+      <link>https://lunaticgeek.com/2012-11-19-analisis-de-la-beta-privada-de-la-web/</link>
+      <pubDate>Mon, 19 Nov 2012 21:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-11-19-analisis-de-la-beta-privada-de-la-web/</guid>
+      <description>&amp;nbsp;Hace unos días que Spotify lanzó la primera beta privada de su aplicación web.
+
+No es un secreto que los miembros de este blog formamos parte de la beta privada de su aplicación para escritorio (windows) y de la beta pública de la versión nativa para Linux. Como no podía ser de otra forma, los de Spotify nos han permitido el acceso a su aplicación web y nuestra opinión sobre este nuevo servicio ha sido más que favorable y os lo contamos.</description>
+    </item>
+    
+    <item>
+      <title>Steam for Linux. Probamos la beta privada!!</title>
+      <link>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</link>
+      <pubDate>Sun, 11 Nov 2012 20:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</guid>
+      <description>El pasado día 6 de Noviembre, en el equipo de lunaticgeek nos&amp;nbsp;encontrábamos&amp;nbsp;con un email por parte de Steam invitándonos &amp;nbsp;a probar la beta privada de Steam para Linux.
+Dicho email traía principalmente los requisitos&amp;nbsp;mínimos&amp;nbsp;de hardware (que los&amp;nbsp;cumplíamos&amp;nbsp;cuando nos dimos de alta en la beta) así como un link al archivo .deb para descargar en Ubuntu 12.04 y unas instrucciones sobre el proceso de reporte de fallos. También&amp;nbsp;hacían incapié en la necesidad de tener instalados los drivers privativos de Nvidia, especialmente la versión beta experimental 310.</description>
+    </item>
+    
+    <item>
+      <title>El libro de cocina de Tanenbaum</title>
+      <link>https://lunaticgeek.com/2012-10-27-el-libro-de-cocina-de-tanenbaum/</link>
+      <pubDate>Sat, 27 Oct 2012 18:13:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-10-27-el-libro-de-cocina-de-tanenbaum/</guid>
+      <description>Si lees este blog, estoy convencido de que sabes quién es Andrew Tanenbaum o al menos has oído su nombre alguna vez.
+Andrew Tanenbaum es el creador de MINIX, sistema operativo basado en un microkernel multiservidor que inspiró a Linus Torvalds para programar Linux. Además es el escritor de&amp;nbsp;&#34;Operating Systems: Design and Implementation&#34;&amp;nbsp;el manual más importante de esta materia a nivel académico y que se sigue usando en prácticamente todos los cursos universitarios de Sistemas Operativos.</description>
+    </item>
+    
+    <item>
+      <title>La solución de Linux para UEFI</title>
+      <link>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</link>
+      <pubDate>Fri, 12 Oct 2012 12:11:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</guid>
+      <description>Si la intención de Microsoft de exigir a los OEMs la instalación de Windows 8 en placas base con UEFI y Secureboot era mejorar la seguridad de los sistemas, no lo han conseguido. Y si su intención era tocar las pelotas a los usuarios de Linux, tampoco lo han logrado.
+Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan agoreros como otros blogs que anunciaban el armageddon para las distros que no se pudieran instalar en ordenadores nuevos.</description>
+    </item>
+    
+    <item>
+      <title>Los programadores de verdad...</title>
+      <link>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</link>
+      <pubDate>Mon, 27 Aug 2012 18:06:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</guid>
+      <description>Fuente:&amp;nbsp;xkcd.com</description>
+    </item>
+    
+    <item>
+      <title>Instalar los drivers de Nvidia en Debian</title>
+      <link>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</link>
+      <pubDate>Sun, 26 Aug 2012 23:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</guid>
+      <description>El otro&amp;nbsp;día&amp;nbsp;os explicamos cómo&amp;nbsp;podíais&amp;nbsp;instalar Wine desde PPA en vuestro sistema Debian.
+Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&amp;nbsp;algún&amp;nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
+Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
+Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:</description>
+    </item>
+    
+    <item>
+      <title>Instalar Wine en Debian</title>
+      <link>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</link>
+      <pubDate>Thu, 23 Aug 2012 16:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</guid>
+      <description>Cómo instalar Wine en Debian 6
+
+Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras distribuciones. El caso es que ayer estaba probando Debian, haciendo pruebas con Lunaticgeek Utilities, cuando llegó el momento de instalar Wine. En la web de Winehq no viene gran cosa sobre como instalarlo en debian, salvo que lo compiles por tu cuenta, cosa que si eres un usuario avanzado está bien, pero no todo el mundo sabe hacerlo, ni tiene tiempo para ponerse con ello.</description>
+    </item>
+    
+    <item>
+      <title>MagPi. La revista sobre Raspberry Pi</title>
+      <link>https://lunaticgeek.com/2012-07-16-magpi-la-revista-sobre-raspberry-pi/</link>
+      <pubDate>Mon, 16 Jul 2012 18:49:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-07-16-magpi-la-revista-sobre-raspberry-pi/</guid>
+      <description>Raspberry Pi salió hace escasos 3 meses y ya se ha convertido en un clásico del hardware. Para todos aquellos que les interese el gran potencial de este pequeño ordenador, la lectura de la revista MagPi se convierte en obligatoria.
+
+MagPi es una revista libre centrada exclusivamente en el micro-ordenador de la universidad de Cambridge. Ya han salido 3 números que abordan temas que van desde los SOs, la administración, creación de servidores, hacks y módulos, programación, entrevistas, etc.</description>
+    </item>
+    
+    <item>
+      <title>Leap. Control gestual estilo Minority Report</title>
+      <link>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</link>
+      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</guid>
+      <description>Leap es un pequeño dispositivo que intentará cambiar la forma en la que nos comunicamos con nuestros ordenadores.
+El sensor del tamaño de un pen drive capta los movimientos de las manos y los interpreta como órdenes de ratón o teclado que entiende un ordenador. Es un poco como los hacks que se han hecho de kinect que permiten controlar ordenadores pero Leap tiene hasta 200 veces más precisión y un SDK público para incorporar sus funciones directamente en programas y videojuegos.</description>
+    </item>
+    
+    <item>
+      <title>Opiniones referentes a los diferentes Sistemas Operativos Moviles</title>
+      <link>https://lunaticgeek.com/2012-05-13-opiniones-referentes-los-diferentes/</link>
+      <pubDate>Sun, 13 May 2012 23:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-13-opiniones-referentes-los-diferentes/</guid>
+      <description>Últimamente hay una gran guerra referente a los diferentes sistemas operativos móviles, que si Windows Phone, que si Android, que si iOS...Vamos a publicar opiniones sobre dichos sistemas operativos desde el punto de vista de varias personas. La gente que va a opinar ha probado los diferentes sistemas en sus propias manos, no van a dar una mera&amp;nbsp;opinión&amp;nbsp;ideológica.Podéis&amp;nbsp;dejar vuestras opiniones&amp;nbsp;también&amp;nbsp;en los comentarios, y darnos consejos... también si veo que tiene éxito puedo llevarlo a sistemas operativos para PC o mas ideas que nos deis.</description>
+    </item>
+    
+    <item>
+      <title>Guacamole, servidor VNC para acceso web</title>
+      <link>https://lunaticgeek.com/2012-05-10-guacamole-servidor-vnc-para-acceso-web/</link>
+      <pubDate>Thu, 10 May 2012 17:09:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-10-guacamole-servidor-vnc-para-acceso-web/</guid>
+      <description>Como dice un viejo dicho friki: Solo hay dos, un servidor y un cliente...
+Guacamole es un programa en Java que desafía la concepción tradicional de cliente/servidor de una forma curiosa. Es un servidor VNC que permite acceder a nuestro ordenador remotamente pero no a traveś de un cliente VNC sino a través de cualquier navegador web. Esto es muy útil ya que elimina la necesidad del cliente que en sistemas como iOS es fundamental ya que las apps que ofrecen estos servicios son excesivamente caras.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu para Android</title>
+      <link>https://lunaticgeek.com/2012-02-21-ubuntu-para-android/</link>
+      <pubDate>Tue, 21 Feb 2012 19:11:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-02-21-ubuntu-para-android/</guid>
+      <description>&#34;Solo hace falta que cojas el smartphone y lo conectes a un monitor para conseguir una inmersión total en un escritorio Ubuntu con todas las aplicaciones nativas que quieras, ejecutándose en el mismo dispositivo, dentro de Android.&#34;
+Parece que Canonical quiere revolucionar la industria de las telecomunicaciones de nuevo con una idea tan revolucionaria como utilizar los smartphones de última generación, supervitaminados, con múltiples núcleos y 1GB de RAM o más para algo más productivo y acorde a su potencial.</description>
+    </item>
+    
+    <item>
+      <title>Hall of Fame</title>
+      <link>https://lunaticgeek.com/2012-01-26-hall-of-fame/</link>
+      <pubDate>Thu, 26 Jan 2012 13:17:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-26-hall-of-fame/</guid>
+      <description>Hace unos días estuve hablando con un viejo amigo y surgió el tema de nuestros ídolos. Las personas más influyentes en el mundo de la informática.&amp;nbsp;Estuvimos citando algunos nombres y discutiendo sobre su importancia y relevancia para el mundo de la informática y para el mundo en general. En ese momento se me ocurrió que tenía que recopilar un Hall of Fame con las personas que a MI parecer han sido más importantes en este campo.</description>
+    </item>
+    
+    <item>
+      <title>alexandra. Mi nueva estación de trabajo</title>
+      <link>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</link>
+      <pubDate>Tue, 10 Jan 2012 18:51:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</guid>
+      <description>Hablemos con propiedad, una workstation es un equipo informático construido a partir de hardware de servidor pero con software de escritorio y destinado al trabajo del usuario final. Una estación de trabajo no es un ordenador, es más potente, por eso digo que hay que hablar con propiedad porque me he comprado una workstation.&amp;nbsp;La definición que da wikipedia de workstation es algo liosa y también se refiere a los terminales de una red LAN pero creo que la mía se acerca bastante más a la realidad.</description>
+    </item>
+    
+    <item>
+      <title>2ª oportunidad a Spotify</title>
+      <link>https://lunaticgeek.com/2011-12-09-2-oportunidad-spotify/</link>
+      <pubDate>Fri, 09 Dec 2011 20:10:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-12-09-2-oportunidad-spotify/</guid>
+      <description>En este blog hemos sido bastante críticos con las políticas de empresa de Spotify y así lo podéis leer aquí, aquí y&amp;nbsp; sobre todo aquí.&amp;nbsp;
+Sin embargo, por todos es sabido que en este blog somo bastante chaqueteros y cambiamos de opinión a menudo. Pero es que el mundo de la informática avanza muy rápido y haciendo eses. No nos gustaron los cambios de cuentas y la pérdidada de privilegios para los usuarios free que llevábamos en Spotify desde la primera beta, cuando pudimos colarnos sin invitación por un error en el servidor de admisión.</description>
+    </item>
+    
+    <item>
+      <title>Traslada el Dock de Unity</title>
+      <link>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</link>
+      <pubDate>Thu, 01 Dec 2011 18:48:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</guid>
+      <description>A pesar de todas las críticas que desde hace meses se han publicado por toda la blogosfera, sigo pensando que Unity es un escritorio&amp;nbsp;increíble&amp;nbsp;y lo utilizo por defecto en mi estación de trabajo.&amp;nbsp;Unity me encanta porque se parece enormemente a la configuración que hacía de gnome 2 y porque zeitgeist es un motor de búsqueda impresionante que aumenta mi productividad.
+Sólo hay una cosa que habría cambiado en Unity. El dock en la parte izquiera.</description>
+    </item>
+    
+    <item>
+      <title>Tyrs. Twitter en CLI</title>
+      <link>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</link>
+      <pubDate>Wed, 16 Nov 2011 16:14:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</guid>
+      <description>En este blog hemos recomendado twidge como cliente de microblogging para terminal.
+Sin embargo, hace unos días, leí un post revelador en muylinux.com sobre un pequeño programa libre, escrito en python cuyo nombre es Tyrs.Tyrs es de lejos el mejor software para controlar twitter e identi.ca desde el terminal. Twidge y el resto de clientes anteriores a tyrs eran demasiado simples y poco intuitivos, cosa que en un programa de terminal no es raro pero tyrs utiliza ncurses para crear una interfaz a base de unicode como en mocp o mc, programas que también comentamos.</description>
+    </item>
+    
+    <item>
+      <title>El futuro de Ubuntu</title>
+      <link>https://lunaticgeek.com/2011-10-31-el-futuro-de-ubuntu/</link>
+      <pubDate>Mon, 31 Oct 2011 17:47:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-31-el-futuro-de-ubuntu/</guid>
+      <description>Esta semana han surgido varios comentarios sobre el futuro de Ubuntu a partir de la versión 14.04 que Mark Shuttleworth acaba de hacer oficiales en su blog.
+Como se especulaba, Ubuntu 14.04 estará presente en tablets, smatphones y TVs inteligentes; conectará todos esos dispositivos al escritorio, a un servidor o a la nube. Para ello desarrollaron Unity. Esta interfaz le daría unidad y coherencia a las distintas versiones.En Canonical se han dado cuenta de que el mundo avanza y con ello las tecnologías.</description>
+    </item>
+    
+    <item>
+      <title>De LTS a LTS y no hay rolling release porque no toca</title>
+      <link>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</link>
+      <pubDate>Tue, 11 Oct 2011 11:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</guid>
+      <description>Esta semana sale Ubuntu 11.10 y los encargados de organizar el calendario han presentado la hoja de ruta para las próximas versiones. Como recoge muylinux.com&amp;nbsp;las fechas provisionales de lanzamiento de las futuras versiones de Ubuntu son las siguientes:
+26 de abril de 2012: Ubuntu 12.04 LTS18 de octubre de 2012: Ubuntu 12.1025 de abril de 2013: Ubuntu 13.0417 de octubre de 2013: Ubuntu 13.1025 de abril de 2014: Ubuntu 14.04 LTSNos podemos ir olvidando de la adopción de un ciclo de desarrollo en formato rolling release como venimos defendiendo en este blog.</description>
+    </item>
+    
+    <item>
+      <title>Oda al Rolling Release</title>
+      <link>https://lunaticgeek.com/2011-09-09-oda-al-rolling-release/</link>
+      <pubDate>Fri, 09 Sep 2011 20:12:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-09-oda-al-rolling-release/</guid>
+      <description>Esta mañana mientras revisaba las noticias, encontré un artículo fantástico en phoronix en el que hablaban de la propuesta de&amp;nbsp;Scott James Remnant, ex-jefe de desarrollo de Ubuntu y actual trabajador de Google.
+Este programador que sigue formando parte del mando técnico de Ubuntu ha expresado su deseo de que Canonical lance una versión final del sistema operativo cada mes en vez de seguir con su clásico ciclo de desarrollo semestral y bianual para las LTS.</description>
+    </item>
+    
+    <item>
+      <title>Como conseguir permisos en particiones NTFS en Ubuntu 11.04</title>
+      <link>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</link>
+      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</guid>
+      <description>Llevaba mucho tiempo comiéndome la cabeza con un problema incapaz de solucionar, y es que no podía dar permisos a ningún archivo en particiones NTFS en Ubuntu 11.04, cuando daba propiedades--permisos y modificaba algo, automáticamente volvía a cambiarse anulándose los cambios, siendo un incordio sobretodo al instalar los juegos o aplicaciones Java que necesitan bit de ejecución en particiones diferentes a /.
+Probé con sudo nautilus, chmod 777 y nada.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft descarta a Linux como rival</title>
+      <link>https://lunaticgeek.com/2011-08-16-microsoft-descarta-linux-como-rival/</link>
+      <pubDate>Tue, 16 Aug 2011 22:47:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-16-microsoft-descarta-linux-como-rival/</guid>
+      <description>En un informe presentado en el mercado de valores de los Estados Unidos, los llamados &#34;dispositivos alternativos&#34; son los que ahora suponen un peligro para Microsoft, especialmente se refiere a Google y a Apple, olvidándose de Linux, que según ellos, ya no supone un peligro tan grande como hace unos años.
+Y en realidad, yo aún no he visto a nadie con ningún smartphone que use Windows Phone... Conozco gente con Android, iOS, Simbian, Bada.</description>
+    </item>
+    
+    <item>
+      <title>Distribuciones de linux mas populares</title>
+      <link>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</link>
+      <pubDate>Sun, 14 Aug 2011 11:29:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</guid>
+      <description>En los últimos días esta circulando por internet una lista con las distribuciones de linux mas populares de los últimos tiempos.Aquí la tenéis, ¿Que os parece el bajón que pegó ubuntu con 10.10 y el subidón con 11.04?Click para aumentar</description>
+    </item>
+    
+    <item>
+      <title>SUSE Studio</title>
+      <link>https://lunaticgeek.com/2011-08-09-suse-studio/</link>
+      <pubDate>Tue, 09 Aug 2011 18:15:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-09-suse-studio/</guid>
+      <description>Hace 4 meses empecé a escribir este post pero no sé por qué lo dejé a medias y gracias al artículo de Elías Hidalgo en linuxzone lo pude recordar y lo he acabado en un momento.
+Voy a hablar de SUSE Studio sin detenerme en los detalles porque ya sabéis que solo pretendo llamar vuestra atención para que lo probéis por vosotros mismos.SUSE Studio es una herramienta web que permite crear distros personalizadas (appliances en la jerga de Novell) de todos los sistemas de la familia SUSE Linux.</description>
+    </item>
+    
+    <item>
+      <title>Angry Google</title>
+      <link>https://lunaticgeek.com/2011-08-05-angry-google/</link>
+      <pubDate>Fri, 05 Aug 2011 11:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-05-angry-google/</guid>
+      <description>David Drummond, vice-presidente senior de Google y su jefe del gabinete jurídico ha publicado en el blog oficial de Google un post muy crítico con Microsoft y Apple en el que expresa lo que todos pensamos de las políticas que su competencia lleva a cabo.
+Todo empezó hace unas semanas, cuando unos fondos de inversión integrados entre otros por Microsoft y Apple adquirieron un paquete de patentes de Novell y Nortel necesarias para Android, para asegurarse de que Google les tendría que pagar unos royalties por su uso y esto encarecería el coste de las licencias de Android que pasaría de ser gratis a costar 15$.</description>
+    </item>
+    
+    <item>
+      <title>Nuevo Ubuntu Software Centre</title>
+      <link>https://lunaticgeek.com/2011-08-03-nuevo-ubuntu-software-centre/</link>
+      <pubDate>Wed, 03 Aug 2011 23:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-03-nuevo-ubuntu-software-centre/</guid>
+      <description>A partir de Ubuntu 11.10 este va a ser el nuevo Ubuntu Software Centre.
+¿A vosotros que os parece? ¿No se os da un aire al Market de Android?</description>
+    </item>
+    
+    <item>
+      <title>Libros para el verano</title>
+      <link>https://lunaticgeek.com/2011-07-31-libros-para-el-verano/</link>
+      <pubDate>Sun, 31 Jul 2011 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-31-libros-para-el-verano/</guid>
+      <description>Miles de personas comienzan mañana sus vacaciones estivales para disfrutar de un merecido descanso después de un largo año de trabajo.&amp;nbsp;A mí lo que más me gusta del verano es que me deja el tiempo y la tranquilidad que necesito para ponerme al día en todas las lecturas que he dejado colgadas durante el resto del año, así que aprovecho este post para hacer diez recomendaciones literarias -frikis, por supuesto- para leer durante las vacaciones, en un libro electrónico o tablet.</description>
+    </item>
+    
+    <item>
+      <title>Para los amantes de la virtualización</title>
+      <link>https://lunaticgeek.com/2011-07-25-para-los-amantes-de-la-virtualizacion/</link>
+      <pubDate>Mon, 25 Jul 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-25-para-los-amantes-de-la-virtualizacion/</guid>
+      <description>VirtualBox ha sido durante años una de las soluciones opensource más importantes para virtualizar sistemas operativos a pesar de pertenecer actualmente a Oracle.
+La forma en la que usamos VirtualBox es sencilla; configuramos la máquina virtual, instalamos el sistema y a correr. Sin embargo, la web virtualboxes.org nos ofrece una alternativa mucho más rápida y sencilla para todos los que seáis tan vagos como yo.&amp;nbsp;Desde la web podemos bajar las máquinas ya configuradas e instaladas por lo que nos ahorraremos unos 20 minutos por cada sistema que descarguemos.</description>
+    </item>
+    
+    <item>
+      <title>Vuelve RT Linux</title>
+      <link>https://lunaticgeek.com/2011-07-24-vuelve-rt-linux/</link>
+      <pubDate>Sun, 24 Jul 2011 20:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-24-vuelve-rt-linux/</guid>
+      <description>Por fin vuelve a la línea de desarrollo principal de Linux (3.0), la versión en tiempo real del kernel, después de muchos meses de parón.&amp;nbsp;
+RT Linux no es un kernel distinto sino el resultado de aplicarle el parche&amp;nbsp;PREEMPT_RT. Esto se ha podido hacer siempre pero parchear el núcleo no es una tarea agradable y se agradece que lo haga la Linux Foundation de forma oficial, con lo que nosotros solo tendremos que esperar a que suban la imagen a los repositorios de Ubuntu para descargarla vía APT.</description>
+    </item>
+    
+    <item>
+      <title>World of Goo</title>
+      <link>https://lunaticgeek.com/2011-06-28-world-of-goo/</link>
+      <pubDate>Tue, 28 Jun 2011 16:53:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-28-world-of-goo/</guid>
+      <description>Hace unos años que salió el fantástico juego de los 2D Boy en formato multiplataforma que ha llegado a ser uno de los pocos juegos de pago disponibles en Ubuntu Software Centre y se encuentra entre los juegos más adictivos de los últimos años.No vengo a hacer una crítica de este juego sino a mostrar una configuración que mejorará notablemente la calidad de los gráficos. Mi problema es que tengo un monitor de 23&#34;</description>
+    </item>
+    
+    <item>
+      <title>Informática de la Vieja Escuela</title>
+      <link>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</link>
+      <pubDate>Thu, 23 Jun 2011 16:28:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</guid>
+      <description>Por razones que no vienen a cuento he tenido que trabajar últimamente en entornos sin interfaz gráfica, es decir, en un terminal o emulador de terminal como lo llaman los puristas. No soy como esos cobardes windowseros que nunca han oído hablar de líneas de comandos o que evitan a toda costa cualquier programa para su cmd pero tampoco soy un talibán del terminal como Richard Stallman que odia los entornos con GUI porque los controladores de las gráficas son privativos.</description>
+    </item>
+    
+    <item>
+      <title>Dirndl</title>
+      <link>https://lunaticgeek.com/2011-06-14-dirndl/</link>
+      <pubDate>Tue, 14 Jun 2011 13:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-14-dirndl/</guid>
+      <description>Después de una semana de especulaciones y entusiasmo, el fundador de Phoronix desvela el proyecto dirndl. Dirndl (vestido bávaro) es el nombre en clave que le había dado a la nueva versión del compilador de C, C++ y Fortran de PathScale.&amp;nbsp;Este compilador llamado EKOPath había sido distribuido bajo licencia privativa por la que cobraban 1795$ pero ahora han liberado el código fuente bajo licencia&amp;nbsp;GPLv3, así que cualquiera puede descargarlo gratuitamente para compilar programas o incluso Linux.</description>
+    </item>
+    
+    <item>
+      <title>LINUX 3</title>
+      <link>https://lunaticgeek.com/2011-05-30-linux-3/</link>
+      <pubDate>Mon, 30 May 2011 13:48:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-05-30-linux-3/</guid>
+      <description>Por casualidad me he metido hoy en phoronix para mirar un artículo que han publicado sobre el rendimiento de Unity y Gnome Shell cuando veo que hay un post que dice que la nueva versión de Linux se va a nombrar como Linux 3.
+Hace un par de semanas se lanzó la versión 2.6.39 y Linus reconoció que la numeración de la revisión estaba llegando demasiado lejos. Pensé que cambiaría el número de subversión que pasaría a ser 2.</description>
+    </item>
+    
+    <item>
+      <title>Eduroam</title>
+      <link>https://lunaticgeek.com/2011-05-08-eduroam/</link>
+      <pubDate>Sun, 08 May 2011 13:42:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-05-08-eduroam/</guid>
+      <description>Eduroam, para todos aquellos que no la conozcan, es un servicio mundial de movilidad segura desarrollado para la comunidad académica y de investigación. eduroam persigue el lema &#34;abre tu portátil y estás conectado&#34;. El servicio permite que estudiantes, investigadores y personal de las intituciones participantes tengan conectividad Internet a través de su propio campus y cuando visitan otras instituciones participantes.Osea, una red wifi de acceso en infinidad de universidades y edificios relacionados con ellas por todo el mundo.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 11.04</title>
+      <link>https://lunaticgeek.com/2011-04-28-ubuntu-1104/</link>
+      <pubDate>Thu, 28 Apr 2011 16:42:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-28-ubuntu-1104/</guid>
+      <description>Por fin! llegó el 28 de Abril y con la puntualidad que caracteriza a Canonical, salió la que es sin duda, la versión más revolucionaria, novedosa y potente de la distro de Linux más popular.
+No voy a explayarme en este post que solo escribo a la espera de que se acabe de descargar mi .iso para poder probarla. Las principales mejoras de Ubuntu 11.04 son la inclusión de Unity, el cambio de openoffice por libreoffice, banshee 2, Firefox 4 y Linux 2.</description>
+    </item>
+    
+    <item>
+      <title>How to Fix any Computer</title>
+      <link>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</link>
+      <pubDate>Tue, 19 Apr 2011 13:48:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</guid>
+      <description>Los chicos de&amp;nbsp;theoatmeal.com&amp;nbsp;nos presentan este sencillo algoritmo para arreglar cualquier ordenador:</description>
+    </item>
+    
+    <item>
+      <title>Gnome 3.0</title>
+      <link>https://lunaticgeek.com/2011-04-07-gnome-30/</link>
+      <pubDate>Thu, 07 Apr 2011 17:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-07-gnome-30/</guid>
+      <description>He estado pensando en los mayores acontecimientos en el mundo linuxero y la verdad es que no he encontrado otro del mismo calibre que el lanzamiento de Gnome 3 desde que hace 5 años un millonario, sudafricano, loco liberó cierta distro basada en Debian...
+Hasta hace poco pensaba que Gnome 3 no saldría nunca como tantos otros proyectos inconclusos: Duke Nukem Forever, Hurd, GT5, La Rebelión de las Bichas II pero el hecho es que ya está entre nosotros el nuevo gran hito de Linux que marcará el desarrollo de la mayoría de las distribuciones (incluso distribuciones no basadas en Linux como FreeBSD y Open Solaris).</description>
+    </item>
+    
+    <item>
+      <title>El Retorno del Pingüino</title>
+      <link>https://lunaticgeek.com/2011-04-07-el-retorno-del-pinguino/</link>
+      <pubDate>Thu, 07 Apr 2011 16:42:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-07-el-retorno-del-pinguino/</guid>
+      <description>Hoy en día no hay mayor acto de friki-rebeldía que ser usuario de Linux en Playstation 3.&amp;nbsp;El problema es que muchos gamers han sucumbido a las delicias de los juegos en alta definición para la consola de Sony y han optado por la actualización de sus firmwares dejando que Sony les expropie el OtherOS de sus consolas. Para todos aquellos que quieran unirse a la comunidad Linux, que sepan que ya se puede volver a instalar Linux en PS3, por supuesto de forma irregular.</description>
+    </item>
+    
+    <item>
+      <title>April Fool&#39;s Day</title>
+      <link>https://lunaticgeek.com/2011-04-01-april-fools-day/</link>
+      <pubDate>Fri, 01 Apr 2011 16:12:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-01-april-fools-day/</guid>
+      <description>Hace un año comenzó todo. Lo que parecía una inocentada por parte de Sony para celebrar el&amp;nbsp;April Fool&#39;s Day se convertió en algo peor que una broma de mal gusto. Hoy recordamos cómo Sony nos robó el acceso a Linux en nuestras PS3 con el lanzamiento de la versión 3.2 del firmware.&amp;nbsp;
+Mucha gente nos puede acusar de agitadores, de gamberros cuyo único objetivo es conseguir piratear la PS3 para jugar gratis y no es así.</description>
+    </item>
+    
+    <item>
+      <title>Elementary GTK</title>
+      <link>https://lunaticgeek.com/2011-03-07-elementary-gtk/</link>
+      <pubDate>Mon, 07 Mar 2011 16:55:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-07-elementary-gtk/</guid>
+      <description>El famosísimo tema GTK de DanRabbit ha sido actualizado a la versión 2.1. Entre las mejoras de esta versión se encuentran la compatibilidad con GTK 3 y el abandono del motor Aurora.
+Además, ahora viene por defecto la versión oscura y es por esto por lo que os escribo. Me encanta la versión dark de elementary, incluso la he usado cuando no era más que una opción menor del tema pero ahora no va bien con mi escritorio.</description>
+    </item>
+    
+    <item>
+      <title>Me pareció ver un lindo gatito...</title>
+      <link>https://lunaticgeek.com/2011-03-07-me-parecio-ver-un-lindo-gatito/</link>
+      <pubDate>Mon, 07 Mar 2011 16:16:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-07-me-parecio-ver-un-lindo-gatito/</guid>
+      <description>Mark Shuttleworth, fundador de Canonical, anunció en su blog que la versión 11.10 de Ubuntu se llamará Oneiric Ocelot (ocelote onírico) siguiendo con la tradición de apodar a las versiones de Ubuntu con un adjetivo y un nombre de animal que empiecen por la misma letra.
+Según Mark, le puso ese nombre porque le recuerdaba la forma en la que surge la innovación: en parte soñar despierto, y en parte ser disciplinado.</description>
+    </item>
+    
+    <item>
+      <title>Frases Célebres</title>
+      <link>https://lunaticgeek.com/2011-03-02-frases-celebres/</link>
+      <pubDate>Wed, 02 Mar 2011 21:08:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-02-frases-celebres/</guid>
+      <description>&#34;All the best people in life seem to like Linux&#34;Steve Wozniak, cofundador de Apple.</description>
+    </item>
+    
+    <item>
+      <title>Arrancar una .iso en grub</title>
+      <link>https://lunaticgeek.com/2011-02-12-arrancar-una-iso-en-grub/</link>
+      <pubDate>Sat, 12 Feb 2011 19:22:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-02-12-arrancar-una-iso-en-grub/</guid>
+      <description>El otro día salió Debian 6. Una semana antes se liberó otra alpha de Ubuntu y el día 14 saldrá Comfusion 3 (al que dedicaré un post). Es impensable para cualquier geek que se precie que para probar toda esta avalancha de distros tenga que gastar un montón de discos y DVDs. La alternativa que usamos todos es algún software tipo unetbootin para ripear nuestras .iso en un pendrive que será grabado una y otra vez y a una velocidad muy superior a la de un DVD.</description>
+    </item>
+    
+    <item>
+      <title>El mundo al Revés</title>
+      <link>https://lunaticgeek.com/2011-01-26-el-mundo-al-reves/</link>
+      <pubDate>Wed, 26 Jan 2011 19:43:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-01-26-el-mundo-al-reves/</guid>
+      <description>Desde que empecé a publicar el blog he estado escribiendo sobre lo malos que son algunos y lo buenos que son otros. Ese maniqueísmo ha llevado a que algunos compañeros me critiquen y acusen de tendencioso.Escribo este post para demostrar a todo el mundo que soy perfectamente objetivo al analizar las noticias y sucesos tecnológicos.
+En este post redentor, voy a empezar por microsoft. Empresa que odio profundamente desde que lanzaron windows vista.</description>
+    </item>
+    
+    <item>
+      <title>El Retorno de Linux (a la PS3) [EDIT]</title>
+      <link>https://lunaticgeek.com/2010-12-29-el-retorno-de-linux-la-ps3/</link>
+      <pubDate>Wed, 29 Dec 2010 20:30:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-12-29-el-retorno-de-linux-la-ps3/</guid>
+      <description>Los hackers de HackMii, responsables de desarrollar una homebrew scene de wii acaban de anunciar en la conferencia CCC 27C3 que han dado con las claves necesarias para rootear la PS3, esto supone tener control pleno sobre la PS3 para poder reinstalar Linux sobre cualquier firmware y ejecutar backups de videojuegos sin necesidad de ningún dongle. Los hackers han prometido explicar su método y realizar una demo que se publicará mañana cuando se lance su web,&amp;nbsp;fail0verflow.</description>
+    </item>
+    
+    <item>
+      <title>DirectX 11 nativo para Linux</title>
+      <link>https://lunaticgeek.com/2010-09-23-directx-11-nativo-para-linux/</link>
+      <pubDate>Thu, 23 Sep 2010 18:06:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-23-directx-11-nativo-para-linux/</guid>
+      <description>Parece que Luca Barbieri, un desarrollador de software ha encontrado la forma de implementar DirectX en Linux para poder ejecutar aplicaciones Direct3D de forma nativa sin necesidad de una conversión previa a OpenGL como viene haciendo wine hasta ahora.La importancia de este desarrollo es crucial para que los que intentan de una forma u otra jugar videojuegos de windows en sistemas basados en Linux logren los mejores resultados y el más alto rendimiento.</description>
+    </item>
+    
+    <item>
+      <title>Chat de video de Google para Linux</title>
+      <link>https://lunaticgeek.com/2010-08-20-chat-de-video-de-google-para-linux/</link>
+      <pubDate>Fri, 20 Aug 2010 15:44:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-20-chat-de-video-de-google-para-linux/</guid>
+      <description>Por fin!La verdad es que los ingenieros de software de Google se han tomado con demasiada calma la implementación de este servicio en Linux. Esta actitud por parte de Google me parece de lo más hipócrita. Hace 2 años salió la versión para windows y los usuarios de Linux nos quedamos con cara de idiotas cuando lo fuimos a usar y el servicio no era compatible con nuestro sistema operativo. En estos dos años han ocurrido multitud de acontecimientos que han acercado a Google a Linux.</description>
+    </item>
+    
+    <item>
+      <title>Frases Célebres</title>
+      <link>https://lunaticgeek.com/2010-08-16-frases-celebres/</link>
+      <pubDate>Mon, 16 Aug 2010 14:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-16-frases-celebres/</guid>
+      <description>&#34;Every time you use Google, you&#39;re using a Linux machine.&#34;&amp;nbsp;(Chris DiBona, director de programación de código abierto de Google)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Time on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/real-time/</link>
+    <description>Recent content in Real Time on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 24 Jul 2011 20:38:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/real-time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vuelve RT Linux</title>
+      <link>https://lunaticgeek.com/2011-07-24-vuelve-rt-linux/</link>
+      <pubDate>Sun, 24 Jul 2011 20:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-24-vuelve-rt-linux/</guid>
+      <description>Por fin vuelve a la línea de desarrollo principal de Linux (3.0), la versión en tiempo real del kernel, después de muchos meses de parón.&amp;nbsp;
+RT Linux no es un kernel distinto sino el resultado de aplicarle el parche&amp;nbsp;PREEMPT_RT. Esto se ha podido hacer siempre pero parchear el núcleo no es una tarea agradable y se agradece que lo haga la Linux Foundation de forma oficial, con lo que nosotros solo tendremos que esperar a que suban la imagen a los repositorios de Ubuntu para descargarla vía APT.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jailbreak on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/jailbreak/</link>
+    <description>Recent content in Jailbreak on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 29 Jan 2011 00:54:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/jailbreak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cuando una persona derrota a una multinacional</title>
+      <link>https://lunaticgeek.com/2011-01-29-cuando-una-persona-derrota-una/</link>
+      <pubDate>Sat, 29 Jan 2011 00:54:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-01-29-cuando-una-persona-derrota-una/</guid>
+      <description>Geohot es conocido por desarrollar el jailbreak de iphone y ipod, pero no contento con eso, decidió ir más allá. Un día, Geo se compró una PS3, como muchos de nosotros, entre otras cosas, por el modo OtherOS, que permitía la instalación de un Linux en la PS3 (aunque muy capado por todos los lados) que podía convertir perfectamente la PS3 en un completo ordenador de salón. Geo se enfadó con la PS3 porque el OtherOS estaba muy capado por todos los lados y había muchas cosas que no dejaba hacer, por tanto, empezó a crear un exploit con el que ir consiguiendo permisos para poder tener un sistema decente, no un sistema capado por todos los lados.</description>
+    </item>
+    
+    <item>
+      <title>El Retorno de Linux (a la PS3) [EDIT]</title>
+      <link>https://lunaticgeek.com/2010-12-29-el-retorno-de-linux-la-ps3/</link>
+      <pubDate>Wed, 29 Dec 2010 20:30:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-12-29-el-retorno-de-linux-la-ps3/</guid>
+      <description>Los hackers de HackMii, responsables de desarrollar una homebrew scene de wii acaban de anunciar en la conferencia CCC 27C3 que han dado con las claves necesarias para rootear la PS3, esto supone tener control pleno sobre la PS3 para poder reinstalar Linux sobre cualquier firmware y ejecutar backups de videojuegos sin necesidad de ningún dongle. Los hackers han prometido explicar su método y realizar una demo que se publicará mañana cuando se lance su web,&amp;nbsp;fail0verflow.</description>
+    </item>
+    
+    <item>
+      <title>PSN cae ante el jailbreak</title>
+      <link>https://lunaticgeek.com/2010-11-11-ayer-han-sacado-la-luz-una/</link>
+      <pubDate>Thu, 11 Nov 2010 21:48:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-11-11-ayer-han-sacado-la-luz-una/</guid>
+      <description>Ayer han sacado a la luz una actualizacion para los dongles (extactamente es una versión modificada del PSgroove 4b de Hermes) que... agarraos bien...¡¡¡PERMITE INICIAR SESIÓN EN PSN!!!Es, sin duda, una gran noticia para los que decidimos jugar a nuestras copias de seguridad en el firmware 3.41 para que no se estropee el lector de la PS3, que por cierto, es muy sensible...www.project0.de/psgroove-maker/Ahí tenéis un link en el que compilaros los grooves para vuestros dongles, actualizado hasta la version que permite PSN :DPd.</description>
+    </item>
+    
+    <item>
+      <title>Destino: PS3 Custom Firmware</title>
+      <link>https://lunaticgeek.com/2010-09-19-destino-ps3-custom-firmware/</link>
+      <pubDate>Sun, 19 Sep 2010 21:22:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-19-destino-ps3-custom-firmware/</guid>
+      <description>Hace 2 días se anuncia la posibilidad de emular un firmware en la PS3. Una gran noticia para los que hemos apostado por FW 3.41 y no nos dejamos engatusar por la &#34;increíble&#34; 3.42, pues ahora podemos emular una 3.42, una 3.50 y probablemente cualquier firmware posterior, desde un USB sin arriesgarnos a perder la garantía, ni a estropear la consola.Este scene está creado por un scener español (oh yeah) y aun está en fase beta, pero funcional.</description>
+    </item>
+    
+    <item>
+      <title>Firmware 3.50 de PS3 añade compatibilidad de 3D</title>
+      <link>https://lunaticgeek.com/2010-09-16-sony-ha-anunciado-que-el-proximo-martes/</link>
+      <pubDate>Thu, 16 Sep 2010 14:13:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-16-sony-ha-anunciado-que-el-proximo-martes/</guid>
+      <description>Sony ha anunciado que el próximo martes sacara la nueva actualización 3.50 de su sistema PS3, la cual añade la compatibilidad para BLU-RAY 3D.Tambien se rumorea la posibilidad de ver tambien fotos en 3D y videos de youtube y similares en 3D tambien en el futuro.Tenemos 3 opciones:-Tener el firm 3.15 o anterior y poder instalar Linux en nuestros sistemas.-Tener el firm 3.41 y poder ejecutar copias de seguridad.-Tener nuestra consola actualizada, perdiendo cada vez mas caracteristicas, pero podremos jugar onlineDe momento, si te apasiona el 3D (cosa que a mi personalmente no, rezo por que sea una moda pasajera) actualiza tu videoconsola.</description>
+    </item>
+    
+    <item>
+      <title>Se anuncia Backup Manager 1.1 con varias mejoras</title>
+      <link>https://lunaticgeek.com/2010-09-03-se-anuncia-backup-manager-11-con-varias/</link>
+      <pubDate>Fri, 03 Sep 2010 16:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-03-se-anuncia-backup-manager-11-con-varias/</guid>
+      <description>Se anuncia ya la primera actualizacion del Backup Manager, de mano de los creadores de PSJailbreak.Entre otras, las novedades mas destacables son:• Support for all firmware.• Support for NTFS.• Supports Blu-ray and MKV.• Support for PSX and PS2 games.ChipSpain ha dado mas detalles al respecto:• NFTS Support• New version of Backup Manager 1.1 (OK)• Compatible with all PS3 firmware• Compatible with Blu-ray backups, PS2 and PSX.• Auto Updater via your PC.</description>
+    </item>
+    
+    <item>
+      <title>PSGroove : Carga copias de juegos en PlayStation 3 sin PS Jailbreak</title>
+      <link>https://lunaticgeek.com/2010-09-01-psgroove-carga-copias-de-juegos-en/</link>
+      <pubDate>Wed, 01 Sep 2010 23:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-01-psgroove-carga-copias-de-juegos-en/</guid>
+      <description>De la misma forma que os dije que se libero el codigo del PSJailbreak, os traigo ya el codigo para que lo podais ejecutar vosotros mismos.Este código pertenece a una Scene que permite que cualquiera lo copie en su propio USB, aunque solo sirve para unos modelos muy específicos.Las novedades entre el Jailbreak y el Scene, aparte del precio, es que este Scene funciona en todos los firmwares, incluido el 3.</description>
+    </item>
+    
+  </channel>
+</rss>

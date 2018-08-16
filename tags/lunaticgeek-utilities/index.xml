@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lunaticgeek Utilities on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/lunaticgeek-utilities/</link>
+    <description>Recent content in Lunaticgeek Utilities on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 24 Apr 2013 11:37:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/lunaticgeek-utilities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lunaticgeek Utilities 13.04.01 renovada completamente</title>
+      <link>https://lunaticgeek.com/2013-04-24-lunaticgeek-utilities-130401-renovada/</link>
+      <pubDate>Wed, 24 Apr 2013 11:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-04-24-lunaticgeek-utilities-130401-renovada/</guid>
+      <description>LUNATICGEEK UTILITIES 13.04.01
+Como va siendo ya costumbre con cada lanzamiento de Ubuntu, desde aquí publicamos una nueva versión actualizada de nuestro script Lunaticgeek Utilities 13.04.
+En este caso, el script ha supuesto un cambio enorme respecto a anteriores versiones. Viene completamente adaptado para 13.04 así como hemos conseguido (por fin) introducir un script de zenity que nos permitirá de esta manera elegir los programas que queremos y los que no queremos instalar en nuestro equipo.</description>
+    </item>
+    
+    <item>
+      <title>Lunaticgeek Utilities 1.2</title>
+      <link>https://lunaticgeek.com/2011-10-08-lunaticgeek-utilities-12/</link>
+      <pubDate>Sat, 08 Oct 2011 17:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-08-lunaticgeek-utilities-12/</guid>
+      <description>Lunaticgeek Utilities 1.2El día 13, de la semana que viene, sale la nueva versión de Ubuntu, 11.10 Oneiric Ocelot, la cual, en mi opinión va a ser una gran versión igual que ha sido 11.04.
+La salida de una nueva versión implica en muchos casos tener que formatear para instalarla, ya que la actualización es un proceso tan odioso como chapucero, de las veces que, tanto edkalrio como yo lo hemos intentado, ha quedado el sistema bastante maltrecho.</description>
+    </item>
+    
+    <item>
+      <title>Lunaticgeek Utilities 1.1</title>
+      <link>https://lunaticgeek.com/2011-09-27-lunaticgeek-utilities-11/</link>
+      <pubDate>Tue, 27 Sep 2011 14:15:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-27-lunaticgeek-utilities-11/</guid>
+      <description>Lunaticgeek Utilities 1.1
+Hace una semana, en este hilo,&amp;nbsp;os presenté un script que creé con la finalidad de facilitar la instalación de los programas mas elementales para un uso normal de Ubuntu, para no echar nada de menos, y, cuando se instala el sistema de nuevo, no tener que andar instalando las aplicaciones una a una y ahorrarse todo ese rollo.
+Hoy os traigo una actualización del script con varios añadidos y modificaciones:-He añadido el programa qBittorrent-He actualizado el programa Openshot,&amp;nbsp;añadiéndole&amp;nbsp;efectos, plugins y extras-He añadido todos los extras de la comunidad de banshee, menos la&amp;nbsp;extensión&amp;nbsp;LIRC-He añadido la instalación de los extras restringidos de Ubuntu (ubuntu-restricted-extras)-He añadido la instalación de Wine 1.</description>
+    </item>
+    
+    <item>
+      <title>Aplicaciones imprescindibles para Ubuntu y Lunaticgeek Utilities 1.0</title>
+      <link>https://lunaticgeek.com/2011-09-16-aplicaciones-imprescindibles-para/</link>
+      <pubDate>Fri, 16 Sep 2011 13:57:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-16-aplicaciones-imprescindibles-para/</guid>
+      <description>Conozco a mucha gente que no se atreve a probar Ubuntu por al miedo a no poder satisfacer sus necesidades de software respecto a los programas que utiliza en Windows, pese a tener un casi perfecto emulador llamado Wine, y la posibilidad de utilizar máquinas virtuales como Virtual Box con la que podemos emular de una forma muy sencilla un XP.
+Debido a esto, he decidido hacer hacer 2 cosas para todos vosotros:1- Os voy a crear aquí un listado de programas que, a mi entender son imprescindibles en Ubuntu, con su correspondiente manual de instalación y a quien sustituyen en Windows.</description>
+    </item>
+    
+  </channel>
+</rss>

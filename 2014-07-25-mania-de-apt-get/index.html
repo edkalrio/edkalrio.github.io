@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Manía de apt-get - Lunatic Geek</title>
+  <meta property="og:title" content="Manía de apt-get - Lunatic Geek" />
+  <meta name="twitter:title" content="Manía de apt-get - Lunatic Geek" />
+  <meta name="description" content="Sólo una breve reflexión sobre los bloggers.
+Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.">
+  <meta property="og:description" content="Sólo una breve reflexión sobre los bloggers.
+Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.">
+  <meta name="twitter:description" content="Sólo una breve reflexión sobre los bloggers.
+Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2014-07-25-mania-de-apt-get/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Manía de apt-get</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2014-07-25</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/ubuntu/">
+						<i class="fas fa-tag"></i>
+						Ubuntu
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/debian/">
+						<i class="fas fa-tag"></i>
+						debian
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<div style="text-align: justify;">Sólo una breve reflexión sobre los bloggers.</div><a name='more'></a><br /><div style="text-align: justify;">Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Personalmente, llevo usando apt desde el primer día. Supongo que todos mis lectores son lo suficientemente inteligentes como para instalar la última versión de Ubuntu (Debian o Linux Mint) o que sepan detectar ese problema de incompatibilidad con apt-get. Tarde o temprano, todos los blogs tendrán que dar el paso y olvidarse de apt-get, como en su día nos olvidamos de aptitude, porque la diferencia entre apt y apt-get no está solo en la forma de invocarlos. El manual de apt lo explica perfectamente:</div><blockquote class="tr_bq"><blockquote class="tr_bq" style="text-align: justify;">The apt command is meant to be pleasant for end users and does not need to be backward compatible like apt-get. Therefore some options are different:&nbsp;</blockquote></blockquote><blockquote class="tr_bq"><blockquote class="tr_bq"><ul><li style="text-align: justify;">The option DPkgPM::Progress-Fancy is enabled.</li><li style="text-align: justify;">The option APT::Color is enabled.</li><li style="text-align: justify;">A new list command is available similar to dpkg --list.</li><li style="text-align: justify;">The option upgrade has --with-new-pkgs enabled by default.</li></ul></blockquote></blockquote><div style="text-align: justify;">Me parecen suficientes razones como para relegar a apt-get al olvido, pero esto solo es una opinión personal.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">P.S. El título de este post pretende ser un homenaje al clásico de <a href="http://www.biblioteca.org.ar/libros/70336.pdf">Larra</a>.</div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

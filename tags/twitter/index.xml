@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/twitter/</link>
+    <description>Recent content in Twitter on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 08 Dec 2017 14:07:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>twtxt</title>
+      <link>https://lunaticgeek.com/2017-12-08-twtxt/</link>
+      <pubDate>Fri, 08 Dec 2017 14:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-12-08-twtxt/</guid>
+      <description>Twitter me gusta cada vez menos. No es sólo por el aumento a 280 caracteres que, en mi opinión destruye la esencia del microblogging, sino por motivos más trascendentes como el hecho de que @realDonaldTrump se pase por el forro todo el código de conducta de Twitter y no sea baneado mientras que se silencia a @rosemcgowan por denunciar ser víctima del acoso; por no hablar de la escoria humana del supremacismo blanco que divulga su pensamiento racista desde sus cuentas verificadas mientras twitter mira hacia otro lado.</description>
+    </item>
+    
+    <item>
+      <title>La salida a Bolsa de Twitter</title>
+      <link>https://lunaticgeek.com/2013-09-13-la-salida-bolsa-de-twitter/</link>
+      <pubDate>Fri, 13 Sep 2013 17:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-09-13-la-salida-bolsa-de-twitter/</guid>
+      <description>+Rubén Velasco&amp;nbsp;me ha incitado a escribir un post sobre la salida a Bolsa de Twitter y todo lo que ello conlleva. Como siempre que me pongo a hablar de temas económicos, el color salmón (color #FFDAB9 para los frikis) tiñe el fondo del post y voy a intentar ser claro y simplificar muchos términos y explicaiones técnicas que a nadie interesan.We’ve confidentially submitted an S-1 to the SEC for a planned IPO.</description>
+    </item>
+    
+    <item>
+      <title>Tyrs. Twitter en CLI</title>
+      <link>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</link>
+      <pubDate>Wed, 16 Nov 2011 16:14:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</guid>
+      <description>En este blog hemos recomendado twidge como cliente de microblogging para terminal.
+Sin embargo, hace unos días, leí un post revelador en muylinux.com sobre un pequeño programa libre, escrito en python cuyo nombre es Tyrs.Tyrs es de lejos el mejor software para controlar twitter e identi.ca desde el terminal. Twidge y el resto de clientes anteriores a tyrs eran demasiado simples y poco intuitivos, cosa que en un programa de terminal no es raro pero tyrs utiliza ncurses para crear una interfaz a base de unicode como en mocp o mc, programas que también comentamos.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ip on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ip/</link>
+    <description>Recent content in Ip on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 03 Apr 2018 13:08:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Okupando IPs</title>
+      <link>https://lunaticgeek.com/2018-04-03-okupando-ips/</link>
+      <pubDate>Tue, 03 Apr 2018 13:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-04-03-okupando-ips/</guid>
+      <description>Me entero a través de redeszone.net que algunos usuarios de Movistar no pueden acceder al nuevo DNS público de Cloudflare 1.1.1.1 porque esa dirección IP está reservada para uso interno del router.
+Mi primera reacción de incredulidad me hizo cuestionar la noticia e intentar contrastarla. Fui demasiado optimista y ahora reconozco que tampoco me extraña una situación tan bizarra viniendo de una empresa como Movistar, que no solo reconoce el hecho sino que además ofrece una solución de lo más diplomática en su foro oficial:&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

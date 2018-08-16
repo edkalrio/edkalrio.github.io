@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmail on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/gmail/</link>
+    <description>Recent content in Gmail on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 26 Aug 2010 16:08:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Llamadas telefónicas desde Gmail</title>
+      <link>https://lunaticgeek.com/2010-08-26-google-prueba-el-hacer-y-recibir/</link>
+      <pubDate>Thu, 26 Aug 2010 16:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-26-google-prueba-el-hacer-y-recibir/</guid>
+      <description>No estaría chulo si pudieras llamar directamente a los teléfonos desde Gmail?Es una pregunta que se hicieron los desarrolladores de software de Google hace meses y que se acaba de materializar como consecuencia de la evolución natural del chat de voz y de Google Voice aunque como este último servicio solo está disponible en USA. Los pobres españoles tendremos que esperar bastante tiempo hasta que consigan introducir esta aplicación que permite llamadas GRATIS dentro del país.</description>
+    </item>
+    
+  </channel>
+</rss>

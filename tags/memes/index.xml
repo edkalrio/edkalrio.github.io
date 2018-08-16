@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memes on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/memes/</link>
+    <description>Recent content in Memes on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 19 Nov 2011 11:11:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/memes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>comic de memes propio</title>
+      <link>https://lunaticgeek.com/2011-11-19-comic-de-memes-propio/</link>
+      <pubDate>Sat, 19 Nov 2011 11:11:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-11-19-comic-de-memes-propio/</guid>
+      <description>Ya se me había olvidado publicar el tercer y último comic de memes que hice este verano.</description>
+    </item>
+    
+    <item>
+      <title>Rage Comic</title>
+      <link>https://lunaticgeek.com/2011-07-28-rage-comic/</link>
+      <pubDate>Thu, 28 Jul 2011 16:07:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-28-rage-comic/</guid>
+      <description>Cuando fundamos lunaticgeek.com no lo hicimos con el único propósito de crear y comunicar información friki sino también de crear cultura friki.&amp;nbsp;
+Ahora mismo no creo que haya una manifestación cultural geek más difundida que el arte de los memes que nacieron en 4chan, lugar de surgimiento del movimiento Anonymous. He creado y enviado la siguiente viñeta a cuantocabron. Si sois miembros registrados, votadme para que sea publicada si os parece que valga la pena.</description>
+    </item>
+    
+  </channel>
+</rss>

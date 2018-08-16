@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/mac/</link>
+    <description>Recent content in Mac on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 21 Oct 2014 20:20:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El panel 5K del iMac</title>
+      <link>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</link>
+      <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</guid>
+      <description>Acaba de salir un nuevo modelo de iMac de 27&#34; y una definición monstruosa que llega a los 5K. Cada vez, más fabricantes optan por paneles de altísimas resoluciones y precios desorbitados. Ya se empiezan a ver TVs 4K a precios razonables e incluso Amazon ha actualizado el Kindle con una densidad de 300ppi.
+En este contexto, hay que plantearse la utilidad de todo esto y la repercusión que tiene en el precio.</description>
+    </item>
+    
+    <item>
+      <title>How to Fix any Computer</title>
+      <link>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</link>
+      <pubDate>Tue, 19 Apr 2011 13:48:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</guid>
+      <description>Los chicos de&amp;nbsp;theoatmeal.com&amp;nbsp;nos presentan este sencillo algoritmo para arreglar cualquier ordenador:</description>
+    </item>
+    
+    <item>
+      <title>Thunderbolt en los Nuevos MacBook Pro</title>
+      <link>https://lunaticgeek.com/2011-02-24-thunderbolt-en-los-nuevos-macbook-pro/</link>
+      <pubDate>Thu, 24 Feb 2011 20:44:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-02-24-thunderbolt-en-los-nuevos-macbook-pro/</guid>
+      <description>Tras años de investigación y desarrollo, llega Thunderbolt, la nueva tecnología I/O que promete revolucionar el mercado (al contrario que USB3).
+En este blog nos fijamos en Thunderbolt hace año y medio, cuando intel lo introdujo bajo el nombre de Light Peak. Fue nominado a los HATS 2010&amp;nbsp;porque sabíamos que la colaboración estrecha que intel había establecido con Apple sería revolucionaria. FireWire nunca triunfó pero sabíamos que Apple no iba a dejar que esto volviera a suceder, sobre todo si tenemos en cuenta que ahora, el gigante de Cupertino es una de las empresas con mayor capitalización bursátil del mundo y su poder e influencia es absoluta.</description>
+    </item>
+    
+    <item>
+      <title>De un león y un suricato</title>
+      <link>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</link>
+      <pubDate>Thu, 21 Oct 2010 17:24:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</guid>
+      <description>He estado liado últimamente y no he tenido tiempo para comentar tantas y tantas noticias como el precio exagerado del primer sintonizador de Google TV, la salida de Ubuntu 10.10 y el anuncio de ayer de Mac OSX lion.Me voy a centrar en estas dos últimos topics por ser de mayor trascendencia en este blog y en toda la comunidad geek.Ubuntu 10.10 es una birria.&amp;nbsp;Eso es lo que diría si me lo preguntaran y no pudiera explicarme.</description>
+    </item>
+    
+    <item>
+      <title>La última gran mentira de microsoft</title>
+      <link>https://lunaticgeek.com/2010-08-10-la-ultima-gran-mentira-de-microsoft/</link>
+      <pubDate>Tue, 10 Aug 2010 20:17:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-10-la-ultima-gran-mentira-de-microsoft/</guid>
+      <description>Parece que microsoft acaba de inaugurar un subdominio en una de sus webspara guiar a todos aquellos que duden entre comprar un PC o un Mac. En este post voy a analizar punto por punto cada una de las afirmaciones categóricas de microsoft para demostrar que son solo falacias pero antes quiero aclarar que yo soy totalmente neutral en la elección de un PC o un Mac siempre que se le pueda instalar una distro de Linux aunque voy a atacar directamente los argumentos de microsoft a favor del PC porque odio las mentiras y esto es la mayor mentira que he leído desde que los genios de Sony decidieron eliminar el soporte de Linux de la Play3 por problemas de seguridad.</description>
+    </item>
+    
+  </channel>
+</rss>

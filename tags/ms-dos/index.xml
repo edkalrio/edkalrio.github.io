@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ms Dos on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ms-dos/</link>
+    <description>Recent content in Ms Dos on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ms-dos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El Cero de Enero y Otros Hitos Informáticos</title>
+      <link>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</link>
+      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</guid>
+      <description>Vamos a empezar el año con una pregunta lunática. En qué año estamos? La respuesta no es tan evidente como parece. Todo depende del hito del calendario que estemos usando. En occidente se emplea el calendario gregoriano que nos sitúa en el 2016 pero no me parece muy apropiado utilizar la fecha de nacimiento de un carpintero judío de hace dos milenios como referencia temporal. En el mundo informático tampoco les parece la mejor opción y desarrolladores muy importantes han utilizado otras fechas para iniciar su calendario.</description>
+    </item>
+    
+    <item>
+      <title>MS-Dos cumple 30 años</title>
+      <link>https://lunaticgeek.com/2011-07-27-ms-dos-cumple-30-anos/</link>
+      <pubDate>Wed, 27 Jul 2011 16:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-27-ms-dos-cumple-30-anos/</guid>
+      <description>Un día como ayer hace 30 años, un 27 de Julio de 1981, Microsoft dio el nombre de MS-DOS al sistema operativo que adquirió ese día a Seattle Computer Products (SCP).El sistema operativo propiamente, había nacido ya el año anterior, por lo que estamos rememorando realmente es no mas que un nombre comercial.Microsoft pagó 25.000 dólares por la licencia para comercializar el sistema a IBM. Microsoft ocultó el origen del sistema operativo a IBM, hasta que lo adquirió completo al año siguienteSi queréis profundizar un poco en la historia de como Microsoft surgió de la nada hasta lo que es ahora, podéis ver una peli llamada &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

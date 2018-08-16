@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ssh/</link>
+    <description>Recent content in Ssh on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 03 May 2017 20:52:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fracasos con el Certificado Digital de la FNMT</title>
+      <link>https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/</link>
+      <pubDate>Wed, 03 May 2017 20:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/</guid>
+      <description>Hace mucho tiempo que disfruto de las ventajas que ofrece el certificado digital de persona física, emitido por la FNMT-RCM pero últimamente me he estado preguntando cuáles eran los límites de su capacidad de identificación y encriptación personales.
+Después de mucho trastear con él puedo decir sin temor a equivocarme que el certificado de la FNMT es útil pero muy aburrido y no nos permite realizar tareas más complejas que otros certificados cumplen sin ningún problema.</description>
+    </item>
+    
+  </channel>
+</rss>

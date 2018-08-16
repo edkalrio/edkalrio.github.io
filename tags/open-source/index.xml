@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/open-source/</link>
+    <description>Recent content in Open Source on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 07 May 2012 13:31:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Terasology, clon open source de Minecraft</title>
+      <link>https://lunaticgeek.com/2012-05-07-terasology-clon-open-source-de/</link>
+      <pubDate>Mon, 07 May 2012 13:31:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-07-terasology-clon-open-source-de/</guid>
+      <description>Nadie sabe muy bien qué es lo que tiene Minecraft que lo hace un juego tan adictivo.&amp;nbsp;
+Pese a su aspecto ultrapixelado que nos recuerda al clásico 3D dot hero y le aporta un matiz muy friki,&amp;nbsp;Markus Persson,&amp;nbsp;el creador de este juego en Java se ha hecho millonario gracias a las impresionantes ventas de un juego tan &#34;cutre&#34; y caro. Probablemente, el precio excesivo de este juego de construcción sin límites sea su talón de aquiles pero gracias a&amp;nbsp;Benjamin Glatzel&amp;nbsp;de movingblocks.</description>
+    </item>
+    
+    <item>
+      <title>Sintel</title>
+      <link>https://lunaticgeek.com/2010-10-03-sintel/</link>
+      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-03-sintel/</guid>
+      <description>Ya se ha estrenado Sintel, el último cortometraje de los creadores de Elephants Dream&amp;nbsp;y&amp;nbsp;Big Buck Bunny. Lo interesante de este corto es que está integramente desarrollado con herramientas de software libre por un grupo de personas de todo el mundo que colaboran unidos para regalarnos este fantástico corto.Sintel, ha sido elaborado usando principalmente blender y se han ayudado de otro software como GIMP y el mítico Inkscape, todos ellos corriendo bajo Ubuntu que no podía faltar en esta maravilla que nos demuestra el poder del software libre y de la comunidad que hay tras de sí.</description>
+    </item>
+    
+    <item>
+      <title>Frases Célebres</title>
+      <link>https://lunaticgeek.com/2010-08-16-frases-celebres/</link>
+      <pubDate>Mon, 16 Aug 2010 14:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-16-frases-celebres/</guid>
+      <description>&#34;Every time you use Google, you&#39;re using a Linux machine.&#34;&amp;nbsp;(Chris DiBona, director de programación de código abierto de Google)</description>
+    </item>
+    
+  </channel>
+</rss>

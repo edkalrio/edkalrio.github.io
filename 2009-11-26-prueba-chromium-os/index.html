@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>prueba Chromium OS - Lunatic Geek</title>
+  <meta property="og:title" content="prueba Chromium OS - Lunatic Geek" />
+  <meta name="twitter:title" content="prueba Chromium OS - Lunatic Geek" />
+  <meta name="description" content="Ya sé que no he comentado nada sobre el nuevo sistema operativo de Google pero ahora mismo estoy volcado completamente en un proyecto personal del que ya hablaré en unas semanas.&nbsp;
+Para todo aquel que quiera probar el OS, ya tiene imágenes de vmware circulando por los canales de torrent. Sin embargo yo voy a hablar de otra forma de probar Chromium. Un tal Hexxeh se ha dedicado a compilar el sistema de forma que se pueda bootear desde un pen drive (de al menos 4Gb).">
+  <meta property="og:description" content="Ya sé que no he comentado nada sobre el nuevo sistema operativo de Google pero ahora mismo estoy volcado completamente en un proyecto personal del que ya hablaré en unas semanas.&nbsp;
+Para todo aquel que quiera probar el OS, ya tiene imágenes de vmware circulando por los canales de torrent. Sin embargo yo voy a hablar de otra forma de probar Chromium. Un tal Hexxeh se ha dedicado a compilar el sistema de forma que se pueda bootear desde un pen drive (de al menos 4Gb).">
+  <meta name="twitter:description" content="Ya sé que no he comentado nada sobre el nuevo sistema operativo de Google pero ahora mismo estoy volcado completamente en un proyecto personal del que ya hablaré en unas semanas.&nbsp;
+Para todo aquel …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2009-11-26-prueba-chromium-os/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">prueba Chromium OS</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2009-11-26</time></li>
+			</ul>
+			
+			<div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Ya sé que no he comentado nada sobre el nuevo sistema operativo de Google pero ahora mismo estoy volcado completamente en un proyecto personal del que ya hablaré en unas semanas.&nbsp;</span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Para todo aquel que quiera probar el OS, ya tiene imágenes de vmware circulando por los canales de torrent. Sin embargo yo voy a hablar de otra forma de probar Chromium. Un tal Hexxeh se ha dedicado a compilar el sistema de forma que se pueda bootear desde un pen drive (de al menos 4Gb). Solo hay que descargarse el archivo desde el </span><a href="http://bit.ly/5ZxEtx"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">torrent</span></a><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">. Luego hay que descomprimirlo. Si trabajas en windows te va a llevar una eternidad mientras que en Linux tarda solo unos minutos al tratarse de un Tar. A partir de aquí, la forma de pasarlo al usb varía.</span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">En Linux hay que ejecutar el siguiente comando en la carpeta donde tenemos la imagen de Chromium:&nbsp;</span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><br /></div><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Courier New', Courier, monospace;"><b>sudo dd if=chromiumos.img of=/dev/X bs=4M</b></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Courier New', Courier, monospace;"><b><br /></b></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Donde X es el nombre del usb, en mi caso sdb1.</span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">En windows hay que bajarse un programa específico para realizar esta tarea. Hexxeh recomienda el <a href="http://bit.ly/7gRu0n">image writer</a>.</span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Que nadie se emocione demasiado con este sistema operativo... todavía. Es posible que ni siquiera lo podáis probar. No tiene drivers de sonido ni wifi pero cambiará la forma que tenemos de entender la informática.</span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Enlace: <a href="http://carbon.hexxeh.net/chromiumos/">http://carbon.hexxeh.net/chromiumos/</a></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">EDIT: ya está disponible la versión diet con compatibilidad wifi para memorias de 1Gb.</span></pre>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

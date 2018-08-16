@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/unity/</link>
+    <description>Recent content in Unity on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 28 Jan 2016 19:04:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 años de involución personal en el escritorio</title>
+      <link>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</guid>
+      <description>Por casualidad, he encontrado unas capturas de pantalla de mi escritorio de hace un lustro y me gustaría compartirlas, con unos comentarios sobre la evolución (en mi caso involución), como se ha hecho con enorme éxito en unix.se.La verdad es que antes era muy superficial y empecé en el mundo Linux hace 8 años por las enormes posibilidades que este sistema operativo ofrece en cuanto a personalización: temas GTK, iconos, docks, efectos de compiz, etc.</description>
+    </item>
+    
+    <item>
+      <title>Traslada el Dock de Unity</title>
+      <link>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</link>
+      <pubDate>Thu, 01 Dec 2011 18:48:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</guid>
+      <description>A pesar de todas las críticas que desde hace meses se han publicado por toda la blogosfera, sigo pensando que Unity es un escritorio&amp;nbsp;increíble&amp;nbsp;y lo utilizo por defecto en mi estación de trabajo.&amp;nbsp;Unity me encanta porque se parece enormemente a la configuración que hacía de gnome 2 y porque zeitgeist es un motor de búsqueda impresionante que aumenta mi productividad.
+Sólo hay una cosa que habría cambiado en Unity. El dock en la parte izquiera.</description>
+    </item>
+    
+    <item>
+      <title>DesktopNova</title>
+      <link>https://lunaticgeek.com/2011-07-20-desktopnova/</link>
+      <pubDate>Wed, 20 Jul 2011 18:16:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-20-desktopnova/</guid>
+      <description>Si eres como yo, que te aburres fácilmente de tu fondo de escritorio, deberías probar DesktopNova.
+
+Llevaba buscando un programa para cambiar automáticamente la imagen de mi escritorio pero ninguno me convencía, además soy demasiado vago como para configurar los XML que se pueden usar por defecto en Gnome. Por suerte hace poco me topé por casualidad con este pequeño programa escrito en C que funciona exactamente como yo quería.</description>
+    </item>
+    
+  </channel>
+</rss>

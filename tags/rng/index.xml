@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rng on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/rng/</link>
+    <description>Recent content in Rng on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 24 Apr 2018 14:02:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/rng/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entropía Inconmensurable</title>
+      <link>https://lunaticgeek.com/2018-04-24-entropia-inconmensurable/</link>
+      <pubDate>Tue, 24 Apr 2018 14:02:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-04-24-entropia-inconmensurable/</guid>
+      <description>(Me pregunto cómo afectará al SEO una palabra de 15 letras en el título)Tradicionalmente, se ha venido midiendo la dificultad de las contraseñas con la entropía de Shannon. Así, el NIST define la entropía H como función de la longitud de la contraseña l y de longitud del alfabeto b, de tal forma que&amp;nbsp;El problema de esta medida es que no recoge correctamente la dificultad de las contraseñas en el mundo real.</description>
+    </item>
+    
+    <item>
+      <title>Generador Cuántico de Contraseñas</title>
+      <link>https://lunaticgeek.com/2015-02-24-generador-cuantico-de-contrasenas/</link>
+      <pubDate>Tue, 24 Feb 2015 12:10:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-02-24-generador-cuantico-de-contrasenas/</guid>
+      <description>A quién le gustan los números aleatorios?
+A mí me gustan los números aleatorios! Quizás sea por esa faceta mía de económetra o simplemente por frikismo pero siempre me han interesado los números aleatorios y las formas de calcularlos.
+En este sentido, soy un gran fan de Theodore Ts&#39;o, mantenedor del random.c de Linux, un módulo que permite producir números aleatorios a partir de la entropía que generan los periféricos del ordenador, principalmente del HDD, ratón y teclado.</description>
+    </item>
+    
+  </channel>
+</rss>

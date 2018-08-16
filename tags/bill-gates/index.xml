@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bill Gates on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/bill-gates/</link>
+    <description>Recent content in Bill Gates on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 12 Nov 2010 23:59:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/bill-gates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Las 11 reglas de oro de Bill Gates</title>
+      <link>https://lunaticgeek.com/2010-11-12-las-11-reglas-de-oro-de-bill-gates/</link>
+      <pubDate>Fri, 12 Nov 2010 23:59:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-11-12-las-11-reglas-de-oro-de-bill-gates/</guid>
+      <description>Aquí os dejo el undecálogo de Bill Gates. Las 11 reglas de oro de la vida.
+La vida no es justa, acostúmbrate a ello.Al mundo no le importará tu autoestima. El mundo esperará que logres algo, independientemente de que te sientas bien o no contigo mismo.No ganarás U$S 40000 mensuales justo después de haber salido de la preparatoria y no serás un vicepresidente hasta que con tu esfuerzo te hayas ganado ambos logros.</description>
+    </item>
+    
+  </channel>
+</rss>

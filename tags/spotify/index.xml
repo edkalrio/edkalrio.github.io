@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spotify on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/spotify/</link>
+    <description>Recent content in Spotify on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 19 Nov 2012 21:07:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Análisis de la beta privada de la web app de Spotify</title>
+      <link>https://lunaticgeek.com/2012-11-19-analisis-de-la-beta-privada-de-la-web/</link>
+      <pubDate>Mon, 19 Nov 2012 21:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-11-19-analisis-de-la-beta-privada-de-la-web/</guid>
+      <description>&amp;nbsp;Hace unos días que Spotify lanzó la primera beta privada de su aplicación web.
+
+No es un secreto que los miembros de este blog formamos parte de la beta privada de su aplicación para escritorio (windows) y de la beta pública de la versión nativa para Linux. Como no podía ser de otra forma, los de Spotify nos han permitido el acceso a su aplicación web y nuestra opinión sobre este nuevo servicio ha sido más que favorable y os lo contamos.</description>
+    </item>
+    
+    <item>
+      <title>2ª oportunidad a Spotify</title>
+      <link>https://lunaticgeek.com/2011-12-09-2-oportunidad-spotify/</link>
+      <pubDate>Fri, 09 Dec 2011 20:10:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-12-09-2-oportunidad-spotify/</guid>
+      <description>En este blog hemos sido bastante críticos con las políticas de empresa de Spotify y así lo podéis leer aquí, aquí y&amp;nbsp; sobre todo aquí.&amp;nbsp;
+Sin embargo, por todos es sabido que en este blog somo bastante chaqueteros y cambiamos de opinión a menudo. Pero es que el mundo de la informática avanza muy rápido y haciendo eses. No nos gustaron los cambios de cuentas y la pérdidada de privilegios para los usuarios free que llevábamos en Spotify desde la primera beta, cuando pudimos colarnos sin invitación por un error en el servidor de admisión.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu One aumenta de tamaño.</title>
+      <link>https://lunaticgeek.com/2011-07-28-ubuntu-one-aumenta-de-tamano/</link>
+      <pubDate>Thu, 28 Jul 2011 20:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-28-ubuntu-one-aumenta-de-tamano/</guid>
+      <description>Ubuntu One ha llegado al millón de usuarios registrados.¿Que haría un software de Microsoft para festejarlo? Algo parecido a Spotify (tu antes molabas &#34;spotty&#34;), seguro que lo ponía de pago o añadiria odiosas restricciones.Ubuntu One, a cambio, aumenta su capacidad de 2Gb a 5Gb para todos los usuarios gratuitos.¿Buena noticia, no? Pues aun hay mas, para los usuarios de Ubuntu One Music Streaming, la capacidad aumenta a 20Gb a un precio mensual de 3.</description>
+    </item>
+    
+    <item>
+      <title>Traición</title>
+      <link>https://lunaticgeek.com/2011-04-15-traicion/</link>
+      <pubDate>Fri, 15 Apr 2011 12:59:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-15-traicion/</guid>
+      <description>Estoy escuchando el Requiem de Verdi en Spotify para darle más dramatismo a un post, que siempre temí escribir y que ahora se hace realidad.&amp;nbsp;La política de empresa de Spotify respecto de las cuentas Open y Free ha cambiado para perjudicar a miles de usuarios fieles a este servicio que lucha contra la piratería. Como se puede leer en su blog,&amp;nbsp;Estos son los cambios:
+A partir del primero de mayo, cualquier usuario de Spotify Free o Open podrá escuchar gratis hasta 5 veces cada canción de nuestro catálogo.</description>
+    </item>
+    
+  </channel>
+</rss>

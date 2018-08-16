@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Fracasos con el Certificado Digital de la FNMT - Lunatic Geek</title>
+  <meta property="og:title" content="Fracasos con el Certificado Digital de la FNMT - Lunatic Geek" />
+  <meta name="twitter:title" content="Fracasos con el Certificado Digital de la FNMT - Lunatic Geek" />
+  <meta name="description" content="Hace mucho tiempo que disfruto de las ventajas que ofrece el certificado digital de persona física, emitido por la FNMT-RCM pero últimamente me he estado preguntando cuáles eran los límites de su capacidad de identificación y encriptación personales.
+Después de mucho trastear con él puedo decir sin temor a equivocarme que el certificado de la FNMT es útil pero muy aburrido y no nos permite realizar tareas más complejas que otros certificados cumplen sin ningún problema.">
+  <meta property="og:description" content="Hace mucho tiempo que disfruto de las ventajas que ofrece el certificado digital de persona física, emitido por la FNMT-RCM pero últimamente me he estado preguntando cuáles eran los límites de su capacidad de identificación y encriptación personales.
+Después de mucho trastear con él puedo decir sin temor a equivocarme que el certificado de la FNMT es útil pero muy aburrido y no nos permite realizar tareas más complejas que otros certificados cumplen sin ningún problema.">
+  <meta name="twitter:description" content="Hace mucho tiempo que disfruto de las ventajas que ofrece el certificado digital de persona física, emitido por la FNMT-RCM pero últimamente me he estado preguntando cuáles eran los límites de su …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2017-05-03-fracasos-con-el-certificado-digital-de/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Fracasos con el Certificado Digital de la FNMT</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2017-05-03</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/ssh/">
+						<i class="fas fa-tag"></i>
+						ssh
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/criptograf%C3%ADa/">
+						<i class="fas fa-tag"></i>
+						criptografía
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/openssl/">
+						<i class="fas fa-tag"></i>
+						openssl
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<br /><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="http://www.fnmt.es/documents/10179/23631/FNMT-RCM.jpg/3dec6277-21a2-4184-92cb-af0d89837628?t=1360229600810" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.fnmt.es/documents/10179/23631/FNMT-RCM.jpg/3dec6277-21a2-4184-92cb-af0d89837628?t=1360229600810" /></a></div><br />Hace mucho tiempo que disfruto de las ventajas que ofrece el certificado digital de persona física, emitido por la FNMT-RCM pero últimamente me he estado preguntando cuáles eran los límites de su capacidad de identificación y encriptación personales.</div><a name='more'></a><br /><div style="text-align: justify;">Después de mucho trastear con él puedo decir sin temor a equivocarme que el certificado de la FNMT es útil pero muy aburrido y no nos permite realizar tareas más complejas que otros certificados cumplen sin ningún problema.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Todos estos experimentos surgieron por casualidad, al descargarme un certificado de AWS para hacer un par de trabajos de cloud computing. Me di cuenta de que el certificado SSH tenía una extensión .pem, al igual que la versión desencriptada del de la FNMT (aunque originariamente se encuentra en .p12, hay que desencriptarlo para poder empezar a trabajar con él, ya que .p12 es un formato de tránsito, pensado para el transporte desde la autoridad certificadora (CA) hasta el titular (CN)).<br /><br />Entonces vi factible la posibilidad de poder conectarme por SSH a un host remoto con mi certificado FNMT. Qué ingenuo fui. La justificación a que esto no funcione se hace muy evidente después de indagar en la completa y extensísima documentación de OpenSSL. Desgraciadamente, .pem es sólo un contenedor que puede albergar un amplio espectro de información criptográfica: certificados, claves públicas, privadas, fingerprints, hashes y exóticas mezclas de todos estos componentes, que hacen que el arduo trabajo de la criptografía se vuelva incluso más esotérico, si cabe.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Es necesario aclarar que a partir de un certificado SSL se puede obtener uno SSH pero esta conversión no tiene sentido. Partiendo del certificado de la FNMT, podemos extraer por un lado el certificado propiamente dicho, que no es sino la clave pública y por otro lado podemos obtener la clave privada para acabar fundiéndolas y reformateándolas como un .pem, esta vez sí, con todos los requisitos para que nuestro servidor SSH nos permita identificarnos. Todo esto debe ser considerado un fracaso porque la transformación que ha sufrido el certificado es tan radical que no se parece en nada al original por lo que su utilidad se queda reducida a la que nos aportaría uno creado de cero, sin que guardara ninguna relación con nuestro certificado digital.<br /><br /><h4>TL;DR</h4><i>Voy a describir el proceso por curiosidad morbosa. El primer paso es extraer las claves del paquete .p12 original:</i><br /><pre>openssl pkcs12 -in fnmt.p12 -out fnmtpriv.pem -nodes -nocerts</pre><pre>openssl pkcs12 -in fnmt.p12 -out fnmtpub.pem -nodes -nokeys</pre><i>La clave privada, fnmtpriv.pem está en formato PKCS8, no soportado por SSH, así que lo transformamos, recortando todo el sobrante con el comando</i><br /><pre>openssl rsa -in fnmtpriv.pem -out id_rsa</pre><i>En el caso de la clave pública, podríamos derivarla de la privada, pero prefiero obtenerla de la transformación del certificado original para que la derivación me sirva como operación de comprobación.</i><br /><pre>openssl x509 -in fnmtpub.pem -pubkey -noout &gt; fnmt.pub</pre><pre>ssh-keygen -i -m PKCS8 -f fnmt.pub &gt; id_rsa.pub</pre><i>Con el primer comando, extraemos la clave pública del certificado que contiene más datos que no vamos a necesitar y con el segundo convertimos esa clave en una admitida por SSH. Como ya se ha comentado, el resultado de estas operaciones nada tiene que ver con el archivo original. Esto añadido a su complejidad, que implica la utilización de 4 programas y su poca utilidad, lo considero un fracaso.</i><br /><br /></div><div style="text-align: justify;">Después de semejante fallo, se me ocurrió utilizar mi certificado en su estado original, esto es OpenSSL, para lo que todo el mundo utiliza mayoritariamente OpenSSL, crear conexiones seguras a servidores web mediante HTTPS. También fracasé. Esta vez, la culpa no fue del propio funcionamiento y naturaleza de los certificados, sino de una imposición directa de la FNMT, como averigüé después de perder incontables horas en esta vacua tarea. En principio, al no estar pensado para este tipo de requerimientos, tuve que reensamblar toda la cadena de certificados que nos permite desarrollar un modelo de chain of trust, es decir, encontrar al firmante de mi certificado digital (AC FNMT Usuarios), buscar el certificado desde el que se firmó y volver a repetir esa operación hasta el certificado raiz que se firma a sí mismo (AC RAIZ FNMT-RCM). Luego hay que concatenar todos esos certificados en lo que parece un árbol genealógico para que el navegador pueda rastrear la validez de cada certificado hasta llegar a uno en el que verdaderamente confíe. Al acabar todo este peregrinaje, no funcionaba porque es necesario que el common name (CN) del certificado de la FNMT coincida con el dominio de la web segura que queramos desarrollar. Obviamente, el CN de mi certificado digital es mi propio nombre, así que nada de esto podría funcionar y sin embargo se podría ampliar el concepto de chain of trust creando otro certificado con el correspondiente CN, firmado por el mío. Aquí es donde enlazo con el principio, cuando culpo a la FNMT, porque los certificados digitales que emite están configurados deliberadamente para que no se conviertan en autoridades certificadoras (AC) y puedan firmar otros certificados, dejando mi experimento inconcluso. En realidad, todo esto se puede resumir en la salida del siguiente comando, que nos revela que no podemos firmar otros.<br /><pre>openssl x509 -purpose -in fnmt.pem</pre></div><div style="text-align: justify;">Una vez conseguí reponerme del ridículo de fracasar no una sino dos veces, tome la decisión de utilizar el certificado de nuevo para una tarea sin demasiado sentido pero que iba a conseguir a toda costa, como premio de consolación por los errores pasados... pero tampoco puedo asegurar que haya tenido demasiado éxito en este nueva empresa.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Nadie utiliza PGP, el mecanismo para firmar o encriptar correos electrónicos. Tengo un par de claves desde hace años y sólo las he utilizado una vez, para un correo interno de Canonical, que me lo exigía. Tampoco conozco a nadie que lo haya usado nunca y en internet el <a href="https://blog.filippo.io/giving-up-on-long-term-pgp/" rel="nofollow">pesimismo sobre PGP</a> es unánime. Si este es el panorama para el protocolo más utilizado, imaginaos por un momento la situación de su hermano tonto, el standard incluso menos utilizado, S/MIME, cuya única ventaja es que es compatible con el certificado de la FNMT. Al final he conseguido mandar un un email firmado con mi certificado pero considero a esto una victoria pírrica por múltiples motivos. El primero y quizás más importante es que el propio concepto de S/MIME es defectuoso. Es una complicación innecesaria que no aporta demasiada seguridad extra si tenemos en cuenta que no encripta de punto a punto como en el caso de PGP sino a través de una autoridad certificadora. Es por esto que solo se usa en entornos corporativos, para que los jefes tengan acceso al contenido de los emails de sus trabajadores. Es un concepto poco ético y técnicamente peligroso porque crea un innecesario single point of failure. Si ha esto le añadimos que su uso se hace en el marco de VPNs o se tiene acceso a clientes mail web por TLS, la seguridad que aporta es redundante e innecesaria pero es que además es terriblemente difícil. Cuando empecé este ultimo experimento, pensé ingenuamente que sería el más sencillo y ha resultado ser el más complejo. Infinitamente más que utilizar PGP, por si alguien se lo está preguntando aunque también he de reconocer que lo he hecho todo de forma manual para poder utilizarlo directamente con Gmail, sin acudir a clientes que seguramente faciliten muchísimo toda la operativa (thunderbird, pero no me apetecía usarlo).<br /><br /></div><div style="text-align: justify;"><h4>TL;DR</h4><i>Una vez conoces el proceso, no es demasiado largo. El problema es enlazar todas las partes de la documentación para enterarse de todos los pasos. Afortunadamente, ese arduo trabajo de documentación ya lo he hecho yo y os lo dejo todo a punto para empezar a usar (pero no lo uses, en serio).</i><br /><i><br /></i> <i>El proceso de firma a un mensaje situado en la misma carpeta y denominado email.txt no tiene complicación:</i><br /><pre>openssl smime -sign -signer fnmt.pem -in email.txt</pre><i>donde fnmt.pem es nuestro certificado, descomprimido de su original paquete de transporte .p12, del que ya he hablado anteriormente. A este comando le podemos agregar las típicas flags de -from y -to para completar las cabeceras del email.</i><br /><i><br /></i> <i>La complicación viene del lado del receptor, que quiera comprobar la integridad del mensaje, así como su autoría. Para ello habrá que añadir a la carpeta de certificados (/usr/lib/ssl/certs) el&nbsp;FNMTClase2CA.pem. Hasta ahí, todo normal, aunque no funcionaría porque OpenSSL no puede leerlo a no ser que el certificado lleve como nombre su hash y la extensión .0. Pocas veces he encontrado absurdeces esotéricas e incomprensibles como esta en Linux. Lo más aconsejable es crear un link simbólico al certificado para que este no tenga que perder su nombre entre tanto numero. Con el siguiente comando se hace sin complicaciones.</i><br /><pre>sudo ln -s FNMTClase2CA.pem `openssl x509 -hash -noout <br />-in FNMTClase2CA.pem`.0</pre><div><div><pre>sudo ln -s AC_FNMT_Usuarios.pem `openssl x509 -hash -noout <br />-in AC_FNMT_Usuarios.pem`.0</pre></div></div><div><div><pre>sudo ln -s AC_Raiz_FNMT-RCM_SHA256.pem `openssl x509 -hash -noout <br />-in AC_Raiz_FNMT-RCM_SHA256.pem`.0</pre><i>Finalmente, solo hace falta verificar el email mediante</i></div></div><div><pre>openssl smime -verify -in email.txt&nbsp;</pre></div></div><div style="text-align: justify;"><i>Por si no fuera poco, toda esta tarea tiene un punto débil que hace que sea totalmente insegura y desaconsejable. Por la forma en la que funciona OpenSSL, esta verificación es puramente matemática, es decir, se asegura el origen, o lo que es lo mismo, se asegura de que el mensaje está firmado por un certificado procedente de una autoridad certificadora, pero todo esto es stateless, no tiene en cuenta la posible revocación del certificado por el usuario. Esto habría que hacerlo mirando las listas de revocación de certificados del servidor de la autoridad certificadora, mediante peticiones de OCSP. Aparte de la complejidad que esto supone, estas peticiones no se realizan por canales seguros por lo que nadie está libre de poder sufrir ataques MitM que arruinen toda la verificación. S/MIME es así, una auténtica mierda, un callejón sin salida dentro de un callejón sin salida dentro de otro callejón sin salida que forman una espiral autodestructiva que me ha llegado a desquiciar.</i><br /><br />La moraleja de esta historia de miedo es que el certificado digital solo se puede usar dentro de los limitados y aburridos márgenes que establece la Administración y con las herramientas que esta ofrece, algo que cualquiera se habría imaginado, pero yo tenía que ser el tonto útil que se asegurase de esta gran evidencia. Al menos he aprendido un par de cosas útiles.<br /><br />Fuente: man {ca, genrsa, ocsp, openssl, pkcs7, pkcs12, rsa, smime, ssh, ssh-keygen, ssl, verify, x509}</div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

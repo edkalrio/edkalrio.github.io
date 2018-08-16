@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Generador Cuántico de Contraseñas - Lunatic Geek</title>
+  <meta property="og:title" content="Generador Cuántico de Contraseñas - Lunatic Geek" />
+  <meta name="twitter:title" content="Generador Cuántico de Contraseñas - Lunatic Geek" />
+  <meta name="description" content="A quién le gustan los números aleatorios?
+A mí me gustan los números aleatorios! Quizás sea por esa faceta mía de económetra o simplemente por frikismo pero siempre me han interesado los números aleatorios y las formas de calcularlos.
+En este sentido, soy un gran fan de Theodore Ts&#39;o, mantenedor del random.c de Linux, un módulo que permite producir números aleatorios a partir de la entropía que generan los periféricos del ordenador, principalmente del HDD, ratón y teclado.">
+  <meta property="og:description" content="A quién le gustan los números aleatorios?
+A mí me gustan los números aleatorios! Quizás sea por esa faceta mía de económetra o simplemente por frikismo pero siempre me han interesado los números aleatorios y las formas de calcularlos.
+En este sentido, soy un gran fan de Theodore Ts&#39;o, mantenedor del random.c de Linux, un módulo que permite producir números aleatorios a partir de la entropía que generan los periféricos del ordenador, principalmente del HDD, ratón y teclado.">
+  <meta name="twitter:description" content="A quién le gustan los números aleatorios?
+A mí me gustan los números aleatorios! Quizás sea por esa faceta mía de económetra o simplemente por frikismo pero siempre me han interesado los números …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2015-02-24-generador-cuantico-de-contrasenas/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Generador Cuántico de Contraseñas</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2015-02-24</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/rng/">
+						<i class="fas fa-tag"></i>
+						RNG
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<div class="separator" style="clear: both; text-align: center;"><a href="http://assets.amuniversal.com/321a39e06d6401301d80001dd8b71c47" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://assets.amuniversal.com/321a39e06d6401301d80001dd8b71c47" height="118" width="400" /></a></div><span style="text-align: justify;">A quién le gustan los números aleatorios?</span><br /><a name='more'></a><span style="text-align: justify;"><br /></span><span style="text-align: justify;">A mí me gustan los números aleatorios! Quizás sea por esa faceta mía de económetra o simplemente por frikismo pero siempre me han interesado los números aleatorios y las formas de calcularlos.</span><br /><div style="text-align: justify;"><br /></div><div style="text-align: justify;">En este sentido, soy un gran fan de Theodore Ts'o, mantenedor del random.c de Linux, un módulo que permite producir números aleatorios a partir de la entropía que generan los periféricos del ordenador, principalmente del HDD, ratón y teclado. Por otra parte, el <span style="font-family: Courier New, Courier, monospace;">random.c</span> de Minix 3 se encuentra entre mis códigos favoritos, tanto por su funcionalidad como por la manera en la que está diseñado y documentado, siguiendo todas las últimas tendencias en este área y reflejando a la perfección el estado del arte de los RNGs.<br /><br /></div><div style="text-align: justify;">Además de la evidente finalidad lúdica de los números aleatorios, su utilidad en la informática es vital y sobre ellos se asientan las bases de la criptografía. La generación de números aleatorios es fundamental para la computación de claves para SSH, openSSL, etc. y sin embargo no se pueden generar números verdaderamente aleatorios mediante algoritmos. Por eso, es de vital importancia la forma en la que se producen.&nbsp;</div><br /><div style="text-align: justify;"><a href="http://qrng.anu.edu.au/Pictures/optics.jpg" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" src="http://qrng.anu.edu.au/Pictures/optics.jpg" height="239" style="cursor: move;" width="320" /></a>Pero el motivo de este post va más allá de comentar por encima estas anécdotas informáticas. El verdadero propósito es hablar de <a href="https://github.com/edkalrio/qey">QEY</a>, un script ultraminimalista que he programado en un rato libre. La función de QEY es generar contraseñas alfanuméricas aleatorias y para ello no utiliza un algoritmo pseudoaleatorio ni <span style="font-family: Courier New, Courier, monospace;">/dev/random</span>, ese pool de entropía generado por <span style="font-family: Courier New, Courier, monospace;">random.c</span>. He querido ir más allá y he decidido recurrir a la fuente de aleatoriedad más pura que he encontrado. El <a href="http://qrng.anu.edu.au/" rel="nofollow">RNG</a> cuántico de la Australian National University que utiliza como fuente de entropía las diferencias energéticas, que surgen al bifurcar un rayo láser.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">No hay ninguna necesidad de este despliegue de medios, pero siempre he sido bastante exagerado en este tema y ha sido muy fácil de programar. Mucha gente recurre habitualmente a <a href="http://random.org/">random.org</a> porque también utiliza la indeterminación cuántica como fuente de entropía pero su API es un coñazo y su ancho de banda es menor que el de la ANU.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">La instalación es tan sencilla como ejecutar en un terminal los comandos</div><pre>git clone https://github.com/edkalrio/qey.git<br />cp ~/qey/qey.sh /usr/bin/qey<br />sudo chmod +x /usr/bin/qey<br /></pre><div style="text-align: justify;">Esto último lleva el ejecutable a una carpeta vinculada a <span style="font-family: Courier New, Courier, monospace;">$PATH</span> para que no haya que dirigirse a la dirección cada vez que queramos ejecutarlo. Sólo hay que teclear</div><pre>qey</pre><div style="text-align: justify;">La longitud predeterminada es de 12 caracteres, porque es la recomendada por los expertos en criptografía pero en el caso de querer una contraseña de otra extensión, es tan sencillo como especificarlo como un argumento al comando. Por ejemplo, Para una WPA2 de 64 caracteres habría que ejecutar</div><pre>qey 64</pre><div style="text-align: justify;">El límite máximo (aunque no suele alcanzar ese valor) es 1024 caracteres! Lo mejor de este script es que se puede pipear para enlazarlo con otros programas. Las posibilidades son ilimitadas.</div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

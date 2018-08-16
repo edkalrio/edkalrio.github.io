@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>RTFM - Lunatic Geek</title>
+  <meta property="og:title" content="RTFM - Lunatic Geek" />
+  <meta name="twitter:title" content="RTFM - Lunatic Geek" />
+  <meta name="description" content="Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto Elbinario). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.">
+  <meta property="og:description" content="Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto Elbinario). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.">
+  <meta name="twitter:description" content="Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2018-07-13-rtfm/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">RTFM</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2018-07-13</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						Unix
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/tor/">
+						<i class="fas fa-tag"></i>
+						Tor
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<div class="separator" style="clear: both; text-align: center;"><a href="https://www.torproject.org/images/onion.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://www.torproject.org/images/onion.jpg" /></a></div><span style="font-family: inherit; text-align: justify;"><br /></span><br /><div style="text-align: justify;"><span style="font-family: inherit; text-align: justify;"><span style="font-family: inherit;">Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto <a href="http://binario5yvaed5ie.onion/" rel="nofollow" target="_blank">Elbinario</a>). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.</span></span></div><span style="font-family: inherit; text-align: justify;"></span><div style="text-align: justify;"><div style="text-align: justify;"><span style="font-family: inherit;"></span></div><a name='more'></a></div><div style="text-align: justify;"><div style="text-align: justify;"><span style="font-family: inherit;">El caso es que mientras desplegaba el servidor se me ocurrió que sería buena idea escribir un tutorial sobre la configuración y montaje de los onion services. A pesar de eso, reflexionando sobre el tema me di cuenta de que los tutoriales no son la mejor opción didáctica si seguimos la filosofía UNIX. Porque ya está todo inventado y mucho antes de cualquier HowTo de youtubers existía el manual en </span><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">man</span><span style="font-family: inherit;">, uno de mis programas favoritos. Así que a partir de ahora, los pocos tutoriales que publique estarán disponibles en formato man para su disfrute offline en nuestro emulador de terminal favorito.</span></div></div><div style="text-align: justify;"><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div></div><div style="text-align: justify;"><div style="text-align: left;"><span style="font-family: inherit;">Para obtener estos manuales, clonamos el proyecto de Github</span></div></div><div style="text-align: justify;"><div style="text-align: left;"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">sudo git clone https://github.com/edkalrio/man.git /usr/share/man/tutoriales</span></div></div><div style="text-align: justify;"><div style="text-align: left;"><span style="font-family: inherit;">Cuando cuelgue algún tutorial más, solo hay que actualizar con </span></div></div><div style="text-align: justify;"><div style="text-align: left;"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">sudo git pull</span></div></div><div style="text-align: justify;"><div style="text-align: left;"><span style="font-family: inherit;">Para ver mi dichoso tutorial, que provocó toda esta locura hay que ejecutar</span></div></div><div style="text-align: justify;"><div style="text-align: left;"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">man 7 tor</span></div></div><div style="text-align: justify;"><div style="text-align: left;"><br /></div></div><div style="text-align: left;">Y ya podéis acceder a través de Tor <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion/">http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion</a></div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

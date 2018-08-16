@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editorial on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/editorial/</link>
+    <description>Recent content in Editorial on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 19 Dec 2010 14:04:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/editorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NO a la Ley Sinde</title>
+      <link>https://lunaticgeek.com/2010-12-19-no-la-ley-sinde/</link>
+      <pubDate>Sun, 19 Dec 2010 14:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-12-19-no-la-ley-sinde/</guid>
+      <description>No suele ser normal en este blog escribir artículos de opinión política, pero creo que esto merece unos minutos, ya que es algo que nos afecta a todos.Internet, como lo conocíamos hasta ahora, era un medio de expresión, un sitio donde podíamos decir lo que pensábamos, nuestras ideologías, compartir cultura... pero eso está por llegar a su fin.
+Gracias a la Ley Sinde, toda web que les de la gana podrá ser cerrada sin orden judicial.</description>
+    </item>
+    
+  </channel>
+</rss>

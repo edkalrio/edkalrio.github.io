@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moore on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/moore/</link>
+    <description>Recent content in Moore on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 21 Jan 2015 13:57:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/moore/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los límites de la computación</title>
+      <link>https://lunaticgeek.com/2015-01-21-los-limites-de-la-computacion/</link>
+      <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-01-21-los-limites-de-la-computacion/</guid>
+      <description>Ayer estuve hablando de ordenadores (a alguien le sorprende?) con un amigo y me preguntó sobre el futuro de la computación. Quería saber hasta cuándo se iba a poder fabricar mejores procesadores. Sin saberlo, me estaba preguntando por el fin de la Ley de Moore.&amp;nbsp;
+Personalmente, no creo que la Ley de Moore vaya a agotarse en un futuro cercano. Físicos, matemáticos e ingenieros llevan prediciendo su extinción desde antes de que yo naciera y la realidad siempre les ha llevado la contraria.</description>
+    </item>
+    
+  </channel>
+</rss>

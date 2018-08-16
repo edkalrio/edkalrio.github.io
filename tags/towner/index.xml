@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Towner on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/towner/</link>
+    <description>Recent content in Towner on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 28 Aug 2010 16:50:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/towner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mantenimiento tras mantenimiento en Tuenti</title>
+      <link>https://lunaticgeek.com/2010-08-28-mantenimiento-tras-mantenimiento-en/</link>
+      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-28-mantenimiento-tras-mantenimiento-en/</guid>
+      <description>Parece que Tuenti sigue haciendo de las suyas, y no descansa ni los sábados...Lastima que estas cosas las hagan despues de comer...Facebook pone el mantenimiento de sus juegos sobre las 11 o así de la mañana... Cosa que para España pilla un poco mal, pero si lo pensamos, Facebook es EstadoUnidense, con lo cual esas horas en la Península Ibérica corresponde a la madrugada allí, así que vale, tienen disculpa.</description>
+    </item>
+    
+  </channel>
+</rss>

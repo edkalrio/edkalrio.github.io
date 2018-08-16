@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maxtor on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/maxtor/</link>
+    <description>Recent content in Maxtor on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 02 Aug 2010 17:38:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/maxtor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Filosofia de unos bits</title>
+      <link>https://lunaticgeek.com/2010-08-02-filosofia-de-unos-bits/</link>
+      <pubDate>Mon, 02 Aug 2010 17:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-02-filosofia-de-unos-bits/</guid>
+      <description>Hoy en dia, todos guardamos nuestros datos en un disco duro... fotos personales, trabajos, documentos importantes... cosas que son totalmente irreemplazables... Luego otros datos que son de menor importancia, pero que tambien fastidian: Musica, juegos, drivers y programas para una correcta reinstalacion del SO...Dependiendo de personas, estos archivos pueden existir en mayor o menos cantidad, pero todo el mundo confia sus datos a un dispositivo de almacenamiento, ya sea un Disco Duro Interno o Externo, Memoria flash o DVD.</description>
+    </item>
+    
+  </channel>
+</rss>

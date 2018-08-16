@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chromium on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/chromium/</link>
+    <description>Recent content in Chromium on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 01 Sep 2010 23:21:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/chromium/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chromium empezará a usar la GPU para acelerar la navegación.</title>
+      <link>https://lunaticgeek.com/2010-09-01-chromium-empezara-usar-la-gpu-para/</link>
+      <pubDate>Wed, 01 Sep 2010 23:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-01-chromium-empezara-usar-la-gpu-para/</guid>
+      <description>Como podemos leer en The Chromium Blog, llevan tiempo optimizando cada vez mas este navegador. Una de las cosas que están probando actualmente es la aceleración utilizando los potentes chips gráficos que existen hoy en día.Para ello, siguen con la mecánica de crear diferentes procesos a los diferentes trabajos, que en este caso lo denominan &#34;GPU process&#34;Si quieres mas información, no dejes de consultar este documento.</description>
+    </item>
+    
+  </channel>
+</rss>

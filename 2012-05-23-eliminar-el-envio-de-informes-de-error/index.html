@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Eliminar el envío de informes de error en Ubuntu 12.04 - Lunatic Geek</title>
+  <meta property="og:title" content="Eliminar el envío de informes de error en Ubuntu 12.04 - Lunatic Geek" />
+  <meta name="twitter:title" content="Eliminar el envío de informes de error en Ubuntu 12.04 - Lunatic Geek" />
+  <meta name="description" content="Probablemente, si sois usuarios de Ubuntu 12.04, os&nbsp;habréis&nbsp;dado cuenta de que, una de las nuevas funciones añadidas es el&nbsp;envío&nbsp;de informes&nbsp;automáticos&nbsp;cuando ocurre un error.
+
+Esto, la verdad, es que no les ha quedado muy bien, pues cada poco tiempo aparece la pantalla, muchas de las veces, por colgarse el mismo gestor de errores.
+Esto puede ser un poco molesto, estar trabajando, o, simplemente sin hacer nada en el equipo y que aparezca el error, por lo que investigué, y como no había una&nbsp;solución&nbsp;razonable a los fallos, opté por la solución secundaria: Deshabilitar dicho&nbsp;envío&nbsp;de información.">
+  <meta property="og:description" content="Probablemente, si sois usuarios de Ubuntu 12.04, os&nbsp;habréis&nbsp;dado cuenta de que, una de las nuevas funciones añadidas es el&nbsp;envío&nbsp;de informes&nbsp;automáticos&nbsp;cuando ocurre un error.
+
+Esto, la verdad, es que no les ha quedado muy bien, pues cada poco tiempo aparece la pantalla, muchas de las veces, por colgarse el mismo gestor de errores.
+Esto puede ser un poco molesto, estar trabajando, o, simplemente sin hacer nada en el equipo y que aparezca el error, por lo que investigué, y como no había una&nbsp;solución&nbsp;razonable a los fallos, opté por la solución secundaria: Deshabilitar dicho&nbsp;envío&nbsp;de información.">
+  <meta name="twitter:description" content="Probablemente, si sois usuarios de Ubuntu 12.04, os&nbsp;habréis&nbsp;dado cuenta de que, una de las nuevas funciones añadidas es el&nbsp;envío&nbsp;de informes&nbsp;automáticos&nbsp;cuando ocurre un …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2012-05-23-eliminar-el-envio-de-informes-de-error/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Eliminar el envío de informes de error en Ubuntu 12.04</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2012-05-23</time></li>
+			</ul>
+			
+			<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-bPMzFbkgo5E/T70YagmBDOI/AAAAAAAAH5w/wnD-REiD7uw/s1600/545051_453173064708580_100000476701455_1750280_1275214341_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="136" src="http://4.bp.blogspot.com/-bPMzFbkgo5E/T70YagmBDOI/AAAAAAAAH5w/wnD-REiD7uw/s400/545051_453173064708580_100000476701455_1750280_1275214341_n.jpg" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div>Probablemente, si sois usuarios de Ubuntu 12.04, os&nbsp;habréis&nbsp;dado cuenta de que, una de las nuevas funciones añadidas es el&nbsp;envío&nbsp;de informes&nbsp;automáticos&nbsp;cuando ocurre un error.<br /><a name='more'></a><br />Esto, la verdad, es que no les ha quedado muy bien, pues cada poco tiempo aparece la pantalla, muchas de las veces, por colgarse el mismo gestor de errores.<br /><br />Esto puede ser un poco molesto, estar trabajando, o, simplemente sin hacer nada en el equipo y que aparezca el error, por lo que investigué, y como no había una&nbsp;solución&nbsp;razonable a los fallos, opté por la solución secundaria: Deshabilitar dicho&nbsp;envío&nbsp;de información.<br />Para ello solo tenemos que:<br />-Editar el siguiente archivo:<b>&nbsp;sudo nano /etc/default/apport</b><br />-Modificar la linea&nbsp;<b>enabled=1</b> por&nbsp;<b>enabled=0</b> y listo, ya no saldrán las veces el&nbsp;envío&nbsp;de informes de error.<br />-Con reiniciar el equipo ya no aparecerá mas dicha ventana de&nbsp;envío&nbsp;de error.<br /><br />Espero que os haya sido de ayuda.
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

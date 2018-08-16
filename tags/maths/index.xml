@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maths on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/maths/</link>
+    <description>Recent content in Maths on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 26 Mar 2014 20:05:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/maths/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cálculo mental para informáticos</title>
+      <link>https://lunaticgeek.com/2014-03-26-calculo-mental-para-informaticos/</link>
+      <pubDate>Wed, 26 Mar 2014 20:05:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-03-26-calculo-mental-para-informaticos/</guid>
+      <description>Los ordenadores se crearon para ayudarnos en tareas de cálculo muy avanzadas y tediosas pero ese propósito inicial ha degenerado en el abandono total del cálculo mental. Me incluyo entre los que utilizan una calculadora hasta para las operaciones más básicas, no porque no pudiera hacerlas mentalmente sino por pura vagancia. Sin embargo hay un conjunto de operaciones que todos los informáticos deberían saber. En este post voy a cubrir el paso de bits a Bytes, los prefijos y la conversión de números decimales a binarios y hexadecimales.</description>
+    </item>
+    
+  </channel>
+</rss>

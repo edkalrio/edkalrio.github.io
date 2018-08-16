@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ai/</link>
+    <description>Recent content in Ai on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 May 2017 13:56:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AlphaGo derrota a Kē Jié</title>
+      <link>https://lunaticgeek.com/2017-05-23-alphago-derrota-ke-jie/</link>
+      <pubDate>Tue, 23 May 2017 13:56:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-05-23-alphago-derrota-ke-jie/</guid>
+      <description>Ya se ha producido el primer partido del&amp;nbsp;Future of Go Summit, con la victoria de AlphaGo, la red neuronal de Google contra el número uno del mundo,&amp;nbsp;Kē Jié.
+Me parece incomprensible que ningún blog esté cubriendo la noticia más importante de inteligencia artificial de este año. Solo The Verge&amp;nbsp;se ha preocupado de escribir unas líneas sobre un acontecimiento que sienta las bases del futuro de la informática.Excited to watch the 1st match between Ke Jie and #AlphaGo kick off tonight at 7:30pm PT!</description>
+    </item>
+    
+  </channel>
+</rss>

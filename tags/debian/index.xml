@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/debian/</link>
+    <description>Recent content in Debian on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 25 Jul 2014 18:21:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manía de apt-get</title>
+      <link>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</link>
+      <pubDate>Fri, 25 Jul 2014 18:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</guid>
+      <description>Sólo una breve reflexión sobre los bloggers.
+Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.</description>
+    </item>
+    
+    <item>
+      <title>Instalar los drivers de Nvidia en Debian</title>
+      <link>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</link>
+      <pubDate>Sun, 26 Aug 2012 23:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</guid>
+      <description>El otro&amp;nbsp;día&amp;nbsp;os explicamos cómo&amp;nbsp;podíais&amp;nbsp;instalar Wine desde PPA en vuestro sistema Debian.
+Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&amp;nbsp;algún&amp;nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
+Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
+Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:</description>
+    </item>
+    
+    <item>
+      <title>Instalar Wine en Debian</title>
+      <link>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</link>
+      <pubDate>Thu, 23 Aug 2012 16:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</guid>
+      <description>Cómo instalar Wine en Debian 6
+
+Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras distribuciones. El caso es que ayer estaba probando Debian, haciendo pruebas con Lunaticgeek Utilities, cuando llegó el momento de instalar Wine. En la web de Winehq no viene gran cosa sobre como instalarlo en debian, salvo que lo compiles por tu cuenta, cosa que si eres un usuario avanzado está bien, pero no todo el mundo sabe hacerlo, ni tiene tiempo para ponerse con ello.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup Manager on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/backup-manager/</link>
+    <description>Recent content in Backup Manager on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 03 Sep 2010 16:32:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/backup-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Se anuncia Backup Manager 1.1 con varias mejoras</title>
+      <link>https://lunaticgeek.com/2010-09-03-se-anuncia-backup-manager-11-con-varias/</link>
+      <pubDate>Fri, 03 Sep 2010 16:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-03-se-anuncia-backup-manager-11-con-varias/</guid>
+      <description>Se anuncia ya la primera actualizacion del Backup Manager, de mano de los creadores de PSJailbreak.Entre otras, las novedades mas destacables son:• Support for all firmware.• Support for NTFS.• Supports Blu-ray and MKV.• Support for PSX and PS2 games.ChipSpain ha dado mas detalles al respecto:• NFTS Support• New version of Backup Manager 1.1 (OK)• Compatible with all PS3 firmware• Compatible with Blu-ray backups, PS2 and PSX.• Auto Updater via your PC.</description>
+    </item>
+    
+  </channel>
+</rss>

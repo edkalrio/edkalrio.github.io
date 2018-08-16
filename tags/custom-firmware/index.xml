@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom Firmware on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/custom-firmware/</link>
+    <description>Recent content in Custom Firmware on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 19 Sep 2010 21:22:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/custom-firmware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Destino: PS3 Custom Firmware</title>
+      <link>https://lunaticgeek.com/2010-09-19-destino-ps3-custom-firmware/</link>
+      <pubDate>Sun, 19 Sep 2010 21:22:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-19-destino-ps3-custom-firmware/</guid>
+      <description>Hace 2 días se anuncia la posibilidad de emular un firmware en la PS3. Una gran noticia para los que hemos apostado por FW 3.41 y no nos dejamos engatusar por la &#34;increíble&#34; 3.42, pues ahora podemos emular una 3.42, una 3.50 y probablemente cualquier firmware posterior, desde un USB sin arriesgarnos a perder la garantía, ni a estropear la consola.Este scene está creado por un scener español (oh yeah) y aun está en fase beta, pero funcional.</description>
+    </item>
+    
+  </channel>
+</rss>

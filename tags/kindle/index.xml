@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kindle on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/kindle/</link>
+    <description>Recent content in Kindle on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 21 Oct 2014 20:20:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El panel 5K del iMac</title>
+      <link>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</link>
+      <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</guid>
+      <description>Acaba de salir un nuevo modelo de iMac de 27&#34; y una definición monstruosa que llega a los 5K. Cada vez, más fabricantes optan por paneles de altísimas resoluciones y precios desorbitados. Ya se empiezan a ver TVs 4K a precios razonables e incluso Amazon ha actualizado el Kindle con una densidad de 300ppi.
+En este contexto, hay que plantearse la utilidad de todo esto y la repercusión que tiene en el precio.</description>
+    </item>
+    
+    <item>
+      <title>Libros para el Verano</title>
+      <link>https://lunaticgeek.com/2013-07-31-libros-para-el-verano/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-07-31-libros-para-el-verano/</guid>
+      <description>Miles de personas comienzan mañana sus vacaciones estivales para disfrutar de un merecido descanso después de un largo año de trabajo.
+Parece que se ha convertido en&amp;nbsp;tradición&amp;nbsp;que escriba este post para hacer unas recomendaciones literarias —frikis, por supuesto—&amp;nbsp;para disfrutar durante las vacaciones en un libro electrónico o tablet. Algunos de los que voy a proponer están en inglés, otros tienen copyright pero todos merecen la pena:The Power of Open</description>
+    </item>
+    
+    <item>
+      <title>Libros para el Verano</title>
+      <link>https://lunaticgeek.com/2012-07-31-libros-para-el-verano/</link>
+      <pubDate>Tue, 31 Jul 2012 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-07-31-libros-para-el-verano/</guid>
+      <description>Miles de personas comienzan mañana sus vacaciones estivales para disfrutar de un merecido descanso después de un largo año de trabajo.Parece que se ha convertido en tradición que escriba este post para hacer unas recomendaciones literarias —frikis, por supuesto—&amp;nbsp;para disfrutar durante las vacaciones en un libro electrónico o tablet. Algunos de los que voy a proponer están en inglés, otros tienen copyright pero todos merecen la pena:The C Programming Language&amp;nbsp;Steve JobsThe GNU Hurd Reference ManualGNU Emacs ManualSistemas Operativos, Diesño e ImplementaciónManual de desobediencia a la Ley SindeLinux from ScratchLa ética del hackerInternet Hackers y Software libreNo podía dejar escapar este momento para confirmar que lunaticgeek.</description>
+    </item>
+    
+  </channel>
+</rss>

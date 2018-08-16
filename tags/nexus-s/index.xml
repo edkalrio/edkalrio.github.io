@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nexus S on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/nexus-s/</link>
+    <description>Recent content in Nexus S on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 19 Oct 2011 13:08:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/nexus-s/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galaxy Nexus &amp; Android 4</title>
+      <link>https://lunaticgeek.com/2011-10-19-galaxy-nexus-android-4/</link>
+      <pubDate>Wed, 19 Oct 2011 13:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-19-galaxy-nexus-android-4/</guid>
+      <description>Sólo a Google se le ocurre hacer una conferencia en Hong Kong para que aquí sean las 4 de la mañana y me quede sin verla.&amp;nbsp;Todavía estamos a la espera de que cuelguen el video íntegro de la conferencia para poder disfrutar con la presentación del nuevo modelo de smartphone que google produce, junto con Samsung. El Galaxy Nexus, anteriormente conocido como Nexus Prime es el nombre del renovado terminal que se pone a la altura del Galaxy S II con unas prestaciones que asustan:Android 4 Ice Cream Sandwich.</description>
+    </item>
+    
+    <item>
+      <title>El mundo al Revés</title>
+      <link>https://lunaticgeek.com/2011-01-26-el-mundo-al-reves/</link>
+      <pubDate>Wed, 26 Jan 2011 19:43:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-01-26-el-mundo-al-reves/</guid>
+      <description>Desde que empecé a publicar el blog he estado escribiendo sobre lo malos que son algunos y lo buenos que son otros. Ese maniqueísmo ha llevado a que algunos compañeros me critiquen y acusen de tendencioso.Escribo este post para demostrar a todo el mundo que soy perfectamente objetivo al analizar las noticias y sucesos tecnológicos.
+En este post redentor, voy a empezar por microsoft. Empresa que odio profundamente desde que lanzaron windows vista.</description>
+    </item>
+    
+    <item>
+      <title>Google Nexus S</title>
+      <link>https://lunaticgeek.com/2010-12-06-google-nexus-s/</link>
+      <pubDate>Mon, 06 Dec 2010 19:52:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-12-06-google-nexus-s/</guid>
+      <description>Se acaba de hacer público el nuevo smartphone que Google ha desarrollado en colaboración con Samsung y ya sabemos por qué no se ha llamado Nexus 2. No habría estado a la altura. El Nexus S es una versión pobremente actualizada y anodina del Nexus One. Nos ha defraudado en muchos aspectos pero no es de extrañar si pensamos que el Nexus One se presentó hace menos de un año y los ingenieros de Google no han podido añadirle gran cosa.</description>
+    </item>
+    
+    <item>
+      <title>Nexus S</title>
+      <link>https://lunaticgeek.com/2010-11-16-nexus-s/</link>
+      <pubDate>Tue, 16 Nov 2010 13:35:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-11-16-nexus-s/</guid>
+      <description>Hace una semana, Engadget.com empezó a mostrar las imágenes de un presunto Nexus 2 fabricado en esta ocasión por Samsung y bajo el nombre Nexus S. Pues bien, ayer, Eric Schimidt, CEO de Google, confirmó que este terminal existía; de hecho mostró el suyo en funcionamientoen la conferencia web 2.0 summit. El Nexus S, si es que adoptan ese nombre para su comercialización, estará basado en Android 2.3 gingerbread, actualización del SO de Google que será liberado en las próximas semanas junto con el nuevo Nexus.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 16 Jul 2014 18:05:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Divagando sobre Raspberry Pi B&#43; y 2.0</title>
+      <link>https://lunaticgeek.com/2014-07-16-divagando-sobre-raspberry-pi-b-y-20/</link>
+      <pubDate>Wed, 16 Jul 2014 18:05:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-07-16-divagando-sobre-raspberry-pi-b-y-20/</guid>
+      <description>Hace un mes que leí un post del blog oficial de Raspberry Pi en el que anunciaban que ya habían superado los tres millones de unidades vendidas. Fue en ese momento en el que me di cuenta de que el pequeño ordenador inglés llevaba ya dos años entre nosotros.Haciendo honor a la Ley de Moore, empecé a pensar en los nuevos componentes que debería llevar la versión 2.0 del Pi. Nunca publiqué mis reflexiones porque no tenía ningún sentido.</description>
+    </item>
+    
+    <item>
+      <title>MagPi. La revista sobre Raspberry Pi</title>
+      <link>https://lunaticgeek.com/2012-07-16-magpi-la-revista-sobre-raspberry-pi/</link>
+      <pubDate>Mon, 16 Jul 2012 18:49:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-07-16-magpi-la-revista-sobre-raspberry-pi/</guid>
+      <description>Raspberry Pi salió hace escasos 3 meses y ya se ha convertido en un clásico del hardware. Para todos aquellos que les interese el gran potencial de este pequeño ordenador, la lectura de la revista MagPi se convierte en obligatoria.
+
+MagPi es una revista libre centrada exclusivamente en el micro-ordenador de la universidad de Cambridge. Ya han salido 3 números que abordan temas que van desde los SOs, la administración, creación de servidores, hacks y módulos, programación, entrevistas, etc.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://lunaticgeek.com/2012-07-09-raspberry-pi/</link>
+      <pubDate>Mon, 09 Jul 2012 17:26:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-07-09-raspberry-pi/</guid>
+      <description>Hace un par de semanas, tras pedirlo el primer&amp;nbsp;día&amp;nbsp;que lo anunciaron, y a la primera hora (7 de la mañana, pues estaba en el curro y lo pedí desde el&amp;nbsp;móvil), después de mas de 3 meses esperando, por fin me llegó el ansiado RaspberryPi, y estos&amp;nbsp;días&amp;nbsp;no he hecho otra cosa que pruebas y pruebas con él.
+El Raspberry que yo cogí es el de clase B, cuyas especificaciones son:Procesador ARM v7 @ 700MhzGPU&amp;nbsp;Broadcom VideoCore IV,26 OpenGL ES 2.</description>
+    </item>
+    
+  </channel>
+</rss>

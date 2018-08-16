@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lunaticgeek on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/lunaticgeek/</link>
+    <description>Recent content in Lunaticgeek on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 23 Aug 2017 13:18:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/lunaticgeek/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hasta la vista, Godaddy 🖕</title>
+      <link>https://lunaticgeek.com/2017-08-23-hasta-la-vista-godaddy/</link>
+      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-08-23-hasta-la-vista-godaddy/</guid>
+      <description>Al principio, este blog utilizaba el subdominio que le asignaba blogspot, una solución poco elegante y menos profesional. Por casualidad, me regalaron un año de registro en el TLD .es. Mi experiencia fue satisfactoria y decidí migrar a un dominio más neutro, el .com que sigo utilizando desde hace ya siete años no solo en este blog sino como dominio de mi curriculum, de mi DDNS y un par de servidores privados más, aparte de mi correo electrónico corporativo de G Suite (anteriormente Google Apps).</description>
+    </item>
+    
+    <item>
+      <title>La paranoia de Windows 8 Server</title>
+      <link>https://lunaticgeek.com/2012-03-15-la-paranoia-de-windows-8-server/</link>
+      <pubDate>Thu, 15 Mar 2012 13:24:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-03-15-la-paranoia-de-windows-8-server/</guid>
+      <description>Oh dios qué he hecho...Por qué fui tan valiente, por qué nunca pienso las consecuencias de mis actos cuando a la larga se revuelven contra mí y me atacan con toda su fiereza exacerbada. Me dijeron que no jugara con fuego y lo hice. Mi mente se encuentra en un estado de consternación, casi catatónica en el que el pasado más reciente se muestra borroso, fruto sin duda del shock que me produjo probar windows 8 server.</description>
+    </item>
+    
+    <item>
+      <title>Diciembre - Resumen anual</title>
+      <link>https://lunaticgeek.com/2011-12-01-diciembre-resumen-anual/</link>
+      <pubDate>Thu, 01 Dec 2011 21:24:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-12-01-diciembre-resumen-anual/</guid>
+      <description>Buenas a todos. Hoy empezamos diciembre, ya no queda nada para acabar este año, que ha sido, la verdad, bastante completo.Este mes suele ser para muchos un periodo de reflexión, en el que pensar las cosas que ha hecho durante el año, y las que no ha podido hacer,&amp;nbsp;así&amp;nbsp;como lo que has hecho mal para intentar, en cierto modo, evitarlas en el año siguiente, pero que de una manera u otra, sigues cometiéndolas.</description>
+    </item>
+    
+    <item>
+      <title>Lunatic Geek cumple un año</title>
+      <link>https://lunaticgeek.com/2010-08-23-lunatic-geek-cumple-un-ano/</link>
+      <pubDate>Mon, 23 Aug 2010 17:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-23-lunatic-geek-cumple-un-ano/</guid>
+      <description>Hace exactamente un año que publiqué el primer post en lunaticgeek y desde entonces no he parado. Además este año se añadieron a la redacción de este blog mis compañeros y amigos Ruvelro y Fegarur con los que escribí unos 150 post sobre todas las cosas frikis que nos apasionan.No se me ocurre un mejor momento que este para inaugurar oficialmente...http://bloggertouch.appspot.com/lunaticgeekEsta es la dirección de nuestro blog optimizado para smartphone, así que si tenéis un nokia 5800 o un ipod touch 3g, por ejemplo, ya podéis disfrutar en cualquier lugar de todas las novedades de lunaticgeek.</description>
+    </item>
+    
+  </channel>
+</rss>

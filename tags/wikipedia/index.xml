@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikipedia on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/wikipedia/</link>
+    <description>Recent content in Wikipedia on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 22 Sep 2014 17:27:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/wikipedia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swatch Internet Time</title>
+      <link>https://lunaticgeek.com/2014-09-22-swatch-internet-time/</link>
+      <pubDate>Mon, 22 Sep 2014 17:27:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-09-22-swatch-internet-time/</guid>
+      <description>Ayer leí una noticia de TechCrunch sobre la negativa del CEO de Swatch a fabricar smartwatches porque no les veía futuro.&amp;nbsp;
+Sobra decir que estoy totalmente de acuerdo con estas declaraciones. En el artículo se mencionaba algo llamado&amp;nbsp;Swatch Internet Time. Tras unos minutos de investigación en Wikipedia, me quedé alucinado con la tremenda frikada que es el&amp;nbsp;Swatch Internet Time. Como no podía ser de otra forma, he escrito este post para divulgar esta extravagante iniciativa que surgió en 1998.</description>
+    </item>
+    
+    <item>
+      <title>¿A quién donar los 0.89€ de WhatsApp?</title>
+      <link>https://lunaticgeek.com/2013-03-20-a-quien-donar-los-089-de-whatsapp/</link>
+      <pubDate>Wed, 20 Mar 2013 23:32:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-03-20-a-quien-donar-los-089-de-whatsapp/</guid>
+      <description>He decidido escribir este artículo por algo que me ha ocurrido esta mañana. Resulta que hoy era mi último día para poder seguir utilizando WhatsApp de forma gratuita. La aplicación llevaba&amp;nbsp;avisándome&amp;nbsp;desde hacía más de 20 días, y por fin ha llegado.Llevaba tiempo diciendo que no pensaba pagar por dicha plataforma. Ha tenido la suerte de llegar en el momento oportuno y eso la ha convertido en líder, pero ¿qué ofrece WhatsApp que no ofrezca la competencia?</description>
+    </item>
+    
+  </channel>
+</rss>

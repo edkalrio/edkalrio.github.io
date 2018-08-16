@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Farbfeld - Lunatic Geek</title>
+  <meta property="og:title" content="Farbfeld - Lunatic Geek" />
+  <meta name="twitter:title" content="Farbfeld - Lunatic Geek" />
+  <meta name="description" content="Farbfeld es el regalo de reyes que Laslo Hunhold, miembro del proyecto suckless, nos ha hecho este año. Se trata de un formato de imagen sin pérdida que pretende sustituir a PNG. En realidad este post no tiene intención de profundizar en el nuevo formato, pero este va a servirme como excusa para comentar ciertos aspectos de la programación y de la informática en general que deberían cambiar para beneficio de desarrolladores y usuarios.">
+  <meta property="og:description" content="Farbfeld es el regalo de reyes que Laslo Hunhold, miembro del proyecto suckless, nos ha hecho este año. Se trata de un formato de imagen sin pérdida que pretende sustituir a PNG. En realidad este post no tiene intención de profundizar en el nuevo formato, pero este va a servirme como excusa para comentar ciertos aspectos de la programación y de la informática en general que deberían cambiar para beneficio de desarrolladores y usuarios.">
+  <meta name="twitter:description" content="Farbfeld es el regalo de reyes que Laslo Hunhold, miembro del proyecto suckless, nos ha hecho este año. Se trata de un formato de imagen sin pérdida que pretende sustituir a PNG. En realidad este post …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2016-01-15-farbfeld/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Farbfeld</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2016-01-15</time></li>
+			</ul>
+			
+			<div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-6MYVOAWdXYQ/VpjwL2IzhfI/AAAAAAAADws/NzXhhri8-hE/s1600/farbfeld.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="89" src="http://2.bp.blogspot.com/-6MYVOAWdXYQ/VpjwL2IzhfI/AAAAAAAADws/NzXhhri8-hE/s400/farbfeld.png" width="400" /></a></div><div style="text-align: justify;"><a href="http://tools.suckless.org/farbfeld/">Farbfeld</a> es el regalo de reyes que Laslo Hunhold, miembro del proyecto <a href="http://suckless.org/">suckless</a>, nos ha hecho este año. Se trata de un formato de imagen sin pérdida que pretende sustituir a PNG. En realidad este post no tiene intención de profundizar en el nuevo formato, pero este va a servirme como excusa para comentar ciertos aspectos de la programación y de la informática en general que deberían cambiar para beneficio de desarrolladores y usuarios.<br /><a name='more'></a><br /></div><div style="text-align: justify;">Lo que hace especial a farbfeld es su simplicidad, que permite que sea fácil de manipular, entender e incluso programar a mano. El formato especifica un archivo que comienza con la palabra "farbfeld", el ancho y alto de la imagen y después de esta cabecera, el valor de cada pixel en formato RGBA. Nada más.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">En informática se debería seguir siempre la filosofía Unix,</div><blockquote class="tr_bq" style="text-align: justify;"><i>"Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."</i></blockquote><div style="text-align: justify;">Esta máxima podría reducirse en el aforismo KISS, tan utilizado en la retórica Archlinuxera. Es justamente lo que pretende el proyecto suckless y que ejemplifica a la perfección este nuevo formato. Farbfeld hace una cosa y la hace bien, representar los píxeles de una imagen. El resto de formatos de imagen también hacen esto pero se complican introduciendo métodos internos de compresión. En este sentido, PNG utiliza el clásico algoritmo DEFLATE.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">El tamaño importa! no es que farbfeld no le preste atención a la compresión, sino que la delega en programas externos a los que accede mediante un <i>pipe</i>. La recomendación del desarrollador es utilizar bzip2, basado en el algoritmo Burrows–Wheeler, que trabaja bastante mejor que DEFLATE. Esto no solo consigue aligerar la complejidad interna del formato, sino que produce mejores tasas de compresión que PNG y abre la puerta a utilizar cualquier otro algoritmo de compresión que pueda ofrecer mejores resultados en el futuro, de forma transparente, ya que su ejecución se realiza fuera del archivo de imagen. Si PNG quisiera cambiar el anticuado DEFLATE por un algoritmo de nueva generación como LZMA, por ejemplo, debería reestructurar por completo el formato y podrían surgir problemas de compatibilidad, que complicarían aún más algo que debería ser tan simple como farbfeld nos propone.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Todos deberíamos aprender de este proyecto que lo verdaderamente importante es tener una actitud que promueva la descentralización de los servicios, que sea capaz de crear sinergias entre distintos elementos del sistema utilizando sencillos métodos de redirección como los <i>pipes</i> de UNIX. Todo esto nos permitirá desarrollar código más ágil, elegante, pequeño, eficiente y escalable.</div><div style="text-align: justify;"><a href="http://git.suckless.org/farbfeld/tree/">Descarga</a>, investiga, revisa el código, disfrútalo y recuerda: KISS.&nbsp;</div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

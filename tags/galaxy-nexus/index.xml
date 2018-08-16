@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galaxy Nexus on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/galaxy-nexus/</link>
+    <description>Recent content in Galaxy Nexus on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 19 Oct 2011 13:08:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/galaxy-nexus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galaxy Nexus &amp; Android 4</title>
+      <link>https://lunaticgeek.com/2011-10-19-galaxy-nexus-android-4/</link>
+      <pubDate>Wed, 19 Oct 2011 13:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-19-galaxy-nexus-android-4/</guid>
+      <description>Sólo a Google se le ocurre hacer una conferencia en Hong Kong para que aquí sean las 4 de la mañana y me quede sin verla.&amp;nbsp;Todavía estamos a la espera de que cuelguen el video íntegro de la conferencia para poder disfrutar con la presentación del nuevo modelo de smartphone que google produce, junto con Samsung. El Galaxy Nexus, anteriormente conocido como Nexus Prime es el nombre del renovado terminal que se pone a la altura del Galaxy S II con unas prestaciones que asustan:Android 4 Ice Cream Sandwich.</description>
+    </item>
+    
+  </channel>
+</rss>

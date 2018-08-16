@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thepiratebay on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/thepiratebay/</link>
+    <description>Recent content in Thepiratebay on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 19 Mar 2012 12:35:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/thepiratebay/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Low Orbit Server Stations</title>
+      <link>https://lunaticgeek.com/2012-03-19-low-orbit-server-stations/</link>
+      <pubDate>Mon, 19 Mar 2012 12:35:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-03-19-low-orbit-server-stations/</guid>
+      <description>Interesante la última entrada del blog de thepiratebay donde nos explican sus planes de futuro que más parecen sacados de una peli de ciencia ficción. A conquistar la galaxia!
+Uno de los retos técnicos que siempre intentamos optimizar es la posición de nuestras máquinas frontales. Ellas son las que redirigen el tráfico a un lugar secreto. Ahora hemos decidido tratar de construir algo extraordinario.Con el desarrollo de drones (aviones no tripulados) controlados por GPS, &amp;nbsp;equipos&amp;nbsp;baratos&amp;nbsp;de radio&amp;nbsp;de gran alcance&amp;nbsp;y pequeños ordenadores como el Raspberry Pi, vamos a experimentar con el envío de algunos drones pequeños que flotarán algunos kilómetros en el aire.</description>
+    </item>
+    
+  </channel>
+</rss>

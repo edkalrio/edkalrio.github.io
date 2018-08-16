@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Namecheap on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/namecheap/</link>
+    <description>Recent content in Namecheap on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 23 Aug 2017 13:18:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hasta la vista, Godaddy 🖕</title>
+      <link>https://lunaticgeek.com/2017-08-23-hasta-la-vista-godaddy/</link>
+      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-08-23-hasta-la-vista-godaddy/</guid>
+      <description>Al principio, este blog utilizaba el subdominio que le asignaba blogspot, una solución poco elegante y menos profesional. Por casualidad, me regalaron un año de registro en el TLD .es. Mi experiencia fue satisfactoria y decidí migrar a un dominio más neutro, el .com que sigo utilizando desde hace ya siete años no solo en este blog sino como dominio de mi curriculum, de mi DDNS y un par de servidores privados más, aparte de mi correo electrónico corporativo de G Suite (anteriormente Google Apps).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geohot on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/geohot/</link>
+    <description>Recent content in Geohot on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 15 Apr 2011 17:27:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/geohot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anonymous vuelve contra Sony</title>
+      <link>https://lunaticgeek.com/2011-04-15-anonymous-vuelve-contra-sony/</link>
+      <pubDate>Fri, 15 Apr 2011 17:27:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-15-anonymous-vuelve-contra-sony/</guid>
+      <description>Al parecer, el grupo Anonymous vuelve al ataque contra Sony.
+Todo esto aparece pocos días después de que el tema de Hotz vs Sony se cerrara con la condición de que Hotz no volviera a &#34;juguetear&#34; con ningún sistema de Sony, bajo pena de elevadas multas...
+&#34;El caso se ha cerrado. Ante los ojos de la ley se ha terminado, pero para Anonymous es solo el principio&#34; dice Anonymous...&#34;Los ataques a las webs de Sony han cesado.</description>
+    </item>
+    
+    <item>
+      <title>El Fin del Proceso</title>
+      <link>https://lunaticgeek.com/2011-04-13-el-fin-del-proceso/</link>
+      <pubDate>Wed, 13 Apr 2011 20:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-13-el-fin-del-proceso/</guid>
+      <description>Si bien hemos conocido hace días que Geohot ha llegado a un acuerdo con los representantes de Sony no ha sido hasta hoy cuando se han conocido los términos exactos de dicho acuerdo.Sony retira su denuncia contra Geohot a cambio de que el hacker no acceda a ningún producto de Sony aunque acepte su licencia de uso. Además no podrá decompilar o desensamblar ningún producto de Sony, &amp;nbsp;desarrollar, actualizar o distribuir software casero.</description>
+    </item>
+    
+    <item>
+      <title>Una vez mas, SONY demuestra su incompetencia</title>
+      <link>https://lunaticgeek.com/2011-04-06-una-vez-mas-sony-demuestra-su/</link>
+      <pubDate>Wed, 06 Apr 2011 21:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-06-una-vez-mas-sony-demuestra-su/</guid>
+      <description>Hoy se ha filtrado información de que SONY ha contratado a una empresa especializada en contrarrestar los ataques DDOS que está realizando el grupo Anonymous.¿No sería mejor invertir ese dinero en mejorar el sistema, que cada vez da mas fallos? Podían arreglar las lectoras cascadas, por ejemplo, en vez de seguir adelante con su cobarde política de atacar a la gente con mas conocimientos que sus cutres programadores, como Geohot.Esos ataques DDOS se los han ganado ellos a pulso, fastidiando al usuario que compró su consola engañado con la posibilidad de instalar un SO alternativo, cuando perfectamente podía haber comprado una Xbox para jugar.</description>
+    </item>
+    
+    <item>
+      <title>Anonymous planta cara a Sony</title>
+      <link>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</link>
+      <pubDate>Mon, 04 Apr 2011 12:55:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</guid>
+      <description>Este mensaje aparecía hace escasas horas en uno de los canales de IRC anónimos que sirve de plataforma al grupo de ciberactivistas. Sony no solo ha perdido ya la confianza y el respeto de los usuarios de Linux, a los que en la última vista judicial, el representante de Sony afirmaba que formaban parte de &#34;una conspiración glogal con el único propósito de piratear la consola y perjudicar a SCEA&#34;. Anonymous no hace daño a la mayoría de entidades que ataca.</description>
+    </item>
+    
+    <item>
+      <title>Adorando la Ley</title>
+      <link>https://lunaticgeek.com/2011-02-15-con-todo-lo-que-esta-pasando/</link>
+      <pubDate>Tue, 15 Feb 2011 20:38:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-02-15-con-todo-lo-que-esta-pasando/</guid>
+      <description>Con todo lo que está pasando últimamente (Ley Sinde, Sony vs Hackers...) de vez en cuando hay que reírse un poco, ya que la risa es salud.Aquí os dejo una ley digna de ser adorada, como hacen estos... hombrecillos ^^</description>
+    </item>
+    
+    <item>
+      <title>Cuando una persona derrota a una multinacional</title>
+      <link>https://lunaticgeek.com/2011-01-29-cuando-una-persona-derrota-una/</link>
+      <pubDate>Sat, 29 Jan 2011 00:54:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-01-29-cuando-una-persona-derrota-una/</guid>
+      <description>Geohot es conocido por desarrollar el jailbreak de iphone y ipod, pero no contento con eso, decidió ir más allá. Un día, Geo se compró una PS3, como muchos de nosotros, entre otras cosas, por el modo OtherOS, que permitía la instalación de un Linux en la PS3 (aunque muy capado por todos los lados) que podía convertir perfectamente la PS3 en un completo ordenador de salón. Geo se enfadó con la PS3 porque el OtherOS estaba muy capado por todos los lados y había muchas cosas que no dejaba hacer, por tanto, empezó a crear un exploit con el que ir consiguiendo permisos para poder tener un sistema decente, no un sistema capado por todos los lados.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>/bin/true - Lunatic Geek</title>
+  <meta property="og:title" content="/bin/true - Lunatic Geek" />
+  <meta name="twitter:title" content="/bin/true - Lunatic Geek" />
+  <meta name="description" content="Rob Pike ha abierto un hilo de Twitter para recordar la historia de /bin/true en los Bell Labs. Debo reconocer que no la conocía y me ha impresionado porque sintetiza de una forma muy satírica el problema principal del sobredesarrollo de software que domina el mercado. Dejo a continuación el contenido del hilo, formateado, para un mayor disfrute.&nbsp;
+/bin/true used to be an empty file. The shell would open it, do nothing, and exit with a true status code.">
+  <meta property="og:description" content="Rob Pike ha abierto un hilo de Twitter para recordar la historia de /bin/true en los Bell Labs. Debo reconocer que no la conocía y me ha impresionado porque sintetiza de una forma muy satírica el problema principal del sobredesarrollo de software que domina el mercado. Dejo a continuación el contenido del hilo, formateado, para un mayor disfrute.&nbsp;
+/bin/true used to be an empty file. The shell would open it, do nothing, and exit with a true status code.">
+  <meta name="twitter:description" content="Rob Pike ha abierto un hilo de Twitter para recordar la historia de /bin/true en los Bell Labs. Debo reconocer que no la conocía y me ha impresionado porque sintetiza de una forma muy satírica el …">
+  <meta name="author" content="edkalrio"/>
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/2018-02-27-bintrue/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://1.bp.blogspot.com/-gMVJovPEqFk/U5XPFWU4-3I/AAAAAAAADTg/99PFHyQpKgM/s758/lunaticbackup.png"></a></h1>
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">/bin/true</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2018-02-27</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						Unix
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/c/">
+						<i class="fas fa-tag"></i>
+						C
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<div style="text-align: justify;"><a href="http://herpolhode.com/rob/" rel="nofollow">Rob Pike</a> ha abierto un <a href="https://twitter.com/rob_pike/status/966896123548872705" rel="nofollow">hilo</a> de Twitter para recordar la historia de <span style="font-family: Courier New, Courier, monospace;">/bin/true</span> en los Bell Labs. Debo reconocer que no la conocía y me ha impresionado porque sintetiza de una forma muy satírica el problema principal del sobredesarrollo de software que domina el mercado. Dejo a continuación el contenido del hilo, formateado, para un mayor disfrute.&nbsp;</div><div style="text-align: justify;"></div><a name='more'></a><br /><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">/bin/true</span> used to be an empty file. The shell would open it, do nothing, and exit with a true status code.<br />When the Unix Support Group (development organization at Bell Labs) formalized everything, they gave it a long SCCS header, as they did every other file, and then needed to add <span style="font-family: Courier New, Courier, monospace;">exit 0</span>&nbsp;at the end. The file was therefore infinitely larger than before. At some point, somewhere (not sure where) it was decided this was poor engineering, probably because the shell spends time reading that big SCCS header as a comment one byte at a time. (It probably became a shell builtin somewhere along the line too, but that's for someone else to study.) The command moved to /usr/bin/true. I don't know when, where and especially why.<br />Eventually to avoid the unbearable overhead of executing a comment that shouldn't be there at all, someone rewrote true as a C program. What was once an empty file is now a non-portable executable binary compiled from C.<br />This is why we can't have good software. This program could literally have been an empty file, a nothing at all, a name capturing the essence perfectly. But the inexorable forces of improvement dictate we can't accept that, so here we are:<br /><span style="font-family: Courier New, Courier, monospace;">% file /usr/bin/true</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: &quot;Courier New&quot;, Courier, monospace;">/usr/bin/true: Mach-O 64-bit executable x86_64</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"></span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">%&nbsp;</span><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: inherit;">Instead of:</span><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">% file true</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">true: empty</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">% true</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">% echo $?</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">0</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">%</span></blockquote><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Sólo un par de aclaraciones. En Linux, al menos en Ubuntu, <span style="font-family: Courier New, Courier, monospace;">true</span> sigue en su localización original <span style="font-family: Courier New, Courier, monospace;">/bin/true</span> pero si ejecutamos file sobre sí, nos devuelve lo siguiente,&nbsp;</div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">/bin/true: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=d4e71e09ee6d28ee19cc885cd4f18d2187f013cb, stripped</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">También debo reconocer que entiendo la preferencia por el binario. Si un root incompetente sobreescribiera <span style="font-family: Courier New, Courier, monospace;">/bin/true</span>, se produciría un fallo lógico masivo, pero no hay nada que justifique un programa más extenso que el <span style="font-family: Courier New, Courier, monospace;"><a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/usr.bin/true/true.c?rev=1.1" rel="nofollow">/bin/true</a></span> de OpenBSD, sistema caracterizado por la calidad, brevedad, seguridad y transparencia de su código.</div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="/" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<script src="/js/custom.js"></script>
+
+
+</body>
+</html>

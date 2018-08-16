@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kinect on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/kinect/</link>
+    <description>Recent content in Kinect on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 22 May 2012 19:59:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/kinect/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leap. Control gestual estilo Minority Report</title>
+      <link>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</link>
+      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</guid>
+      <description>Leap es un pequeño dispositivo que intentará cambiar la forma en la que nos comunicamos con nuestros ordenadores.
+El sensor del tamaño de un pen drive capta los movimientos de las manos y los interpreta como órdenes de ratón o teclado que entiende un ordenador. Es un poco como los hacks que se han hecho de kinect que permiten controlar ordenadores pero Leap tiene hasta 200 veces más precisión y un SDK público para incorporar sus funciones directamente en programas y videojuegos.</description>
+    </item>
+    
+    <item>
+      <title>Kinect en Mexicano y a 190€</title>
+      <link>https://lunaticgeek.com/2010-08-28-kinect-en-mexicano-y-190/</link>
+      <pubDate>Sat, 28 Aug 2010 13:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-28-kinect-en-mexicano-y-190/</guid>
+      <description>No sé que margen de credibilidad merece esta noticia. La ha publicado &#34;el país&#34; uno de los periódicos de mayor tirada de España pero en temas tecnológicos, este tipo de publicaciones no son excesivamente rigurosas. El caso es que, según el periódico &#34;el país&#34;, kinect, el cacharro inútil que microsoft intentará vender a los jugones de xbox costará tan solo 190€ y en España solo funcionará si le hablamos con acento mejicano.</description>
+    </item>
+    
+  </channel>
+</rss>

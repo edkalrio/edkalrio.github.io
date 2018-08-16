@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juegos on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/juegos/</link>
+    <description>Recent content in Juegos on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 May 2017 13:56:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/juegos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AlphaGo derrota a Kē Jié</title>
+      <link>https://lunaticgeek.com/2017-05-23-alphago-derrota-ke-jie/</link>
+      <pubDate>Tue, 23 May 2017 13:56:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-05-23-alphago-derrota-ke-jie/</guid>
+      <description>Ya se ha producido el primer partido del&amp;nbsp;Future of Go Summit, con la victoria de AlphaGo, la red neuronal de Google contra el número uno del mundo,&amp;nbsp;Kē Jié.
+Me parece incomprensible que ningún blog esté cubriendo la noticia más importante de inteligencia artificial de este año. Solo The Verge&amp;nbsp;se ha preocupado de escribir unas líneas sobre un acontecimiento que sienta las bases del futuro de la informática.Excited to watch the 1st match between Ke Jie and #AlphaGo kick off tonight at 7:30pm PT!</description>
+    </item>
+    
+    <item>
+      <title>Terasology, clon open source de Minecraft</title>
+      <link>https://lunaticgeek.com/2012-05-07-terasology-clon-open-source-de/</link>
+      <pubDate>Mon, 07 May 2012 13:31:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-07-terasology-clon-open-source-de/</guid>
+      <description>Nadie sabe muy bien qué es lo que tiene Minecraft que lo hace un juego tan adictivo.&amp;nbsp;
+Pese a su aspecto ultrapixelado que nos recuerda al clásico 3D dot hero y le aporta un matiz muy friki,&amp;nbsp;Markus Persson,&amp;nbsp;el creador de este juego en Java se ha hecho millonario gracias a las impresionantes ventas de un juego tan &#34;cutre&#34; y caro. Probablemente, el precio excesivo de este juego de construcción sin límites sea su talón de aquiles pero gracias a&amp;nbsp;Benjamin Glatzel&amp;nbsp;de movingblocks.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Game Pack</title>
+      <link>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</link>
+      <pubDate>Mon, 01 Aug 2011 11:33:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</guid>
+      <description>Uno de los mayores inconvenientes que tiene la gente para pasarse a Ubuntu es la incompatibilidad con muchos juegos de windows, aunque, últimamente, hasta yo me estoy quedando sorprendido de la fuerza que tiene Wine para moverlos.
+Pese a todo, Linux también tiene juegos específicos (estamos preparando desde aquí un par de análisis).Mirando en internet he encontrado un pack de 5 dvd repletos de juegos específicos de Ubuntu. 156 juegos ni mas ni menos con todas sus dependencias para que solo haya que instalarlos desde un script .</description>
+    </item>
+    
+  </channel>
+</rss>

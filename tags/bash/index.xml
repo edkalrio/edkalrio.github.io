@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/bash/</link>
+    <description>Recent content in Bash on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 15 Aug 2017 13:46:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simplemente Bash</title>
+      <link>https://lunaticgeek.com/2017-08-15-simplemente-bash/</link>
+      <pubDate>Tue, 15 Aug 2017 13:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-08-15-simplemente-bash/</guid>
+      <description>Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos.</description>
+    </item>
+    
+    <item>
+      <title>Mi Prompt de Bash</title>
+      <link>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</link>
+      <pubDate>Sat, 17 Sep 2016 13:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</guid>
+      <description>Para celebrar el lanzamiento de Bash 4.4 se me ha ocurrido que podría ser interesante compartir con todos la configuración de mi prompt.&amp;nbsp;La configuración por defecto del prompt de Bash tiene un defecto importante, a mi modo de ver. Es demasiado larga para un terminal de 80x24, dimensiones que yo siempre intento respetar. Mi configuración personal pretende ser más breve pero a la vez conservando la misma funcionalidad e incluso añadiendo alguna característica extra.</description>
+    </item>
+    
+    <item>
+      <title>Informática de la Vieja Escuela</title>
+      <link>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</link>
+      <pubDate>Thu, 23 Jun 2011 16:28:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</guid>
+      <description>Por razones que no vienen a cuento he tenido que trabajar últimamente en entornos sin interfaz gráfica, es decir, en un terminal o emulador de terminal como lo llaman los puristas. No soy como esos cobardes windowseros que nunca han oído hablar de líneas de comandos o que evitan a toda costa cualquier programa para su cmd pero tampoco soy un talibán del terminal como Richard Stallman que odia los entornos con GUI porque los controladores de las gráficas son privativos.</description>
+    </item>
+    
+  </channel>
+</rss>

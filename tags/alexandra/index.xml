@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandra on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/alexandra/</link>
+    <description>Recent content in Alexandra on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 10 Jan 2012 18:51:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/alexandra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>alexandra. Mi nueva estación de trabajo</title>
+      <link>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</link>
+      <pubDate>Tue, 10 Jan 2012 18:51:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</guid>
+      <description>Hablemos con propiedad, una workstation es un equipo informático construido a partir de hardware de servidor pero con software de escritorio y destinado al trabajo del usuario final. Una estación de trabajo no es un ordenador, es más potente, por eso digo que hay que hablar con propiedad porque me he comprado una workstation.&amp;nbsp;La definición que da wikipedia de workstation es algo liosa y también se refiere a los terminales de una red LAN pero creo que la mía se acerca bastante más a la realidad.</description>
+    </item>
+    
+  </channel>
+</rss>

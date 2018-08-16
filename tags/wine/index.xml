@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wine on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/wine/</link>
+    <description>Recent content in Wine on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 23 Aug 2012 16:20:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/wine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalar Wine en Debian</title>
+      <link>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</link>
+      <pubDate>Thu, 23 Aug 2012 16:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</guid>
+      <description>Cómo instalar Wine en Debian 6
+
+Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras distribuciones. El caso es que ayer estaba probando Debian, haciendo pruebas con Lunaticgeek Utilities, cuando llegó el momento de instalar Wine. En la web de Winehq no viene gran cosa sobre como instalarlo en debian, salvo que lo compiles por tu cuenta, cosa que si eres un usuario avanzado está bien, pero no todo el mundo sabe hacerlo, ni tiene tiempo para ponerse con ello.</description>
+    </item>
+    
+  </channel>
+</rss>

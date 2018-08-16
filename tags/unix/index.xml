@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unix on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/unix/</link>
+    <description>Recent content in Unix on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 13 Jul 2018 13:37:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RTFM</title>
+      <link>https://lunaticgeek.com/2018-07-13-rtfm/</link>
+      <pubDate>Fri, 13 Jul 2018 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-07-13-rtfm/</guid>
+      <description>Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto Elbinario). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.</description>
+    </item>
+    
+    <item>
+      <title>calendar</title>
+      <link>https://lunaticgeek.com/2018-03-22-calendar/</link>
+      <pubDate>Thu, 22 Mar 2018 12:50:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-03-22-calendar/</guid>
+      <description>Por suerte o por desgracia, mi vida es tan rutinaria que no necesito una agenda. De hecho, mi último recordatorio fue de septiembre del año pasado (tenía que ir al dentista) pero hay mucha gente con vidas ajetreadas que necesitan organizar su valioso tiempo y para ello hacen uso de google calendar o de anacrónicas agendas de papel.
+Los fans de UNIX tenemos a nuestra disposición una herramienta igual de potente que sus alternativas modernas, pero mucho más simple y ligera.</description>
+    </item>
+    
+    <item>
+      <title>/bin/true</title>
+      <link>https://lunaticgeek.com/2018-02-27-bintrue/</link>
+      <pubDate>Tue, 27 Feb 2018 13:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-02-27-bintrue/</guid>
+      <description>Rob Pike ha abierto un hilo de Twitter para recordar la historia de /bin/true en los Bell Labs. Debo reconocer que no la conocía y me ha impresionado porque sintetiza de una forma muy satírica el problema principal del sobredesarrollo de software que domina el mercado. Dejo a continuación el contenido del hilo, formateado, para un mayor disfrute.&amp;nbsp;
+/bin/true used to be an empty file. The shell would open it, do nothing, and exit with a true status code.</description>
+    </item>
+    
+    <item>
+      <title>Fanboys de la Programación Orientada a Objetos</title>
+      <link>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</link>
+      <pubDate>Tue, 30 Jan 2018 13:52:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</guid>
+      <description>TV-Online-TDT-Spain, el proyecto del colega&amp;nbsp;@ruvelro está ganando popularidad y ya son dos programadores los que amable y desinteresadamente han aportado código para mejorar su idea original. Esto me ha hecho acercarme más a un proyecto de software libre en el que los programadores no se conocen pero colaboran para sacar adelante un concepto común. Al no dedicarme a la programación, todo esto me resulta novedoso y ha servido para demostrarme que el hype por la programación orientada a objetos sigue siendo omnipresente.</description>
+    </item>
+    
+    <item>
+      <title>twtxt</title>
+      <link>https://lunaticgeek.com/2017-12-08-twtxt/</link>
+      <pubDate>Fri, 08 Dec 2017 14:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-12-08-twtxt/</guid>
+      <description>Twitter me gusta cada vez menos. No es sólo por el aumento a 280 caracteres que, en mi opinión destruye la esencia del microblogging, sino por motivos más trascendentes como el hecho de que @realDonaldTrump se pase por el forro todo el código de conducta de Twitter y no sea baneado mientras que se silencia a @rosemcgowan por denunciar ser víctima del acoso; por no hablar de la escoria humana del supremacismo blanco que divulga su pensamiento racista desde sus cuentas verificadas mientras twitter mira hacia otro lado.</description>
+    </item>
+    
+    <item>
+      <title>Simplemente Bash</title>
+      <link>https://lunaticgeek.com/2017-08-15-simplemente-bash/</link>
+      <pubDate>Tue, 15 Aug 2017 13:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-08-15-simplemente-bash/</guid>
+      <description>Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos.</description>
+    </item>
+    
+    <item>
+      <title>Mi Prompt de Bash</title>
+      <link>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</link>
+      <pubDate>Sat, 17 Sep 2016 13:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</guid>
+      <description>Para celebrar el lanzamiento de Bash 4.4 se me ha ocurrido que podría ser interesante compartir con todos la configuración de mi prompt.&amp;nbsp;La configuración por defecto del prompt de Bash tiene un defecto importante, a mi modo de ver. Es demasiado larga para un terminal de 80x24, dimensiones que yo siempre intento respetar. Mi configuración personal pretende ser más breve pero a la vez conservando la misma funcionalidad e incluso añadiendo alguna característica extra.</description>
+    </item>
+    
+    <item>
+      <title>El Cero de Enero y Otros Hitos Informáticos</title>
+      <link>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</link>
+      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</guid>
+      <description>Vamos a empezar el año con una pregunta lunática. En qué año estamos? La respuesta no es tan evidente como parece. Todo depende del hito del calendario que estemos usando. En occidente se emplea el calendario gregoriano que nos sitúa en el 2016 pero no me parece muy apropiado utilizar la fecha de nacimiento de un carpintero judío de hace dos milenios como referencia temporal. En el mundo informático tampoco les parece la mejor opción y desarrolladores muy importantes han utilizado otras fechas para iniciar su calendario.</description>
+    </item>
+    
+  </channel>
+</rss>

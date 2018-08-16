@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pc on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/pc/</link>
+    <description>Recent content in Pc on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 21 Jan 2015 13:57:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/pc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los límites de la computación</title>
+      <link>https://lunaticgeek.com/2015-01-21-los-limites-de-la-computacion/</link>
+      <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2015-01-21-los-limites-de-la-computacion/</guid>
+      <description>Ayer estuve hablando de ordenadores (a alguien le sorprende?) con un amigo y me preguntó sobre el futuro de la computación. Quería saber hasta cuándo se iba a poder fabricar mejores procesadores. Sin saberlo, me estaba preguntando por el fin de la Ley de Moore.&amp;nbsp;
+Personalmente, no creo que la Ley de Moore vaya a agotarse en un futuro cercano. Físicos, matemáticos e ingenieros llevan prediciendo su extinción desde antes de que yo naciera y la realidad siempre les ha llevado la contraria.</description>
+    </item>
+    
+    <item>
+      <title>alexandra. Mi nueva estación de trabajo</title>
+      <link>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</link>
+      <pubDate>Tue, 10 Jan 2012 18:51:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</guid>
+      <description>Hablemos con propiedad, una workstation es un equipo informático construido a partir de hardware de servidor pero con software de escritorio y destinado al trabajo del usuario final. Una estación de trabajo no es un ordenador, es más potente, por eso digo que hay que hablar con propiedad porque me he comprado una workstation.&amp;nbsp;La definición que da wikipedia de workstation es algo liosa y también se refiere a los terminales de una red LAN pero creo que la mía se acerca bastante más a la realidad.</description>
+    </item>
+    
+    <item>
+      <title>La última gran mentira de microsoft</title>
+      <link>https://lunaticgeek.com/2010-08-10-la-ultima-gran-mentira-de-microsoft/</link>
+      <pubDate>Tue, 10 Aug 2010 20:17:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-10-la-ultima-gran-mentira-de-microsoft/</guid>
+      <description>Parece que microsoft acaba de inaugurar un subdominio en una de sus webspara guiar a todos aquellos que duden entre comprar un PC o un Mac. En este post voy a analizar punto por punto cada una de las afirmaciones categóricas de microsoft para demostrar que son solo falacias pero antes quiero aclarar que yo soy totalmente neutral en la elección de un PC o un Mac siempre que se le pueda instalar una distro de Linux aunque voy a atacar directamente los argumentos de microsoft a favor del PC porque odio las mentiras y esto es la mayor mentira que he leído desde que los genios de Sony decidieron eliminar el soporte de Linux de la Play3 por problemas de seguridad.</description>
+    </item>
+    
+  </channel>
+</rss>

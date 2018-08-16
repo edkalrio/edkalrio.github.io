@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servidor on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/servidor/</link>
+    <description>Recent content in Servidor on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 28 Apr 2016 19:35:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/servidor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTTP/2</title>
+      <link>https://lunaticgeek.com/2016-04-28-http2/</link>
+      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-04-28-http2/</guid>
+      <description>No se me ocurre mejor forma de estrenar el reciente Ubuntu Server 16.04 LTS, que probar la nueva versión de Nginx, que acaba de incorporar la compatibilidad con el protocolo HTTP/2.
+HTTP/2 no es el futuro; es el presente. Sin embargo, la desidia y el conservadurismo de los administradores de sistemas demorarán su adopción como ya sucedió con SPDY. No voy a comentar las bondades del nuevo protocolo porque son conocidas por todos desde hace tiempo aunque el lanzamiento de la versión estable de Nginx con soporte se ha producido esta semana, coincidiendo con la actualización de la LTS de Ubuntu.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://lunaticgeek.com/2012-07-09-raspberry-pi/</link>
+      <pubDate>Mon, 09 Jul 2012 17:26:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-07-09-raspberry-pi/</guid>
+      <description>Hace un par de semanas, tras pedirlo el primer&amp;nbsp;día&amp;nbsp;que lo anunciaron, y a la primera hora (7 de la mañana, pues estaba en el curro y lo pedí desde el&amp;nbsp;móvil), después de mas de 3 meses esperando, por fin me llegó el ansiado RaspberryPi, y estos&amp;nbsp;días&amp;nbsp;no he hecho otra cosa que pruebas y pruebas con él.
+El Raspberry que yo cogí es el de clase B, cuyas especificaciones son:Procesador ARM v7 @ 700MhzGPU&amp;nbsp;Broadcom VideoCore IV,26 OpenGL ES 2.</description>
+    </item>
+    
+  </channel>
+</rss>

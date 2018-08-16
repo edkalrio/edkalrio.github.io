@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Live on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/live/</link>
+    <description>Recent content in Live on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 31 Aug 2010 14:18:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/live/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xbox Live se encarece un 20% [editado]</title>
+      <link>https://lunaticgeek.com/2010-08-31-xbox-live-se-encarece-un-20/</link>
+      <pubDate>Tue, 31 Aug 2010 14:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-31-xbox-live-se-encarece-un-20/</guid>
+      <description>A partir del día 1 de noviembre, los suscriptores de Xbox Live tendrán que pagar un aumento del 20%, lo cual pasa de los 7,99 dólares, 19,99 dólares y 49,99 dólares (un mes, tres meses y un año respectivamente) a los 9,99 dólares, 24,99 dólares y 59,99 dólares.Esos incrementos son los que se aplicarán en Estados Unidos, mientras que en el Reino Unido y Canadá el coste por mes subirá en una libra y un dólar canadiense respectivamente.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Whatsapp on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/whatsapp/</link>
+    <description>Recent content in Whatsapp on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 20 Aug 2014 19:34:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/whatsapp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El Futuro de las Aplicaciones de Mensajería</title>
+      <link>https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/</link>
+      <pubDate>Wed, 20 Aug 2014 19:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/</guid>
+      <description>Hace unos días estuve hablando con un amigo sobre el futuro de las aplicaciones de mensajería. La conversación fue agradable pero falta de rigor porque mi amigo no es informático y no le quería aburrir con tecnicismos y jerga que no iba a entender. Pero el tema era verdaderamente interesante y por eso quiero profundizar en ello, ahora sí, dando rienda suelta a la pedantería informática.La conversación se centraba en el diseño interno de las apps de mensajería que creo que deberían tener en el futuro.</description>
+    </item>
+    
+    <item>
+      <title>¿A quién donar los 0.89€ de WhatsApp?</title>
+      <link>https://lunaticgeek.com/2013-03-20-a-quien-donar-los-089-de-whatsapp/</link>
+      <pubDate>Wed, 20 Mar 2013 23:32:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-03-20-a-quien-donar-los-089-de-whatsapp/</guid>
+      <description>He decidido escribir este artículo por algo que me ha ocurrido esta mañana. Resulta que hoy era mi último día para poder seguir utilizando WhatsApp de forma gratuita. La aplicación llevaba&amp;nbsp;avisándome&amp;nbsp;desde hacía más de 20 días, y por fin ha llegado.Llevaba tiempo diciendo que no pensaba pagar por dicha plataforma. Ha tenido la suerte de llegar en el momento oportuno y eso la ha convertido en líder, pero ¿qué ofrece WhatsApp que no ofrezca la competencia?</description>
+    </item>
+    
+  </channel>
+</rss>

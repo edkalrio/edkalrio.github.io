@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firefox on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/firefox/</link>
+    <description>Recent content in Firefox on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 26 Jul 2011 16:58:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>B2G, lo nuevo de Mozilla</title>
+      <link>https://lunaticgeek.com/2011-07-26-b2g-lo-nuevo-de-mozilla/</link>
+      <pubDate>Tue, 26 Jul 2011 16:58:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-26-b2g-lo-nuevo-de-mozilla/</guid>
+      <description>B2G (Boot To Gecko) es el nombre que la Mozilla Foundation ha elegido para el sistema operativo basado en la nube que están empezando a desarrollar. Como si no fuera suficientemente difícil mantener un navegador web a la última, los creadores de Firefox ya han comenzado a programar un sistema operativo que promete ser la alternativa a Chrome OS.&amp;nbsp;
+Personalmente me parece que se deberían centrar en los desarrollos que tengan futuro.</description>
+    </item>
+    
+    <item>
+      <title>Firefox 4</title>
+      <link>https://lunaticgeek.com/2011-03-23-firefox-4/</link>
+      <pubDate>Wed, 23 Mar 2011 17:22:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-03-23-firefox-4/</guid>
+      <description>Por fin salió la cuarta versión del navegador de Mozilla y le tengo que dedicar un post, más por obligación moral que por ganas. Antes de seguir quiero advertir a los fanboys de Firefox que no sigan leyendo porque voy a poner fino a su querido programa.
+Ya ni me acuerdo de cuándo salió la versión 3 de Firefox. El mundo de la tecnología se ha vuelto tan lunático que los desarrollos tienen que ser prácticamente del tipo rolling release.</description>
+    </item>
+    
+  </channel>
+</rss>

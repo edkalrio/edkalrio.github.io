@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psn on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/psn/</link>
+    <description>Recent content in Psn on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 23 Apr 2011 13:14:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/psn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adiós PSN</title>
+      <link>https://lunaticgeek.com/2011-04-23-adios-psn/</link>
+      <pubDate>Sat, 23 Apr 2011 13:14:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-23-adios-psn/</guid>
+      <description>&#34;Debido a una intrusión externa y para poder llevar a cabo una investigación completa y verificar la estabilidad y seguridad de nuestros servicios de red, hemos apagado Playstation Network y Qriocity en la tarde del miércoles 20 de abril.La provisión a los usuarios de nuestros servicios de entretenimiento son ante todo nuestra mayor prioridad. Estamos haciendo todo lo posible por solventar la situación lo antes posible, y una vez más os agradecemos vuestra paciencia.</description>
+    </item>
+    
+    <item>
+      <title>Anonymous planta cara a Sony</title>
+      <link>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</link>
+      <pubDate>Mon, 04 Apr 2011 12:55:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</guid>
+      <description>Este mensaje aparecía hace escasas horas en uno de los canales de IRC anónimos que sirve de plataforma al grupo de ciberactivistas. Sony no solo ha perdido ya la confianza y el respeto de los usuarios de Linux, a los que en la última vista judicial, el representante de Sony afirmaba que formaban parte de &#34;una conspiración glogal con el único propósito de piratear la consola y perjudicar a SCEA&#34;. Anonymous no hace daño a la mayoría de entidades que ataca.</description>
+    </item>
+    
+    <item>
+      <title>App de PlayStation</title>
+      <link>https://lunaticgeek.com/2010-12-18-app-de-playstation/</link>
+      <pubDate>Sat, 18 Dec 2010 15:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-12-18-app-de-playstation/</guid>
+      <description>Si hay algo que queríamos los usuarios de Android y iOS poseedores de una PlayStation 3 es poder vincular nuestra cuenta de PSN a nuestro smartphone para conocer en tiempo real lo que están haciendo nuestros compañeros de juegos. Por eso Sony&amp;nbsp;va a lanzar en las próximas semanas una aplicación móvil gratuita que va a permitir lo siguiente:Comprobar los trofeos de PSN y el estado de tus amigos.Descubrir todos los últimos juegos y noticias sobre PS3, PSP y PS2.</description>
+    </item>
+    
+    <item>
+      <title>PSN cae ante el jailbreak</title>
+      <link>https://lunaticgeek.com/2010-11-11-ayer-han-sacado-la-luz-una/</link>
+      <pubDate>Thu, 11 Nov 2010 21:48:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-11-11-ayer-han-sacado-la-luz-una/</guid>
+      <description>Ayer han sacado a la luz una actualizacion para los dongles (extactamente es una versión modificada del PSgroove 4b de Hermes) que... agarraos bien...¡¡¡PERMITE INICIAR SESIÓN EN PSN!!!Es, sin duda, una gran noticia para los que decidimos jugar a nuestras copias de seguridad en el firmware 3.41 para que no se estropee el lector de la PS3, que por cierto, es muy sensible...www.project0.de/psgroove-maker/Ahí tenéis un link en el que compilaros los grooves para vuestros dongles, actualizado hasta la version que permite PSN :DPd.</description>
+    </item>
+    
+  </channel>
+</rss>

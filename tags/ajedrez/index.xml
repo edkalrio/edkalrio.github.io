@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ajedrez on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ajedrez/</link>
+    <description>Recent content in Ajedrez on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 25 Aug 2010 19:07:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ajedrez/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cuál es el mejor programa jamás escrito?</title>
+      <link>https://lunaticgeek.com/2010-08-25-cual-es-el-mejor-programa-jamas-escrito/</link>
+      <pubDate>Wed, 25 Aug 2010 19:07:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-08-25-cual-es-el-mejor-programa-jamas-escrito/</guid>
+      <description>El Ajedrez de 1KB de ZX-81Pues sí, es un ajedrez que solamente ocupa 1KB, y es considerado por muchos el mejor programa jamás escrito, cuyo autor es David Horne.El ajedrez esta escrito en código máquina, y mostraba un tablero, donde la máquina, con una pequeña inteligencia artificial, era capaz de realizar movimientos correctos y legales, y comprobar si los del jugador eran también legales. Todo esto en ni más ni menos que 1Kb!</description>
+    </item>
+    
+  </channel>
+</rss>

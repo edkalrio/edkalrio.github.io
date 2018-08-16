@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitcoin on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/bitcoin/</link>
+    <description>Recent content in Bitcoin on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 03 Feb 2018 14:36:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La Última Crisis del Bitcoin</title>
+      <link>https://lunaticgeek.com/2018-02-03-la-ultima-crisis-del-bitcoin/</link>
+      <pubDate>Sat, 03 Feb 2018 14:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-02-03-la-ultima-crisis-del-bitcoin/</guid>
+      <description>El precio del Bitcoin ha caído más del 50% en un mes hasta situarse por debajo de los 9K USD/BTC. A nadie puede extrañar la volatilidad del que es el producto financiero más absurdo de la historia.
+Hace ya cinco años escribí una columna en la que expresaba mi opinión al respecto. Poco ha cambiado desde entonces. El Blockchain me sigue pareciendo una estructura de datos revolucionaria que bien le valdría a Satoshi Nakamoto el Nobel de Economía si la Academia conociera su identidad.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin. Una visión (macro)económica para informáticos</title>
+      <link>https://lunaticgeek.com/2013-04-11-bitcoin-una-vision-economica-para/</link>
+      <pubDate>Thu, 11 Apr 2013 20:04:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-04-11-bitcoin-una-vision-economica-para/</guid>
+      <description>Por primera vez en los casi 5 años de vida de este blog voy a escribir una entrada desde un punto de vista exclusivamente económico para dar rienda suelta a mi inusual faceta de economista. Este blog es para informáticos por lo que se suponen unos conocimientos técnicos y a veces los novatos se quejan de que algunos post no son demasiado sencillos de entender pero como este post va a ser económico y nadie que lea este blog tiene la obligación de saber nada de economía, voy a intentar ser lo más claro posible con todas las explicaciones necesarias para que el mensaje se entienda.</description>
+    </item>
+    
+  </channel>
+</rss>

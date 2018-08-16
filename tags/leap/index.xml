@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leap on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/leap/</link>
+    <description>Recent content in Leap on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 22 May 2012 19:59:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/leap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leap. Control gestual estilo Minority Report</title>
+      <link>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</link>
+      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</guid>
+      <description>Leap es un pequeño dispositivo que intentará cambiar la forma en la que nos comunicamos con nuestros ordenadores.
+El sensor del tamaño de un pen drive capta los movimientos de las manos y los interpreta como órdenes de ratón o teclado que entiende un ordenador. Es un poco como los hacks que se han hecho de kinect que permiten controlar ordenadores pero Leap tiene hasta 200 veces más precisión y un SDK público para incorporar sus funciones directamente en programas y videojuegos.</description>
+    </item>
+    
+  </channel>
+</rss>

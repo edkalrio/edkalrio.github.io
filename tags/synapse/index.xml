@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synapse on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/synapse/</link>
+    <description>Recent content in Synapse on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 24 Oct 2010 18:55:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/synapse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Synapse One</title>
+      <link>https://lunaticgeek.com/2010-10-24-synapse-one/</link>
+      <pubDate>Sun, 24 Oct 2010 18:55:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-24-synapse-one/</guid>
+      <description>Synapse-Phones es una empresa de tecnología alemana con una gran propuesta por delante, van a ofrecer la posibilidad de que podamos crear un smartphone personalizado.Desde hace tiempo considero al Nexus One como el paradigma del frikismo en la telefonía móvil pero el nuevo dispositivo de Synapse bien podría arrebatarle el título al móvil de Google. Desde 300€ podemos reservar un móvil de última tecnología con Android 2.2 y pantalla super AMOLED.</description>
+    </item>
+    
+  </channel>
+</rss>

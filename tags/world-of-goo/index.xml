@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World of Goo on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/world-of-goo/</link>
+    <description>Recent content in World of Goo on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 20 Sep 2011 16:40:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/world-of-goo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World of Goo para todos</title>
+      <link>https://lunaticgeek.com/2011-09-20-world-of-goo-para-todos/</link>
+      <pubDate>Tue, 20 Sep 2011 16:40:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-20-world-of-goo-para-todos/</guid>
+      <description>Ya hemos hablado en alguna otra ocasión en este blog de este juego que, en mi opinión, es bastante curioso.&amp;nbsp;Para quienes no lo recordéis, podéis leerlo de nuevo aquí.
+Hoy, he decidido facilitaros a todos la descarga del juego, seáis usuarios de Linux, Mac o Windows para que podáis disfrutarlo y paséis tan buenos ratos como yo he pasado con este juego.Versión de Linux: DescargarHe incluido un .deb para instalarlo como un programa más del equipo y una&amp;nbsp;versión&amp;nbsp;en un .</description>
+    </item>
+    
+    <item>
+      <title>World of Goo</title>
+      <link>https://lunaticgeek.com/2011-06-28-world-of-goo/</link>
+      <pubDate>Tue, 28 Jun 2011 16:53:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-28-world-of-goo/</guid>
+      <description>Hace unos años que salió el fantástico juego de los 2D Boy en formato multiplataforma que ha llegado a ser uno de los pocos juegos de pago disponibles en Ubuntu Software Centre y se encuentra entre los juegos más adictivos de los últimos años.No vengo a hacer una crítica de este juego sino a mostrar una configuración que mejorará notablemente la calidad de los gráficos. Mi problema es que tengo un monitor de 23&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

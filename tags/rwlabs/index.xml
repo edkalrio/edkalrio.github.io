@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rwlabs on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/rwlabs/</link>
+    <description>Recent content in Rwlabs on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 04 Aug 2011 17:41:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/rwlabs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSD -&gt; La Velocidad en tus Manos</title>
+      <link>https://lunaticgeek.com/2011-08-04-ssd-la-velocidad-en-tus-manos/</link>
+      <pubDate>Thu, 04 Aug 2011 17:41:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-08-04-ssd-la-velocidad-en-tus-manos/</guid>
+      <description>Ayer por la tarde, 2 de los miembros del blog estuvimos reunidos para realizar unas pruebas. Dichas pruebas consistían en que &#34;ruvelro&#34; adquirió un SSD OCZ Agility3 de 60Gb y queríamos demostrar a la gente de qué manera un disco sólido en condiciones puede aumentar el rendimiento de un equipo en un 200%.¿De qué te sirve tener un i7 con 8Gb de Ram, una gráfica de la serie HD 67xx de ATI (recordamos la reciente adquisición de acciones en Nvidia por parte de Microsoft y mi consiguiente boicot a dicha marca) si luego le metes 3Tb de disco duro Western Digital Caviar Green?</description>
+    </item>
+    
+  </channel>
+</rss>

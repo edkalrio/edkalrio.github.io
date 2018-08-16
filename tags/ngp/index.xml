@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ngp on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ngp/</link>
+    <description>Recent content in Ngp on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 29 Jan 2011 17:40:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/ngp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NGP</title>
+      <link>https://lunaticgeek.com/2011-01-29-ngp/</link>
+      <pubDate>Sat, 29 Jan 2011 17:40:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-01-29-ngp/</guid>
+      <description>Seguro que ya todo el mundo se ha enterado de que Sony va a lanzar una consola portátil a finales de años. Es cierto que lo cuento un poco tarde pero hemos estado de exámenes y apenas había tiempo para hacer un post medio serio. Además tampoco tengo muchas ganas de explayarme con un dispositivo que no va a salir hasta dentro de un año. ya habrá tiempo para comentar y especular sobre la nueva portátil de Sony, ahora solo voy a hacer un corta-pega del video de presentación oficial y de las características sacadas de la press-release de Sony.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programación on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/programaci%C3%B3n/</link>
+    <description>Recent content in Programación on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 30 Jan 2018 13:52:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fanboys de la Programación Orientada a Objetos</title>
+      <link>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</link>
+      <pubDate>Tue, 30 Jan 2018 13:52:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</guid>
+      <description>TV-Online-TDT-Spain, el proyecto del colega&amp;nbsp;@ruvelro está ganando popularidad y ya son dos programadores los que amable y desinteresadamente han aportado código para mejorar su idea original. Esto me ha hecho acercarme más a un proyecto de software libre en el que los programadores no se conocen pero colaboran para sacar adelante un concepto común. Al no dedicarme a la programación, todo esto me resulta novedoso y ha servido para demostrarme que el hype por la programación orientada a objetos sigue siendo omnipresente.</description>
+    </item>
+    
+    <item>
+      <title>Gira el monitor!!</title>
+      <link>https://lunaticgeek.com/2016-03-03-gira-el-monitor/</link>
+      <pubDate>Thu, 03 Mar 2016 19:31:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-03-03-gira-el-monitor/</guid>
+      <description>Este año 46 de la era Unix ha sido bisiesto y para celebrar el leap day suelo comprarme algún capricho geek. Llevo mucho tiempo detrás de un buen soporte para el monitor y al final he adquirido uno. Con uno de estos soportes se puede posicionar el monitor en los ángulos que nos resulten más útiles y cómodos. Además ahorran espacio en la mesa, al desaparecer las bases originales del monitor.</description>
+    </item>
+    
+    <item>
+      <title>Los programadores de verdad...</title>
+      <link>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</link>
+      <pubDate>Mon, 27 Aug 2012 18:06:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</guid>
+      <description>Fuente:&amp;nbsp;xkcd.com</description>
+    </item>
+    
+    <item>
+      <title>Prince of Persia</title>
+      <link>https://lunaticgeek.com/2012-04-25-prince-of-persia/</link>
+      <pubDate>Wed, 25 Apr 2012 17:01:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-04-25-prince-of-persia/</guid>
+      <description>Jordan Mechner, creador del juego original de la exitosa saga de Prince of Persia acaba de liberar el código de este juego que desarrolló entre 1985-89 para la compañía&amp;nbsp;Broderbund Software.
+No he escrito este post para informaros de este acontecimiento que no considero relevante sino para homenajear a todos los programadores que durante los 80-90 escribieron cientos de juegos como este y otros tantos,&amp;nbsp;en lenguaje ensamblador,&amp;nbsp;para Mega Drive y SNES que han llegado a ser de los mejores juegos de la historia de las consolas .</description>
+    </item>
+    
+    <item>
+      <title>Dart, lo nuevo de Google</title>
+      <link>https://lunaticgeek.com/2011-10-10-dart-lo-nuevo-de-google/</link>
+      <pubDate>Mon, 10 Oct 2011 14:04:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-10-10-dart-lo-nuevo-de-google/</guid>
+      <description>Un par de años después de que Google lanzara su lenguaje de programación Go, llega Dart.&amp;nbsp;La principal diferencia entre ambos lenguajes es que el primero es compilado; fue diseñado para que aprovechara la potencia de núcleos múltiples y de la computación en red. Por el contrario, Dart está pensado para el desarrollo de aplicaciones web. Es un lenguaje interpretado como javascript pero como acaba de salir al gran público, todavía no está implementado en ningún navegador así que si alguien quiere trastear un poco con este nuevo juguete tendrá que ejecutar los programas en una máquina virtual online que Google ofrece o puede compilar el código en javascript para que sea ejecutado directamente por el browser.</description>
+    </item>
+    
+    <item>
+      <title>Libros para el verano</title>
+      <link>https://lunaticgeek.com/2011-07-31-libros-para-el-verano/</link>
+      <pubDate>Sun, 31 Jul 2011 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-07-31-libros-para-el-verano/</guid>
+      <description>Miles de personas comienzan mañana sus vacaciones estivales para disfrutar de un merecido descanso después de un largo año de trabajo.&amp;nbsp;A mí lo que más me gusta del verano es que me deja el tiempo y la tranquilidad que necesito para ponerme al día en todas las lecturas que he dejado colgadas durante el resto del año, así que aprovecho este post para hacer diez recomendaciones literarias -frikis, por supuesto- para leer durante las vacaciones, en un libro electrónico o tablet.</description>
+    </item>
+    
+  </channel>
+</rss>

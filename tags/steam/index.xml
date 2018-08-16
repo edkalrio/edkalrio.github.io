@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steam on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/steam/</link>
+    <description>Recent content in Steam on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 11 Nov 2012 20:03:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/steam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Steam for Linux. Probamos la beta privada!!</title>
+      <link>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</link>
+      <pubDate>Sun, 11 Nov 2012 20:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</guid>
+      <description>El pasado día 6 de Noviembre, en el equipo de lunaticgeek nos&amp;nbsp;encontrábamos&amp;nbsp;con un email por parte de Steam invitándonos &amp;nbsp;a probar la beta privada de Steam para Linux.
+Dicho email traía principalmente los requisitos&amp;nbsp;mínimos&amp;nbsp;de hardware (que los&amp;nbsp;cumplíamos&amp;nbsp;cuando nos dimos de alta en la beta) así como un link al archivo .deb para descargar en Ubuntu 12.04 y unas instrucciones sobre el proceso de reporte de fallos. También&amp;nbsp;hacían incapié en la necesidad de tener instalados los drivers privativos de Nvidia, especialmente la versión beta experimental 310.</description>
+    </item>
+    
+  </channel>
+</rss>

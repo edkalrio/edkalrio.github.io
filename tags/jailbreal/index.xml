@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jailbreal on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/jailbreal/</link>
+    <description>Recent content in Jailbreal on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 01 Sep 2010 16:14:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/jailbreal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PSJailbreak: Código liberado y tutoriales para la fabricación casera</title>
+      <link>https://lunaticgeek.com/2010-09-01-psjailbreak-codigo-liberado-y/</link>
+      <pubDate>Wed, 01 Sep 2010 16:14:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-01-psjailbreak-codigo-liberado-y/</guid>
+      <description>Hace unas semanas se anuncio que por fin la PS3 había sido pirateada... hackeada... liberada mejor dicho. Todo de la forma mas sencilla que te podrías haber imaginado: Un USB, con un determinado hardware, durante la carga del XMB en memoria, introducía un código que permitía un control total de los permisos de la consola. Una vez con permisos de ejecución, un homebrew permite la carga de copias de seguridad de juegos realizados en un HDD (ya sea el interno o uno externo).</description>
+    </item>
+    
+  </channel>
+</rss>

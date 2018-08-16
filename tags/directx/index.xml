@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Directx on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/directx/</link>
+    <description>Recent content in Directx on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 23 Sep 2010 18:06:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/directx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DirectX 11 nativo para Linux</title>
+      <link>https://lunaticgeek.com/2010-09-23-directx-11-nativo-para-linux/</link>
+      <pubDate>Thu, 23 Sep 2010 18:06:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-23-directx-11-nativo-para-linux/</guid>
+      <description>Parece que Luca Barbieri, un desarrollador de software ha encontrado la forma de implementar DirectX en Linux para poder ejecutar aplicaciones Direct3D de forma nativa sin necesidad de una conversión previa a OpenGL como viene haciendo wine hasta ahora.La importancia de este desarrollo es crucial para que los que intentan de una forma u otra jugar videojuegos de windows en sistemas basados en Linux logren los mejores resultados y el más alto rendimiento.</description>
+    </item>
+    
+  </channel>
+</rss>

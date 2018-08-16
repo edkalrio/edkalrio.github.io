@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dns on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/dns/</link>
+    <description>Recent content in Dns on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 11 Apr 2018 14:10:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNS Raíz alternativo</title>
+      <link>https://lunaticgeek.com/2018-04-11-dns-raiz-alternativo/</link>
+      <pubDate>Wed, 11 Apr 2018 14:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2018-04-11-dns-raiz-alternativo/</guid>
+      <description>En el inicio de internet, los nombres de dominios estaban almacenados en un único archivo HOSTS.TXT situado en el servidor del NIC en Stanford. Como es lógico, esa fórmula quedó obsoleta rápidamente por la imposibilidad de escalarse adecuadamente.&amp;nbsp;
+El actual sistema de DNS es el sustituto que desde hace 35 años lleva asignando nombres de dominio, y en todo ese tiempo, muy poco ha cambiado en este campo. La introducción de DNSSEC está siendo realmente lenta, DNS over TLS parece una solución abandonada y DoH es todavía un borrador.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/windows/</link>
+    <description>Recent content in Windows on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El Cero de Enero y Otros Hitos Informáticos</title>
+      <link>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</link>
+      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</guid>
+      <description>Vamos a empezar el año con una pregunta lunática. En qué año estamos? La respuesta no es tan evidente como parece. Todo depende del hito del calendario que estemos usando. En occidente se emplea el calendario gregoriano que nos sitúa en el 2016 pero no me parece muy apropiado utilizar la fecha de nacimiento de un carpintero judío de hace dos milenios como referencia temporal. En el mundo informático tampoco les parece la mejor opción y desarrolladores muy importantes han utilizado otras fechas para iniciar su calendario.</description>
+    </item>
+    
+    <item>
+      <title>La solución de Linux para UEFI</title>
+      <link>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</link>
+      <pubDate>Fri, 12 Oct 2012 12:11:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</guid>
+      <description>Si la intención de Microsoft de exigir a los OEMs la instalación de Windows 8 en placas base con UEFI y Secureboot era mejorar la seguridad de los sistemas, no lo han conseguido. Y si su intención era tocar las pelotas a los usuarios de Linux, tampoco lo han logrado.
+Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan agoreros como otros blogs que anunciaban el armageddon para las distros que no se pudieran instalar en ordenadores nuevos.</description>
+    </item>
+    
+    <item>
+      <title>Milagros informáticos</title>
+      <link>https://lunaticgeek.com/2012-09-11-milagros-informaticos/</link>
+      <pubDate>Tue, 11 Sep 2012 19:40:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-09-11-milagros-informaticos/</guid>
+      <description>La Ley de MooreLa Ley de Moore es sin lugar a duda el mayor milagro de la historia de la informática. Es una ley o mejor dicho, una hipótesis que Gordon Moore enunció en 1965 y cuyo cumplimiento puede constatarse hasta hoy. La Ley de Moore afirma que aproximadamente cada 18-24 meses se duplica el número de transistores en un circuito integrado. Esto implica que la potencia se duplica o que el coste de producción baja a la mitad.</description>
+    </item>
+    
+    <item>
+      <title>La venganza de los servidores</title>
+      <link>https://lunaticgeek.com/2012-04-07-la-venganza-de-los-servidores/</link>
+      <pubDate>Sat, 07 Apr 2012 18:53:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-04-07-la-venganza-de-los-servidores/</guid>
+      <description>Me consideraba un experto en prácticamente todos los asuntos frikis pero ayer, mi colega ruvelro me demostró que estaba muy lejos de ser un verdadero gurú de la informática.
+Todo empezó cuando comentamos mi anterior post sobre windows 8 server. A él le había encantado pero me comentó que no había tenido en cuenta el precio. Yo he usado, lamentablemente, windows 2008 server RC2 pero nunca había comprado, ni tan siquiera me había interesado en el precio de una licencia de windows server porque independientemente del precio que tuviera, cualquier distro de Linux para servidor le da mil vueltas.</description>
+    </item>
+    
+    <item>
+      <title>La paranoia de Windows 8 Server</title>
+      <link>https://lunaticgeek.com/2012-03-15-la-paranoia-de-windows-8-server/</link>
+      <pubDate>Thu, 15 Mar 2012 13:24:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-03-15-la-paranoia-de-windows-8-server/</guid>
+      <description>Oh dios qué he hecho...Por qué fui tan valiente, por qué nunca pienso las consecuencias de mis actos cuando a la larga se revuelven contra mí y me atacan con toda su fiereza exacerbada. Me dijeron que no jugara con fuego y lo hice. Mi mente se encuentra en un estado de consternación, casi catatónica en el que el pasado más reciente se muestra borroso, fruto sin duda del shock que me produjo probar windows 8 server.</description>
+    </item>
+    
+    <item>
+      <title>Hall of Fame</title>
+      <link>https://lunaticgeek.com/2012-01-26-hall-of-fame/</link>
+      <pubDate>Thu, 26 Jan 2012 13:17:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-26-hall-of-fame/</guid>
+      <description>Hace unos días estuve hablando con un viejo amigo y surgió el tema de nuestros ídolos. Las personas más influyentes en el mundo de la informática.&amp;nbsp;Estuvimos citando algunos nombres y discutiendo sobre su importancia y relevancia para el mundo de la informática y para el mundo en general. En ese momento se me ocurrió que tenía que recopilar un Hall of Fame con las personas que a MI parecer han sido más importantes en este campo.</description>
+    </item>
+    
+    <item>
+      <title>El lado oscuro de Windows 8</title>
+      <link>https://lunaticgeek.com/2012-01-12-el-lado-oscuro-de-windows-8/</link>
+      <pubDate>Thu, 12 Jan 2012 20:31:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2012-01-12-el-lado-oscuro-de-windows-8/</guid>
+      <description>Me hace mucha gracia ver muchas webs que idolatran a Windows 8 y eso que aún está en fase beta.Hace unos meses, mi compañero edkalrio probé lo que fue la Developer Preview&amp;nbsp;haciendo un juicio crítico sobre ella... pese a ello, poco a poco han ido apareciendo características un tanto interesantes que me&amp;nbsp;gustaría&amp;nbsp;comentar desde mi punto de vista.Para empezar, tenemos la interface Metro, una de las grandes innovaciones&amp;nbsp;según&amp;nbsp;Microsoft. ¿Innovación, o retroceso gráfico?</description>
+    </item>
+    
+    <item>
+      <title>Windows 8 Developer Preview</title>
+      <link>https://lunaticgeek.com/2011-09-14-windows-8-developer-preview/</link>
+      <pubDate>Wed, 14 Sep 2011 20:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-09-14-windows-8-developer-preview/</guid>
+      <description>Yo no trabajo con windows, todos los que me conocen lo saben. Como mucho utilizo windows para sincronizar la música de mi iPod pero también es cierto que este blog es sobre informática y tecnología aunque nos hayamos centrado en temas ubunteros, no podemos negar que el sistema operativo mayoritario, por ahora, es windows. No me gusta prejuzgar y hablar sin conocimiento de causa así que esta mañana he probado la versión para desarrolladores de windows 8.</description>
+    </item>
+    
+    <item>
+      <title>El Odio a Windows</title>
+      <link>https://lunaticgeek.com/2011-06-22-el-odio-windows/</link>
+      <pubDate>Wed, 22 Jun 2011 16:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-06-22-el-odio-windows/</guid>
+      <description>Personalmente no soy de los que odian a Windows, al menos no desde que defenestraron la infernal versión de Windows Vista. Simplemente paso del sistema de microsoft y me niego a trabajar con él o ayudar en nada que tenga que ver directamente con él. Esta actitud de indiferencia se ha visto perturbada cuando los &#34;genios&#34; de Redmond han lanzado un tema para windows 7 de Justin Bieber. Se puede considerar como un hito en el diseño de windows la inclusión de un tema del cantante más odiado del mundo desde Charles Manson.</description>
+    </item>
+    
+    <item>
+      <title>How to Fix any Computer</title>
+      <link>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</link>
+      <pubDate>Tue, 19 Apr 2011 13:48:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</guid>
+      <description>Los chicos de&amp;nbsp;theoatmeal.com&amp;nbsp;nos presentan este sencillo algoritmo para arreglar cualquier ordenador:</description>
+    </item>
+    
+    <item>
+      <title>Windows: Modo Sudo</title>
+      <link>https://lunaticgeek.com/2011-01-29-windows-modo-sudo/</link>
+      <pubDate>Sat, 29 Jan 2011 00:45:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-01-29-windows-modo-sudo/</guid>
+      <description>¿Quien nos iba a decir que en windows podemos encontrar un huevo de pascua de semejantes magnitudes?Este truco es un modo que te crea una carpeta en la cual están agrupadas todas las opciones de configuración de Windows... y cuando digo todas, son todas.Para llegar a ello es muy fácil:-Creamos una carpeta, por ejemplo, en el escritorio-La llamamos:SudoMode.{ED7BA470-8E54-465E-825C-99712043E01C}-MagiaHay gente que recomienda no usarlo en Windows Vista 64 bits. Nosotros desde aquí recomendamos directamente no usar Windows Vista.</description>
+    </item>
+    
+  </channel>
+</rss>

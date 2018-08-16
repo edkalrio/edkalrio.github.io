@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mario on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/mario/</link>
+    <description>Recent content in Mario on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 11 Oct 2010 13:36:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/mario/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El duelo final</title>
+      <link>https://lunaticgeek.com/2010-10-11-el-duelo-final/</link>
+      <pubDate>Mon, 11 Oct 2010 13:36:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-11-el-duelo-final/</guid>
+      <description>Os dejo con la batalla más friki de la historia. Solo puede quedar uno.</description>
+    </item>
+    
+    <item>
+      <title>Infinite Mario Bros</title>
+      <link>https://lunaticgeek.com/2010-09-09-infinite-mario-bros/</link>
+      <pubDate>Thu, 09 Sep 2010 17:40:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-09-09-infinite-mario-bros/</guid>
+      <description>Infinite Adaptive Mario es un videojuego de dificultad adaptativa. El propio videojuego crea sobre la marcha niveles adaptados a las habilidades del jugador en un proceso infinito en el que supongo que los niveles lleguen a colapsarse por su propia dificultad. Es por esto y por la aleatoriedad de los niveles lo que me lleva a pensar que&amp;nbsp;Infinite Adaptive Mario puede convertirse en el próximo Mario Forever. Un juego en el que no puedes prever los movimientos de los contrarios por la indeterminación de los niveles.</description>
+    </item>
+    
+  </channel>
+</rss>

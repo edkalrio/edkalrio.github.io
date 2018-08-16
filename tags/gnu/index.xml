@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gnu on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/gnu/</link>
+    <description>Recent content in Gnu on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 15 Aug 2017 13:46:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/gnu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simplemente Bash</title>
+      <link>https://lunaticgeek.com/2017-08-15-simplemente-bash/</link>
+      <pubDate>Tue, 15 Aug 2017 13:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2017-08-15-simplemente-bash/</guid>
+      <description>Si un administrador de sistemas no es experto en Bash, no hace bien su trabajo. Bash es la principal herramienta con la que contamos para automatizar las tediosas tareas de administración. Su facilidad para manipular archivos en texto plano y encadenar programas con los pipes de Unix hacen que este lenguaje de scripts sea el más atractivo, rápido y KISS.Sin embargo, aunque Bash fue concebido para realizar scripts muy sencillos, sus características le permiten implementar tareas mucho más complejas, que en principio deberían reservarse para otro tipo de lenguajes procedimentales u orientados a objetos.</description>
+    </item>
+    
+    <item>
+      <title>AGPL. La licencia marginada</title>
+      <link>https://lunaticgeek.com/2013-07-26-agpl-la-licencia-marginada/</link>
+      <pubDate>Fri, 26 Jul 2013 19:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2013-07-26-agpl-la-licencia-marginada/</guid>
+      <description>En el mundo del software hay multitud de licencias libres con las que proteger una serie de derechos de los programadores mientras dejamos libertad para que los usuarios puedan usar el programa, estudiar su funcionamiento, modificarlo, mejorarlo y distribuirlo libremente.El problema de fragmentación que sufren las distintas distros basadas en Linux también se puede apreciar en el campo de las licencias libres. Tener dónde elegir es fantástico pero se está llegando a un punto en el que estamos saturados de tantos forks que no aportan nada nuevo al desarrollo principal o duplican el trabajo, desperdiciando recursos escasos que estarían mejor en otros proyectos.</description>
+    </item>
+    
+  </channel>
+</rss>

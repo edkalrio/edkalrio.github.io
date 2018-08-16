@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cafe on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/cafe/</link>
+    <description>Recent content in Cafe on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 21 Apr 2011 15:30:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/cafe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project Cafe</title>
+      <link>https://lunaticgeek.com/2011-04-21-project-cafe/</link>
+      <pubDate>Thu, 21 Apr 2011 15:30:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2011-04-21-project-cafe/</guid>
+      <description>Mucho estábamos tardando en comentar algo sobre los rumores acerca de la próxima consola de Nintendo, por el momento conocida como &#34;Project Cafe&#34;, y a veces como &#34;Project Butterfly&#34;.El caso es que páginas web fiables y en ocasiones de renombre como 01net,IGN o Gameinformer afirman que la conocen e incluso podrían haberla probado. Sí que tienen suerte, ¿eh? Quizá por eso a nosotros nos manden una 3DS, a ver si se estiran con un Café de estos también.</description>
+    </item>
+    
+  </channel>
+</rss>

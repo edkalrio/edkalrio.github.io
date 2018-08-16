@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coche on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/coche/</link>
+    <description>Recent content in Coche on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 12 Oct 2010 00:34:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/coche/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El coche de google que se conduce solo</title>
+      <link>https://lunaticgeek.com/2010-10-12-el-coche-de-google-que-se-conduce-solo/</link>
+      <pubDate>Tue, 12 Oct 2010 00:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/2010-10-12-el-coche-de-google-que-se-conduce-solo/</guid>
+      <description>En uno de los blogs de Google este fin de semana pasado anunciaban que habían desarrollado un coche que se conducía solo.Finalmente, este coche ha sido probado en una carretera de verdad, con trafico de verdad, como un vehículo mas, y lo mas sorprendente es que ha respondido perfectamente, siendo solo intervenido por un humano en situaciones extremas (un ciclista se saltó un semáforo), y aun así, el estudio de la caja negra indicaba que el coche hubiera evitado el accidente por si solo.</description>
+    </item>
+    
+  </channel>
+</rss>
