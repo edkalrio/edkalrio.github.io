@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/feliz-no-cumplea%C3%B1os/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/2018-07-23-libros-para-el-verano/</loc>
     <lastmod>2018-07-23T13:28:00+02:00</lastmod>
   </url>
@@ -2741,7 +2746,13 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-07-23T13:28:00+02:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/lunatic-geek/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3354,6 +3365,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/wine/</loc>
     <lastmod>2012-08-23T16:20:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/wit/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
