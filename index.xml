@@ -6,10 +6,80 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>El Problema de los Tres Colores</title>
+	  <link>https://lunaticgeek.com/problema-tres-colores/</link>
+	  <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/problema-tres-colores/</guid>
+	  <description>&lt;p&gt;Me han presentado un problema de diseño que me gustaría compartir por su resultado sorprendentemente poco intuitivo.&lt;/p&gt;
+
+&lt;p&gt;Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que la forman es uno de los principales puntos a tener en cuenta. No hay que ser experto en óptica para darse cuenta de que si queremos maximizar el contraste de un fondo blanco debemos colorear el texto en negro y viceversa. El problema planteado era hallar el color de fondo que maximice el contraste para un texto blanco y negro, simultáneamente.&lt;/p&gt;
+
+&lt;p&gt;En un primer momento me decanté por el gris &lt;code&gt;#808080&lt;/code&gt; por ser el color central del cubo RGB y del cilindro HSL. Esta respuesta geométrica es la más intuitiva pero errónea. La representación del color en esos espacios está totalmente manipulada para que pueda usarse más fácilmente, pero en realidad, la percepción del color es no lineal por lo que todas las representaciones simétricas no captan de forma consistente las diferencias entre tonos.&lt;/p&gt;
+
+&lt;p&gt;Afortunadamente, me di cuenta de mi error e intenté calcular el óptimo. Como decía Ken Thompson: &amp;ldquo;en caso de duda, usar la fuerza bruta&amp;rdquo;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;n&#34;&gt;F&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.01&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;D&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;X_8bit2sRGB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_8bit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;X_sRGB&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_8bit&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_sRGB&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.03928&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;X&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_sRGB&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;12.92&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;X&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_sRGB&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.055&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.055&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;2.4&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X&lt;/span&gt;    
+
+&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;R_8bit&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;R&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_8bit2sRGB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R_8bit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;G_8bit&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;G&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_8bit2sRGB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;G_8bit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;B_8bit&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;B&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_8bit2sRGB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;B_8bit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+            &lt;span class=&#34;n&#34;&gt;L&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2126&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.7152&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;G&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.0722&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;B&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;C_B&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.05&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.05&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;C_W&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1.05&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.05&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+            
+            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C_B&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;4.5&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C_W&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;4.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+                &lt;span class=&#34;n&#34;&gt;C&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;abs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_B&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_W&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+                &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+                    &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C&lt;/span&gt;
+                    &lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#{R_8bit:02X}{G_8bit:02X}{B_8bit:02X}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Este script en Python que programé en dos minutos en un trozo de papel recorre todo el cubo RGB, los 16.777.216 tonos, comparando su contraste con los colores blanco y negro, seleccionando cada vez los mejores. Las matemáticas detrás de este desarrollo se encuentran recogidas en la guía de &lt;a href=&#34;https://www.w3.org/TR/WCAG20-TECHS/G18.html&#34;&gt;WCAG 2.0&lt;/a&gt;. No voy a comentarlas porque no entiendo nada de teoría del color y solo me he limitado a implementarlas en este pequeño script.&lt;/p&gt;
+
+&lt;p&gt;El resultado es totalmente inesperado y en cierta forma decepcionante.&lt;/p&gt;
+
+&lt;div style=&#34;background:#CF0DCC;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;El color &lt;code&gt;#CF0DCC&lt;/code&gt; es el óptimo, aunque un color magenta como este es horroroso y no podría usarlo en ningún diseño. Sin embargo, el script también proporciona soluciones subóptimas, con resultados prácticamente iguales pero tonos mucho más útiles como son los siguientes, que he seleccionando entre todos.&lt;/p&gt;
+
+&lt;div style=&#34;background:#EC0408;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;background:#038901;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;background:#006DFB;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;background:#6562F2;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Feliz No cumpleaños</title>
@@ -54,7 +124,7 @@
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Agregador de feeds para poder compartir noticias de terceros por RSS.&lt;/li&gt;
-&lt;li&gt;Acceso a través de Tor en &lt;a href=&#34;http://tor.lunaticgeek.com&#34;&gt;http://tor.lunaticgeek.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Acceso a través de Tor en &lt;a href=&#34;https://tor.lunaticgeek.com&#34;&gt;https://tor.lunaticgeek.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;HTTP/2&lt;/li&gt;
 &lt;li&gt;TLS 1.3&lt;/li&gt;
 &lt;li&gt;QUIC (próximamente)&lt;/li&gt;

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/problema-tres-colores/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/feliz-no-cumplea%C3%B1os/</loc>
     <lastmod>2018-08-23T00:00:00+00:00</lastmod>
   </url>
@@ -2746,7 +2751,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3010,7 +3015,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/programaci%C3%B3n/</loc>
-    <lastmod>2018-01-30T13:52:00+01:00</lastmod>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3071,6 +3076,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/regreso-al-futuro/</loc>
     <lastmod>2010-07-27T13:11:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/rgb/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

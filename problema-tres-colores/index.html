@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>El Problema de los Tres Colores - Lunatic Geek</title>
+  <meta property="og:title" content="El Problema de los Tres Colores - Lunatic Geek" />
+  <meta name="twitter:title" content="El Problema de los Tres Colores - Lunatic Geek" />
+  <meta name="description" content="Me han presentado un problema de diseño que me gustaría compartir por su resultado sorprendentemente poco intuitivo.
+Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que la forman es uno de los principales puntos a tener en cuenta. No hay que ser experto en óptica para darse cuenta de que si queremos maximizar el contraste de un fondo blanco debemos colorear el texto en negro y viceversa.">
+  <meta property="og:description" content="Me han presentado un problema de diseño que me gustaría compartir por su resultado sorprendentemente poco intuitivo.
+Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que la forman es uno de los principales puntos a tener en cuenta. No hay que ser experto en óptica para darse cuenta de que si queremos maximizar el contraste de un fondo blanco debemos colorear el texto en negro y viceversa.">
+  <meta name="twitter:description" content="Me han presentado un problema de diseño que me gustaría compartir por su resultado sorprendentemente poco intuitivo.
+Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/problema-tres-colores/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">El Problema de los Tres Colores</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2018-08-31</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/programaci%C3%B3n/">
+						<i class="fas fa-tag"></i>
+						Programación
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/rgb/">
+						<i class="fas fa-tag"></i>
+						RGB
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<p>Me han presentado un problema de diseño que me gustaría compartir por su resultado sorprendentemente poco intuitivo.</p>
+
+<p>Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que la forman es uno de los principales puntos a tener en cuenta. No hay que ser experto en óptica para darse cuenta de que si queremos maximizar el contraste de un fondo blanco debemos colorear el texto en negro y viceversa. El problema planteado era hallar el color de fondo que maximice el contraste para un texto blanco y negro, simultáneamente.</p>
+
+<p>En un primer momento me decanté por el gris <code>#808080</code> por ser el color central del cubo RGB y del cilindro HSL. Esta respuesta geométrica es la más intuitiva pero errónea. La representación del color en esos espacios está totalmente manipulada para que pueda usarse más fácilmente, pero en realidad, la percepción del color es no lineal por lo que todas las representaciones simétricas no captan de forma consistente las diferencias entre tonos.</p>
+
+<p>Afortunadamente, me di cuenta de mi error e intenté calcular el óptimo. Como decía Ken Thompson: &ldquo;en caso de duda, usar la fuerza bruta&rdquo;.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">F</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">D</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">X_8bit2sRGB</span><span class="p">(</span><span class="n">X_8bit</span><span class="p">):</span>
+    <span class="n">X_sRGB</span> <span class="o">=</span> <span class="n">X_8bit</span><span class="o">/</span><span class="mi">255</span>
+    <span class="k">if</span> <span class="n">X_sRGB</span> <span class="o">&lt;=</span> <span class="mf">0.03928</span><span class="p">:</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="n">X_sRGB</span><span class="o">/</span><span class="mf">12.92</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="p">((</span><span class="n">X_sRGB</span><span class="o">+</span><span class="mf">0.055</span><span class="p">)</span><span class="o">/</span><span class="mf">1.055</span><span class="p">)</span><span class="o">**</span><span class="mf">2.4</span>
+    <span class="k">return</span> <span class="n">X</span>    
+
+<span class="k">for</span> <span class="n">R_8bit</span> <span class="ow">in</span> <span class="n">D</span><span class="p">:</span>
+    <span class="n">R</span> <span class="o">=</span> <span class="n">X_8bit2sRGB</span><span class="p">(</span><span class="n">R_8bit</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">G_8bit</span> <span class="ow">in</span> <span class="n">D</span><span class="p">:</span>
+        <span class="n">G</span> <span class="o">=</span> <span class="n">X_8bit2sRGB</span><span class="p">(</span><span class="n">G_8bit</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">B_8bit</span> <span class="ow">in</span> <span class="n">D</span><span class="p">:</span>
+            <span class="n">B</span> <span class="o">=</span> <span class="n">X_8bit2sRGB</span><span class="p">(</span><span class="n">B_8bit</span><span class="p">)</span>
+
+            <span class="n">L</span> <span class="o">=</span> <span class="mf">0.2126</span><span class="o">*</span><span class="n">R</span><span class="o">+</span><span class="mf">0.7152</span><span class="o">*</span><span class="n">G</span><span class="o">+</span><span class="mf">0.0722</span><span class="o">*</span><span class="n">B</span>
+            <span class="n">C_B</span> <span class="o">=</span> <span class="p">(</span><span class="n">L</span><span class="o">+</span><span class="mf">0.05</span><span class="p">)</span><span class="o">/</span><span class="mf">0.05</span>
+            <span class="n">C_W</span> <span class="o">=</span> <span class="mf">1.05</span><span class="o">/</span><span class="p">(</span><span class="n">L</span><span class="o">+</span><span class="mf">0.05</span><span class="p">)</span>
+            
+            <span class="k">if</span> <span class="n">C_B</span> <span class="o">&gt;=</span> <span class="mf">4.5</span> <span class="ow">and</span> <span class="n">C_W</span> <span class="o">&gt;=</span> <span class="mf">4.5</span><span class="p">:</span>
+                <span class="n">C</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">C_B</span><span class="o">-</span><span class="n">C_W</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">C</span> <span class="o">&lt;=</span> <span class="n">F</span><span class="p">:</span>
+                    <span class="n">F</span> <span class="o">=</span> <span class="n">C</span>
+                    <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&#34;#{R_8bit:02X}{G_8bit:02X}{B_8bit:02X}&#34;</span><span class="p">)</span></code></pre></div>
+<p>Este script en Python que programé en dos minutos en un trozo de papel recorre todo el cubo RGB, los 16.777.216 tonos, comparando su contraste con los colores blanco y negro, seleccionando cada vez los mejores. Las matemáticas detrás de este desarrollo se encuentran recogidas en la guía de <a href="https://www.w3.org/TR/WCAG20-TECHS/G18.html">WCAG 2.0</a>. No voy a comentarlas porque no entiendo nada de teoría del color y solo me he limitado a implementarlas en este pequeño script.</p>
+
+<p>El resultado es totalmente inesperado y en cierta forma decepcionante.</p>
+
+<div style="background:#CF0DCC;">
+    <p style="color:#000;">#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+
+<p>El color <code>#CF0DCC</code> es el óptimo, aunque un color magenta como este es horroroso y no podría usarlo en ningún diseño. Sin embargo, el script también proporciona soluciones subóptimas, con resultados prácticamente iguales pero tonos mucho más útiles como son los siguientes, que he seleccionando entre todos.</p>
+
+<div style="background:#EC0408;">
+    <p style="color:#000;">#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div style="background:#038901;">
+    <p style="color:#000;">#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div style="background:#006DFB;">
+    <p style="color:#000;">#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div style="background:#6562F2;">
+    <p style="color:#000;">#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

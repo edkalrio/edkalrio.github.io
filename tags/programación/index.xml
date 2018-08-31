@@ -6,10 +6,20 @@
     <description>Recent content in Programación on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 30 Jan 2018 13:52:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>El Problema de los Tres Colores</title>
+      <link>https://lunaticgeek.com/problema-tres-colores/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/problema-tres-colores/</guid>
+      <description>Me han presentado un problema de diseño que me gustaría compartir por su resultado sorprendentemente poco intuitivo.
+Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que la forman es uno de los principales puntos a tener en cuenta. No hay que ser experto en óptica para darse cuenta de que si queremos maximizar el contraste de un fondo blanco debemos colorear el texto en negro y viceversa.</description>
+    </item>
     
     <item>
       <title>Fanboys de la Programación Orientada a Objetos</title>
