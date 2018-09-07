@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rss on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/rss/</link>
+    <description>Recent content in Rss on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arreglando Twitter</title>
+      <link>https://lunaticgeek.com/arreglando-twitter/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/arreglando-twitter/</guid>
+      <description>La única forma sensata de consumir contenido web es a través de RSS, por eso todos nos sentimos traicionados cuando Google mató Reader por motivos económicos. Desde el principio estaba tan convencido de la superioridad de la sindicación de contenidos web que cuando creé este blog, lo hice enfocado a su distribución por RSS. Fue lo primero que configuré cuando empecé hace casi una década y la forma en la que recomiendo a todo el mundo acceder a su información.</description>
+    </item>
+    
+  </channel>
+</rss>

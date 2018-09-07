@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Ampliando la Caja de Herramientas de UNIX - Lunatic Geek</title>
+  <meta property="og:title" content="Ampliando la Caja de Herramientas de UNIX - Lunatic Geek" />
+  <meta name="twitter:title" content="Ampliando la Caja de Herramientas de UNIX - Lunatic Geek" />
+  <meta name="description" content="Una de las partes más importantes de la filosofía UNIX es la composición de programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.
+Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones.">
+  <meta property="og:description" content="Una de las partes más importantes de la filosofía UNIX es la composición de programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.
+Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones.">
+  <meta name="twitter:description" content="Una de las partes más importantes de la filosofía UNIX es la composición de programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/unix-toolbox/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Ampliando la Caja de Herramientas de UNIX</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>0001-01-01</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						UNIX
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			
+
+<p>Una de las partes más importantes de la filosofía UNIX es la composición de  programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.</p>
+
+<p>Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones. Prácticamente cualquier función en la que intervengan cadenas de caracteres, manejo de archivos, gestión de usuarios o llamadas al sistema pueden implementarse combinando estas piezas que constituyen el pilar fundamental del espacio de usuarios de UNIX.</p>
+
+<p>Sin embargo, hace una década, Joey Hess pensó que todavía se podía innovar en este ámbito, como dejó escrito en su <a href="https://joeyh.name/code/moreutils/">blog</a>:</p>
+
+<blockquote>
+<p>&ldquo;I&rsquo;m a fan of the unix tools philosophy, but I sometimes wonder if there&rsquo;s much room for new tools to be added to that toolbox. I&rsquo;ve always wanted to come up with my own general-purpose new unix tool.&rdquo;</p>
+</blockquote>
+
+<p>Joey creó un paquete de aplicaciones llamado <code>moreutils</code>. La utilidad de los programas que contiene no me parece demasiado importante pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.</p>
+
+<h3 id="curl">curl</h3>
+
+<p>curl es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmetne lo suelo usar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. <code>curl</code> también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa es más UNIX.</p>
+
+<h3 id="netcat">netcat</h3>
+
+<p>Sin ser la herramienta más conocida del grupo, su utilidad va a más allá de cualquier duda. Permite abrir puertos TCP y UDP, conectarse a ellos, mantenerse a la escucha, etc. para crear junto a otros programas servidores telnet, HTTP, chats estilo <code>talk</code> y cualquier cosa relacionada con sockets que se nos ocurra. Es una utilidad imprescindible para crear prototipos funcionales cuando tenemos prisa.</p>
+
+<h3 id="jq">jq</h3>
+
+<p>Puede que el uso de <code>jq</code> sea demasiado específico pero su arquitectura estática y la calidad de su código le hacen digno merecedor de entrar a formar parte de esta lista. Este intérprete de Json es el mejor y más rápido. El uso constante de REST APIs obliga a todos los programadores a tener una aplicación de este tipo en su repertorio y <code>jq</code> es simplemente perfecta.</p>
+
+<h3 id="openssh">openSSH</h3>
+
+<p>Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como telnet o *** . Su uso ubicuo lo convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad mosh</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
