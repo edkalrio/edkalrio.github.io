@@ -6,10 +6,32 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Arreglando Twitter</title>
+	  <link>https://lunaticgeek.com/arreglando-twitter/</link>
+	  <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/arreglando-twitter/</guid>
+	  <description>&lt;p&gt;&lt;img src=&#34;https://ewedit.files.wordpress.com/2015/01/back-to-the-future_l.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La única forma sensata de consumir contenido web es a través de RSS, por eso todos nos sentimos traicionados cuando Google mató Reader por motivos económicos. Desde el principio estaba tan convencido de la superioridad de la sindicación de contenidos web que cuando creé este blog, lo hice enfocado a su distribución por RSS. Fue lo primero que configuré cuando empecé hace casi una década y la forma en la que recomiendo a todo el mundo acceder a su información.&lt;/p&gt;
+
+&lt;p&gt;Debería aclarar que siempre denomino RSS a lo que en realidad se llama Atom. El problema es que Atom es un nombre demasiado genérico y que personalmente no me gusta. El verdadero RSS es un protocolo totalmente obsoleto y horrendo. RSS 1.0 es uno de los peores estándares de la historia de la informática que solo se solucionó parcialmente con RSS 2.0, pero no fue hasta Atom cuando arreglaron su defectuoso diseño. No voy a entrar en más detalles porque hace unos años, &lt;a href=&#34;http://nullprogram.com/blog/2013/09/23/&#34;&gt;Chris Wellons&lt;/a&gt; escribió un post con todas las críticas que yo le le hago a RSS y alguna más. Una lectura imprescindible. Y mi mala costumbre de llamarlo a todo RSS se extenderá al futuro si se difunde &lt;a href=&#34;https://jsonfeed.org/version/1&#34;&gt;Json Feed&lt;/a&gt;, una iniciativa que eliminará el XML de Atom y modificará algunas claves. Este sí es mi formato preferido para la sindicación pero no es un standard.&lt;/p&gt;
+
+&lt;p&gt;Últimamente estoy experimentando bastante con RSS y he encontrado posibilidades inexploradas que aprovechan la potencia de este formato. Me gustaría destacar XSL, un lenguaje infrautilizado que permite convertir el XML del RSS en una página XHTML, con su correspondiente CSS e incluso JS si quisiéramos. Esto nos permitiría programar páginas web sin HTML, utilizando el mismo archivo RSS como mecanismo de suscripción y de visionado.&lt;/p&gt;
+
+&lt;p&gt;Con los últimos movimientos de Twitter, estoy empezando a aborrecer la red de microblogging, como ya comenté &lt;a href=&#34;https://lunaticgeek.com/2017-12-08-twtxt/&#34;&gt;anteriormente&lt;/a&gt;, y en la búsqueda de una alternativa, me di cuenta de que la respuesta estaba en el RSS.&lt;/p&gt;
+
+&lt;p&gt;El 99% del tiempo, mi actividad en Twitter se limita a leer los tweets de mis amigos. Ni interactúo con ellos, ni exploro trending topics. Sólo leo mi timeline, como todo el mundo. Como mi actitud en Twitter es tan &lt;em&gt;lurker&lt;/em&gt;, he creado un servidor que llamo birdwath cuya única función es traducir mi timeline desde la API de Twitter a RSS. Esta solución acaba con los tweets promocionados, recomendados, desordenados, repetidos (por si te lo habías perdido) y favoritos (qué sentido tiene que los favoritos se difundan entre los seguidores? Para eso están los retweets). Es una solución tan eficaz que después de una semana de pruebas he desinstalado la app de Twitter de mi móvil.&lt;/p&gt;
+
+&lt;p&gt;Si alguien quiere probar birdwatch, estará disponible próximamente en &lt;a href=&#34;https://github.com/edkalrio/birdwatch&#34;&gt;GitHub&lt;/a&gt;, pero antes debo adecentar un poco el código y redactar la documentación.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>El Problema de los Tres Colores</title>
@@ -4129,6 +4151,44 @@
 	  
 	  <guid>https://lunaticgeek.com/2009-08-23-yahoo-microsoft/</guid>
 	  <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;&lt;a href=&#34;http://www.filecluster.com/reviews/wp-content/uploads/2008/08/ie8-logo.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;200&#34; src=&#34;http://www.filecluster.com/reviews/wp-content/uploads/2008/08/ie8-logo.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;&lt;b&gt;&#34;Get the new, safer IE8.&#34;&lt;/b&gt;&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;Con esta recomendación los directivos del portal de búsquedas&amp;nbsp;de yahoo! alardean de cinismo aconsejando a los usuarios de sus servicios que se pasen&amp;nbsp;al nuevo navegador del gigante de redmond. La paradoja se produce porque hace&amp;nbsp;menos de un año exhortaban a todo el mundo que migrara de forma masiva al&amp;nbsp;navegador de mozilla (como consecuencia de una opa hostil que microsoft lanzó para&amp;nbsp;intentar adquirir gran parte del accionariado de yahoo!) pero parece que ahora los&amp;nbsp;ejecutivos del portal de búsquedas necesitan dinero y no hay nada más económico en el&amp;nbsp;mundo de la informática que venderle tu alma a Bill Gates.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;Si Carol Bartz recomienda hipócritamente que instales IE8 yo advierto que es el peor&amp;nbsp;navegador de la actualidad y las alternativas como firefox, chrome, safari, opera, etc.&amp;nbsp;son mucho más interesantes. Tampoco hay que olvidar que IE8 es una aplicación&amp;nbsp;pendiente de diversos procesos litigiosos con el tribunal superior de justicia europeo por&amp;nbsp;vulnerar los buenos usos mercantiles creando un marco de competencia desleal y&amp;nbsp;monopolizando el mercado de browsers con su software, el cual es muy deficiente, me&amp;nbsp;atrevo a añadir.&lt;/span&gt;</description>
+	</item>
+	
+	<item>
+	  <title>Ampliando la Caja de Herramientas de UNIX</title>
+	  <link>https://lunaticgeek.com/unix-toolbox/</link>
+	  <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/unix-toolbox/</guid>
+	  <description>
+
+&lt;p&gt;Una de las partes más importantes de la filosofía UNIX es la composición de  programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.&lt;/p&gt;
+
+&lt;p&gt;Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones. Prácticamente cualquier función en la que intervengan cadenas de caracteres, manejo de archivos, gestión de usuarios o llamadas al sistema pueden implementarse combinando estas piezas que constituyen el pilar fundamental del espacio de usuarios de UNIX.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, hace una década, Joey Hess pensó que todavía se podía innovar en este ámbito, como dejó escrito en su &lt;a href=&#34;https://joeyh.name/code/moreutils/&#34;&gt;blog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;I&amp;rsquo;m a fan of the unix tools philosophy, but I sometimes wonder if there&amp;rsquo;s much room for new tools to be added to that toolbox. I&amp;rsquo;ve always wanted to come up with my own general-purpose new unix tool.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Joey creó un paquete de aplicaciones llamado &lt;code&gt;moreutils&lt;/code&gt;. La utilidad de los programas que contiene no me parece demasiado importante pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.&lt;/p&gt;
+
+&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
+
+&lt;p&gt;curl es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmetne lo suelo usar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. &lt;code&gt;curl&lt;/code&gt; también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa es más UNIX.&lt;/p&gt;
+
+&lt;h3 id=&#34;netcat&#34;&gt;netcat&lt;/h3&gt;
+
+&lt;p&gt;Sin ser la herramienta más conocida del grupo, su utilidad va a más allá de cualquier duda. Permite abrir puertos TCP y UDP, conectarse a ellos, mantenerse a la escucha, etc. para crear junto a otros programas servidores telnet, HTTP, chats estilo &lt;code&gt;talk&lt;/code&gt; y cualquier cosa relacionada con sockets que se nos ocurra. Es una utilidad imprescindible para crear prototipos funcionales cuando tenemos prisa.&lt;/p&gt;
+
+&lt;h3 id=&#34;jq&#34;&gt;jq&lt;/h3&gt;
+
+&lt;p&gt;Puede que el uso de &lt;code&gt;jq&lt;/code&gt; sea demasiado específico pero su arquitectura estática y la calidad de su código le hacen digno merecedor de entrar a formar parte de esta lista. Este intérprete de Json es el mejor y más rápido. El uso constante de REST APIs obliga a todos los programadores a tener una aplicación de este tipo en su repertorio y &lt;code&gt;jq&lt;/code&gt; es simplemente perfecta.&lt;/p&gt;
+
+&lt;h3 id=&#34;openssh&#34;&gt;openSSH&lt;/h3&gt;
+
+&lt;p&gt;Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como telnet o *** . Su uso ubicuo lo convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad mosh&lt;/p&gt;
+</description>
 	</item>
 	
   </channel>

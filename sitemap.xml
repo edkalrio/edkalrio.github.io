@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/arreglando-twitter/</loc>
+    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/problema-tres-colores/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url>
@@ -2252,6 +2257,10 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/unix-toolbox/</loc>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/android/</loc>
     <lastmod>2013-08-22T17:09:00+02:00</lastmod>
     <priority>0</priority>
@@ -2751,7 +2760,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3092,6 +3101,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/rss/</loc>
+    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/rwlabs/</loc>
     <lastmod>2011-08-04T17:41:00+02:00</lastmod>
     <priority>0</priority>
@@ -3291,7 +3306,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/twitter/</loc>
-    <lastmod>2017-12-08T14:07:00+01:00</lastmod>
+    <lastmod>2018-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
