@@ -52,7 +52,7 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>0001-01-01</time></li>
+				<li class="article-meta-date"><time>2018-09-11</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/unix/">
 						<i class="fas fa-tag"></i>
@@ -73,11 +73,11 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
 <p>&ldquo;I&rsquo;m a fan of the unix tools philosophy, but I sometimes wonder if there&rsquo;s much room for new tools to be added to that toolbox. I&rsquo;ve always wanted to come up with my own general-purpose new unix tool.&rdquo;</p>
 </blockquote>
 
-<p>Joey creó un paquete de aplicaciones llamado <code>moreutils</code>. La utilidad de los programas que contiene no me parece demasiado importante pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.</p>
+<p>Joey creó un paquete de aplicaciones llamado <code>moreutils</code>. La utilidad de los programas que contiene no me parece demasiado destacable pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.</p>
 
 <h3 id="curl">curl</h3>
 
-<p>curl es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmetne lo suelo usar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. <code>curl</code> también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa es más UNIX.</p>
+<p><code>curl</code> es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmente lo suelo utilizar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. <code>curl</code> también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa independiente es más propio del estilo UNIX.</p>
 
 <h3 id="netcat">netcat</h3>
 
@@ -87,9 +87,9 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
 
 <p>Puede que el uso de <code>jq</code> sea demasiado específico pero su arquitectura estática y la calidad de su código le hacen digno merecedor de entrar a formar parte de esta lista. Este intérprete de Json es el mejor y más rápido. El uso constante de REST APIs obliga a todos los programadores a tener una aplicación de este tipo en su repertorio y <code>jq</code> es simplemente perfecta.</p>
 
-<h3 id="openssh">openSSH</h3>
+<h3 id="openssh">openssh</h3>
 
-<p>Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como telnet o *** . Su uso ubicuo lo convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad mosh</p>
+<p>Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como <code>telnet</code> o <code>rsh</code>. El uso ubicuo de esta herramienta la convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad <a href="https://mosh.org/">mosh</a>, una alternativa que soluciona algunos problemas con conexiones intermitentes.</p>
 
 		</article>
 

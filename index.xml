@@ -6,10 +6,48 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Ampliando la Caja de Herramientas de UNIX</title>
+	  <link>https://lunaticgeek.com/unix-toolbox/</link>
+	  <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/unix-toolbox/</guid>
+	  <description>
+
+&lt;p&gt;Una de las partes más importantes de la filosofía UNIX es la composición de  programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.&lt;/p&gt;
+
+&lt;p&gt;Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones. Prácticamente cualquier función en la que intervengan cadenas de caracteres, manejo de archivos, gestión de usuarios o llamadas al sistema pueden implementarse combinando estas piezas que constituyen el pilar fundamental del espacio de usuarios de UNIX.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, hace una década, Joey Hess pensó que todavía se podía innovar en este ámbito, como dejó escrito en su &lt;a href=&#34;https://joeyh.name/code/moreutils/&#34;&gt;blog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;I&amp;rsquo;m a fan of the unix tools philosophy, but I sometimes wonder if there&amp;rsquo;s much room for new tools to be added to that toolbox. I&amp;rsquo;ve always wanted to come up with my own general-purpose new unix tool.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Joey creó un paquete de aplicaciones llamado &lt;code&gt;moreutils&lt;/code&gt;. La utilidad de los programas que contiene no me parece demasiado destacable pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.&lt;/p&gt;
+
+&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;curl&lt;/code&gt; es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmente lo suelo utilizar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. &lt;code&gt;curl&lt;/code&gt; también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa independiente es más propio del estilo UNIX.&lt;/p&gt;
+
+&lt;h3 id=&#34;netcat&#34;&gt;netcat&lt;/h3&gt;
+
+&lt;p&gt;Sin ser la herramienta más conocida del grupo, su utilidad va a más allá de cualquier duda. Permite abrir puertos TCP y UDP, conectarse a ellos, mantenerse a la escucha, etc. para crear junto a otros programas servidores telnet, HTTP, chats estilo &lt;code&gt;talk&lt;/code&gt; y cualquier cosa relacionada con sockets que se nos ocurra. Es una utilidad imprescindible para crear prototipos funcionales cuando tenemos prisa.&lt;/p&gt;
+
+&lt;h3 id=&#34;jq&#34;&gt;jq&lt;/h3&gt;
+
+&lt;p&gt;Puede que el uso de &lt;code&gt;jq&lt;/code&gt; sea demasiado específico pero su arquitectura estática y la calidad de su código le hacen digno merecedor de entrar a formar parte de esta lista. Este intérprete de Json es el mejor y más rápido. El uso constante de REST APIs obliga a todos los programadores a tener una aplicación de este tipo en su repertorio y &lt;code&gt;jq&lt;/code&gt; es simplemente perfecta.&lt;/p&gt;
+
+&lt;h3 id=&#34;openssh&#34;&gt;openssh&lt;/h3&gt;
+
+&lt;p&gt;Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como &lt;code&gt;telnet&lt;/code&gt; o &lt;code&gt;rsh&lt;/code&gt;. El uso ubicuo de esta herramienta la convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad &lt;a href=&#34;https://mosh.org/&#34;&gt;mosh&lt;/a&gt;, una alternativa que soluciona algunos problemas con conexiones intermitentes.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Arreglando Twitter</title>
@@ -4151,44 +4189,6 @@
 	  
 	  <guid>https://lunaticgeek.com/2009-08-23-yahoo-microsoft/</guid>
 	  <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;&lt;a href=&#34;http://www.filecluster.com/reviews/wp-content/uploads/2008/08/ie8-logo.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;200&#34; src=&#34;http://www.filecluster.com/reviews/wp-content/uploads/2008/08/ie8-logo.png&#34; width=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;&lt;b&gt;&#34;Get the new, safer IE8.&#34;&lt;/b&gt;&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;Con esta recomendación los directivos del portal de búsquedas&amp;nbsp;de yahoo! alardean de cinismo aconsejando a los usuarios de sus servicios que se pasen&amp;nbsp;al nuevo navegador del gigante de redmond. La paradoja se produce porque hace&amp;nbsp;menos de un año exhortaban a todo el mundo que migrara de forma masiva al&amp;nbsp;navegador de mozilla (como consecuencia de una opa hostil que microsoft lanzó para&amp;nbsp;intentar adquirir gran parte del accionariado de yahoo!) pero parece que ahora los&amp;nbsp;ejecutivos del portal de búsquedas necesitan dinero y no hay nada más económico en el&amp;nbsp;mundo de la informática que venderle tu alma a Bill Gates.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style=&#34;font-family: &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;&#34;&gt;Si Carol Bartz recomienda hipócritamente que instales IE8 yo advierto que es el peor&amp;nbsp;navegador de la actualidad y las alternativas como firefox, chrome, safari, opera, etc.&amp;nbsp;son mucho más interesantes. Tampoco hay que olvidar que IE8 es una aplicación&amp;nbsp;pendiente de diversos procesos litigiosos con el tribunal superior de justicia europeo por&amp;nbsp;vulnerar los buenos usos mercantiles creando un marco de competencia desleal y&amp;nbsp;monopolizando el mercado de browsers con su software, el cual es muy deficiente, me&amp;nbsp;atrevo a añadir.&lt;/span&gt;</description>
-	</item>
-	
-	<item>
-	  <title>Ampliando la Caja de Herramientas de UNIX</title>
-	  <link>https://lunaticgeek.com/unix-toolbox/</link>
-	  <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-	  
-	  <guid>https://lunaticgeek.com/unix-toolbox/</guid>
-	  <description>
-
-&lt;p&gt;Una de las partes más importantes de la filosofía UNIX es la composición de  programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.&lt;/p&gt;
-
-&lt;p&gt;Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones. Prácticamente cualquier función en la que intervengan cadenas de caracteres, manejo de archivos, gestión de usuarios o llamadas al sistema pueden implementarse combinando estas piezas que constituyen el pilar fundamental del espacio de usuarios de UNIX.&lt;/p&gt;
-
-&lt;p&gt;Sin embargo, hace una década, Joey Hess pensó que todavía se podía innovar en este ámbito, como dejó escrito en su &lt;a href=&#34;https://joeyh.name/code/moreutils/&#34;&gt;blog&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;I&amp;rsquo;m a fan of the unix tools philosophy, but I sometimes wonder if there&amp;rsquo;s much room for new tools to be added to that toolbox. I&amp;rsquo;ve always wanted to come up with my own general-purpose new unix tool.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Joey creó un paquete de aplicaciones llamado &lt;code&gt;moreutils&lt;/code&gt;. La utilidad de los programas que contiene no me parece demasiado importante pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.&lt;/p&gt;
-
-&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
-
-&lt;p&gt;curl es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmetne lo suelo usar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. &lt;code&gt;curl&lt;/code&gt; también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa es más UNIX.&lt;/p&gt;
-
-&lt;h3 id=&#34;netcat&#34;&gt;netcat&lt;/h3&gt;
-
-&lt;p&gt;Sin ser la herramienta más conocida del grupo, su utilidad va a más allá de cualquier duda. Permite abrir puertos TCP y UDP, conectarse a ellos, mantenerse a la escucha, etc. para crear junto a otros programas servidores telnet, HTTP, chats estilo &lt;code&gt;talk&lt;/code&gt; y cualquier cosa relacionada con sockets que se nos ocurra. Es una utilidad imprescindible para crear prototipos funcionales cuando tenemos prisa.&lt;/p&gt;
-
-&lt;h3 id=&#34;jq&#34;&gt;jq&lt;/h3&gt;
-
-&lt;p&gt;Puede que el uso de &lt;code&gt;jq&lt;/code&gt; sea demasiado específico pero su arquitectura estática y la calidad de su código le hacen digno merecedor de entrar a formar parte de esta lista. Este intérprete de Json es el mejor y más rápido. El uso constante de REST APIs obliga a todos los programadores a tener una aplicación de este tipo en su repertorio y &lt;code&gt;jq&lt;/code&gt; es simplemente perfecta.&lt;/p&gt;
-
-&lt;h3 id=&#34;openssh&#34;&gt;openSSH&lt;/h3&gt;
-
-&lt;p&gt;Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como telnet o *** . Su uso ubicuo lo convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad mosh&lt;/p&gt;
-</description>
 	</item>
 	
   </channel>

@@ -6,10 +6,20 @@
     <description>Recent content in Unix on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 13 Jul 2018 13:37:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ampliando la Caja de Herramientas de UNIX</title>
+      <link>https://lunaticgeek.com/unix-toolbox/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/unix-toolbox/</guid>
+      <description>Una de las partes más importantes de la filosofía UNIX es la composición de programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.
+Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones.</description>
+    </item>
     
     <item>
       <title>RTFM</title>
@@ -83,16 +93,6 @@ Los fans de UNIX tenemos a nuestra disposición una herramienta igual de potente
       
       <guid>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</guid>
       <description>Vamos a empezar el año con una pregunta lunática. En qué año estamos? La respuesta no es tan evidente como parece. Todo depende del hito del calendario que estemos usando. En occidente se emplea el calendario gregoriano que nos sitúa en el 2016 pero no me parece muy apropiado utilizar la fecha de nacimiento de un carpintero judío de hace dos milenios como referencia temporal. En el mundo informático tampoco les parece la mejor opción y desarrolladores muy importantes han utilizado otras fechas para iniciar su calendario.</description>
-    </item>
-    
-    <item>
-      <title>Ampliando la Caja de Herramientas de UNIX</title>
-      <link>https://lunaticgeek.com/unix-toolbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/unix-toolbox/</guid>
-      <description>Una de las partes más importantes de la filosofía UNIX es la composición de programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.
-Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones.</description>
     </item>
     
   </channel>
