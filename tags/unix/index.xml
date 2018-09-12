@@ -6,7 +6,7 @@
     <description>Recent content in Unix on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Ampliando la Caja de Herramientas de UNIX</title>
       <link>https://lunaticgeek.com/unix-toolbox/</link>
-      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/unix-toolbox/</guid>
       <description>Una de las partes más importantes de la filosofía UNIX es la composición de programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.
