@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/pvsnp/</loc>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/unix-toolbox/</loc>
     <lastmod>2018-09-12T00:00:00+00:00</lastmod>
   </url>
@@ -2394,6 +2399,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/computaci%C3%B3n/</loc>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/cr-48/</loc>
     <lastmod>2010-12-08T20:29:00+01:00</lastmod>
     <priority>0</priority>
@@ -2761,7 +2772,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

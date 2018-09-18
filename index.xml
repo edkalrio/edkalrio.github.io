@@ -6,10 +6,60 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>La Encuesta P=?NP</title>
+	  <link>https://lunaticgeek.com/pvsnp/</link>
+	  <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/pvsnp/</guid>
+	  <description>&lt;p&gt;No voy a entrar a explicar el problema P=?NP porque es de sobra conocido y no soy la persona más indicada para esa tarea pero llevo años pensando en escribir una entrada explicando mi posición al respecto. Sin embargo, no tengo ningún argumento científico para defender mi postura, que solo puede calificarse como fe religiosa más que como opinión lógica.&lt;/p&gt;
+
+&lt;p&gt;Afortunadamente, me han hablado de una &lt;a href=&#34;https://www.cs.umd.edu/~gasarch/papers/poll.pdf&#34;&gt;encuesta&lt;/a&gt; que se realizó a cien eminentes investigadores que revelaban su opinión al respecto. Esta encuesta se publicó en 2012 pero la falta de avance en un problema tan atractivo que daría fama mundial al que lo resolviera (y un 1M USD) demuestran que no está ni mucho menos obsoleta.&lt;/p&gt;
+
+&lt;p&gt;La pregunta principal, en qué dirección se resolverá el problema, muestra la mayoría aplastante de 61 votos a favor de P≠NP mientras que solo hay 9 expertos convencidos de la igualdad de las clases.&lt;/p&gt;
+
+&lt;p&gt;Sobre la opinión concreta de los encuestados, me gustaría rescatar la de dos sospechosos habituales:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;John Conway: (P≠NP) In my opinion this shouldn’t really be a hard problem; it’s just that we came late to this theory, and haven’t yet developed any techniques for proving computations to be hard. Eventually, it will just be a footnote in the books.&lt;/p&gt;
+
+&lt;p&gt;Donald Knuth: It will be solved by either 2048 or 4096. I am currently somewhat pessimistic. The outcome will be the truly worst case scenario: namely that someone will prove “P=NP because there are only finitely many obstructions to the opposite hypothesis”; hence there will exists a polynomial time solution to SAT but we will never know its complexity!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dejando de lado a tan insignes personalidades, hay muchas opiniones sobre las que reflexionar y he recogido a modo de resumen las que me han parecido más interesantes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Mike Robson: (P≠NP) Maybe the question will be obsolete when we all have quantum computers.&lt;/p&gt;
+
+&lt;p&gt;Anonymous1: Only a few people will follow the proof. Whoever does will spend the rest of his life convincing people it is correct.&lt;/p&gt;
+
+&lt;p&gt;Richard Chang: (P≠NP) In the year, 2066 the idea that computers will double in speed every 18 months (Moore’s Law) has been ludicrous for 50 years. As such, no one uses asymptotic analysis anymore. Programs are written in assembly language to shave the running time. Some poor assistant professor will prove that P != NP and fail to get tenure for it.&lt;/p&gt;
+
+&lt;p&gt;Harvey Friedman: (P≠NP) Detailed combinatorial work on easier problems, leading up to the full result.&lt;/p&gt;
+
+&lt;p&gt;David Isles: My guess is that the problem will be resolved not thru the development of new techniques but as a consequence of quite radical revisions in our way of conceiving of certain mathematical ideas. Such revisions will include an abandoning of the belief in a set of natural numbers unique up to isomorphism plus a recognition that there must be a more careful use of induction in reasoning about “natural numbers.” One consequence of this would be the recognition that exponential is, in gen&lt;/p&gt;
+
+&lt;p&gt;Sariel Har-Peled: (P≠NP) There are good reasons to believe the question is NOT relevant. In particular, assume that tomorrow I came up with a A(10) ∗ n time algorithm for solving SAT [&amp;hellip;]. It is completely useless, as this implies that the problem can not be solved for any reasonable size instance, although P=NP. [&amp;hellip;] so&amp;hellip; Why is this question so important?&lt;/p&gt;
+
+&lt;p&gt;Vladik Kreinovich: (P≠NP) [&amp;hellip;] However, it is also highly possible that P will be proven to be equal to NP —but without the ability of solving all problems from NP easily, [&amp;hellip;] because the coefficients of the corresponding polynomial P(n) will likely be on un-physical (like 10&lt;sup&gt;40&lt;/sup&gt; or more).&lt;/p&gt;
+
+&lt;p&gt;Karl Papadantonakis: [&amp;hellip;] Clearly these are just quick opinions. Nobody really knows.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Por último, mi opinión, que curiosamente coincide exactamente con la de un tal Richard Karp de la Universidad de Berkeley:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Richard Karp: My intuitive belief is that P is unequal to NP, but the only supporting arguments I can offer are the failure of all efforts to place specific NP-complete problems in P by constructing polynomial-time algorithms.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Además, Si los investigadores pensaran realmente que P=NP intentarían demostrarlo, ya que resolver cualquier algoritmo en tiempo polinomial (aunque puede ser un polinomio inviable) es suficiente incentivo, pero saben que no es así. La demostración de la desigualdad es un callejón sin salida que no ofrece ninguna aplicación matemática posterior y solo sirve para ganar un premio y un par de medallas. Puede que no sea la mejor justificación&amp;hellip; de hecho, es embarazosamente cutre, pero es lo que pienso.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Ampliando la Caja de Herramientas de UNIX</title>
