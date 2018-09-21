@@ -6,10 +6,47 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>20 Juegos para la PlayStation Classic</title>
+	  <link>https://lunaticgeek.com/20-juegos-ps/</link>
+	  <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/20-juegos-ps/</guid>
+	  <description>&lt;p&gt;&lt;img src=&#34;https://psmedia.playstation.com/is/image/psmedia/ps-classic-old-vs-new-two-column-01-en-14sep18_1536938378589?$Icon$&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No voy a comprar la &lt;a href=&#34;https://www.playstation.com/es-es/explore/playstation-classic/&#34;&gt;PlayStation Classic&lt;/a&gt; porque mi PlayStation original (pirateada) sigue funcionando como el primer día a pesar de sus casi 20 años de edad. Además, tengo un fantástico RPI 3 con &lt;a href=&#34;https://retropie.org.uk/&#34;&gt;RetroPie&lt;/a&gt; que hace las veces de emulador de PlayStation y de otras tantas consolas retro.&lt;/p&gt;
+
+&lt;p&gt;La última razón para no adquirir la PlayStation Classic es la selección de juegos. Solo conocemos cinco de los 20 que finalmente formarán parte del catálogo pero me temo que la lista no va a ser todo lo buena que esperamos, por problemas de royalties o simplemente para no canibalizar las ventas de las versiones remasterizadas para PS4. De cualquier forma, la enumeración de los juegos que me gustaría que incluyera, y que son el motivo que me ha llevado a escribir esta entrada son los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Castlevania: Symphony of the Night&lt;/li&gt;
+&lt;li&gt;Chrono Cross&lt;/li&gt;
+&lt;li&gt;Crash Bandicoot&lt;/li&gt;
+&lt;li&gt;Crash Bandicoot 3: Warped&lt;/li&gt;
+&lt;li&gt;Crash Team Racing&lt;/li&gt;
+&lt;li&gt;Digimon World 3&lt;/li&gt;
+&lt;li&gt;Dino Crisis 2&lt;/li&gt;
+&lt;li&gt;Final Fantasy VII&lt;/li&gt;
+&lt;li&gt;Final Fantasy VIII&lt;/li&gt;
+&lt;li&gt;Gran Turismo 2&lt;/li&gt;
+&lt;li&gt;Harry Potter and the Philosopher&amp;rsquo;s Stone&lt;/li&gt;
+&lt;li&gt;Metal Gear Solid&lt;/li&gt;
+&lt;li&gt;Rayman&lt;/li&gt;
+&lt;li&gt;Resident Evil 3: Nemesis&lt;/li&gt;
+&lt;li&gt;Silent Hill&lt;/li&gt;
+&lt;li&gt;Spyro the Dragon&lt;/li&gt;
+&lt;li&gt;Tekken 3&lt;/li&gt;
+&lt;li&gt;Tomb Raider&lt;/li&gt;
+&lt;li&gt;Tony Hawk&amp;rsquo;s Pro Skater 3&lt;/li&gt;
+&lt;li&gt;Yu-Gi-Oh! Forbidden Memories&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>La Encuesta P=?NP</title>
@@ -38,7 +75,7 @@
 
 &lt;p&gt;Anonymous1: Only a few people will follow the proof. Whoever does will spend the rest of his life convincing people it is correct.&lt;/p&gt;
 
-&lt;p&gt;Richard Chang: (P≠NP) In the year, 2066 the idea that computers will double in speed every 18 months (Moore’s Law) has been ludicrous for 50 years. As such, no one uses asymptotic analysis anymore. Programs are written in assembly language to shave the running time. Some poor assistant professor will prove that P != NP and fail to get tenure for it.&lt;/p&gt;
+&lt;p&gt;Richard Chang: (P≠NP) In the year, 2066 the idea that computers will double in speed every 18 months (Moore’s Law) has been ludicrous for 50 years. As such, no one uses asymptotic analysis anymore. Programs are written in assembly language to shave the running time. Some poor assistant professor will prove that P≠NP and fail to get tenure for it.&lt;/p&gt;
 
 &lt;p&gt;Harvey Friedman: (P≠NP) Detailed combinatorial work on easier problems, leading up to the full result.&lt;/p&gt;
 

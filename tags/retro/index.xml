@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retro on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/retro/</link>
+    <description>Recent content in Retro on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>20 Juegos para la PlayStation Classic</title>
+      <link>https://lunaticgeek.com/20-juegos-ps/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/20-juegos-ps/</guid>
+      <description>No voy a comprar la PlayStation Classic porque mi PlayStation original (pirateada) sigue funcionando como el primer día a pesar de sus casi 20 años de edad. Además, tengo un fantástico RPI 3 con RetroPie que hace las veces de emulador de PlayStation y de otras tantas consolas retro.
+La última razón para no adquirir la PlayStation Classic es la selección de juegos. Solo conocemos cinco de los 20 que finalmente formarán parte del catálogo pero me temo que la lista no va a ser todo lo buena que esperamos, por problemas de royalties o simplemente para no canibalizar las ventas de las versiones remasterizadas para PS4.</description>
+    </item>
+    
+  </channel>
+</rss>

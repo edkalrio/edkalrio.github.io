@@ -7,6 +7,7 @@ body {
   overflow-y: scroll;
   line-height: 1.2;
   hyphens: auto;
+  text-align: justify;
 }
 a {
   color: #2060d0;
@@ -382,6 +383,7 @@ blockquote blockquote blockquote blockquote {
   margin-right: 8px;
 }
 .list .article-content {
+  text-align: justify;
 }
 .list .article-readmore {
 }
