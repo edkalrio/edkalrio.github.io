@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Line on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/line/</link>
+    <description>Recent content in Line on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stickers de Line para WhatsApp</title>
+      <link>https://lunaticgeek.com/whatsapp-stickers/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/whatsapp-stickers/</guid>
+      <description>Tras años de desarrollo, WhatsApp ha lanzado su servicio de stickers, función disponible en la práctica totalidad de aplicaciones de chat móvil y que es leitmotiv y principal fuente de ingresos de su rival, Line.
+Por extraño que parezca, formo parte de ese porcentaje marginal de personas que no utiliza WhatsApp. Al principio, la falta de seguridad fue el principal motivo para elegir Line como app de mensajería y obligar a todos mis amigos a utilizar este canal de comunicación si querían mantener el contacto conmigo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,42 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Stickers de Line para WhatsApp</title>
+	  <link>https://lunaticgeek.com/whatsapp-stickers/</link>
+	  <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/whatsapp-stickers/</guid>
+	  <description>&lt;p&gt;&lt;img src=&#34;https://obs.line-scdn.net/0h77N7YnTTaBhzTkRhIzMXT1kMc3YdKjEdH3d4KhVQZildKnsdSCglKwVMZCAOKSlJR30megIeNHpdfy5OSSEndgQdMyxeempPSSx3d1NOZg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tras años de desarrollo, WhatsApp ha lanzado su servicio de &lt;a href=&#34;https://blog.whatsapp.com/10000653/Introducing-Stickers&#34;&gt;stickers&lt;/a&gt;, función disponible en la práctica totalidad de aplicaciones de chat móvil y que es &lt;em&gt;leitmotiv&lt;/em&gt; y principal fuente de ingresos de su rival, Line.&lt;/p&gt;
+
+&lt;p&gt;Por extraño que parezca, formo parte de ese porcentaje marginal de personas que no utiliza WhatsApp. Al principio, la falta de seguridad fue el principal motivo para elegir Line como app de mensajería y obligar a todos mis amigos a utilizar este canal de comunicación si querían mantener el contacto conmigo. Sin embargo, esta razón hace mucho que &lt;a href=&#34;https://lunaticgeek.com/2012-08-29-por-que-whatsapp-ya-no-es-una-mierda/&#34;&gt;dejó de aplicarse&lt;/a&gt; y su colaboración con &lt;a href=&#34;https://signal.org/blog/whatsapp-complete/&#34;&gt;Signal&lt;/a&gt; ha convertido a WhatsApp en una aplicación de referencia en cuanto a privacidad. Aunque WhatsApp debería llevar a cabo una serie de &lt;a href=&#34;https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/&#34;&gt;medidas&lt;/a&gt; para mejorar su diseño, ya considero que resulta una app viable y recomendable para cualquier usuario. Entonces, la razón por la que no migraba a este servicio en el que está todo el mundo es tan absurda que resulta embarazosa. Con el tiempo he llegado a encariñarme con los stickers de Line e incluso he cometido la ignominia de gastarme dinero en comprar algunos paquetes de stickers como si fuera una vulgar y frívola JK japonesa.&lt;/p&gt;
+
+&lt;p&gt;No estaba dispuesto a renunciar a los stickers de Line así que hasta que no he podido llevarlos a WhatsApp, no he migrado. Aunque el proceso no es intuitivo, hay que reconocer que Line nos lo pone muy fácil, como explicaré a continuación.&lt;/p&gt;
+
+&lt;p&gt;Para empezar, hay que obtener el ID de los stickers. No hay que hacer ingeniería inversa del binario ni un sniff de la red; Line nos deja buscarlos en su &lt;a href=&#34;https://store.line.me/home&#34;&gt;tienda&lt;/a&gt;. Voy a utilizar a lo largo de todo este ejemplo el paquete de stickers de &lt;a href=&#34;https://store.line.me/stickershop/product/1228/&#34;&gt;Alicia en el País de las Maravillas&lt;/a&gt;. En la URL encontramos su ID, 1228.&lt;/p&gt;
+
+&lt;p&gt;Aunque podríamos descargar de esa dirección todos los stickers, vamos a irnos a un directorio que no han ocultado adecuadamente, donde podemos descargar el paquete original, desde sus propios servidores. Las negligencias de Line nos facilitan el trabajo enormemente. Podemos descargarlo directamente ejecutando&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;curl -s https://dl.stickershop.line.naver.jp/products/0/0/1/1228/iphone/stickers@2x.zip&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Después de descomprimirlo con &lt;code&gt;unzip&lt;/code&gt; obtenemos una carpeta con stickers en formato PNG. WhatsApp nos obliga a utilizar imágenes WEBP de 512x512. Previamente vamos a eliminar las imágenes duplicadas que sirven de thumbnail para evitar convertirlas sin motivo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;rm *_key@2x.png &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;También podemos aprovechar para seleccionar los stickers definitivos ya que WhatsApp no admite más de 30 por paquete y los de Line suelen contener 40. Una vez terminado este proceso, ya podemos empezar con la conversión, de la mano de &lt;a href=&#34;https://www.imagemagick.org&#34;&gt;ImageMagick&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;mogrify -resize 512x512 -gravity center -background none -extent 512x512 -format webp *.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;El icono de la bandeja necesita unos parámetros específicos&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;convert tab_off@2x.png -gravity center -background none -extent 96x96 tray.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Personalmente, no me gusta la denominación de los archivos de stickers de Line, así que voy a renombrarlos en lote&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; mv &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/@2x/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ya solo falta seguir las &lt;a href=&#34;https://github.com/WhatsApp/stickers/tree/master/android&#34;&gt;instrucciones&lt;/a&gt; oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del &lt;code&gt;contents.json&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ls -1 *.webp&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\{\&amp;#34;&lt;/span&gt;image_file&lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;: &lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\&amp;#34;\}&lt;/span&gt;, &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;La metodología que sigue WhatsApp para distribuir stickers a través de apps nativas me parece totalmente desproporcionada y supongo que en el futuro sea tan sencillo como Telegram, si permiten a los usuarios finales agregar sus propios packs. Hasta que llegue ese momento, esta es la mejor forma de disfrutar de nuestros stickers de Line en WhatsApp y aprovechar así las ventajas de esta app en términos de la Ley de Metcalfe.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>20 Juegos para la PlayStation Classic</title>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/whatsapp-stickers/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/20-juegos-ps/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
   </url>
@@ -2273,7 +2278,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/android/</loc>
-    <lastmod>2013-08-22T17:09:00+02:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2764,6 +2769,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/line/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/linux/</loc>
     <lastmod>2018-07-13T13:37:00+02:00</lastmod>
     <priority>0</priority>
@@ -2777,7 +2788,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3226,6 +3237,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/stickers/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/sudo/</loc>
     <lastmod>2011-01-29T00:45:00+01:00</lastmod>
     <priority>0</priority>
@@ -3389,7 +3406,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/whatsapp/</loc>
-    <lastmod>2014-08-20T19:34:00+02:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
