@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>En Defensa de FTP - Lunatic Geek</title>
+  <meta property="og:title" content="En Defensa de FTP - Lunatic Geek" />
+  <meta name="twitter:title" content="En Defensa de FTP - Lunatic Geek" />
+  <meta name="description" content="FTP es uno de los protocolos de internet atacados con mayor ferocidad en los últimos tiempos. En el siglo XXI ya no hay margen para un sistema tan &ldquo;inseguro&rdquo; como FTP, y los grandes navegadores llevan queriendo eliminarlo de su repertorio de soporte desde hace casi un lustro.
+Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra corriente de las tendencias informáticas actuales. FTP es un protocolo cuya transferencia de datos se produce en canales inseguros, como no podía ser de otra forma ya que se inventó hace más de 45 años.">
+  <meta property="og:description" content="FTP es uno de los protocolos de internet atacados con mayor ferocidad en los últimos tiempos. En el siglo XXI ya no hay margen para un sistema tan &ldquo;inseguro&rdquo; como FTP, y los grandes navegadores llevan queriendo eliminarlo de su repertorio de soporte desde hace casi un lustro.
+Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra corriente de las tendencias informáticas actuales. FTP es un protocolo cuya transferencia de datos se produce en canales inseguros, como no podía ser de otra forma ya que se inventó hace más de 45 años.">
+  <meta name="twitter:description" content="FTP es uno de los protocolos de internet atacados con mayor ferocidad en los últimos tiempos. En el siglo XXI ya no hay margen para un sistema tan &ldquo;inseguro&rdquo; como FTP, y los grandes …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/defensa-ftp/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.42.1" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">En Defensa de FTP</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2018-11-27</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/ftp/">
+						<i class="fas fa-tag"></i>
+						FTP
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/chrome/">
+						<i class="fas fa-tag"></i>
+						Chrome
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/firefox/">
+						<i class="fas fa-tag"></i>
+						Firefox
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/ubuntu/">
+						<i class="fas fa-tag"></i>
+						Ubuntu
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<p>FTP es uno de los protocolos de internet atacados con mayor ferocidad en los últimos tiempos. En el siglo XXI ya no hay margen para un sistema tan &ldquo;inseguro&rdquo; como FTP, y los grandes navegadores llevan queriendo eliminarlo de su repertorio de soporte desde hace casi un lustro.</p>
+
+<p>Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra corriente de las tendencias informáticas actuales. FTP es un protocolo cuya transferencia de datos se produce en canales inseguros, como no podía ser de otra forma ya que se inventó hace más de 45 años. Sin embargo eso no supone demasiados problemas de seguridad e incluso puede verse como una mejora de la seguridad si se hace adecuadamente. Que el canal de transmisión no sea seguro no quiere decir que los archivos transferidos sean inseguros. De hecho, APT utiliza habitualmente direcciones http://, igualmente inseguras, porque verifica la autenticidad e integridad de los archivos de forma paralela a la transmisión mediante un mecanismo PGP.</p>
+
+<p>En mi opinión PGP es más seguro que TLS porque no depende de autoridades de certificación externas que validen la cadena de confianza hasta llegar a la clave raíz. Sólo en el caso de claves SSL autofirmadas, la seguridad de sendos protocolos se equiparan.</p>
+
+<p>Por ejemplo, la última versión estable de Ubuntu se encuentra en el servidor FTP <a href="ftp://releases.ubuntu.com/releases/18.04.1">ftp://releases.ubuntu.com/releases/18.04.1</a>. Tendríamos que bajar el <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS">hash</a> del archivo y su respectiva <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS.gpg">firma</a></p>
+
+<p>Para verificar que la imagen .iso que hemos descargado ha sido firmada por Canonical, tenemos que acudir a <code>gpg</code>. La clave pública de descargas de Canonical se encuentra instalada por defecto en Ubuntu, como no podía ser de otra forma, en el directorio <code>/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg</code>. Si no queremos importarla a nuestro llavero personal de <code>gpg</code>, ejecutamos directamente</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS</code></pre></div>
+<p>que verifica la autenticidad del hash de la imagen.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg: Firmado el jue <span class="m">26</span> jul <span class="m">2018</span> <span class="m">18</span>:56:03 CEST
+gpg:                usando RSA clave D94AA3F0EFE21092
+gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;&#34;</span> <span class="o">[</span>desconocido<span class="o">]</span></code></pre></div>
+<p>Con el siguiente comando ya podemos comparar que el hash firmado coincide con el de la imagen que nos hemos descargado por las aguas turbulentas e infestadas de MitMs de FTP.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span></code></pre></div>
+<p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizae estas tareas. En la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que queremos hacer a prueba de idiotas.</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2018</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/defensa-ftp/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/whatsapp-stickers/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -2380,7 +2385,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/chrome/</loc>
-    <lastmod>2012-02-08T18:07:00+01:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2536,7 +2541,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/firefox/</loc>
-    <lastmod>2011-07-26T16:58:00+02:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2555,6 +2560,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/fstab/</loc>
     <lastmod>2011-08-23T23:51:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/ftp/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2776,7 +2787,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/linux/</loc>
-    <lastmod>2018-07-13T13:37:00+02:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2788,7 +2799,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3358,7 +3369,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/ubuntu/</loc>
-    <lastmod>2016-04-28T19:35:00+02:00</lastmod>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
