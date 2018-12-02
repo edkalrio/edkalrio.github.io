@@ -2,7 +2,8 @@ html {
   font-size: 1em;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;*/
+  font-family: sans-serif;
   color: #444444;
   overflow-y: scroll;
   line-height: 1.2;
@@ -25,11 +26,12 @@ hr {
 pre, code {
   font-family: monospace/*, serif*/;
   /*background-color: lightgray;*/
-  padding-left: 4px;
-  padding-right: 4px;
+  /*padding-left: 4px;
+  padding-right: 4px;*/
 }
 pre {
-  padding: 4px;
+  /*padding: 4px;*/
+  padding: 1rem;
 }
 blockquote {
   margin: 0;

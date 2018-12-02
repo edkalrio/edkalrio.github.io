@@ -21,7 +21,7 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
   <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.png" />
   <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.png" />
   
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="WIT" />
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
@@ -97,7 +97,7 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
 
 <p>Por ejemplo, la última versión estable de Ubuntu se encuentra en el servidor FTP <a href="ftp://releases.ubuntu.com/releases/18.04.1">ftp://releases.ubuntu.com/releases/18.04.1</a>. Tendríamos que bajar el <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS">hash</a> del archivo y su respectiva <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS.gpg">firma</a></p>
 
-<p>Para verificar que la imagen .iso que hemos descargado ha sido firmada por Canonical, tenemos que acudir a <code>gpg</code>. La clave pública de descargas de Canonical se encuentra instalada por defecto en Ubuntu, como no podía ser de otra forma, en el directorio <code>/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg</code>. Si no queremos importarla a nuestro llavero personal de <code>gpg</code>, ejecutamos directamente</p>
+<p>Para verificar que la imagen .iso que hemos descargado ha sido firmada por Canonical, tenemos que acudir a <code>gpg</code>. La clave pública de descargas de Canonical se encuentra instalada por defecto en Ubuntu, como es obvio, en el directorio <code>/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg</code>. Si no queremos importarla a nuestro llavero personal de <code>gpg</code>, ejecutamos directamente</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS</code></pre></div>
 <p>que verifica la autenticidad del hash de la imagen.</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg: Firmado el jue <span class="m">26</span> jul <span class="m">2018</span> <span class="m">18</span>:56:03 CEST
@@ -105,7 +105,7 @@ gpg:                usando RSA clave D94AA3F0EFE21092
 gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;&#34;</span> <span class="o">[</span>desconocido<span class="o">]</span></code></pre></div>
 <p>Con el siguiente comando ya podemos comparar que el hash firmado coincide con el de la imagen que nos hemos descargado por las aguas turbulentas e infestadas de MitMs de FTP.</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span></code></pre></div>
-<p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizae estas tareas. En la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que queremos hacer a prueba de idiotas.</p>
+<p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizase estas tareas. En todo el proceso no hay inseguridad por ninguna parte y me temo que se utiliza a aquella como excusa barata para abandonar proyectos que dejan de interesar a los desarrolladores. Unos programadores que por vagancia o desidia tampoco ofrecen alternativas viables como la implementación de FTPS. De todos modos, en la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que queremos hacer a prueba de idiotas.</p>
 
 		</article>
 

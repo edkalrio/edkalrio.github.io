@@ -21,7 +21,7 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
   <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.png" />
   <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.png" />
   
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="WIT" />
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
@@ -104,7 +104,7 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
 <p>Personalmente, no me gusta la denominación de los archivos de stickers de Line, así que voy a renombrarlos en lote</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in *.webp<span class="p">;</span> <span class="k">do</span> mv <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">/@2x/</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">done</span></code></pre></div>
 <p>Ya solo falta seguir las <a href="https://github.com/WhatsApp/stickers/tree/master/android">instrucciones</a> oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del <code>contents.json</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in <span class="k">$(</span>ls -1 *.webp<span class="k">)</span><span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="se">\{\&#34;</span>image_file<span class="se">\&#34;</span>: <span class="se">\&#34;</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span><span class="se">\&#34;\}</span>, <span class="p">;</span> <span class="k">done</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in *.webp<span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="se">\{\&#34;</span>image_file<span class="se">\&#34;</span>: <span class="se">\&#34;</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span><span class="se">\&#34;\}</span>, <span class="p">;</span> <span class="k">done</span></code></pre></div>
 <p>La metodología que sigue WhatsApp para distribuir stickers a través de apps nativas me parece totalmente desproporcionada y supongo que en el futuro sea tan sencillo como Telegram, si permiten a los usuarios finales agregar sus propios packs. Hasta que llegue ese momento, esta es la mejor forma de disfrutar de nuestros stickers de Line en WhatsApp y aprovechar así las ventajas de esta app en términos de la Ley de Metcalfe.</p>
 
 		</article>
