@@ -6,10 +6,51 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 27 Nov 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>RSS 3.0. El protocolo que nunca fue</title>
+	  <link>https://lunaticgeek.com/rss3/</link>
+	  <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/rss3/</guid>
+	  <description>&lt;p&gt;He descubierto en el blog de &lt;a href=&#34;https://alexschroeder.ch/wiki/2018-12-01_Thinking_about_the_real_RSS_3.0&#34;&gt;Alex Schroeder&lt;/a&gt;, uno de mis compañeros de &lt;a href=&#34;irc://irc.sdf.org&#34;&gt;IRC&lt;/a&gt;, una referencia casi distópica, redactada por el mismísimo &lt;a href=&#34;https://lunaticgeek.com/2014-07-01-the-internets-own-boy-la-pelicula-sobre/&#34;&gt;Aaron Swartz&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Corría el año 2002 y yo estaba muy ocupado jugando al Counter-Strike mientras el jovencísimo genio Aaron Swartz ya formaba parte del grupo de trabajo &lt;a href=&#34;http://web.resource.org/&#34;&gt;RSS-DEV&lt;/a&gt;. Por aquel entonces, &lt;a href=&#34;https://lunaticgeek.com/arreglando-twitter/&#34;&gt;RSS 2.0 era un desastre&lt;/a&gt; anterior a la aparición ATOM, y a Aaron se le ocurrió promulgar la siguiente iteración del standard. En un tono bastante jocoso expone las principales características de &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0&lt;/a&gt; que romperán con todo lo propuesto hasta entonces: Nada de XML, que sería reemplazado por campos similares a los de los correos electrónicos &lt;a href=&#34;https://tools.ietf.org/html/rfc822&#34;&gt;RFC822&lt;/a&gt;. También propone eliminar los espacios de nombres, que sin XML tampoco tendrían sentido, y el HTML porque &amp;ldquo;nadie necesita HTML&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;La descripción completa y pormenorizada de su borrador sigue disponible en su &lt;a href=&#34;http://www.aaronsw.com/2002/rss30&#34;&gt;blog&lt;/a&gt; personal. Para visualizar su idea, nada mejor que copiar aquí el ejemplo que plantea.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;title: RSS 3.0 News
+description: Latest updates on RSS 3.0.
+link: http://www.aaronsw.com/2002/rss30
+creator: me@aaronsw.com Aaron Swartz
+errorsTo: me@aaronsw.com Aaron Swartz
+language: en-US
+
+title: Spec Introduced
+created: 2002-09-06
+guid: 00795648-C1E0-11D6-9AA6-003065F376B6
+description: 
+ The spec was introduced to the world.
+ 
+ A few people noticed.
+
+Title: Zooko Likes It
+Created: 2002-09-06
+GUID: 0894CB2F-C1E0-11D6-9649-003065F376B6
+Description: Zooko says he likes the spec.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La simplicidad de RSS 3.0 rompe con la herencia recibida y se acerca a lo que unos años más tarde sería YAML, el formato de serialización de datos más popular en la actualidad. De hecho, RSS 3.0 es compatible con YAML en todos los campos excepto en los que ocupan múltiples líneas, ya que YAML exige que vengan precedidos por &amp;ldquo;&lt;code&gt;|&lt;/code&gt;&amp;rdquo; o &amp;ldquo;&lt;code&gt;&amp;gt;&lt;/code&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Aunque este borrador nunca llegó a discutirse en el grupo de trabajo, hubo ciertos desarrollos de terceros como el parser en una línea de python que programó &lt;a href=&#34;https://lists.w3.org/Archives/Public/www-archive/2002Sep/0089&#34;&gt;Sean B. Palmer&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;(?s)([^&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;:]+): (.*?)(?=&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;[^ &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\t&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;]|\Z)&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;findall&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;item&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;item&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Es una pena que nadie se tomara en serio RSS 3.0. A pesar de su apariencia reduccionista, habría sido el reemplazo perfecto para un deficiente RSS 2.0.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>En Defensa de FTP</title>

@@ -6,10 +6,20 @@
     <description>Recent content in Rss on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/rss/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RSS 3.0. El protocolo que nunca fue</title>
+      <link>https://lunaticgeek.com/rss3/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/rss3/</guid>
+      <description>He descubierto en el blog de Alex Schroeder, uno de mis compañeros de IRC, una referencia casi distópica, redactada por el mismísimo Aaron Swartz.
+Corría el año 2002 y yo estaba muy ocupado jugando al Counter-Strike mientras el jovencísimo genio Aaron Swartz ya formaba parte del grupo de trabajo RSS-DEV. Por aquel entonces, RSS 2.0 era un desastre anterior a la aparición ATOM, y a Aaron se le ocurrió promulgar la siguiente iteración del standard.</description>
+    </item>
     
     <item>
       <title>Arreglando Twitter</title>
