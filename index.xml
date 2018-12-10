@@ -6,10 +6,33 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Los Puntos Débiles de Chrome</title>
+	  <link>https://lunaticgeek.com/puntos-debiles-chrome/</link>
+	  <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/puntos-debiles-chrome/</guid>
+	  <description>&lt;p&gt;Lo recuerdo como si fuera ayer mismo. Era una tarde de finales de verano y yo estaba merendando una tarta de manzana y un zumo mientras instalaba el navegador que Google había desvelado inesperadamente tres días antes. No tardé más de veinte minutos en darme cuenta de lo revolucionario de este software y decidí usarlo como navegador por defecto a pesar de su temprano estado de desarrollo (en torno a la versión 0.0.22 beta). Google Chrome tenía un diseño minimalista que por aquel entonces no estaba tan extendido como ahora, y un sistema de actualizaciones por rolling releases desatendido que sigue siendo un referente para el resto de programas. No sólo era el navegador web más rápido, era el programa más rápido. En mi humilde Pentium 4 HT con Windows XP, dejaba en ridículo al resto de aplicaciones.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, de eso ya hace más de una década y Chrome ha cambiado enormemente. Ha mejorado muchas partes pero también se ha convertido en una máquina devoradora de RAM. Sigue siendo mi navegador favorito y el más popular de internet. Sobre todo si tenemos en cuenta las últimas noticias de &lt;a href=&#34;https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/&#34;&gt;Microsoft&lt;/a&gt;, que parece haberse dado cuenta de que no tienen ni idea de cómo hacer un navegador web decente. Han tardado veinte años…&lt;/p&gt;
+
+&lt;p&gt;Chrome es el rey de internet y por eso tiene cada vez más responsabilidad en el desarrollo y mejora de las últimas tecnologías web. El propósito de esta entrada es señalar alguna de las partes que Chrome debería mejorar. A pesar de no ser diseñador web, me he encontrado a lo largo de los años con pequeños detalles incómodos en Chrome y eso es lo que voy a apuntar, desde la experiencia personal:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#feat=mathml&#34;&gt;MathML:&lt;/a&gt; El lenguaje de marcas que permite mostrar fórmulas matemáticas en páginas web apareció furtivamente en Chrome 24 para ser eliminado poco después debido a su inestabilidad. He escrito varios &lt;a href=&#34;https://lunaticgeek.com/2018-04-24-entropia-inconmensurable/&#34;&gt;artículos&lt;/a&gt; en Lunatic Geek en los que incluía ecuaciones. MathML no es un lenguaje especialmente agradable pero siempre lo he preferido a las alternativas basadas en JavaScript. Ante la pasividad de Google para añadirlo a su navegador tuve que optar por &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt; aunque no me hiciera demasiada gracia.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#feat=link-rel-prerender&#34;&gt;prerender:&lt;/a&gt; la instrucción de HTML &lt;code&gt;&amp;lt;link rel=&amp;quot;prerender&amp;quot; href=&amp;quot;(url)&amp;quot;&amp;gt;&lt;/code&gt; permite que el navegador cargue la url que le pasamos en segundo plano, con todos los recursos asociados en su cabecera, lo que incluye todo el CSS y JS. El propósito de prerender es acelerar la carga de páginas que tengan una probabilidad muy alta de abrirse a continuación. El problema de prerender es que de no abrir la página predicha, se desperdician recursos del servidor y de la red, que transmite datos inútiles. Es esta falta de eficiencia la que ha provocado que Chrome la trate como &lt;code&gt;NoState Prefetch&lt;/code&gt; que no ejecuta el JS ni renderiza ninguna parte de la web, con lo que han destruido toda su utilidad y ahora es recomendable utilizar otras etiquetas de prefetching.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#feat=css-hyphens&#34;&gt;hyphens:&lt;/a&gt; Si lees este blog en el móvil verás que las palabras que finalizan las líneas están correctamente separadas por guiones como en un libro impreso. Sin embargo, la versión de escritorio todavía no soporta esta propiedad de CSS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#feat=link-icon-svg&#34;&gt;SVG favicons:&lt;/a&gt; Hace unos años estuve experimentando con &lt;a href=&#34;https://github.com/edkalrio/handmade-svg&#34;&gt;SVG&lt;/a&gt; e intenté declarar los favicons en la misma cabecera insertando en código inline. En Firefox funciona; en Chrome, no.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#feat=http-live-streaming&#34;&gt;HLS:&lt;/a&gt; Más experimentos, esta vez con el proyecto &lt;a href=&#34;https://github.com/ruvelro/TV-Online-TDT-Spain&#34;&gt;TV-Online-TDT-Spain&lt;/a&gt; de mi colega &lt;a href=&#34;https://keybase.io/ruvelro&#34;&gt;ruvelro&lt;/a&gt;. Este formato extraño es el culpable de que no podamos ver en directo las conferencias de Apple en otros navegadores que no sean Edge y Safari.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#feat=imports&#34;&gt;HTML Imports:&lt;/a&gt; No me parece muy coherente que en diseño web se puedan reutilizar hojas de estilo y scripts de JS externos, incluso alojados en otros servidores y no se pueda hacer lo mismo con el HTML. HTML imports pretendía eso mismo pero nunca llegó a ser un método popular ni extendido, por lo que Chrome lo ha declarado &lt;a href=&#34;https://www.chromestatus.com/feature/5144752345317376&#34;&gt;obsoleto&lt;/a&gt; y ya no lo podré utilizar como base para el CMS que genera este blog.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>RSS 3.0. El protocolo que nunca fue</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/html/</link>
+    <description>Recent content in Html on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los Puntos Débiles de Chrome</title>
+      <link>https://lunaticgeek.com/puntos-debiles-chrome/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/puntos-debiles-chrome/</guid>
+      <description>Lo recuerdo como si fuera ayer mismo. Era una tarde de finales de verano y yo estaba merendando una tarta de manzana y un zumo mientras instalaba el navegador que Google había desvelado inesperadamente tres días antes. No tardé más de veinte minutos en darme cuenta de lo revolucionario de este software y decidí usarlo como navegador por defecto a pesar de su temprano estado de desarrollo (en torno a la versión 0.</description>
+    </item>
+    
+  </channel>
+</rss>
