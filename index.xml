@@ -6,10 +6,30 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 17 Dec 2018 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Gilipolleces Esteganográficas</title>
+	  <link>https://lunaticgeek.com/esteganografia/</link>
+	  <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/esteganografia/</guid>
+	  <description>&lt;p&gt;No hay blog que se precie en el campo de la informática y las tecnologías que no inunde sus páginas con ridículas entradas sobre esteganografía.&lt;/p&gt;
+
+&lt;p&gt;La esteganografía es la codificación de información que se inserta en imágenes o audios para ocultarla. Nótese que en ningún momento utilizo términos criptográficos porque la esteganografía no solo no tiene nada que ver con la encriptación sino que va en contra de esta. La criptografía es una ciencia exacta basada en el principio de Kerckhoffs, que postula que un sistema criptográfico debe ser seguro incluso si todo en el sistema, excepto la clave, es conocido. Esto impide considerar la esteganografía como método criptográfico porque solo oculta la información donde no pueda ser vista. Por supuesto podrían combinarse los dos sistemas, encriptando previamente la información para luego ser ocultada, pero sería una pérdida de tiempo porque no ganaríamos nada en seguridad con respecto a la aplicación del cifrado inicial.&lt;/p&gt;
+
+&lt;p&gt;La esteganografía es solo una anécdota curiosa que llama la atención la primera vez que te encuentras con ella. Pero estamos en 2018 y ya basta de seguir dando vueltas al tema. A no ser que tengas doce años, es imposible que no te hayas topado con innumerables artículos sobre esta idiotez que además no es tratada adecuadamente. Si un blog pretende divulgar el conocimiento tecnológico, hablar de un método que no es seguro como si lo fuera, es totalmente pseudocientífico. Pero las alternativas no son tan atractivas, no generan tantos clicks y eso afecta a la rentabilidad de la publicidad que gobierna estos blogs. La criptografía es aburrida y complicada; la mayoría de bloggers no está cualificados para exponer sus postulados (yo tampoco) y las instrucciones más pragmáticas no son lo suficientemente extensas como para rellenar toda la longitud requerida para mejorar el SEO de sus webs.&lt;/p&gt;
+
+&lt;p&gt;Lo responsable es informar sobre los mejores métodos de encriptar archivos, con algoritmos como &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf&#34;&gt;AES-256&lt;/a&gt;, implementados en &lt;a href=&#34;file:///usr/share/man/man1/gpg.1.gz&#34;&gt;gpg&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -o cipher.txt -c plain.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;y descifrarlo con&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -d cipher.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Si lo que se pretende es cifrar todo el disco duro, se puede recurrir a &lt;a href=&#34;https://gitlab.com/cryptsetup/cryptsetup&#34;&gt;LUKS&lt;/a&gt; y si queremos comunicarnos o transmitir archivos de forma segura, nada mejor que cualquier software basado en el protocolo &lt;a href=&#34;https://en.wikipedia.org/wiki/Signal_Protocol&#34;&gt;signal&lt;/a&gt;.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Los Puntos Débiles de Chrome</title>

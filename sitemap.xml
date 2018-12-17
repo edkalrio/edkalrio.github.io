@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/esteganografia/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/puntos-debiles-chrome/</loc>
     <lastmod>2018-12-10T00:00:00+00:00</lastmod>
   </url>
@@ -2437,7 +2442,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/criptograf%C3%ADa/</loc>
-    <lastmod>2018-04-24T14:02:00+02:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2540,6 +2545,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/elementary-project/</loc>
     <lastmod>2016-01-28T19:04:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2718,6 +2729,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/inform%C3%A1tica/</loc>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/intel/</loc>
     <lastmod>2012-03-05T17:50:00+01:00</lastmod>
     <priority>0</priority>
@@ -2809,7 +2826,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/linux/</loc>
-    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2821,7 +2838,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
