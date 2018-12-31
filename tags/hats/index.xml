@@ -6,10 +6,20 @@
     <description>Recent content in Hats on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/hats/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HATS 2018</title>
+      <link>https://lunaticgeek.com/hats-2018/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/hats-2018/</guid>
+      <description>Con el fin de año, llega la 10ª edición de los premios HATS (Hats Awards of Technology &amp;amp; Science), del 2018.
+Me falta la perspectiva que aporta el tiempo y la reflexión sobre el pasado pero es muy probable que 2018 termine siendo recordado como una año de transición. La calma que precede la tempestad que puede caracterizar 2019, marcado por la guerra comercial entre USA y China y el Brexit.</description>
+    </item>
     
     <item>
       <title>HATS 2017</title>
