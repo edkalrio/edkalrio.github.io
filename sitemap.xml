@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/wordstar4/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/hats-2018/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -2554,6 +2559,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/emacs/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -2788,6 +2799,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/joe/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/juego-de-tronos/</loc>
     <lastmod>2012-05-18T12:25:00+02:00</lastmod>
     <priority>0</priority>
@@ -2831,7 +2848,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/linux/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2843,7 +2860,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2951,7 +2968,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/ms-dos/</loc>
-    <lastmod>2016-01-06T13:37:00+01:00</lastmod>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2970,6 +2987,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/namecheap/</loc>
     <lastmod>2017-08-23T13:18:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/nano/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3076,6 +3099,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/pico/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/pirata/</loc>
     <lastmod>2012-01-30T16:36:00+01:00</lastmod>
     <priority>0</priority>
@@ -3173,7 +3202,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/retro/</loc>
-    <lastmod>2018-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3425,7 +3454,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/unix/</loc>
-    <lastmod>2018-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3444,6 +3473,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/videojuego/</loc>
     <lastmod>2012-06-25T13:52:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/vim/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3498,6 +3533,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/word/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/wordstar/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

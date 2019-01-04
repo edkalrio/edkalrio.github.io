@@ -6,10 +6,36 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>WordStar en el siglo XXI</title>
+	  <link>https://lunaticgeek.com/wordstar4/</link>
+	  <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/wordstar4/</guid>
+	  <description>&lt;p&gt;Estoy leyendo el último &lt;a href=&#34;https://tubrujuladigital.com/download.php?id=3784&amp;amp;token=fJXH0rO4Zj44i5LEmwZOzN6G9Ll52hg7&amp;amp;download&#34;&gt;libro&lt;/a&gt; de G.R. Martin y con cada página que termino me doy cuenta de la labor titánica de cohesión entre genealogía, historia, política, geografía y cultura que ha tenido que entretejer para dar forma un universo coherente y funcional. Un trabajo complejísimo, sobre todo si tenemos en cuenta que utiliza las &lt;a href=&#34;https://grrm.livejournal.com/197075.html&#34;&gt;herramientas&lt;/a&gt; más rudimentarias para escribir sus novelas, WordStar 4.0 en un viejo ordenador con MS-DOS.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/ws4.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Sentía curiosidad por este software que quedó obsoleto antes de que yo naciera así que lo instalé para probarlo. Es muy sencillo ejecutarlo en un emulador o en una máquina virtual aunque su utilidad está bastante limitada. Para juzgar sus características como procesador de texto, he empezado a escribir este post y tengo que reconocer que es una experiencia bastante gratificante. Su mayor virtud está en los atajos de teclado, mucho más intuitivos y naturales que los de &lt;code&gt;vi&lt;/code&gt; o &lt;code&gt;emacs&lt;/code&gt;. Se aprenden casi instantáneamente y siempre podemos acudir al menú en pantalla que nos chiva alguna combinación desconocida, al más puro estilo &lt;code&gt;nano&lt;/code&gt; o &lt;code&gt;pico&lt;/code&gt;. El problema, sin embargo es el archivo resultante. Aunque está escrito en texto plano, WordStar no es un editor de textos e incluye cierta información en el texto, que lo deja inservible para su exportación, por lo que deberemos utilizar algún &lt;a href=&#34;https://github.com/kbarni/wsconvert&#34;&gt;software&lt;/a&gt; moderno si queremos usar el formato &lt;code&gt;.ws&lt;/code&gt; más allá de las fronteras de DOS. Es obvio que estos archivos tampoco están codificados en UTF-8, que por aquel entonces ni siquiera estaba en la mente de Ken Thompson. Además la resolución máxima de WordStar es VGA. No voy a mostrar cómo se ve en mi monitor ultrapanorámico de 29&amp;rdquo; pero os podéis hacer una idea de la escena tan ridícula.&lt;/p&gt;
+
+&lt;p&gt;Martin no es el único escritor que sigue utilizando WordStar. Roger MacBride Allen, Gerald Brandt, Jeffrey A. Carver, Arthur C. Clarke, David Gerrold, Terence M. Green, James Gunn, Matthew Hughes, Donald Kingsbury, Eric Kotani, Paul Levinson, Vonda McIntyre, Kit Reed, Jennifer Roberson y Edo van Belkom son fans y usuarios de esta leyenda informática. Es Robert J. Sawyer, ganador del Hugo y del Nebula, el que hace mayor defensa y promoción de las ventajas que presenta WordStar. En un &lt;a href=&#34;https://sfwriter.com/wordstar.htm&#34;&gt;ensayo&lt;/a&gt; de 1990 instruye sobre su interfaz, que le permite seguir escribiendo sin parar gracias a la flexibilidad que le dan los bloques de texto.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;WordStar&amp;rsquo;s &lt;code&gt;^Q&lt;/code&gt; (Quick cursor movement) and &lt;code&gt;^K&lt;/code&gt; (block) commands give me more of what I used to have when I wrote in long hand than any other product does. WordStar&amp;rsquo;s powerful suite of cursor commands lets me fly all over my manuscript, without ever getting lost. That&amp;rsquo;s because WordStar isconstantly keeping track of where I&amp;rsquo;ve been and where I&amp;rsquo;m likely to want to go. &lt;code&gt;^QB&lt;/code&gt; will take me to the beginning of the marked block; &lt;code&gt;^QK&lt;/code&gt; will take me to the end; &lt;code&gt;^QV&lt;/code&gt; will take me to where the marked block was moved from; &lt;code&gt;^QP&lt;/code&gt; will take me to my previous cursor position. And, just as I used to juggle up to ten fingers inserted into various places in my paper manuscript, WordStar provides me with ten bookmarks, set with &lt;code&gt;^K0&lt;/code&gt; through&lt;code&gt;^K9&lt;/code&gt;, and ten commands to jump to them, &lt;code&gt;^Q0&lt;/code&gt; to &lt;code&gt;^Q9&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;WordStar deja un sabor agridulce. Es un software potente pero tiene demasiados bordes afilados. En el siglo XXI se hace imprescindible contar con una alternativa moderna que ofrezca soporte nativo.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/joe.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Por supuesto, hay muchos programadores que aman este software y han preparado desde modos de &lt;a href=&#34;https://github.com/dfr62/wormstar&#34;&gt;emacs&lt;/a&gt; hasta archivos de configuración de &lt;a href=&#34;https://groups.google.com/forum/m/#!msg/comp.editors/882crMSedW8/54JtnwmvTlEJ&#34;&gt;vim&lt;/a&gt; que transforman los editores de texto más populares en copias exactas del viejo WordStar. &lt;a href=&#34;https://joe-editor.sourceforge.io/&#34;&gt;Joe&lt;/a&gt; va más allá y se podría considerar como un descendiente directo, preparado también para ser usado en programación y no solo en prosa. He probado este último programa y debo recomendar a todos los usuarios del WordStar original que migren a &lt;code&gt;joe&lt;/code&gt;. Su vida será más fácil a la vez que conservan todas las funcionalidades y aspecto original.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>HATS 2018</title>

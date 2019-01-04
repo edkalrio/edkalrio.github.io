@@ -6,10 +6,19 @@
     <description>Recent content in Ms Dos on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/ms-dos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WordStar en el siglo XXI</title>
+      <link>https://lunaticgeek.com/wordstar4/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/wordstar4/</guid>
+      <description>Estoy leyendo el último libro de G.R. Martin y con cada página que termino me doy cuenta de la labor titánica de cohesión entre genealogía, historia, política, geografía y cultura que ha tenido que entretejer para dar forma un universo coherente y funcional. Un trabajo complejísimo, sobre todo si tenemos en cuenta que utiliza las herramientas más rudimentarias para escribir sus novelas, WordStar 4.0 en un viejo ordenador con MS-DOS.</description>
+    </item>
     
     <item>
       <title>El Cero de Enero y Otros Hitos Informáticos</title>
