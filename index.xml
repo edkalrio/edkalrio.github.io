@@ -6,10 +6,83 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Manejando Dotfiles Sin Estilo</title>
+	  <link>https://lunaticgeek.com/symlink-dotfiles/</link>
+	  <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/symlink-dotfiles/</guid>
+	  <description>&lt;p&gt;El omnisciente algoritmo de YouTube me ha recomendado el vídeo &lt;a href=&#34;https://www.youtube.com/watch?v=MJBVA4LeJKA&#34;&gt;Manage Your Dotfiles With Style!&lt;/a&gt; sobre la utilización de &lt;a href=&#34;https://www.gnu.org/software/stow/&#34;&gt;GNU Stow&lt;/a&gt; para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común. De hecho, el uso que se hace de Stow es tan simple que se puede emular con un oneliner de Bash que he programado para la ocasión&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;find -type f&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; ln -sf &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;realpath &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$i&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; ~/&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;#??&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Aunque el código es bastante deficiente ya que no debería emplearse &lt;code&gt;find&lt;/code&gt; en un bucle &lt;code&gt;for&lt;/code&gt; y la expansión de variables es un bashismo intolerable, no me apetecía usar &lt;code&gt;xargs&lt;/code&gt; ni extender un comando que funciona con menos de 80 caracteres. Así podríamos desplegar los dotfiles sin necesidad de instalar &lt;code&gt;stow&lt;/code&gt; que, por lo general, no viene incluido por defecto en ningún sistema operativo.&lt;/p&gt;
+
+&lt;p&gt;De todas formas, no me parece la mejor forma de abordar el problema. Hace más de cuatro años que se me ocurrió una solución superior, si bien nunca la he publicado porque es demasiado manual y carente de ingenio, pero ahora voy a explicarla para establecer una comparación con Stow. Mi alternativa se basa en un script &lt;code&gt;dotfiles.sh&lt;/code&gt; que crea enlaces simbólicos. A diferencia de Stow, las direcciones de estos no se basan en la jerarquía de los archivos sino que están codificadas a mano. Aunque suena bastante tedioso, solo hay que añadir una linea cada vez que creemos un nuevo dotfile. El resultado concreto es el siguiente&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/sh
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+ln -sf ~/dotfiles/alias ~/.bash_aliases
+ln -sf ~/dotfiles/bash ~/.bashrc
+ln -sf ~/dotfiles/getmail ~/.getmail/getmailrc
+ln -sf ~/dotfiles/i3 ~/.config/i3/config
+ln -sf ~/dotfiles/sublime ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+ln -sf ~/dotfiles/xmodmap ~/.Xmodmap
+ln -sf ~/dotfiles/xresources ~/.Xresources
+ln -sf ~/dotfiles/zathura ~/.config/zathura/zathurarc
+ln -sf ~/dotfiles/irssi ~/.irssi/config
+ln -sf ~/dotfiles/git ~/.gitconfig
+ln -sf ~/dotfiles/dunst ~/.config/dunst/dunstrc
+ln -sf ~/dotfiles/newsboat ~/.newsboat/config&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Si leemos con atención se verán las que considero ventajas de este método. No hay que crear una falsa jerarquía de archivos, pudiendo almacenarlos todos en la misma carpeta para mejorar el orden y permite renombrar los dotfiles como queramos ya que su denominación obligatoria se pospone hasta la creación de los symlinks. Concretamente, mi script se ejecuta sobre la siguiente lista de archivos&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~/dotfiles
+├── alias
+├── bash
+├── dunst
+├── getmail
+├── git
+├── i3
+├── irssi
+├── newsboat
+├── sublime
+├── xmodmap
+├── xresources
+└── zathura
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;En contraposición a esta simplicidad, podemos generar la estructura que Stow exigiría a los mismos dotfiles para funcionar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~/dotfiles
+├── .bash_aliases
+├── .bashrc
+├── .config
+│   ├── dunst
+│   │   └── dunstrc
+│   ├── i3
+│   │   └── config
+│   ├── sublime-text-3
+│   │   └── Packages
+│   │       └── User
+│   │           └── Preferences.sublime-settings
+│   └── zathura
+│       └── zathurarc
+├── .getmail
+│   └── getmailrc
+├── .gitconfig
+├── .irssi
+│   └── config
+├── .newsboat
+│   └── config
+├── .Xmodmap
+└── .Xresources
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Las diferencias son más que evidentes, pero la elección de una forma u otra para administrar nuestros archivos de configuración es muy subjetiva y en el fondo va a estar regida por preferencias personales.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>WordStar en el siglo XXI</title>

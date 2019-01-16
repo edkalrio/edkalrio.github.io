@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Manejando Dotfiles Sin Estilo - Lunatic Geek</title>
+  <meta property="og:title" content="Manejando Dotfiles Sin Estilo - Lunatic Geek" />
+  <meta name="twitter:title" content="Manejando Dotfiles Sin Estilo - Lunatic Geek" />
+  <meta name="description" content="El omnisciente algoritmo de YouTube me ha recomendado el vídeo Manage Your Dotfiles With Style! sobre la utilización de GNU Stow para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común.">
+  <meta property="og:description" content="El omnisciente algoritmo de YouTube me ha recomendado el vídeo Manage Your Dotfiles With Style! sobre la utilización de GNU Stow para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común.">
+  <meta name="twitter:description" content="El omnisciente algoritmo de YouTube me ha recomendado el vídeo Manage Your Dotfiles With Style! sobre la utilización de GNU Stow para gestionar la ordenación y despliegue de dotfiles. Stow es una de …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/symlink-dotfiles/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Manejando Dotfiles Sin Estilo</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2019-01-16</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						Unix
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/bash/">
+						<i class="fas fa-tag"></i>
+						Bash
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/rice/">
+						<i class="fas fa-tag"></i>
+						Rice
+					</a>&nbsp;
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/gnu/">
+						<i class="fas fa-tag"></i>
+						GNU
+					</a>&nbsp;
+				</li>
+			</ul>
+			
+			<p>El omnisciente algoritmo de YouTube me ha recomendado el vídeo <a href="https://www.youtube.com/watch?v=MJBVA4LeJKA">Manage Your Dotfiles With Style!</a> sobre la utilización de <a href="https://www.gnu.org/software/stow/">GNU Stow</a> para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común. De hecho, el uso que se hace de Stow es tan simple que se puede emular con un oneliner de Bash que he programado para la ocasión</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in <span class="k">$(</span>find -type f<span class="k">)</span><span class="p">;</span> <span class="k">do</span> ln -sf <span class="s2">&#34;</span><span class="k">$(</span>realpath <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">&#34;</span><span class="k">)</span><span class="s2">&#34;</span> ~/<span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">#??</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">done</span></code></pre></div>
+<p>Aunque el código es bastante deficiente ya que no debería emplearse <code>find</code> en un bucle <code>for</code> y la expansión de variables es un bashismo intolerable, no me apetecía usar <code>xargs</code> ni extender un comando que funciona con menos de 80 caracteres. Así podríamos desplegar los dotfiles sin necesidad de instalar <code>stow</code> que, por lo general, no viene incluido por defecto en ningún sistema operativo.</p>
+
+<p>De todas formas, no me parece la mejor forma de abordar el problema. Hace más de cuatro años que se me ocurrió una solución superior, si bien nunca la he publicado porque es demasiado manual y carente de ingenio, pero ahora voy a explicarla para establecer una comparación con Stow. Mi alternativa se basa en un script <code>dotfiles.sh</code> que crea enlaces simbólicos. A diferencia de Stow, las direcciones de estos no se basan en la jerarquía de los archivos sino que están codificadas a mano. Aunque suena bastante tedioso, solo hay que añadir una linea cada vez que creemos un nuevo dotfile. El resultado concreto es el siguiente</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/sh
+</span><span class="cp"></span>
+ln -sf ~/dotfiles/alias ~/.bash_aliases
+ln -sf ~/dotfiles/bash ~/.bashrc
+ln -sf ~/dotfiles/getmail ~/.getmail/getmailrc
+ln -sf ~/dotfiles/i3 ~/.config/i3/config
+ln -sf ~/dotfiles/sublime ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+ln -sf ~/dotfiles/xmodmap ~/.Xmodmap
+ln -sf ~/dotfiles/xresources ~/.Xresources
+ln -sf ~/dotfiles/zathura ~/.config/zathura/zathurarc
+ln -sf ~/dotfiles/irssi ~/.irssi/config
+ln -sf ~/dotfiles/git ~/.gitconfig
+ln -sf ~/dotfiles/dunst ~/.config/dunst/dunstrc
+ln -sf ~/dotfiles/newsboat ~/.newsboat/config</code></pre></div>
+<p>Si leemos con atención se verán las que considero ventajas de este método. No hay que crear una falsa jerarquía de archivos, pudiendo almacenarlos todos en la misma carpeta para mejorar el orden y permite renombrar los dotfiles como queramos ya que su denominación obligatoria se pospone hasta la creación de los symlinks. Concretamente, mi script se ejecuta sobre la siguiente lista de archivos</p>
+
+<pre><code>~/dotfiles
+├── alias
+├── bash
+├── dunst
+├── getmail
+├── git
+├── i3
+├── irssi
+├── newsboat
+├── sublime
+├── xmodmap
+├── xresources
+└── zathura
+</code></pre>
+
+<p>En contraposición a esta simplicidad, podemos generar la estructura que Stow exigiría a los mismos dotfiles para funcionar.</p>
+
+<pre><code>~/dotfiles
+├── .bash_aliases
+├── .bashrc
+├── .config
+│   ├── dunst
+│   │   └── dunstrc
+│   ├── i3
+│   │   └── config
+│   ├── sublime-text-3
+│   │   └── Packages
+│   │       └── User
+│   │           └── Preferences.sublime-settings
+│   └── zathura
+│       └── zathurarc
+├── .getmail
+│   └── getmailrc
+├── .gitconfig
+├── .irssi
+│   └── config
+├── .newsboat
+│   └── config
+├── .Xmodmap
+└── .Xresources
+</code></pre>
+
+<p>Las diferencias son más que evidentes, pero la elección de una forma u otra para administrar nuestros archivos de configuración es muy subjetiva y en el fondo va a estar regida por preferencias personales.</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2019</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

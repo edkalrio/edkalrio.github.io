@@ -6,10 +6,19 @@
     <description>Recent content in Linux on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manejando Dotfiles Sin Estilo</title>
+      <link>https://lunaticgeek.com/symlink-dotfiles/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/symlink-dotfiles/</guid>
+      <description>El omnisciente algoritmo de YouTube me ha recomendado el vídeo Manage Your Dotfiles With Style! sobre la utilización de GNU Stow para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común.</description>
+    </item>
     
     <item>
       <title>WordStar en el siglo XXI</title>
