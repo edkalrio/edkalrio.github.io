@@ -6,10 +6,26 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Wed, 16 Jan 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Leer RFCs desde el Terminal</title>
+	  <link>https://lunaticgeek.com/rfc-terminal/</link>
+	  <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/rfc-terminal/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/rfc-terminal.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la &lt;a href=&#34;https://tools.ietf.org/rfc/&#34;&gt;ietf&lt;/a&gt; porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete &lt;code&gt;doc-rfc-std&lt;/code&gt; de Ubuntu nos trae todo el catálogo al directorio &lt;code&gt;/usr/share/doc/RFC/&lt;/code&gt; para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como &lt;code&gt;less&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Es demasiado farragoso tener que ejecutar&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;less /usr/share/doc/RFC/links/rfcXXXX.txt.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;así que vamos a crear una función de Bash para facilitar la tarea&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;rfc() { less /usr/share/doc/RFC/links/rfc&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.txt.gz; }&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+	</item>
 	
 	<item>
 	  <title>Manejando Dotfiles Sin Estilo</title>

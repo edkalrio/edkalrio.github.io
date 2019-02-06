@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/terminal/</link>
+    <description>Recent content in Terminal on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leer RFCs desde el Terminal</title>
+      <link>https://lunaticgeek.com/rfc-terminal/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/rfc-terminal/</guid>
+      <description>Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la ietf porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete doc-rfc-std de Ubuntu nos trae todo el catálogo al directorio /usr/share/doc/RFC/ para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como less.
+Es demasiado farragoso tener que ejecutar</description>
+    </item>
+    
+  </channel>
+</rss>

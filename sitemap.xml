@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/rfc-terminal/</loc>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/symlink-dotfiles/</loc>
     <lastmod>2019-01-16T00:00:00+00:00</lastmod>
   </url>
@@ -2865,7 +2870,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2019-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3212,6 +3217,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/rfc/</loc>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/rgb/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -3374,6 +3385,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/terminal/</loc>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/terminal.-shell/</loc>
     <lastmod>2016-09-17T13:10:00+02:00</lastmod>
     <priority>0</priority>
@@ -3465,7 +3482,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/unix/</loc>
-    <lastmod>2019-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
