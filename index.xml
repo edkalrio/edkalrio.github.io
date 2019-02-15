@@ -6,10 +6,72 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Las Peores Apps de Electron</title>
+	  <link>https://lunaticgeek.com/positron/</link>
+	  <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/positron/</guid>
+	  <description>
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://camo.githubusercontent.com/627c774e3070482b180c3abd858ef2145d46303b/68747470733a2f2f656c656374726f6e6a732e6f72672f696d616765732f656c656374726f6e2d6c6f676f2e737667&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;
+Electron es una tecnología completamente insidiosa. Puede confundir a un usuario, haciéndole creer que se trata de software nativo cuando en realidad no es más que una página web, con lo que esto conlleva.&lt;/p&gt;
+
+&lt;p&gt;Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un editor web basado enteramente en tecnología web estaba cargado de una lógica bastante estética pero lo que hace años no me di cuenta (porque nunca llegué a probar Atom) es el precio que tenías que pagar por él. Cantidades de RAM y disco duro desperdiciadas para conseguir unos resultados muy por detrás de la competencia.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, no me molesta tanto que haya un editor de textos tan pródigo como el hecho de que se haya puesto de moda esta tecnología y que se estén desarrollando cantidad de herramientas inútiles e insostenibles. Siguiendo nuestra tradición de criticar de forma constructiva, vamos a ofrecer alternativas más razonables en forma de aplicaciones nativas o oneliners de Bash.&lt;/p&gt;
+
+&lt;p&gt;No me parece mal que la gente programe estas apps como meros ejercicios para practicar sus conocimientos y aprender el uso de las tecnologías web pero no es necesario que los distribuyan públicamente y menos aún que los blogs informáticos contribuyan a su difusión. Por eso, con una finalidad profiláctica, no voy a poner links hacia estos programas que nunca deberían haber existido.&lt;/p&gt;
+
+&lt;h3 id=&#34;slack&#34;&gt;Slack&lt;/h3&gt;
+
+&lt;p&gt;Es obvio que tenía que empezar con el chat corporativo más popular del mundo. Se han hecho tantos chistes sobre el rendimiento de Slack, que poco más tengo que añadir a parte de mi recomendación de &lt;a href=&#34;https://github.com/wee-slack/wee-slack&#34;&gt;wee-slack&lt;/a&gt;, el plugin que trae Slack a WeeChat, uno de los mejores y más populares clientes IRC.&lt;/p&gt;
+
+&lt;h3 id=&#34;etcher&#34;&gt;Etcher&lt;/h3&gt;
+
+&lt;p&gt;Etcher parece haberse convertido en la herramienta favorita de los distrohoppers que plagan los blogs de Linux ya que les permite flashear imágenes .iso o .img en memorias USB o SD de la forma más &amp;ldquo;elegante&amp;rdquo;, entendiendo como tal una elegancia meramente superficial. Nada que el clásico &lt;code&gt;dd&lt;/code&gt; no pueda hacer de forma más eficiente, sencilla y rápida.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo dd &lt;span class=&#34;nv&#34;&gt;bs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16M &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;linux_distro.iso &lt;span class=&#34;nv&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/dev/sdX &lt;span class=&#34;nv&#34;&gt;status&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;progress &lt;span class=&#34;nv&#34;&gt;conv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;fsync&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;cpod&#34;&gt;CPod&lt;/h3&gt;
+
+&lt;p&gt;Un cliente de podcast que a pesar de su desmesurado consumo, es incapaz de solucionar el principal problema de este tipo de software, que es el descubrimiento de podcasts. Para lidiar con esto, se apoya en el directorio de podcast de &lt;a href=&#34;https://itunes.apple.com/genre/podcasts/id26?mt=2&#34;&gt;iTunes&lt;/a&gt; así que recomiendo ir directamente ahí para encontrar podcast y luego reproducirlos en cualquier reproductor de música nativo o lector de RSS.&lt;/p&gt;
+
+&lt;h3 id=&#34;chronobreak&#34;&gt;Chronobreak&lt;/h3&gt;
+
+&lt;p&gt;Un cronómetro que implementa el método &lt;a href=&#34;https://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;Pomodoro&lt;/a&gt; para superar la procrastinación. Aunque si el aumento de productividad que persigue tiene como resultado que se programen más aplicaciones con Electron, es preferible que los programadores se queden vagueando. Hace unos meses programé un temporizador pomodoro que ocupaba menos de un tweet, en Bash. Ofrece la misma funcionalidad que Chronobreak, o incluso más, al seguir las imposiciones de flexibilidad de la filosofía UNIX.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/env bash
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+t&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;*60&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;i&amp;gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;i--&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; 
+		&lt;span class=&#34;nb&#34;&gt;printf&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;\r%02d:%02d&amp;#39;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$((&lt;/span&gt;i%3600/60&lt;span class=&#34;k&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$((&lt;/span&gt;i%60&lt;span class=&#34;k&#34;&gt;))&lt;/span&gt;
+		sleep &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+	&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; -ne &lt;span class=&#34;s2&#34;&gt;&amp;#34;\r\a&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;nv&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt;c++&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+	t &lt;span class=&#34;m&#34;&gt;25&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;((&lt;/span&gt;c%4&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+		t &lt;span class=&#34;m&#34;&gt;30&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;
+		t &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;calcy&#34;&gt;Calcy&lt;/h3&gt;
+
+&lt;p&gt;Todo el mundo ha programado una calculadora para aprender algún lenguaje nuevo pero sólo los más arrogantes pretenden hacer pasar ejercicios de programación por auténticos proyectos de desarrollo de software libre. No instales una calculadora Electron. Utiliza la que venga con tu escritorio. La de Gnome es totalmente recomendable aunque personalmente realizo hasta las cuentas más embarazosamente sencillas con &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;windows-95&#34;&gt;Windows 95&lt;/h3&gt;
+
+&lt;p&gt;No es broma. Existe una máquina virtual que ejecuta el sistema operativo más infame del siglo XX sobre Electron, la tecnología más infame del siglo XXI. Creo que no hace falta decir nada más.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Leer RFCs desde el Terminal</title>
