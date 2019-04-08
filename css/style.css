@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Iosevka Web';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/iosevka-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-weight: 400;
+  font-style: italic;
+  src: url('/iosevka-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/iosevka-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/iosevka-bolditalic.woff2') format('woff2');
+}
+
 html {
   font-size: 1em;
 }
@@ -24,7 +52,7 @@ hr {
   margin: 0;
 }
 pre, code {
-  font-family: monospace/*, serif*/;
+  font-family: 'Iosevka Web', monospace/*, serif*/;
   /*background-color: lightgray;*/
   /*padding-left: 4px;
   padding-right: 4px;*/
