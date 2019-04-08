@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Consejos de Vim para Novatos - Lunatic Geek</title>
+  <meta property="og:title" content="Consejos de Vim para Novatos - Lunatic Geek" />
+  <meta name="twitter:title" content="Consejos de Vim para Novatos - Lunatic Geek" />
+  <meta name="description" content="Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y en las peculiaridades y características de los sistemas basados en UNIX. Sin embargo un compañero me pidió consejo sobre Vim porque quería empezar a usarlo (creo que ahora edita con Notepad&#43;&#43;) y le mandé un email con una serie de pautas que me gustaría compartir públicamente por si pudieran ser útiles a alguien más.">
+  <meta property="og:description" content="Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y en las peculiaridades y características de los sistemas basados en UNIX. Sin embargo un compañero me pidió consejo sobre Vim porque quería empezar a usarlo (creo que ahora edita con Notepad&#43;&#43;) y le mandé un email con una serie de pautas que me gustaría compartir públicamente por si pudieran ser útiles a alguien más.">
+  <meta name="twitter:description" content="Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/vim-para-novatos/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Consejos de Vim para Novatos</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2019-04-08</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/vim/">
+						<i class="fas fa-tag"></i>
+						Vim
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						UNIX
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/terminal/">
+						<i class="fas fa-tag"></i>
+						terminal
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/neovim/">
+						<i class="fas fa-tag"></i>
+						Neovim
+					</a> 
+				</li>
+			</ul>
+			
+			
+
+<p><img src="http://www.viemu.com/vi-vim-cheat-sheet.gif" alt="Cheatsheet" /></p>
+
+<p>Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y en las peculiaridades y características de los sistemas basados en UNIX. Sin embargo un compañero me pidió consejo sobre Vim porque quería empezar a usarlo (creo que ahora edita con Notepad++) y le mandé un email con una serie de pautas que me gustaría compartir públicamente por si pudieran ser útiles a alguien más. No soy un experto en Vim. De hecho, utilizo solo las funciones de Vintage en Sublime Text 3.</p>
+
+<h3 id="consejos-basados-en-mi-aprendizaje">Consejos basados en mi aprendizaje</h3>
+
+<p>Mi proceso de aprendizaje de Vim, hace ya una década todavía parece aceptable. Afortunadamente, la atemporalidad de Vim es una de sus mayores virtudes. Nunca pasará de moda. Los materiales que utilicé para familiarizarme con él son los siguientes:</p>
+
+<ul>
+<li>vimtutor: es un programa que se instala con Vim. Por extraño que parezca, a lo largo de los años me he dado cuenta de que casi la mitad de los usuarios de Vim con los que he hablado no conocían este tutorial interno.</li>
+<li><a href="http://www.viemu.com/vi-vim-cheat-sheet.gif">Cheatsheet</a></li>
+<li>Libros: no creo que sean necesarios libros específicos para aprender Vim pero si quieres consultar alguno te recomiendo <a href="http://file.allitebooks.com/20151217/Learning%20The%20Vi%20And%20Vim%20Editors,%207th%20Edition.pdf">Learning The Vi And Vim Editors</a>. Me parece mejor que <a href="http://www.allitebooks.com/pro-vim/">Pro Vim</a>. Aunque Pro Git sea el mejor libro escrito sobre git, Pro Vim no es equiparable en calidad.</li>
+</ul>
+
+<h3 id="consejos-basados-en-mi-experiencia">Consejos basados en mi experiencia</h3>
+
+<p>Con el tiempo me he dado cuenta de ciertos datos que me gustaría haber conocido antes de aprender Vim. Pueden parecer un poco esotéricos pero vale la pena tenerlos en cuenta:</p>
+
+<ul>
+<li>No uses Vim. Mientras estés aprendiendo, es mejor usar Gvim, una versión gráfica con botones como un editor más intuitivo. Es mucho menos intimidante hasta que te acostumbras a usar todos los keybindings. Cuando ya consideres que Gvim es prescindible, migra directamente a Neovim. Este programa es un fork muy interesante y popular. Las razones por las que lo prefiero antes que el original están muy bien argumentadas en un post de <a href="https://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/">Geoff Greer</a>. Puedes usar <code>vimtutor</code> en <code>Gvim</code> ejecutando directamente <code>vimtutor -g</code>.</li>
+<li>Olvídate de los desplazamientos con <code>hjkl</code>. Uno de los mayores inconvenientes que he encontrado en todos los tutoriales y libros de Vim es que siempre empiezan por la misma lección. El desplazamiento del cursor con las teclas de la fila central. Si bien hay razones <a href="http://xahlee.info/kbd/keyboard_hardware_and_key_choices.html">históricas</a> que explican este diseño, no es el mejor para principiantes y menos aún para la primera lección. Limítate a moverte con las flechas de desplazamiento como en cualquier otro software.</li>
+</ul>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2019</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

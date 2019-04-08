@@ -6,10 +6,43 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Consejos de Vim para Novatos</title>
+	  <link>https://lunaticgeek.com/vim-para-novatos/</link>
+	  <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/vim-para-novatos/</guid>
+	  <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.viemu.com/vi-vim-cheat-sheet.gif&#34; alt=&#34;Cheatsheet&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y en las peculiaridades y características de los sistemas basados en UNIX. Sin embargo un compañero me pidió consejo sobre Vim porque quería empezar a usarlo (creo que ahora edita con Notepad++) y le mandé un email con una serie de pautas que me gustaría compartir públicamente por si pudieran ser útiles a alguien más. No soy un experto en Vim. De hecho, utilizo solo las funciones de Vintage en Sublime Text 3.&lt;/p&gt;
+
+&lt;h3 id=&#34;consejos-basados-en-mi-aprendizaje&#34;&gt;Consejos basados en mi aprendizaje&lt;/h3&gt;
+
+&lt;p&gt;Mi proceso de aprendizaje de Vim, hace ya una década todavía parece aceptable. Afortunadamente, la atemporalidad de Vim es una de sus mayores virtudes. Nunca pasará de moda. Los materiales que utilicé para familiarizarme con él son los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vimtutor: es un programa que se instala con Vim. Por extraño que parezca, a lo largo de los años me he dado cuenta de que casi la mitad de los usuarios de Vim con los que he hablado no conocían este tutorial interno.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.viemu.com/vi-vim-cheat-sheet.gif&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Libros: no creo que sean necesarios libros específicos para aprender Vim pero si quieres consultar alguno te recomiendo &lt;a href=&#34;http://file.allitebooks.com/20151217/Learning%20The%20Vi%20And%20Vim%20Editors,%207th%20Edition.pdf&#34;&gt;Learning The Vi And Vim Editors&lt;/a&gt;. Me parece mejor que &lt;a href=&#34;http://www.allitebooks.com/pro-vim/&#34;&gt;Pro Vim&lt;/a&gt;. Aunque Pro Git sea el mejor libro escrito sobre git, Pro Vim no es equiparable en calidad.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;consejos-basados-en-mi-experiencia&#34;&gt;Consejos basados en mi experiencia&lt;/h3&gt;
+
+&lt;p&gt;Con el tiempo me he dado cuenta de ciertos datos que me gustaría haber conocido antes de aprender Vim. Pueden parecer un poco esotéricos pero vale la pena tenerlos en cuenta:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No uses Vim. Mientras estés aprendiendo, es mejor usar Gvim, una versión gráfica con botones como un editor más intuitivo. Es mucho menos intimidante hasta que te acostumbras a usar todos los keybindings. Cuando ya consideres que Gvim es prescindible, migra directamente a Neovim. Este programa es un fork muy interesante y popular. Las razones por las que lo prefiero antes que el original están muy bien argumentadas en un post de &lt;a href=&#34;https://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/&#34;&gt;Geoff Greer&lt;/a&gt;. Puedes usar &lt;code&gt;vimtutor&lt;/code&gt; en &lt;code&gt;Gvim&lt;/code&gt; ejecutando directamente &lt;code&gt;vimtutor -g&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Olvídate de los desplazamientos con &lt;code&gt;hjkl&lt;/code&gt;. Uno de los mayores inconvenientes que he encontrado en todos los tutoriales y libros de Vim es que siempre empiezan por la misma lección. El desplazamiento del cursor con las teclas de la fila central. Si bien hay razones &lt;a href=&#34;http://xahlee.info/kbd/keyboard_hardware_and_key_choices.html&#34;&gt;históricas&lt;/a&gt; que explican este diseño, no es el mejor para principiantes y menos aún para la primera lección. Limítate a moverte con las flechas de desplazamiento como en cualquier otro software.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Las Peores Apps de Electron</title>

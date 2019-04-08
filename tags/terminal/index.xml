@@ -6,10 +6,19 @@
     <description>Recent content in Terminal on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consejos de Vim para Novatos</title>
+      <link>https://lunaticgeek.com/vim-para-novatos/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/vim-para-novatos/</guid>
+      <description>Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y en las peculiaridades y características de los sistemas basados en UNIX. Sin embargo un compañero me pidió consejo sobre Vim porque quería empezar a usarlo (creo que ahora edita con Notepad++) y le mandé un email con una serie de pautas que me gustaría compartir públicamente por si pudieran ser útiles a alguien más.</description>
+    </item>
     
     <item>
       <title>Las Peores Apps de Electron</title>
