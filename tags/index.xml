@@ -426,6 +426,15 @@
     </item>
     
     <item>
+      <title>Eda</title>
+      <link>https://lunaticgeek.com/tags/eda/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/eda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Editorial</title>
       <link>https://lunaticgeek.com/tags/editorial/</link>
       <pubDate>Sun, 19 Dec 2010 14:04:00 +0100</pubDate>
@@ -840,6 +849,15 @@
     </item>
     
     <item>
+      <title>Kicad</title>
+      <link>https://lunaticgeek.com/tags/kicad/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/kicad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kindle</title>
       <link>https://lunaticgeek.com/tags/kindle/</link>
       <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
@@ -887,7 +905,7 @@
     <item>
       <title>Linux</title>
       <link>https://lunaticgeek.com/tags/linux/</link>
-      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/linux/</guid>
       <description></description>
@@ -1259,6 +1277,15 @@
       <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/tags/pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pcb</title>
+      <link>https://lunaticgeek.com/tags/pcb/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pcb/</guid>
       <description></description>
     </item>
     

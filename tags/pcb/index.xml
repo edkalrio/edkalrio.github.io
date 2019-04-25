@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pcb on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/pcb/</link>
+    <description>Recent content in Pcb on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/pcb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adecentando una Placa de Circuitos.</title>
+      <link>https://lunaticgeek.com/low-pass-filter/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/low-pass-filter/</guid>
+      <description>No voy a pretender por un segundo que sé algo de electrónica porque estaría mintiendo de forma descarada. Sin embargo, la tecnología es el remedio perfecto para la incompetencia humana y nos permite realizar tareas que hasta hace unos años parecían inimaginables, como el diseño de PCBs de la forma más simple, como si se tratara de un videojuego, uniendo y reordenando piezas hasta alcanzar un producto de aspecto profesional.</description>
+    </item>
+    
+  </channel>
+</rss>
