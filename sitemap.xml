@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/agregador-noticias-opml/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/low-pass-filter/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
   </url>
@@ -2903,7 +2908,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2019-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3118,6 +3123,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/opml/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/ordenador/</loc>
     <lastmod>2011-09-13T13:37:00+02:00</lastmod>
     <priority>0</priority>
@@ -3287,7 +3298,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/rss/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3624,6 +3635,18 @@
   <url>
     <loc>https://lunaticgeek.com/tags/xbox/</loc>
     <lastmod>2013-12-05T12:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/xml/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/xsl/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

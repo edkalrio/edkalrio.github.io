@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Una Alternativa a los Agregadores de Noticias - Lunatic Geek</title>
+  <meta property="og:title" content="Una Alternativa a los Agregadores de Noticias - Lunatic Geek" />
+  <meta name="twitter:title" content="Una Alternativa a los Agregadores de Noticias - Lunatic Geek" />
+  <meta name="description" content="Lobsters y Hacker News son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del RSS.">
+  <meta property="og:description" content="Lobsters y Hacker News son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del RSS.">
+  <meta name="twitter:description" content="Lobsters y Hacker News son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/agregador-noticias-opml/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Una Alternativa a los Agregadores de Noticias</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2019-05-06</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/rss/">
+						<i class="fas fa-tag"></i>
+						RSS
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/xml/">
+						<i class="fas fa-tag"></i>
+						XML
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/xsl/">
+						<i class="fas fa-tag"></i>
+						XSL
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/opml/">
+						<i class="fas fa-tag"></i>
+						OPML
+					</a> 
+				</li>
+			</ul>
+			
+			<p><center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Opml-icon.svg/240px-Opml-icon.svg.png" alt="" /></center></p>
+
+<p><a href="https://lobste.rs/">Lobsters</a> y <a href="https://news.ycombinator.com/">Hacker News</a> son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del <a href="/arreglando-twitter/">RSS</a>.</p>
+
+<p>Para abordar el tema, voy a establecer una alternativa para <a href="https://victorhck.gitlab.io/planetalibre/">PlanetaLibre</a>, el agregador mantenido por el compañero <a href="https://victorhckinthefreeworld.com/">victorhck</a>, que tiene el tamaño y características perfectas para modificarlo sin demasiado esfuerzo por mi parte.</p>
+
+<p>La gran carencia de este servicio es que sólo se actualiza dos veces al día porque tiene que ejecutarse un cronjob en un servidor Python que recopila las fuentes y actualiza la página. Esta arquitectura monolítica no permite una selección de las fuentes (a no ser que se apliquen filtros en el cliente RSS) e incluso modifica los posts originales, eliminando el contenido para conservar y difundir exclusivamente el título y la descripción.</p>
+
+<p>Me parece mucho más interesante mantener una lista de blogs para que la gente pueda suscribirse en masa y esto es posible gracias a <a href="http://dev.opml.org/spec2.html">OPML</a>, el formato que normalmente se utiliza para hacer copias de seguridad de los clientes RSS pero que ofrece funcionalidades más allá. De hecho, si publicamos el OPML en un servidor web podremos suscribirnos a la URL, directamente, sin necesidad de importarlo. Además, algunos clientes ofrecen la posibilidad de actualizar las suscripciones cuando se modifique el OPML de origen con lo que conseguimos un comportamiento dinámico de un archivo estático porque todo el trabajo lo hace el cliente RSS, que mantiene la conexión individualizada con cada dirección de la lista. Y esta dirección es la original, sin modificaciones introducidas por ningún intermediario.</p>
+
+<p>Si quieres probar el concepto, tienes que suscribirte a la dirección <a href="/planetalibre.xml">https://lunaticgeek.com/planetalibre.xml</a>. Por supuesto no tendría interfaz web, que en mi opinión es una solución inferior a RSS aunque podríamos darle formato al archivo OPML con una hoja de estilo XSL como ya comenté <a href="/arreglando-twitter/">aquí</a>. Después de todo, no deja de ser un subconjunto de XML.</p>
+
+<p>Mi propósito con este post era hacer reflexionar a los programadores sobre la dirección de sus esfuerzos. Es posible que se sientan en la obligación de escribir programas complejos para defender su pericia, conocimientos y experiencia. Su trabajo puede depender de esas decisiones pero verdaderamente necesitamos tanto software? yo siempre sigo el mantra del programador taoísta: <em>&ldquo;the best code is no code&rdquo;</em>. En este ejemplo creo que queda bastante claro que el intermediario es totalmente prescindible, que únicamente aporta complejidad a una tarea que podemos resolver con un archivo estático, sin programación, simplemente apoyándonos en la potencia de RSS para crear una alternativa más robusta, flexible y simple, que va a quedarse alojada en el repositorio de <a href="https://github.com/edkalrio/edkalrio.github.io/blob/master/planetalibre.xml">GitHub</a> del blog, así que si alguien quiere cambiar algo puede hacer un <a href="https://github.com/edkalrio/edkalrio.github.io/pulls">pull request</a>.</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2019</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

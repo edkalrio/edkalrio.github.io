@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xml on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/xml/</link>
+    <description>Recent content in Xml on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Una Alternativa a los Agregadores de Noticias</title>
+      <link>https://lunaticgeek.com/agregador-noticias-opml/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/agregador-noticias-opml/</guid>
+      <description>Lobsters y Hacker News son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del RSS.</description>
+    </item>
+    
+  </channel>
+</rss>

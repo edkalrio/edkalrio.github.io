@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+	<head>
+		<title>PlanetaLibre</title>
+	</head>
+	<body>
+		<outline                text="PlanetaLibre"                     title="PlanetaLibre">
+			<outline type="rss" text="Adrianistán"                      title="Adrianistán"                      xmlUrl="https://blog.adrianistan.eu/rss.xml"                   htmlUrl="https://blog.adrianistan.eu"/>
+			<outline type="rss" text="Autodefensa Informática"          title="Autodefensa Informática"          xmlUrl="https://autodefensainformatica.radioalmaina.org/feed/" htmlUrl="https://autodefensainformatica.radioalmaina.org"/>
+			<outline type="rss" text="Bad Daemons"                      title="Bad Daemons"                      xmlUrl="https://daemons.it/rss.xml"                            htmlUrl="https://daemons.it/"/>
+			<outline type="rss" text="Birras y Bits"                    title="Birras y Bits"                    xmlUrl="https://birrasybits.wordpress.com/feed/"               htmlUrl="https://birrasybits.wordpress.com"/>
+			<outline type="rss" text="Cartas de Linux"                  title="Cartas de Linux"                  xmlUrl="https://cartaslinux.wordpress.com/feed/"               htmlUrl="https://cartaslinux.wordpress.com"/>
+			<outline type="rss" text="Club de Software Libre"           title="Club de Software Libre"           xmlUrl="http://softlibre.com.ar/feed/"                         htmlUrl="http://softlibre.com.ar"/>
+			<outline type="rss" text="Colaboratorio"                    title="Colaboratorio"                    xmlUrl="https://colaboratorio.net/feed/"                       htmlUrl="https://colaboratorio.net"/>
+			<outline type="rss" text="De Novato a Novato GNU/Linux"     title="De Novato a Novato GNU/Linux"     xmlUrl="https://denovatoanovato.net/feed/"                     htmlUrl="https://denovatoanovato.net"/>
+			<outline type="rss" text="El atareao"                       title="El atareao"                       xmlUrl="https://www.atareao.es/feed/"                          htmlUrl="https://www.atareao.es"/>
+			<outline type="rss" text="Elbinario"                        title="Elbinario"                        xmlUrl="https://elbinario.net/feed/"                           htmlUrl="https://elbinario.net"/>
+			<outline type="rss" text="El blog de Liher"                 title="El blog de Liher"                 xmlUrl="https://elblogdeliher.com/feed/"                       htmlUrl="https://elblogdeliher.com"/>
+			<outline type="rss" text="El condón roto de GNU"            title="El condón roto de GNU"            xmlUrl="https://elcondonrotodegnu.wordpress.com/feed/"         htmlUrl="https://elcondonrotodegnu.wordpress.com"/>
+			<outline type="rss" text="El pingüino tolkiano"             title="El pingüino tolkiano"             xmlUrl="https://elpinguinotolkiano.wordpress.com/feed/"        htmlUrl="https://elpinguinotolkiano.wordpress.com"/>
+			<outline type="rss" text="Informático de Guardia"           title="Informático de Guardia"           xmlUrl="https://andalinux.wordpress.com/feed/"                 htmlUrl="https://andalinux.wordpress.com"/>
+			<outline type="rss" text="Jvare Blog"                       title="Jvare Blog"                       xmlUrl="https://jvare.com/feed/"                               htmlUrl="https://jvare.com"/>
+			<outline type="rss" text="KDE Blog"                         title="KDE Blog"                         xmlUrl="https://www.kdeblog.com/feed"                          htmlUrl="https://www.kdeblog.com"/>
+			<outline type="rss" text="La mirada del replicante"         title="La mirada del replicante"         xmlUrl="https://lamiradadelreplicante.com/feed/"               htmlUrl="https://lamiradadelreplicante.com"/>
+			<outline type="rss" text="LiGNUx"                           title="LiGNUx"                           xmlUrl="https://lignux.com/feed/"                              htmlUrl="https://lignux.com"/>
+			<outline type="rss" text="Linux Adictos"                    title="Linux Adictos"                    xmlUrl="https://www.linuxadictos.com/feed"                     htmlUrl="https://www.linuxadictos.com"/>
+			<outline type="rss" text="Linux Express, de Podcast Linux." title="Linux Express, de Podcast Linux." xmlUrl="https://feeds.feedburner.com/linuxexpress"             htmlUrl="https://podcastlinux.gitlab.io"/>
+			<outline type="rss" text="Linuxito"                         title="Linuxito"                         xmlUrl="https://www.linuxito.com/?format=feed&amp;type=atom"   htmlUrl="https://www.linuxito.com"/>
+			<outline type="rss" text="Linux para todos"                 title="Linux para todos"                 xmlUrl="https://feeds.feedburner.com/sololinux/eoDH"           htmlUrl="https://www.sololinux.es"/>
+			<outline type="rss" text="MuyLinux"                         title="MuyLinux"                         xmlUrl="https://www.muylinux.com/feed/"                        htmlUrl="https://www.muylinux.com"/>
+			<outline type="rss" text="ochobitshacenunbyte"              title="ochobitshacenunbyte"              xmlUrl="https://www.ochobitshacenunbyte.com/feed/"             htmlUrl="https://www.ochobitshacenunbyte.com"/>
+			<outline type="rss" text="Onda Hostil"                      title="Onda Hostil"                      xmlUrl="https://ondahostil.wordpress.com/feed/"                htmlUrl="https://ondahostil.wordpress.com"/>
+			<outline type="rss" text="openSUSE México"                  title="openSUSE México"                  xmlUrl="https://www.opensusemexico.com/feeds/posts/default"    htmlUrl="https://www.opensusemexico.com/"/>
+			<outline type="rss" text="PatoJAD"                          title="PatoJAD"                          xmlUrl="https://patojad.gitlab.io/index.xml"                   htmlUrl="https://patojad.gitlab.io/"/>
+			<outline type="rss" text="Poesía Binaria"                   title="Poesía Binaria"                   xmlUrl="https://poesiabinaria.net/feed/"                       htmlUrl="https://poesiabinaria.net"/>
+			<outline type="rss" text="Raspberry para torpes"            title="Raspberry para torpes"            xmlUrl="https://raspberryparatorpes.net/feed/"                 htmlUrl="https://raspberryparatorpes.net"/>
+			<outline type="rss" text="SystemInside"                     title="SystemInside"                     xmlUrl="https://www.systeminside.net/feed/"                    htmlUrl="https://www.systeminside.net"/>
+			<outline type="rss" text="Tecno y Soft"                     title="Tecno y Soft"                     xmlUrl="https://feeds.feedburner.com/tecnoysoft"               htmlUrl="https://tecnoysoft.com"/>
+			<outline type="rss" text="uGeek Blog"                       title="uGeek Blog"                       xmlUrl="https://feeds.feedburner.com/uGeekBlog"                htmlUrl="https://ugeek.github.io/blog"/>
+			<outline type="rss" text="victorhckinthefreeworld"          title="victorhckinthefreeworld"          xmlUrl="https://victorhckinthefreeworld.com/feed/"             htmlUrl="https://victorhckinthefreeworld.com"/>
+		</outline>
+	</body>
+</opml>
