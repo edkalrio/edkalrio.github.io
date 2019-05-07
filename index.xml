@@ -6,10 +6,34 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>WSL 2: El Ataque de los Clones</title>
+	  <link>https://lunaticgeek.com/wsl2/</link>
+	  <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/wsl2/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://png2.kisspng.com/sh/a648fb9282145eed975501a8df8b8c27/L0KzQYm3U8I6N6luj5H0aYP2gLBuTfNifF5ygdV7b4PydsW0lBlvbJD8i586MD3ndcTylP9xNahmhN55YYDogn78jvlkd6NzRdRqY3vqgrF8jvQuPZJne9hvMXS1RYbtgcIvPGkAUKM5OEW0RYO5U8M2PWI8Sac8MT7zfri=/kisspng-cat-microsoft-windows-10-desktop-wallpaper-unicorn-background-5abcff1d255fa2.4898108515223355171531.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Hemos ganado. Windows 10 incluirá un kernel Linux completo como base para el &lt;a href=&#34;https://devblogs.microsoft.com/commandline/announcing-wsl-2/&#34;&gt;Windows Subsystem for Linux&lt;/a&gt; que permitirá una compatibilidad total con las llamadas al sistema, haciendo posible la ejecución de Docker y el manejo de FUSE de forma nativa. La licencia GPLv2 del kernel les obliga a mantener un repositorio con todos los cambios que hagan para que la comunidad del software libre pueda beneficiarse de ellos. Aunque Microsoft lleva años siendo uno de los principales contribuyentes de Linux tanto en el aspecto financiero como en el técnico, ahora tendrán que mantener el proyecto completo. Las contribuciones de Microsoft al kernel siempre han sido muy endogámicas, centrándose en Azure e Hyper-V pero esto es un gran paso al frente que beneficiará enormemente a los usuarios de Windows.&lt;/p&gt;
+
+&lt;p&gt;Me parece necesario reflexionar algo más en profundidad sobre este avance. Hace un mes, Microsoft presentó sus cuentas trimestrales con unos &lt;a href=&#34;https://www.nytimes.com/2019/04/24/technology/microsoft-earnings.html&#34;&gt;resultados&lt;/a&gt; sorprendentes: 30.6 mil millones de ingresos, que supone un aumento del 14% respecto del ejercicio anterior, y un aumento del beneficio de un 19%, hasta los 8.8 mil millones. Todo esto ha provocado un aumento de la capitalización bursátil hasta alcanzar el tan ansiado billón. Una de las razones de este éxito es su concepción de la nube híbrida, que parece que facilita la migración de la infraestructura de sus clientes. En total, los ingresos del negocio de cloud de Microsoft han aumentado un 27%.&lt;/p&gt;
+
+&lt;p&gt;Retrocedamos algo más en el tiempo. Hace año y medio que &lt;a href=&#34;https://www.redhat.com/en/about/press-releases/red-hat-acquire-coreos-expanding-its-kubernetes-and-containers-leadership&#34;&gt;Red Hat&lt;/a&gt; compró CoreOS, sistema del que ya hablé en su &lt;a href=&#34;https://lunaticgeek.com/2017-07-11-distrohopping-util/&#34;&gt;momento&lt;/a&gt;, por 250 millones para reforzar su cartera con uno de los sistemas que más ha innovado en el desarrollo de Kubernetes y Docker. El propio presidente de Red Hat reconocía su objetivo de acelerar la adopción y desarrollo de la plataforma de nube híbrida líder en la industria.&lt;/p&gt;
+
+&lt;p&gt;Meses después &lt;a href=&#34;https://newsroom.ibm.com/2018-10-28-IBM-To-Acquire-Red-Hat-Completely-Changing-The-Cloud-Landscape-And-Becoming-Worlds-1-Hybrid-Cloud-Provider&#34;&gt;IBM&lt;/a&gt; compraría, a su vez, Red Hat por 34 mil millones, para convertirse en el mayor proveedor mundial de soluciones híbridas de computación en la nube. Estas cifras de infarto revelan claramente el potencial de crecimiento del negocio de la nube. Todas las grandes empresas tienen intención de migrar sus servicios a la nube para reducir costes, aumentar la seguridad y la flexibilidad del software. Estas son afirmaciones muy cuestionables en cuanto al fondo de la cuestión pero no por ello deja de ser cierto que todas las empresas van a migrar su infraestructura informática a la nube y este es un proceso que acaba de comenzar, por lo que todavía hay espacio para el crecimiento en los próximos años. Probablemente el ejemplo más trascendental de este proceso es el contrato de diez mil millones de el &lt;a href=&#34;https://www.nytimes.com/2019/04/10/technology/amazon-microsoft-jedi-pentagon.html&#34;&gt;Pentágono&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Con todo esto quiero llegar a una simple idea. Microsoft va a quedarse sola desarrollando software para la nube o va a salir de compras por Silicon Valley para reforzar este negocio tan lucrativo? &amp;hellip;y si compra Canonical?&lt;/p&gt;
+
+&lt;p&gt;Ubuntu es uno de los sistemas operativos más populares para la nube y su desarrollo está centrado en la integración y mejora de OpenStack, Juju, LXD y un interminable etcétera. Canonical lleva años colaborando con Microsoft y ya ha &lt;a href=&#34;https://blog.ubuntu.com/2019/05/06/canonical-announces-support-for-ubuntu-on-windows-subsystem-for-linux-2&#34;&gt;anunciado&lt;/a&gt; el soporte para WSL 2. No digo que la venta se vaya a producir pero es una empresa mucho más atractiva que CoreOS lo era para Red Hat y conforme el gigante de Redmond vaya colonizando Linux, necesitará gente con tanta experiencia como los desarrolladores de Ubuntu. Ya sea con aspiraciones expansionistas o simplemennte para librarse de la &lt;a href=&#34;https://www.youtube.com/watch?v=H27rfr59RiE&#34;&gt;competencia&lt;/a&gt;, este acuerdo parece el más probable. Algunos pensarán que SUSE pudiera estar también en la cesta de la compra de Satya Nadella. Personalmente no lo creo.&lt;/p&gt;
+
+&lt;p&gt;Ya que estamos, no querría terminar este post sin comentar sucintamente la nueva &lt;a href=&#34;https://devblogs.microsoft.com/commandline/introducing-windows-terminal/&#34;&gt;terminal&lt;/a&gt; de Windows, que es un espacio en el que van a convivir en armonía CMD, Powershell, WSL y SSH como las piezas de un Mr. Potato. El problema de la deuda tecnológica en su máxima expresión. Ya va siendo hora de que se olviden de esas tecnologías anacrónicas, contradictorias y exclusivas de Windows para centrarse en alternativas más POSIX.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Una Alternativa a los Agregadores de Noticias</title>

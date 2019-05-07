@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>WSL 2: El Ataque de los Clones - Lunatic Geek</title>
+  <meta property="og:title" content="WSL 2: El Ataque de los Clones - Lunatic Geek" />
+  <meta name="twitter:title" content="WSL 2: El Ataque de los Clones - Lunatic Geek" />
+  <meta name="description" content="Hemos ganado. Windows 10 incluirá un kernel Linux completo como base para el Windows Subsystem for Linux que permitirá una compatibilidad total con las llamadas al sistema, haciendo posible la ejecución de Docker y el manejo de FUSE de forma nativa. La licencia GPLv2 del kernel les obliga a mantener un repositorio con todos los cambios que hagan para que la comunidad del software libre pueda beneficiarse de ellos. Aunque Microsoft lleva años siendo uno de los principales contribuyentes de Linux tanto en el aspecto financiero como en el técnico, ahora tendrán que mantener el proyecto completo.">
+  <meta property="og:description" content="Hemos ganado. Windows 10 incluirá un kernel Linux completo como base para el Windows Subsystem for Linux que permitirá una compatibilidad total con las llamadas al sistema, haciendo posible la ejecución de Docker y el manejo de FUSE de forma nativa. La licencia GPLv2 del kernel les obliga a mantener un repositorio con todos los cambios que hagan para que la comunidad del software libre pueda beneficiarse de ellos. Aunque Microsoft lleva años siendo uno de los principales contribuyentes de Linux tanto en el aspecto financiero como en el técnico, ahora tendrán que mantener el proyecto completo.">
+  <meta name="twitter:description" content="Hemos ganado. Windows 10 incluirá un kernel Linux completo como base para el Windows Subsystem for Linux que permitirá una compatibilidad total con las llamadas al sistema, haciendo posible la …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/wsl2/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="https://lunaticgeek.com/lunaticgeek.png"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">WSL 2: El Ataque de los Clones</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2019-05-07</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/windows/">
+						<i class="fas fa-tag"></i>
+						Windows
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/microsoft/">
+						<i class="fas fa-tag"></i>
+						Microsoft
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/ubuntu/">
+						<i class="fas fa-tag"></i>
+						Ubuntu
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/cloud-computing/">
+						<i class="fas fa-tag"></i>
+						Cloud computing
+					</a> 
+				</li>
+			</ul>
+			
+			<p><center><img src="https://png2.kisspng.com/sh/a648fb9282145eed975501a8df8b8c27/L0KzQYm3U8I6N6luj5H0aYP2gLBuTfNifF5ygdV7b4PydsW0lBlvbJD8i586MD3ndcTylP9xNahmhN55YYDogn78jvlkd6NzRdRqY3vqgrF8jvQuPZJne9hvMXS1RYbtgcIvPGkAUKM5OEW0RYO5U8M2PWI8Sac8MT7zfri=/kisspng-cat-microsoft-windows-10-desktop-wallpaper-unicorn-background-5abcff1d255fa2.4898108515223355171531.png" alt="" /></center></p>
+
+<p>Hemos ganado. Windows 10 incluirá un kernel Linux completo como base para el <a href="https://devblogs.microsoft.com/commandline/announcing-wsl-2/">Windows Subsystem for Linux</a> que permitirá una compatibilidad total con las llamadas al sistema, haciendo posible la ejecución de Docker y el manejo de FUSE de forma nativa. La licencia GPLv2 del kernel les obliga a mantener un repositorio con todos los cambios que hagan para que la comunidad del software libre pueda beneficiarse de ellos. Aunque Microsoft lleva años siendo uno de los principales contribuyentes de Linux tanto en el aspecto financiero como en el técnico, ahora tendrán que mantener el proyecto completo. Las contribuciones de Microsoft al kernel siempre han sido muy endogámicas, centrándose en Azure e Hyper-V pero esto es un gran paso al frente que beneficiará enormemente a los usuarios de Windows.</p>
+
+<p>Me parece necesario reflexionar algo más en profundidad sobre este avance. Hace un mes, Microsoft presentó sus cuentas trimestrales con unos <a href="https://www.nytimes.com/2019/04/24/technology/microsoft-earnings.html">resultados</a> sorprendentes: 30.6 mil millones de ingresos, que supone un aumento del 14% respecto del ejercicio anterior, y un aumento del beneficio de un 19%, hasta los 8.8 mil millones. Todo esto ha provocado un aumento de la capitalización bursátil hasta alcanzar el tan ansiado billón. Una de las razones de este éxito es su concepción de la nube híbrida, que parece que facilita la migración de la infraestructura de sus clientes. En total, los ingresos del negocio de cloud de Microsoft han aumentado un 27%.</p>
+
+<p>Retrocedamos algo más en el tiempo. Hace año y medio que <a href="https://www.redhat.com/en/about/press-releases/red-hat-acquire-coreos-expanding-its-kubernetes-and-containers-leadership">Red Hat</a> compró CoreOS, sistema del que ya hablé en su <a href="/2017-07-11-distrohopping-util/">momento</a>, por 250 millones para reforzar su cartera con uno de los sistemas que más ha innovado en el desarrollo de Kubernetes y Docker. El propio presidente de Red Hat reconocía su objetivo de acelerar la adopción y desarrollo de la plataforma de nube híbrida líder en la industria.</p>
+
+<p>Meses después <a href="https://newsroom.ibm.com/2018-10-28-IBM-To-Acquire-Red-Hat-Completely-Changing-The-Cloud-Landscape-And-Becoming-Worlds-1-Hybrid-Cloud-Provider">IBM</a> compraría, a su vez, Red Hat por 34 mil millones, para convertirse en el mayor proveedor mundial de soluciones híbridas de computación en la nube. Estas cifras de infarto revelan claramente el potencial de crecimiento del negocio de la nube. Todas las grandes empresas tienen intención de migrar sus servicios a la nube para reducir costes, aumentar la seguridad y la flexibilidad del software. Estas son afirmaciones muy cuestionables en cuanto al fondo de la cuestión pero no por ello deja de ser cierto que todas las empresas van a migrar su infraestructura informática a la nube y este es un proceso que acaba de comenzar, por lo que todavía hay espacio para el crecimiento en los próximos años. Probablemente el ejemplo más trascendental de este proceso es el contrato de diez mil millones de el <a href="https://www.nytimes.com/2019/04/10/technology/amazon-microsoft-jedi-pentagon.html">Pentágono</a>.</p>
+
+<p>Con todo esto quiero llegar a una simple idea. Microsoft va a quedarse sola desarrollando software para la nube o va a salir de compras por Silicon Valley para reforzar este negocio tan lucrativo? &hellip;y si compra Canonical?</p>
+
+<p>Ubuntu es uno de los sistemas operativos más populares para la nube y su desarrollo está centrado en la integración y mejora de OpenStack, Juju, LXD y un interminable etcétera. Canonical lleva años colaborando con Microsoft y ya ha <a href="https://blog.ubuntu.com/2019/05/06/canonical-announces-support-for-ubuntu-on-windows-subsystem-for-linux-2">anunciado</a> el soporte para WSL 2. No digo que la venta se vaya a producir pero es una empresa mucho más atractiva que CoreOS lo era para Red Hat y conforme el gigante de Redmond vaya colonizando Linux, necesitará gente con tanta experiencia como los desarrolladores de Ubuntu. Ya sea con aspiraciones expansionistas o simplemennte para librarse de la <a href="https://www.youtube.com/watch?v=H27rfr59RiE">competencia</a>, este acuerdo parece el más probable. Algunos pensarán que SUSE pudiera estar también en la cesta de la compra de Satya Nadella. Personalmente no lo creo.</p>
+
+<p>Ya que estamos, no querría terminar este post sin comentar sucintamente la nueva <a href="https://devblogs.microsoft.com/commandline/introducing-windows-terminal/">terminal</a> de Windows, que es un espacio en el que van a convivir en armonía CMD, Powershell, WSL y SSH como las piezas de un Mr. Potato. El problema de la deuda tecnológica en su máxima expresión. Ya va siendo hora de que se olviden de esas tecnologías anacrónicas, contradictorias y exclusivas de Windows para centrarse en alternativas más POSIX.</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2019</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
