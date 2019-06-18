@@ -6,10 +6,20 @@
     <description>Recent content in Linux on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Registro de la Jornada en Unix</title>
+      <link>https://lunaticgeek.com/fichar-unix/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/fichar-unix/</guid>
+      <description>Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8&amp;frasl;2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
+Son estos honrados empresarios los que llevan quejándose de esta medida durante todo el mes acusando al gobierno de tomar medidas populistas y chapuceras sin el desarrollo reglamentario necesario.</description>
+    </item>
     
     <item>
       <title>WSL 2: El Ataque de los Clones</title>
