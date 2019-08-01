@@ -6,10 +6,37 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Libros para el Verano</title>
+	  <link>https://lunaticgeek.com/libros-para-el-verano-2019/</link>
+	  <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/libros-para-el-verano-2019/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/G/30/kindle/dp/2019/82430725/advanced-pack.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Miles de personas comienzan mañana sus vacaciones estivales para disfrutar de un merecido descanso después de un largo año de trabajo. Se ha convertido en &lt;a href=&#34;https://lunaticgeek.com/tags/libros/&#34;&gt;tradición&lt;/a&gt; que escriba este post para hacer unas recomendaciones literarias —frikis, por supuesto— para disfrutar durante las vacaciones en un libro electrónico o tablet.&lt;/p&gt;
+
+&lt;p&gt;Este año he decidido centrar mis recomendaciones en programación web, que últimamente estoy revisando para expandir mis conocimientos de desarrollo Full Stack. No puedes perdértelos!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://legacy.gitbook.com/download/pdf/book/bagder/http3-explained?lang=en&#34;&gt;HTTP/3 explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://file.allitebooks.com/20181019/Getting%20to%20Know%20Vuejs.pdf&#34;&gt;Getting to Know Vue.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imel.ba/edukacija/usingsvgwithcss3andhtml5.pdf&#34;&gt;Using SVG with CSS3 and HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://file.allitebooks.com/20180603/Web%20Scraping%20with%20Python,%202nd%20Edition.pdf&#34;&gt;Web Scraping with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://file.allitebooks.com/20170528/Serverless%20Architectures%20on%20AWS.pdf&#34;&gt;Serverless Architectures on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://file.allitebooks.com/20150717/Mongoose%20for%20Application%20Development.pdf&#34;&gt;Mongoose for Application Development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://file.allitebooks.com/20161021/Go%20Web%20Programming.pdf&#34;&gt;Go Web Programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://file.allitebooks.com/20190612/The%20TCPIP%20Guide.epub&#34;&gt;The TCP/IP Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No podía dejar escapar este momento para confirmar que &lt;a href=&#34;https://lunaticgeek.com&#34;&gt;lunaticgeek.com&lt;/a&gt; no se va de vacaciones aunque mi actual ritmo de edición es muy pausado y puede que finalmente no escriba nada, seguiré estudiando y documentándome para ofrecer los mejores artículos que sea capaz de publicar. Feliz verano a todos y gracias por seguirnos un año más.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Registro de la Jornada en Unix</title>
