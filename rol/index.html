@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol - Lunatic Geek</title>
+  <meta property="og:title" content="Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol - Lunatic Geek" />
+  <meta name="twitter:title" content="Generación de Distribuciones No-Uniformes mediante el algoritmo Alias …" />
+  <meta name="description" content="Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.
+El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme.">
+  <meta property="og:description" content="Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.
+El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme.">
+  <meta name="twitter:description" content="Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/rol/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.webp" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.webp" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2019-09-03</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/rol/">
+						<i class="fas fa-tag"></i>
+						rol
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/estad%C3%ADstica/">
+						<i class="fas fa-tag"></i>
+						estadística
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/matem%C3%A1ticas/">
+						<i class="fas fa-tag"></i>
+						matemáticas
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/python/">
+						<i class="fas fa-tag"></i>
+						Python
+					</a> 
+				</li>
+			</ul>
+			
+			<p><center><img src="/d20.png" alt="" /></center>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script></p>
+
+<p>Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como <em>nerds</em> pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.</p>
+
+<p>El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme. Aunque si hay algo que caracteriza al rol es la cantidad de dados que utiliza; en este mismo sistema se hace uso del <code>d6</code> para la creación de los personajes y otros eventos que requieren menos volatilidad. El uso de un solo dado, sea del valor que sea, supone la subordinación a una distribución de máxima entropía, totalmente imprevisible.</p>
+
+<p>Los generadores de números aleatorios (RNG) son el pilar fundamental del rol sobre el que se construyen las estadísticas de los personajes y monstruos, encuentros y cualquier circunstancia no determinista. Un mayor control de los RNG facilitaría la tarea de diseño de juegos de rol y simplificaría los mismos, mejorando la experiencia de juego. El problema es que los diseñadores no son expertos en combinatoria y probabilidad, e históricamente han recurrido a soluciones improvisadas y basadas en prueba-error para ir refinando las mecánicas aleatorias. Los resultados son innecesariamente tediosos y no se llega a tener el control total de las distribuciones generadas.</p>
+
+<p>Es aquí donde planteo mi pequeña aportación. La alternativa que ofrezco está basada en el <code>d20</code> con apoyo de una tabla guía para generar resultados que siguen una distribución aleatoria determinada previamente. La ventaja de este paradigma es que se puede replicar el resultado de tiradas de cualquier dado o combinación de estos con el <code>d20</code> y se pueden obtener resultados que muy difícilmente se conseguirían calcular con exóticas mezclas, para que los diseñadores de juegos y GMs vuelvan a tener un control absoluto de los procesos aleatorios que acompañan las aventuras roleras.</p>
+
+<p>La forma más habitual de generar distribuciones no-uniformes a partir de uniformes es mediante el <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform">algoritmo de Box-Muller</a>. El problema es que está diseñado para ser calculado por un ordenador, no por un dado. Es absolutamente inviable. En las asignaturas de estadística se estudia el <a href="https://en.wikipedia.org/wiki/Inverse_transform_sampling">método de la transformada inversa</a>, bastante sencillo pero que generaría una tabla guía enorme.</p>
+
+<p>Afortunadamente, profundizando en el tema, encontré un algoritmo no muy popular pero que según dicen es uno de los más elegantes e ingeniosos que existen. Se trata del <a href="http://www.keithschwarz.com/darts-dice-coins/">algoritmo de Vose</a> que genera tablas de tamaño <em>n</em> y el resultado se obtiene de forma inmediata.</p>
+
+<p>Keith Schawarz publicó una extensa explicación del algoritmo y lo compara con otros métodos similares. También ofrece una implementación en <a href="http://www.keithschwarz.com/interesting/code/?dir=alias-method">Java</a> pero como soy alérgico a este lenguaje, me he tomado la molestia de traducirlo a Python, en lo que es casi una copia línea por línea de las partes que me interesaban, si bien adaptando el algoritmo al caso del <code>d20</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python3" data-lang="python3"><span class="ch">#!/usr/bin/python</span>
+
+<span class="kn">from</span> <span class="nn">decimal</span> <span class="k">import</span> <span class="o">*</span>
+
+<span class="n">dice</span> <span class="o">=</span> <span class="p">{</span>
+<span class="s2">&#34;01&#34;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span>
+<span class="s2">&#34;02&#34;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span>
+<span class="s2">&#34;03&#34;</span><span class="p">:</span><span class="mf">0.01</span><span class="p">,</span>
+<span class="s2">&#34;04&#34;</span><span class="p">:</span><span class="mf">0.01</span><span class="p">,</span>
+<span class="s2">&#34;05&#34;</span><span class="p">:</span><span class="mf">0.03</span><span class="p">,</span>
+<span class="s2">&#34;06&#34;</span><span class="p">:</span><span class="mf">0.05</span><span class="p">,</span>
+<span class="s2">&#34;07&#34;</span><span class="p">:</span><span class="mf">0.07</span><span class="p">,</span>
+<span class="s2">&#34;08&#34;</span><span class="p">:</span><span class="mf">0.09</span><span class="p">,</span>
+<span class="s2">&#34;09&#34;</span><span class="p">:</span><span class="mf">0.12</span><span class="p">,</span>
+<span class="s2">&#34;10&#34;</span><span class="p">:</span><span class="mf">0.13</span><span class="p">,</span>
+<span class="s2">&#34;11&#34;</span><span class="p">:</span><span class="mf">0.13</span><span class="p">,</span>
+<span class="s2">&#34;12&#34;</span><span class="p">:</span><span class="mf">0.12</span><span class="p">,</span>
+<span class="s2">&#34;13&#34;</span><span class="p">:</span><span class="mf">0.09</span><span class="p">,</span>
+<span class="s2">&#34;14&#34;</span><span class="p">:</span><span class="mf">0.07</span><span class="p">,</span>
+<span class="s2">&#34;15&#34;</span><span class="p">:</span><span class="mf">0.05</span><span class="p">,</span>
+<span class="s2">&#34;16&#34;</span><span class="p">:</span><span class="mf">0.03</span><span class="p">,</span>
+<span class="s2">&#34;17&#34;</span><span class="p">:</span><span class="mf">0.01</span><span class="p">,</span>
+<span class="s2">&#34;18&#34;</span><span class="p">:</span><span class="mf">0.01</span><span class="p">,</span>
+<span class="s2">&#34;19&#34;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span>
+<span class="s2">&#34;20&#34;</span><span class="p">:</span><span class="mi">0</span>
+<span class="p">}</span>	<span class="c1">#3d6</span>
+
+<span class="n">probability</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">alias</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="n">average</span> <span class="o">=</span> <span class="mf">0.05</span>
+<span class="n">probabilities</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">small</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">large</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">dice</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+	<span class="n">probabilities</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">Decimal</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+	<span class="k">if</span> <span class="n">probabilities</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">average</span><span class="p">:</span>
+		<span class="n">large</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">small</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">small</span> <span class="ow">and</span> <span class="n">large</span><span class="p">:</span>
+	<span class="n">less</span> <span class="o">=</span> <span class="n">small</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+	<span class="n">more</span> <span class="o">=</span> <span class="n">large</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+
+	<span class="n">probability</span><span class="p">[</span><span class="n">less</span><span class="p">]</span> <span class="o">=</span> <span class="n">probabilities</span><span class="p">[</span><span class="n">less</span><span class="p">]</span> <span class="o">*</span> <span class="n">n</span>
+	<span class="n">alias</span><span class="p">[</span><span class="n">less</span><span class="p">]</span> <span class="o">=</span> <span class="n">more</span>
+
+	<span class="n">probabilities</span><span class="p">[</span><span class="n">more</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">probabilities</span><span class="p">[</span><span class="n">more</span><span class="p">]</span> <span class="o">+</span> <span class="n">probabilities</span><span class="p">[</span><span class="n">less</span><span class="p">])</span> <span class="o">-</span> <span class="n">Decimal</span><span class="p">(</span><span class="n">average</span><span class="p">)</span>
+
+	<span class="k">if</span> <span class="n">probabilities</span><span class="p">[</span><span class="n">more</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">average</span><span class="p">:</span>
+		<span class="n">large</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">more</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">small</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">more</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">small</span><span class="p">:</span>
+	<span class="n">probability</span><span class="p">[</span><span class="n">small</span><span class="o">.</span><span class="n">pop</span><span class="p">()]</span> <span class="o">=</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">while</span> <span class="n">large</span><span class="p">:</span>
+	<span class="n">probability</span><span class="p">[</span><span class="n">large</span><span class="o">.</span><span class="n">pop</span><span class="p">()]</span> <span class="o">=</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span></code></pre></div>
+<p>Con este script podemos generar cualquier distribución de probabilidad que se nos ocurra, alterando los valores del diccionario <code>dice</code>. A modo de ejemplo, una típica tirada <code>3d6</code> puede ser sintetizada con este método porque sigue una distribución conocida —una <em>N(10.5, 2.95803989)</em> — que produce la siguiente tabla guía:</p>
+
+<table>
+<thead>
+<tr>
+<th>d20</th>
+<th>Dificultad</th>
+<th>Alias</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>0</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>4</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>4</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>11</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>20</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>20</td>
+<td>7</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>19</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>3</td>
+<td>8</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>15</td>
+<td>9</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>15</td>
+<td>10</td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>15</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>3</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>14</td>
+<td>8</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>0</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>16</td>
+<td>11</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>17</td>
+<td>4</td>
+<td>11</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td>4</td>
+<td>12</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td>0</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td>0</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+
+<p>El procedimiento para utilizar esta tabla es muy sencillo</p>
+
+<pre><code>tiramos d20
+nos colocamos en la fila correspondiente al resultado
+tiramos d20
+si superamos la dificultad de aquella fila
+	El resultado final es el primer d20
+si no
+	El resultado final es el alias de esa fila
+</code></pre>
+
+<p>Pero este sencillo método no se conforma con síntesis tan sencillas. También es capaz de calcular la distribución de <code>4d6d1</code>, muy utilizada recientemente para la creación de personajes; <code>4dF</code>, la tirada de dados Fudge/Fate; incluso un humilde <code>d6</code> y en realidad, cualquier distribución que se nos ocurra, ya sea simétrica o asimétrica, lineal, geométrica, campaniforme, sigmoidea, irregular o caótica.</p>
+
+<p>Todo este proceso no está exento de errores. El redondeo a <sup>1</sup>&frasl;<sub>20</sub> impuesto por el dado provoca pequeñas divergencias respecto a la distribución original como apreciamos a continuación. Que cada cual juzgue si se encuentran en un margen de error aceptable.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tirada</th>
+<th>Distribución Original</th>
+<th>Distribución Obtenida</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>3d6</td>
+<td>N(10.5, 2.958)</td>
+<td>N(10.4525, 3.0009)</td>
+</tr>
+
+<tr>
+<td>4d6d1</td>
+<td>N(12.2446, 2.8468)</td>
+<td>N(12.125, 3.0754)</td>
+</tr>
+
+<tr>
+<td>4dF</td>
+<td>N(0, 1.633)</td>
+<td>N(-0.03, 1.6358)</td>
+</tr>
+
+<tr>
+<td>d6</td>
+<td>U(1,6)</td>
+<td>X(3.5, 1.6903)</td>
+</tr>
+</tbody>
+</table>
+
+<p>A veces una imagen vale más que mil palabras, así que he elaborado los siguientes gráficos de las distribuciones anteriormente tratadas, obviando el hecho de que son generalizaciones de los verdaderos resultados y que las originales son discretas. Se muestra la PDF original en línea discontinua para que contraste con la estimación verdaderamente obtenida.</p>
+
+<p><img src="/3d6.png" alt="" />
+<img src="/4d6d1.png" alt="" />
+<img src="/4dF.png" alt="" />
+<img src="/d6.png" alt="" /></p>
+
+<p>Finalmente y a modo de conclusión se recoge en la siguiente tabla las tiradas de dificultad (D) y alias (A) para los casos tratados. Esta es la única que necesitamos para jugar.</p>
+
+<table>
+<thead>
+<tr>
+<th>d20</th>
+<th>s3d6 D</th>
+<th>s3d6 A</th>
+<th>s4d6d1 D</th>
+<th>s4d6d1 A</th>
+<th>s4df D</th>
+<th>s4df A</th>
+<th>sd6 D</th>
+<th>sd6 A</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>9</td>
+<td>0</td>
+<td>12</td>
+<td>4</td>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>0</td>
+<td>8</td>
+<td>0</td>
+<td>13</td>
+<td>20</td>
+<td>0</td>
+<td>20</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>4</td>
+<td>9</td>
+<td>4</td>
+<td>9</td>
+<td>16</td>
+<td>2</td>
+<td>12</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>4</td>
+<td>12</td>
+<td>4</td>
+<td>14</td>
+<td>12</td>
+<td>7</td>
+<td>16</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>11</td>
+<td>12</td>
+<td>4</td>
+<td>11</td>
+<td>12</td>
+<td>4</td>
+<td>8</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>12</td>
+<td>13</td>
+<td>8</td>
+<td>12</td>
+<td>8</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>12</td>
+<td>6</td>
+<td>11</td>
+<td>12</td>
+<td>4</td>
+<td>6</td>
+<td>0</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>4</td>
+<td>7</td>
+<td>16</td>
+<td>15</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>8</td>
+<td>8</td>
+<td>8</td>
+<td>13</td>
+<td>4</td>
+<td>7</td>
+<td>0</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>8</td>
+<td>15</td>
+<td>11</td>
+<td>15</td>
+<td>0</td>
+<td>8</td>
+<td>0</td>
+<td>5</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>4</td>
+<td>14</td>
+<td>4</td>
+<td>14</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>5</td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>16</td>
+<td>9</td>
+<td>8</td>
+<td>16</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>20</td>
+<td>0</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>14</td>
+<td>12</td>
+<td>12</td>
+<td>16</td>
+<td>12</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>8</td>
+<td>11</td>
+<td>16</td>
+<td>11</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>5</td>
+</tr>
+
+<tr>
+<td>16</td>
+<td>11</td>
+<td>10</td>
+<td>16</td>
+<td>9</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>17</td>
+<td>4</td>
+<td>10</td>
+<td>16</td>
+<td>10</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td>4</td>
+<td>11</td>
+<td>8</td>
+<td>15</td>
+<td>0</td>
+<td>6</td>
+<td>0</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td>0</td>
+<td>11</td>
+<td>0</td>
+<td>11</td>
+<td>0</td>
+<td>6</td>
+<td>0</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td>0</td>
+<td>10</td>
+<td>0</td>
+<td>10</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+
+<p>P.S. Para calcular las probabilidades de la suma de los valores de los dados, se ha utilizado la intimidante fórmula</p>
+
+<p>$$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2019</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

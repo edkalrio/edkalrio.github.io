@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/rol/</loc>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/libros-para-el-verano-2019/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -2622,6 +2627,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -2923,7 +2934,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2972,6 +2983,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/mastodon/</loc>
     <lastmod>2017-12-08T14:07:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3252,6 +3269,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/python/</loc>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/raspberry-pi/</loc>
     <lastmod>2014-07-16T18:05:00+02:00</lastmod>
     <priority>0</priority>
@@ -3308,6 +3331,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/rng/</loc>
     <lastmod>2018-04-24T14:02:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/rol/</loc>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,550 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 03 Sep 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol</title>
+	  <link>https://lunaticgeek.com/rol/</link>
+	  <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/rol/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como &lt;em&gt;nerds&lt;/em&gt; pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.&lt;/p&gt;
+
+&lt;p&gt;El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme. Aunque si hay algo que caracteriza al rol es la cantidad de dados que utiliza; en este mismo sistema se hace uso del &lt;code&gt;d6&lt;/code&gt; para la creación de los personajes y otros eventos que requieren menos volatilidad. El uso de un solo dado, sea del valor que sea, supone la subordinación a una distribución de máxima entropía, totalmente imprevisible.&lt;/p&gt;
+
+&lt;p&gt;Los generadores de números aleatorios (RNG) son el pilar fundamental del rol sobre el que se construyen las estadísticas de los personajes y monstruos, encuentros y cualquier circunstancia no determinista. Un mayor control de los RNG facilitaría la tarea de diseño de juegos de rol y simplificaría los mismos, mejorando la experiencia de juego. El problema es que los diseñadores no son expertos en combinatoria y probabilidad, e históricamente han recurrido a soluciones improvisadas y basadas en prueba-error para ir refinando las mecánicas aleatorias. Los resultados son innecesariamente tediosos y no se llega a tener el control total de las distribuciones generadas.&lt;/p&gt;
+
+&lt;p&gt;Es aquí donde planteo mi pequeña aportación. La alternativa que ofrezco está basada en el &lt;code&gt;d20&lt;/code&gt; con apoyo de una tabla guía para generar resultados que siguen una distribución aleatoria determinada previamente. La ventaja de este paradigma es que se puede replicar el resultado de tiradas de cualquier dado o combinación de estos con el &lt;code&gt;d20&lt;/code&gt; y se pueden obtener resultados que muy difícilmente se conseguirían calcular con exóticas mezclas, para que los diseñadores de juegos y GMs vuelvan a tener un control absoluto de los procesos aleatorios que acompañan las aventuras roleras.&lt;/p&gt;
+
+&lt;p&gt;La forma más habitual de generar distribuciones no-uniformes a partir de uniformes es mediante el &lt;a href=&#34;https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform&#34;&gt;algoritmo de Box-Muller&lt;/a&gt;. El problema es que está diseñado para ser calculado por un ordenador, no por un dado. Es absolutamente inviable. En las asignaturas de estadística se estudia el &lt;a href=&#34;https://en.wikipedia.org/wiki/Inverse_transform_sampling&#34;&gt;método de la transformada inversa&lt;/a&gt;, bastante sencillo pero que generaría una tabla guía enorme.&lt;/p&gt;
+
+&lt;p&gt;Afortunadamente, profundizando en el tema, encontré un algoritmo no muy popular pero que según dicen es uno de los más elegantes e ingeniosos que existen. Se trata del &lt;a href=&#34;http://www.keithschwarz.com/darts-dice-coins/&#34;&gt;algoritmo de Vose&lt;/a&gt; que genera tablas de tamaño &lt;em&gt;n&lt;/em&gt; y el resultado se obtiene de forma inmediata.&lt;/p&gt;
+
+&lt;p&gt;Keith Schawarz publicó una extensa explicación del algoritmo y lo compara con otros métodos similares. También ofrece una implementación en &lt;a href=&#34;http://www.keithschwarz.com/interesting/code/?dir=alias-method&#34;&gt;Java&lt;/a&gt; pero como soy alérgico a este lenguaje, me he tomado la molestia de traducirlo a Python, en lo que es casi una copia línea por línea de las partes que me interesaban, si bien adaptando el algoritmo al caso del &lt;code&gt;d20&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python3&#34; data-lang=&#34;python3&#34;&gt;&lt;span class=&#34;ch&#34;&gt;#!/usr/bin/python&lt;/span&gt;
+
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;decimal&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;dice&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;01&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;02&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;03&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;04&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;05&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.03&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;06&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.05&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;07&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.07&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;08&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.09&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;09&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.12&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;10&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.13&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;11&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.13&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;12&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.12&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;13&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.09&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;14&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.07&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;15&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.05&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;16&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.03&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;17&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;18&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;19&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;20&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;#3d6&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;probability&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;average&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.05&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;small&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;large&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dice&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;items&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;():&lt;/span&gt;
+	&lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Decimal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;average&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+		&lt;span class=&#34;n&#34;&gt;large&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+		&lt;span class=&#34;n&#34;&gt;small&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;small&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;large&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+	&lt;span class=&#34;n&#34;&gt;less&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;small&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+	&lt;span class=&#34;n&#34;&gt;more&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;large&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+
+	&lt;span class=&#34;n&#34;&gt;probability&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;less&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;less&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;
+	&lt;span class=&#34;n&#34;&gt;alias&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;less&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;more&lt;/span&gt;
+
+	&lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;more&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;more&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;less&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Decimal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;average&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+	&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;probabilities&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;more&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;average&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+		&lt;span class=&#34;n&#34;&gt;large&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;more&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+	&lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+		&lt;span class=&#34;n&#34;&gt;small&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;more&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;small&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+	&lt;span class=&#34;n&#34;&gt;probability&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;small&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Decimal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;large&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+	&lt;span class=&#34;n&#34;&gt;probability&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;large&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Decimal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Con este script podemos generar cualquier distribución de probabilidad que se nos ocurra, alterando los valores del diccionario &lt;code&gt;dice&lt;/code&gt;. A modo de ejemplo, una típica tirada &lt;code&gt;3d6&lt;/code&gt; puede ser sintetizada con este método porque sigue una distribución conocida —una &lt;em&gt;N(10.5, 2.95803989)&lt;/em&gt; — que produce la siguiente tabla guía:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;d20&lt;/th&gt;
+&lt;th&gt;Dificultad&lt;/th&gt;
+&lt;th&gt;Alias&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;El procedimiento para utilizar esta tabla es muy sencillo&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tiramos d20
+nos colocamos en la fila correspondiente al resultado
+tiramos d20
+si superamos la dificultad de aquella fila
+	El resultado final es el primer d20
+si no
+	El resultado final es el alias de esa fila
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pero este sencillo método no se conforma con síntesis tan sencillas. También es capaz de calcular la distribución de &lt;code&gt;4d6d1&lt;/code&gt;, muy utilizada recientemente para la creación de personajes; &lt;code&gt;4dF&lt;/code&gt;, la tirada de dados Fudge/Fate; incluso un humilde &lt;code&gt;d6&lt;/code&gt; y en realidad, cualquier distribución que se nos ocurra, ya sea simétrica o asimétrica, lineal, geométrica, campaniforme, sigmoidea, irregular o caótica.&lt;/p&gt;
+
+&lt;p&gt;Todo este proceso no está exento de errores. El redondeo a &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;20&lt;/sub&gt; impuesto por el dado provoca pequeñas divergencias respecto a la distribución original como apreciamos a continuación. Que cada cual juzgue si se encuentran en un margen de error aceptable.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tirada&lt;/th&gt;
+&lt;th&gt;Distribución Original&lt;/th&gt;
+&lt;th&gt;Distribución Obtenida&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3d6&lt;/td&gt;
+&lt;td&gt;N(10.5, 2.958)&lt;/td&gt;
+&lt;td&gt;N(10.4525, 3.0009)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4d6d1&lt;/td&gt;
+&lt;td&gt;N(12.2446, 2.8468)&lt;/td&gt;
+&lt;td&gt;N(12.125, 3.0754)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4dF&lt;/td&gt;
+&lt;td&gt;N(0, 1.633)&lt;/td&gt;
+&lt;td&gt;N(-0.03, 1.6358)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;d6&lt;/td&gt;
+&lt;td&gt;U(1,6)&lt;/td&gt;
+&lt;td&gt;X(3.5, 1.6903)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A veces una imagen vale más que mil palabras, así que he elaborado los siguientes gráficos de las distribuciones anteriormente tratadas, obviando el hecho de que son generalizaciones de los verdaderos resultados y que las originales son discretas. Se muestra la PDF original en línea discontinua para que contraste con la estimación verdaderamente obtenida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lunaticgeek.com/3d6.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/4d6d1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/4dF.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/d6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finalmente y a modo de conclusión se recoge en la siguiente tabla las tiradas de dificultad (D) y alias (A) para los casos tratados. Esta es la única que necesitamos para jugar.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;d20&lt;/th&gt;
+&lt;th&gt;s3d6 D&lt;/th&gt;
+&lt;th&gt;s3d6 A&lt;/th&gt;
+&lt;th&gt;s4d6d1 D&lt;/th&gt;
+&lt;th&gt;s4d6d1 A&lt;/th&gt;
+&lt;th&gt;s4df D&lt;/th&gt;
+&lt;th&gt;s4df A&lt;/th&gt;
+&lt;th&gt;sd6 D&lt;/th&gt;
+&lt;th&gt;sd6 A&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;P.S. Para calcular las probabilidades de la suma de los valores de los dados, se ha utilizado la intimidante fórmula&lt;/p&gt;
+
+&lt;p&gt;$$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Libros para el Verano</title>
@@ -331,7 +871,7 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config&lt;/code&gt;&lt;/pre&gt;&lt;/div&g
 	  <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
 	  
 	  <guid>https://lunaticgeek.com/wordstar4/</guid>
-	  <description>&lt;p&gt;Estoy leyendo el último &lt;a href=&#34;https://tubrujuladigital.com/download.php?id=3784&amp;amp;token=fJXH0rO4Zj44i5LEmwZOzN6G9Ll52hg7&amp;amp;download&#34;&gt;libro&lt;/a&gt; de G.R. Martin y con cada página que termino me doy cuenta de la labor titánica de cohesión entre genealogía, historia, política, geografía y cultura que ha tenido que entretejer para dar forma un universo coherente y funcional. Un trabajo complejísimo, sobre todo si tenemos en cuenta que utiliza las &lt;a href=&#34;https://grrm.livejournal.com/197075.html&#34;&gt;herramientas&lt;/a&gt; más rudimentarias para escribir sus novelas, WordStar 4.0 en un viejo ordenador con MS-DOS.&lt;/p&gt;
+	  <description>&lt;p&gt;Estoy leyendo el último &lt;a href=&#34;https://tubrujuladigital.com/download.php?id=3784&amp;amp;token=fJXH0rO4Zj44i5LEmwZOzN6G9Ll52hg7&amp;amp;download&#34;&gt;libro&lt;/a&gt; de G. R. R. Martin y con cada página que termino me doy cuenta de la labor titánica de cohesión entre genealogía, historia, política, geografía y cultura que ha tenido que entretejer para dar forma un universo coherente y funcional. Un trabajo complejísimo, sobre todo si tenemos en cuenta que utiliza las &lt;a href=&#34;https://grrm.livejournal.com/197075.html&#34;&gt;herramientas&lt;/a&gt; más rudimentarias para escribir sus novelas, WordStar 4.0 en un viejo ordenador con MS-DOS.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/ws4.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
