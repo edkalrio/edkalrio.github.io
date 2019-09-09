@@ -6,10 +6,34 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 03 Sep 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Compilación de i3wm en Ubuntu 18.04</title>
+	  <link>https://lunaticgeek.com/compila-i3wm/</link>
+	  <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/compila-i3wm/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://i3wm.org/img/logo.svg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.&lt;/p&gt;
+
+&lt;p&gt;Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos &lt;a href=&#34;https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/&#34;&gt;años&lt;/a&gt;. Me sorprendió gratamente encontrar en el &lt;a href=&#34;https://i3wm.org/downloads/RELEASE-NOTES-4.17.txt&#34;&gt;changelog&lt;/a&gt; una característica que llevo deseando desde que me topé con i3wm, la &lt;a href=&#34;https://i3wm.org/docs/userguide.html#_transparency&#34;&gt;transparencia de i3bar&lt;/a&gt;. Nunca he tenido problemas con las actualizaciones de este paquete a pesar de estar mantenidas por un tercero ajeno al desarrollo del programa, pero ya ha salido incluso una revisión, v4.17.1 y sigo sin tener noticias, así que toca compilar desde el código fuente. Compilar es una tarea odiosa. Siempre quedan cabos sueltos, hay que pelearse con los distintos sistemas de configuración, árboles de dependencias que dinamitan el resto del sistema y sobre todo, la sensación de estar profanando la máxima de &lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;&gt;DRY&lt;/a&gt;. En el caso de i3wm, el propio programador desaconseja compilarlo.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, estoy harto de esperar y después de un par de intentos fallidos, ahí va la receta para compilar i3wm v4.17.1 en Ubuntu 18.04.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt install libxcb1-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xinerama0-dev libpango1.0-dev libxcursor-dev libxcb-cursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xrm-dev
+
+wget https://i3wm.org/downloads/i3-4.17.1.tar.bz2 -O - &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tar -xj
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; i3-4.17.1
+mkdir -p build &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; build
+
+../configure
+make
+sudo make install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+	</item>
 	
 	<item>
 	  <title>Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol</title>

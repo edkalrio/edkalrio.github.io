@@ -6,10 +6,20 @@
     <description>Recent content in Unix on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Compilación de i3wm en Ubuntu 18.04</title>
+      <link>https://lunaticgeek.com/compila-i3wm/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/compila-i3wm/</guid>
+      <description>La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.
+Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos años. Me sorprendió gratamente encontrar en el changelog una característica que llevo deseando desde que me topé con i3wm, la transparencia de i3bar.</description>
+    </item>
     
     <item>
       <title>Registro de la Jornada en Unix</title>

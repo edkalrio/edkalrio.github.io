@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Compilación de i3wm en Ubuntu 18.04 - Lunatic Geek</title>
+  <meta property="og:title" content="Compilación de i3wm en Ubuntu 18.04 - Lunatic Geek" />
+  <meta name="twitter:title" content="Compilación de i3wm en Ubuntu 18.04 - Lunatic Geek" />
+  <meta name="description" content="La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.
+Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos años. Me sorprendió gratamente encontrar en el changelog una característica que llevo deseando desde que me topé con i3wm, la transparencia de i3bar.">
+  <meta property="og:description" content="La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.
+Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos años. Me sorprendió gratamente encontrar en el changelog una característica que llevo deseando desde que me topé con i3wm, la transparencia de i3bar.">
+  <meta name="twitter:description" content="La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.
+Hace cinco …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/compila-i3wm/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek.webp" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek.webp" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Compilación de i3wm en Ubuntu 18.04</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2019-09-09</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/i3wm/">
+						<i class="fas fa-tag"></i>
+						i3wm
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/linux/">
+						<i class="fas fa-tag"></i>
+						Linux
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/unix/">
+						<i class="fas fa-tag"></i>
+						Unix
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/ubuntu/">
+						<i class="fas fa-tag"></i>
+						Ubuntu
+					</a> 
+				</li>
+			</ul>
+			
+			<p><center><img src="https://i3wm.org/img/logo.svg" alt="" /></center></p>
+
+<p>La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.</p>
+
+<p>Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos <a href="https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/">años</a>. Me sorprendió gratamente encontrar en el <a href="https://i3wm.org/downloads/RELEASE-NOTES-4.17.txt">changelog</a> una característica que llevo deseando desde que me topé con i3wm, la <a href="https://i3wm.org/docs/userguide.html#_transparency">transparencia de i3bar</a>. Nunca he tenido problemas con las actualizaciones de este paquete a pesar de estar mantenidas por un tercero ajeno al desarrollo del programa, pero ya ha salido incluso una revisión, v4.17.1 y sigo sin tener noticias, así que toca compilar desde el código fuente. Compilar es una tarea odiosa. Siempre quedan cabos sueltos, hay que pelearse con los distintos sistemas de configuración, árboles de dependencias que dinamitan el resto del sistema y sobre todo, la sensación de estar profanando la máxima de <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>. En el caso de i3wm, el propio programador desaconseja compilarlo.</p>
+
+<p>Sin embargo, estoy harto de esperar y después de un par de intentos fallidos, ahí va la receta para compilar i3wm v4.17.1 en Ubuntu 18.04.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install libxcb1-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xinerama0-dev libpango1.0-dev libxcursor-dev libxcb-cursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xrm-dev
+
+wget https://i3wm.org/downloads/i3-4.17.1.tar.bz2 -O - <span class="p">|</span> tar -xj
+<span class="nb">cd</span> i3-4.17.1
+mkdir -p build <span class="o">&amp;&amp;</span> <span class="nb">cd</span> build
+
+../configure
+make
+sudo make install</code></pre></div>
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2019</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
