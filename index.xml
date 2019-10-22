@@ -6,10 +6,230 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 27 Sep 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Análisis Estadístico de Mythic: GME</title>
+	  <link>https://lunaticgeek.com/mythic/</link>
+	  <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/mythic/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;http://www.wordmillgames.com/images/gmecoverlarger.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;El Emulador del Director de Juego de &lt;a href=&#34;https://www.wordmillgames.com/&#34;&gt;Mythic&lt;/a&gt; es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.&lt;/p&gt;
+
+&lt;p&gt;El emulador de Mythic, si bien no es innovador porque recuerda a la clásica tabla universal de resultados del sistema &lt;a href=&#34;https://en.wikipedia.org/wiki/Marvel_Super_Heroes:_The_Heroic_Role-Playing_Game&#34;&gt;FASERIP&lt;/a&gt;, ha sabido abrirse paso hasta posicionarse como una de las herramientas fundamentales para jugar en solitario a juegos de rol.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://s3.amazonaws.com/files.d20.io/images/23716813/bz-XbzLdia8ee0XMlp5myQ/original.jpg?1475346608&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Todo el reglamento que permite adaptar este modelo a cualquier RPG se basa principalmente en una tabla del destino que actúa como oráculo para responder a preguntas binarias del jugador sobre el transcurso de la aventura. Por un lado tenemos descriptores de probabilidad, que debemos asignar a la situación objeto de consulta al oráculo. Esas posibilidades están asociadas, igualmente, a un ranking de caos, que irá variando dependiendo de la dificultad que adquiera la aventura, para equilibrar los encuentros y desafíos.&lt;/p&gt;
+
+&lt;p&gt;Mythic es un accesorio perfectamente jugable en su edición original, si bien un análisis en profundidad de esta tabla del destino nos muestra claramente la improvisación y desconocimiento del autor.&lt;/p&gt;
+
+&lt;p&gt;A cualquier persona normal le daría igual esta inconsistencia en la lógica que fundamenta el oráculo pero yo soy muy maniático y creo que puedo mejorar la mecánica de Mythic, simplificando y regularizando las estadísticas del modelo para conseguir un juego ligeramente distinto pero más elegante, matemáticamente.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_before.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Para descomponer el sistema de juego y adentrarnos en las intenciones subyacentes del autor, vamos a hacer ingeniería inversa, buscando los fundamentos que construyen este emulador y que quizás ni siquiera el creador conociera, si surgieron de la prueba-error a través de un ajuste continuo hasta obtener los resultados deseados.&lt;/p&gt;
+
+&lt;p&gt;La intuición me dice que este sistema sigue una distribución de probabilidad normal. No es una hipótesis demasiado extraña ya que la mayor parte de procesos aleatorios sigue esta distribución —de ahí su nombre—. Simplemente observando el gráfico anterior podríamos confirmarlo pero para asegurar el resultado vamos a calcular el test de &lt;a href=&#34;https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test&#34;&gt;Shapiro&lt;/a&gt; para los distintos escenarios de Caos.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Caos&lt;/th&gt;
+&lt;th&gt;Media&lt;/th&gt;
+&lt;th&gt;Desviación Típica&lt;/th&gt;
+&lt;th&gt;P-valor Shapiro&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;c1&lt;/td&gt;
+&lt;td&gt;98.18182&lt;/td&gt;
+&lt;td&gt;25.22625&lt;/td&gt;
+&lt;td&gt;0.9767736&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c2&lt;/td&gt;
+&lt;td&gt;83.63636&lt;/td&gt;
+&lt;td&gt;28.99059&lt;/td&gt;
+&lt;td&gt;0.8583959&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c3&lt;/td&gt;
+&lt;td&gt;71.81818&lt;/td&gt;
+&lt;td&gt;28.74654&lt;/td&gt;
+&lt;td&gt;0.06267893&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c4&lt;/td&gt;
+&lt;td&gt;67.27273&lt;/td&gt;
+&lt;td&gt;30.77041&lt;/td&gt;
+&lt;td&gt;0.1587115&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c5&lt;/td&gt;
+&lt;td&gt;57.27273&lt;/td&gt;
+&lt;td&gt;32.891&lt;/td&gt;
+&lt;td&gt;0.2038087&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c6&lt;/td&gt;
+&lt;td&gt;47.72727&lt;/td&gt;
+&lt;td&gt;32.73863&lt;/td&gt;
+&lt;td&gt;0.3080588&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c7&lt;/td&gt;
+&lt;td&gt;41.81818&lt;/td&gt;
+&lt;td&gt;32.57858&lt;/td&gt;
+&lt;td&gt;0.3262067&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c8&lt;/td&gt;
+&lt;td&gt;31.81818&lt;/td&gt;
+&lt;td&gt;28.39654&lt;/td&gt;
+&lt;td&gt;0.282835&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;c9&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;29.41088&lt;/td&gt;
+&lt;td&gt;0.7866538&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Como era de esperar, el oráculo es normal. Ya que estamos, voy a dibujar también los &lt;a href=&#34;https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot&#34;&gt;gráficos Q-Q&lt;/a&gt;, simplemente porque me gusta cómo quedan.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/qqplot.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;El siguiente paso es analizar la incidencia del Caos en las estadísticas. Este Caos no es el concepto que cualquiera que haya estudiado física tiene en mente. Según el autor es una variable que aumenta las probabilidades de éxito de un suceso. Habría sido mejor denominarlo suerte, fortuna, &lt;del&gt;Homer Simpson&lt;/del&gt; aunque entiendo que el término desprende cierto carácter épico y es más comercial.&lt;/p&gt;
+
+&lt;p&gt;En definitiva, el Caos de Mythic es una variación en la media de las distribuciones normales que lo forman. Si seguimos profundizando vemos que esa variación es lineal, de unos 9 puntos como se aprecia de una sencilla regresión lineal. Curiosamente, la varianza de las distribuciones apenas cambia entre escenarios y se sitúa en unos 28 puntos.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_means.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.0556 -1.0328 -0.0783  1.1263  4.7172 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&amp;gt;|t|)    
+(Intercept) 102.2601     1.9182   53.31 2.14e-10 ***
+seq(1, 9)    -8.7955     0.3409  -25.80 3.36e-08 ***
+---
+
+Residual standard error: 2.64 on 7 degrees of freedom
+Multiple R-squared:  0.9896,	Adjusted R-squared:  0.9881 
+F-statistic: 665.8 on 1 and 7 DF,  p-value: 3.358e-08
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_sds.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.1067 -2.2005  0.2479  1.7868  2.9188 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&amp;gt;|t|)    
+(Intercept)  27.9231     1.7649  15.821 9.77e-07 ***
+seq(1, 9)     0.4098     0.3136   1.307    0.233    
+---
+
+Residual standard error: 2.429 on 7 degrees of freedom
+Multiple R-squared:  0.1961,	Adjusted R-squared:  0.08124 
+F-statistic: 1.707 on 1 and 7 DF,  p-value: 0.2326
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finalmente, si adoptamos una hipótesis de equidistancia entre los escenarios de probabilidad —nada nos indica lo contrario— podremos reconstruir la distribución de probabilidad utilizada para formar la tabla original, aproximadamente. Sin embargo vamos a cambiar ligeramente los parámetros para obtener resultados similares en los desafíos de tirada pero que estadísticamente van a presentar ciertas características beneficiosas. Por tanto la distribución adoptada es &lt;em&gt;N(10ci, 30)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Las celdas de la tabla representan los valores aleatorios, por lo que tendremos que invertir su función de probabilidad, es decir, utilizaremos la función cuantil para obtener los nuevos valores asociados a las probabilidades acumuladas equivalentes a los descriptores de probabilidad.&lt;/p&gt;
+
+&lt;p&gt;$$10c_i+30\Phi^{-1}(p_j)$$
+$$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$&lt;/p&gt;
+
+&lt;p&gt;Aplicando la fórmula generamos la tabla corregida de Myhtic: GME.&lt;/p&gt;
+
+&lt;table&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Chaos Rank&lt;/th&gt;
+        &lt;th&gt;5&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Impossible&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;2&lt;/sub&gt;9&lt;sub&gt;83&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;No way&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;4&lt;/sub&gt;21&lt;sub&gt;85&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Very Unlikely&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;6&lt;/sub&gt;30&lt;sub&gt;87&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Unlikely&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;7&lt;/sub&gt;37&lt;sub&gt;88&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;50/50&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;9&lt;/sub&gt;44&lt;sub&gt;90&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Somewhat likely&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;10&lt;/sub&gt;50&lt;sub&gt;91&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Likely&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;11&lt;/sub&gt;56&lt;sub&gt;92&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Very Likely&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;13&lt;/sub&gt;63&lt;sub&gt;94&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Near sure thing&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;14&lt;/sub&gt;70&lt;sub&gt;95&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;A sure thing&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;16&lt;/sub&gt;79&lt;sub&gt;97&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Has to be&lt;/td&gt;
+            &lt;td&gt;&lt;sub&gt;18&lt;/sub&gt;91&lt;sub&gt;99&lt;/sub&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;El efecto secundario de haber redondeado la β de la distribución de las medias a 10 es que obtenemos una variación exacta y constante entre las columnas que representan los estados de Caos. Para movernos a izquierda y derecha de la columna inicial (Caos = 5) solo hay que sumar o restar 10 —respectivamente— a los valores de cada fila. Otra ventaja de esta tabla es que ahora es simétrica en lo que se refiere a&lt;/p&gt;
+
+&lt;p&gt;$$p_{i,n/2-k} + p_{i,n/2+k} = 100$$&lt;/p&gt;
+
+&lt;p&gt;Por lo que se podrían resumir los 99 valores de esta en media docena de números, haciendo factible su memorización. Puede llamar la atención que el 50 no corresponda con el descriptor &lt;sup&gt;50&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;, pero la inconsistencia se encuentra en estas últimas ya que el autor presenta unas situaciones no equilibradas, con cuatro descriptores por debajo y seis por encima. Salvo en este apartado, creo que se ha logrado una tabla más consistente para consultar como oráculo de Myhthic, respetando en todo momento la intención original del autor, pero aplicando las técnicas estadísticas adecuadas, como se puede comprobar en la gráfica final. Parece el antes y después de un anuncio de la teletienda.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_after.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Retransmitiendo en HTTP/3</title>

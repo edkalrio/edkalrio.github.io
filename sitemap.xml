@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/mythic/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/http3/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -2644,7 +2649,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
-    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2956,7 +2961,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3010,7 +3015,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
-    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3297,6 +3302,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/r/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/raspberry-pi/</loc>
     <lastmod>2014-07-16T18:05:00+02:00</lastmod>
     <priority>0</priority>
@@ -3364,7 +3375,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/rol/</loc>
-    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

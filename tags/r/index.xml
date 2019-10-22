@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/r/</link>
+    <description>Recent content in R on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lunaticgeek.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Análisis Estadístico de Mythic: GME</title>
+      <link>https://lunaticgeek.com/mythic/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/mythic/</guid>
+      <description>El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.</description>
+    </item>
+    
+  </channel>
+</rss>

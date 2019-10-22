@@ -6,10 +6,19 @@
     <description>Recent content in Rol on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 03 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/rol/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Análisis Estadístico de Mythic: GME</title>
+      <link>https://lunaticgeek.com/mythic/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/mythic/</guid>
+      <description>El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.</description>
+    </item>
     
     <item>
       <title>Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol</title>
