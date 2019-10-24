@@ -688,7 +688,8 @@ img {
 }
 
 .fa-tag:before {
-    content: "\f02b";
+    content: "\f292";
+    /* content: "\f02b"; */
 }
 
 .fa-creative-commons:before {
@@ -702,5 +703,26 @@ img {
 .mdi-tor:before {
     content: "\F52A";
 }
+.fa-twitter {
+  /* font-size: 540px; */
+}
+.fa-twitter:before {
+    content: "\F099";
+}
 
+.fa-github:before {
+    content: "\f09b";
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.fa-file:before {
+    content: "\f15b";
+}
+
+.fa-key:before {
+    content: "\f084";
+}
 
