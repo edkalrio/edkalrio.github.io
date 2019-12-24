@@ -6,10 +6,19 @@
     <description>Recent content in Chrome on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FTP en Google Chrome</title>
+      <link>https://lunaticgeek.com/chrome-ftp/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/chrome-ftp/</guid>
+      <description>No me ha sorprendido leer en el blog de Chromium que Google retira el soporte de FTP de su navegador web debido a la escasa popularidad del servicio. Estamos casi en 2020 y FTP es un protocolo obsoleto. Todos los proyectos de software libre que utilizaban este tipo de servidores están abandonándolos por falta de ganas de afrontar su mantenimiento. Además la inseguridad implícita en un protocolo sin cifrar despeja el camino para que los administradores de sistemas de todo el mundo apaguen sus FTPs y no vuelvan a encenderlos jamás.</description>
+    </item>
     
     <item>
       <title>Los Puntos Débiles de Chrome</title>

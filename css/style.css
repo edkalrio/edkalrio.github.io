@@ -184,10 +184,10 @@ blockquote blockquote blockquote blockquote {
   line-height: 1.5;
 }
 .article img {
-  max-width: 100%;
+  max-width: 50%;
   box-sizing: border-box;
   /*border: solid 1px lightgray;*/
-  padding: 4px;
+
 }
 .article > table {
   width: auto;
@@ -429,10 +429,8 @@ blockquote blockquote blockquote blockquote {
   margin-bottom: 15px;
 }
 .list .article-image {
-  width: 200px;
-  float: left;
-  margin: 0;
-  margin-right: 8px;
+  display: block;
+  margin: 0 auto .5rem;
 }
 .list .article-content {
   text-align: justify;
@@ -618,7 +616,9 @@ blockquote blockquote blockquote blockquote {
     width: 100%;
     box-sizing: border-box;
     float: none;
-    margin: 0;
+  }
+  .article img {
+    max-width: 100%;
   }
   .toc {
     display: none;
