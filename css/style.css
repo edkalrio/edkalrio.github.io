@@ -151,7 +151,7 @@ blockquote blockquote blockquote blockquote {
   padding: 0;
 }
 .site-navi-items li {
-  padding-left: 20px;
+  padding-left: 1ch;
   white-space: nowrap;
 }
 .site-header-bottom {
@@ -259,7 +259,7 @@ blockquote blockquote blockquote blockquote {
 }
 .article-meta li {
   padding: 0;
-  padding-right: 4px;
+  padding-right: 1ch;
   margin: 0;
 }
 .article-meta li.article-meta-date {

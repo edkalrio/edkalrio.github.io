@@ -6,10 +6,47 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>HATS 2019</title>
+	  <link>https://lunaticgeek.com/hats-2019/</link>
+	  <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/hats-2019/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://1.bp.blogspot.com/_9wXppEgBFo8/S07-RKPgOSI/AAAAAAAAADs/244IwN1FVwk/s320/Mad-Hatter-Hat1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Con el fin de año, llega la 11ª edición de los premios HATS (Hats Awards of Technology &amp;amp; Science), del 2019.&lt;/p&gt;
+
+&lt;p&gt;Mis esperanzas y temores respecto a este año 2019 que ya ha terminado se han cumplido casi al pie de la letra y eso me alegra porque nunca me han gustado las sorpresas. Siempre recordaré el 2019 como el año en el que me reconcilié con la industria informática. Después de años de escepticismo respecto del rumbo que estaba adoptando, he terminado aceptando —no sé si con cierta resignación— las últimas novedades de hardware gracias al simposio de &lt;a href=&#34;https://www.hotchips.org/&#34;&gt;Hot Chips&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Por supuesto, hay temas que no se han resuelto este año. HTTP/3 sigue siendo un &lt;a href=&#34;https://tools.ietf.org/html/draft-ietf-quic-http-24&#34;&gt;borrador&lt;/a&gt; porque la hoja de ruta de la IETF era infinitamente optimista y sin embargo, ya estamos &lt;a href=&#34;https://lunaticgeek.com/http3/&#34;&gt;publicando&lt;/a&gt; a través de la &lt;a href=&#34;https://github.com/cloudflare/quiche&#34;&gt;implementación&lt;/a&gt; parcial de Cloudflare, que ya incluye &lt;a href=&#34;https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/&#34;&gt;0RTT&lt;/a&gt;. Las redes 5G ya han demostrado ser tan decepcionantes como previmos aunque aseguran que van a mejorar cuando tengan acceso a la bandas superiores a 24 GHz, aunque no creo que lleguen a superar el máximo teórico de 4G en muchos años.&lt;/p&gt;
+
+&lt;p&gt;Una de mis grandes esperanzas y deseos para el año nuevo es que las baterías de materiales alternativos empiecen a comercializarse y ganar terreno a las de ion-litio y polímero de litio en una sociedad cada vez más dependiente de este tipo de almacenamiento energético. Las nuevas baterías de litio-silicio y de estado sólido (litio-sulfuro) son muy prometedoras y espero empezar a verlas de forma masiva junto a los cargadores de nitruro de galio que ya hemos estrenado este año.&lt;/p&gt;
+
+&lt;p&gt;A todos los amantes y defensores del software libre nos importa la licencia bajo la que se distribuye cierto programa pero no siempre le prestamos la atención merecida a los estándares que implementa el software y que suelen ser fundamentales. Dice un viejo aforismo: &lt;em&gt;&amp;ldquo;build protocols, not platforms&amp;rdquo;&lt;/em&gt; y parece que la industria empieza a escuchar. El proyecto &lt;a href=&#34;https://twitter.com/bluesky&#34;&gt;bluesky&lt;/a&gt; de Twitter para desarrollar un standard abierto y descentralizado para las redes sociales y &lt;a href=&#34;https://www.connectedhomeip.com/&#34;&gt;Project Connected Home over IP&lt;/a&gt; que trata de solucionar la fragmentación de los protocolos del ámbito de la domótica. Estaremos atentos a la evolución de estos prometedores proyectos con todo el hype del mundo.
+&lt;dl&gt;&lt;dt&gt;Software del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://github.com/cloudflare/quiche&#34;&gt;quiche&lt;/a&gt; por convertirse en la implementación canónica del protocolo QUIC y HTTP/3.
+&lt;/dd&gt;&lt;dt&gt;Hardware del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.cerebras.net/product/#chip&#34;&gt;Cerebras Wafer Scale Engine&lt;/a&gt; por ser el circuito más bizarro de toda la historia de la humanidad.
+&lt;/dd&gt;&lt;dt&gt;PC del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;PINEBOOK Pro&lt;/a&gt; por conseguir crear un ordenador ARM de aspecto premium a 200$.
+&lt;/dd&gt;&lt;dt&gt;Gadget del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;http://retroflag.com/GPi-CASE.html&#34;&gt;GPi CASE&lt;/a&gt; por ser mejor sucesora de la Game Boy que una hipotética versión oficial.
+&lt;/dd&gt;&lt;dt&gt;Videojuego del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.crashbandicoot.com/es/crashteamracing&#34;&gt;CTR Nitro-Fueled&lt;/a&gt; porque la nostalgia mueve montañas.&lt;br /&gt;
+&lt;/dd&gt;&lt;dt&gt;Avance científico-tecnológico del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.nature.com/articles/s41586-019-1666-5&#34;&gt;Google&lt;/a&gt; por lograr la supremacía cuántica.
+&lt;/dd&gt;&lt;dt&gt;Personaje del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Greta_Thunberg&#34;&gt;Greta Thunderb&lt;/a&gt; por ser la voz de una generación.
+&lt;/dd&gt;&lt;/dl&gt;&lt;/p&gt;
+
+&lt;p&gt;Feliz año 50!!&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>FTP en Google Chrome</title>
