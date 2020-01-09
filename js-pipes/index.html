@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Próximamente en JavaScript - Lunatic Geek</title>
+  <meta property="og:title" content="Próximamente en JavaScript - Lunatic Geek" />
+  <meta name="twitter:title" content="Próximamente en JavaScript - Lunatic Geek" />
+  <meta name="description" content="Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me alejara de JavaScript para dedicar mi tiempo a lenguajes más atractivos. Por casualidades de la vida que escapan a mi control, he tenido que retomar mi formación en JS y he de confesar que esta vez ha sido menos traumático.">
+  <meta property="og:description" content="Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me alejara de JavaScript para dedicar mi tiempo a lenguajes más atractivos. Por casualidades de la vida que escapan a mi control, he tenido que retomar mi formación en JS y he de confesar que esta vez ha sido menos traumático.">
+  <meta name="twitter:description" content="Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/js-pipes/" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek_2to1.png" />
+  <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek_2to1.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Próximamente en JavaScript</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2020-01-09</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/javascript/">
+						<i class="fas fa-tag"></i>
+						JavaScript
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/programaci%C3%B3n/">
+						<i class="fas fa-tag"></i>
+						Programación
+					</a> 
+				</li>
+			</ul>
+			
+			<p><center><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg" alt="" /></center></p>
+
+<p>Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me alejara de JavaScript para dedicar mi tiempo a lenguajes más atractivos. Por casualidades de la vida que escapan a mi control, he tenido que retomar mi formación en JS y he de confesar que esta vez ha sido menos traumático. La principal diferencia se produce por los cambios introducidos en 2015 cuando publican el standard de referencia ES6 y las posteriores reformas que nos han traído funciones flecha, clases, promesas, async/await y un largo etcétera que hace de JavaScript una herramienta mucho más atractiva. Ciertamente, es lamentable que el lenguaje de programación número uno en el mundo solo se haya puesto las pilas en el último lustro pero le espera un futuro cargado de novedades interesantes entre las que voy a destacar dos que me parecen fundamentales.</p>
+
+<p>Aunque se encuentran en la primera etapa de su desarrollo, estoy seguro de que vamos a poder disfrutar de <a href="https://github.com/tc39/proposal-pipeline-operator">pipes</a> y <a href="https://github.com/tc39/proposal-partial-application">placeholders</a> en el corto plazo. El <a href="https://github.com/tc39">comité técnico 39</a> de Ecma se encarga de revisar las propuestas que cualquier candidato puede plantear y publica todo el proceso para conocer los objetivos que persigue JavaScript. Si bien hay algunas que no me interesan, como la introducción de decoradores, que potenciarían la orientación a objetos del lenguaje y lo acercarían a dialectos como TypeScript en los que ya es una realidad, es importante estar informados para tomar las decisiones de diseño y planificación de software más inteligentes.</p>
+
+<p>El operador pipeline <strong>|&gt;</strong> es una gran propuesta para cualquier lenguaje por la utilidad demostrada en la última mitad de siglo. Como dijo Brian Kernighan: &ldquo;los pipes son la quintaesencia de Unix&rdquo;. Mi experiencia al respecto no se centra en el shell donde su uso es evidentemente imprescindible. Los pipes son herramientas potentísimas en cualquier entorno de desarrollo. Recuerdo cuando empecé a utilizarlos en R mediante la librería <a href="https://magrittr.tidyverse.org/">magrittr</a> del tidyverse. En ese momento tuve una revelación y adquirí el convencimiento de que deberían formar parte de todos los lenguajes.</p>
+
+<p>Por ejemplo si tenemos las siguientes funciones</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">doubleSay</span> <span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nx">str</span> <span class="o">+</span> <span class="s2">&#34;, &#34;</span> <span class="o">+</span> <span class="nx">str</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">function</span> <span class="nx">capitalize</span> <span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nx">str</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">toUpperCase</span><span class="p">()</span> <span class="o">+</span> <span class="nx">str</span><span class="p">.</span><span class="nx">substring</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kd">function</span> <span class="nx">exclaim</span> <span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nx">str</span> <span class="o">+</span> <span class="s1">&#39;!&#39;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>y quisiéramos componerlas de forma que el resultado fuese</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">exclaim</span><span class="p">(</span><span class="nx">capitalize</span><span class="p">(</span><span class="nx">doubleSay</span><span class="p">(</span><span class="s2">&#34;hello&#34;</span><span class="p">)));</span>
+</code></pre></div>
+<p>se aprecia claramente que esta no es la sintaxis más inteligible. Los pipes permiten un estilo de programación más funcional mediante lo que podría considerarse un postfijo. Cualquiera acostumbrado a trabajar en Bash podría traducir inmediatamente estas funciones anidadas</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="s2">&#34;hello&#34;</span>
+	<span class="o">|&gt;</span> <span class="nx">doubleSay</span>
+	<span class="o">|&gt;</span> <span class="nx">capitalize</span>
+	<span class="o">|&gt;</span> <span class="nx">exclaim</span><span class="p">;</span>
+</code></pre></div>
+<p>El segundo operador está íntimamente relacionado con la anterior propuesta. Resuelve el problema producido al tener funciones con más de un argumento. Como señalan en la documentación, si partimos del código</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="kr">double</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">x</span> <span class="o">+</span> <span class="nx">x</span><span class="p">;</span> <span class="p">}</span>
+<span class="kd">function</span> <span class="nx">add</span> <span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">x</span> <span class="o">+</span> <span class="nx">y</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">boundScore</span> <span class="p">(</span><span class="nx">min</span><span class="p">,</span> <span class="nx">max</span><span class="p">,</span> <span class="nx">score</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">(</span><span class="nx">min</span><span class="p">,</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">max</span><span class="p">,</span> <span class="nx">score</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kd">let</span> <span class="nx">person</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">score</span><span class="o">:</span> <span class="mi">25</span> <span class="p">};</span>
+</code></pre></div>
+<p>tendríamos que utilizar una función flecha para ir conectando los distintos tramos</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">newScore</span> <span class="o">=</span> <span class="nx">person</span><span class="p">.</span><span class="nx">score</span>
+	<span class="o">|&gt;</span> <span class="kr">double</span>
+	<span class="o">|&gt;</span> <span class="p">(</span><span class="nx">_</span> <span class="p">=&gt;</span> <span class="nx">add</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="nx">_</span><span class="p">))</span>
+	<span class="o">|&gt;</span> <span class="p">(</span><span class="nx">_</span> <span class="p">=&gt;</span> <span class="nx">boundScore</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="nx">_</span><span class="p">));</span>
+</code></pre></div>
+<p>Esta es una solución tan frágil que personalmente preferiría no usar pipes en este caso concreto. Afortunadamente, el operador placeholder <strong>?</strong> soluciona este problema sin mayor complicación, indicando el lugar que debería ocupar el valor desplazado a lo largo de la función anidada</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">newScore</span> <span class="o">=</span> <span class="nx">person</span><span class="p">.</span><span class="nx">score</span>
+	<span class="o">|&gt;</span> <span class="kr">double</span>
+	<span class="o">|&gt;</span> <span class="nx">add</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="o">?</span><span class="p">)</span>
+	<span class="o">|&gt;</span> <span class="nx">boundScore</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="o">?</span><span class="p">);</span>
+</code></pre></div>
+<p>Es más difícil explicarlo que entenderlo con estos ejemplos que aparecen en las propuestas. Estoy impaciente por incorporar estos conceptos a todo el código que escriba en JavaScript.</p>
+
+		</article>
+
+		
+<ul class="article-share">
+  <li>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </li>
+</ul>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss"></i>
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <i class="mdi mdi-tor"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

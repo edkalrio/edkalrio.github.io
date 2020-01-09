@@ -6,10 +6,19 @@
     <description>Recent content in Programación on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Próximamente en JavaScript</title>
+      <link>https://lunaticgeek.com/js-pipes/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/js-pipes/</guid>
+      <description>Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me alejara de JavaScript para dedicar mi tiempo a lenguajes más atractivos. Por casualidades de la vida que escapan a mi control, he tenido que retomar mi formación en JS y he de confesar que esta vez ha sido menos traumático.</description>
+    </item>
     
     <item>
       <title>El Problema de los Tres Colores</title>
