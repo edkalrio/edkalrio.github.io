@@ -18,16 +18,6 @@
 	  
 	  <guid>https://lunaticgeek.com/js-pipes/</guid>
 	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-	  <title>Próximamente en JavaScript</title>
-	  <link>https://lunaticgeek.com/js-pipes/</link>
-	  <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
-	  
-	  <guid>https://lunaticgeek.com/js-pipes/</guid>
-	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me alejara de JavaScript para dedicar mi tiempo a lenguajes más atractivos. Por casualidades de la vida que escapan a mi control, he tenido que retomar mi formación en JS y he de confesar que esta vez ha sido menos traumático. La principal diferencia se produce por los cambios introducidos en 2015 cuando publican el standard de referencia ES6 y las posteriores reformas que nos han traído funciones flecha, clases, promesas, async/await y un largo etcétera que hace de JavaScript una herramienta mucho más atractiva. Ciertamente, es lamentable que el lenguaje de programación número uno en el mundo solo se haya puesto las pilas en el último lustro pero le espera un futuro cargado de novedades interesantes entre las que voy a destacar dos que me parecen fundamentales.&lt;/p&gt;
 

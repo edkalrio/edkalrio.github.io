@@ -56,37 +56,37 @@
 				<li class="article-meta-date"><time>2013-07-19</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/google/">
-						<i class="fas fa-tag"></i>
-						Google
+						<b>#</b>Google
 					</a> 
 				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
 			</ul>
 			
 			<div class="separator" style="clear: both; text-align: center;"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proxy_concept_en.svg/400px-Proxy_concept_en.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Proxy_concept_en.svg/400px-Proxy_concept_en.svg.png" width="320" /></a></div><div style="text-align: justify;">Paulatinamente, este blog ha ido evolucionando desde una plataforma de noticias informáticas hasta la columna de opinión sobre temas tecnológicos de todo tipo para alimentar nuestro ego de pseudogurús informáticos. Sin embargo, hoy me apetecía escribir y los temas de debate en el mundo tecnológico languidecen con el calor estival dejándonos un terreno yermo sobre el que comentar banalidades. Como no quiero convertirme en lo que critico de otros blogs de informática, no voy a inventarme noticias para conseguir visitas espurias pero como ya he dicho, tengo ganas de escribir para el blog porque hace ya mucho tiempo que no me paso por aquí. Es por esto que voy a reseñar un pequeño tutorial, como en los viejos tiempos.</div><a name='more'></a><br /><div style="text-align: justify;">El caso es que necesitaba un proxy para saltarme la restricción del Wall Street Journal porque últimamente estoy enganchado a ciertos columnistas suyos que poco tienen que ver con la informática sino más bien con mi otra faceta, la de economista. Lo más fácil para saltarse las restricciones del WSJ es borrar las cookies, pero esto es una solución muy amateur y no me acaba de gustar. Otra forma de abordar el problema es usar un servidor proxy que medie entre el servidor web del WSJ y el cliente. Esta es la solución que he elegido pero como no puedo hacer las cosas de un modo normal, le di un giro de tuerca al usar al omnipotente Google como proxy, algo que no parece muy ortodoxo, en principio.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Hace años se me ocurrió usar Google translate como proxy pero hace poco he encontrado una forma más elegante con otro servicio de Google. Gmodules es uno de los dominios más desconocidos de Google ya que lo utilizan para labores de infraestructura, básicamente para almacenar gadgets de iGoogle. Lo interesante es que gracias a <a href="http://www.labnol.org/">labnol.org</a>,&nbsp;me entero de que se puede usar como proxy de una forma muy sencilla. Sólo hay que seguir el esquema correcto en la URL o lo que es lo mismo, copiar y pegar un cacho de URL para acceder a una web a través de gmodules. El esquema de URL que hay que utilizar es el siguiente:</div><div style="text-align: justify;"><br /></div><span style="font-family: Courier New, Courier, monospace;"><div style="text-align: justify;">http://www.gmodules.com/ig/proxy?url=http://lunaticgeek.com/</div></span><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Donde hay que sustituir lunaticgeek.com por la web objetivo. Es una solución curiosa pero no parece muy práctico andar copiando y pegando todo esto, así que hay una alternativa mejor con la siguiente función de JS. La añadiremos a la barra de marcadores y cuando estemos en la web objetivo, sólo tenemos que pulsar el marcador para convertir la URL para acceder a través del proxy de gmodules.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">javascript:window.open('http://www.gmodules.com/ig/proxy?url='+encodeURIComponent(window.location.href))</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"><br /></span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"><br /></span></div>
 		</article>
 
-		
-<ul class="article-share">
-  <li>
-    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </li>
-</ul>
-
 	</div>
 
 
 <div class="site-footer">
-  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
       <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fas fa-rss"></i>
+        
+        <img src="/rss.svg" class="fa">
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <i class="mdi mdi-tor"></i>
+        <img src="/tor.svg" class="fa"></img>
       </a>
     </li>
   </ul>

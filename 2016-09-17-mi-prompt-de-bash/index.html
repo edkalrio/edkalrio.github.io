@@ -56,55 +56,52 @@
 				<li class="article-meta-date"><time>2016-09-17</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/bash/">
-						<i class="fas fa-tag"></i>
-						Bash
+						<b>#</b>Bash
 					</a> 
 				</li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
-						<i class="fas fa-tag"></i>
-						Linux
+						<b>#</b>Linux
 					</a> 
 				</li>
 				<li class="article-meta-tags">
 					<a href="/tags/unix/">
-						<i class="fas fa-tag"></i>
-						Unix
+						<b>#</b>Unix
 					</a> 
 				</li>
 				<li class="article-meta-tags">
 					<a href="/tags/terminal.-shell/">
-						<i class="fas fa-tag"></i>
-						Terminal. Shell
+						<b>#</b>Terminal. Shell
 					</a> 
 				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
 			</ul>
 			
 			<div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-ax3RvUnGXLA/V90i4z_3P7I/AAAAAAAAD7Q/sBR5c0HcJhoPRF8HinUdvhnU0CmIgqCjACLcB/s1600/edkalrio%2540alexandra%253A%2B%257E_024.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="181" src="https://2.bp.blogspot.com/-ax3RvUnGXLA/V90i4z_3P7I/AAAAAAAAD7Q/sBR5c0HcJhoPRF8HinUdvhnU0CmIgqCjACLcB/s320/edkalrio%2540alexandra%253A%2B%257E_024.png" width="320" /></a></div><div style="text-align: justify;"><span style="font-family: inherit;">Para celebrar el lanzamiento de <a href="http://lists.gnu.org/archive/html/info-gnu/2016-09/msg00008.html" rel="nofollow">Bash 4.4</a> se me ha ocurrido que podría ser interesante compartir con todos la configuración de mi prompt.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"></span></div><a name='more'></a><div style="text-align: justify;"><span style="font-family: inherit;"><span style="font-family: inherit;"><br /></span></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="font-family: inherit;">La configuración por defecto del prompt de Bash tiene un defecto importante, a mi modo de ver. Es demasiado larga para un terminal de 80x24, dimensiones que yo siempre intento respetar. Mi configuración personal pretende ser más breve pero a la vez conservando la misma funcionalidad e incluso añadiendo alguna característica extra.</span></span></div><br /><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">redprompt() {</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; if [[ $? != 0 ]]; then</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; &nbsp; &nbsp; echo -e '\e[0;49;31m'</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; fi</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">}</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"><br /></span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">if [[ $SSH_TTY ]]; then</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; PS1='@\h:\W$(redprompt)\$\e[0m '</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">else</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; PS1='\W$(redprompt)\$\e[0m '&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">fi</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">La función </span><span style="font-family: Courier New, Courier, monospace;">redprompt()</span><span style="font-family: inherit;"> lee la salida del anterior comando. Si encuentra algún error en su ejecución, colorea de rojo el símbolo del dólar para resaltar esa situación errónea.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Luego se aprecia una evaluación de la variable del sistema </span><span style="font-family: Courier New, Courier, monospace;">$SSH_TTY</span><span style="font-family: inherit;"> que indica si la conexión con el terminal se está efectuando de forma local o remota. En el primer caso no hace nada y muestra el prompt que hemos definido por defecto </span><span style="font-family: Courier New, Courier, monospace;">~$</span><span style="font-family: inherit;"> pero si se produce una conexión de forma remota, se añade al principio del prompt el nombre del host para poder diferenciar en una sesión de SSH las distintas conexiones remotas.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Un cambio muy sencillo que acorta la longitud del prompt es la utilización del parámetro</span><span style="font-family: Courier New, Courier, monospace;"> \W</span><span style="font-family: inherit;"> en lugar de </span><span style="font-family: Courier New, Courier, monospace;">\w</span><span style="font-family: inherit;"> ya que solo muestra la carpeta en la que se desarrolla la ejecución del programa, no toda la ruta como hace Bash por defecto.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Mi configuración simplifica bastante el prompt de Bash pero tiene ciertos problemas de portabilidad ya que los distintos sistemas y emuladores de terminales tienden a utilizar secuencias de escape para cambiar los colores y otros efectos, que no son compatibles entre sí, por lo que no puedo asegurar que esta configuración le funcione a todo el mundo. Por último, quiero recordar que cada usuario tiene su propia configuración de prompt por lo que si cambiamos a modo root, esta será sobrescrita por la configuración que el sistema tenga asignada al superusuario, así que habrá que copiarla también a </span><span style="font-family: Courier New, Courier, monospace;">/root/.bashrc</span></div>
 		</article>
 
-		
-<ul class="article-share">
-  <li>
-    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </li>
-</ul>
-
 	</div>
 
 
 <div class="site-footer">
-  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
       <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fas fa-rss"></i>
+        
+        <img src="/rss.svg" class="fa">
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <i class="mdi mdi-tor"></i>
+        <img src="/tor.svg" class="fa"></img>
       </a>
     </li>
   </ul>

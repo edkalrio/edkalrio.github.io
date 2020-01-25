@@ -58,43 +58,42 @@ Los fans de UNIX tenemos a nuestra disposición una herramienta igual de potente
 				<li class="article-meta-date"><time>2018-03-22</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
-						<i class="fas fa-tag"></i>
-						Linux
+						<b>#</b>Linux
 					</a> 
 				</li>
 				<li class="article-meta-tags">
 					<a href="/tags/unix/">
-						<i class="fas fa-tag"></i>
-						Unix
+						<b>#</b>Unix
 					</a> 
 				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
 			</ul>
 			
 			<div style="text-align: justify;">Por suerte o por desgracia, mi vida es tan rutinaria que no necesito una agenda. De hecho, mi último recordatorio fue de septiembre del año pasado (tenía que ir al dentista) pero hay mucha gente con vidas ajetreadas que necesitan organizar su valioso tiempo y para ello hacen uso de google calendar o de anacrónicas agendas de papel.</div><a name='more'></a><br /><div style="text-align: justify;">Los fans de UNIX tenemos a nuestra disposición una herramienta igual de potente que sus alternativas modernas, pero mucho más simple y ligera. <span style="font-family: Courier New, Courier, monospace;">calendar</span> (no confundir con <span style="font-family: Courier New, Courier, monospace;">cal</span>), es el programa que desde UNIX 7 soluciona este problema. No es el software más popular del mundo porque GNU no lo incluyó en sus coreutils y la versión que aparece instalada por defecto en Ubuntu es el port que Debian hizo de FreeBSD.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">calendar es un programa perfecto, que permite separar nuestras agendas en varios archivos, para unirlos posteriormente según nuestras necesidades, compartirlos mediante <span style="font-family: Courier New, Courier, monospace;">git</span> con colaboradores o sincronizarlo con otros dispositivos mediante <span style="font-family: Courier New, Courier, monospace;">rsync</span>, generar emails automáticos o mostrarse al inicio de un login shell, notificaciones de <span style="font-family: Courier New, Courier, monospace;">Dbus</span>... Las posibilidades son infinitas. Por ejemplo, estoy trabajando en un script que genere un calendario de novedades de los cantantes que sigo en Spotify. Todo esto se puede hacer fácilmente gracias al diseño de <span style="font-family: Courier New, Courier, monospace;">calendar</span>, que utiliza el texto plano como interfaz, siguiendo las directrices de la filosofía UNIX.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">El problema de este, como del resto de aplicaciones de UNIX es que hay que leerse primero el <a href="file:///usr/share/man/man1/calendar.1">manual</a> porque si ejecutamos <span style="font-family: Courier New, Courier, monospace;">calendar</span>, lo que nos va a aparecer es un montón de basura como esta</div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;"><br /></span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 22 &nbsp;Abolition Day in Puerto Rico</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 22 &nbsp;Ten Years After plays their last concert, 1974</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 22 &nbsp;Brad Davis <brd reebsd.org=""> born in Farmington, New Mexico, United States, 1983</brd></span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 22 &nbsp;Aujourd'hui, c'est la St(e) Léa.</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 22 &nbsp;Beáta, Izolda</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 22 &nbsp; &nbsp; &nbsp;Наурыз мейрамы</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Pakistan Day in Pakistan</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23* Ta'anit Esther</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Daniel C. Sobral <dcs reebsd.org=""> born in Brasilia, Distrito Federal, Brazil, 1971</dcs></span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Benno Rice <benno reebsd.org=""> born in Adelaide, South Australia, Australia, 1977</benno></span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;N'oubliez pas les Victorien !</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Bonne fête aux Turibio !</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Quand à glace il gèle à la saint Victorien,</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">&nbsp; &nbsp; En pêches et en abricots il n'y a rien.</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Rückgabe des Memelgebietes an Deutschland, 1939</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Annahme des Ermächtigungsgesetzes, 1933</span></div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">mar 23 &nbsp;Emõke</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Para utilizar nuestro propio calendario hay que crear un archivo <span style="font-family: Courier New, Courier, monospace;">~/.calendar/calendar</span> (esta localización no es obligatoria pero es la que recomiendo). En ese archivo pondremos nuestros eventos con el formato <span style="font-family: Courier New, Courier, monospace;">MM-DD\tevento</span>, por ejemplo, voy a ir al teatro dentro de dos meses:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">05-25 &nbsp; 20:30 &nbsp; 5 Horas con Mario #teatro_principal</span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"><br /></span></div><div style="text-align: justify;">El formato de la fecha que uso tampoco es obligatorio pero muy recomendable y todo lo que se muestra después del tabulador es libre.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Podemos ampliar nuestro calendario con alguno de los que vienen incluidos en el programa, pero como no me interesa ninguno, he creado uno con los <a href="https://copype.ga/calendar.spain" rel="nofollow">festivos</a> de España a partir del calendario laboral oficial del <a href="https://www.boe.es/boe/dias/2017/10/11/pdfs/BOE-A-2017-11639.pdf" rel="nofollow">BOE</a>, parametrizando las fechas de semana santa para que vayan cambiando cada año. Sólo hay que guardar el archivo como&nbsp;<span style="font-family: Courier New, Courier, monospace;">~/.calendar/calendar.spain</span> e incluir la línea <span style="font-family: Courier New, Courier, monospace;">#include <calendar .spain=""></calendar></span> en nuestro calendario principal. Si has reconocido la sintaxis de C es porque calendar utiliza el preprocesador de C para parsear las fechas, lo que es una salvajada y me encanta.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Para ver los eventos de la próxima semana podemos ejecutar <span style="font-family: Courier New, Courier, monospace;">calendar -l 7</span>, que nos devuelve</div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"><br /></span></div><div style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">mar 29* &nbsp;Jueves Santo</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">El asterisco significa que no es un festivo fijo. Hay mucho más que hacer con calendar pero eso ya os lo dejo a vosotros. &nbsp;&nbsp;</div>
 		</article>
 
-		
-<ul class="article-share">
-  <li>
-    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </li>
-</ul>
-
 	</div>
 
 
 <div class="site-footer">
-  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
       <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fas fa-rss"></i>
+        
+        <img src="/rss.svg" class="fa">
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <i class="mdi mdi-tor"></i>
+        <img src="/tor.svg" class="fa"></img>
       </a>
     </li>
   </ul>

@@ -58,33 +58,34 @@ A finales de los años 70 y principios de los 80 era habitual que los ordenadore
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
 				<li class="article-meta-date"><time>2014-10-01</time></li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
 			</ul>
 			
 			<div class="separator" style="clear: both; text-align: center;"><a href="http://www.tapedeck.org/400/sony_hf60_080515.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.tapedeck.org/400/sony_hf60_080515.jpg" height="203" width="320" /></a></div><div style="text-align: justify;">La gente normal tiene lectores de DVD o BD en sus ordenadores pero volvamos atrás en el tiempo para recordar una época en la que reinaban los 8 bits y lo analógico. A lo largo de este post voy a explicar cómo he conseguido conectar un radio-cassette a mi estación de trabajo para hacer los backups más geeks del siglo XXI.<br /><a name='more'></a><br />A finales de los años 70 y principios de los 80 era habitual que los ordenadores vinieran equipados con reproductores de cassette ya que eran más baratos que las disqueteras. Los míticos <a href="https://en.wikipedia.org/wiki/Sinclair_ZX_Spectrum" target="_blank">Sinclair ZX Spectrum</a>, <a href="https://en.wikipedia.org/wiki/Atari_800" target="_blank">Atari 800</a>, <a href="https://en.wikipedia.org/wiki/Commodore_64" target="_blank">Commodore 64</a>&nbsp;e incluso el <a href="https://en.wikipedia.org/wiki/Apple_2" target="_blank">Apple II</a> llevaban este tipo de almacenamiento magnético que hoy se sigue usando en copias de seguridad de los grandes mainframes porque siguen siendo muy baratos, duraderos y su almacenamiento actual va hasta unos asombrosos 184TB.<br /><br /></div><div style="text-align: justify;">Pero lo que me propongo hacer es revivir esa tecnología al más puro estilo geek. Los antiguos lectores de cassettes para ordenadores estaban diseñados a tal efecto y contaban con entrada y salida de datos, así como de los controladores necesarios para que la grabación y lectura se produjera de forma más o menos transparente (y lentísima) para el usuario pero adaptar esta tecnología al siglo XXI requiere hacer alguna chapucilla. Lo primero que necesitamos es un radio-cassette con entrada de audio para micrófono y salida para auriculares, además de los oportunos cables jack de 3.5mm para conectarlo al ordenador. Como controlador, voy a usar un programa llamado <a href="http://www.whence.com/minimodem/" target="_blank">minimodem</a> que sirve originariamente para emular módems de pulsaciones y transferir datos entre dos ordenadores conectados por un cable de audio. El problema de este programa es que está diseñado para la comunicación y solo transfiere strings de texto pero vamos a hacer algún apaño con redireccionamiento y pipes de Bash para poder almacenar datos en nuestros cassettes.<br /><br /></div><div style="text-align: justify;">Después de conectar el ordenador al radio-cassette, vamos a comprobar que la calidad de grabación es suficiente para que los datos no se corrompan. Además, podríamos ajustar la velocidad de grabación si nos hiciera falta. Yo voy a fijarla en 300Bd ya que este era el estándar en los años 80 pero se podría intentar aumentar a 1200Bd para conseguir cuatro veces más almacenamiento.</div><div style="text-align: justify;">Instalamos minimodem</div><pre>sudo apt-add-repository ppa:kamalmostafa/minimodem<br />sudo apt update<br />sudo apt install minimodem</pre><div style="text-align: justify;">Yo he elegido transferir un texto desde un archivo que he preparado para la ocasión, <a href="https://sites.google.com/site/chrubuntu/home/hamlet.txt" target="_blank">hamlet.txt</a>. Para ello utilizamos un input del shell pero antes de ejecutarlo hay que pulsar el botón de Rec del radio-cassette. Obviamente no hay forma de automatizar este proceso.</div><pre>&lt; hamlet.txt minimodem -t 300</pre><div style="text-align: justify;">Rebobinamos el cassette y lo reproducimos después de ejecutar el comando de grabación</div><pre>minimodem -r 300 -q &gt; hamlet1.txt</pre><div style="text-align: justify;">Utilizamos la opción -q para no leer las señales CARRIER/NOCARRIER y comparamos el archivo que ha ido y vuelto del cassette con el original para comprobar si está corrupto.</div><pre>cmp -l hamlet.txt hamlet1.txt</pre><div style="text-align: justify;">Si nuestra configuración supera la prueba satisfactoriamente, estaremos en disposición de transmitir datos. Como no podía ser de otro modo, voy a intentar guardar en el cassette una copia de los <a href="https://github.com/ruvelro/Quinquilunes" target="_blank">quinquiluñes</a>, juego del que ya hemos hablado hasta la saciedad. No voy a explicar como clonarlo y compilarlo porque eso ya lo hice en el post sobre mi <a href="http://t.co/riie8irwkk" target="_blank">router-consola</a>. Lo importante es saber que tengo un binario en mi carpeta personal llamado qq. </div><pre>&lt; qq minimodem -t 300</pre><div style="text-align: justify;">Y nos armamos de paciencia... la transmisión tardó más de 10 minutos y otro tanto cada vez que queramos leer el archivo. La espera valió la pena porque al final todo salió bien y una copia de los quinquiluñes permanecerá para siempre en una cassette de José Luis Perales.<br /><br /></div><div style="text-align: justify;">Seguro que a alguno le quedan las ganas de replicar este experimento pero sin el engorro de los cassettes. Ya sea por esto o porque queréis saber a qué suenan los quinquiluñes a 300Bd, os dejo una copia digitalizada. <br /><br /></div><div style="text-align: center;"><audio controls=""><br /><source src="https://sites.google.com/site/chrubuntu/home/qq.ogg" type="audio/ogg"></source>  <br /></audio></div><br />
 		</article>
 
-		
-<ul class="article-share">
-  <li>
-    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </li>
-</ul>
-
 	</div>
 
 
 <div class="site-footer">
-  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
       <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fas fa-rss"></i>
+        
+        <img src="/rss.svg" class="fa">
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <i class="mdi mdi-tor"></i>
+        <img src="/tor.svg" class="fa"></img>
       </a>
     </li>
   </ul>

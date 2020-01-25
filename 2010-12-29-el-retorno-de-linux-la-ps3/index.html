@@ -56,49 +56,47 @@
 				<li class="article-meta-date"><time>2010-12-29</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
-						<i class="fas fa-tag"></i>
-						Linux
+						<b>#</b>Linux
 					</a> 
 				</li>
 				<li class="article-meta-tags">
 					<a href="/tags/ps3/">
-						<i class="fas fa-tag"></i>
-						PS3
+						<b>#</b>PS3
 					</a> 
 				</li>
 				<li class="article-meta-tags">
 					<a href="/tags/jailbreak/">
-						<i class="fas fa-tag"></i>
-						Jailbreak
+						<b>#</b>Jailbreak
 					</a> 
 				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
 			</ul>
 			
 			<div style="text-align: justify;"><div style="text-align: justify;">Los hackers de <a href="http://hackmii.com/">HackMii</a>, responsables de desarrollar una homebrew scene de wii acaban de anunciar en la conferencia CCC 27C3 que han dado con las claves necesarias para rootear la PS3, esto supone tener control pleno sobre la PS3 para poder reinstalar Linux sobre cualquier firmware y ejecutar backups de videojuegos sin necesidad de ningún dongle. Los hackers han prometido explicar su método y realizar una demo que se publicará mañana cuando se lance su web,&nbsp;<a href="http://fail0verflow.com/">fail0verflow.com</a></div><br />EDIT 01:<br /><div style="text-align: center;"><iframe class="youtube-player" frameborder="0" height="345" src="http://www.youtube.com/embed/84WI-jSgNMQ" title="YouTube video player" type="text/html" width="560"></iframe><br /><br /></div><div style="text-align: center;"><iframe class="youtube-player" frameborder="0" height="345" src="http://www.youtube.com/embed/lGI0EnNQ5GE" title="YouTube video player" type="text/html" width="560"></iframe><br /><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br />EDIT 10: </div><div style="text-align: justify;">Voy a intentar explicar el "fallo épico" de Sony al crear el algoritmo que genera la clave privada con la que se puede acceder a todos los niveles del procesador (aunque creo que todavía no han llegado a lv0 aunque eso viene a dar igual porque la ejecución de juegos desde el HDD se produce en lv2 y la emulación de Linux en lv1, creo).<br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/_9wXppEgBFo8/TRys9wLaehI/AAAAAAAAAL0/xOcD83Gz8_Y/s1600/viewer4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="307" src="http://3.bp.blogspot.com/_9wXppEgBFo8/TRys9wLaehI/AAAAAAAAAL0/xOcD83Gz8_Y/s400/viewer4.png" width="400" /></a></div>Básicamente las firmas están formadas por 2 parámetros producidos por un algoritmo. Una de las variables que interviene en la ejecución de esos algoritmos es la clave privada (k) que en principio no se podría hallar algebráicamente porque se ha formado con números generados de forma aleatoria.<br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/_9wXppEgBFo8/TRyr1qSKnHI/AAAAAAAAALo/g3AGMnkRGcU/s1600/viewer2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="307" src="http://1.bp.blogspot.com/_9wXppEgBFo8/TRyr1qSKnHI/AAAAAAAAALo/g3AGMnkRGcU/s400/viewer2.png" width="400" /></a></div>El&nbsp;"fallo épico" de Sony ha sido utilizar siempre el mismo número "aleatorio" (m). Si tenemos esto en cuenta podemos despejar fácilmente el valor de la clave privada. A partir de aquí se pueden averiguar el resto de claves y empezar a firmar todo como si fuéramos Sony.&nbsp;</div><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/_9wXppEgBFo8/TRyr0-MHbUI/AAAAAAAAALk/-sEN2tKIkkk/s1600/viewer3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="307" src="http://4.bp.blogspot.com/_9wXppEgBFo8/TRyr0-MHbUI/AAAAAAAAALk/-sEN2tKIkkk/s400/viewer3.png" width="400" /></a></div>Lo que seguramente os estáis preguntando es si Sony va a jodernos con la próxima actualización del firmware... pues no, no pueden porque las claves privadas son irrevocables. Si la cambiasen, todo lo que ha sido firmado con las antiguas claves no podría ser ejecutado en la PS3.&nbsp;</div><div style="text-align: justify;">Todo esto no ha sido desarrollado para poder ejecutar juegos piratas sino para devolver Linux a la PS3. De hecho, ha sido este acontecimiento el que ha motivado a Marcan (nominado a los HATS 2010) y al resto de hackers de&nbsp;fail0verflow a encontrar la clave privada aunque claramente, cuando liberen las herramientas necesarias, será relativamente sencillo parchear el bootloader y el mtloader para ejecutar juegos desde el HDD o mejor aún poder crear scenes de XMB personalizadas y firmadas con las claves de encriptación de Sony.&nbsp;</div></div></div>
 		</article>
 
-		
-<ul class="article-share">
-  <li>
-    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </li>
-</ul>
-
 	</div>
 
 
 <div class="site-footer">
-  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
       <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fas fa-rss"></i>
+        
+        <img src="/rss.svg" class="fa">
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <i class="mdi mdi-tor"></i>
+        <img src="/tor.svg" class="fa"></img>
       </a>
     </li>
   </ul>

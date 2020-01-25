@@ -56,33 +56,34 @@ Tras ver que Adobe actualizaba flash y no solucionaba dicho error he empezado a 
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
 				<li class="article-meta-date"><time>2012-06-05</time></li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
 			</ul>
 			
 			<div style="text-align: justify;"><span id="goog_2080999921"></span><span id="goog_2080999922"></span></div><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-EDwOOyC39gg/T84bVk-hwyI/AAAAAAAAH9E/KrqwAJQpB44/s1600/flash-player-bug.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="180" src="http://1.bp.blogspot.com/-EDwOOyC39gg/T84bVk-hwyI/AAAAAAAAH9E/KrqwAJQpB44/s320/flash-player-bug.jpg" width="320" /></a></div>Llevaba ya un tiempo, bastante largo, con un fallo en flash que me daba verdaderos dolores de cabeza, y es que cuando estabas viendo un&nbsp;vídeo, el plugin de flash se bloqueaba y se cerraba, desde cualquier navegador, ya fuera Chrome, Firefox o Chromium.<br /><br /><a name='more'></a></div><div style="text-align: justify;">Tras ver que Adobe actualizaba flash y no solucionaba dicho error he empezado a creer que se está riendo de nosotros, por lo que me decidí a investigar sobre la explicación de por que se bloqueaba flash cuando ibas a ver un&nbsp;vídeo, o mientras lo&nbsp;veías&nbsp;si&nbsp;movías&nbsp;la barra de reproducción.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Tras mucho, pero mucho leer, no vi nada claro, he visto nuevos fallos, como bloqueos al usar, por ejemplo, chats en flash al pedir permisos, pero nada relacionado sobre lo mio, alguna alusión a ello, pero ninguna respuesta,&nbsp;así&nbsp;que quiero compartir con todos vosotros la solución.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">El problema viene generado por la opción "Activar aceleración por hardware" que aparece en la configuración de flash (botón&nbsp;derecho sobre un elemento flash - configuración) la solución a este problema es desactivar dicha opción, pero no iba a ser tan&nbsp;fácil&nbsp;como parece (gracias, Adobe).</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">El&nbsp;menú&nbsp;de configuración de flash está bloqueado en Ubuntu por culpa de un bug con GTK, intentas dar click y es unclickable (no se puede hacer click) y por ello, no podemos modificar ninguna de las opciones, con ello, la de aceleración por hardware. ¿Que hacemos nosotros? Pues sencillo, tenemos que buscar un&nbsp;vídeo&nbsp;en flash en youtube, y ponerlo a pantalla completa. Desde pantalla completa abrimos el panel de configuración y, por arte de magia, ya podemos hacer click sobre los elementos, y cambiar nuestra dichosa opción. Cerramos el navegador web, volvemos a abrirlo, y, por fin, dicho problema con flash habrá desaparecido, gracias a los dioses del metal.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Resumen:</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">-Hay que desactivar la opción de "Aceleración por hardware" desde el&nbsp;menú&nbsp;de configuración.</div><div style="text-align: justify;">-El&nbsp;menú&nbsp;de configuración, de forma normal, no se puede clickear.</div><div style="text-align: justify;">-Ponemos un&nbsp;vídeo&nbsp;flash en pantalla completa (de youtube, por ejemplo), y entonces ya podemos clickear sobre el menú de&nbsp;configuración&nbsp;y&nbsp;cambiar&nbsp;tanto dicha opción, como cualquier otra que queramos cambiar.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Si tu problema es que intentas usar una webcam o un micro en alguna aplicación con flash y te pide permisos, tienes otra opción para solucionar tu problema:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">-En el menú "configuración global" entras en la pestaña de&nbsp;cámara&nbsp;y micro (este menú funciona bien)</div><div style="text-align: justify;">-Seleccionas la opción bloquear siempre, si lo que quieres es denegar siempre su uso, o la opción de preguntar, para que pida permiso.</div><div style="text-align: justify;">-En la pestaña de debajo, "configuración de&nbsp;cámara&nbsp;y micro por sitio" introduces el sitio donde&nbsp;querrías&nbsp;permitir el uso de la webcam (te viene cuando te pide si quieres denegarlo o permitirlo en la web) y le das a añadir y permitir, así ya no pedirá permiso y continuará la carga de la web.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Solución a 3 problemas en uno.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Espero que os sea de utilidad igual que me ha sido a mi, y os ahorre hacer&nbsp;búsquedas&nbsp;en circulo sin solución.</div>
 		</article>
 
-		
-<ul class="article-share">
-  <li>
-    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </li>
-</ul>
-
 	</div>
 
 
 <div class="site-footer">
-  <div class="copyright"><i class="fab fa-creative-commons"></i> RW Labs 2020</div>
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
       <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
-        <i class="fas fa-rss"></i>
+        
+        <img src="/rss.svg" class="fa">
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <i class="mdi mdi-tor"></i>
+        <img src="/tor.svg" class="fa"></img>
       </a>
     </li>
   </ul>
