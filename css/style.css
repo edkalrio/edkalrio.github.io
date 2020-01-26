@@ -657,8 +657,12 @@ img {
   height: auto;
 } 
 
-.fa, .fas {
+.fa {
   height: .8rem;
+}
+
+.fas {
+  height: 3rem;
 }
 
 .right {
