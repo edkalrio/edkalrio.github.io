@@ -6,10 +6,19 @@
     <description>Recent content in Matemáticas on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/matem%C3%A1ticas/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mecánicas alternativas en juegos de rol</title>
+      <link>https://lunaticgeek.com/mecanicas-roleras/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/mecanicas-roleras/</guid>
+      <description>Podría empezar criticando la excesiva complejidad de Pathfinder pero no es mi intención. Aquel es un juego diseñado con la complejidad en mente y que parece que sus jugadores disfrutan pleiteando reglas y discutiendo con el GM. Prefiero dar esa batalla por perdida para centrarme en mecánicas que he ido encontrando en otros más sencillos que pretenden simplificar los reglamentos para recuperar las raíces del rol. En ciertos juegos he encontrado mecánicas innovadoras que intentan aportar un toque de originalidad, introduciendo nuevas variables innecesarias y que solo se pueden entender desde el punto de vista estético o si no somos tan optimistas, podríamos pensar que los diseñadores no saben en el fondo lo que están haciendo y no son capaces de discernir las alternativas de las que disponen.</description>
+    </item>
     
     <item>
       <title>Análisis Estadístico de Mythic: GME</title>

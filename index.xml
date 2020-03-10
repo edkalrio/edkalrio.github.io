@@ -6,10 +6,114 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Mecánicas alternativas en juegos de rol</title>
+	  <link>https://lunaticgeek.com/mecanicas-roleras/</link>
+	  <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/mecanicas-roleras/</guid>
+	  <description>
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Podría empezar criticando la excesiva complejidad de Pathfinder pero no es mi intención. Aquel es un juego diseñado con la complejidad en mente y que parece que sus jugadores disfrutan pleiteando reglas y discutiendo con el GM. Prefiero dar esa batalla por perdida para centrarme en mecánicas que he ido encontrando en otros más sencillos que pretenden simplificar los reglamentos para recuperar las raíces del rol. En ciertos juegos he encontrado mecánicas innovadoras que intentan aportar un toque de originalidad, introduciendo nuevas variables innecesarias y que solo se pueden entender desde el punto de vista estético o si no somos tan optimistas, podríamos pensar que los diseñadores no saben en el fondo lo que están haciendo y no son capaces de discernir las alternativas de las que disponen. De ahí parte mi explicación para que tanto diseñadores como jugadores comprendan mejor los juegos y puedan elaborar reglas de la casa que los modifiquen a su gusto para mejorar la experiencia en mesa.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-black-hack-https-the-black-hack-jehaisleprintemps-net-english&#34;&gt;&lt;a href=&#34;https://the-black-hack.jehaisleprintemps.net/english/&#34;&gt;The Black Hack&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Este juego utiliza una peculiar forma de registrar el inventario de ciertos consumibles. Como podemos leer en su reglamento:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Any item listed in the equipment section that has a Usage die is considered a consumable, limited item. When that item is used the next Minute (turn) its Usage die is rolled. If the roll is 1-2 then the usage die is downgraded to the next lower die in the following chain:&lt;br /&gt;
+d20 &amp;gt; d12 &amp;gt; d10 &amp;gt; d8 &amp;gt; d6 &amp;gt; d4&lt;br /&gt;
+When you roll a 1-2 on a d4 the item is expended and the character has no more of it left.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En un juego ultrasimple parece contradictorio una regla tan elaborada. Obviamente no se quería recurrir a un número fijo de artículos pero se ha hecho de tal forma que nadie sabe ni siquiera cuantos objetos puede tener porque el cálculo no es tan inmediato como el de otras tiradas aleatorias más habituales.&lt;/p&gt;
+
+&lt;p&gt;En el fondo, lo que plantea este problema es la unión de distribuciones de probabilidad independientes de tipo &lt;a href=&#34;https://en.wikipedia.org/wiki/Geometric_distribution&#34;&gt;geométrico&lt;/a&gt; ya que se busca el número de tiradas que tenemos hasta agotar el artículo.&lt;/p&gt;
+
+&lt;p&gt;$$\sum_{i}^{D}p_i(1-p_i)^{k-1}$$&lt;/p&gt;
+
+&lt;p&gt;La solución de este problema, si partimos de un dado &lt;code&gt;d20&lt;/code&gt; es un inventario de 24 unidades con una desviación típica de 12.5. Realmente esta mecánica no se puede mejorar sin eliminar parte de sus características probabilísticas. Si se prefiriera un sistema sin memoria, se podría tirar 1d100 y para resultados menores de cinco nos quedamos sin el artículo. Esto se asemeja bastante a una pifia en un simple 1d20 pero de nuevo estamos modificando tanto el valor esperado como la varianza de la distribución resultante. Con la cantidad de amenazas letales en los juegos OSR me parece que una regla así es totalmente prescindible y pediría al GM que mantuviese un inventario determinístico. Ya es suficientemente difícil sobrevivir así como para que el inventario desaparezca por una mala tirada.&lt;/p&gt;
+
+&lt;h3 id=&#34;savage-worlds-https-www-peginc-com-store-savage-worlds-adventure-edition-core-rules-pdf-swade&#34;&gt;&lt;a href=&#34;https://www.peginc.com/store/savage-worlds-adventure-edition-core-rules-pdf-swade/&#34;&gt;Savage Worlds&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Este juego puede considerarse una alternativa sencilla al Gurps, un juego genérico inconmensurable, con una temática muy aventurera y cinemática. La forma de llevar iniciativa en este RPG es mediante cartas de una baraja francesa con los jokers.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To help the Game Master keep track of who goes in what order and add a little randomness to the game, we use a single deck of playing cards with both Jokers left in to determine everyone’s initiative order. We call these “Action Cards.” [&amp;hellip;]&lt;/p&gt;
+
+&lt;p&gt;Shuffle: Shuffle the deck after any round in which a Joker was dealt. [&amp;hellip;] Once the cards are dealt, the Game Master starts the round by counting down from Ace down to Two, with each group resolving its actions when its card comes up.&lt;/p&gt;
+
+&lt;p&gt;Ties: Ties are resolved by suit order: Spades ♠ are first, then Hearts ♥ , Diamonds ♦ , and Clubs ♣ . That’s reverse alphabetical order as used in many common card games.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JOKERS: Characters (or groups) with a Joker act whenever they want in the round, even interrupting another’s action. They also add +2 to all Trait and damage rolls this round!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En esta ocasión no podremos utilizar el mismo método que en anteriores ocasiones ya que no se produce reemplazamiento con cada carta retirada del mazo y la probabilidad va modificándose en cada paso. Las posibilidades de sacar un joker en la primera carta serían de &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;54&lt;/sub&gt;, mientras que en la segunda supone un fallo en la primera &lt;sup&gt;52&lt;/sup&gt;&amp;frasl;&lt;sub&gt;54&lt;/sub&gt; y el acierto en la segunda &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;53&lt;/sub&gt;, en general,&lt;/p&gt;
+
+&lt;p&gt;$$\frac{(N-K)(N-K-1)\dots (N-K-n+1)}{N(N-1)\dots(N-n+1)}= \frac{\binom{N-n}{K}}{\binom{N}{K}}$$&lt;/p&gt;
+
+&lt;p&gt;nos permite evaluar las probabilidades de fallo en n cartas. Si fallásemos en la carta anterior&lt;/p&gt;
+
+&lt;p&gt;$$\frac{\binom{N-(n-1)}{K}}{\binom{N}{K}}$$&lt;/p&gt;
+
+&lt;p&gt;para sacar un joker a continuación&lt;/p&gt;
+
+&lt;p&gt;$$\frac{K}{N-n+1}$$&lt;/p&gt;
+
+&lt;p&gt;obtenemos la función de densidad&lt;/p&gt;
+
+&lt;p&gt;$$P(n)=\frac{\binom{N-n+1)}{K}}{\binom{N}{K}}\frac{K}{N-n+1}$$&lt;/p&gt;
+
+&lt;p&gt;A partir de ahí se obtiene la fórmula del valor esperado y varianza&lt;/p&gt;
+
+&lt;p&gt;$$E(X)=\frac{N+1}{K+1}$$&lt;/p&gt;
+
+&lt;p&gt;$$Var(X)\frac{K(N-K)(N+1)}{(K+2)(K+1)^2}$$&lt;/p&gt;
+
+&lt;p&gt;Para una demostración exhaustiva de estos resultados, recomiendo acudir a &lt;a href=&#34;https://arxiv.org/pdf/1404.1161.pdf&#34;&gt;Ahlgren (2014)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Todo esto nos lleva a una distribución con esperanza 18.3 y desviación típica 2.94. A pesar de que &lt;em&gt;N&lt;/em&gt; no es suficientemente grande como para converger a una distribución geométrica, se podría llevar la cuenta de la iniciativa con 3d6, repetición en empates y aplicación de los efectos de los jokers cuando el resultado sume más de 15.&lt;/p&gt;
+
+&lt;h3 id=&#34;tales-from-the-loop-https-frialigan-se-en-games-tales-from-the-loop&#34;&gt;&lt;a href=&#34;https://frialigan.se/en/games/tales-from-the-loop/&#34;&gt;Tales from the Loop&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Este juego simula las aventuras de un grupo de niños al más puro estilo Stranger Things. La resolución de conflictos se realiza mediante una reserva de dados. Se tira una serie de &lt;code&gt;d6&lt;/code&gt; y se considera éxito obtener al menos un seis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The kids have numeric ratings for what they are good at: understanding machines, fast talking, climbing trees, and running fast. The ratings indicates how many six-sided dice you get to roll when trying to overcome Trouble. A six means success. You rarely need more than one success.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Esta mecánica se remonta a juegos míticos como el &lt;a href=&#34;https://en.wikipedia.org/wiki/Ghostbusters_(role-playing_game)&#34;&gt;cazafantasmas&lt;/a&gt; pero en Tales from the Loop se contabiliza de otra forma. El problema de este sistema es la poca granularidad que ofrece a la hora de ajustar las estadísticas. El salto cuantitativo que se produce al añadir un solo dado más a la reserva modifica severamente el resultado de la tirada y lo hace de forma no lineal. En los primeros niveles, el salto es enorme mientras que a partir de reservas con 6 dados, la modificación de las posibilidades es marginal y lleva a un estancamiento del proceso evolutivo de los personajes. En términos matemáticos, la probabilidad sería&lt;/p&gt;
+
+&lt;p&gt;$$P(X&amp;gt;0)$$
+$$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
+
+&lt;p&gt;para una reserva de tamaño &lt;em&gt;n&lt;/em&gt; tendríamos que obtener al menos un acierto con probabilidad &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;, al ser una suma de experimentos de Bernoulli independientes, adoptaría una distribución Binomial, que podemos resolver en función del número de dados que forman la reserva. Esto nos da una función&lt;/p&gt;
+
+&lt;p&gt;$$1-\left (\frac{5}{6}\right )^n$$&lt;/p&gt;
+
+&lt;p&gt;que podría considerarse como la función acumulada de una distribución geométrica con p=&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;. Esta presenta un crecimiento logarítmico que puede suavizarse por distintos procedimientos aunque el resultado sería inviable en cuanto a su implementación en dados. Por eso recomiendo linealizar la función para transformarla en una distribución uniforme volviendo irónicamente a un modelo básico de d20. Las probabilidades de este nuevo modelo no tienen nada que ver con el original pero facilitan al GM el control del azar con mayor granularidad a la hora de otorgar modificadores a la tirada.&lt;/p&gt;
+
+&lt;p&gt;Si por el contrario nos empeñamos en tener un sistema de reserva de dados, recomiendo acudir al ya citado cazafantasmas, cuyo sistema pasó a denominarse OpenD6. Este es aditivo, al contrario que el tipo comparativo que ofrece Tales from the Loop. Habría que sumar todos los dados de la reserva y compararlos con una dificultad. Obviamente esta solución es más difícil sobre todo para reservas de gran tamaño pero es la mejor forma de ajustar la sensibilidad del sistema.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://i0.wp.com/mystara.thorfmaps.com/wp-content/uploads/2018/04/expert-known-world-24.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hex-map-https-en-wikipedia-org-wiki-hex-map&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Hex_map&#34;&gt;Hex Map&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Desde el &lt;a href=&#34;https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Expert_Set&#34;&gt;Cook&lt;/a&gt; las campañas a cielo abierto de tipo sandbox se llevan a cabo en mapas formados por una grilla hexagonal. La popularidad de este sistema lo ha llevado a convertirse en algo tan característico de los RPGs que difícilmente sería separable de cualquier juego que se precie. Sin embargo, estos mapas tienen ciertos inconvenientes que es imprescindible conocer. Nuestros puntos cardinales están basados en cuatro direcciones básicas y subdivisiones de estas. Los hexágonos no son ortogonales y esto significa que podemos ir al norte o al sur pero no al este u oeste. Las direcciones intermedias tampoco coinciden con las que estamos acostumbrados ya que se sitúan a 30º en lugar de los 45º.&lt;/p&gt;
+
+&lt;p&gt;Estos pequeños obstáculos no son en realidad demasiado problemáticos porque los cartógrafos de juegos de rol los tienen en cuenta a la hora de dibujar sus mapas. Pero también esto tiene margen para la modificación. Una teselación hexagonal presenta una configuración de caras V3.3.3.3.3.3 y vértices 6.6.6. Si intercambiamos estos dos valores obtenemos su figura dual, la teselación triangular. En este caso tendríamos que jugar moviéndonos sobre las líneas entre vértices en vez de sobre su superficie como en el caso hexagonal. Esta simplificación no parece muy útil pero si la llevamos más allá, encontramos la &lt;a href=&#34;https://en.wikipedia.org/wiki/Lattice_(group)#/media/File:Equilateral_Triangle_Lattice.svg&#34;&gt;retícula triangular equilátera&lt;/a&gt;. Esto es una malla de puntos que se corresponden con los vértices de la teselación triangular, eliminando las molestas líneas entre ellos. Esta retícula se podría superponer en cualquier mapa para dar una referencia en el movimiento de los personajes sin necesidad de acudir a cintas métricas como en algunos wargames. Cada punto de la retícula coincide también con el centro de los hexágonos de una teselación de aquel tipo pero preserva la estética del mapa con menos elementos añadidos y desdibuja las fronteras entre casillas adyacentes, lo que puede ser una ventaja o un inconveniente que solo descubrirás cuando lo hayas probado.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Próximamente en JavaScript</title>
