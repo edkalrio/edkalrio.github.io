@@ -6,15 +6,82 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
+	  <title>Lunes de Cuarentena</title>
+	  <link>https://lunaticgeek.com/cuarentena/</link>
+	  <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/cuarentena/</guid>
+	  <description>&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/76/ICS_Lima.svg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Pese a lo que pueda parecer al lector de este blog enfocado a temas informáticos esotéricos, herméticos y oscuros, mi actividad profesional nada tiene que ver con eso. Las posibilidades de teletrabajar son nulas en mi sector y de hecho, mi trabajo ha sido expresamente prohibido por el &lt;a href=&#34;https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-3692&#34;&gt;Real Decreto &lt;sup&gt;463&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2020&lt;/sub&gt;, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&lt;/a&gt;, lo que me va a dejar recluido en casa las próximas dos semanas &amp;mdash;al menos&amp;mdash;.&lt;/p&gt;
+
+&lt;p&gt;Estas van a ser las primeras vacaciones de los últimos cuatro años aunque la gente que me conoce sabe que trabajo más bien poco y estoy en un estado de semivacaciones permanente. Entiendo que la mayoría no considere una reclusión forzosa como unas vacaciones pero los informáticos estamos acostumbrados a la distancia social, la reclusión y el ocio casero. Lo único que lamento es el gran coste económico que va a suponer para mi bolsillo pero eso escapa a mi control por completo.&lt;/p&gt;
+
+&lt;p&gt;Recuerdo el verano de 2003. Mis amigos fueron escalonando sus vacaciones de tal modo que nunca nos quedamos por aquí el número suficiente como para jugar un partido de football, así que ese verano solo salí a la calle un total de tres días en los tres meses. No tenía nada que hacer en el exterior y preferí quedarme en casa lejos del asfixiante calor y de ese sol cegador que tanta gente busca en las playas españolas. Ese año fue el caso más extremo pero nunca me he caracterizado por ser callejero. Si tengo mi kindle, mi chromecast y mi batamanta puedo pasar cualquier enclaustramiento.&lt;/p&gt;
+
+&lt;p&gt;Mi agenda extra-laboral no va a cambiar demasiado porque &amp;mdash;como ya he dicho&amp;mdash; tengo mucho tiempo libre pero supongo que pueda avanzar el doble de rápido con mis próximos proyectos. Nunca había hecho pública mi lista de tareas pero creo que ahora es el momento oportuno. Algunos pueden inspirarse en ella o quizás sirva para ayudar a normalizar una situación de reclusión forzosa que a muchas personas les va a resultar agobiante y dolorosa.&lt;/p&gt;
+
+&lt;p&gt;Últimamante estoy interesado en la síntesis de audio mediante software y esta cuarentena va a ser el momento idóneo para profundizar en su estudio. Voy a realizar los cursos online:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kadenze.com/courses/real-time-audio-signal-processing-in-faust&#34;&gt;Real-Time Audio Signal Processing in Faust&lt;/a&gt; por la Universidad de Stanford&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/audio-digital-pure-data/&#34;&gt;Audio digital con Pure Data&lt;/a&gt; por la Universidad Nacional Autónoma de México&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/composicion-algoritmica-supercollider&#34;&gt;Composición algorítmica en Supercollider&lt;/a&gt; por la Universidad Nacional Autónoma de México&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Series:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Westworld, temporada 3&lt;/li&gt;
+&lt;li&gt;Chilling Adventures of Sabrina, temporada 3&lt;/li&gt;
+&lt;li&gt;The Witcher. Sí, soy el único que todavía no la ha visto pero leí los libros en 2006 antes de que nadie hubiera oído hablar de la saga. Solo me gustaron las dos primeras novelas pero quiero dar una oportunidad a la serie.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Libros:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.siruela.com/catalogo.php?&amp;amp;opcion=autor&amp;amp;id_libro=3608&#34;&gt;Tiempo de Espera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/La_guerra_de_Calib%C3%A1n&#34;&gt;La Guerra de Calibán&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Discos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/album/0FHx5nRZLQ5d7EuEvWNeqY&#34;&gt;III&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/album/5rV8dSyTlSCEfDpqR3rsAK&#34;&gt;Worlds Apart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/album/1Lj81OvqLUJb2UGW2RwUqv&#34;&gt;Rush of Death&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/album/35JR2M80Xvot2xfpsJuNLC&#34;&gt;Thulêan Mysteries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Películas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voy a revisar todas las de Studio Ghibli que han subido estos meses a Netflix.&lt;/li&gt;
+&lt;li&gt;Con tanto tiempo disponible, podré ver tranquilamente &amp;mdash;por fin&amp;mdash; The Irishman.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y también voy a retomar mi estudio de chino (irónico, verdad?) para el HSKK intermedio.&lt;/p&gt;
+
+&lt;p&gt;Para acabar me gustaría seguir con mi tradición vacacional de recomendar &lt;a href=&#34;https://lunaticgeek.com/tags/libros/&#34;&gt;libros para el verano&lt;/a&gt;. Como la ocasión es excepcional solo voy a mencionar una novela y no va a ser informática:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://leer.amazon.es/kp/embed?asin=B006FHKYCG&amp;amp;preview=newtab&amp;amp;linkCode=kpe&amp;amp;ref_=cm_sw_r_kb_dp_jSHBEb17GSDME&#34;&gt;Némesis&lt;/a&gt; del casi Premio Nobel Philip Roth. Si no estáis hartos de la cuarentena, esta historia sobre una epidemia de polio en New Jersey ofrece la mejor aproximación a un hecho tan dramático como el que estamos viviendo y creo que puede ser una buena ayuda para la reflexión sobre la colaboración y solidaridad que todos debemos practicar en estos tiempos difíciles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;P.S. Antes he hablado del verano de 2003. En la misma fecha, se emitía en tele 5 una serie juvenil, inglesa, postapocalíptica llamada &lt;a href=&#34;https://es.wikipedia.org/wiki/La_tribu_(serie_de_televisi%C3%B3n)&#34;&gt;La Tribu&lt;/a&gt;, sobre un mundo donde todos los adultos han muerto y los niños tienen que buscarse la vida para sobrevivir. Esperemos que la realidad no supere a la ficción, como suele decirse.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 	  <title>Mecánicas alternativas en juegos de rol</title>
 	  <link>https://lunaticgeek.com/mecanicas-roleras/</link>
-	  <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+	  <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
 	  
 	  <guid>https://lunaticgeek.com/mecanicas-roleras/</guid>
 	  <description>
