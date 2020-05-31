@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Uso de Emojis como SVG en Favicons - Lunatic Geek</title>
+  <meta property="og:title" content="Uso de Emojis como SVG en Favicons - Lunatic Geek" />
+  <meta name="twitter:title" content="Uso de Emojis como SVG en Favicons - Lunatic Geek" />
+  <meta name="description" content="Hace ya unos tres meses que actualicé a Chromium 80 y me asombró ver que el changelog incluía una función largamente demandada por diseñadores web de todo el mundo, desde hace tantos años. Es el soporte de SVG como favicon que permite especificar en línea o en archivo a parte nuestros favicones a través del formato vectorial basado en XML.
+Las ventajas de este cambio que más me interesan son la posibilidad de programar el favicon en vez de dibujarlo en un software de edición de gráficos (como ya he hecho en otras ocasiones) y el dinamismo que esto permite.">
+  <meta property="og:description" content="Hace ya unos tres meses que actualicé a Chromium 80 y me asombró ver que el changelog incluía una función largamente demandada por diseñadores web de todo el mundo, desde hace tantos años. Es el soporte de SVG como favicon que permite especificar en línea o en archivo a parte nuestros favicones a través del formato vectorial basado en XML.
+Las ventajas de este cambio que más me interesan son la posibilidad de programar el favicon en vez de dibujarlo en un software de edición de gráficos (como ya he hecho en otras ocasiones) y el dinamismo que esto permite.">
+  <meta name="twitter:description" content="Hace ya unos tres meses que actualicé a Chromium 80 y me asombró ver que el changelog incluía una función largamente demandada por diseñadores web de todo el mundo, desde hace tantos años. Es el …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/emoji-favicon/" />
+  <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/241/face-with-tears-of-joy_1f602.png" />
+    <meta name="twitter:image" content="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/241/face-with-tears-of-joy_1f602.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article">
+			
+			
+			<h1 class="article-title">Uso de Emojis como SVG en Favicons</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time>2020-05-31</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/web/">
+						<b>#</b>Web
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/programaci%C3%B3n/">
+						<b>#</b>Programación
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/svg/">
+						<b>#</b>svg
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/html/">
+						<b>#</b>html
+					</a> 
+				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+			</ul>
+			
+			<p><center><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/241/face-with-tears-of-joy_1f602.png" alt="Irónicamente esta imagen no es un SVG por problemas técnicos con mi CMS 😂" /></center></p>
+
+<p>Hace ya unos tres meses que actualicé a <a href="https://www.chromestatus.com/feature/5180316371124224">Chromium 80</a> y me asombró ver que el changelog incluía una función largamente demandada por diseñadores web de todo el mundo, desde hace tantos años. Es el soporte de SVG como favicon que permite especificar en línea o en archivo a parte nuestros favicones a través del formato vectorial basado en XML.</p>
+
+<p>Las ventajas de este cambio que más me interesan son la posibilidad de programar el favicon en vez de dibujarlo en un software de edición de gráficos (como ya he hecho en otras <a href="https://github.com/edkalrio/handmade-svg">ocasiones</a>) y el dinamismo que esto permite. Por ejemplo, se podría cambiar su color en función del estado de la web, como hace <a href="https://travis-ci.org/">Travis CI</a> pero en vez de recurrir al backend para generar bajo demanda el favicon correcto en cada momento, se podría hacer en el frontend, sin necesidad de realizar una petición extra al servidor.</p>
+
+<p>Otra posibilidad que nos brinda esta novedad es la inserción de texto en el SVG que va a ser nuestro favicon. Y cuando me refiero a texto, en realidad estoy pensando en emojis. La principal expresión de la comunicación online y favorita de la generación Z, los emojis encapsulan significado en un solo glifo como otros alfabetos logográficos pero sin perder la correlación intuitiva que existe entre significante y significado, al contrario que otros como el <a href="https://en.wikipedia.org/wiki/Kanji">kanji</a> o el <a href="https://en.wikipedia.org/wiki/Chinese_characters">hanzi</a> en cuya evolución milenaria han ido simplificando los trazos hasta perder su identidad primigenia.</p>
+
+<p>Después de experimentar con distintos valores, he encontrado que el óptimo es un viewBox de 19x19. Normalmente se utilizan los de base 100 pero luego habría que reajustar el tamaño del texto y me parece una operación innecesaria. El tamaño indicado maximiza el área del emoji sin que se produzcan recortes en los bordes. El ajuste vertical de 15 parece ser el más centrado pero lo he hecho a ojo y puede que haya que ajustar un pixel más en algunos emojis concretos.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;data:image/svg+xml,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 19 19&#39;&gt;
+</span><span class="s">	&lt;text y=&#39;15&#39;&gt;
+</span><span class="s">		😂
+</span><span class="s">	&lt;/text&gt;
+</span><span class="s">&lt;/svg&gt;&#34;</span> <span class="p">/&gt;</span></code></pre></div>
+		</article>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        
+        <img src="/rss.svg" class="fa">
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <img src="/tor.svg" class="fa"></img>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

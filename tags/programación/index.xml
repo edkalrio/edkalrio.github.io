@@ -6,10 +6,20 @@
     <description>Recent content in Programación on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uso de Emojis como SVG en Favicons</title>
+      <link>https://lunaticgeek.com/emoji-favicon/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/emoji-favicon/</guid>
+      <description>Hace ya unos tres meses que actualicé a Chromium 80 y me asombró ver que el changelog incluía una función largamente demandada por diseñadores web de todo el mundo, desde hace tantos años. Es el soporte de SVG como favicon que permite especificar en línea o en archivo a parte nuestros favicones a través del formato vectorial basado en XML.
+Las ventajas de este cambio que más me interesan son la posibilidad de programar el favicon en vez de dibujarlo en un software de edición de gráficos (como ya he hecho en otras ocasiones) y el dinamismo que esto permite.</description>
+    </item>
     
     <item>
       <title>Próximamente en JavaScript</title>
