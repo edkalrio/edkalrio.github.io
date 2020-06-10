@@ -47,14 +47,15 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
+			<meta property="image" content="/d20.png" />
 			
-			<h1 class="article-title">Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol</h1>
+			<h1 class="article-title" property="headline">Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2019-09-03</time></li>
+				<li class="article-meta-date"><time property="datePublished">2019-09-03</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/rol/">
 						<b>#</b>rol
@@ -612,6 +613,15 @@ si no
 
 <p>$$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

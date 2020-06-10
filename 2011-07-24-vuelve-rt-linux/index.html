@@ -48,14 +48,15 @@ RT Linux no es un kernel distinto sino el resultado de …">
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Vuelve RT Linux</h1>
+			
+			<h1 class="article-title" property="headline">Vuelve RT Linux</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2011-07-24</time></li>
+				<li class="article-meta-date"><time property="datePublished">2011-07-24</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
 						<b>#</b>Linux
@@ -72,6 +73,15 @@ RT Linux no es un kernel distinto sino el resultado de …">
 			</ul>
 			
 			<div style="text-align: justify;">Por fin vuelve a la línea de desarrollo principal de Linux (3.0), la versión en tiempo real del kernel, después de muchos meses de parón.&nbsp;</div><a name='more'></a><br /><div style="text-align: justify;">RT Linux no es un kernel distinto sino el resultado de aplicarle el parche&nbsp;PREEMPT_RT. Esto se ha podido hacer siempre pero parchear el núcleo no es una tarea agradable y se agradece que lo haga la Linux Foundation de forma oficial, con lo que nosotros solo tendremos que esperar a que suban la imagen a los repositorios de Ubuntu para descargarla vía APT.</div><div style="text-align: justify;">A mí me encanta el kernel RT. Su funcionamiento no es ni parecido al generic de Ubuntu. Los procesos se ejecutan de tal forma que se producen picos de procesamiento que forman un dibujo de hoja de sierra en el administrador de procesos. Hay que entender el funcionamiento de los kernels en tiempo real para sacarles todo el potencial que ofrecen y hay que tener una cosa muy clara: rendimiento y latencia son elementos contrarios por lo que hay que optar por uno de ellos. Yo utilizaba RT Linux para el procesamiento y edición musical, tareas que requieran una latencia menor a 10ms. Algunas empresas utilizan estas versiones del kernel para procesos críticos como el manejo de un láser o el geoposicionamiento global con lo que os podéis hacer una idea de su uso y potencial.&nbsp;</div><div style="text-align: justify;">RT Linux es una herrmienta impresionante si sabes cómo usarla. Siempre hay que tener en mente que no es un kernel que podamos seleccionar como el predeterminado de nuestro equipo.</div><div style="text-align: justify;">Si no podéis esperar tanto tiempo y tenéis curiosidad de explorar las posibilidades del tiempo real, hay una versión extraoficial bastante decente llamada lowlatency kernel descargable por el ppa de <a href="https://launchpad.net/~abogani/+archive/ppa">Alessio Bogani</a> compatible con Natty.</div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

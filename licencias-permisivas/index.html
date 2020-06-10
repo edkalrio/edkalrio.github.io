@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Uso de Emojis como SVG en Favicons - Lunatic Geek</title>
+  <meta property="og:title" content="Uso de Emojis como SVG en Favicons - Lunatic Geek" />
+  <meta name="twitter:title" content="Uso de Emojis como SVG en Favicons - Lunatic Geek" />
+  <meta name="description" content="![]()
+A sido toda una sorpresa encontrar en Ars Technica una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:
+ Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.">
+  <meta property="og:description" content="![]()
+A sido toda una sorpresa encontrar en Ars Technica una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:
+ Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.">
+  <meta name="twitter:description" content="![]()
+A sido toda una sorpresa encontrar en Ars Technica una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:
+ Although software surveys performed …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/licencias-permisivas/" />
+  <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://lunaticgeek.com/lunaticgeek_2to1.png" />
+    <meta name="twitter:image" content="https://lunaticgeek.com/lunaticgeek_2to1.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
+			
+			
+			
+			<h1 class="article-title" property="headline">Uso de Emojis como SVG en Favicons</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time property="datePublished">2020-05-31</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/software/">
+						<b>#</b>software
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/licencias/">
+						<b>#</b>licencias
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/open-source/">
+						<b>#</b>open source
+					</a> 
+				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+			</ul>
+			
+			
+
+<p><center>![]()</center></p>
+
+<p>A sido toda una sorpresa encontrar en <a href="https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/">Ars Technica</a> una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:</p>
+
+<blockquote>
+<p>Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.</p>
+
+<p>Since the BSD two-clause license is considerably more clear, both in its own text and in what &ldquo;BSD two-clause license&rdquo; refers to in normal use, we strongly recommend its use instead.</p>
+</blockquote>
+
+<p>Me ha extrañado tanto esta rotunda afirmación que he decidido repasar sendas licencias para comprobar por mí mismo si la hipótesis de Ars Technica se sustenta.</p>
+
+<p>Para empezar, hay que tener en cuenta que estas se agrupan en la tipología de licencias permisivas, es decir, sin copyleft por lo que las obras derivadas no tienen obligatoriamente que conservar la licencia original.</p>
+
+<p>Se estructuran en las siguientes partes
+- Aviso de derechos de autor
+- Concesión
+- Cláusulas
+- Descargo</p>
+
+<h3 id="bsd-2-clause">BSD-2-Clause</h3>
+
+<pre><code>Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</code></pre>
+
+<h3 id="mit">MIT</h3>
+
+<pre><code>Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</code></pre>
+
+<p>Analizando detenidamente las licencias he podido corroborar mi idea original de que Ars Technica se equivoca. No encuentro ambiguedad en la redacción de la MIT ni mayor claridad en la BSD-2-Clause. Las concesiones de la MIT amplían los conceptos del derecho de redistribución y uso de la BSD-2-Clause con los de copia, modificación, mezcla, publicación, distribución, venta y ***surrogación. Las cláusulas de la BSD-2-Clause son lígeramente más claras porque explicitan la inclusión de la licencia en redistribuciones de binarios aunque en la MIT se sobreentiende que deben figurar en la documentación asociada. Además encuentro el descargo de responsabilidad de la BSD-2-Clause innecesariamente farragoso.</p>
+
+<p>Este análisis es muy similar al que debieron de hacer en la *** cuando decidieron mezclar las mejores partes de estas dos licencias para crear otra nueva, porque nunca hay demasiadas licencias cuando sufres del síndrome de [NIH]()</p>
+
+<h3 id="ncsa">NCSA</h3>
+
+<pre><code>Copyright (c) &lt;YEAR&gt; &lt;OWNER ORGANIZATION NAME&gt;.  All rights reserved.
+
+
+Developed by: &lt;NAME OF DEVELOPMENT GROUP&gt;
+              &lt;NAME OF INSTITUTION&gt;
+              &lt;URL FOR DEVELOPMENT GROUP/INSTITUTION&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &quot;Software&quot;), to deal with
+the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to
+do so, subject to the following conditions:
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimers.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimers in the documentation
+  and/or other materials provided with the distribution.
+* Neither the names of &lt;NAME OF DEVELOPMENT GROUP&gt;, &lt;NAME OF INSTITUTION&gt;,
+  nor the names of its contributors may be used to endorse or promote products
+  derived from this Software without specific prior written permission.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
+SOFTWARE.
+</code></pre>
+
+<p>La NCSA combina el apartado de concesiones y el descargo de la MIT con las cláusulas de la BSD-3-Clause.
+Incluso si le concediésemos a Ars Technica la razón, su recomendación de la BSD-2-Clause no parece la alternativa óptima. Si se busca la claridad en el texto no me parece que haya ninguna mejor que la licencia ISC, desarrollada por la ***, aprobada por la FSF y la OSI.</p>
+
+<h3 id="isc">ISC</h3>
+
+<pre><code>Copyright &lt;YEAR&gt; &lt;OWNER&gt;
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+</code></pre>
+
+<p>La moraleja de toda esta revisión es que como economista especializado en derecho mercantil, recomiendo utilizar la licencia permisiva que cada cual prefiera. Todas presentan los mismos derechos y obligaciones con redacciones suficientemente similares y son igualmente válidas ante los tribunales en caso de conflicto entre partes. Personalmente mi preferida es la ISC pero nunca la he utilizado porque la MIT es la elección estándar. Todos los programadores la conocen y saben utilizarla. Si queremos ponernos exóticos podríamos incluso acudir a la licencia Fair.</p>
+
+<h3 id="fair">Fair</h3>
+
+<pre><code>&lt;Copyright Information&gt;
+
+Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
+
+DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
+</code></pre>
+
+<p>Insisto, usa la que más te guste. Es una elección irrelevante.</p>
+
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
+		</article>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        
+        <img src="/rss.svg" class="fa">
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <img src="/tor.svg" class="fa"></img>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

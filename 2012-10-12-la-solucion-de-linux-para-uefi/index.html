@@ -47,14 +47,15 @@ Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan 
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">La solución de Linux para UEFI</h1>
+			
+			<h1 class="article-title" property="headline">La solución de Linux para UEFI</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2012-10-12</time></li>
+				<li class="article-meta-date"><time property="datePublished">2012-10-12</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
 						<b>#</b>Linux
@@ -81,6 +82,15 @@ Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan 
 			</ul>
 			
 			<div class="separator" style="clear: both; text-align: center;"><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Uefi_logo.svg/368px-Uefi_logo.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Uefi_logo.svg/368px-Uefi_logo.svg.png" width="173" /></a></div><div style="text-align: justify;"><span style="font-family: inherit;">Si la intención de Microsoft de exigir a los OEMs la instalación de Windows 8 en placas base con UEFI y Secureboot era mejorar la seguridad de los sistemas, no lo han conseguido. Y si su intención era tocar las pelotas a los usuarios de Linux, tampoco lo han logrado.</span></div><a name='more'></a><br /><div style="text-align: justify;"><span style="font-family: inherit;">Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan agoreros como otros blogs que anunciaban el armageddon para las distros que no se pudieran instalar en ordenadores nuevos. Sabíamos que tarde o temprano, alguien encontraría una solución sencilla y satisfactoria. Las grandes distros ya estaban trabajando en distintas alternativas. Ubuntu iba a firmar con su propio certificado GRUB y Fedora iba a adquirir un certificado de Microsoft para firmar el pre-bootloader shim y que su SO fuera compatible con el molesto Secureboot. SUSE habría tomado una solución intermedia y bastante rara. Iba a firmar dos pre-bootloaders, uno con su propia firma y otro con una adquirida a Microsoft. Está aprehensión me parece algo innecesaria. La versión de shim firmada por Microsoft era suficiente para cargar el sistema.</span><br /><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Confieso que la opción que más me gustaba era la de Ubuntu. Los de Canonical propusieron, en un primer momento, firmar un cargador de arranque EFILinux de Intel porque firmar GRUB iba en contra de la GPLv3 pero los de la FSF les dejaron claro que podían firmar GRUB sin tener que liberar el código de la firma. Yo (y parece que el gabinete jurídico de Canonical) creo que en los términos en los que está redactada la GPLv3, no podían pero si la FSF les autoriza, como es la propietaria de los derechos, Canonical podría hacerlo en cualquier caso.</span><br /><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><a href="http://cdn.arstechnica.net/wp-content/uploads/2012/06/torvaldsnvidia-640x424.jpg" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em; text-align: justify;"><img border="0" height="212" src="http://cdn.arstechnica.net/wp-content/uploads/2012/06/torvaldsnvidia-640x424.jpg" width="320" /></a><span style="font-family: inherit;"></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="font-family: inherit;">La vía que ha tomado la Linux Foundation se parece más a la de Fedora. Van a adquirir una firma de Microsoft para autenticar un pre-bootloader propio (loader.efi) que solo se encargaría de lanzar el cargador de arranque que utilice cada distro. Además también se ocuparía de ejecutar los Live-CDs o Live-USBs que permitirían la instalación de las distros sobre la UEFI.</span></span></div><br /><div style="text-align: justify;"><span style="font-family: inherit;">Esta es una solución universal y muy satisfactoria ya que se aplicaría a todos los SOs que utilizaran las nuevas versiones de Linux, de forma transparente. Problema zanjado. Ya nadie volverá a hablar más de UEFI y su maldito Secure Boot.</span><br /><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Os dejo el código fuente del <a href="http://git.kernel.org/?p=linux/kernel/git/jejb/efitools.git;a=blob;f=Loader.c;h=d7ed1bd373060865cf4e9bf0bd9a9c4799ad7011;hb=b482992c3210c01b2c2d4422f178a17a9b14225b#l49">pre-bootloader</a> de Linux para demostrar su pequeño tamaño y sencillez.</span></div><div style="text-align: left;"><br /></div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

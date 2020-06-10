@@ -45,14 +45,15 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">El Futuro de las Aplicaciones de Mensajería</h1>
+			
+			<h1 class="article-title" property="headline">El Futuro de las Aplicaciones de Mensajería</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2014-08-20</time></li>
+				<li class="article-meta-date"><time property="datePublished">2014-08-20</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/torrent/">
 						<b>#</b>torrent
@@ -69,6 +70,15 @@
 			</ul>
 			
 			<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Speech_bubble.svg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Speech_bubble.svg" width="320" /></a></div><div style="text-align: justify;">Hace unos días estuve hablando con un amigo sobre el futuro de las aplicaciones de mensajería. La conversación fue agradable pero falta de rigor porque mi amigo no es informático y no le quería aburrir con tecnicismos y jerga que no iba a entender. Pero el tema era verdaderamente interesante y por eso quiero profundizar en ello, ahora sí, dando rienda suelta a la pedantería informática.</div><a name='more'></a><div style="text-align: justify;"><br />La conversación se centraba en el diseño interno de las apps de mensajería que creo que deberían tener en el futuro. Empecé a pensar en este tema hace un año, cuando se destapó el caso Snowden y mis opiniones al respecto no han cambiado desde entonces. Se pueden resumir en los siguientes cuatro puntos.</div><ol><li style="text-align: justify;"><a href="http://www.linuxjournal.com/article/6797" rel="nofollow">DHT</a> (Distributed Hash Tables): Sin duda lo principal en mi análisis. Optar por un diseño descentralizado supone que los mensajes no tendrían que pasar por ningún servidor concreto. Aunque ahora se pone el énfasis en la seguridad de los messengers, la verdad es que su mayor amenaza son los cortes de servicio. Con&nbsp;una arquitectura descentralizada, los nodos actúan como cliente y servidor por lo que la posibilidad de caída del sistema se minimiza con la escala del sistema, al contrario que en el modelo tradicional de cliente-servidor. Pero la tolerancia a fallos no solo sirve para evitar accidentes fortuitos. En países donde la libertad de expresión está perseguida por la censura gubernamental, una aplicación descentralizada podría ser la única vía de comunicación segura.&nbsp;</li><li style="text-align: justify;">E2EE (End-to-end encryption): Las futuras apps de mensajería tienen que apostar fuertemente por la seguridad. El modelo de encriptación de usuario a usuario es el más adecuado para el intercambio de información, pero como ya he propuesto un modelo descentralizado, esta encriptación es la única posible, al no existir servidor intermedio que cifre los mensajes. En cuanto al protocolo utilizado, creo que el más adecuado es <a href="https://otr.cypherpunks.ca/otr-wpes.pdf" rel="nofollow">OTR</a> (Off-the-Record) que combina algoritmos AES de 128 bits en cada mensaje con el protocolo de intercambio de claves Diffie-Hellman. Aunque no entiendo por qué utilizan&nbsp;la función SHA-1 para generar los hash. Supongo que en su contexto no sea insegura. La criptografía siempre me ha parecido la parte más difícil de la informática y tengo bastantes lagunas, así que puedo equivocarme en este punto.</li><li style="text-align: justify;">Open Source: No puedo concebir un messenger descentralizado y fuertemente cifrado que no sea de código abierto. Telegram vivió un corto pero intenso momento de popularidad. Cuando se dio a conocer, presumían de ser software libre pero, en voz baja, <a href="https://telegram.org/faq/#q-why-not-open-source-everything" rel="nofollow">reconocen que no es completamente libre</a>. Según ellos, algún día liberarán el código del servidor, la pieza fundamental de su app. Es primordial que estas apps sean totalmente libres; cliente, servidor y protocolo, para evitar el comportamiento arbitrario y egoísta de los programadores, como por ejemplo, para que no empiecen a cobrar <a href="http://www.lunaticgeek.com/2013/03/a-quien-donar-los-089-de-whatsapp.html">0.89€</a>&nbsp;o insertar publicidad.</li><li style="text-align: justify;">Multiplataforma: Es un error hacer messengers solo para smartphone. La gente tiene derecho a poder usar su aplicación en una tablet y en ordenador, con cualquier sistema operativo. La aplicación con mejor soporte multiplataforma resulta ser Telegram aunque a mí sigue sin gustarme.</li></ol><div style="text-align: justify;"><span style="text-align: justify;">El futuro que preveo no es tan lejano como pudiera parecer. Ya hay apps parcial o totalmente libres y con niveles de seguridad muy altos como </span><a href="https://whispersystems.org/" rel="nofollow" style="text-align: justify;">TextSecure</a><span style="text-align: justify;"> y </span><a href="https://crypto.cat/" rel="nofollow" style="text-align: justify;">Cryptocat</a><span style="text-align: justify;">. También empiezan a surgir proyectos enfocados en la descentralización, como </span><a href="http://blog.bittorrent.com/2014/07/30/bittorrents-chat-client-unveiled-bittorrent-bleep-now-in-invite-only-pre-alpha/" rel="nofollow" style="text-align: justify;">Bleep</a><span style="text-align: justify;">, de los creadores de bittorrent. Sin embargo, todavía queda la parte más complicada de todo el proceso. Que la gente deseche el maldito&nbsp;</span><span style="text-align: justify;">WhatsApp por una de estas alternativas superiores.</span></div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

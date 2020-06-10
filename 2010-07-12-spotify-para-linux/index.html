@@ -45,20 +45,30 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Spotify para Linux</h1>
+			
+			<h1 class="article-title" property="headline">Spotify para Linux</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2010-07-12</time></li>
+				<li class="article-meta-date"><time property="datePublished">2010-07-12</time></li>
 				<div>
     <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 			</ul>
 			
 			<span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><div style="text-align: justify;">Campeones del mundo de football y ahora Spotify lanza el soporte nativo para Linux! Qué más se puede pedir?</div><div style="text-align: justify;">Un día, los programadores de Spotify, que utilizan Linux como todo buen programador, se hartaron de escuchar la versión emulada con wine y decidieron empezar a trabajar en una versión del reproductor de música específica para Linux. Hoy han liberado unas versiones precompiladas en deb. que ya puede instalar todo el mundo que posea una cuenta premium. En un futuro cercano, Spotify para Linux, que ahora se encuentra en fase experimental, será accesible para cualquier cuenta y todo el mundo podrá disfrutar de la música en stream, legal y gratuita que Spotify ofrece.</div><div style="text-align: justify;">La instalación es sencilla y en el futuro lo será más cuando publiquen en su web los paquetes deb. y no haya que recurrir a repositorios.</div><div style="text-align: justify;">Por ahora tendremos que añadir esta línea al archivo de los repositorios:</div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">deb http://repository.spotify.com stable non-free</span></div><div style="text-align: justify;">E importar la public key ejecutando en un terminal lo siguiente:</div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">gpg --keyserver wwwkeys.de.pgp.net --recv-keys 4E9CFF4E</span></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">gpg --export 4E9CFF4E |sudo apt-key add -</span></div><div style="text-align: justify;">Ya solo tenemos que recargar el apt e instalar Spotify (con sus dependencias) a través de terminal, synaptic o del software center.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div></span><div style="text-align: justify;"><br /></div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

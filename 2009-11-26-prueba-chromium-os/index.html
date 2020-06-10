@@ -48,20 +48,30 @@ Para todo aquel …">
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">prueba Chromium OS</h1>
+			
+			<h1 class="article-title" property="headline">prueba Chromium OS</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2009-11-26</time></li>
+				<li class="article-meta-date"><time property="datePublished">2009-11-26</time></li>
 				<div>
     <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 			</ul>
 			
 			<div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Ya sé que no he comentado nada sobre el nuevo sistema operativo de Google pero ahora mismo estoy volcado completamente en un proyecto personal del que ya hablaré en unas semanas.&nbsp;</span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Para todo aquel que quiera probar el OS, ya tiene imágenes de vmware circulando por los canales de torrent. Sin embargo yo voy a hablar de otra forma de probar Chromium. Un tal Hexxeh se ha dedicado a compilar el sistema de forma que se pueda bootear desde un pen drive (de al menos 4Gb). Solo hay que descargarse el archivo desde el </span><a href="http://bit.ly/5ZxEtx"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">torrent</span></a><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">. Luego hay que descomprimirlo. Si trabajas en windows te va a llevar una eternidad mientras que en Linux tarda solo unos minutos al tratarse de un Tar. A partir de aquí, la forma de pasarlo al usb varía.</span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">En Linux hay que ejecutar el siguiente comando en la carpeta donde tenemos la imagen de Chromium:&nbsp;</span><br /></div><div style="text-align: justify;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><br /></div><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Courier New', Courier, monospace;"><b>sudo dd if=chromiumos.img of=/dev/X bs=4M</b></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Courier New', Courier, monospace;"><b><br /></b></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Donde X es el nombre del usb, en mi caso sdb1.</span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">En windows hay que bajarse un programa específico para realizar esta tarea. Hexxeh recomienda el <a href="http://bit.ly/7gRu0n">image writer</a>.</span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Que nadie se emocione demasiado con este sistema operativo... todavía. Es posible que ni siquiera lo podáis probar. No tiene drivers de sonido ni wifi pero cambiará la forma que tenemos de entender la informática.</span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Enlace: <a href="http://carbon.hexxeh.net/chromiumos/">http://carbon.hexxeh.net/chromiumos/</a></span></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"></pre><pre style="text-align: justify; white-space: pre-wrap; word-wrap: break-word;"><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">EDIT: ya está disponible la versión diet con compatibilidad wifi para memorias de 1Gb.</span></pre>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

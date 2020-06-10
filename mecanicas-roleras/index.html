@@ -45,14 +45,15 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
+			<meta property="image" content="/d20.png" />
 			
-			<h1 class="article-title">Mecánicas alternativas en juegos de rol</h1>
+			<h1 class="article-title" property="headline">Mecánicas alternativas en juegos de rol</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2020-03-10</time></li>
+				<li class="article-meta-date"><time property="datePublished">2020-03-10</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/rol/">
 						<b>#</b>rol
@@ -179,6 +180,15 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$</p>
 
 <p>Estos pequeños obstáculos no son en realidad demasiado problemáticos porque los cartógrafos de juegos de rol los tienen en cuenta a la hora de dibujar sus mapas. Pero también esto tiene margen para la modificación. Una teselación hexagonal presenta una configuración de caras V3.3.3.3.3.3 y vértices 6.6.6. Si intercambiamos estos dos valores obtenemos su figura dual, la teselación triangular. En este caso tendríamos que jugar moviéndonos sobre las líneas entre vértices en vez de sobre su superficie como en el caso hexagonal. Esta simplificación no parece muy útil pero si la llevamos más allá, encontramos la <a href="https://en.wikipedia.org/wiki/Lattice_(group)#/media/File:Equilateral_Triangle_Lattice.svg">retícula triangular equilátera</a>. Esto es una malla de puntos que se corresponden con los vértices de la teselación triangular, eliminando las molestas líneas entre ellos. Esta retícula se podría superponer en cualquier mapa para dar una referencia en el movimiento de los personajes sin necesidad de acudir a cintas métricas como en algunos wargames. Cada punto de la retícula coincide también con el centro de los hexágonos de una teselación de aquel tipo pero preserva la estética del mapa con menos elementos añadidos y desdibuja las fronteras entre casillas adyacentes, lo que puede ser una ventaja o un inconveniente que solo descubrirás cuando lo hayas probado.</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

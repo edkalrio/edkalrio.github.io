@@ -45,14 +45,15 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
+			<meta property="image" content="https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg" />
 			
-			<h1 class="article-title">Próximamente en JavaScript</h1>
+			<h1 class="article-title" property="headline">Próximamente en JavaScript</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2020-01-09</time></li>
+				<li class="article-meta-date"><time property="datePublished">2020-01-09</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/javascript/">
 						<b>#</b>JavaScript
@@ -120,6 +121,15 @@
 </code></pre></div>
 <p>Es más difícil explicarlo que entenderlo con estos ejemplos que aparecen en las propuestas. Estoy impaciente por incorporar estos conceptos a todo el código que escriba en JavaScript.</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

@@ -47,14 +47,15 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">En Defensa de FTP</h1>
+			
+			<h1 class="article-title" property="headline">En Defensa de FTP</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2018-11-27</time></li>
+				<li class="article-meta-date"><time property="datePublished">2018-11-27</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/ftp/">
 						<b>#</b>FTP
@@ -103,6 +104,15 @@ gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing K
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span></code></pre></div>
 <p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizase estas tareas. En todo el proceso no hay inseguridad por ninguna parte y me temo que se utiliza a aquella como excusa barata para abandonar proyectos que dejan de interesar a los desarrolladores. Unos programadores que por vagancia o desidia tampoco ofrecen alternativas viables como la implementación de FTPS. De todos modos, en la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que necesitan ser a prueba de idiotas.</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

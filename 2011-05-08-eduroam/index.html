@@ -45,14 +45,15 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Eduroam</h1>
+			
+			<h1 class="article-title" property="headline">Eduroam</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2011-05-08</time></li>
+				<li class="article-meta-date"><time property="datePublished">2011-05-08</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
 						<b>#</b>Linux
@@ -64,6 +65,15 @@
 			</ul>
 			
 			<div class="separator" style="clear: both; text-align: center;"><a href="http://www.eduroam.es/images/eduroam_logo.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="108" src="http://www.eduroam.es/images/eduroam_logo.png" width="320" /></a></div><div style="text-align: justify;">Eduroam, para todos aquellos que no la conozcan, es un servicio mundial de movilidad segura desarrollado para la comunidad académica y de investigación. eduroam persigue el lema "abre tu portátil y estás conectado". El servicio permite que estudiantes, investigadores y personal de las intituciones participantes tengan conectividad Internet a través de su propio campus y cuando visitan otras instituciones participantes.<a name='more'></a></div><div style="text-align: justify;">Osea, una red wifi de acceso en infinidad de universidades y edificios relacionados con ellas por todo el mundo. Conectarse a eduroam es muy útil sobre todo para aquellos que vivan en ciudades universitarias como Salamanca que por lo que me han contado, está plagada de puntos de acceso. Podremos entrar en internet a través de una red gratis, privada y protegida.</div><div style="text-align: justify;">El problema de eduroam es la configuración para su acceso. Unos compañeros me lo comentaron y comencé a investigar. la guía de configuración de eduroam de la universidad de Valladolid para windows ocupa 11 folios, lo que es una salvajada solo para conectarse a una red wifi (he creado servidores con menos configuraciones).&nbsp;</div><div style="text-align: justify;">La culpa de esto no es de eduroam sino de windows. A nadie tiene que asombrar que un sistema de escritorio de tan baja calidad no pueda conectarse a la red eduroam por ser 802.1x (aka WPA enterprise) por lo que hay que instalar un cliente que haga de puente entre el administrador de redes de windows y los routers de la universidad. Es una solución verdaderamente patética y pone de manifiesto la superioridad de los sistemas basados en UNIX que poseen una infraestructura más enfocada a redes. Por ejemplo, la configuración para Mac OSX solo tiene 3 folios y se podría reducir incluso más.&nbsp;</div><div style="text-align: justify;">No he probado nunca a conectarme con Linux, básicamente porque no tengo un portátil pero puedo suponer cómo será la configuración aunque no recomiendo a nadie que la siga porque puede no funcionar, es solo fruto de mi imaginación si bien no creo que difiera mucho de la verdadera.</div><div style="text-align: justify;">En el administrador de redes inalámbricas nos conectaríamos a eduroam con los siguientes parámetros:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Seguridad inalámbrica: WPA y WPA2 enterprise.</div><div style="text-align: justify;">Autenticación: TLS a través de túnel (TTLS).</div><div style="text-align: justify;">Identidad anónima:</div><div style="text-align: justify;">Certificado CA:</div><div style="text-align: justify;">Autenticación interna: PAP.</div><div style="text-align: justify;">Usuario: nuestra dirección de correo de la universidad.</div><div style="text-align: justify;">Contraseña: contraseña de la dirección de correo.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Me queda la duda de si necesitará algún certificado pero como en la configuración de OSX no pone nada (y es muy similar) supongo que tampoco lo necesite. En el supuesto de no necesitarlo, podríamos conectarnos de igual forma en un smartphone Android ya que el menú de configuraciones de wifi permite todos los campos de la configuración de Linux. Algún día lo probaré, hasta entonces, solo son suposiciones y lo único cierto aquí es que Linux vuelve a ganar a windows.</div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

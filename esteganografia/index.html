@@ -48,14 +48,15 @@ La esteganografía es la codificación de información que …">
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Gilipolleces Esteganográficas</h1>
+			
+			<h1 class="article-title" property="headline">Gilipolleces Esteganográficas</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2018-12-17</time></li>
+				<li class="article-meta-date"><time property="datePublished">2018-12-17</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
 						<b>#</b>Linux
@@ -93,6 +94,15 @@ La esteganografía es la codificación de información que …">
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg -d cipher.txt</code></pre></div>
 <p>Si lo que se pretende es cifrar todo el disco duro, se puede recurrir a <a href="https://gitlab.com/cryptsetup/cryptsetup">LUKS</a> y si queremos comunicarnos o transmitir archivos de forma segura, nada mejor que cualquier software basado en el protocolo <a href="https://en.wikipedia.org/wiki/Signal_Protocol">signal</a>.</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

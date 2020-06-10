@@ -47,14 +47,15 @@ Es demasiado farragoso tener que ejecutar">
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Leer RFCs desde el Terminal</h1>
+			
+			<h1 class="article-title" property="headline">Leer RFCs desde el Terminal</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2019-02-06</time></li>
+				<li class="article-meta-date"><time property="datePublished">2019-02-06</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/unix/">
 						<b>#</b>UNIX
@@ -83,6 +84,15 @@ Es demasiado farragoso tener que ejecutar">
 <div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">less /usr/share/doc/RFC/links/rfcXXXX.txt.gz</code></pre></div>
 <p>así que vamos a crear una función de Bash para facilitar la tarea</p>
 <div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash"><span class="nb">echo</span> <span class="s2">&#34;rfc() { less /usr/share/doc/RFC/links/rfc</span><span class="nv">$1</span><span class="s2">.txt.gz; }&#34;</span> &gt;&gt; ~/.bashrc</code></pre></div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

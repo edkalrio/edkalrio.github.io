@@ -45,20 +45,30 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Autodestrucción</h1>
+			
+			<h1 class="article-title" property="headline">Autodestrucción</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2010-02-28</time></li>
+				<li class="article-meta-date"><time property="datePublished">2010-02-28</time></li>
 				<div>
     <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 			</ul>
 			
 			<div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Hace un tiempo leí en alguna parte que la capacidad de Linux para ser modificado podía llevar incluso a su autodestrucción con un simple comando ejecutado como administrador. Me pareció más leyenda urbana que otra cosa pero ahora lo he visto con mis propios ojos y es realmente destructivo. Por supuesto no lo he probado y no le recomiendo a nadie que lo haga si no quiere matar a su distro. el comando en cuestión es:&nbsp;</span></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"><b>rm -rf /</b></span></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Si analizamos detenidamente la estructura del comando, este significa el borrado forzado y recurrente (ReMove Recursive Force) del directorio raíz que contiene todo el sistema de archivos. Aquí os dejo el vídeo para que veáis cómo afecta este comando a Ubuntu. Notaréis que el comando que utiliza es ligeramente distinto. En realidad es el mismo, solo cambia el directorio <b><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">/</span></b> por el comodín <b><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">* <span class="Apple-style-span" style="font-weight: normal;"><span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">y no utiliza la</span></span> f <span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><span class="Apple-style-span" style="font-weight: normal;">con lo que al final, el sistema no le permite borrar todos los archivos aunque queda inservible</span></span></span><span class="Apple-style-span" style="font-weight: normal;">.</span></b> También podéis encontrar vídeos en los que utilizan <b><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">rm -rfv /</span></b>. La <b><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">v</span></b> devuelve la lista de archivos eliminados para hacerlo un poco más macabro.&nbsp;</span></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span></div><div style="text-align: justify;"><object height="344" width="425"><param name="movie" value="http://www.youtube.com/v/YKHa8Uysa44&hl=es_ES&fs=1&color1=0x3a3a3a&color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/YKHa8Uysa44&hl=es_ES&fs=1&color1=0x3a3a3a&color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object><br /><span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><br /><span class="Apple-style-span" style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">DON'T TRY THIS AT </span><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"><b>/</b></span></div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

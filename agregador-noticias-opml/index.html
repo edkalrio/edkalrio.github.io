@@ -45,14 +45,15 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
+			<meta property="image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Opml-icon.svg/240px-Opml-icon.svg.png" />
 			
-			<h1 class="article-title">Una Alternativa a los Agregadores de Noticias</h1>
+			<h1 class="article-title" property="headline">Una Alternativa a los Agregadores de Noticias</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2019-05-06</time></li>
+				<li class="article-meta-date"><time property="datePublished">2019-05-06</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/rss/">
 						<b>#</b>RSS
@@ -92,6 +93,15 @@
 
 <p>Mi propósito con este post era hacer reflexionar a los programadores sobre la dirección de sus esfuerzos. Es posible que se sientan en la obligación de escribir programas complejos para defender su pericia, conocimientos y experiencia. Su trabajo puede depender de esas decisiones pero verdaderamente necesitamos tanto software? yo siempre sigo el mantra del programador taoísta: <em>&ldquo;the best code is no code&rdquo;</em>. En este ejemplo creo que queda bastante claro que el intermediario es totalmente prescindible, que únicamente aporta complejidad a una tarea que podemos resolver con un archivo estático, sin programación, simplemente apoyándonos en la potencia de RSS para crear una alternativa más robusta, flexible y simple, que va a quedarse alojada en el repositorio de <a href="https://github.com/edkalrio/edkalrio.github.io/blob/master/planetalibre.xml">GitHub</a> del blog, así que si alguien quiere cambiar algo puede hacer un <a href="https://github.com/edkalrio/edkalrio.github.io/pulls">pull request</a>.</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

@@ -47,14 +47,15 @@
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">/bin/true</h1>
+			
+			<h1 class="article-title" property="headline">/bin/true</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2018-02-27</time></li>
+				<li class="article-meta-date"><time property="datePublished">2018-02-27</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/unix/">
 						<b>#</b>Unix
@@ -71,6 +72,15 @@
 			</ul>
 			
 			<div style="text-align: justify;"><a href="http://herpolhode.com/rob/" rel="nofollow">Rob Pike</a> ha abierto un <a href="https://twitter.com/rob_pike/status/966896123548872705" rel="nofollow">hilo</a> de Twitter para recordar la historia de <span style="font-family: Courier New, Courier, monospace;">/bin/true</span> en los Bell Labs. Debo reconocer que no la conocía y me ha impresionado porque sintetiza de una forma muy satírica el problema principal del sobredesarrollo de software que domina el mercado. Dejo a continuación el contenido del hilo, formateado, para un mayor disfrute.&nbsp;</div><div style="text-align: justify;"></div><a name='more'></a><br /><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">/bin/true</span> used to be an empty file. The shell would open it, do nothing, and exit with a true status code.<br />When the Unix Support Group (development organization at Bell Labs) formalized everything, they gave it a long SCCS header, as they did every other file, and then needed to add <span style="font-family: Courier New, Courier, monospace;">exit 0</span>&nbsp;at the end. The file was therefore infinitely larger than before. At some point, somewhere (not sure where) it was decided this was poor engineering, probably because the shell spends time reading that big SCCS header as a comment one byte at a time. (It probably became a shell builtin somewhere along the line too, but that's for someone else to study.) The command moved to /usr/bin/true. I don't know when, where and especially why.<br />Eventually to avoid the unbearable overhead of executing a comment that shouldn't be there at all, someone rewrote true as a C program. What was once an empty file is now a non-portable executable binary compiled from C.<br />This is why we can't have good software. This program could literally have been an empty file, a nothing at all, a name capturing the essence perfectly. But the inexorable forces of improvement dictate we can't accept that, so here we are:<br /><span style="font-family: Courier New, Courier, monospace;">% file /usr/bin/true</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: &quot;Courier New&quot;, Courier, monospace;">/usr/bin/true: Mach-O 64-bit executable x86_64</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;"></span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">%&nbsp;</span><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: inherit;">Instead of:</span><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">% file true</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">true: empty</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">% true</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">% echo $?</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">0</span></blockquote><blockquote class="tr_bq" style="text-align: justify;"><span style="font-family: Courier New, Courier, monospace;">%</span></blockquote><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Sólo un par de aclaraciones. En Linux, al menos en Ubuntu, <span style="font-family: Courier New, Courier, monospace;">true</span> sigue en su localización original <span style="font-family: Courier New, Courier, monospace;">/bin/true</span> pero si ejecutamos file sobre sí, nos devuelve lo siguiente,&nbsp;</div><div style="text-align: left;"><span style="font-family: Courier New, Courier, monospace;">/bin/true: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=d4e71e09ee6d28ee19cc885cd4f18d2187f013cb, stripped</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">También debo reconocer que entiendo la preferencia por el binario. Si un root incompetente sobreescribiera <span style="font-family: Courier New, Courier, monospace;">/bin/true</span>, se produciría un fallo lógico masivo, pero no hay nada que justifique un programa más extenso que el <span style="font-family: Courier New, Courier, monospace;"><a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/usr.bin/true/true.c?rev=1.1" rel="nofollow">/bin/true</a></span> de OpenBSD, sistema caracterizado por la calidad, brevedad, seguridad y transparencia de su código.</div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

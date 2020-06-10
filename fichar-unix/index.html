@@ -47,14 +47,15 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Registro de la Jornada en Unix</h1>
+			
+			<h1 class="article-title" property="headline">Registro de la Jornada en Unix</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2019-06-18</time></li>
+				<li class="article-meta-date"><time property="datePublished">2019-06-18</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/unix/">
 						<b>#</b>UNIX
@@ -82,6 +83,15 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">last <span class="nv">$USER</span> --time-format iso -s <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span> -d <span class="s2">&#34;-1 month&#34;</span><span class="k">)</span> -t <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span><span class="k">)</span> <span class="p">|</span> cut -f <span class="m">28</span>-30 -d <span class="s1">&#39; &#39;</span></code></pre></div>
 <p>Cualquier administrador de sistemas puede obtener estos datos de todos los usuarios que se conecten al servidor central de la empresa para trabajar por SSH. El problema de este método es que las empresas no suelen trabajar así. Han abandonado el ecosistema de Unix y ahora tienen que enmendar su falta comprando cacharros o contratando apps de terceros que tienen acceso a sus datos. Ellos se lo pierden.</p>
 
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

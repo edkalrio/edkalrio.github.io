@@ -48,14 +48,15 @@ Además, ahora …">
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Elementary GTK</h1>
+			
+			<h1 class="article-title" property="headline">Elementary GTK</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2011-03-07</time></li>
+				<li class="article-meta-date"><time property="datePublished">2011-03-07</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/elementary-project/">
 						<b>#</b>elementary project
@@ -82,6 +83,15 @@ Además, ahora …">
 			</ul>
 			
 			<div class="separator" style="clear: both; text-align: center;"><a href="http://fc01.deviantart.net/fs71/i/2011/064/2/1/elementary_gtk_theme_by_danrabbit-d1dh7hd.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="250" src="http://fc01.deviantart.net/fs71/i/2011/064/2/1/elementary_gtk_theme_by_danrabbit-d1dh7hd.png" width="400" /></a></div><div style="text-align: justify;">El famosísimo tema GTK de DanRabbit ha sido actualizado a la versión 2.1. Entre las mejoras de esta versión se encuentran la compatibilidad con GTK 3 y el abandono del motor Aurora.</div><a name='more'></a><br /><div style="text-align: justify;">Además, ahora viene por defecto la versión oscura y es por esto por lo que os escribo. Me encanta la versión dark de elementary, incluso la he usado cuando no era más que una opción menor del tema pero ahora no va bien con mi escritorio. Si os pasa lo mismo que a mí no hay que preocuparse. Como todo en Linux, tiene una fácil solución.</div><div style="text-align: justify;">Primero abrimos una terminal y vamos a la carpeta del tema:</div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">cd /usr/share/themes/elementary/gtk-2.0</span></div><div style="text-align: justify;">Luego cambiamos los permisos del gtkrc:</div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">sudo chmod 777 gtkrc</span> No hace falta ser tan bestia pero yo no me complico la vida con los parámetros de chmod y siempre uso el "lucky seven".</div><div style="text-align: justify;">Abrimos el gtkrc con un editor de texto como gedit o cat si no queremos salir de la terminal y modificamos la línea 647 para que quede de la siguiente forma:</div><div style="text-align: justify;"><span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;">include "Apps/panel.rc"</span></div><div style="text-align: justify;">Guardamos, cerramos y reiniciamos Gnome para resucitar nuestro tema light.</div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>

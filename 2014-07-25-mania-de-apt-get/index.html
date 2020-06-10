@@ -48,14 +48,15 @@ Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en t
 <hr class="site-header-bottom">
 
 	<div class="main" role="main">
-		<article class="article">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
 			
 			
-			<h1 class="article-title">Manía de apt-get</h1>
+			
+			<h1 class="article-title" property="headline">Manía de apt-get</h1>
 			
 			<hr class="article-title-bottom">
 			<ul class="article-meta">
-				<li class="article-meta-date"><time>2014-07-25</time></li>
+				<li class="article-meta-date"><time property="datePublished">2014-07-25</time></li>
 				<li class="article-meta-tags">
 					<a href="/tags/linux/">
 						<b>#</b>Linux
@@ -77,6 +78,15 @@ Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en t
 			</ul>
 			
 			<div style="text-align: justify;">Sólo una breve reflexión sobre los bloggers.</div><a name='more'></a><br /><div style="text-align: justify;">Ya han pasado tres meses desde el lanzamiento de Ubuntu 14.04 y sigo viendo en todos los blogs que todavía utilizan el comando apt-get para instalar programas desde los repositorios. Se me plantea la duda de si lo hacen porque no saben que la última versión de Ubuntu trae el nuevo comando apt o porque quieren asegurar la retrocompatibilidad de sus comandos con los lectores que utilicen versiones antiguas del sistema operativo.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Personalmente, llevo usando apt desde el primer día. Supongo que todos mis lectores son lo suficientemente inteligentes como para instalar la última versión de Ubuntu (Debian o Linux Mint) o que sepan detectar ese problema de incompatibilidad con apt-get. Tarde o temprano, todos los blogs tendrán que dar el paso y olvidarse de apt-get, como en su día nos olvidamos de aptitude, porque la diferencia entre apt y apt-get no está solo en la forma de invocarlos. El manual de apt lo explica perfectamente:</div><blockquote class="tr_bq"><blockquote class="tr_bq" style="text-align: justify;">The apt command is meant to be pleasant for end users and does not need to be backward compatible like apt-get. Therefore some options are different:&nbsp;</blockquote></blockquote><blockquote class="tr_bq"><blockquote class="tr_bq"><ul><li style="text-align: justify;">The option DPkgPM::Progress-Fancy is enabled.</li><li style="text-align: justify;">The option APT::Color is enabled.</li><li style="text-align: justify;">A new list command is available similar to dpkg --list.</li><li style="text-align: justify;">The option upgrade has --with-new-pkgs enabled by default.</li></ul></blockquote></blockquote><div style="text-align: justify;">Me parecen suficientes razones como para relegar a apt-get al olvido, pero esto solo es una opinión personal.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">P.S. El título de este post pretende ser un homenaje al clásico de <a href="http://www.biblioteca.org.ar/libros/70336.pdf">Larra</a>.</div>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
 		</article>
 
 	</div>
