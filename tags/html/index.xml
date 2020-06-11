@@ -6,10 +6,20 @@
     <description>Recent content in Html on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Soporte para Búsqueda Enriquecida con RDFa</title>
+      <link>https://lunaticgeek.com/rdfa/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/rdfa/</guid>
+      <description>Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para Open Graph y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.
+Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en RDFa para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la Composition API de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior.</description>
+    </item>
     
     <item>
       <title>Uso de Emojis como SVG en Favicons</title>

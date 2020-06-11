@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Soporte para Búsqueda Enriquecida con RDFa - Lunatic Geek</title>
+  <meta property="og:title" content="Soporte para Búsqueda Enriquecida con RDFa - Lunatic Geek" />
+  <meta name="twitter:title" content="Soporte para Búsqueda Enriquecida con RDFa - Lunatic Geek" />
+  <meta name="description" content="Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para Open Graph y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.
+Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en RDFa para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la Composition API de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior.">
+  <meta property="og:description" content="Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para Open Graph y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.
+Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en RDFa para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la Composition API de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior.">
+  <meta name="twitter:description" content="Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/rdfa/" />
+  <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RDF_example_extended.svg/500px-RDF_example_extended.svg.png" />
+    <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RDF_example_extended.svg/500px-RDF_example_extended.svg.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+	<div class="main" role="main">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
+			
+			<meta property="image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RDF_example_extended.svg/500px-RDF_example_extended.svg.png" />
+			
+			<h1 class="article-title" property="headline">Soporte para Búsqueda Enriquecida con RDFa</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time property="datePublished">2020-06-11</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/html/">
+						<b>#</b>HTML
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/web/">
+						<b>#</b>Web
+					</a> 
+				</li>
+				<div>
+    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+			</ul>
+			
+			<p><center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RDF_example_extended.svg/500px-RDF_example_extended.svg.png" alt="" /></center></p>
+
+<p>Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para <a href="https://ogp.me/">Open Graph</a> y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.</p>
+
+<p>Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en <a href="https://www.w3.org/TR/rdfa-primer/">RDFa</a> para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la <a href="https://composition-api.vuejs.org/">Composition API</a> de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior. Espero no arrepentirme de esta decisión pero en cualquier caso, no es grave y puedo dar marcha atrás en cualquier momento.</p>
+
+<p>Escribo este post porque los datos estructurados en RDFa no son tan intuitivos como si los programáramos en JSON-LD. El principal problema radica en que nadie se ha leído la documentación y Google no ofrece ejemplos. Por esta razón he decidido resumir en un snippet básico la estructura que tendrían estos datos para que fueran aceptados como un <a href="https://developers.google.com/search/docs/data-types/article">artículo</a> válido por el buscador.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">article</span> <span class="na">vocab</span><span class="o">=</span><span class="s">&#34;https://schema.org/&#34;</span> <span class="na">typeof</span><span class="o">=</span><span class="s">&#34;BlogPosting&#34;</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">img</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;image&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://example.com/image.png&#34;</span> <span class="p">/&gt;</span>
+	<span class="p">&lt;</span><span class="nt">h3</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;headline&#34;</span><span class="p">&gt;</span>Title<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">time</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;datePublished&#34;</span><span class="p">&gt;</span>YYYY-MM-DDTHH:MM:SS<span class="p">&lt;/</span><span class="nt">time</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">div</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;author&#34;</span> <span class="na">typeof</span><span class="o">=</span><span class="s">&#34;Person&#34;</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;name&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;Author&#39;s Name&#34;</span> <span class="p">/&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">div</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;publisher&#34;</span> <span class="na">typeof</span><span class="o">=</span><span class="s">&#34;Organization&#34;</span><span class="p">&gt;</span>
+		<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;name&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;Organization&#39;s Name&#34;</span> <span class="p">/&gt;</span>
+		<span class="p">&lt;</span><span class="nt">div</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;logo&#34;</span> <span class="na">typeof</span><span class="o">=</span><span class="s">&#34;ImageObject&#34;</span><span class="p">&gt;</span>
+			<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">property</span><span class="o">=</span><span class="s">&#34;url&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;https://example.com/logo.png&#34;</span> <span class="p">/&gt;</span>
+		<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+	<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">article</span><span class="p">&gt;</span></code></pre></div>
+<p>Aunque hay campos en este ejemplo que no son obligatorios en artículos no-AMP, como los de esta web, me parecen datos muy razonables y recomendables. El snippet puede usarse con esquemas de tipo <code>BlogPosting</code> pero también con <code>Article</code> y <code>NewsArticle</code>. Como norma básica, si queremos que los datos no se muestren en la web, tendremos que utilizar la etiqueta <code>meta</code>.</p>
+
+<p>Es aconsejable comprobar que hemos estructurado bien el esquema con las herramientas que nos proporciona Google:</p>
+
+<ul>
+<li><a href="https://search.google.com/structured-data/testing-tool?hl=es#url=https%3A%2F%2Flunaticgeek.com%2Frdfa%2F">Herramienta de prueba de datos estructurados</a></li>
+<li><a href="https://search.google.com/test/rich-results?url=https%3A%2F%2Flunaticgeek.com%2Frdfa%2F&amp;user_agent=1">Prueba de resultados enriquecidos</a> (está en beta y no admite artículos no-AMP todavía pero podemos apañarlo añadiendo la etiqueta <code>html amp</code>)</li>
+</ul>
+
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
+		</article>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa"></img>
+    </a>
+    RW Labs 2020</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feeds.feedburner.com/lunaticgeek/Hmrm" type="application/rss+xml" target="_blank" title="RSS">
+        
+        <img src="/rss.svg" class="fa">
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <img src="/tor.svg" class="fa"></img>
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
