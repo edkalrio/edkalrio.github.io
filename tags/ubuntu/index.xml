@@ -6,10 +6,19 @@
     <description>Recent content in Ubuntu on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>El Fósil de un Rolling Rhino</title>
+      <link>https://lunaticgeek.com/rolling-rhino/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/rolling-rhino/</guid>
+      <description>Las últimas noticias de Canonical nos anuncian el lanzamiento de una distro no oficial basada en Ubuntu Daily con un ciclo de actualizaciones continuo. Todo el mundo lleva años pidiendo una alternativa rolling release al actual modelo de actualizaciones de Ubuntu basado en LTS cada dos años y versiones &amp;ldquo;desechables&amp;rdquo; cada 6 meses. Como no podía ser de otra forma empecé a leer la presentación del proyecto con el entusiasmo de un usuario que lleva doce años exigiendo este cambio pero el código revela la dura realidad del clickbait.</description>
+    </item>
     
     <item>
       <title>Compilación de i3wm en Ubuntu 18.04</title>
