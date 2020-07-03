@@ -6,10 +6,19 @@
     <description>Recent content in R on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aventuras y Misterios d12</title>
+      <link>https://lunaticgeek.com/aventuras-y-misterios-d12/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/aventuras-y-misterios-d12/</guid>
+      <description>El d12 es la oveja negra de la familia de dados roleros. En muchos juegos no se usa y en otros se infrautiliza. Aprovechando el concurso de módulos de grapas y mapas para Aventuras y Misterios, voy a portar este sencillo juego creado por los Enekos y pensado para los padres que quieren iniciar a sus retoños en el mundo del rol a un sistema equivalente que solo necesita un d12 en vez de los 6d6 que hay que rodar en ocasiones con las reglas originales.</description>
+    </item>
     
     <item>
       <title>Cadenas de Markov en Hex Flores</title>

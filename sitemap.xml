@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/aventuras-y-misterios-d12/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/rolling-rhino/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
   </url>
@@ -2441,6 +2446,12 @@
   </url>
   
   <url>
+    <loc>https://lunaticgeek.com/tags/aventuras-y-misterios/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/back-to-the-future/</loc>
     <lastmod>2010-07-27T13:11:00+02:00</lastmod>
     <priority>0</priority>
@@ -2700,7 +2711,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
-    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2827,6 +2838,12 @@
   <url>
     <loc>https://lunaticgeek.com/tags/gpu/</loc>
     <lastmod>2010-09-01T23:21:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/grapas-y-mapas/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3018,7 +3035,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3072,7 +3089,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
-    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3360,7 +3377,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/r/</loc>
-    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3432,7 +3449,7 @@
   
   <url>
     <loc>https://lunaticgeek.com/tags/rol/</loc>
-    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

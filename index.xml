@@ -6,10 +6,174 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Aventuras y Misterios d12</title>
+	  <link>https://lunaticgeek.com/aventuras-y-misterios-d12/</link>
+	  <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/aventuras-y-misterios-d12/</guid>
+	  <description>
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://bebeamordor.com/wp-content/uploads/2020/04/Aventuras-y-Misterios.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;El &lt;code&gt;d12&lt;/code&gt; es la oveja negra de la familia de dados roleros. En muchos juegos no se usa y en otros se infrautiliza. Aprovechando el concurso de módulos de &lt;a href=&#34;https://grapasymapas.com/aym&#34;&gt;grapas y mapas&lt;/a&gt; para &lt;a href=&#34;https://grapasymapas.com/post/167941550504&#34;&gt;Aventuras y Misterios&lt;/a&gt;, voy a portar este sencillo juego creado por los &lt;a href=&#34;https://eltomocarmesi.blogspot.com/2017/11/aventuras-y-misterios-rol-para-peques.html&#34;&gt;Enekos&lt;/a&gt; y pensado para los padres que quieren iniciar a sus retoños en el mundo del rol a un sistema equivalente que solo necesita un &lt;code&gt;d12&lt;/code&gt; en vez de los &lt;code&gt;6d6&lt;/code&gt; que hay que rodar en ocasiones con las reglas originales.&lt;/p&gt;
+
+&lt;p&gt;El &lt;code&gt;d12&lt;/code&gt; es un dado con unas propiedades fantásticas que los diseñadores no han terminado de explorar. Por un lado el 12 es un número &lt;a href=&#34;https://en.wikipedia.org/wiki/Highly_composite_number&#34;&gt;antiprimo&lt;/a&gt; y el dodecaedro es el sólido platónico más esférico, un 6% más que el icosaedro, por lo que rueda por mesa a la perfección. Al ser el doble del &lt;code&gt;d6&lt;/code&gt; podemos escalar las mecánicas basadas en este (como &lt;a href=&#34;https://github.com/amazingrando/blades-in-the-dark-srd-content/blob/master/Blades-in-the-Dark-SRD.md&#34;&gt;blades in the dark&lt;/a&gt;) afectando a la volatilidad de las tiradas pero también a su precisión, y lo mismo se puede decir de forma aproximada para los juegos que hacen uso de &lt;code&gt;2d6&lt;/code&gt; como los &lt;a href=&#34;https://rolepedia.rpgutilities.com/cdb-engine&#34;&gt;CdB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Las &lt;a href=&#34;https://drive.google.com/file/d/1H3hZyVJkjWZdVoZVZqu1tqnsDm1kHaZ4/view&#34;&gt;reglas&lt;/a&gt; originales de Aventuras y Misterios son extremadamente breves pero voy a resumirlas aún más para poder compararlas con mi propuesta de d12.&lt;/p&gt;
+
+&lt;h4 id=&#34;resolver-acciones-resultado-mayor-de-nd6&#34;&gt;Resolver acciones (resultado mayor de Nd6):&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;1d6&lt;/code&gt; siempre que la acción no sea imposible de realizar.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+1d6&lt;/code&gt; si la prueba está relacionada con su papel o el personaje es bueno en ello.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+1d6&lt;/code&gt; si hay algo que le ayude (un objeto especial, un compañero, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;dificultad-a-superar-dc&#34;&gt;dificultad a superar (DC):&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4 – normal (más fácil es éxito automático, no es necesario hacer una prueba).&lt;/li&gt;
+&lt;li&gt;5 – difícil.&lt;/li&gt;
+&lt;li&gt;6 – muy difícil.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;enfrentamientos&#34;&gt;Enfrentamientos:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;El número de dados que debe tirar cada jugador sigue la regla de resolución de acciones. Quien saque el número mayor en alguno de los dados gana. En caso de haber un empate, y si este carece de sentido, se repite la tirada.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Es en este apartado de enfrentamientos donde el sistema revela su mayor punto débil. Al generarse las puntuaciones del combate con el dado mayor, seguirán una distribución exponencial que frente a otra de idéntico parámetro es equivalente a una resta. En cuyo caso la función final se transforma en una &amp;mdash;poco común&amp;mdash; distribución de &lt;a href=&#34;https://en.wikipedia.org/wiki/Laplace_distribution&#34;&gt;Laplace&lt;/a&gt;, caracterizada por la extrema leptocurticidad de su forma, que genera un preocupante número de empates en partida. Cuando el conflicto se produce tirando 2d6 cada jugador, tendrán que repetir una de cada cinco jugadas por culpa del empate.&lt;/p&gt;
+
+&lt;p&gt;El sistema de Aventuras y Misterios es tan breve que puede expresarse como el conjunto de todos los resultados obtenidos porque solo son 9 en resolución de acciones y otros tantos en enfrentamientos. Se obtienen las probabilidades de todo el espacio poblacional y se intentan interpolar con las que se generan en un d12 cuando se supera cierta dificultad.&lt;/p&gt;
+
+&lt;p&gt;Los resultados son bastante regulares aunque no lineales pero pueden sintetizarse aceptablemente en unas reglas sencillas y rápidas que quedarían como se presentan a continuación.&lt;/p&gt;
+
+&lt;h4 id=&#34;resolver-acciones&#34;&gt;Resolver acciones:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;+3&lt;/code&gt; si la prueba está relacionada con su papel o el personaje es bueno en ello.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+1&lt;/code&gt; si hay algo que le ayude (un objeto especial, un compañero, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;dificultad-a-superar-dc-1&#34;&gt;dificultad a superar (DC):&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;7 – normal (más fácil es éxito automático, no es necesario hacer una prueba).&lt;/li&gt;
+&lt;li&gt;9 – difícil.&lt;/li&gt;
+&lt;li&gt;11 – muy difícil.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;enfrentamientos-1&#34;&gt;Enfrentamientos:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hay tres niveles de dificultad a superar que equivalen a los dados que tendría el PNJ en las reglas originales, para &lt;code&gt;1d6&lt;/code&gt;, &lt;code&gt;2d6&lt;/code&gt;, &lt;code&gt;3d6&lt;/code&gt; ahora tendríamos DC &lt;code&gt;8&lt;/code&gt;, &lt;code&gt;10&lt;/code&gt; y &lt;code&gt;11&lt;/code&gt; acompañados de unos bonos para el PJ de &lt;code&gt;+2&lt;/code&gt; y &lt;code&gt;+1&lt;/code&gt; con las mismas condiciones que la resolución de acciones.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si nos paramos a comprobar las nuevas reglas se aprecian ciertas irregularidades y huecos que podrían ser rellenados con nuevas dificultades o bonos con valores intermedios que nos dan más flexibilidad y un sentido de progresión lineal que no existía con el sistema 2d6. La solución planteada es, por tanto, más extensible y preciso sin perder la facilidad de utilizar un solo dado para todas las tiradas que ya solo se resuelven con una mecánica de &lt;code&gt;d12&lt;/code&gt; + bonus ≥ DC, acercándose a los procedimientos utilizados en el juego de rol más popular del mundo. La única pega que encuentro en este nuevo procedimiento de combate es que no hace explícita la iniciativa que podría determinarse de forma narrativa, por orden del DM o de forma aleatoria.&lt;/p&gt;
+
+&lt;p&gt;Por último, a modo de demostración de la bondad del ajuste del sistema d12 (azul) con el antiguo (rojo), he elaborado dos gráficas en las que aparecen todas las tiradas de resolución de acciones y enfrentamientos para que se aprecie que las probabilidades de éxito/fracaso son tan similares que en mesa difícilmente llegarían a apreciarse.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d12_resolucion_acciones.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d12_enfrentamiento.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;!--
+output 1@1d6 - 1@3d6&gt;0
+output d12 &gt;= 11
+output 1@2d6 - 1@3d6&gt;0
+output d12 &gt;= 10
+output 1@3d6 - 1@3d6&gt;0
+output d12 &gt;= 9
+
+output 1@1d6 - 1@2d6&gt;0
+output d12 &gt;= 10
+output 1@2d6 - 1@2d6&gt;0
+output d12 &gt;= 8
+output 1@3d6 - 1@2d6&gt;0
+output d12 &gt;= 7
+
+output 1@1d6 - 1@1d6&gt;0
+output d12 &gt;= 8
+output 1@2d6 - 1@1d6&gt;0
+output d12 &gt;= 6
+output 1@3d6 - 1@1d6&gt;0
+output d12 &gt;= 5
+
+
+output 1@1d6&gt;=4
+output d12&gt;=7
+output 1@1d6&gt;=5
+output d12&gt;=9
+output 1@1d6&gt;=6
+output d12&gt;=11
+
+output 1@2d6&gt;=4
+output d12&gt;=4
+output 1@2d6&gt;=5
+output d12&gt;=6
+output 1@2d6&gt;=6
+output d12&gt;=9
+
+output 1@3d6&gt;=4
+output d12&gt;=3
+output 1@3d6&gt;=5
+output d12&gt;=5
+output 1@3d6&gt;=6
+output d12&gt;=8
+
+
+
+output 1@1d6 - 1@3d6&gt;0
+output 1@1d6 - 1@2d6&gt;0
+output 1@2d6 - 1@3d6&gt;0
+output 1@3d6 - 1@3d6&gt;0
+output 1@2d6 - 1@2d6&gt;0
+output 1@1d6 - 1@1d6&gt;0
+output 1@3d6 - 1@2d6&gt;0
+output 1@2d6 - 1@1d6&gt;0
+output 1@3d6 - 1@1d6&gt;0
+output d12 &gt;= 11
+output d12 &gt;= 10
+output d12 &gt;= 10
+output d12 &gt;= 9
+output d12 &gt;= 8
+output d12 &gt;= 8
+output d12 &gt;= 7
+output d12 &gt;= 6
+output d12 &gt;= 5
+(17.3611111111, 25.462962963, 28.0735596708, 35.2301954733, 38.9660493827, 41.6666666667, 47.1579218107, 57.8703703704, 65.9722222222)
+(16.6666666667, 25, 25, 33.3333333333, 41.6666666667, 41.6666666667, 50, 58.3333333333, 66.6666666667)
+
+output 1@1d6&gt;=6
+output 1@2d6&gt;=6
+output 1@1d6&gt;=5
+output 1@3d6&gt;=6
+output 1@1d6&gt;=4
+output 1@2d6&gt;=5
+output 1@3d6&gt;=5
+output 1@2d6&gt;=4
+output 1@3d6&gt;=4
+output d12&gt;=11
+output d12&gt;=9
+output d12&gt;=9
+output d12&gt;=8
+output d12&gt;=7
+output d12&gt;=6
+output d12&gt;=5
+output d12&gt;=4
+output d12&gt;=3
+(16.6666666667, 30.5555555556, 33.3333333333, 42.1296296296, 50, 55.5555555556, 70.3703703704, 75, 87.5)
+(16.6666666667, 33.3333333333, 33.3333333333, 41.6666666667, 50, 58.3333333333, 66.6666666667, 75, 83.3333333333)
+
+--&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>El Fósil de un Rolling Rhino</title>
