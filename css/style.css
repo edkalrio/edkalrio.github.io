@@ -60,6 +60,17 @@ body {
 	hyphens: auto;
 	text-align: justify;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #ddd;
+		background-color: black;
+	}
+	h1 img {
+		filter: invert(.25);
+	}
+}
+
 a {
 	color: #2060d0;
 	text-decoration: none;
