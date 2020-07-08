@@ -6,10 +6,126 @@
 	<description>Recent content on Lunatic Geek</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>es</language>
-	<lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
 	
 		<atom:link href="https://lunaticgeek.com/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+	  <title>Licencias Permisivas</title>
+	  <link>https://lunaticgeek.com/licencias-permisivas/</link>
+	  <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+	  
+	  <guid>https://lunaticgeek.com/licencias-permisivas/</guid>
+	  <description>
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://opensource.org/files/OSIApproved.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Ha sido toda una sorpresa encontrar en &lt;a href=&#34;https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/&#34;&gt;Ars Technica&lt;/a&gt; una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.&lt;/p&gt;
+
+&lt;p&gt;Since the BSD two-clause license is considerably more clear, both in its own text and in what &amp;ldquo;BSD two-clause license&amp;rdquo; refers to in normal use, we strongly recommend its use instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Me ha extrañado tanto esta rotunda afirmación que he decidido repasar sendas licencias para comprobar por mí mismo si la hipótesis de Ars Technica se sustenta.&lt;/p&gt;
+
+&lt;p&gt;Para empezar, hay que tener en cuenta que estas se agrupan en la tipología de licencias permisivas, es decir, sin copyleft por lo que las obras derivadas no tienen obligatoriamente que conservar la licencia original.&lt;/p&gt;
+
+&lt;p&gt;Se estructuran en las siguientes partes
+- Aviso de derechos de autor
+- Concesión
+- Cláusulas
+- Descargo&lt;/p&gt;
+
+&lt;h3 id=&#34;bsd-2-clause&#34;&gt;BSD-2-Clause&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;COPYRIGHT HOLDER&amp;gt;
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &amp;quot;AS IS&amp;quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;mit&#34;&gt;MIT&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;COPYRIGHT HOLDER&amp;gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Analizando detenidamente las licencias he podido corroborar mi idea original de que Ars Technica se equivoca. No encuentro ambiguedad en la redacción de la MIT ni mayor claridad en la BSD-2-Clause. Las concesiones de la MIT amplían los conceptos del derecho de redistribución y uso de la BSD-2-Clause con los de copia, modificación, mezcla, publicación, distribución, venta y subrogación. Las cláusulas de la BSD-2-Clause son lígeramente más claras porque explicitan la inclusión de la licencia en redistribuciones de binarios aunque en la MIT se sobreentiende que deben figurar en la documentación asociada. Además encuentro el descargo de responsabilidad de la BSD-2-Clause innecesariamente farragoso.&lt;/p&gt;
+
+&lt;p&gt;Este análisis es muy similar al que debieron de hacer en la NCSA cuando decidieron mezclar las mejores partes de estas dos licencias para crear otra nueva, porque nunca hay demasiadas licencias cuando sufres del síndrome de &lt;a href=&#34;https://en.wikipedia.org/wiki/Not_invented_here&#34;&gt;NIH&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ncsa&#34;&gt;NCSA&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Copyright (c) &amp;lt;YEAR&amp;gt; &amp;lt;OWNER ORGANIZATION NAME&amp;gt;.  All rights reserved.
+
+
+Developed by: &amp;lt;NAME OF DEVELOPMENT GROUP&amp;gt;
+              &amp;lt;NAME OF INSTITUTION&amp;gt;
+              &amp;lt;URL FOR DEVELOPMENT GROUP/INSTITUTION&amp;gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal with
+the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to
+do so, subject to the following conditions:
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimers.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimers in the documentation
+  and/or other materials provided with the distribution.
+* Neither the names of &amp;lt;NAME OF DEVELOPMENT GROUP&amp;gt;, &amp;lt;NAME OF INSTITUTION&amp;gt;,
+  nor the names of its contributors may be used to endorse or promote products
+  derived from this Software without specific prior written permission.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
+SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La NCSA combina el apartado de concesiones y el descargo de la MIT con las cláusulas de la BSD-3-Clause.
+Incluso si le concediésemos a Ars Technica la razón, su recomendación de la BSD-2-Clause no parece la alternativa óptima. Si se busca la claridad en el texto no me parece que haya ninguna mejor que la licencia ISC, desarrollada por el Internet Systems Consortium, aprobada por la FSF y la OSI.&lt;/p&gt;
+
+&lt;h3 id=&#34;isc&#34;&gt;ISC&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;OWNER&amp;gt;
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La moraleja de toda esta revisión es que como economista especializado en derecho mercantil, recomiendo utilizar la licencia permisiva que cada cual prefiera. Todas presentan los mismos derechos y obligaciones con redacciones suficientemente similares y son igualmente válidas ante los tribunales en caso de conflicto entre partes. Personalmente mi preferida es la ISC pero nunca la he utilizado porque la MIT es la elección estándar. Todos los programadores la conocen y saben utilizarla. Si queremos ponernos exóticos podríamos incluso acudir a la licencia Fair.&lt;/p&gt;
+
+&lt;h3 id=&#34;fair&#34;&gt;Fair&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;Copyright Information&amp;gt;
+
+Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
+
+DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Insisto, usa la que más te guste. Es una elección irrelevante.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 	  <title>Aventuras y Misterios d12</title>

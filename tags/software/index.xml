@@ -6,19 +6,18 @@
     <description>Recent content in Software on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lunaticgeek.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Uso de Emojis como SVG en Favicons</title>
+      <title>Licencias Permisivas</title>
       <link>https://lunaticgeek.com/licencias-permisivas/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/licencias-permisivas/</guid>
-      <description>![]()
-A sido toda una sorpresa encontrar en Ars Technica una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:
+      <description>Ha sido toda una sorpresa encontrar en Ars Technica una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:
  Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.</description>
     </item>
     
