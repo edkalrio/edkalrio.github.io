@@ -6,19 +6,19 @@
 <generator>Made with WIT</generator>
 <language>es</language>
 <lastBuildDate>Wed, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
-<atom:link href="https://feed.lunaticgeek.com" rel="self" type="application/rss+xml"/>
+<atom:link href="https://lunaticgeek.com/aviso-rss.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title>⚠️ AVISO RSS LUNATICGEEK.COM</title>
-<link>https://feed.lunaticgeek.com</link>
-<pubDate>Wed, 09 Jul 2020 00:00:00 +0000</pubDate>
-<guid>https://feed.lunaticgeek.com</guid>
-<description>
-<p>Esto es un aviso para todos los que sigan leyendo el blog a través de la antigua dirección de RSS.</p>
-<p>Feedburner apesta. Solo da problemas, no permite mantener un feed completo porque es demasiado grande y está abandonado desde que Google declaró obsoleto el RSS hace años.</p>
-<p>Para todos los que creemos que la única forma razonable de consumir contenido web es a través de los servicios de sindicación, tener una versión RSS es imprescindible y no vamos a renunciar a esta buena práctica.</p>
-<p>Hace ya tiempo que venimos ofreciendo nuestro propio RSS (en realidad ATOM) de forma paralela al que se publica en feedburner en <a href="https://feed.lunaticgeek.com">https://feed.lunaticgeek.com</a>. Esta nueva dirección pasa a ser la única oficial para la distribución del contenido sindicado del blog. Es en el fondo una dirección abstracta que redirige automáticamente (HTTP 301) para poder mover el contenido en el futuro sin que afecte al origen</p>
-<p>Si todavía no has migrado a la nueva dirección y quieres seguir leyendo nuestras entradas por RSS, este es el momento de actualizar a <a href="https://feed.lunaticgeek.com">https://feed.lunaticgeek.com</a></p>
-</description>
+	<title>⚠️ AVISO RSS LUNATICGEEK.COM</title>
+	<link>https://lunaticgeek.com/aviso-rss.xml</link>
+	<pubDate>Wed, 09 Jul 2020 00:00:00 +0000</pubDate>
+	<guid>https://lunaticgeek.com/aviso-rss.xml</guid>
+	<description>
+		<p>Esto es un aviso para todos los que sigan leyendo el blog a través de la antigua dirección de RSS.</p>
+		<p>Feedburner apesta. Solo da problemas, no permite mantener un feed completo porque es demasiado grande y está abandonado desde que Google declaró obsoleto el RSS hace años.</p>
+		<p>Para todos los que creemos que la única forma razonable de consumir contenido web es a través de los servicios de sindicación, tener una versión RSS es imprescindible y no vamos a renunciar a esta buena práctica.</p>
+		<p>Hace ya tiempo que venimos ofreciendo nuestro propio RSS (en realidad ATOM) de forma paralela al que se publica en feedburner en <a href="https://feed.lunaticgeek.com">https://feed.lunaticgeek.com</a>. Esta nueva dirección pasa a ser la única oficial para la distribución del contenido sindicado del blog. Es en el fondo una dirección abstracta que redirige automáticamente (HTTP 301) para poder mover el contenido en el futuro sin que afecte al origen</p>
+		<p>Si todavía no has migrado a la nueva dirección y quieres seguir leyendo nuestras entradas por RSS, este es el momento de actualizar a <a href="https://feed.lunaticgeek.com">https://feed.lunaticgeek.com</a></p>
+	</description>
 </item>
 </channel>
 </rss>
