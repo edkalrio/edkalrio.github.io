@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -72,18 +73,12 @@
 </div>
 			</ul>
 			
-			<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
-
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Alice_par_John_Tenniel_25.png" alt="" /></p>
-
+			<!-- raw HTML omitted -->
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Alice_par_John_Tenniel_25.png" alt=""></p>
 <p>Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.</p>
-
 <p>Aunque mis posts han ido evolucionando desde los generalistas del principio hasta los más oscuros y herméticos que escribo últimamente, pero siempre he estado orgulloso del contenido de mi blog. Sin embargo, el continente ha estado por debajo de mis expectativas. Empecé en blogger porque era inmediato y parte de la infraestructura de Google. Desde el principio, esta decisión precipitada me ocasionó problemas si intentaba modificar mínimamente el CSS.</p>
-
 <p>Llevo ya mucho tiempo estudiando una forma de superar las severas limitaciones de blogger y por primera vez, puedo estar orgulloso del resultado gracias a WIT. WIT es un ecosistema de publicación basado en una configuración personalizada de <a href="https://github.com/gohugoio/hugo">Hugo</a>, el generador de webs estáticas y de una serie de scripts propios que consiguen automatizar y personalizar la regeneración del blog hasta publicar desde Sublime pulsando F7 sin preocuparme por los metadatos ni el despliegue en Github Pages y el resto de procesos tediosos que implica publicar.</p>
-
 <p>Todavía me quedan pulir un par de cosas pero ya está lo suficientemente maduro como para llevarlo a producción. Las ventajas que este nuevo sistema van a traer al blog son las siguientes:</p>
-
 <ul>
 <li>Redacción en formato <a href="https://github.github.com/gfm/">GFM</a>.</li>
 <li>&ldquo;Horneado&rdquo; estático del blog para una velocidad sin precedentes.</li>
@@ -93,11 +88,8 @@
 <li>Control total del CSS.</li>
 <li>Soporte nativo para <a href="https://www.mathjax.org/">MathJax</a>.</li>
 </ul>
-
-<p>$$ \zeta (s)={\frac {1}{\Gamma (s)}}\int _{0}^{\infty }{\frac {1}{e^{x}-1}}\,x^{s}{\frac {\mathrm {d} x}{x}} $$</p>
-
-<p>$$ \Gamma (s)=\int _{0}^{\infty }e^{-x}\,x^{s}{\frac {\mathrm {d} x}{x}} $$</p>
-
+<p>$$ \zeta (s)={\frac {1}{\Gamma (s)}}\int _{0}^{\infty }{\frac {1}{e^{x}-1}},x^{s}{\frac {\mathrm {d} x}{x}} $$</p>
+<p>$$ \Gamma (s)=\int _{0}^{\infty }e^{-x},x^{s}{\frac {\mathrm {d} x}{x}} $$</p>
 <ul>
 <li>Snippets de código con el tema solarized por defecto.</li>
 </ul>
@@ -106,19 +98,16 @@
 <span class="n">main</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="n">printf</span><span class="p">(</span><span class="s">&#34;hello, world</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
-<ul>
+<span class="p">}</span>
+</code></pre></div><ul>
 <li>Agregador de feeds para poder compartir noticias de terceros por RSS.</li>
 <li>Acceso a través de Tor en <a href="https://tor.lunaticgeek.com">https://tor.lunaticgeek.com</a></li>
 <li>HTTP/2</li>
 <li>TLS 1.3</li>
 <li>QUIC (próximamente)</li>
 </ul>
-
 <p>Tengo pensado conservar el antiguo blog en su dirección primigenia por motivos archivísticos. Sobre este, he realizado una serie de <a href="https://gtmetrix.com/compare/jUQI5xpT/KC0vlnAA">tests</a> para comprobar la potencia de WIT y los resultados son asombrosos. También lo he comparado con otros blogs del mismo sector y temática pero no voy a publicar los resultados porque no busco el salseo, pero las diferencias son abismales.</p>
-
 <p>También debo reconocer el valor inestimable de <a href="https://www.cloudflare.com/">Cloudflare</a>, nuestro CDN que nos trae las últimas tecnologías de internet de forma totalmente gratuita y de <a href="https://pages.github.com/">GitHub Pages</a>, nuestro proveedor de hosting que si bien ha sido criticado duramente en los últimos meses por su venta a Microsoft, sigue siendo el principal punto de encuentro de desarrolladores de software libre y un oasis para todos los que queremos desplegar páginas web estáticas.</p>
-
 <p>Espero seguir por aquí dentro de otros nueve años, aprendiendo, mejorando y divirtiéndome como el primer día.</p>
 
 			<div property="author" typeof="Person">
@@ -138,7 +127,7 @@
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -146,12 +135,12 @@
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

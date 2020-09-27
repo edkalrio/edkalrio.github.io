@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Namecheap on Lunatic Geek</title>
+    <title>namecheap on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/namecheap/</link>
-    <description>Recent content in Namecheap on Lunatic Geek</description>
+    <description>Recent content in namecheap on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 23 Aug 2017 13:18:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Aug 2017 13:18:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hasta la vista, Godaddy 🖕</title>
       <link>https://lunaticgeek.com/2017-08-23-hasta-la-vista-godaddy/</link>

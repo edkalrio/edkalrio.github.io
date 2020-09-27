@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Torrent on Lunatic Geek</title>
+    <title>torrent on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/torrent/</link>
-    <description>Recent content in Torrent on Lunatic Geek</description>
+    <description>Recent content in torrent on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 20 Aug 2014 19:34:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/torrent/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 Aug 2014 19:34:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/torrent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Futuro de las Aplicaciones de Mensajería</title>
       <link>https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/</link>

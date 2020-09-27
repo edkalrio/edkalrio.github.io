@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -82,18 +83,12 @@
 </div>
 			</ul>
 			
-			<p><center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Opml-icon.svg/240px-Opml-icon.svg.png" alt="" /></center></p>
-
+			<!-- raw HTML omitted -->
 <p><a href="https://lobste.rs/">Lobsters</a> y <a href="https://news.ycombinator.com/">Hacker News</a> son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del <a href="/arreglando-twitter/">RSS</a>.</p>
-
 <p>Para abordar el tema, voy a establecer una alternativa para <a href="https://victorhck.gitlab.io/planetalibre/">PlanetaLibre</a>, el agregador mantenido por el compañero <a href="https://victorhckinthefreeworld.com/">victorhck</a>, que tiene el tamaño y características perfectas para modificarlo sin demasiado esfuerzo por mi parte.</p>
-
 <p>La gran carencia de este servicio es que sólo se actualiza dos veces al día porque tiene que ejecutarse un cronjob en un servidor Python que recopila las fuentes y actualiza la página. Esta arquitectura monolítica no permite una selección de las fuentes (a no ser que se apliquen filtros en el cliente RSS) e incluso modifica los posts originales, eliminando el contenido para conservar y difundir exclusivamente el título y la descripción.</p>
-
 <p>Me parece mucho más interesante mantener una lista de blogs para que la gente pueda suscribirse en masa y esto es posible gracias a <a href="http://dev.opml.org/spec2.html">OPML</a>, el formato que normalmente se utiliza para hacer copias de seguridad de los clientes RSS pero que ofrece funcionalidades más allá. De hecho, si publicamos el OPML en un servidor web podremos suscribirnos a la URL, directamente, sin necesidad de importarlo. Además, algunos clientes ofrecen la posibilidad de actualizar las suscripciones cuando se modifique el OPML de origen con lo que conseguimos un comportamiento dinámico de un archivo estático porque todo el trabajo lo hace el cliente RSS, que mantiene la conexión individualizada con cada dirección de la lista. Y esta dirección es la original, sin modificaciones introducidas por ningún intermediario.</p>
-
 <p>Si quieres probar el concepto, tienes que suscribirte a la dirección <a href="/planetalibre.xml">https://lunaticgeek.com/planetalibre.xml</a>. Por supuesto no tendría interfaz web, que en mi opinión es una solución inferior a RSS aunque podríamos darle formato al archivo OPML con una hoja de estilo XSL como ya comenté <a href="/arreglando-twitter/">aquí</a>. Después de todo, no deja de ser un subconjunto de XML.</p>
-
 <p>Mi propósito con este post era hacer reflexionar a los programadores sobre la dirección de sus esfuerzos. Es posible que se sientan en la obligación de escribir programas complejos para defender su pericia, conocimientos y experiencia. Su trabajo puede depender de esas decisiones pero verdaderamente necesitamos tanto software? yo siempre sigo el mantra del programador taoísta: <em>&ldquo;the best code is no code&rdquo;</em>. En este ejemplo creo que queda bastante claro que el intermediario es totalmente prescindible, que únicamente aporta complejidad a una tarea que podemos resolver con un archivo estático, sin programación, simplemente apoyándonos en la potencia de RSS para crear una alternativa más robusta, flexible y simple, que va a quedarse alojada en el repositorio de <a href="https://github.com/edkalrio/edkalrio.github.io/blob/master/planetalibre.xml">GitHub</a> del blog, así que si alguien quiere cambiar algo puede hacer un <a href="https://github.com/edkalrio/edkalrio.github.io/pulls">pull request</a>.</p>
 
 			<div property="author" typeof="Person">
@@ -113,7 +108,7 @@
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -121,12 +116,12 @@
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

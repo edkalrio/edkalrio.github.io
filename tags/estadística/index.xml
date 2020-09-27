@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Estadística on Lunatic Geek</title>
+    <title>estadística on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/estad%C3%ADstica/</link>
-    <description>Recent content in Estadística on Lunatic Geek</description>
+    <description>Recent content in estadística on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/estad%C3%ADstica/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/estad%C3%ADstica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aventuras y Misterios d12</title>
       <link>https://lunaticgeek.com/aventuras-y-misterios-d12/</link>

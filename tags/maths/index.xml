@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maths on Lunatic Geek</title>
+    <title>maths on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/maths/</link>
-    <description>Recent content in Maths on Lunatic Geek</description>
+    <description>Recent content in maths on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 26 Mar 2014 20:05:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/maths/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 26 Mar 2014 20:05:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/maths/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cálculo mental para informáticos</title>
       <link>https://lunaticgeek.com/2014-03-26-calculo-mental-para-informaticos/</link>

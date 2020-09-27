@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -35,7 +35,7 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -84,29 +85,24 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
 </div>
 			</ul>
 			
-			<p><img src="https://obs.line-scdn.net/0h77N7YnTTaBhzTkRhIzMXT1kMc3YdKjEdH3d4KhVQZildKnsdSCglKwVMZCAOKSlJR30megIeNHpdfy5OSSEndgQdMyxeempPSSx3d1NOZg" alt="" /></p>
-
+			<p><img src="https://obs.line-scdn.net/0h77N7YnTTaBhzTkRhIzMXT1kMc3YdKjEdH3d4KhVQZildKnsdSCglKwVMZCAOKSlJR30megIeNHpdfy5OSSEndgQdMyxeempPSSx3d1NOZg" alt=""></p>
 <p>Tras años de desarrollo, WhatsApp ha lanzado su servicio de <a href="https://blog.whatsapp.com/10000653/Introducing-Stickers">stickers</a>, función disponible en la práctica totalidad de aplicaciones de chat móvil y que es <em>leitmotiv</em> y principal fuente de ingresos de su rival, Line.</p>
-
 <p>Por extraño que parezca, formo parte de ese porcentaje marginal de personas que no utiliza WhatsApp. Al principio, la falta de seguridad fue el principal motivo para elegir Line como app de mensajería y obligar a todos mis amigos a utilizar este canal de comunicación si querían mantener el contacto conmigo. Sin embargo, esta razón hace mucho que <a href="https://lunaticgeek.com/2012-08-29-por-que-whatsapp-ya-no-es-una-mierda/">dejó de aplicarse</a> y su colaboración con <a href="https://signal.org/blog/whatsapp-complete/">Signal</a> ha convertido a WhatsApp en una aplicación de referencia en cuanto a privacidad. Aunque WhatsApp debería llevar a cabo una serie de <a href="https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/">medidas</a> para mejorar su diseño, ya considero que resulta una app viable y recomendable para cualquier usuario. Entonces, la razón por la que no migraba a este servicio en el que está todo el mundo es tan absurda que resulta embarazosa. Con el tiempo he llegado a encariñarme con los stickers de Line e incluso he cometido la ignominia de gastarme dinero en comprar algunos paquetes de stickers como si fuera una vulgar y frívola JK japonesa.</p>
-
 <p>No estaba dispuesto a renunciar a los stickers de Line así que hasta que no he podido llevarlos a WhatsApp, no he migrado. Aunque el proceso no es intuitivo, hay que reconocer que Line nos lo pone muy fácil, como explicaré a continuación.</p>
-
 <p>Para empezar, hay que obtener el ID de los stickers. No hay que hacer ingeniería inversa del binario ni un sniff de la red; Line nos deja buscarlos en su <a href="https://store.line.me/home">tienda</a>. Voy a utilizar a lo largo de todo este ejemplo el paquete de stickers de <a href="https://store.line.me/stickershop/product/1228/">Alicia en el País de las Maravillas</a>. En la URL encontramos su ID, 1228.</p>
-
 <p>Aunque podríamos descargar de esa dirección todos los stickers, vamos a irnos a un directorio que no han ocultado adecuadamente, donde podemos descargar el paquete original, desde sus propios servidores. Las negligencias de Line nos facilitan el trabajo enormemente. Podemos descargarlo directamente ejecutando</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -s https://dl.stickershop.line.naver.jp/products/0/0/1/1228/iphone/stickers@2x.zip</code></pre></div>
-<p>Después de descomprimirlo con <code>unzip</code> obtenemos una carpeta con stickers en formato PNG. WhatsApp nos obliga a utilizar imágenes WEBP de 512x512. Previamente vamos a eliminar las imágenes duplicadas que sirven de thumbnail para evitar convertirlas sin motivo.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">rm *_key@2x.png </code></pre></div>
-<p>También podemos aprovechar para seleccionar los stickers definitivos ya que WhatsApp no admite más de 30 por paquete y los de Line suelen contener 40. Una vez terminado este proceso, ya podemos empezar con la conversión, de la mano de <a href="https://www.imagemagick.org">ImageMagick</a></p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mogrify -resize 512x512 -gravity center -background none -extent 512x512 -format webp *.png</code></pre></div>
-<p>El icono de la bandeja necesita unos parámetros específicos</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">convert tab_off@2x.png -gravity center -background none -extent 96x96 tray.png</code></pre></div>
-<p>Personalmente, no me gusta la denominación de los archivos de stickers de Line, así que voy a renombrarlos en lote</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in *.webp<span class="p">;</span> <span class="k">do</span> mv <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">/@2x/</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">done</span></code></pre></div>
-<p>Ya solo falta seguir las <a href="https://github.com/WhatsApp/stickers/tree/master/android">instrucciones</a> oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del <code>contents.json</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in *.webp<span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="se">\{\&#34;</span>image_file<span class="se">\&#34;</span>: <span class="se">\&#34;</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span><span class="se">\&#34;\}</span>, <span class="p">;</span> <span class="k">done</span></code></pre></div>
-<p>La metodología que sigue WhatsApp para distribuir stickers a través de apps nativas me parece totalmente desproporcionada y supongo que en el futuro sea tan sencillo como Telegram, si permiten a los usuarios finales agregar sus propios packs. Hasta que llegue ese momento, esta es la mejor forma de disfrutar de nuestros stickers de Line en WhatsApp y aprovechar así las ventajas de esta app en términos de la Ley de Metcalfe.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">curl -s https://dl.stickershop.line.naver.jp/products/0/0/1/1228/iphone/stickers@2x.zip
+</code></pre></div><p>Después de descomprimirlo con <code>unzip</code> obtenemos una carpeta con stickers en formato PNG. WhatsApp nos obliga a utilizar imágenes WEBP de 512x512. Previamente vamos a eliminar las imágenes duplicadas que sirven de thumbnail para evitar convertirlas sin motivo.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">rm *_key@2x.png 
+</code></pre></div><p>También podemos aprovechar para seleccionar los stickers definitivos ya que WhatsApp no admite más de 30 por paquete y los de Line suelen contener 40. Una vez terminado este proceso, ya podemos empezar con la conversión, de la mano de <a href="https://www.imagemagick.org">ImageMagick</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mogrify -resize 512x512 -gravity center -background none -extent 512x512 -format webp *.png
+</code></pre></div><p>El icono de la bandeja necesita unos parámetros específicos</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">convert tab_off@2x.png -gravity center -background none -extent 96x96 tray.png
+</code></pre></div><p>Personalmente, no me gusta la denominación de los archivos de stickers de Line, así que voy a renombrarlos en lote</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in *.webp<span class="p">;</span> <span class="k">do</span> mv <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">/@2x/</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">done</span>
+</code></pre></div><p>Ya solo falta seguir las <a href="https://github.com/WhatsApp/stickers/tree/master/android">instrucciones</a> oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del <code>contents.json</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in *.webp<span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="se">\{\&#34;</span>image_file<span class="se">\&#34;</span>: <span class="se">\&#34;</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">&#34;</span><span class="se">\&#34;\}</span>, <span class="p">;</span> <span class="k">done</span>
+</code></pre></div><p>La metodología que sigue WhatsApp para distribuir stickers a través de apps nativas me parece totalmente desproporcionada y supongo que en el futuro sea tan sencillo como Telegram, si permiten a los usuarios finales agregar sus propios packs. Hasta que llegue ese momento, esta es la mejor forma de disfrutar de nuestros stickers de Line en WhatsApp y aprovechar así las ventajas de esta app en términos de la Ley de Metcalfe.</p>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -125,7 +121,7 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -133,12 +129,12 @@ Por extraño que parezca, formo parte de ese porcentaje marginal de personas que
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

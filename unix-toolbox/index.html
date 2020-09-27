@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -35,7 +35,7 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -69,34 +70,20 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
 </div>
 			</ul>
 			
-			
-
-<p>Una de las partes más importantes de la filosofía UNIX es la composición de  programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.</p>
-
+			<p>Una de las partes más importantes de la filosofía UNIX es la composición de  programas complejos a partir de otros más simples y genéricos conectándolos entre sí mediante pipes u otros mecanismos de I/O. Esto permite acelerar el desarrollo de programas específicos y facilitar la tarea de tal forma que incluso los programadores menos experimentados pueden conseguir resultados prometedores en poco tiempo.</p>
 <p>Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin apenas variaciones. Prácticamente cualquier función en la que intervengan cadenas de caracteres, manejo de archivos, gestión de usuarios o llamadas al sistema pueden implementarse combinando estas piezas que constituyen el pilar fundamental del espacio de usuarios de UNIX.</p>
-
 <p>Sin embargo, hace una década, Joey Hess pensó que todavía se podía innovar en este ámbito, como dejó escrito en su <a href="https://joeyh.name/code/moreutils/">blog</a>:</p>
-
 <blockquote>
 <p>&ldquo;I&rsquo;m a fan of the unix tools philosophy, but I sometimes wonder if there&rsquo;s much room for new tools to be added to that toolbox. I&rsquo;ve always wanted to come up with my own general-purpose new unix tool.&rdquo;</p>
 </blockquote>
-
 <p>Joey creó un paquete de aplicaciones llamado <code>moreutils</code>. La utilidad de los programas que contiene no me parece demasiado destacable pero la idea en sí es prometedora. Mi intención es simplemente comentar unos programas que utilizo habitualmente y creo que deberían estar en la caja de herramientas de cualquier informático, con la única condición de que estos programas tienen que seguir la filosofía UNIX en cuanto a su concatenación con otros.</p>
-
 <h3 id="curl">curl</h3>
-
 <p><code>curl</code> es una de esas herramientas infrautilizadas cuya potencia sorprende a los que por primera vez leen su manual. Se suele utilizar para descargar archivos desde la web pero se pueden programar funciones bastante avanzadas con esta utilidad que permite desde manejar POP hasta crear túneles proxy. Personalmente lo suelo utilizar para hacer peticiones HTTP GET y POST en las que también me permite controlar sus cabeceras, cookies e incluso mecanismos de autentificación. <code>curl</code> también es una librería que puede importarse en cualquier lenguaje de programación pero su uso como programa independiente es más propio del estilo UNIX.</p>
-
 <h3 id="netcat">netcat</h3>
-
 <p>Sin ser la herramienta más conocida del grupo, su utilidad va a más allá de cualquier duda. Permite abrir puertos TCP y UDP, conectarse a ellos, mantenerse a la escucha, etc. para crear junto a otros programas servidores telnet, HTTP, chats estilo <code>talk</code> y cualquier cosa relacionada con sockets que se nos ocurra. Es una utilidad imprescindible para crear prototipos funcionales cuando tenemos prisa.</p>
-
 <h3 id="jq">jq</h3>
-
 <p>Puede que el uso de <code>jq</code> sea demasiado específico pero su arquitectura estática y la calidad de su código le hacen digno merecedor de entrar a formar parte de esta lista. Este intérprete de Json es el mejor y más rápido. El uso constante de REST APIs obliga a todos los programadores a tener una aplicación de este tipo en su repertorio y <code>jq</code> es simplemente perfecta.</p>
-
 <h3 id="openssh">openssh</h3>
-
 <p>Aunque parezca que OpenSSH lleva con nosotros desde el principio de los tiempos, la verdad es que es un software relativamente moderno que vino a sustituir alternativas inseguras como <code>telnet</code> o <code>rsh</code>. El uso ubicuo de esta herramienta la convierte en una elección más que evidente, aunque en los últimos tiempos está ganando popularidad <a href="https://mosh.org/">mosh</a>, una alternativa que soluciona algunos problemas con conexiones intermitentes.</p>
 
 			<div property="author" typeof="Person">
@@ -116,7 +103,7 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -124,12 +111,12 @@ Ahora bien, esas herramientas básicas llevan usándose desde los años 70 sin a
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

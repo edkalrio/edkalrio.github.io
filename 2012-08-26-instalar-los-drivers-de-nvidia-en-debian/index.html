@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,12 +9,10 @@
   <meta name="twitter:title" content="Instalar los drivers de Nvidia en Debian - Lunatic Geek" />
   <meta name="description" content="El otro&nbsp;día&nbsp;os explicamos cómo&nbsp;podíais&nbsp;instalar Wine desde PPA en vuestro sistema Debian.
 Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&nbsp;algún&nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
-Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
-Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:">
+Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.">
   <meta property="og:description" content="El otro&nbsp;día&nbsp;os explicamos cómo&nbsp;podíais&nbsp;instalar Wine desde PPA en vuestro sistema Debian.
 Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&nbsp;algún&nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
-Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
-Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:">
+Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.">
   <meta name="twitter:description" content="El otro&nbsp;día&nbsp;os explicamos cómo&nbsp;podíais&nbsp;instalar Wine desde PPA en vuestro sistema Debian.
 Una de las cosas que también es importante a la hora de utilizar un sistema linux, …">
   <meta name="author" content="edkalrio"/>
@@ -40,7 +38,7 @@ Una de las cosas que también es importante a la hora de utilizar un sistema lin
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -51,6 +49,7 @@ Una de las cosas que también es importante a la hora de utilizar un sistema lin
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -84,7 +83,8 @@ Una de las cosas que también es importante a la hora de utilizar un sistema lin
 </div>
 			</ul>
 			
-			<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s1600/210px-Openlogo-debianV2.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s200/210px-Openlogo-debianV2.svg.png" width="161" /></a></div><br /><br />El otro&nbsp;día&nbsp;os explicamos cómo&nbsp;podíais&nbsp;<a href="http://www.lunaticgeek.com/2012/08/instalar-wine-en-debian.html">instalar Wine desde PPA en vuestro sistema Debian.</a><br /><a name='more'></a>Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&nbsp;algún&nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.<br /><br />Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.<br /><br /><b>Paso 1</b> - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:<br /><br /><br /># sudo apt-get install module-assistant nvidia-kernel-common<br /># sudo module-assistant auto-install nvidia<br /># sudo apt-get install nvidia-kernel-`uname -r` nvidia-glx<br /># sudo apt-get install nvidia-settings nvidia-xconfig<br /># sudo depmod -a &nbsp;(No tiene que Salir ningun Dato)<br /># sudo modprobe nvidia&nbsp;(No tiene que Salir ningun Dato)<br /><br /><b>Paso 2</b> - Modificar el archivo xorg.conf<br /><br />Para ello, ejecutamos en un terminal:&nbsp;# sudo gedit /etc/X11/xorg.conf<br /><br />Buscamos el apartado "Section Device" y sustituimos su contenido por lo siguiente:<br /><br />Section "Device"<br /><br />Identifier "Device0"<br />Driver "nvidia"<br />VendorName "NVIDIA Corporation"<br />EndSection<br /><br /><b>Paso 3</b> - Reiniciar.<br /><br />Reiniciamos el equipo, o, con reiniciar gdm&nbsp;debería&nbsp;valer. Para reiniciar gdm tecleamos en un terminal:<br /><br />sudo /etc/init.d/gdm3 restart<br /><br />Con estos pasos ya tendremos nuestra distribución debian con los drivers privativos de nvidia que, junto con wine, podremos ejecutar juegos de windows con aceleración 3D sin problemas.<br /><br />A disfrutarlo<br /><br />
+			
+<div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s1600/210px-Openlogo-debianV2.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s200/210px-Openlogo-debianV2.svg.png" width="161" /></a></div><br /><br />El otro&nbsp;día&nbsp;os explicamos cómo&nbsp;podíais&nbsp;<a href="http://www.lunaticgeek.com/2012/08/instalar-wine-en-debian.html">instalar Wine desde PPA en vuestro sistema Debian.</a><br /><a name='more'></a>Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&nbsp;algún&nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.<br /><br />Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.<br /><br /><b>Paso 1</b> - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:<br /><br /><br /># sudo apt-get install module-assistant nvidia-kernel-common<br /># sudo module-assistant auto-install nvidia<br /># sudo apt-get install nvidia-kernel-`uname -r` nvidia-glx<br /># sudo apt-get install nvidia-settings nvidia-xconfig<br /># sudo depmod -a &nbsp;(No tiene que Salir ningun Dato)<br /># sudo modprobe nvidia&nbsp;(No tiene que Salir ningun Dato)<br /><br /><b>Paso 2</b> - Modificar el archivo xorg.conf<br /><br />Para ello, ejecutamos en un terminal:&nbsp;# sudo gedit /etc/X11/xorg.conf<br /><br />Buscamos el apartado "Section Device" y sustituimos su contenido por lo siguiente:<br /><br />Section "Device"<br /><br />Identifier "Device0"<br />Driver "nvidia"<br />VendorName "NVIDIA Corporation"<br />EndSection<br /><br /><b>Paso 3</b> - Reiniciar.<br /><br />Reiniciamos el equipo, o, con reiniciar gdm&nbsp;debería&nbsp;valer. Para reiniciar gdm tecleamos en un terminal:<br /><br />sudo /etc/init.d/gdm3 restart<br /><br />Con estos pasos ya tendremos nuestra distribución debian con los drivers privativos de nvidia que, junto con wine, podremos ejecutar juegos de windows con aceleración 3D sin problemas.<br /><br />A disfrutarlo<br /><br />
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -102,7 +102,7 @@ Una de las cosas que también es importante a la hora de utilizar un sistema lin
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -110,12 +110,12 @@ Una de las cosas que también es importante a la hora de utilizar un sistema lin
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

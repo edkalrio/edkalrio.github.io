@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Linux on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Fósil de un Rolling Rhino</title>
       <link>https://lunaticgeek.com/rolling-rhino/</link>
@@ -36,7 +32,7 @@ Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventana
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/fichar-unix/</guid>
-      <description>Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8&amp;frasl;2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
+      <description>Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8/2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
 Son estos honrados empresarios los que llevan quejándose de esta medida durante todo el mes acusando al gobierno de tomar medidas populistas y chapuceras sin el desarrollo reglamentario necesario.</description>
     </item>
     
@@ -139,7 +135,7 @@ Los fans de UNIX tenemos a nuestra disposición una herramienta igual de potente
       <pubDate>Tue, 11 Jul 2017 12:40:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2017-07-11-distrohopping-util/</guid>
-      <description>El ecosistema de Linux no es tan extenso como para llenar blogs con noticias diarias y sin embargo existe la necesidad perpetua de crear contenido para generar clicks y rentabilizar la web. Esta paradoja tiene una difícil solución así que se suele recurrir a cierto tipo de artículos facilones y triviales, precocinados y vacíos de contenido entre los que destacan por su antigüedad y popularidad los dedicados al distrohopping. Numerosos son los blogs, principalmente españoles, dedicados a tan estéril actividad.</description>
+      <description>El ecosistema de Linux no es tan extenso como para llenar blogs con noticias diarias y sin embargo existe la necesidad perpetua de crear contenido para generar clicks y rentabilizar la web. Esta paradoja tiene una difícil solución así que se suele recurrir a cierto tipo de artículos facilones y triviales, precocinados y vacíos de contenido entre los que destacan por su antigüedad y popularidad los dedicados al distrohopping.</description>
     </item>
     
     <item>
@@ -285,7 +281,7 @@ Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan 
       <pubDate>Mon, 27 Aug 2012 18:06:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</guid>
-      <description>Fuente:&amp;nbsp;xkcd.com</description>
+      <description>Fuente:&amp;nbsp;xkcd.</description>
     </item>
     
     <item>
@@ -296,8 +292,7 @@ Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan 
       <guid>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</guid>
       <description>El otro&amp;nbsp;día&amp;nbsp;os explicamos cómo&amp;nbsp;podíais&amp;nbsp;instalar Wine desde PPA en vuestro sistema Debian.
 Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&amp;nbsp;algún&amp;nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
-Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
-Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:</description>
+Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.</description>
     </item>
     
     <item>
@@ -426,7 +421,7 @@ Como se especulaba, Ubuntu 14.04 estará presente en tablets, smatphones y TVs i
       
       <guid>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</guid>
       <description>Esta semana sale Ubuntu 11.10 y los encargados de organizar el calendario han presentado la hoja de ruta para las próximas versiones. Como recoge muylinux.com&amp;nbsp;las fechas provisionales de lanzamiento de las futuras versiones de Ubuntu son las siguientes:
-26 de abril de 2012: Ubuntu 12.04 LTS18 de octubre de 2012: Ubuntu 12.1025 de abril de 2013: Ubuntu 13.0417 de octubre de 2013: Ubuntu 13.1025 de abril de 2014: Ubuntu 14.04 LTSNos podemos ir olvidando de la adopción de un ciclo de desarrollo en formato rolling release como venimos defendiendo en este blog.</description>
+26 de abril de 2012: Ubuntu 12.04 LTS18 de octubre de 2012: Ubuntu 12.1025 de abril de 2013: Ubuntu 13.0417 de octubre de 2013: Ubuntu 13.1025 de abril de 2014: Ubuntu 14.</description>
     </item>
     
     <item>
@@ -465,7 +460,7 @@ Y en realidad, yo aún no he visto a nadie con ningún smartphone que use Window
       <pubDate>Sun, 14 Aug 2011 11:29:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</guid>
-      <description>En los últimos días esta circulando por internet una lista con las distribuciones de linux mas populares de los últimos tiempos.Aquí la tenéis, ¿Que os parece el bajón que pegó ubuntu con 10.10 y el subidón con 11.04?Click para aumentar</description>
+      <description> En los últimos días esta circulando por internet una lista con las distribuciones de linux mas populares de los últimos tiempos.Aquí la tenéis, ¿Que os parece el bajón que pegó ubuntu con 10.10 y el subidón con 11.04?Click para aumentar</description>
     </item>
     
     <item>
@@ -693,7 +688,7 @@ En este post redentor, voy a empezar por microsoft. Empresa que odio profundamen
       <pubDate>Fri, 20 Aug 2010 15:44:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2010-08-20-chat-de-video-de-google-para-linux/</guid>
-      <description>Por fin!La verdad es que los ingenieros de software de Google se han tomado con demasiada calma la implementación de este servicio en Linux. Esta actitud por parte de Google me parece de lo más hipócrita. Hace 2 años salió la versión para windows y los usuarios de Linux nos quedamos con cara de idiotas cuando lo fuimos a usar y el servicio no era compatible con nuestro sistema operativo. En estos dos años han ocurrido multitud de acontecimientos que han acercado a Google a Linux.</description>
+      <description>Por fin!La verdad es que los ingenieros de software de Google se han tomado con demasiada calma la implementación de este servicio en Linux. Esta actitud por parte de Google me parece de lo más hipócrita. Hace 2 años salió la versión para windows y los usuarios de Linux nos quedamos con cara de idiotas cuando lo fuimos a usar y el servicio no era compatible con nuestro sistema operativo.</description>
     </item>
     
     <item>
@@ -702,7 +697,7 @@ En este post redentor, voy a empezar por microsoft. Empresa que odio profundamen
       <pubDate>Mon, 16 Aug 2010 14:00:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2010-08-16-frases-celebres/</guid>
-      <description>&#34;Every time you use Google, you&#39;re using a Linux machine.&#34;&amp;nbsp;(Chris DiBona, director de programación de código abierto de Google)</description>
+      <description> &#34;Every time you use Google, you&#39;re using a Linux machine.&#34;&amp;nbsp;(Chris DiBona, director de programación de código abierto de Google)</description>
     </item>
     
   </channel>

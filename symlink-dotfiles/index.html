@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -88,9 +89,8 @@
 			</ul>
 			
 			<p>El omnisciente algoritmo de YouTube me ha recomendado el vídeo <a href="https://www.youtube.com/watch?v=MJBVA4LeJKA">Manage Your Dotfiles With Style!</a> sobre la utilización de <a href="https://www.gnu.org/software/stow/">GNU Stow</a> para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común. De hecho, el uso que se hace de Stow es tan simple que se puede emular con un oneliner de Bash que he programado para la ocasión</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in <span class="k">$(</span>find -type f<span class="k">)</span><span class="p">;</span> <span class="k">do</span> ln -sf <span class="s2">&#34;</span><span class="k">$(</span>realpath <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">&#34;</span><span class="k">)</span><span class="s2">&#34;</span> ~/<span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">#??</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">done</span></code></pre></div>
-<p>Aunque el código es bastante deficiente ya que no debería emplearse <code>find</code> en un bucle <code>for</code> y la expansión de variables es un bashismo intolerable, no me apetecía usar <code>xargs</code> ni extender un comando que funciona con menos de 80 caracteres. Así podríamos desplegar los dotfiles sin necesidad de instalar <code>stow</code> que, por lo general, no viene incluido por defecto en ningún sistema operativo.</p>
-
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="k">for</span> i in <span class="k">$(</span>find -type f<span class="k">)</span><span class="p">;</span> <span class="k">do</span> ln -sf <span class="s2">&#34;</span><span class="k">$(</span>realpath <span class="s2">&#34;</span><span class="nv">$i</span><span class="s2">&#34;</span><span class="k">)</span><span class="s2">&#34;</span> ~/<span class="s2">&#34;</span><span class="si">${</span><span class="nv">i</span><span class="p">#??</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">;</span> <span class="k">done</span>
+</code></pre></div><p>Aunque el código es bastante deficiente ya que no debería emplearse <code>find</code> en un bucle <code>for</code> y la expansión de variables es un bashismo intolerable, no me apetecía usar <code>xargs</code> ni extender un comando que funciona con menos de 80 caracteres. Así podríamos desplegar los dotfiles sin necesidad de instalar <code>stow</code> que, por lo general, no viene incluido por defecto en ningún sistema operativo.</p>
 <p>De todas formas, no me parece la mejor forma de abordar el problema. Hace más de cuatro años que se me ocurrió una solución superior, si bien nunca la he publicado porque es demasiado manual y carente de ingenio, pero ahora voy a explicarla para establecer una comparación con Stow. Mi alternativa se basa en un script <code>dotfiles.sh</code> que crea enlaces simbólicos. A diferencia de Stow, las direcciones de estos no se basan en la jerarquía de los archivos sino que están codificadas a mano. Aunque suena bastante tedioso, solo hay que añadir una linea cada vez que creemos un nuevo dotfile. El resultado concreto es el siguiente</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/sh
 </span><span class="cp"></span>
@@ -105,9 +105,8 @@ ln -sf ~/dotfiles/zathura ~/.config/zathura/zathurarc
 ln -sf ~/dotfiles/irssi ~/.irssi/config
 ln -sf ~/dotfiles/git ~/.gitconfig
 ln -sf ~/dotfiles/dunst ~/.config/dunst/dunstrc
-ln -sf ~/dotfiles/newsboat ~/.newsboat/config</code></pre></div>
-<p>Si leemos con atención se verán las que considero ventajas de este método. No hay que crear una falsa jerarquía de archivos, pudiendo almacenarlos todos en la misma carpeta para mejorar el orden y permite renombrar los dotfiles como queramos ya que su denominación obligatoria se pospone hasta la creación de los symlinks. Concretamente, mi script se ejecuta sobre la siguiente lista de archivos</p>
-
+ln -sf ~/dotfiles/newsboat ~/.newsboat/config
+</code></pre></div><p>Si leemos con atención se verán las que considero ventajas de este método. No hay que crear una falsa jerarquía de archivos, pudiendo almacenarlos todos en la misma carpeta para mejorar el orden y permite renombrar los dotfiles como queramos ya que su denominación obligatoria se pospone hasta la creación de los symlinks. Concretamente, mi script se ejecuta sobre la siguiente lista de archivos</p>
 <pre><code>~/dotfiles
 ├── alias
 ├── bash
@@ -121,10 +120,7 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config</code></pre></div>
 ├── xmodmap
 ├── xresources
 └── zathura
-</code></pre>
-
-<p>En contraposición a esta simplicidad, podemos generar la estructura que Stow exigiría a los mismos dotfiles para funcionar.</p>
-
+</code></pre><p>En contraposición a esta simplicidad, podemos generar la estructura que Stow exigiría a los mismos dotfiles para funcionar.</p>
 <pre><code>~/dotfiles
 ├── .bash_aliases
 ├── .bashrc
@@ -148,9 +144,7 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config</code></pre></div>
 │   └── config
 ├── .Xmodmap
 └── .Xresources
-</code></pre>
-
-<p>Las diferencias son más que evidentes, pero la elección de una forma u otra para administrar nuestros archivos de configuración es muy subjetiva y en el fondo va a estar regida por preferencias personales.</p>
+</code></pre><p>Las diferencias son más que evidentes, pero la elección de una forma u otra para administrar nuestros archivos de configuración es muy subjetiva y en el fondo va a estar regida por preferencias personales.</p>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -169,7 +163,7 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config</code></pre></div>
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -177,12 +171,12 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config</code></pre></div>
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

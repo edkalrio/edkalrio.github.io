@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reflexiones on Lunatic Geek</title>
+    <title>reflexiones on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/reflexiones/</link>
-    <description>Recent content in Reflexiones on Lunatic Geek</description>
+    <description>Recent content in reflexiones on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 05 Mar 2012 17:50:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/reflexiones/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 05 Mar 2012 17:50:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/reflexiones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflexiones sobre la refrigeración líquida</title>
       <link>https://lunaticgeek.com/2012-03-05-reflexiones-sobre-la-refrigeracion/</link>
@@ -54,7 +50,7 @@ En este post redentor, voy a empezar por microsoft. Empresa que odio profundamen
       <pubDate>Mon, 13 Dec 2010 21:16:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2010-12-13-si-la-vida-fuera-un-videojuego/</guid>
-      <description>
+      <description> 
 Sin duda, lo mejor seria la opción de guardar =D</description>
     </item>
     

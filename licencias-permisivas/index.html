@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -36,7 +36,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -47,6 +47,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -80,30 +81,24 @@
 </div>
 			</ul>
 			
-			
-
-<p><center><img src="https://opensource.org/files/OSIApproved.png" alt="" /></center></p>
-
+			<!-- raw HTML omitted -->
 <p>Ha sido toda una sorpresa encontrar en <a href="https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/">Ars Technica</a> una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:</p>
-
 <blockquote>
 <p>Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.</p>
-
+</blockquote>
+<blockquote>
 <p>Since the BSD two-clause license is considerably more clear, both in its own text and in what &ldquo;BSD two-clause license&rdquo; refers to in normal use, we strongly recommend its use instead.</p>
 </blockquote>
-
 <p>Me ha extrañado tanto esta rotunda afirmación que he decidido repasar sendas licencias para comprobar por mí mismo si la hipótesis de Ars Technica se sustenta.</p>
-
 <p>Para empezar, hay que tener en cuenta que estas se agrupan en la tipología de licencias permisivas, es decir, sin copyleft por lo que las obras derivadas no tienen obligatoriamente que conservar la licencia original.</p>
-
-<p>Se estructuran en las siguientes partes
-- Aviso de derechos de autor
-- Concesión
-- Cláusulas
-- Descargo</p>
-
+<p>Se estructuran en las siguientes partes</p>
+<ul>
+<li>Aviso de derechos de autor</li>
+<li>Concesión</li>
+<li>Cláusulas</li>
+<li>Descargo</li>
+</ul>
 <h3 id="bsd-2-clause">BSD-2-Clause</h3>
-
 <pre><code>Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -113,10 +108,7 @@ Redistribution and use in source and binary forms, with or without modification,
 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</code></pre>
-
-<h3 id="mit">MIT</h3>
-
+</code></pre><h3 id="mit">MIT</h3>
 <pre><code>Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -124,14 +116,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-</code></pre>
-
-<p>Analizando detenidamente las licencias he podido corroborar mi idea original de que Ars Technica se equivoca. No encuentro ambiguedad en la redacción de la MIT ni mayor claridad en la BSD-2-Clause. Las concesiones de la MIT amplían los conceptos del derecho de redistribución y uso de la BSD-2-Clause con los de copia, modificación, mezcla, publicación, distribución, venta y subrogación. Las cláusulas de la BSD-2-Clause son lígeramente más claras porque explicitan la inclusión de la licencia en redistribuciones de binarios aunque en la MIT se sobreentiende que deben figurar en la documentación asociada. Además encuentro el descargo de responsabilidad de la BSD-2-Clause innecesariamente farragoso.</p>
-
+</code></pre><p>Analizando detenidamente las licencias he podido corroborar mi idea original de que Ars Technica se equivoca. No encuentro ambiguedad en la redacción de la MIT ni mayor claridad en la BSD-2-Clause. Las concesiones de la MIT amplían los conceptos del derecho de redistribución y uso de la BSD-2-Clause con los de copia, modificación, mezcla, publicación, distribución, venta y subrogación. Las cláusulas de la BSD-2-Clause son lígeramente más claras porque explicitan la inclusión de la licencia en redistribuciones de binarios aunque en la MIT se sobreentiende que deben figurar en la documentación asociada. Además encuentro el descargo de responsabilidad de la BSD-2-Clause innecesariamente farragoso.</p>
 <p>Este análisis es muy similar al que debieron de hacer en la NCSA cuando decidieron mezclar las mejores partes de estas dos licencias para crear otra nueva, porque nunca hay demasiadas licencias cuando sufres del síndrome de <a href="https://en.wikipedia.org/wiki/Not_invented_here">NIH</a></p>
-
 <h3 id="ncsa">NCSA</h3>
-
 <pre><code>Copyright (c) &lt;YEAR&gt; &lt;OWNER ORGANIZATION NAME&gt;.  All rights reserved.
 
 
@@ -161,32 +148,22 @@ CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
 SOFTWARE.
-</code></pre>
-
-<p>La NCSA combina el apartado de concesiones y el descargo de la MIT con las cláusulas de la BSD-3-Clause.
+</code></pre><p>La NCSA combina el apartado de concesiones y el descargo de la MIT con las cláusulas de la BSD-3-Clause.
 Incluso si le concediésemos a Ars Technica la razón, su recomendación de la BSD-2-Clause no parece la alternativa óptima. Si se busca la claridad en el texto no me parece que haya ninguna mejor que la licencia ISC, desarrollada por el Internet Systems Consortium, aprobada por la FSF y la OSI.</p>
-
 <h3 id="isc">ISC</h3>
-
 <pre><code>Copyright &lt;YEAR&gt; &lt;OWNER&gt;
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-</code></pre>
-
-<p>La moraleja de toda esta revisión es que como economista especializado en derecho mercantil, recomiendo utilizar la licencia permisiva que cada cual prefiera. Todas presentan los mismos derechos y obligaciones con redacciones suficientemente similares y son igualmente válidas ante los tribunales en caso de conflicto entre partes. Personalmente mi preferida es la ISC pero nunca la he utilizado porque la MIT es la elección estándar. Todos los programadores la conocen y saben utilizarla. Si queremos ponernos exóticos podríamos incluso acudir a la licencia Fair.</p>
-
+</code></pre><p>La moraleja de toda esta revisión es que como economista especializado en derecho mercantil, recomiendo utilizar la licencia permisiva que cada cual prefiera. Todas presentan los mismos derechos y obligaciones con redacciones suficientemente similares y son igualmente válidas ante los tribunales en caso de conflicto entre partes. Personalmente mi preferida es la ISC pero nunca la he utilizado porque la MIT es la elección estándar. Todos los programadores la conocen y saben utilizarla. Si queremos ponernos exóticos podríamos incluso acudir a la licencia Fair.</p>
 <h3 id="fair">Fair</h3>
-
 <pre><code>&lt;Copyright Information&gt;
 
 Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
 
 DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
-</code></pre>
-
-<p>Insisto, usa la que más te guste. Es una elección irrelevante.</p>
+</code></pre><p>Insisto, usa la que más te guste. Es una elección irrelevante.</p>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -205,7 +182,7 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -213,12 +190,12 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

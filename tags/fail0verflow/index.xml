@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fail0verflow on Lunatic Geek</title>
+    <title>fail0verflow on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/fail0verflow/</link>
-    <description>Recent content in Fail0verflow on Lunatic Geek</description>
+    <description>Recent content in fail0verflow on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 01 Jan 2011 20:44:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/fail0verflow/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 01 Jan 2011 20:44:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/fail0verflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Llegan Claves [EDIT]</title>
       <link>https://lunaticgeek.com/2011-01-01-llegan-claves/</link>

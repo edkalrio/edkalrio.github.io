@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mantenimiento on Lunatic Geek</title>
+    <title>mantenimiento on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/mantenimiento/</link>
-    <description>Recent content in Mantenimiento on Lunatic Geek</description>
+    <description>Recent content in mantenimiento on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 28 Aug 2010 16:50:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/mantenimiento/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Aug 2010 16:50:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/mantenimiento/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mantenimiento tras mantenimiento en Tuenti</title>
       <link>https://lunaticgeek.com/2010-08-28-mantenimiento-tras-mantenimiento-en/</link>

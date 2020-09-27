@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -36,7 +36,7 @@ Hace cinco …">
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -47,6 +47,7 @@ Hace cinco …">
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -85,12 +86,9 @@ Hace cinco …">
 </div>
 			</ul>
 			
-			<p><center><img src="https://i3wm.org/img/logo.svg" alt="" /></center></p>
-
+			<!-- raw HTML omitted -->
 <p>La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.</p>
-
 <p>Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos <a href="https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/">años</a>. Me sorprendió gratamente encontrar en el <a href="https://i3wm.org/downloads/RELEASE-NOTES-4.17.txt">changelog</a> una característica que llevo deseando desde que me topé con i3wm, la <a href="https://i3wm.org/docs/userguide.html#_transparency">transparencia de i3bar</a>. Nunca he tenido problemas con las actualizaciones de este paquete a pesar de estar mantenidas por un tercero ajeno al desarrollo del programa, pero ya ha salido incluso una revisión, v4.17.1 y sigo sin tener noticias, así que toca compilar desde el código fuente. Compilar es una tarea odiosa. Siempre quedan cabos sueltos, hay que pelearse con los distintos sistemas de configuración, árboles de dependencias que dinamitan el resto del sistema y sobre todo, la sensación de estar profanando la máxima de <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>. En el caso de i3wm, el propio programador desaconseja compilarlo.</p>
-
 <p>Sin embargo, estoy harto de esperar y después de un par de intentos fallidos, ahí va la receta para compilar i3wm v4.17.1 en Ubuntu 18.04.</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install libxcb1-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xinerama0-dev libpango1.0-dev libxcursor-dev libxcb-cursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xrm-dev
 
@@ -100,7 +98,8 @@ mkdir -p build <span class="o">&amp;&amp;</span> <span class="nb">cd</span> buil
 
 ../configure
 make
-sudo make install</code></pre></div>
+sudo make install
+</code></pre></div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -118,7 +117,7 @@ sudo make install</code></pre></div>
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -126,12 +125,12 @@ sudo make install</code></pre></div>
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

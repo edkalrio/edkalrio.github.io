@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pc on Lunatic Geek</title>
+    <title>PC on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/pc/</link>
-    <description>Recent content in Pc on Lunatic Geek</description>
+    <description>Recent content in PC on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 21 Jan 2015 13:57:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/pc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 21 Jan 2015 13:57:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/pc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Los límites de la computación</title>
       <link>https://lunaticgeek.com/2015-01-21-los-limites-de-la-computacion/</link>

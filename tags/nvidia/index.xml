@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nvidia on Lunatic Geek</title>
+    <title>nvidia on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/nvidia/</link>
-    <description>Recent content in Nvidia on Lunatic Geek</description>
+    <description>Recent content in nvidia on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 26 Aug 2012 23:34:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 26 Aug 2012 23:34:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalar los drivers de Nvidia en Debian</title>
       <link>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</link>
@@ -19,8 +15,7 @@
       <guid>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</guid>
       <description>El otro&amp;nbsp;día&amp;nbsp;os explicamos cómo&amp;nbsp;podíais&amp;nbsp;instalar Wine desde PPA en vuestro sistema Debian.
 Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&amp;nbsp;algún&amp;nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
-Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
-Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:</description>
+Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.</description>
     </item>
     
   </channel>

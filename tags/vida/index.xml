@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vida on Lunatic Geek</title>
+    <title>vida on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/vida/</link>
-    <description>Recent content in Vida on Lunatic Geek</description>
+    <description>Recent content in vida on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 13 Dec 2010 21:16:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/vida/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Dec 2010 21:16:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/vida/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Si la vida fuera un videojuego...</title>
       <link>https://lunaticgeek.com/2010-12-13-si-la-vida-fuera-un-videojuego/</link>
       <pubDate>Mon, 13 Dec 2010 21:16:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2010-12-13-si-la-vida-fuera-un-videojuego/</guid>
-      <description>
+      <description> 
 Sin duda, lo mejor seria la opción de guardar =D</description>
     </item>
     

@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ordenador on Lunatic Geek</title>
+    <title>ordenador on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/ordenador/</link>
-    <description>Recent content in Ordenador on Lunatic Geek</description>
+    <description>Recent content in ordenador on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 13 Sep 2011 13:37:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/ordenador/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 13 Sep 2011 13:37:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/ordenador/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lo que costaba un &#34;ordenador&#34; hace 25 años</title>
       <link>https://lunaticgeek.com/2011-09-13-lo-que-costaba-un-ordenador-hace-25/</link>
       <pubDate>Tue, 13 Sep 2011 13:37:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-09-13-lo-que-costaba-un-ordenador-hace-25/</guid>
-      <description>Publicidad del IBM PC de 1986. Los precios, por supuesto en pesetas, abajo a la derecha.Y recordad, precios de 1986.Click en la imagen para ampliar</description>
+      <description> Publicidad del IBM PC de 1986. Los precios, por supuesto en pesetas, abajo a la derecha.Y recordad, precios de 1986.Click en la imagen para ampliar</description>
     </item>
     
   </channel>

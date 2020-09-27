@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Ubuntu on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Fósil de un Rolling Rhino</title>
       <link>https://lunaticgeek.com/rolling-rhino/</link>
@@ -206,7 +202,7 @@ Como se especulaba, Ubuntu 14.04 estará presente en tablets, smatphones y TVs i
       <pubDate>Thu, 13 Oct 2011 16:09:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-10-13-ubuntu-1110/</guid>
-      <description>Escribo este post mientras hago tiempo para que acabe la descarga de la .iso de la nueva versión de Ubuntu 11.10 Oneiric Ocelot. Como cada 6 meses los desarrolladores de Canonical liberan una nueva actualización de esta distro de Linux que ya se ha convertido en la más popular entre los linuxeros.&amp;nbsp;Yo debería escribir un post más extenso, explicando los cambios y novedades pero prefiero ocupar mi tiempo probando Ubuntu. Es ridículo que me ponga a escribir un post sobre Oneiric Ocelot cuando los compañeros de&amp;nbsp;webupd8.</description>
+      <description>Escribo este post mientras hago tiempo para que acabe la descarga de la .iso de la nueva versión de Ubuntu 11.10 Oneiric Ocelot. Como cada 6 meses los desarrolladores de Canonical liberan una nueva actualización de esta distro de Linux que ya se ha convertido en la más popular entre los linuxeros.&amp;nbsp;Yo debería escribir un post más extenso, explicando los cambios y novedades pero prefiero ocupar mi tiempo probando Ubuntu.</description>
     </item>
     
     <item>
@@ -216,7 +212,7 @@ Como se especulaba, Ubuntu 14.04 estará presente en tablets, smatphones y TVs i
       
       <guid>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</guid>
       <description>Esta semana sale Ubuntu 11.10 y los encargados de organizar el calendario han presentado la hoja de ruta para las próximas versiones. Como recoge muylinux.com&amp;nbsp;las fechas provisionales de lanzamiento de las futuras versiones de Ubuntu son las siguientes:
-26 de abril de 2012: Ubuntu 12.04 LTS18 de octubre de 2012: Ubuntu 12.1025 de abril de 2013: Ubuntu 13.0417 de octubre de 2013: Ubuntu 13.1025 de abril de 2014: Ubuntu 14.04 LTSNos podemos ir olvidando de la adopción de un ciclo de desarrollo en formato rolling release como venimos defendiendo en este blog.</description>
+26 de abril de 2012: Ubuntu 12.04 LTS18 de octubre de 2012: Ubuntu 12.1025 de abril de 2013: Ubuntu 13.0417 de octubre de 2013: Ubuntu 13.1025 de abril de 2014: Ubuntu 14.</description>
     </item>
     
     <item>
@@ -276,7 +272,7 @@ Y en realidad, yo aún no he visto a nadie con ningún smartphone que use Window
       <pubDate>Sun, 14 Aug 2011 11:29:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</guid>
-      <description>En los últimos días esta circulando por internet una lista con las distribuciones de linux mas populares de los últimos tiempos.Aquí la tenéis, ¿Que os parece el bajón que pegó ubuntu con 10.10 y el subidón con 11.04?Click para aumentar</description>
+      <description> En los últimos días esta circulando por internet una lista con las distribuciones de linux mas populares de los últimos tiempos.Aquí la tenéis, ¿Que os parece el bajón que pegó ubuntu con 10.10 y el subidón con 11.04?Click para aumentar</description>
     </item>
     
     <item>
@@ -325,7 +321,7 @@ DescargarYo, personalmente no recomiendo probar versiones Alpha ya que están mu
       <pubDate>Wed, 18 May 2011 16:51:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-05-18-calendario-de-ubuntu-1110/</guid>
-      <description>Alpha 1 &amp;nbsp;02/06/11Alpha 2 &amp;nbsp;30/06/11Alpha 3 &amp;nbsp;04/08/11Beta 1 &amp;nbsp;01/09/11Beta 2 &amp;nbsp;22/09/11Release Candidate &amp;nbsp;06/10/11Ubuntu 11.10 13/10/11</description>
+      <description> Alpha 1 &amp;nbsp;02/06/11Alpha 2 &amp;nbsp;30/06/11Alpha 3 &amp;nbsp;04/08/11Beta 1 &amp;nbsp;01/09/11Beta 2 &amp;nbsp;22/09/11Release Candidate &amp;nbsp;06/10/11Ubuntu 11.10 13/10/11</description>
     </item>
     
     <item>
@@ -344,7 +340,7 @@ No voy a explayarme en este post que solo escribo a la espera de que se acabe de
       <pubDate>Wed, 27 Apr 2011 13:17:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-04-27-ubuntu-en-la-nube/</guid>
-      <description>Si hace una semana nos lamentaba el fin del servicio de distribución gratuita de CDs de Canonical, ShipIt, ahora nos alegramos porque la promesa que nos hicieron los desarrolladores de Ubuntu de que iban a lanzar una aplicación en la nube para probar cada nuevo sistema operativo antes de su lanzamiento, ha llegado. Gracias a Amazon Cloud y Ubuntu Server, Canonical ha conseguido que la beta 2 de Ubuntu 11.04 corra en la nube igual de bien que en un escritorio.</description>
+      <description>Si hace una semana nos lamentaba el fin del servicio de distribución gratuita de CDs de Canonical, ShipIt, ahora nos alegramos porque la promesa que nos hicieron los desarrolladores de Ubuntu de que iban a lanzar una aplicación en la nube para probar cada nuevo sistema operativo antes de su lanzamiento, ha llegado. Gracias a Amazon Cloud y Ubuntu Server, Canonical ha conseguido que la beta 2 de Ubuntu 11.</description>
     </item>
     
     <item>
@@ -354,7 +350,7 @@ No voy a explayarme en este post que solo escribo a la espera de que se acabe de
       
       <guid>https://lunaticgeek.com/2011-04-06-shipit-llega-su-fin/</guid>
       <description>Hace seis meses estaría escribiendo un post para anunciaros que ya estaban disponibles los CDs de Ubuntu para que los pidiérais pero eso ya nunca más pasará pues los responsables de Canonical han decidido poner fin al exitoso programa de difusión física de la distro más popular del mundo.
-ShipIt tenía sentido hace años cuando no había conexiones de internet tan rápidas como las que tenemos disponibles en la actualidad. Ahora, los CDs de Ubuntu se han convertido en un producto de colección más que en discos de instalación.</description>
+ShipIt tenía sentido hace años cuando no había conexiones de internet tan rápidas como las que tenemos disponibles en la actualidad.</description>
     </item>
     
     <item>
@@ -414,7 +410,7 @@ El caso es que, en la pagina de Ubuntu, podemos observar que han hecho una compi
       <pubDate>Mon, 25 Oct 2010 19:09:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2010-10-25-lo-ultimo-de-ubuntu/</guid>
-      <description>&#34;11.04 will have Unity as the default desktop for new users&#34;Mark Shuttleworth</description>
+      <description> &#34;11.04 will have Unity as the default desktop for new users&#34;Mark Shuttleworth</description>
     </item>
     
     <item>

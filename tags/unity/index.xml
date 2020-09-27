@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unity on Lunatic Geek</title>
+    <title>unity on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/unity/</link>
-    <description>Recent content in Unity on Lunatic Geek</description>
+    <description>Recent content in unity on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 28 Jan 2016 19:04:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/unity/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 28 Jan 2016 19:04:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5 años de involución personal en el escritorio</title>
       <link>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</link>

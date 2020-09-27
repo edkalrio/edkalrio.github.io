@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jailbreal on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Jailbreal on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 01 Sep 2010 16:14:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/jailbreal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Sep 2010 16:14:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/jailbreal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PSJailbreak: Código liberado y tutoriales para la fabricación casera</title>
       <link>https://lunaticgeek.com/2010-09-01-psjailbreak-codigo-liberado-y/</link>

@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Svg on Lunatic Geek</title>
+    <title>svg on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/svg/</link>
-    <description>Recent content in Svg on Lunatic Geek</description>
+    <description>Recent content in svg on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/svg/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/svg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uso de Emojis como SVG en Favicons</title>
       <link>https://lunaticgeek.com/emoji-favicon/</link>

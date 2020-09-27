@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kindle on Lunatic Geek</title>
+    <title>kindle on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/kindle/</link>
-    <description>Recent content in Kindle on Lunatic Geek</description>
+    <description>Recent content in kindle on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 21 Oct 2014 20:20:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 21 Oct 2014 20:20:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El panel 5K del iMac</title>
       <link>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</link>

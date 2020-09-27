@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Custom Firmware on Lunatic Geek</title>
+    <title>custom firmware on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/custom-firmware/</link>
-    <description>Recent content in Custom Firmware on Lunatic Geek</description>
+    <description>Recent content in custom firmware on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 19 Sep 2010 21:22:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/custom-firmware/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 19 Sep 2010 21:22:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/custom-firmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Destino: PS3 Custom Firmware</title>
       <link>https://lunaticgeek.com/2010-09-19-destino-ps3-custom-firmware/</link>

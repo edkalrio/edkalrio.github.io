@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tv on Lunatic Geek</title>
+    <title>TV on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/tv/</link>
-    <description>Recent content in Tv on Lunatic Geek</description>
+    <description>Recent content in TV on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 09 Jan 2012 20:10:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/tv/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Jan 2012 20:10:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/tv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu. TV for human beings</title>
       <link>https://lunaticgeek.com/2012-01-09-ubuntu-tv-for-human-beings/</link>

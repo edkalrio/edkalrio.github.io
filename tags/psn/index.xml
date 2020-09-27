@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Psn on Lunatic Geek</title>
+    <title>PSN on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/psn/</link>
-    <description>Recent content in Psn on Lunatic Geek</description>
+    <description>Recent content in PSN on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 23 Apr 2011 13:14:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/psn/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 23 Apr 2011 13:14:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/psn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adiós PSN</title>
       <link>https://lunaticgeek.com/2011-04-23-adios-psn/</link>
@@ -26,7 +22,7 @@
       <pubDate>Mon, 04 Apr 2011 12:55:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</guid>
-      <description>Este mensaje aparecía hace escasas horas en uno de los canales de IRC anónimos que sirve de plataforma al grupo de ciberactivistas. Sony no solo ha perdido ya la confianza y el respeto de los usuarios de Linux, a los que en la última vista judicial, el representante de Sony afirmaba que formaban parte de &#34;una conspiración glogal con el único propósito de piratear la consola y perjudicar a SCEA&#34;. Anonymous no hace daño a la mayoría de entidades que ataca.</description>
+      <description>Este mensaje aparecía hace escasas horas en uno de los canales de IRC anónimos que sirve de plataforma al grupo de ciberactivistas. Sony no solo ha perdido ya la confianza y el respeto de los usuarios de Linux, a los que en la última vista judicial, el representante de Sony afirmaba que formaban parte de &#34;una conspiración glogal con el único propósito de piratear la consola y perjudicar a SCEA&#34;</description>
     </item>
     
     <item>

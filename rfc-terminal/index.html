@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -8,9 +8,11 @@
   <meta property="og:title" content="Leer RFCs desde el Terminal - Lunatic Geek" />
   <meta name="twitter:title" content="Leer RFCs desde el Terminal - Lunatic Geek" />
   <meta name="description" content="Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la ietf porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete doc-rfc-std de Ubuntu nos trae todo el catálogo al directorio /usr/share/doc/RFC/ para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como less.
-Es demasiado farragoso tener que ejecutar">
+Es demasiado farragoso tener que ejecutar
+less /usr/share/doc/RFC/links/rfcXXXX.">
   <meta property="og:description" content="Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la ietf porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete doc-rfc-std de Ubuntu nos trae todo el catálogo al directorio /usr/share/doc/RFC/ para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como less.
-Es demasiado farragoso tener que ejecutar">
+Es demasiado farragoso tener que ejecutar
+less /usr/share/doc/RFC/links/rfcXXXX.">
   <meta name="twitter:description" content="Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la ietf porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
@@ -35,7 +37,7 @@ Es demasiado farragoso tener que ejecutar">
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +48,7 @@ Es demasiado farragoso tener que ejecutar">
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -79,14 +82,13 @@ Es demasiado farragoso tener que ejecutar">
 </div>
 			</ul>
 			
-			<p><center><img src="/rfc-terminal.png" alt="" /></center></p>
-
+			<!-- raw HTML omitted -->
 <p>Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la <a href="https://tools.ietf.org/rfc/">ietf</a> porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete <code>doc-rfc-std</code> de Ubuntu nos trae todo el catálogo al directorio <code>/usr/share/doc/RFC/</code> para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como <code>less</code>.</p>
-
 <p>Es demasiado farragoso tener que ejecutar</p>
-<div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">less /usr/share/doc/RFC/links/rfcXXXX.txt.gz</code></pre></div>
-<p>así que vamos a crear una función de Bash para facilitar la tarea</p>
-<div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash"><span class="nb">echo</span> <span class="s2">&#34;rfc() { less /usr/share/doc/RFC/links/rfc</span><span class="nv">$1</span><span class="s2">.txt.gz; }&#34;</span> &gt;&gt; ~/.bashrc</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">less /usr/share/doc/RFC/links/rfcXXXX.txt.gz
+</code></pre></div><p>así que vamos a crear una función de Bash para facilitar la tarea</p>
+<div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash"><span class="nb">echo</span> <span class="s2">&#34;rfc() { less /usr/share/doc/RFC/links/rfc</span><span class="nv">$1</span><span class="s2">.txt.gz; }&#34;</span> &gt;&gt; ~/.bashrc
+</code></pre></div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -104,7 +106,7 @@ Es demasiado farragoso tener que ejecutar">
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -112,12 +114,12 @@ Es demasiado farragoso tener que ejecutar">
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

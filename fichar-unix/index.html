@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -7,11 +7,11 @@
   <title>Registro de la Jornada en Unix - Lunatic Geek</title>
   <meta property="og:title" content="Registro de la Jornada en Unix - Lunatic Geek" />
   <meta name="twitter:title" content="Registro de la Jornada en Unix - Lunatic Geek" />
-  <meta name="description" content="Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8&frasl;2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
+  <meta name="description" content="Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8/2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
 Son estos honrados empresarios los que llevan quejándose de esta medida durante todo el mes acusando al gobierno de tomar medidas populistas y chapuceras sin el desarrollo reglamentario necesario.">
-  <meta property="og:description" content="Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8&frasl;2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
+  <meta property="og:description" content="Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8/2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.
 Son estos honrados empresarios los que llevan quejándose de esta medida durante todo el mes acusando al gobierno de tomar medidas populistas y chapuceras sin el desarrollo reglamentario necesario.">
-  <meta name="twitter:description" content="Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8&frasl;2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal …">
+  <meta name="twitter:description" content="Desde hace ya un mes se viene aplicando en España el Real Decreto-ley 8/2019 que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
   <meta property="og:site_name" content="Lunatic Geek" />
@@ -35,7 +35,7 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -74,17 +75,13 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
 </div>
 			</ul>
 			
-			<p>Desde hace ya un mes se viene aplicando en España el <a href="https://www.boe.es/boe/dias/2019/03/12/pdfs/BOE-A-2019-3481.pdf">Real Decreto-ley <sup>8</sup>&frasl;<sub>2019</sub></a> que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.</p>
-
+			<p>Desde hace ya un mes se viene aplicando en España el <a href="https://www.boe.es/boe/dias/2019/03/12/pdfs/BOE-A-2019-3481.pdf">Real Decreto-ley 8/2019</a> que obliga a todas las empresas a llevar un libro registro de las horas efectivamente trabajadas por todo el personal para evitar que los generosos trabajadores regalen las que se calcula que son en torno a tres millones de horas a los honrados empresarios.</p>
 <p>Son estos honrados empresarios los que llevan quejándose de esta medida durante todo el mes acusando al gobierno de tomar medidas populistas y chapuceras sin el desarrollo reglamentario necesario. Además protestan por la gran complejidad que supone implantar sistemas de control horario.</p>
-
 <p>La industria informática no ha tardado en dar solución a este problema inexistente, para que los pobres empresarios dejen de llorar, con apps para fichar y máquinas de control biométrico.</p>
-
 <p>Afortunadamente nosotros somos usuarios de sistemas basados en Unix y sabemos que nada de eso es necesario porque conocemos el comando <code>last</code> cuyo existencia puede remontarse hasta mediados de los 70, cuando se empleaba el archivo <code>/usr/adm/wtmp</code> para almacenar datos de inicio y fin de sesión en servidores Unix. En la actualidad <code>last</code> forma parte del paquete <code>util-linux</code> en las distros Linux y se encarga de leer el archivo binario <code>/var/log/wtmp</code>. No ha cambiado gran cosa en 45 años&hellip;</p>
-
 <p>Personalmente utilizo el siguiente one-liner para obtener el registro con un formato más ordenado y estético:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">last <span class="nv">$USER</span> --time-format iso -s <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span> -d <span class="s2">&#34;-1 month&#34;</span><span class="k">)</span> -t <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span><span class="k">)</span> <span class="p">|</span> cut -f <span class="m">28</span>-30 -d <span class="s1">&#39; &#39;</span></code></pre></div>
-<p>Cualquier administrador de sistemas puede obtener estos datos de todos los usuarios que se conecten al servidor central de la empresa para trabajar por SSH. El problema de este método es que las empresas no suelen trabajar así. Han abandonado el ecosistema de Unix y ahora tienen que enmendar su falta comprando cacharros o contratando apps de terceros que tienen acceso a sus datos. Ellos se lo pierden.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">last <span class="nv">$USER</span> --time-format iso -s <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span> -d <span class="s2">&#34;-1 month&#34;</span><span class="k">)</span> -t <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span><span class="k">)</span> <span class="p">|</span> cut -f 28-30 -d <span class="s1">&#39; &#39;</span>
+</code></pre></div><p>Cualquier administrador de sistemas puede obtener estos datos de todos los usuarios que se conecten al servidor central de la empresa para trabajar por SSH. El problema de este método es que las empresas no suelen trabajar así. Han abandonado el ecosistema de Unix y ahora tienen que enmendar su falta comprando cacharros o contratando apps de terceros que tienen acceso a sus datos. Ellos se lo pierden.</p>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -103,7 +100,7 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -111,12 +108,12 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

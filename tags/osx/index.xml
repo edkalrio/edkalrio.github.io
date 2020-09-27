@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osx on Lunatic Geek</title>
+    <title>OSX on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/osx/</link>
-    <description>Recent content in Osx on Lunatic Geek</description>
+    <description>Recent content in OSX on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/osx/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/osx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Cero de Enero y Otros Hitos Informáticos</title>
       <link>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</link>

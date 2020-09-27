@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Google on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FTP en Google Chrome</title>
       <link>https://lunaticgeek.com/chrome-ftp/</link>
@@ -129,7 +125,7 @@ Este método explota el modo en que trabaja el algoritmo de búsqueda de Google,
       <pubDate>Sat, 29 Jan 2011 14:04:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2011-01-29-google-y-su-censura-de-conveniencia/</guid>
-      <description>Esta semana está siendo una semana movidita para todos los internautas.Primero se aprobó la ley Sinde, y ahora google ha empezado a censurar. Si intentáis buscar palabras como &#34;megaupload&#34; &#34;rapidshare&#34; &#34;torrent&#34; nos encontramos con la sorpresa de que el autocompletar no las marca, y la autobusqueda tampoco... habría que dar a enter e ir manualmente.Sin embargo, personalmente creo que google, un buscador para todos los públicos, debería centrarse antes en eliminar ciertos contenidos, como estos:Definitivamente, está claro que, cosas, como la droga o el sexo dan mas dinero que las descargas, por lo que si hay que censurar, empezaremos por los mas débiles: las descargas </description>
+      <description> Esta semana está siendo una semana movidita para todos los internautas.Primero se aprobó la ley Sinde, y ahora google ha empezado a censurar. Si intentáis buscar palabras como &#34;megaupload&#34; &#34;rapidshare&#34; &#34;torrent&#34; nos encontramos con la sorpresa de que el autocompletar no las marca, y la autobusqueda tampoco... habría que dar a enter e ir manualmente.Sin embargo, personalmente creo que google, un buscador para todos los públicos, debería centrarse antes en eliminar ciertos contenidos, como estos:Definitivamente, está claro que, cosas, como la droga o el sexo dan mas dinero que las descargas, por lo que si hay que censurar, empezaremos por los mas débiles: las descargas </description>
     </item>
     
     <item>
@@ -184,7 +180,7 @@ En este post redentor, voy a empezar por microsoft. Empresa que odio profundamen
       <pubDate>Fri, 20 Aug 2010 15:44:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2010-08-20-chat-de-video-de-google-para-linux/</guid>
-      <description>Por fin!La verdad es que los ingenieros de software de Google se han tomado con demasiada calma la implementación de este servicio en Linux. Esta actitud por parte de Google me parece de lo más hipócrita. Hace 2 años salió la versión para windows y los usuarios de Linux nos quedamos con cara de idiotas cuando lo fuimos a usar y el servicio no era compatible con nuestro sistema operativo. En estos dos años han ocurrido multitud de acontecimientos que han acercado a Google a Linux.</description>
+      <description>Por fin!La verdad es que los ingenieros de software de Google se han tomado con demasiada calma la implementación de este servicio en Linux. Esta actitud por parte de Google me parece de lo más hipócrita. Hace 2 años salió la versión para windows y los usuarios de Linux nos quedamos con cara de idiotas cuando lo fuimos a usar y el servicio no era compatible con nuestro sistema operativo.</description>
     </item>
     
     <item>
@@ -193,7 +189,7 @@ En este post redentor, voy a empezar por microsoft. Empresa que odio profundamen
       <pubDate>Mon, 16 Aug 2010 14:00:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2010-08-16-frases-celebres/</guid>
-      <description>&#34;Every time you use Google, you&#39;re using a Linux machine.&#34;&amp;nbsp;(Chris DiBona, director de programación de código abierto de Google)</description>
+      <description> &#34;Every time you use Google, you&#39;re using a Linux machine.&#34;&amp;nbsp;(Chris DiBona, director de programación de código abierto de Google)</description>
     </item>
     
     <item>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -36,7 +36,7 @@ Guacamole es un programa en Java que desafía la concepción tradicional de clie
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -47,6 +47,7 @@ Guacamole es un programa en Java que desafía la concepción tradicional de clie
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -75,7 +76,8 @@ Guacamole es un programa en Java que desafía la concepción tradicional de clie
 </div>
 			</ul>
 			
-			<div class="separator" style="clear: both; text-align: center;"><a href="http://guac-dev.org/images/guacamole-logo-64.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://guac-dev.org/images/guacamole-logo-64.png" /></a></div>Como dice un viejo dicho friki: Solo hay dos, un servidor y un cliente...<br /><a name='more'></a><div style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/ViEtON6cPiA" width="640"></iframe></div><div style="text-align: center;"><br /></div><div style="text-align: justify;">Guacamole es un programa en Java que desafía la concepción tradicional de cliente/servidor de una forma curiosa. Es un servidor VNC que permite acceder a nuestro ordenador remotamente pero no a traveś de un cliente VNC sino a través de cualquier navegador web. Esto es muy útil ya que elimina la necesidad del cliente que en sistemas como iOS es fundamental ya que las apps que ofrecen estos servicios son excesivamente caras.</div><div style="text-align: justify;">La alternativa de Guacamole es totalmente satisfactoria. Suficiente potente y útil aunque quizás sea menos eficiente que un cliente dedicado.</div><div style="text-align: justify;">La instalación del servidor es tan secilla como:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><span style="font-family: 'Courier New', Courier, monospace;">sudo apt-get install tomcat6 libvncserver0 guacamole-tomcat guacamole guacd libguac-client-vnc0 libguac-client-rdp0 libguac3</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Luego solo hay que configurar los usuarios y contraseñas (recomiendo que se codifiquen en MD5). Esta configuración se tiene que realizar manualmente en CLI y se encuentra en el archivo <span style="font-family: 'Courier New', Courier, monospace;">/etc/guacamole/user-mapping.xml</span>. Para más información, consultad la <a href="http://guac-dev.org/Configuring%20Guacamole">info</a> oficial.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Al final solo hay que abrir en cualquier navegador <a href="http://localhost:8080/guacamole/"><span style="font-family: 'Courier New', Courier, monospace;">http://localhost:8080/guacamole/</span></a>&nbsp;para empezar a administrar remotamente nuestro sistema.&nbsp;Os dejo una captura de mi iPod, ejecutando mi estación de trabajo&nbsp;en safari.<br /><br /></div><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-LJAgQYvq7os/T6vYKZzm7sI/AAAAAAAAA2Y/7-btm2u_qCo/s1600/EAD6C5C6-0953-4CC5-8FA9-C7009D180A23.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="266" src="http://2.bp.blogspot.com/-LJAgQYvq7os/T6vYKZzm7sI/AAAAAAAAA2Y/7-btm2u_qCo/s400/EAD6C5C6-0953-4CC5-8FA9-C7009D180A23.PNG" width="400" /></a></div><br /></div>
+			
+<div class="separator" style="clear: both; text-align: center;"><a href="http://guac-dev.org/images/guacamole-logo-64.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://guac-dev.org/images/guacamole-logo-64.png" /></a></div>Como dice un viejo dicho friki: Solo hay dos, un servidor y un cliente...<br /><a name='more'></a><div style="text-align: center;"><iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/ViEtON6cPiA" width="640"></iframe></div><div style="text-align: center;"><br /></div><div style="text-align: justify;">Guacamole es un programa en Java que desafía la concepción tradicional de cliente/servidor de una forma curiosa. Es un servidor VNC que permite acceder a nuestro ordenador remotamente pero no a traveś de un cliente VNC sino a través de cualquier navegador web. Esto es muy útil ya que elimina la necesidad del cliente que en sistemas como iOS es fundamental ya que las apps que ofrecen estos servicios son excesivamente caras.</div><div style="text-align: justify;">La alternativa de Guacamole es totalmente satisfactoria. Suficiente potente y útil aunque quizás sea menos eficiente que un cliente dedicado.</div><div style="text-align: justify;">La instalación del servidor es tan secilla como:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><span style="font-family: 'Courier New', Courier, monospace;">sudo apt-get install tomcat6 libvncserver0 guacamole-tomcat guacamole guacd libguac-client-vnc0 libguac-client-rdp0 libguac3</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Luego solo hay que configurar los usuarios y contraseñas (recomiendo que se codifiquen en MD5). Esta configuración se tiene que realizar manualmente en CLI y se encuentra en el archivo <span style="font-family: 'Courier New', Courier, monospace;">/etc/guacamole/user-mapping.xml</span>. Para más información, consultad la <a href="http://guac-dev.org/Configuring%20Guacamole">info</a> oficial.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Al final solo hay que abrir en cualquier navegador <a href="http://localhost:8080/guacamole/"><span style="font-family: 'Courier New', Courier, monospace;">http://localhost:8080/guacamole/</span></a>&nbsp;para empezar a administrar remotamente nuestro sistema.&nbsp;Os dejo una captura de mi iPod, ejecutando mi estación de trabajo&nbsp;en safari.<br /><br /></div><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-LJAgQYvq7os/T6vYKZzm7sI/AAAAAAAAA2Y/7-btm2u_qCo/s1600/EAD6C5C6-0953-4CC5-8FA9-C7009D180A23.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="266" src="http://2.bp.blogspot.com/-LJAgQYvq7os/T6vYKZzm7sI/AAAAAAAAA2Y/7-btm2u_qCo/s400/EAD6C5C6-0953-4CC5-8FA9-C7009D180A23.PNG" width="400" /></a></div><br /></div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -93,7 +95,7 @@ Guacamole es un programa en Java que desafía la concepción tradicional de clie
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -101,12 +103,12 @@ Guacamole es un programa en Java que desafía la concepción tradicional de clie
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

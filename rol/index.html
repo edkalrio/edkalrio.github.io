@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -35,7 +35,7 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -84,21 +85,13 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 </div>
 			</ul>
 			
-			<p><center><img src="/d20.png" alt="" /></center>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script></p>
-
+			<!-- raw HTML omitted -->
 <p>Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como <em>nerds</em> pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.</p>
-
 <p>El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme. Aunque si hay algo que caracteriza al rol es la cantidad de dados que utiliza; en este mismo sistema se hace uso del <code>d6</code> para la creación de los personajes y otros eventos que requieren menos volatilidad. El uso de un solo dado, sea del valor que sea, supone la subordinación a una distribución de máxima entropía, totalmente imprevisible.</p>
-
 <p>Los generadores de números aleatorios (RNG) son el pilar fundamental del rol sobre el que se construyen las estadísticas de los personajes y monstruos, encuentros y cualquier circunstancia no determinista. Un mayor control de los RNG facilitaría la tarea de diseño de juegos de rol y simplificaría los mismos, mejorando la experiencia de juego. El problema es que los diseñadores no son expertos en combinatoria y probabilidad, e históricamente han recurrido a soluciones improvisadas y basadas en prueba-error para ir refinando las mecánicas aleatorias. Los resultados son innecesariamente tediosos y no se llega a tener el control total de las distribuciones generadas.</p>
-
 <p>Es aquí donde planteo mi pequeña aportación. La alternativa que ofrezco está basada en el <code>d20</code> con apoyo de una tabla guía para generar resultados que siguen una distribución aleatoria determinada previamente. La ventaja de este paradigma es que se puede replicar el resultado de tiradas de cualquier dado o combinación de estos con el <code>d20</code> y se pueden obtener resultados que muy difícilmente se conseguirían calcular con exóticas mezclas, para que los diseñadores de juegos y GMs vuelvan a tener un control absoluto de los procesos aleatorios que acompañan las aventuras roleras.</p>
-
 <p>La forma más habitual de generar distribuciones no-uniformes a partir de uniformes es mediante el <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform">algoritmo de Box-Muller</a>. El problema es que está diseñado para ser calculado por un ordenador, no por un dado. Es absolutamente inviable. En las asignaturas de estadística se estudia el <a href="https://en.wikipedia.org/wiki/Inverse_transform_sampling">método de la transformada inversa</a>, bastante sencillo pero que generaría una tabla guía enorme.</p>
-
 <p>Afortunadamente, profundizando en el tema, encontré un algoritmo no muy popular pero que según dicen es uno de los más elegantes e ingeniosos que existen. Se trata del <a href="http://www.keithschwarz.com/darts-dice-coins/">algoritmo de Vose</a> que genera tablas de tamaño <em>n</em> y el resultado se obtiene de forma inmediata.</p>
-
 <p>Keith Schawarz publicó una extensa explicación del algoritmo y lo compara con otros métodos similares. También ofrece una implementación en <a href="http://www.keithschwarz.com/interesting/code/?dir=alias-method">Java</a> pero como soy alérgico a este lenguaje, me he tomado la molestia de traducirlo a Python, en lo que es casi una copia línea por línea de las partes que me interesaban, si bien adaptando el algoritmo al caso del <code>d20</code>.</p>
 <div class="highlight"><pre class="chroma"><code class="language-python3" data-lang="python3"><span class="ch">#!/usr/bin/python</span>
 
@@ -159,9 +152,8 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 <span class="k">while</span> <span class="n">small</span><span class="p">:</span>
 	<span class="n">probability</span><span class="p">[</span><span class="n">small</span><span class="o">.</span><span class="n">pop</span><span class="p">()]</span> <span class="o">=</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span class="k">while</span> <span class="n">large</span><span class="p">:</span>
-	<span class="n">probability</span><span class="p">[</span><span class="n">large</span><span class="o">.</span><span class="n">pop</span><span class="p">()]</span> <span class="o">=</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span></code></pre></div>
-<p>Con este script podemos generar cualquier distribución de probabilidad que se nos ocurra, alterando los valores del diccionario <code>dice</code>. A modo de ejemplo, una típica tirada <code>3d6</code> puede ser sintetizada con este método porque sigue una distribución conocida —una <em>N(10.5, 2.95803989)</em> — que produce la siguiente tabla guía:</p>
-
+	<span class="n">probability</span><span class="p">[</span><span class="n">large</span><span class="o">.</span><span class="n">pop</span><span class="p">()]</span> <span class="o">=</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div><p>Con este script podemos generar cualquier distribución de probabilidad que se nos ocurra, alterando los valores del diccionario <code>dice</code>. A modo de ejemplo, una típica tirada <code>3d6</code> puede ser sintetizada con este método porque sigue una distribución conocida —una <em>N(10.5, 2.95803989)</em> — que produce la siguiente tabla guía:</p>
 <table>
 <thead>
 <tr>
@@ -170,122 +162,102 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 <th>Alias</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>1</td>
 <td>0</td>
 <td>9</td>
 </tr>
-
 <tr>
 <td>2</td>
 <td>0</td>
 <td>9</td>
 </tr>
-
 <tr>
 <td>3</td>
 <td>4</td>
 <td>10</td>
 </tr>
-
 <tr>
 <td>4</td>
 <td>4</td>
 <td>10</td>
 </tr>
-
 <tr>
 <td>5</td>
 <td>11</td>
 <td>11</td>
 </tr>
-
 <tr>
 <td>6</td>
 <td>20</td>
 <td>6</td>
 </tr>
-
 <tr>
 <td>7</td>
 <td>20</td>
 <td>7</td>
 </tr>
-
 <tr>
 <td>8</td>
 <td>19</td>
 <td>8</td>
 </tr>
-
 <tr>
 <td>9</td>
 <td>3</td>
 <td>8</td>
 </tr>
-
 <tr>
 <td>10</td>
 <td>15</td>
 <td>9</td>
 </tr>
-
 <tr>
 <td>11</td>
 <td>15</td>
 <td>10</td>
 </tr>
-
 <tr>
 <td>12</td>
 <td>15</td>
 <td>11</td>
 </tr>
-
 <tr>
 <td>13</td>
 <td>3</td>
 <td>12</td>
 </tr>
-
 <tr>
 <td>14</td>
 <td>8</td>
 <td>13</td>
 </tr>
-
 <tr>
 <td>15</td>
 <td>0</td>
 <td>14</td>
 </tr>
-
 <tr>
 <td>16</td>
 <td>11</td>
 <td>11</td>
 </tr>
-
 <tr>
 <td>17</td>
 <td>4</td>
 <td>11</td>
 </tr>
-
 <tr>
 <td>18</td>
 <td>4</td>
 <td>12</td>
 </tr>
-
 <tr>
 <td>19</td>
 <td>0</td>
 <td>13</td>
 </tr>
-
 <tr>
 <td>20</td>
 <td>0</td>
@@ -293,9 +265,7 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 </tr>
 </tbody>
 </table>
-
 <p>El procedimiento para utilizar esta tabla es muy sencillo</p>
-
 <pre><code>tiramos d20
 nos colocamos en la fila correspondiente al resultado
 tiramos d20
@@ -303,12 +273,8 @@ si superamos la dificultad de aquella fila
 	El resultado final es el primer d20
 si no
 	El resultado final es el alias de esa fila
-</code></pre>
-
-<p>Pero este sencillo método no se conforma con síntesis tan sencillas. También es capaz de calcular la distribución de <code>4d6d1</code>, muy utilizada recientemente para la creación de personajes; <code>4dF</code>, la tirada de dados Fudge/Fate; incluso un humilde <code>d6</code> y en realidad, cualquier distribución que se nos ocurra, ya sea simétrica o asimétrica, lineal, geométrica, campaniforme, sigmoidea, irregular o caótica.</p>
-
-<p>Todo este proceso no está exento de errores. El redondeo a <sup>1</sup>&frasl;<sub>20</sub> impuesto por el dado provoca pequeñas divergencias respecto a la distribución original como apreciamos a continuación. Que cada cual juzgue si se encuentran en un margen de error aceptable.</p>
-
+</code></pre><p>Pero este sencillo método no se conforma con síntesis tan sencillas. También es capaz de calcular la distribución de <code>4d6d1</code>, muy utilizada recientemente para la creación de personajes; <code>4dF</code>, la tirada de dados Fudge/Fate; incluso un humilde <code>d6</code> y en realidad, cualquier distribución que se nos ocurra, ya sea simétrica o asimétrica, lineal, geométrica, campaniforme, sigmoidea, irregular o caótica.</p>
+<p>Todo este proceso no está exento de errores. El redondeo a 1/20 impuesto por el dado provoca pequeñas divergencias respecto a la distribución original como apreciamos a continuación. Que cada cual juzgue si se encuentran en un margen de error aceptable.</p>
 <table>
 <thead>
 <tr>
@@ -317,26 +283,22 @@ si no
 <th>Distribución Obtenida</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>3d6</td>
 <td>N(10.5, 2.958)</td>
 <td>N(10.4525, 3.0009)</td>
 </tr>
-
 <tr>
 <td>4d6d1</td>
 <td>N(12.2446, 2.8468)</td>
 <td>N(12.125, 3.0754)</td>
 </tr>
-
 <tr>
 <td>4dF</td>
 <td>N(0, 1.633)</td>
 <td>N(-0.03, 1.6358)</td>
 </tr>
-
 <tr>
 <td>d6</td>
 <td>U(1,6)</td>
@@ -344,16 +306,12 @@ si no
 </tr>
 </tbody>
 </table>
-
 <p>A veces una imagen vale más que mil palabras, así que he elaborado los siguientes gráficos de las distribuciones anteriormente tratadas, obviando el hecho de que son generalizaciones de los verdaderos resultados y que las originales son discretas. Se muestra la PDF original en línea discontinua para que contraste con la estimación verdaderamente obtenida.</p>
-
-<p><img src="/3d6.png" alt="" />
-<img src="/4d6d1.png" alt="" />
-<img src="/4dF.png" alt="" />
-<img src="/d6.png" alt="" /></p>
-
+<p><img src="/3d6.png" alt="">
+<img src="/4d6d1.png" alt="">
+<img src="/4dF.png" alt="">
+<img src="/d6.png" alt=""></p>
 <p>Finalmente y a modo de conclusión se recoge en la siguiente tabla las tiradas de dificultad (D) y alias (A) para los casos tratados. Esta es la única que necesitamos para jugar.</p>
-
 <table>
 <thead>
 <tr>
@@ -368,7 +326,6 @@ si no
 <th>sd6 A</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>1</td>
@@ -381,7 +338,6 @@ si no
 <td>4</td>
 <td>3</td>
 </tr>
-
 <tr>
 <td>2</td>
 <td>0</td>
@@ -393,7 +349,6 @@ si no
 <td>20</td>
 <td>0</td>
 </tr>
-
 <tr>
 <td>3</td>
 <td>4</td>
@@ -405,7 +360,6 @@ si no
 <td>12</td>
 <td>2</td>
 </tr>
-
 <tr>
 <td>4</td>
 <td>4</td>
@@ -417,7 +371,6 @@ si no
 <td>16</td>
 <td>6</td>
 </tr>
-
 <tr>
 <td>5</td>
 <td>11</td>
@@ -429,7 +382,6 @@ si no
 <td>8</td>
 <td>4</td>
 </tr>
-
 <tr>
 <td>6</td>
 <td>12</td>
@@ -441,7 +393,6 @@ si no
 <td>0</td>
 <td>1</td>
 </tr>
-
 <tr>
 <td>7</td>
 <td>12</td>
@@ -453,7 +404,6 @@ si no
 <td>0</td>
 <td>2</td>
 </tr>
-
 <tr>
 <td>8</td>
 <td>4</td>
@@ -465,7 +415,6 @@ si no
 <td>0</td>
 <td>1</td>
 </tr>
-
 <tr>
 <td>9</td>
 <td>8</td>
@@ -477,7 +426,6 @@ si no
 <td>0</td>
 <td>1</td>
 </tr>
-
 <tr>
 <td>10</td>
 <td>8</td>
@@ -489,7 +437,6 @@ si no
 <td>0</td>
 <td>5</td>
 </tr>
-
 <tr>
 <td>11</td>
 <td>4</td>
@@ -501,7 +448,6 @@ si no
 <td>0</td>
 <td>5</td>
 </tr>
-
 <tr>
 <td>12</td>
 <td>16</td>
@@ -513,7 +459,6 @@ si no
 <td>0</td>
 <td>6</td>
 </tr>
-
 <tr>
 <td>13</td>
 <td>20</td>
@@ -525,7 +470,6 @@ si no
 <td>0</td>
 <td>2</td>
 </tr>
-
 <tr>
 <td>14</td>
 <td>12</td>
@@ -537,7 +481,6 @@ si no
 <td>0</td>
 <td>4</td>
 </tr>
-
 <tr>
 <td>15</td>
 <td>8</td>
@@ -549,7 +492,6 @@ si no
 <td>0</td>
 <td>5</td>
 </tr>
-
 <tr>
 <td>16</td>
 <td>11</td>
@@ -561,7 +503,6 @@ si no
 <td>0</td>
 <td>6</td>
 </tr>
-
 <tr>
 <td>17</td>
 <td>4</td>
@@ -573,7 +514,6 @@ si no
 <td>0</td>
 <td>4</td>
 </tr>
-
 <tr>
 <td>18</td>
 <td>4</td>
@@ -585,7 +525,6 @@ si no
 <td>0</td>
 <td>3</td>
 </tr>
-
 <tr>
 <td>19</td>
 <td>0</td>
@@ -597,7 +536,6 @@ si no
 <td>0</td>
 <td>3</td>
 </tr>
-
 <tr>
 <td>20</td>
 <td>0</td>
@@ -611,9 +549,7 @@ si no
 </tr>
 </tbody>
 </table>
-
 <p>P.S. Para calcular las probabilidades de la suma de los valores de los dados, se ha utilizado la intimidante fórmula</p>
-
 <p>$$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$</p>
 
 			<div property="author" typeof="Person">
@@ -633,7 +569,7 @@ si no
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -641,12 +577,12 @@ si no
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

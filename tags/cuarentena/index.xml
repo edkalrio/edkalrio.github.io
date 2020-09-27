@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cuarentena on Lunatic Geek</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Cuarentena on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/cuarentena/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/cuarentena/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lunes de Cuarentena</title>
       <link>https://lunaticgeek.com/cuarentena/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/cuarentena/</guid>
-      <description>Pese a lo que pueda parecer al lector de este blog enfocado a temas informáticos esotéricos, herméticos y oscuros, mi actividad profesional nada tiene que ver con eso. Las posibilidades de teletrabajar son nulas en mi sector y de hecho, mi trabajo ha sido expresamente prohibido por el Real Decreto 463&amp;frasl;2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19, lo que me va a dejar recluido en casa las próximas dos semanas &amp;mdash;al menos&amp;mdash;.</description>
+      <description>Pese a lo que pueda parecer al lector de este blog enfocado a temas informáticos esotéricos, herméticos y oscuros, mi actividad profesional nada tiene que ver con eso. Las posibilidades de teletrabajar son nulas en mi sector y de hecho, mi trabajo ha sido expresamente prohibido por el Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19, lo que me va a dejar recluido en casa las próximas dos semanas &amp;mdash;al menos&amp;mdash;.</description>
     </item>
     
   </channel>

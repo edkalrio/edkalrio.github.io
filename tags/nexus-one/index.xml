@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nexus One on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Nexus One on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 13 May 2012 23:10:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/nexus-one/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 13 May 2012 23:10:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/nexus-one/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opiniones referentes a los diferentes Sistemas Operativos Moviles</title>
       <link>https://lunaticgeek.com/2012-05-13-opiniones-referentes-los-diferentes/</link>

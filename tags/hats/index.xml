@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hats on Lunatic Geek</title>
+    <title>HATS on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/hats/</link>
-    <description>Recent content in Hats on Lunatic Geek</description>
+    <description>Recent content in HATS on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/hats/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/hats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HATS 2019</title>
       <link>https://lunaticgeek.com/hats-2019/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://lunaticgeek.com/hats-2019/</guid>
       <description>Con el fin de año, llega la 11ª edición de los premios HATS (Hats Awards of Technology &amp;amp; Science), del 2019.
-Mis esperanzas y temores respecto a este año 2019 que ya ha terminado se han cumplido casi al pie de la letra y eso me alegra porque nunca me han gustado las sorpresas. Siempre recordaré el 2019 como el año en el que me reconcilié con la industria informática.</description>
+Mis esperanzas y temores respecto a este año 2019 que ya ha terminado se han cumplido casi al pie de la letra y eso me alegra porque nunca me han gustado las sorpresas. Siempre recordaré el 2019 como el año en el que me reconcilié con la industria informática. Después de años de escepticismo respecto del rumbo que estaba adoptando, he terminado aceptando —no sé si con cierta resignación— las últimas novedades de hardware gracias al simposio de Hot Chips.</description>
     </item>
     
     <item>
@@ -134,7 +130,7 @@ Videojuego del año 2010 porque deja en ridículo a la realidad.</description>
       <pubDate>Mon, 01 Feb 2010 12:40:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2010-02-01-hats-09/</guid>
-      <description>Y los ganadores son...Software del año 2009:SpotifyHardware del año 2009:ASUS MARSGadget del año 2009:PS3 slimVideojuego del año 2009:Uncharted 2Ordenador del año 2009:Apple iMac 27&#34; 2.8GHz Intel i7&amp;nbsp;Avance científico-tecnológico del año 2009:Procesador cuántico en estado sólido desarrollado por el Departamento de Física y Física aplicada de la Universidad de Yale.Personaje del año 2009:Steve Jobs</description>
+      <description> Y los ganadores son...Software del año 2009:SpotifyHardware del año 2009:ASUS MARSGadget del año 2009:PS3 slimVideojuego del año 2009:Uncharted 2Ordenador del año 2009:Apple iMac 27&#34; 2.8GHz Intel i7&amp;nbsp;Avance científico-tecnológico del año 2009:Procesador cuántico en estado sólido desarrollado por el Departamento de Física y Física aplicada de la Universidad de Yale.Personaje del año 2009:Steve Jobs</description>
     </item>
     
   </channel>

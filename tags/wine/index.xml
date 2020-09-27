@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wine on Lunatic Geek</title>
+    <title>wine on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/wine/</link>
-    <description>Recent content in Wine on Lunatic Geek</description>
+    <description>Recent content in wine on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 23 Aug 2012 16:20:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/wine/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 23 Aug 2012 16:20:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/wine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalar Wine en Debian</title>
       <link>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</link>

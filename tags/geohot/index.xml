@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geohot on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Geohot on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 15 Apr 2011 17:27:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/geohot/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 15 Apr 2011 17:27:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/geohot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anonymous vuelve contra Sony</title>
       <link>https://lunaticgeek.com/2011-04-15-anonymous-vuelve-contra-sony/</link>
@@ -37,7 +33,7 @@ Todo esto aparece pocos días después de que el tema de Hotz vs Sony se cerrara
       <pubDate>Wed, 06 Apr 2011 21:35:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-04-06-una-vez-mas-sony-demuestra-su/</guid>
-      <description>Hoy se ha filtrado información de que SONY ha contratado a una empresa especializada en contrarrestar los ataques DDOS que está realizando el grupo Anonymous.¿No sería mejor invertir ese dinero en mejorar el sistema, que cada vez da mas fallos? Podían arreglar las lectoras cascadas, por ejemplo, en vez de seguir adelante con su cobarde política de atacar a la gente con mas conocimientos que sus cutres programadores, como Geohot.Esos ataques DDOS se los han ganado ellos a pulso, fastidiando al usuario que compró su consola engañado con la posibilidad de instalar un SO alternativo, cuando perfectamente podía haber comprado una Xbox para jugar.</description>
+      <description>Hoy se ha filtrado información de que SONY ha contratado a una empresa especializada en contrarrestar los ataques DDOS que está realizando el grupo Anonymous.¿No sería mejor invertir ese dinero en mejorar el sistema, que cada vez da mas fallos? Podían arreglar las lectoras cascadas, por ejemplo, en vez de seguir adelante con su cobarde política de atacar a la gente con mas conocimientos que sus cutres programadores, como Geohot.</description>
     </item>
     
     <item>
@@ -46,7 +42,7 @@ Todo esto aparece pocos días después de que el tema de Hotz vs Sony se cerrara
       <pubDate>Mon, 04 Apr 2011 12:55:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</guid>
-      <description>Este mensaje aparecía hace escasas horas en uno de los canales de IRC anónimos que sirve de plataforma al grupo de ciberactivistas. Sony no solo ha perdido ya la confianza y el respeto de los usuarios de Linux, a los que en la última vista judicial, el representante de Sony afirmaba que formaban parte de &#34;una conspiración glogal con el único propósito de piratear la consola y perjudicar a SCEA&#34;. Anonymous no hace daño a la mayoría de entidades que ataca.</description>
+      <description>Este mensaje aparecía hace escasas horas en uno de los canales de IRC anónimos que sirve de plataforma al grupo de ciberactivistas. Sony no solo ha perdido ya la confianza y el respeto de los usuarios de Linux, a los que en la última vista judicial, el representante de Sony afirmaba que formaban parte de &#34;una conspiración glogal con el único propósito de piratear la consola y perjudicar a SCEA&#34;</description>
     </item>
     
     <item>

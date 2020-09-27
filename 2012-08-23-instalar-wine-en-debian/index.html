@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -39,7 +39,7 @@ Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras 
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -50,6 +50,7 @@ Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras 
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -83,7 +84,8 @@ Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras 
 </div>
 			</ul>
 			
-			<div style="text-align: center;"><span style="color: red;"><b>Cómo instalar Wine en Debian 6</b></span></div><div style="text-align: center;"><span style="color: red;"><b><br /></b></span></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s1600/210px-Openlogo-debianV2.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s200/210px-Openlogo-debianV2.svg.png" width="161" /></a></div><div style="text-align: center;"><span style="color: red;"><b><br /></b></span></div>Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras distribuciones. El caso es que ayer estaba probando Debian, haciendo pruebas con Lunaticgeek Utilities, cuando llegó el momento de instalar Wine. En la web de Winehq no viene gran cosa sobre como instalarlo en debian, salvo que lo compiles por tu cuenta, cosa que si eres un usuario avanzado está bien, pero no todo el mundo sabe hacerlo, ni tiene tiempo para ponerse con ello.<br /><br /><a name='more'></a>Después de mucho buscar por la red, no he encontrado absolutamente nada claro y conciso sobre cómo instalar Wine en una distribución Debian, y lo poco que encontré estaba desfasado.<br /><br />Por ello quiero explicar cómo podemos instalarlo fácilmente en nuestra distribución Debian 6.<br /><br />Lo primero que debemos hacer es<br /><br /><br />1- Agregar el repositorio a sources.list, para ello ejecutamos:<br /><br /><i>sudo gedit /etc/apt/sources.list&nbsp;</i><br /><br />y añadimos al final:<br /><br /><i>## Wine Squeeze&nbsp;</i><br /><i>deb http://www.lamaresh.net/apt squeeze main</i><br /><i><br /></i>2- actualizamos los repositorios ejecutando:<br /><i><br /></i><i>sudo apt-get update</i><br /><i><br /></i>3- procedemos a instalar Wine desde apt-get<br /><br /><i>sudo apt-get install wine</i><br /><br />Comenzará el proceso de instalación que, él solo, satisfará todas las dependencias necesarias.<br /><br />Una vez finalizado el proceso ya tendremos Wine instalado en nuestro sistema con Debian. Para comprobar que efectivamente funciona, deberemos ejecutar en un terminal: <i>wine --version</i>, que nos devolverá la&nbsp;versión&nbsp;de Wine instalada en nuestro sistema.<br /><br />Espero que os sea útil y os ahorre tiempo buscando y leyendo información desfasada.
+			
+<div style="text-align: center;"><span style="color: red;"><b>Cómo instalar Wine en Debian 6</b></span></div><div style="text-align: center;"><span style="color: red;"><b><br /></b></span></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s1600/210px-Openlogo-debianV2.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://1.bp.blogspot.com/-0-kAPLVIvto/UDY8AJxhOtI/AAAAAAAAIOg/JGLPEX5AmSs/s200/210px-Openlogo-debianV2.svg.png" width="161" /></a></div><div style="text-align: center;"><span style="color: red;"><b><br /></b></span></div>Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras distribuciones. El caso es que ayer estaba probando Debian, haciendo pruebas con Lunaticgeek Utilities, cuando llegó el momento de instalar Wine. En la web de Winehq no viene gran cosa sobre como instalarlo en debian, salvo que lo compiles por tu cuenta, cosa que si eres un usuario avanzado está bien, pero no todo el mundo sabe hacerlo, ni tiene tiempo para ponerse con ello.<br /><br /><a name='more'></a>Después de mucho buscar por la red, no he encontrado absolutamente nada claro y conciso sobre cómo instalar Wine en una distribución Debian, y lo poco que encontré estaba desfasado.<br /><br />Por ello quiero explicar cómo podemos instalarlo fácilmente en nuestra distribución Debian 6.<br /><br />Lo primero que debemos hacer es<br /><br /><br />1- Agregar el repositorio a sources.list, para ello ejecutamos:<br /><br /><i>sudo gedit /etc/apt/sources.list&nbsp;</i><br /><br />y añadimos al final:<br /><br /><i>## Wine Squeeze&nbsp;</i><br /><i>deb http://www.lamaresh.net/apt squeeze main</i><br /><i><br /></i>2- actualizamos los repositorios ejecutando:<br /><i><br /></i><i>sudo apt-get update</i><br /><i><br /></i>3- procedemos a instalar Wine desde apt-get<br /><br /><i>sudo apt-get install wine</i><br /><br />Comenzará el proceso de instalación que, él solo, satisfará todas las dependencias necesarias.<br /><br />Una vez finalizado el proceso ya tendremos Wine instalado en nuestro sistema con Debian. Para comprobar que efectivamente funciona, deberemos ejecutar en un terminal: <i>wine --version</i>, que nos devolverá la&nbsp;versión&nbsp;de Wine instalada en nuestro sistema.<br /><br />Espero que os sea útil y os ahorre tiempo buscando y leyendo información desfasada.
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -101,7 +103,7 @@ Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras 
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -109,12 +111,12 @@ Normalmente, en este blog somos usuarios de Ubuntu, pero nos gusta probar otras 
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

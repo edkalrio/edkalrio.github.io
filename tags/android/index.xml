@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Android on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stickers de Line para WhatsApp</title>
       <link>https://lunaticgeek.com/whatsapp-stickers/</link>
@@ -135,7 +131,7 @@ Todo empezó hace unas semanas, cuando unos fondos de inversión integrados entr
       <pubDate>Sun, 07 Nov 2010 13:13:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2010-11-07-los-usuarios-de-smartphones/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>

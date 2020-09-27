@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -78,13 +79,9 @@
 			</ul>
 			
 			<p>No me ha sorprendido leer en el blog de <a href="https://blog.chromium.org/2019/12/chrome-80-content-indexing-es-modules.html">Chromium</a> que Google retira el soporte de FTP de su navegador web debido a la escasa popularidad del servicio. Estamos casi en 2020 y FTP es un protocolo obsoleto. Todos los proyectos de software libre que utilizaban este tipo de servidores están abandonándolos por falta de ganas de afrontar su mantenimiento. Además la inseguridad implícita en un protocolo sin cifrar despeja el camino para que los administradores de sistemas de todo el mundo apaguen sus FTPs y no vuelvan a encenderlos jamás.</p>
-
 <p>Por extraño que parezca, esta situación me apena. Personalmente, administro mi propio servidor FTP alojado en <a href="ftp://ftp.lunaticgeek.com/">ftp://ftp.lunaticgeek.com/</a>. Si no lo había dicho nunca es porque, a pesar de ser un FTP público, solo lo utilizo para compartir archivos —piratas— con colegas y suelo mantenerlo apagado casi siempre. La elección de FTP para este servidor partió de la curiosidad. También poseo un servidor web para el mismo propósito en <a href="https://copype.ga">https://copype.ga</a> pero los límites de almacenamiento de la máquina desde la que lo sirvo (32 GB) me obligan a tener una alternativa con más capacidad. En vez de montar otro servidor web con HTTP/3 y TLS 1.3, decidí probar con FTP. La simplicidad de su diseño me atrajo desde que leí el <a href="https://tools.ietf.org/rfc/rfc959.txt">RFC 959</a> y hace tiempo escribí una <a href="/defensa-ftp/">entrada</a> explicando ciertos malentendidos sobre su seguridad. Es solo otra extravagancia más en mi vida. No recomiendo a nadie que hoy se ponga a configurar una de estas antigüedades. Un servidor web con autoindex es prácticamente idéntico en interfaz y un <a href="http://www.webdav.org/">WebDAV</a> se asemeja todavía más en cuanto a la posibilidad de montar los discos en el sistema de archivos del cliente.</p>
-
 <p>La obsolescencia del soporte de FTP en Chrome no pilla a nadie por sorpresa pero ahora se conoce la <a href="https://www.chromestatus.com/features/6246151319715840">hoja de ruta</a> completa hasta su erradicación total. En Chrome 80 está activado por defecto pero se podrá desactivar mediante una <a href="chrome://flags/#enable-ftp">flag</a>. Este comportamiento se invertirá en la siguiente versión del navegador y finalmente, en Chrome 82, prevista para mediados de 2020 se eliminará todo el código relativo a FTP.</p>
-
 <p>Tampoco quiero que parezca que me estoy quejando de esta decisión de Google. En el fondo es la más sensata y siendo estrictos, conectarse a un FTP a través de un navegador web es un poco chapucero y no aprovecha todo el potencial que ofrece un cliente dedicado pero es tan cómodo que en ciertas ocasiones valía la pena tenerlo a mano.</p>
-
 <p>RIP FTP. Desapareces de nuestros navegadores web pero nuestros navegadores de archivos nunca te olvidarán.</p>
 
 			<div property="author" typeof="Person">
@@ -104,7 +101,7 @@
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -112,12 +109,12 @@
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

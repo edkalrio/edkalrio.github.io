@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lunatic Geek</title>
@@ -6,949 +6,9 @@
     <description>Recent content in Tags on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 07 May 2013 19:22:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>#Wttf</title>
-      <link>https://lunaticgeek.com/tags/#wttf/</link>
-      <pubDate>Tue, 07 May 2013 19:22:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/#wttf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>16 Bits</title>
-      <link>https://lunaticgeek.com/tags/16-bits/</link>
-      <pubDate>Tue, 30 Nov 2010 16:24:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/16-bits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3d</title>
-      <link>https://lunaticgeek.com/tags/3d/</link>
-      <pubDate>Thu, 21 Apr 2011 10:58:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/3d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ai</title>
-      <link>https://lunaticgeek.com/tags/ai/</link>
-      <pubDate>Tue, 23 May 2017 13:56:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ajedrez</title>
-      <link>https://lunaticgeek.com/tags/ajedrez/</link>
-      <pubDate>Wed, 25 Aug 2010 19:07:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ajedrez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexandra</title>
-      <link>https://lunaticgeek.com/tags/alexandra/</link>
-      <pubDate>Tue, 10 Jan 2012 18:51:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/alexandra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Android</title>
-      <link>https://lunaticgeek.com/tags/android/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anonymous</title>
-      <link>https://lunaticgeek.com/tags/anonymous/</link>
-      <pubDate>Tue, 26 Apr 2011 23:19:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/anonymous/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apple</title>
-      <link>https://lunaticgeek.com/tags/apple/</link>
-      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/apple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>April Fools Day</title>
-      <link>https://lunaticgeek.com/tags/april-fools-day/</link>
-      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/april-fools-day/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aventuras Y Misterios</title>
-      <link>https://lunaticgeek.com/tags/aventuras-y-misterios/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/aventuras-y-misterios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Back to the Future</title>
-      <link>https://lunaticgeek.com/tags/back-to-the-future/</link>
-      <pubDate>Tue, 27 Jul 2010 13:11:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/back-to-the-future/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Backup Manager</title>
-      <link>https://lunaticgeek.com/tags/backup-manager/</link>
-      <pubDate>Fri, 03 Sep 2010 16:32:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/backup-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bash</title>
-      <link>https://lunaticgeek.com/tags/bash/</link>
-      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biit</title>
-      <link>https://lunaticgeek.com/tags/biit/</link>
-      <pubDate>Tue, 15 Nov 2011 13:28:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/biit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bill Gates</title>
-      <link>https://lunaticgeek.com/tags/bill-gates/</link>
-      <pubDate>Fri, 12 Nov 2010 23:59:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/bill-gates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bitcoin</title>
-      <link>https://lunaticgeek.com/tags/bitcoin/</link>
-      <pubDate>Sat, 03 Feb 2018 14:36:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/bitcoin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blender</title>
-      <link>https://lunaticgeek.com/tags/blender/</link>
-      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/blender/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blogger</title>
-      <link>https://lunaticgeek.com/tags/blogger/</link>
-      <pubDate>Fri, 09 Sep 2011 01:23:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/blogger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blueray</title>
-      <link>https://lunaticgeek.com/tags/blueray/</link>
-      <pubDate>Thu, 16 Sep 2010 14:13:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/blueray/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>https://lunaticgeek.com/tags/c/</link>
-      <pubDate>Tue, 27 Feb 2018 13:36:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cafe</title>
-      <link>https://lunaticgeek.com/tags/cafe/</link>
-      <pubDate>Thu, 21 Apr 2011 15:30:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cafe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Caleidoscopios</title>
-      <link>https://lunaticgeek.com/tags/caleidoscopios/</link>
-      <pubDate>Wed, 25 Aug 2010 19:05:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/caleidoscopios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Canon</title>
-      <link>https://lunaticgeek.com/tags/canon/</link>
-      <pubDate>Sun, 17 Jul 2011 18:10:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/canon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chrome</title>
-      <link>https://lunaticgeek.com/tags/chrome/</link>
-      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/chrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chrome Os</title>
-      <link>https://lunaticgeek.com/tags/chrome-os/</link>
-      <pubDate>Wed, 08 Dec 2010 20:29:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/chrome-os/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chromium</title>
-      <link>https://lunaticgeek.com/tags/chromium/</link>
-      <pubDate>Wed, 01 Sep 2010 23:21:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/chromium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud Computing</title>
-      <link>https://lunaticgeek.com/tags/cloud-computing/</link>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cloud-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloudflare</title>
-      <link>https://lunaticgeek.com/tags/cloudflare/</link>
-      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cloudflare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coche</title>
-      <link>https://lunaticgeek.com/tags/coche/</link>
-      <pubDate>Tue, 12 Oct 2010 00:34:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/coche/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computación</title>
-      <link>https://lunaticgeek.com/tags/computaci%C3%B3n/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/computaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cr 48</title>
-      <link>https://lunaticgeek.com/tags/cr-48/</link>
-      <pubDate>Wed, 08 Dec 2010 20:29:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cr-48/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Criptografía</title>
-      <link>https://lunaticgeek.com/tags/criptograf%C3%ADa/</link>
-      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/criptograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Css</title>
-      <link>https://lunaticgeek.com/tags/css/</link>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cuantocabron</title>
-      <link>https://lunaticgeek.com/tags/cuantocabron/</link>
-      <pubDate>Thu, 28 Jul 2011 16:07:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cuantocabron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cuarentena</title>
-      <link>https://lunaticgeek.com/tags/cuarentena/</link>
-      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cuarentena/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Firmware</title>
-      <link>https://lunaticgeek.com/tags/custom-firmware/</link>
-      <pubDate>Sun, 19 Sep 2010 21:22:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/custom-firmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Debian</title>
-      <link>https://lunaticgeek.com/tags/debian/</link>
-      <pubDate>Fri, 25 Jul 2014 18:21:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Descargas</title>
-      <link>https://lunaticgeek.com/tags/descargas/</link>
-      <pubDate>Sat, 29 Jan 2011 14:04:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/descargas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diciembre</title>
-      <link>https://lunaticgeek.com/tags/diciembre/</link>
-      <pubDate>Thu, 01 Dec 2011 21:24:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/diciembre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Directx</title>
-      <link>https://lunaticgeek.com/tags/directx/</link>
-      <pubDate>Thu, 23 Sep 2010 18:06:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/directx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dirndl</title>
-      <link>https://lunaticgeek.com/tags/dirndl/</link>
-      <pubDate>Tue, 14 Jun 2011 13:38:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/dirndl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Disco Duro</title>
-      <link>https://lunaticgeek.com/tags/disco-duro/</link>
-      <pubDate>Mon, 02 Aug 2010 17:38:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/disco-duro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Disqueteras</title>
-      <link>https://lunaticgeek.com/tags/disqueteras/</link>
-      <pubDate>Fri, 18 May 2012 12:25:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/disqueteras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dns</title>
-      <link>https://lunaticgeek.com/tags/dns/</link>
-      <pubDate>Wed, 11 Apr 2018 14:10:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/dns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://lunaticgeek.com/tags/docker/</link>
-      <pubDate>Tue, 11 Jul 2017 12:40:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Doodle</title>
-      <link>https://lunaticgeek.com/tags/doodle/</link>
-      <pubDate>Thu, 16 Jun 2011 00:44:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/doodle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>E3</title>
-      <link>https://lunaticgeek.com/tags/e3/</link>
-      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/e3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Economía</title>
-      <link>https://lunaticgeek.com/tags/econom%C3%ADa/</link>
-      <pubDate>Sat, 03 Feb 2018 14:36:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/econom%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eda</title>
-      <link>https://lunaticgeek.com/tags/eda/</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/eda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Editorial</title>
-      <link>https://lunaticgeek.com/tags/editorial/</link>
-      <pubDate>Sun, 19 Dec 2010 14:04:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/editorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electron</title>
-      <link>https://lunaticgeek.com/tags/electron/</link>
-      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/electron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elementary Project</title>
-      <link>https://lunaticgeek.com/tags/elementary-project/</link>
-      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/elementary-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emacs</title>
-      <link>https://lunaticgeek.com/tags/emacs/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estadística</title>
-      <link>https://lunaticgeek.com/tags/estad%C3%ADstica/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/estad%C3%ADstica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Esteganografía</title>
-      <link>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</link>
-      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Excel</title>
-      <link>https://lunaticgeek.com/tags/excel/</link>
-      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fail0verflow</title>
-      <link>https://lunaticgeek.com/tags/fail0verflow/</link>
-      <pubDate>Sat, 01 Jan 2011 20:44:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/fail0verflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firefox</title>
-      <link>https://lunaticgeek.com/tags/firefox/</link>
-      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Floppy</title>
-      <link>https://lunaticgeek.com/tags/floppy/</link>
-      <pubDate>Fri, 18 May 2012 12:25:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/floppy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frases Celebres</title>
-      <link>https://lunaticgeek.com/tags/frases-celebres/</link>
-      <pubDate>Tue, 07 Jun 2011 20:52:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/frases-celebres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fstab</title>
-      <link>https://lunaticgeek.com/tags/fstab/</link>
-      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/fstab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ftp</title>
-      <link>https://lunaticgeek.com/tags/ftp/</link>
-      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ftp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Galaxy Nexus</title>
-      <link>https://lunaticgeek.com/tags/galaxy-nexus/</link>
-      <pubDate>Wed, 19 Oct 2011 13:08:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/galaxy-nexus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game</title>
-      <link>https://lunaticgeek.com/tags/game/</link>
-      <pubDate>Mon, 01 Aug 2011 11:33:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gay</title>
-      <link>https://lunaticgeek.com/tags/gay/</link>
-      <pubDate>Thu, 09 Sep 2010 17:38:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/gay/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geek</title>
-      <link>https://lunaticgeek.com/tags/geek/</link>
-      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/geek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geohot</title>
-      <link>https://lunaticgeek.com/tags/geohot/</link>
-      <pubDate>Fri, 15 Apr 2011 17:27:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/geohot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gmail</title>
-      <link>https://lunaticgeek.com/tags/gmail/</link>
-      <pubDate>Thu, 26 Aug 2010 16:08:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/gmail/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gnome</title>
-      <link>https://lunaticgeek.com/tags/gnome/</link>
-      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/gnome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gnu</title>
-      <link>https://lunaticgeek.com/tags/gnu/</link>
-      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/gnu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Goku</title>
-      <link>https://lunaticgeek.com/tags/goku/</link>
-      <pubDate>Mon, 11 Oct 2010 13:36:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/goku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>https://lunaticgeek.com/tags/google/</link>
-      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Code</title>
-      <link>https://lunaticgeek.com/tags/google-code/</link>
-      <pubDate>Tue, 27 Sep 2011 14:15:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/google-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gpl</title>
-      <link>https://lunaticgeek.com/tags/gpl/</link>
-      <pubDate>Fri, 26 Jul 2013 19:38:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/gpl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gpu</title>
-      <link>https://lunaticgeek.com/tags/gpu/</link>
-      <pubDate>Wed, 01 Sep 2010 23:21:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/gpu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grapas Y Mapas</title>
-      <link>https://lunaticgeek.com/tags/grapas-y-mapas/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/grapas-y-mapas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hats</title>
-      <link>https://lunaticgeek.com/tags/hats/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/hats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hd</title>
-      <link>https://lunaticgeek.com/tags/hd/</link>
-      <pubDate>Thu, 21 Apr 2011 15:30:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/hd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hp</title>
-      <link>https://lunaticgeek.com/tags/hp/</link>
-      <pubDate>Fri, 26 Aug 2011 18:24:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/hp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>https://lunaticgeek.com/tags/html/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Http2</title>
-      <link>https://lunaticgeek.com/tags/http2/</link>
-      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/http2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Humor</title>
-      <link>https://lunaticgeek.com/tags/humor/</link>
-      <pubDate>Thu, 17 Mar 2011 19:05:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/humor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Humor Chrome</title>
-      <link>https://lunaticgeek.com/tags/humor-chrome/</link>
-      <pubDate>Tue, 27 Jul 2010 16:21:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/humor-chrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I3</title>
-      <link>https://lunaticgeek.com/tags/i3/</link>
-      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/i3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I3wm</title>
-      <link>https://lunaticgeek.com/tags/i3wm/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/i3wm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ibm</title>
-      <link>https://lunaticgeek.com/tags/ibm/</link>
-      <pubDate>Tue, 13 Sep 2011 13:37:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ibm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Informática</title>
-      <link>https://lunaticgeek.com/tags/inform%C3%A1tica/</link>
-      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/inform%C3%A1tica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intel</title>
-      <link>https://lunaticgeek.com/tags/intel/</link>
-      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/intel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>https://lunaticgeek.com/tags/ios/</link>
-      <pubDate>Sun, 13 May 2012 23:10:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ip</title>
-      <link>https://lunaticgeek.com/tags/ip/</link>
-      <pubDate>Tue, 03 Apr 2018 13:08:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ipad</title>
-      <link>https://lunaticgeek.com/tags/ipad/</link>
-      <pubDate>Wed, 26 Jan 2011 16:07:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ipad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>It Crowd</title>
-      <link>https://lunaticgeek.com/tags/it-crowd/</link>
-      <pubDate>Mon, 26 Sep 2011 20:27:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/it-crowd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jailbreak</title>
-      <link>https://lunaticgeek.com/tags/jailbreak/</link>
-      <pubDate>Sat, 29 Jan 2011 00:54:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/jailbreak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jailbreal</title>
-      <link>https://lunaticgeek.com/tags/jailbreal/</link>
-      <pubDate>Wed, 01 Sep 2010 16:14:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/jailbreal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://lunaticgeek.com/tags/javascript/</link>
-      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jobs</title>
-      <link>https://lunaticgeek.com/tags/jobs/</link>
-      <pubDate>Thu, 25 Aug 2011 18:28:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/jobs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joe</title>
-      <link>https://lunaticgeek.com/tags/joe/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/joe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Juego De Tronos</title>
-      <link>https://lunaticgeek.com/tags/juego-de-tronos/</link>
-      <pubDate>Fri, 18 May 2012 12:25:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/juego-de-tronos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Juegos</title>
-      <link>https://lunaticgeek.com/tags/juegos/</link>
-      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/juegos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kicad</title>
-      <link>https://lunaticgeek.com/tags/kicad/</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/kicad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kindle</title>
-      <link>https://lunaticgeek.com/tags/kindle/</link>
-      <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/kindle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kinect</title>
-      <link>https://lunaticgeek.com/tags/kinect/</link>
-      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/kinect/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leap</title>
-      <link>https://lunaticgeek.com/tags/leap/</link>
-      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/leap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Libros</title>
+      <title>libros</title>
       <link>https://lunaticgeek.com/tags/libros/</link>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -957,7 +17,7 @@
     </item>
     
     <item>
-      <title>Licencias</title>
+      <title>licencias</title>
       <link>https://lunaticgeek.com/tags/licencias/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -966,340 +26,7 @@
     </item>
     
     <item>
-      <title>Line</title>
-      <link>https://lunaticgeek.com/tags/line/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://lunaticgeek.com/tags/linux/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Live</title>
-      <link>https://lunaticgeek.com/tags/live/</link>
-      <pubDate>Tue, 31 Aug 2010 14:18:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/live/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lunatic Geek</title>
-      <link>https://lunaticgeek.com/tags/lunatic-geek/</link>
-      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/lunatic-geek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lunaticgeek</title>
-      <link>https://lunaticgeek.com/tags/lunaticgeek/</link>
-      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/lunaticgeek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lunaticgeek Utilities</title>
-      <link>https://lunaticgeek.com/tags/lunaticgeek-utilities/</link>
-      <pubDate>Wed, 24 Apr 2013 11:37:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/lunaticgeek-utilities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mac</title>
-      <link>https://lunaticgeek.com/tags/mac/</link>
-      <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/mac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Manifiesto</title>
-      <link>https://lunaticgeek.com/tags/manifiesto/</link>
-      <pubDate>Sun, 19 Dec 2010 14:04:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/manifiesto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mantenimiento</title>
-      <link>https://lunaticgeek.com/tags/mantenimiento/</link>
-      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/mantenimiento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mario</title>
-      <link>https://lunaticgeek.com/tags/mario/</link>
-      <pubDate>Mon, 11 Oct 2010 13:36:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/mario/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mastodon</title>
-      <link>https://lunaticgeek.com/tags/mastodon/</link>
-      <pubDate>Fri, 08 Dec 2017 14:07:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/mastodon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matemáticas</title>
-      <link>https://lunaticgeek.com/tags/matem%C3%A1ticas/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/matem%C3%A1ticas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maths</title>
-      <link>https://lunaticgeek.com/tags/maths/</link>
-      <pubDate>Wed, 26 Mar 2014 20:05:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/maths/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maxtor</title>
-      <link>https://lunaticgeek.com/tags/maxtor/</link>
-      <pubDate>Mon, 02 Aug 2010 17:38:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/maxtor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memes</title>
-      <link>https://lunaticgeek.com/tags/memes/</link>
-      <pubDate>Sat, 19 Nov 2011 11:11:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/memes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsoft</title>
-      <link>https://lunaticgeek.com/tags/microsoft/</link>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/microsoft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Minipc</title>
-      <link>https://lunaticgeek.com/tags/minipc/</link>
-      <pubDate>Mon, 09 Jul 2012 17:26:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/minipc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modchip</title>
-      <link>https://lunaticgeek.com/tags/modchip/</link>
-      <pubDate>Thu, 19 Aug 2010 18:39:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/modchip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moore</title>
-      <link>https://lunaticgeek.com/tags/moore/</link>
-      <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/moore/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Move</title>
-      <link>https://lunaticgeek.com/tags/move/</link>
-      <pubDate>Wed, 28 Jul 2010 14:03:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/move/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mozilla</title>
-      <link>https://lunaticgeek.com/tags/mozilla/</link>
-      <pubDate>Tue, 26 Jul 2011 16:58:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/mozilla/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ms Dos</title>
-      <link>https://lunaticgeek.com/tags/ms-dos/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ms-dos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Móvil</title>
-      <link>https://lunaticgeek.com/tags/m%C3%B3vil/</link>
-      <pubDate>Thu, 26 Aug 2010 16:08:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/m%C3%B3vil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>N3ds</title>
-      <link>https://lunaticgeek.com/tags/n3ds/</link>
-      <pubDate>Sun, 24 Apr 2011 00:00:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/n3ds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Namecheap</title>
-      <link>https://lunaticgeek.com/tags/namecheap/</link>
-      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/namecheap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nano</title>
-      <link>https://lunaticgeek.com/tags/nano/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/nano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Navegadores</title>
-      <link>https://lunaticgeek.com/tags/navegadores/</link>
-      <pubDate>Tue, 27 Jul 2010 16:21:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/navegadores/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neovim</title>
-      <link>https://lunaticgeek.com/tags/neovim/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/neovim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nexus One</title>
-      <link>https://lunaticgeek.com/tags/nexus-one/</link>
-      <pubDate>Sun, 13 May 2012 23:10:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/nexus-one/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nexus S</title>
-      <link>https://lunaticgeek.com/tags/nexus-s/</link>
-      <pubDate>Wed, 19 Oct 2011 13:08:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/nexus-s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nginx</title>
-      <link>https://lunaticgeek.com/tags/nginx/</link>
-      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/nginx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ngp</title>
-      <link>https://lunaticgeek.com/tags/ngp/</link>
-      <pubDate>Sat, 29 Jan 2011 17:40:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ngp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nintendo</title>
-      <link>https://lunaticgeek.com/tags/nintendo/</link>
-      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/nintendo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ntfs</title>
-      <link>https://lunaticgeek.com/tags/ntfs/</link>
-      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ntfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nvidia</title>
-      <link>https://lunaticgeek.com/tags/nvidia/</link>
-      <pubDate>Sun, 26 Aug 2012 23:34:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/nvidia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Office</title>
-      <link>https://lunaticgeek.com/tags/office/</link>
-      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/office/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Onlive</title>
-      <link>https://lunaticgeek.com/tags/onlive/</link>
-      <pubDate>Fri, 09 Dec 2011 00:21:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/onlive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
+      <title>open source</title>
       <link>https://lunaticgeek.com/tags/open-source/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1308,191 +35,47 @@
     </item>
     
     <item>
-      <title>Openssl</title>
-      <link>https://lunaticgeek.com/tags/openssl/</link>
-      <pubDate>Wed, 03 May 2017 20:52:00 +0200</pubDate>
+      <title>software</title>
+      <link>https://lunaticgeek.com/tags/software/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/openssl/</guid>
+      <guid>https://lunaticgeek.com/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Opml</title>
-      <link>https://lunaticgeek.com/tags/opml/</link>
-      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      <title>Aventuras y Misterios</title>
+      <link>https://lunaticgeek.com/tags/aventuras-y-misterios/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/opml/</guid>
+      <guid>https://lunaticgeek.com/tags/aventuras-y-misterios/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ordenador</title>
-      <link>https://lunaticgeek.com/tags/ordenador/</link>
-      <pubDate>Tue, 13 Sep 2011 13:37:00 +0200</pubDate>
+      <title>estadística</title>
+      <link>https://lunaticgeek.com/tags/estad%C3%ADstica/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/ordenador/</guid>
+      <guid>https://lunaticgeek.com/tags/estad%C3%ADstica/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Osx</title>
-      <link>https://lunaticgeek.com/tags/osx/</link>
-      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      <title>Grapas y Mapas</title>
+      <link>https://lunaticgeek.com/tags/grapas-y-mapas/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/osx/</guid>
+      <guid>https://lunaticgeek.com/tags/grapas-y-mapas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>P2p</title>
-      <link>https://lunaticgeek.com/tags/p2p/</link>
-      <pubDate>Thu, 11 Apr 2013 20:04:00 +0200</pubDate>
+      <title>matemáticas</title>
+      <link>https://lunaticgeek.com/tags/matem%C3%A1ticas/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/p2p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pandoc</title>
-      <link>https://lunaticgeek.com/tags/pandoc/</link>
-      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/pandoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pc</title>
-      <link>https://lunaticgeek.com/tags/pc/</link>
-      <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/pc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pcb</title>
-      <link>https://lunaticgeek.com/tags/pcb/</link>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/pcb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pico</title>
-      <link>https://lunaticgeek.com/tags/pico/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/pico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pirata</title>
-      <link>https://lunaticgeek.com/tags/pirata/</link>
-      <pubDate>Mon, 30 Jan 2012 16:36:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/pirata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playstation</title>
-      <link>https://lunaticgeek.com/tags/playstation/</link>
-      <pubDate>Fri, 30 Mar 2012 13:50:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/playstation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Powerpoint</title>
-      <link>https://lunaticgeek.com/tags/powerpoint/</link>
-      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/powerpoint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prank</title>
-      <link>https://lunaticgeek.com/tags/prank/</link>
-      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/prank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programacion</title>
-      <link>https://lunaticgeek.com/tags/programacion/</link>
-      <pubDate>Wed, 25 Aug 2010 19:07:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/programacion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programación</title>
-      <link>https://lunaticgeek.com/tags/programaci%C3%B3n/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/programaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ps2</title>
-      <link>https://lunaticgeek.com/tags/ps2/</link>
-      <pubDate>Sat, 09 Jul 2011 19:56:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ps2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ps3</title>
-      <link>https://lunaticgeek.com/tags/ps3/</link>
-      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ps3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ps4</title>
-      <link>https://lunaticgeek.com/tags/ps4/</link>
-      <pubDate>Thu, 05 Dec 2013 12:00:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ps4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psn</title>
-      <link>https://lunaticgeek.com/tags/psn/</link>
-      <pubDate>Sat, 23 Apr 2011 13:14:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/psn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psp</title>
-      <link>https://lunaticgeek.com/tags/psp/</link>
-      <pubDate>Sat, 29 Jan 2011 17:40:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/psp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://lunaticgeek.com/tags/python/</link>
-      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/python/</guid>
+      <guid>https://lunaticgeek.com/tags/matem%C3%A1ticas/</guid>
       <description></description>
     </item>
     
@@ -1506,106 +89,7 @@
     </item>
     
     <item>
-      <title>Raspberry Pi</title>
-      <link>https://lunaticgeek.com/tags/raspberry-pi/</link>
-      <pubDate>Wed, 16 Jul 2014 18:05:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Real Time</title>
-      <link>https://lunaticgeek.com/tags/real-time/</link>
-      <pubDate>Sun, 24 Jul 2011 20:38:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/real-time/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Red</title>
-      <link>https://lunaticgeek.com/tags/red/</link>
-      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/red/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Red Social</title>
-      <link>https://lunaticgeek.com/tags/red-social/</link>
-      <pubDate>Thu, 30 Jun 2011 11:45:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/red-social/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reflexiones</title>
-      <link>https://lunaticgeek.com/tags/reflexiones/</link>
-      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/reflexiones/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regreso Al Futuro</title>
-      <link>https://lunaticgeek.com/tags/regreso-al-futuro/</link>
-      <pubDate>Tue, 27 Jul 2010 13:11:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/regreso-al-futuro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retro</title>
-      <link>https://lunaticgeek.com/tags/retro/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/retro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rfc</title>
-      <link>https://lunaticgeek.com/tags/rfc/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/rfc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rgb</title>
-      <link>https://lunaticgeek.com/tags/rgb/</link>
-      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/rgb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rice</title>
-      <link>https://lunaticgeek.com/tags/rice/</link>
-      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/rice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rng</title>
-      <link>https://lunaticgeek.com/tags/rng/</link>
-      <pubDate>Tue, 24 Apr 2018 14:02:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/rng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rol</title>
+      <title>rol</title>
       <link>https://lunaticgeek.com/tags/rol/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -1614,353 +98,11 @@
     </item>
     
     <item>
-      <title>Rss</title>
-      <link>https://lunaticgeek.com/tags/rss/</link>
-      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      <title>Linux</title>
+      <link>https://lunaticgeek.com/tags/linux/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/rss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rwlabs</title>
-      <link>https://lunaticgeek.com/tags/rwlabs/</link>
-      <pubDate>Thu, 04 Aug 2011 17:41:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/rwlabs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Serieyonkis</title>
-      <link>https://lunaticgeek.com/tags/serieyonkis/</link>
-      <pubDate>Sun, 20 Feb 2011 18:01:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/serieyonkis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Servidor</title>
-      <link>https://lunaticgeek.com/tags/servidor/</link>
-      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/servidor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sgae</title>
-      <link>https://lunaticgeek.com/tags/sgae/</link>
-      <pubDate>Wed, 17 Dec 2014 11:46:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/sgae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sinde</title>
-      <link>https://lunaticgeek.com/tags/sinde/</link>
-      <pubDate>Wed, 17 Dec 2014 11:46:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/sinde/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sintel</title>
-      <link>https://lunaticgeek.com/tags/sintel/</link>
-      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/sintel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smartphone</title>
-      <link>https://lunaticgeek.com/tags/smartphone/</link>
-      <pubDate>Thu, 03 Jan 2013 19:01:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/smartphone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Snuggie</title>
-      <link>https://lunaticgeek.com/tags/snuggie/</link>
-      <pubDate>Thu, 17 Mar 2011 19:05:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/snuggie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://lunaticgeek.com/tags/software/</link>
-      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Libre</title>
-      <link>https://lunaticgeek.com/tags/software-libre/</link>
-      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/software-libre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sony</title>
-      <link>https://lunaticgeek.com/tags/sony/</link>
-      <pubDate>Fri, 22 Feb 2013 17:08:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/sony/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sopa</title>
-      <link>https://lunaticgeek.com/tags/sopa/</link>
-      <pubDate>Mon, 30 Jan 2012 16:36:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/sopa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spotify</title>
-      <link>https://lunaticgeek.com/tags/spotify/</link>
-      <pubDate>Mon, 19 Nov 2012 21:07:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/spotify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssd</title>
-      <link>https://lunaticgeek.com/tags/ssd/</link>
-      <pubDate>Thu, 04 Aug 2011 17:41:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ssd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssh</title>
-      <link>https://lunaticgeek.com/tags/ssh/</link>
-      <pubDate>Wed, 03 May 2017 20:52:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Steam</title>
-      <link>https://lunaticgeek.com/tags/steam/</link>
-      <pubDate>Sun, 11 Nov 2012 20:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/steam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Steve Jobs</title>
-      <link>https://lunaticgeek.com/tags/steve-jobs/</link>
-      <pubDate>Mon, 31 Oct 2011 17:58:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/steve-jobs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stickers</title>
-      <link>https://lunaticgeek.com/tags/stickers/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/stickers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sudo</title>
-      <link>https://lunaticgeek.com/tags/sudo/</link>
-      <pubDate>Sat, 29 Jan 2011 00:45:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/sudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Suse</title>
-      <link>https://lunaticgeek.com/tags/suse/</link>
-      <pubDate>Fri, 12 Oct 2012 12:11:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/suse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Svg</title>
-      <link>https://lunaticgeek.com/tags/svg/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/svg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Synapse</title>
-      <link>https://lunaticgeek.com/tags/synapse/</link>
-      <pubDate>Sun, 24 Oct 2010 18:55:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/synapse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teclado</title>
-      <link>https://lunaticgeek.com/tags/teclado/</link>
-      <pubDate>Mon, 07 Sep 2015 19:01:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/teclado/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tecnología</title>
-      <link>https://lunaticgeek.com/tags/tecnolog%C3%ADa/</link>
-      <pubDate>Tue, 26 Jul 2011 17:27:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tecnolog%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://lunaticgeek.com/tags/terminal/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal. Shell</title>
-      <link>https://lunaticgeek.com/tags/terminal.-shell/</link>
-      <pubDate>Sat, 17 Sep 2016 13:10:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/terminal.-shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thepiratebay</title>
-      <link>https://lunaticgeek.com/tags/thepiratebay/</link>
-      <pubDate>Mon, 19 Mar 2012 12:35:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/thepiratebay/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thunderbolt</title>
-      <link>https://lunaticgeek.com/tags/thunderbolt/</link>
-      <pubDate>Thu, 24 Feb 2011 20:44:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/thunderbolt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tipografía</title>
-      <link>https://lunaticgeek.com/tags/tipograf%C3%ADa/</link>
-      <pubDate>Sun, 03 May 2015 20:17:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tipograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tld</title>
-      <link>https://lunaticgeek.com/tags/tld/</link>
-      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tor</title>
-      <link>https://lunaticgeek.com/tags/tor/</link>
-      <pubDate>Fri, 13 Jul 2018 13:37:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Torrent</title>
-      <link>https://lunaticgeek.com/tags/torrent/</link>
-      <pubDate>Wed, 20 Aug 2014 19:34:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/torrent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towner</title>
-      <link>https://lunaticgeek.com/tags/towner/</link>
-      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/towner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tuenti</title>
-      <link>https://lunaticgeek.com/tags/tuenti/</link>
-      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tuenti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tuenti Facebook</title>
-      <link>https://lunaticgeek.com/tags/tuenti-facebook/</link>
-      <pubDate>Thu, 30 Jun 2011 11:45:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tuenti-facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tv</title>
-      <link>https://lunaticgeek.com/tags/tv/</link>
-      <pubDate>Mon, 09 Jan 2012 20:10:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Twitter</title>
-      <link>https://lunaticgeek.com/tags/twitter/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/twitter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Twtxt</title>
-      <link>https://lunaticgeek.com/tags/twtxt/</link>
-      <pubDate>Fri, 08 Dec 2017 14:07:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/twtxt/</guid>
+      <guid>https://lunaticgeek.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -1974,65 +116,11 @@
     </item>
     
     <item>
-      <title>Unity</title>
-      <link>https://lunaticgeek.com/tags/unity/</link>
-      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      <title>html</title>
+      <link>https://lunaticgeek.com/tags/html/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/unity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unix</title>
-      <link>https://lunaticgeek.com/tags/unix/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Usb</title>
-      <link>https://lunaticgeek.com/tags/usb/</link>
-      <pubDate>Wed, 01 Sep 2010 23:37:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/usb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vida</title>
-      <link>https://lunaticgeek.com/tags/vida/</link>
-      <pubDate>Mon, 13 Dec 2010 21:16:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/vida/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Videojuego</title>
-      <link>https://lunaticgeek.com/tags/videojuego/</link>
-      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/videojuego/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vim</title>
-      <link>https://lunaticgeek.com/tags/vim/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Virtualizacion</title>
-      <link>https://lunaticgeek.com/tags/virtualizacion/</link>
-      <pubDate>Mon, 25 Jul 2011 13:37:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/virtualizacion/</guid>
+      <guid>https://lunaticgeek.com/tags/html/</guid>
       <description></description>
     </item>
     
@@ -2046,38 +134,137 @@
     </item>
     
     <item>
-      <title>Wget</title>
-      <link>https://lunaticgeek.com/tags/wget/</link>
-      <pubDate>Sat, 18 Jul 2015 20:48:00 +0200</pubDate>
+      <title>programación</title>
+      <link>https://lunaticgeek.com/tags/programaci%C3%B3n/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/wget/</guid>
+      <guid>https://lunaticgeek.com/tags/programaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Whatsapp</title>
-      <link>https://lunaticgeek.com/tags/whatsapp/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <title>svg</title>
+      <link>https://lunaticgeek.com/tags/svg/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/whatsapp/</guid>
+      <guid>https://lunaticgeek.com/tags/svg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wii</title>
-      <link>https://lunaticgeek.com/tags/wii/</link>
-      <pubDate>Fri, 10 Jun 2011 18:46:00 +0200</pubDate>
+      <title>Cuarentena</title>
+      <link>https://lunaticgeek.com/tags/cuarentena/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/wii/</guid>
+      <guid>https://lunaticgeek.com/tags/cuarentena/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wikipedia</title>
-      <link>https://lunaticgeek.com/tags/wikipedia/</link>
-      <pubDate>Mon, 22 Sep 2014 17:27:00 +0200</pubDate>
+      <title>JavaScript</title>
+      <link>https://lunaticgeek.com/tags/javascript/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/wikipedia/</guid>
+      <guid>https://lunaticgeek.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HATS</title>
+      <link>https://lunaticgeek.com/tags/hats/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/hats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>https://lunaticgeek.com/tags/chrome/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FTP</title>
+      <link>https://lunaticgeek.com/tags/ftp/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ftp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://lunaticgeek.com/tags/google/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>https://lunaticgeek.com/tags/cloudflare/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red</title>
+      <link>https://lunaticgeek.com/tags/red/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/red/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i3wm</title>
+      <link>https://lunaticgeek.com/tags/i3wm/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/i3wm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>https://lunaticgeek.com/tags/unix/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://lunaticgeek.com/tags/python/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud computing</title>
+      <link>https://lunaticgeek.com/tags/cloud-computing/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://lunaticgeek.com/tags/microsoft/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/microsoft/</guid>
       <description></description>
     </item>
     
@@ -2091,61 +278,25 @@
     </item>
     
     <item>
-      <title>Wine</title>
-      <link>https://lunaticgeek.com/tags/wine/</link>
-      <pubDate>Thu, 23 Aug 2012 16:20:00 +0200</pubDate>
+      <title>OPML</title>
+      <link>https://lunaticgeek.com/tags/opml/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/wine/</guid>
+      <guid>https://lunaticgeek.com/tags/opml/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wit</title>
-      <link>https://lunaticgeek.com/tags/wit/</link>
-      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      <title>RSS</title>
+      <link>https://lunaticgeek.com/tags/rss/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/wit/</guid>
+      <guid>https://lunaticgeek.com/tags/rss/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Word</title>
-      <link>https://lunaticgeek.com/tags/word/</link>
-      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/word/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wordstar</title>
-      <link>https://lunaticgeek.com/tags/wordstar/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/wordstar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>World of Goo</title>
-      <link>https://lunaticgeek.com/tags/world-of-goo/</link>
-      <pubDate>Tue, 20 Sep 2011 16:40:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/world-of-goo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xbox</title>
-      <link>https://lunaticgeek.com/tags/xbox/</link>
-      <pubDate>Thu, 05 Dec 2013 12:00:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/xbox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xml</title>
+      <title>XML</title>
       <link>https://lunaticgeek.com/tags/xml/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
@@ -2154,7 +305,7 @@
     </item>
     
     <item>
-      <title>Xsl</title>
+      <title>XSL</title>
       <link>https://lunaticgeek.com/tags/xsl/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
@@ -2163,11 +314,1856 @@
     </item>
     
     <item>
-      <title>Youtube</title>
+      <title>EDA</title>
+      <link>https://lunaticgeek.com/tags/eda/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/eda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KiCad</title>
+      <link>https://lunaticgeek.com/tags/kicad/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/kicad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCB</title>
+      <link>https://lunaticgeek.com/tags/pcb/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neovim</title>
+      <link>https://lunaticgeek.com/tags/neovim/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/neovim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://lunaticgeek.com/tags/terminal/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://lunaticgeek.com/tags/vim/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://lunaticgeek.com/tags/bash/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electron</title>
+      <link>https://lunaticgeek.com/tags/electron/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/electron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RFC</title>
+      <link>https://lunaticgeek.com/tags/rfc/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/rfc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNU</title>
+      <link>https://lunaticgeek.com/tags/gnu/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/gnu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rice</title>
+      <link>https://lunaticgeek.com/tags/rice/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/rice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://lunaticgeek.com/tags/emacs/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joe</title>
+      <link>https://lunaticgeek.com/tags/joe/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/joe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ms-dos</title>
+      <link>https://lunaticgeek.com/tags/ms-dos/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ms-dos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nano</title>
+      <link>https://lunaticgeek.com/tags/nano/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/nano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pico</title>
+      <link>https://lunaticgeek.com/tags/pico/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retro</title>
+      <link>https://lunaticgeek.com/tags/retro/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/retro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordstar</title>
+      <link>https://lunaticgeek.com/tags/wordstar/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/wordstar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>criptografía</title>
+      <link>https://lunaticgeek.com/tags/criptograf%C3%ADa/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/criptograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esteganografía</title>
+      <link>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informática</title>
+      <link>https://lunaticgeek.com/tags/inform%C3%A1tica/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/inform%C3%A1tica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://lunaticgeek.com/tags/css/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>https://lunaticgeek.com/tags/firefox/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://lunaticgeek.com/tags/android/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Line</title>
+      <link>https://lunaticgeek.com/tags/line/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stickers</title>
+      <link>https://lunaticgeek.com/tags/stickers/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/stickers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whatsapp</title>
+      <link>https://lunaticgeek.com/tags/whatsapp/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/whatsapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>juegos</title>
+      <link>https://lunaticgeek.com/tags/juegos/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/juegos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computación</title>
+      <link>https://lunaticgeek.com/tags/computaci%C3%B3n/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/computaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://lunaticgeek.com/tags/twitter/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RGB</title>
+      <link>https://lunaticgeek.com/tags/rgb/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/rgb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lunatic Geek</title>
+      <link>https://lunaticgeek.com/tags/lunatic-geek/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/lunatic-geek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WIT</title>
+      <link>https://lunaticgeek.com/tags/wit/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/wit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tor</title>
+      <link>https://lunaticgeek.com/tags/tor/</link>
+      <pubDate>Fri, 13 Jul 2018 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNG</title>
+      <link>https://lunaticgeek.com/tags/rng/</link>
+      <pubDate>Tue, 24 Apr 2018 14:02:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/rng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>https://lunaticgeek.com/tags/dns/</link>
+      <pubDate>Wed, 11 Apr 2018 14:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IP</title>
+      <link>https://lunaticgeek.com/tags/ip/</link>
+      <pubDate>Tue, 03 Apr 2018 13:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://lunaticgeek.com/tags/c/</link>
+      <pubDate>Tue, 27 Feb 2018 13:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bitcoin</title>
+      <link>https://lunaticgeek.com/tags/bitcoin/</link>
+      <pubDate>Sat, 03 Feb 2018 14:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>economía</title>
+      <link>https://lunaticgeek.com/tags/econom%C3%ADa/</link>
+      <pubDate>Sat, 03 Feb 2018 14:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/econom%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mastodon</title>
+      <link>https://lunaticgeek.com/tags/mastodon/</link>
+      <pubDate>Fri, 08 Dec 2017 14:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/mastodon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twtxt</title>
+      <link>https://lunaticgeek.com/tags/twtxt/</link>
+      <pubDate>Fri, 08 Dec 2017 14:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/twtxt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>excel</title>
+      <link>https://lunaticgeek.com/tags/excel/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Office</title>
+      <link>https://lunaticgeek.com/tags/office/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandoc</title>
+      <link>https://lunaticgeek.com/tags/pandoc/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powerpoint</title>
+      <link>https://lunaticgeek.com/tags/powerpoint/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/powerpoint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>word</title>
+      <link>https://lunaticgeek.com/tags/word/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/word/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lunaticgeek</title>
+      <link>https://lunaticgeek.com/tags/lunaticgeek/</link>
+      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/lunaticgeek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>namecheap</title>
+      <link>https://lunaticgeek.com/tags/namecheap/</link>
+      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/namecheap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TLD</title>
+      <link>https://lunaticgeek.com/tags/tld/</link>
+      <pubDate>Wed, 23 Aug 2017 13:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://lunaticgeek.com/tags/docker/</link>
+      <pubDate>Tue, 11 Jul 2017 12:40:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://lunaticgeek.com/tags/ai/</link>
+      <pubDate>Tue, 23 May 2017 13:56:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openssl</title>
+      <link>https://lunaticgeek.com/tags/openssl/</link>
+      <pubDate>Wed, 03 May 2017 20:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/openssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://lunaticgeek.com/tags/ssh/</link>
+      <pubDate>Wed, 03 May 2017 20:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal. Shell</title>
+      <link>https://lunaticgeek.com/tags/terminal.-shell/</link>
+      <pubDate>Sat, 17 Sep 2016 13:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/terminal.-shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http2</title>
+      <link>https://lunaticgeek.com/tags/http2/</link>
+      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/http2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://lunaticgeek.com/tags/nginx/</link>
+      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>servidor</title>
+      <link>https://lunaticgeek.com/tags/servidor/</link>
+      <pubDate>Thu, 28 Apr 2016 19:35:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/servidor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elementary project</title>
+      <link>https://lunaticgeek.com/tags/elementary-project/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/elementary-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnome</title>
+      <link>https://lunaticgeek.com/tags/gnome/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i3</title>
+      <link>https://lunaticgeek.com/tags/i3/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/i3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unity</title>
+      <link>https://lunaticgeek.com/tags/unity/</link>
+      <pubDate>Thu, 28 Jan 2016 19:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>https://lunaticgeek.com/tags/apple/</link>
+      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSX</title>
+      <link>https://lunaticgeek.com/tags/osx/</link>
+      <pubDate>Wed, 06 Jan 2016 13:37:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/osx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teclado</title>
+      <link>https://lunaticgeek.com/tags/teclado/</link>
+      <pubDate>Mon, 07 Sep 2015 19:01:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/teclado/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wget</title>
+      <link>https://lunaticgeek.com/tags/wget/</link>
+      <pubDate>Sat, 18 Jul 2015 20:48:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/wget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tipografía</title>
+      <link>https://lunaticgeek.com/tags/tipograf%C3%ADa/</link>
+      <pubDate>Sun, 03 May 2015 20:17:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tipograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moore</title>
+      <link>https://lunaticgeek.com/tags/moore/</link>
+      <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/moore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PC</title>
+      <link>https://lunaticgeek.com/tags/pc/</link>
+      <pubDate>Wed, 21 Jan 2015 13:57:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sgae</title>
+      <link>https://lunaticgeek.com/tags/sgae/</link>
+      <pubDate>Wed, 17 Dec 2014 11:46:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/sgae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sinde</title>
+      <link>https://lunaticgeek.com/tags/sinde/</link>
+      <pubDate>Wed, 17 Dec 2014 11:46:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/sinde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kindle</title>
+      <link>https://lunaticgeek.com/tags/kindle/</link>
+      <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/kindle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://lunaticgeek.com/tags/mac/</link>
+      <pubDate>Tue, 21 Oct 2014 20:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wikipedia</title>
+      <link>https://lunaticgeek.com/tags/wikipedia/</link>
+      <pubDate>Mon, 22 Sep 2014 17:27:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/wikipedia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torrent</title>
+      <link>https://lunaticgeek.com/tags/torrent/</link>
+      <pubDate>Wed, 20 Aug 2014 19:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/torrent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://lunaticgeek.com/tags/debian/</link>
+      <pubDate>Fri, 25 Jul 2014 18:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>https://lunaticgeek.com/tags/raspberry-pi/</link>
+      <pubDate>Wed, 16 Jul 2014 18:05:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maths</title>
+      <link>https://lunaticgeek.com/tags/maths/</link>
+      <pubDate>Wed, 26 Mar 2014 20:05:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ps4</title>
+      <link>https://lunaticgeek.com/tags/ps4/</link>
+      <pubDate>Thu, 05 Dec 2013 12:00:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ps4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xbox</title>
+      <link>https://lunaticgeek.com/tags/xbox/</link>
+      <pubDate>Thu, 05 Dec 2013 12:00:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/xbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPL</title>
+      <link>https://lunaticgeek.com/tags/gpl/</link>
+      <pubDate>Fri, 26 Jul 2013 19:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/gpl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#WttF</title>
+      <link>https://lunaticgeek.com/tags/#wttf/</link>
+      <pubDate>Tue, 07 May 2013 19:22:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/#wttf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lunaticgeek utilities</title>
+      <link>https://lunaticgeek.com/tags/lunaticgeek-utilities/</link>
+      <pubDate>Wed, 24 Apr 2013 11:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/lunaticgeek-utilities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P2P</title>
+      <link>https://lunaticgeek.com/tags/p2p/</link>
+      <pubDate>Thu, 11 Apr 2013 20:04:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/p2p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>april fools&#39; day</title>
+      <link>https://lunaticgeek.com/tags/april-fools-day/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/april-fools-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prank</title>
+      <link>https://lunaticgeek.com/tags/prank/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/prank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sony</title>
+      <link>https://lunaticgeek.com/tags/sony/</link>
+      <pubDate>Fri, 22 Feb 2013 17:08:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/sony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smartphone</title>
+      <link>https://lunaticgeek.com/tags/smartphone/</link>
+      <pubDate>Thu, 03 Jan 2013 19:01:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/smartphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spotify</title>
+      <link>https://lunaticgeek.com/tags/spotify/</link>
+      <pubDate>Mon, 19 Nov 2012 21:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/spotify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>steam</title>
+      <link>https://lunaticgeek.com/tags/steam/</link>
+      <pubDate>Sun, 11 Nov 2012 20:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/steam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>suse</title>
+      <link>https://lunaticgeek.com/tags/suse/</link>
+      <pubDate>Fri, 12 Oct 2012 12:11:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/suse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvidia</title>
+      <link>https://lunaticgeek.com/tags/nvidia/</link>
+      <pubDate>Sun, 26 Aug 2012 23:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/nvidia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wine</title>
+      <link>https://lunaticgeek.com/tags/wine/</link>
+      <pubDate>Thu, 23 Aug 2012 16:20:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/wine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minipc</title>
+      <link>https://lunaticgeek.com/tags/minipc/</link>
+      <pubDate>Mon, 09 Jul 2012 17:26:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/minipc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E3</title>
+      <link>https://lunaticgeek.com/tags/e3/</link>
+      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/e3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nintendo</title>
+      <link>https://lunaticgeek.com/tags/nintendo/</link>
+      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/nintendo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PS3</title>
+      <link>https://lunaticgeek.com/tags/ps3/</link>
+      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ps3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>videojuego</title>
+      <link>https://lunaticgeek.com/tags/videojuego/</link>
+      <pubDate>Mon, 25 Jun 2012 13:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/videojuego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kinect</title>
+      <link>https://lunaticgeek.com/tags/kinect/</link>
+      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/kinect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leap</title>
+      <link>https://lunaticgeek.com/tags/leap/</link>
+      <pubDate>Tue, 22 May 2012 19:59:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/leap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disqueteras</title>
+      <link>https://lunaticgeek.com/tags/disqueteras/</link>
+      <pubDate>Fri, 18 May 2012 12:25:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/disqueteras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>floppy</title>
+      <link>https://lunaticgeek.com/tags/floppy/</link>
+      <pubDate>Fri, 18 May 2012 12:25:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/floppy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>juego de tronos</title>
+      <link>https://lunaticgeek.com/tags/juego-de-tronos/</link>
+      <pubDate>Fri, 18 May 2012 12:25:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/juego-de-tronos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>https://lunaticgeek.com/tags/ios/</link>
+      <pubDate>Sun, 13 May 2012 23:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nexus One</title>
+      <link>https://lunaticgeek.com/tags/nexus-one/</link>
+      <pubDate>Sun, 13 May 2012 23:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/nexus-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playstation</title>
+      <link>https://lunaticgeek.com/tags/playstation/</link>
+      <pubDate>Fri, 30 Mar 2012 13:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/playstation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thepiratebay</title>
+      <link>https://lunaticgeek.com/tags/thepiratebay/</link>
+      <pubDate>Mon, 19 Mar 2012 12:35:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/thepiratebay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geek</title>
+      <link>https://lunaticgeek.com/tags/geek/</link>
+      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/geek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel</title>
+      <link>https://lunaticgeek.com/tags/intel/</link>
+      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reflexiones</title>
+      <link>https://lunaticgeek.com/tags/reflexiones/</link>
+      <pubDate>Mon, 05 Mar 2012 17:50:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/reflexiones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pirata</title>
+      <link>https://lunaticgeek.com/tags/pirata/</link>
+      <pubDate>Mon, 30 Jan 2012 16:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pirata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOPA</title>
+      <link>https://lunaticgeek.com/tags/sopa/</link>
+      <pubDate>Mon, 30 Jan 2012 16:36:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/sopa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alexandra</title>
+      <link>https://lunaticgeek.com/tags/alexandra/</link>
+      <pubDate>Tue, 10 Jan 2012 18:51:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/alexandra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TV</title>
+      <link>https://lunaticgeek.com/tags/tv/</link>
+      <pubDate>Mon, 09 Jan 2012 20:10:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OnLive</title>
+      <link>https://lunaticgeek.com/tags/onlive/</link>
+      <pubDate>Fri, 09 Dec 2011 00:21:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/onlive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diciembre</title>
+      <link>https://lunaticgeek.com/tags/diciembre/</link>
+      <pubDate>Thu, 01 Dec 2011 21:24:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/diciembre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memes</title>
+      <link>https://lunaticgeek.com/tags/memes/</link>
+      <pubDate>Sat, 19 Nov 2011 11:11:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/memes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biit</title>
+      <link>https://lunaticgeek.com/tags/biit/</link>
+      <pubDate>Tue, 15 Nov 2011 13:28:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/biit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steve Jobs</title>
+      <link>https://lunaticgeek.com/tags/steve-jobs/</link>
+      <pubDate>Mon, 31 Oct 2011 17:58:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/steve-jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Nexus</title>
+      <link>https://lunaticgeek.com/tags/galaxy-nexus/</link>
+      <pubDate>Wed, 19 Oct 2011 13:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/galaxy-nexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nexus S</title>
+      <link>https://lunaticgeek.com/tags/nexus-s/</link>
+      <pubDate>Wed, 19 Oct 2011 13:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/nexus-s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google code</title>
+      <link>https://lunaticgeek.com/tags/google-code/</link>
+      <pubDate>Tue, 27 Sep 2011 14:15:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/google-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>it crowd</title>
+      <link>https://lunaticgeek.com/tags/it-crowd/</link>
+      <pubDate>Mon, 26 Sep 2011 20:27:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/it-crowd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
       <link>https://lunaticgeek.com/tags/youtube/</link>
       <pubDate>Mon, 26 Sep 2011 20:27:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>world of goo</title>
+      <link>https://lunaticgeek.com/tags/world-of-goo/</link>
+      <pubDate>Tue, 20 Sep 2011 16:40:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/world-of-goo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://lunaticgeek.com/tags/ibm/</link>
+      <pubDate>Tue, 13 Sep 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ordenador</title>
+      <link>https://lunaticgeek.com/tags/ordenador/</link>
+      <pubDate>Tue, 13 Sep 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ordenador/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogger</title>
+      <link>https://lunaticgeek.com/tags/blogger/</link>
+      <pubDate>Fri, 09 Sep 2011 01:23:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/blogger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HP</title>
+      <link>https://lunaticgeek.com/tags/hp/</link>
+      <pubDate>Fri, 26 Aug 2011 18:24:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/hp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jobs</title>
+      <link>https://lunaticgeek.com/tags/jobs/</link>
+      <pubDate>Thu, 25 Aug 2011 18:28:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fstab</title>
+      <link>https://lunaticgeek.com/tags/fstab/</link>
+      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/fstab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ntfs</title>
+      <link>https://lunaticgeek.com/tags/ntfs/</link>
+      <pubDate>Tue, 23 Aug 2011 23:51:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ntfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RWlabs</title>
+      <link>https://lunaticgeek.com/tags/rwlabs/</link>
+      <pubDate>Thu, 04 Aug 2011 17:41:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/rwlabs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSD</title>
+      <link>https://lunaticgeek.com/tags/ssd/</link>
+      <pubDate>Thu, 04 Aug 2011 17:41:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ssd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>https://lunaticgeek.com/tags/game/</link>
+      <pubDate>Mon, 01 Aug 2011 11:33:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cuantocabron</title>
+      <link>https://lunaticgeek.com/tags/cuantocabron/</link>
+      <pubDate>Thu, 28 Jul 2011 16:07:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/cuantocabron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tecnología</title>
+      <link>https://lunaticgeek.com/tags/tecnolog%C3%ADa/</link>
+      <pubDate>Tue, 26 Jul 2011 17:27:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tecnolog%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mozilla</title>
+      <link>https://lunaticgeek.com/tags/mozilla/</link>
+      <pubDate>Tue, 26 Jul 2011 16:58:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/mozilla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualizacion</title>
+      <link>https://lunaticgeek.com/tags/virtualizacion/</link>
+      <pubDate>Mon, 25 Jul 2011 13:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/virtualizacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>real time</title>
+      <link>https://lunaticgeek.com/tags/real-time/</link>
+      <pubDate>Sun, 24 Jul 2011 20:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/real-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>canon</title>
+      <link>https://lunaticgeek.com/tags/canon/</link>
+      <pubDate>Sun, 17 Jul 2011 18:10:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/canon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ps2</title>
+      <link>https://lunaticgeek.com/tags/ps2/</link>
+      <pubDate>Sat, 09 Jul 2011 19:56:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ps2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>red social</title>
+      <link>https://lunaticgeek.com/tags/red-social/</link>
+      <pubDate>Thu, 30 Jun 2011 11:45:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/red-social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tuenti facebook</title>
+      <link>https://lunaticgeek.com/tags/tuenti-facebook/</link>
+      <pubDate>Thu, 30 Jun 2011 11:45:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tuenti-facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>doodle</title>
+      <link>https://lunaticgeek.com/tags/doodle/</link>
+      <pubDate>Thu, 16 Jun 2011 00:44:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/doodle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dirndl</title>
+      <link>https://lunaticgeek.com/tags/dirndl/</link>
+      <pubDate>Tue, 14 Jun 2011 13:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/dirndl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wii</title>
+      <link>https://lunaticgeek.com/tags/wii/</link>
+      <pubDate>Fri, 10 Jun 2011 18:46:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/wii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frases celebres</title>
+      <link>https://lunaticgeek.com/tags/frases-celebres/</link>
+      <pubDate>Tue, 07 Jun 2011 20:52:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/frases-celebres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anonymous</title>
+      <link>https://lunaticgeek.com/tags/anonymous/</link>
+      <pubDate>Tue, 26 Apr 2011 23:19:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/anonymous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N3DS</title>
+      <link>https://lunaticgeek.com/tags/n3ds/</link>
+      <pubDate>Sun, 24 Apr 2011 00:00:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/n3ds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSN</title>
+      <link>https://lunaticgeek.com/tags/psn/</link>
+      <pubDate>Sat, 23 Apr 2011 13:14:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/psn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cafe</title>
+      <link>https://lunaticgeek.com/tags/cafe/</link>
+      <pubDate>Thu, 21 Apr 2011 15:30:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/cafe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HD</title>
+      <link>https://lunaticgeek.com/tags/hd/</link>
+      <pubDate>Thu, 21 Apr 2011 15:30:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/hd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D</title>
+      <link>https://lunaticgeek.com/tags/3d/</link>
+      <pubDate>Thu, 21 Apr 2011 10:58:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geohot</title>
+      <link>https://lunaticgeek.com/tags/geohot/</link>
+      <pubDate>Fri, 15 Apr 2011 17:27:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/geohot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humor</title>
+      <link>https://lunaticgeek.com/tags/humor/</link>
+      <pubDate>Thu, 17 Mar 2011 19:05:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/humor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snuggie</title>
+      <link>https://lunaticgeek.com/tags/snuggie/</link>
+      <pubDate>Thu, 17 Mar 2011 19:05:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/snuggie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thunderbolt</title>
+      <link>https://lunaticgeek.com/tags/thunderbolt/</link>
+      <pubDate>Thu, 24 Feb 2011 20:44:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/thunderbolt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serieyonkis</title>
+      <link>https://lunaticgeek.com/tags/serieyonkis/</link>
+      <pubDate>Sun, 20 Feb 2011 18:01:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/serieyonkis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NGP</title>
+      <link>https://lunaticgeek.com/tags/ngp/</link>
+      <pubDate>Sat, 29 Jan 2011 17:40:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ngp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSP</title>
+      <link>https://lunaticgeek.com/tags/psp/</link>
+      <pubDate>Sat, 29 Jan 2011 17:40:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/psp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>descargas</title>
+      <link>https://lunaticgeek.com/tags/descargas/</link>
+      <pubDate>Sat, 29 Jan 2011 14:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/descargas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jailbreak</title>
+      <link>https://lunaticgeek.com/tags/jailbreak/</link>
+      <pubDate>Sat, 29 Jan 2011 00:54:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/jailbreak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sudo</title>
+      <link>https://lunaticgeek.com/tags/sudo/</link>
+      <pubDate>Sat, 29 Jan 2011 00:45:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/sudo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iPad</title>
+      <link>https://lunaticgeek.com/tags/ipad/</link>
+      <pubDate>Wed, 26 Jan 2011 16:07:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ipad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fail0verflow</title>
+      <link>https://lunaticgeek.com/tags/fail0verflow/</link>
+      <pubDate>Sat, 01 Jan 2011 20:44:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/fail0verflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editorial</title>
+      <link>https://lunaticgeek.com/tags/editorial/</link>
+      <pubDate>Sun, 19 Dec 2010 14:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/editorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manifiesto</title>
+      <link>https://lunaticgeek.com/tags/manifiesto/</link>
+      <pubDate>Sun, 19 Dec 2010 14:04:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/manifiesto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vida</title>
+      <link>https://lunaticgeek.com/tags/vida/</link>
+      <pubDate>Mon, 13 Dec 2010 21:16:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/vida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome OS</title>
+      <link>https://lunaticgeek.com/tags/chrome-os/</link>
+      <pubDate>Wed, 08 Dec 2010 20:29:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/chrome-os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cr-48</title>
+      <link>https://lunaticgeek.com/tags/cr-48/</link>
+      <pubDate>Wed, 08 Dec 2010 20:29:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/cr-48/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>16 bits</title>
+      <link>https://lunaticgeek.com/tags/16-bits/</link>
+      <pubDate>Tue, 30 Nov 2010 16:24:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/16-bits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bill Gates</title>
+      <link>https://lunaticgeek.com/tags/bill-gates/</link>
+      <pubDate>Fri, 12 Nov 2010 23:59:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/bill-gates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synapse</title>
+      <link>https://lunaticgeek.com/tags/synapse/</link>
+      <pubDate>Sun, 24 Oct 2010 18:55:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/synapse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coche</title>
+      <link>https://lunaticgeek.com/tags/coche/</link>
+      <pubDate>Tue, 12 Oct 2010 00:34:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/coche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goku</title>
+      <link>https://lunaticgeek.com/tags/goku/</link>
+      <pubDate>Mon, 11 Oct 2010 13:36:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/goku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mario</title>
+      <link>https://lunaticgeek.com/tags/mario/</link>
+      <pubDate>Mon, 11 Oct 2010 13:36:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/mario/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blender</title>
+      <link>https://lunaticgeek.com/tags/blender/</link>
+      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/blender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sintel</title>
+      <link>https://lunaticgeek.com/tags/sintel/</link>
+      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/sintel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software libre</title>
+      <link>https://lunaticgeek.com/tags/software-libre/</link>
+      <pubDate>Sun, 03 Oct 2010 17:02:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/software-libre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DirectX</title>
+      <link>https://lunaticgeek.com/tags/directx/</link>
+      <pubDate>Thu, 23 Sep 2010 18:06:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/directx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>custom firmware</title>
+      <link>https://lunaticgeek.com/tags/custom-firmware/</link>
+      <pubDate>Sun, 19 Sep 2010 21:22:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/custom-firmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blueray</title>
+      <link>https://lunaticgeek.com/tags/blueray/</link>
+      <pubDate>Thu, 16 Sep 2010 14:13:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/blueray/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gay</title>
+      <link>https://lunaticgeek.com/tags/gay/</link>
+      <pubDate>Thu, 09 Sep 2010 17:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/gay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backup manager</title>
+      <link>https://lunaticgeek.com/tags/backup-manager/</link>
+      <pubDate>Fri, 03 Sep 2010 16:32:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/backup-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>usb</title>
+      <link>https://lunaticgeek.com/tags/usb/</link>
+      <pubDate>Wed, 01 Sep 2010 23:37:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chromium</title>
+      <link>https://lunaticgeek.com/tags/chromium/</link>
+      <pubDate>Wed, 01 Sep 2010 23:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/chromium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpu</title>
+      <link>https://lunaticgeek.com/tags/gpu/</link>
+      <pubDate>Wed, 01 Sep 2010 23:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jailbreal</title>
+      <link>https://lunaticgeek.com/tags/jailbreal/</link>
+      <pubDate>Wed, 01 Sep 2010 16:14:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/jailbreal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>live</title>
+      <link>https://lunaticgeek.com/tags/live/</link>
+      <pubDate>Tue, 31 Aug 2010 14:18:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/live/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mantenimiento</title>
+      <link>https://lunaticgeek.com/tags/mantenimiento/</link>
+      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/mantenimiento/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>towner</title>
+      <link>https://lunaticgeek.com/tags/towner/</link>
+      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/towner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tuenti</title>
+      <link>https://lunaticgeek.com/tags/tuenti/</link>
+      <pubDate>Sat, 28 Aug 2010 16:50:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tuenti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gmail</title>
+      <link>https://lunaticgeek.com/tags/gmail/</link>
+      <pubDate>Thu, 26 Aug 2010 16:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/gmail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>móvil</title>
+      <link>https://lunaticgeek.com/tags/m%C3%B3vil/</link>
+      <pubDate>Thu, 26 Aug 2010 16:08:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/m%C3%B3vil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ajedrez</title>
+      <link>https://lunaticgeek.com/tags/ajedrez/</link>
+      <pubDate>Wed, 25 Aug 2010 19:07:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ajedrez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programacion</title>
+      <link>https://lunaticgeek.com/tags/programacion/</link>
+      <pubDate>Wed, 25 Aug 2010 19:07:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/programacion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>caleidoscopios</title>
+      <link>https://lunaticgeek.com/tags/caleidoscopios/</link>
+      <pubDate>Wed, 25 Aug 2010 19:05:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/caleidoscopios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modchip</title>
+      <link>https://lunaticgeek.com/tags/modchip/</link>
+      <pubDate>Thu, 19 Aug 2010 18:39:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/modchip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disco duro</title>
+      <link>https://lunaticgeek.com/tags/disco-duro/</link>
+      <pubDate>Mon, 02 Aug 2010 17:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/disco-duro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maxtor</title>
+      <link>https://lunaticgeek.com/tags/maxtor/</link>
+      <pubDate>Mon, 02 Aug 2010 17:38:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/maxtor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>move</title>
+      <link>https://lunaticgeek.com/tags/move/</link>
+      <pubDate>Wed, 28 Jul 2010 14:03:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/move/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>humor Chrome</title>
+      <link>https://lunaticgeek.com/tags/humor-chrome/</link>
+      <pubDate>Tue, 27 Jul 2010 16:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/humor-chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>navegadores</title>
+      <link>https://lunaticgeek.com/tags/navegadores/</link>
+      <pubDate>Tue, 27 Jul 2010 16:21:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/navegadores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>back to the future</title>
+      <link>https://lunaticgeek.com/tags/back-to-the-future/</link>
+      <pubDate>Tue, 27 Jul 2010 13:11:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/back-to-the-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regreso al futuro</title>
+      <link>https://lunaticgeek.com/tags/regreso-al-futuro/</link>
+      <pubDate>Tue, 27 Jul 2010 13:11:00 +0200</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/regreso-al-futuro/</guid>
       <description></description>
     </item>
     

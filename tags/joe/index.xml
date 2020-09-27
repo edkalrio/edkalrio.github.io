@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Joe on Lunatic Geek</title>
+    <title>joe on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/joe/</link>
-    <description>Recent content in Joe on Lunatic Geek</description>
+    <description>Recent content in joe on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/joe/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/joe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordStar en el siglo XXI</title>
       <link>https://lunaticgeek.com/wordstar4/</link>

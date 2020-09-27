@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -37,7 +37,7 @@ Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la o
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -48,6 +48,7 @@ Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la o
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -66,7 +67,8 @@ Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la o
 </div>
 			</ul>
 			
-			<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-758uLTz1LmA/T52FJsARNpI/AAAAAAAACJ0/D9sPoNnzZ8o/s1600/youtube-logo.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="226" src="http://3.bp.blogspot.com/-758uLTz1LmA/T52FJsARNpI/AAAAAAAACJ0/D9sPoNnzZ8o/s320/youtube-logo.jpg" width="320" /></a></div><div style="text-align: justify;">Desde hace unas versiones, Adobe Flash tiene un bug que genera que muchos de los&nbsp;vídeos&nbsp;de youtube (todos los que usan flash en vez de html5) se vean en un tono azulado... la gente se ve azul, los escenarios se ven azules...</div><br /><a name='more'></a><span style="text-align: justify;">Este fallo tiene una solución bastante sencilla, pero que si no se conoce, puede causar verdaderos quebraderos de cabeza como me ha causado a mi.</span><br /><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la opción de aceleración por hardware. Pero nos encontramos con otra casualidad:&nbsp;también&nbsp;está bugeado y se bloquea la pestaña del flash en la que hemos intentado dar a configuración.</div><div style="text-align: justify;"><br /></div><span style="text-align: justify;">Entonces... ¿Que hacemos? fácil, abrimos un terminal y ejecutamos las siguientes opciones:</span><br /><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Crear la carpeta /etc/adobe: sudo mkdir /etc/adobe&nbsp;</div><div style="text-align: justify;">Creamos y editamos el archivo /etc/adobe/mms.cfg: sudo gedit /etc/adobe/mms.cfg&nbsp;</div><div style="text-align: justify;">Añadimos al archivo la siguiente línea: EnableLinuxHWVideoDecode=1&nbsp;</div><div style="text-align: justify;">Guardamos, cerramos y reiniciamos el navegador para probar.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Con esto, el problema de los&nbsp;vídeos&nbsp;flash azules está solucionado.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Espero que os sirva de ayuda a muchos que&nbsp;también&nbsp;tengáis&nbsp;este problema.</div>
+			
+<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-758uLTz1LmA/T52FJsARNpI/AAAAAAAACJ0/D9sPoNnzZ8o/s1600/youtube-logo.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="226" src="http://3.bp.blogspot.com/-758uLTz1LmA/T52FJsARNpI/AAAAAAAACJ0/D9sPoNnzZ8o/s320/youtube-logo.jpg" width="320" /></a></div><div style="text-align: justify;">Desde hace unas versiones, Adobe Flash tiene un bug que genera que muchos de los&nbsp;vídeos&nbsp;de youtube (todos los que usan flash en vez de html5) se vean en un tono azulado... la gente se ve azul, los escenarios se ven azules...</div><br /><a name='more'></a><span style="text-align: justify;">Este fallo tiene una solución bastante sencilla, pero que si no se conoce, puede causar verdaderos quebraderos de cabeza como me ha causado a mi.</span><br /><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la opción de aceleración por hardware. Pero nos encontramos con otra casualidad:&nbsp;también&nbsp;está bugeado y se bloquea la pestaña del flash en la que hemos intentado dar a configuración.</div><div style="text-align: justify;"><br /></div><span style="text-align: justify;">Entonces... ¿Que hacemos? fácil, abrimos un terminal y ejecutamos las siguientes opciones:</span><br /><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Crear la carpeta /etc/adobe: sudo mkdir /etc/adobe&nbsp;</div><div style="text-align: justify;">Creamos y editamos el archivo /etc/adobe/mms.cfg: sudo gedit /etc/adobe/mms.cfg&nbsp;</div><div style="text-align: justify;">Añadimos al archivo la siguiente línea: EnableLinuxHWVideoDecode=1&nbsp;</div><div style="text-align: justify;">Guardamos, cerramos y reiniciamos el navegador para probar.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Con esto, el problema de los&nbsp;vídeos&nbsp;flash azules está solucionado.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Espero que os sirva de ayuda a muchos que&nbsp;también&nbsp;tengáis&nbsp;este problema.</div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -84,7 +86,7 @@ Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la o
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -92,12 +94,12 @@ Basta con dar&nbsp;botón&nbsp;derecho-configuración de flash y desactivar la o
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

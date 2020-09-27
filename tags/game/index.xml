@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game on Lunatic Geek</title>
+    <title>game on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/game/</link>
-    <description>Recent content in Game on Lunatic Geek</description>
+    <description>Recent content in game on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 01 Aug 2011 11:33:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Aug 2011 11:33:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu Game Pack</title>
       <link>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</link>

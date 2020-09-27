@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Libros on Lunatic Geek</title>
+    <title>libros on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/libros/</link>
-    <description>Recent content in Libros on Lunatic Geek</description>
+    <description>Recent content in libros on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/libros/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/libros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Libros para el Verano</title>
       <link>https://lunaticgeek.com/libros-para-el-verano-2020/</link>

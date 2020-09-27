@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rng on Lunatic Geek</title>
+    <title>RNG on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/rng/</link>
-    <description>Recent content in Rng on Lunatic Geek</description>
+    <description>Recent content in RNG on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 24 Apr 2018 14:02:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/rng/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 24 Apr 2018 14:02:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/rng/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entropía Inconmensurable</title>
       <link>https://lunaticgeek.com/2018-04-24-entropia-inconmensurable/</link>

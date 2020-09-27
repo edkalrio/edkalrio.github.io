@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Biit on Lunatic Geek</title>
+    <title>biit on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/biit/</link>
-    <description>Recent content in Biit on Lunatic Geek</description>
+    <description>Recent content in biit on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 15 Nov 2011 13:28:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/biit/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 15 Nov 2011 13:28:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/biit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>biit, el nuevo spotify</title>
       <link>https://lunaticgeek.com/2011-11-15-biit-el-nuevo-spotify/</link>

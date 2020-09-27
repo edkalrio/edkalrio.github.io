@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Minipc on Lunatic Geek</title>
+    <title>minipc on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/minipc/</link>
-    <description>Recent content in Minipc on Lunatic Geek</description>
+    <description>Recent content in minipc on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 09 Jul 2012 17:26:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/minipc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Jul 2012 17:26:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/minipc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi</title>
       <link>https://lunaticgeek.com/2012-07-09-raspberry-pi/</link>

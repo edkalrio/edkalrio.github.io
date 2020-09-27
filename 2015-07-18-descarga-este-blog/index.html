@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -67,7 +68,8 @@
 </div>
 			</ul>
 			
-			<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-g9Klm3ofoh0/S50jN05Er_I/AAAAAAAAAIU/q7AmQt1_pjQ/s1600/11954223691899035847Gerald_G_Mad_Hatter_1.svg.hi.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="146" src="http://3.bp.blogspot.com/-g9Klm3ofoh0/S50jN05Er_I/AAAAAAAAAIU/q7AmQt1_pjQ/s400/11954223691899035847Gerald_G_Mad_Hatter_1.svg.hi.png" width="400" /></a></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Por primera vez en los siete años desde que llevamos escribiendo este blog, el servidor de Google en el que estamos alojados se ha caído. Es obvio que el blog ha estado caído en más ocasiones pero nunca habíamos vivido una de estas situaciones en directo. No poder acceder al blog en el momento en el que quieres es muy irritante y eso me hizo pensar en una solución al problema.<br /><br /><a name='more'></a></div><div style="text-align: justify;">En realidad no es una solución sino más bien un apaño ya que no puedo acceder a la infraestructura de los servidores de Blogger y no voy a migrar a wordpress u otras alternativas que permitieran el auto-hospedaje.<br /><br /></div><div style="text-align: justify;">Lo más fácil es descargar el blog en su totalidad para poder acceder si hay problemas en el servidor. Además, permite mantener una copia de seguridad en caso de que este blog sea censurado en el futuro (con la Ley Mordaza tampoco me extrañaría) y ser accesible en cualquier zona sin internet, que alguna queda todavía.<br /><br /></div><div style="text-align: justify;">Es tan sencillo como ejecutar un comando wget aderezado con las flags pertinentes. A continuación, pongo un resumen de las funciones de los flags, sacado del manual de wget:</div><br /><ul><li style="text-align: justify;"><b>m</b>: Turn on options suitable for mirroring. This option turns on recursion and time-stamping, sets infinite recursion depth and keeps FTP directory listings.</li></ul><ul><li style="text-align: justify;"><b>k</b>: After the download is complete, convert the links in the document to make them suitable for local viewing. This affects not only the visible hyperlinks, but any part of the document that links to external content, such as embedded images, links to style sheets, hyperlinks to non-HTML content, etc.</li></ul><ul><li style="text-align: justify;"><b>E</b>: If a file of type application/xhtml+xml or text/html is downloaded and the URL does not end with the regexp \.[Hh][Tt][Mm][Ll]?, this option will cause the suffix .html to be appended to the local filename.&nbsp;</li></ul><ul><li style="text-align: justify;"><b>p</b>: This option causes Wget to download all the files that are necessary to properly display a given HTML page. This includes such things as inlined images, sounds, and referenced stylesheets.</li></ul><ul><li style="text-align: justify;"><b>np</b>: Do not ever ascend to the parent directory when retrieving recursively. This is a useful option, since it guarantees that only the files below a certain hierarchy will be downloaded.</li></ul><div style="text-align: justify;">Si he puesto la explicación de cada flag es porque lo creo necesario, de cara al futuro. No todos los comandos de wget sirven para descargar todas las webs. Por la web circulan distintas alternativas que no funcionan y yo he tenido que ensamblar esta, a base de probar muchas opciones e ir afinando. Este solo sirve para descargar blogs de Blogger, en la fecha de publicación de este post. Si cambian alguna configuración del servidor, este comando puede empezar a desarrollar un comportamiento erróneo o inútil, así que no garantizo que en el futuro siga funcionando. El comando final resulta ser:</div><pre>wget -mkEpnp www.lunaticgeek.com</pre>
+			
+<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-g9Klm3ofoh0/S50jN05Er_I/AAAAAAAAAIU/q7AmQt1_pjQ/s1600/11954223691899035847Gerald_G_Mad_Hatter_1.svg.hi.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="146" src="http://3.bp.blogspot.com/-g9Klm3ofoh0/S50jN05Er_I/AAAAAAAAAIU/q7AmQt1_pjQ/s400/11954223691899035847Gerald_G_Mad_Hatter_1.svg.hi.png" width="400" /></a></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Por primera vez en los siete años desde que llevamos escribiendo este blog, el servidor de Google en el que estamos alojados se ha caído. Es obvio que el blog ha estado caído en más ocasiones pero nunca habíamos vivido una de estas situaciones en directo. No poder acceder al blog en el momento en el que quieres es muy irritante y eso me hizo pensar en una solución al problema.<br /><br /><a name='more'></a></div><div style="text-align: justify;">En realidad no es una solución sino más bien un apaño ya que no puedo acceder a la infraestructura de los servidores de Blogger y no voy a migrar a wordpress u otras alternativas que permitieran el auto-hospedaje.<br /><br /></div><div style="text-align: justify;">Lo más fácil es descargar el blog en su totalidad para poder acceder si hay problemas en el servidor. Además, permite mantener una copia de seguridad en caso de que este blog sea censurado en el futuro (con la Ley Mordaza tampoco me extrañaría) y ser accesible en cualquier zona sin internet, que alguna queda todavía.<br /><br /></div><div style="text-align: justify;">Es tan sencillo como ejecutar un comando wget aderezado con las flags pertinentes. A continuación, pongo un resumen de las funciones de los flags, sacado del manual de wget:</div><br /><ul><li style="text-align: justify;"><b>m</b>: Turn on options suitable for mirroring. This option turns on recursion and time-stamping, sets infinite recursion depth and keeps FTP directory listings.</li></ul><ul><li style="text-align: justify;"><b>k</b>: After the download is complete, convert the links in the document to make them suitable for local viewing. This affects not only the visible hyperlinks, but any part of the document that links to external content, such as embedded images, links to style sheets, hyperlinks to non-HTML content, etc.</li></ul><ul><li style="text-align: justify;"><b>E</b>: If a file of type application/xhtml+xml or text/html is downloaded and the URL does not end with the regexp \.[Hh][Tt][Mm][Ll]?, this option will cause the suffix .html to be appended to the local filename.&nbsp;</li></ul><ul><li style="text-align: justify;"><b>p</b>: This option causes Wget to download all the files that are necessary to properly display a given HTML page. This includes such things as inlined images, sounds, and referenced stylesheets.</li></ul><ul><li style="text-align: justify;"><b>np</b>: Do not ever ascend to the parent directory when retrieving recursively. This is a useful option, since it guarantees that only the files below a certain hierarchy will be downloaded.</li></ul><div style="text-align: justify;">Si he puesto la explicación de cada flag es porque lo creo necesario, de cara al futuro. No todos los comandos de wget sirven para descargar todas las webs. Por la web circulan distintas alternativas que no funcionan y yo he tenido que ensamblar esta, a base de probar muchas opciones e ir afinando. Este solo sirve para descargar blogs de Blogger, en la fecha de publicación de este post. Si cambian alguna configuración del servidor, este comando puede empezar a desarrollar un comportamiento erróneo o inútil, así que no garantizo que en el futuro siga funcionando. El comando final resulta ser:</div><pre>wget -mkEpnp www.lunaticgeek.com</pre>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -85,7 +87,7 @@
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -93,12 +95,12 @@
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

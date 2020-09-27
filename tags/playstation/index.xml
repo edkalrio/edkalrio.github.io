@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Playstation on Lunatic Geek</title>
+    <title>playstation on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/playstation/</link>
-    <description>Recent content in Playstation on Lunatic Geek</description>
+    <description>Recent content in playstation on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 30 Mar 2012 13:50:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/playstation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Mar 2012 13:50:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/playstation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feliz cumpleaños, PS3</title>
       <link>https://lunaticgeek.com/2012-03-30-feliz-cumpleanos-ps3/</link>

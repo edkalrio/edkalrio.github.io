@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -35,7 +35,7 @@ Villena parte de la base de que una web en la que no haya enlaces es legal. El p
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ Villena parte de la base de que una web en la que no haya enlaces es legal. El p
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -74,7 +75,8 @@ Villena parte de la base de que una web en la que no haya enlaces es legal. El p
 </div>
 			</ul>
 			
-			<div style="text-align: center;"><img height="400" src="http://img46.imageshack.us/img46/8446/enlaces.png" width="245" /></div><div><div style="text-align: justify;">Desde que se aprobó la ley sinde he estado muy atento a los movimientos de varios bloggers, expertos en programación web, para ver qué se les ocurría. <a href="http://antoniovillena.es/">Antonio Villena</a> (al que ya dediqué un <a href="http://www.lunaticgeek.com/2011/02/otra-iniciativa-anti-sinde.html">post</a>) ha contraatacado con una estrategia muy original y compleja&nbsp;para saltarse la ley.</div><a name='more'></a><br /><div style="text-align: justify;">Villena parte de la base de que una web en la que no haya enlaces es legal. El problema es que una web de enlaces sin enlaces es tan inútil como windows vista. Para subsanar este obstáculo se le ocurrió que los enlaces estuvieran en otra web y que la primera no los llamara sino que permitiera que tú los decodificaras. Voy a explicarme más detenidamente parafraseando a Villena.</div><div style="text-align: justify;">Sean 4 servidores: A, B, C y D.</div></div><div><div style="text-align: justify;">A es nuestro servidor, totalmente legal, donde alojaremos nuestra web de links sin links. B es un servidor de imágenes (<a href="http://imageshack.us/">imageshack.us</a>). C es un servidor que actúa como proxy codificando la imagen. D es el servidor donde se aloja el contenido (megaupload).&nbsp;</div></div><div><div style="text-align: justify;">Los enlaces están codificados en una imagen (la que preside este post) alojada en&nbsp;imageshack.&nbsp;A te ofrece un archivo html con javascript embebido. En el javascript está el índice con los nombres de las series y las películas, pero sin los enlaces. Estos, están codificados en la imagen que el javascript decodificará creando un elemento canvas y volcando la imagen en este canvas. La función getImageData convierte los píxeles del canvas a bytes, y luego los bytes en enlaces.</div></div><div><div style="text-align: justify;">Nuestro navegador (tiene que ser un navegador que sepa interpretar javascript muy avanzado como Chrome u Opera) lee el archivo html de A que no contiene enlaces. Como está en javascript, todo el procesamiento lo hace nuestro navegador, el cual recibe una imagen procesada de C, que a su vez ha recibido de B. Con todo esto, el navegador genera una web con más de 400 000 enlaces que, en caso de que pinches sobre alguno, te llevará a D (megaupload) con lo que se resuelve el problema.</div><div style="text-align: justify;">En resumen, la imagen de ahí arriba es como un código de barras gigantesco de 1.7MP en el que están codificados los 400 000 enlaces de la base de datos de Villena. Accedes a una web que permite que tu navegador procese la imagen para extraer los enlaces y los ordena para que sean de fácil acceso. Una idea extremadamente original para burlar una ley absurda e inútil.</div><div style="text-align: justify;">Si queréis comprobar que todo este laberinto técnico-legal funciona, podéis visitar la web que ha diseñado el autor <a href="http://antoniovillena.es/sindemocracia.html">aquí</a>.</div></div>
+			
+<div style="text-align: center;"><img height="400" src="http://img46.imageshack.us/img46/8446/enlaces.png" width="245" /></div><div><div style="text-align: justify;">Desde que se aprobó la ley sinde he estado muy atento a los movimientos de varios bloggers, expertos en programación web, para ver qué se les ocurría. <a href="http://antoniovillena.es/">Antonio Villena</a> (al que ya dediqué un <a href="http://www.lunaticgeek.com/2011/02/otra-iniciativa-anti-sinde.html">post</a>) ha contraatacado con una estrategia muy original y compleja&nbsp;para saltarse la ley.</div><a name='more'></a><br /><div style="text-align: justify;">Villena parte de la base de que una web en la que no haya enlaces es legal. El problema es que una web de enlaces sin enlaces es tan inútil como windows vista. Para subsanar este obstáculo se le ocurrió que los enlaces estuvieran en otra web y que la primera no los llamara sino que permitiera que tú los decodificaras. Voy a explicarme más detenidamente parafraseando a Villena.</div><div style="text-align: justify;">Sean 4 servidores: A, B, C y D.</div></div><div><div style="text-align: justify;">A es nuestro servidor, totalmente legal, donde alojaremos nuestra web de links sin links. B es un servidor de imágenes (<a href="http://imageshack.us/">imageshack.us</a>). C es un servidor que actúa como proxy codificando la imagen. D es el servidor donde se aloja el contenido (megaupload).&nbsp;</div></div><div><div style="text-align: justify;">Los enlaces están codificados en una imagen (la que preside este post) alojada en&nbsp;imageshack.&nbsp;A te ofrece un archivo html con javascript embebido. En el javascript está el índice con los nombres de las series y las películas, pero sin los enlaces. Estos, están codificados en la imagen que el javascript decodificará creando un elemento canvas y volcando la imagen en este canvas. La función getImageData convierte los píxeles del canvas a bytes, y luego los bytes en enlaces.</div></div><div><div style="text-align: justify;">Nuestro navegador (tiene que ser un navegador que sepa interpretar javascript muy avanzado como Chrome u Opera) lee el archivo html de A que no contiene enlaces. Como está en javascript, todo el procesamiento lo hace nuestro navegador, el cual recibe una imagen procesada de C, que a su vez ha recibido de B. Con todo esto, el navegador genera una web con más de 400 000 enlaces que, en caso de que pinches sobre alguno, te llevará a D (megaupload) con lo que se resuelve el problema.</div><div style="text-align: justify;">En resumen, la imagen de ahí arriba es como un código de barras gigantesco de 1.7MP en el que están codificados los 400 000 enlaces de la base de datos de Villena. Accedes a una web que permite que tu navegador procese la imagen para extraer los enlaces y los ordena para que sean de fácil acceso. Una idea extremadamente original para burlar una ley absurda e inútil.</div><div style="text-align: justify;">Si queréis comprobar que todo este laberinto técnico-legal funciona, podéis visitar la web que ha diseñado el autor <a href="http://antoniovillena.es/sindemocracia.html">aquí</a>.</div></div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -92,7 +94,7 @@ Villena parte de la base de que una web en la que no haya enlaces es legal. El p
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -100,12 +102,12 @@ Villena parte de la base de que una web en la que no haya enlaces es legal. El p
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

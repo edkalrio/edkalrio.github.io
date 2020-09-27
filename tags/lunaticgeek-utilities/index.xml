@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lunaticgeek Utilities on Lunatic Geek</title>
+    <title>lunaticgeek utilities on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/lunaticgeek-utilities/</link>
-    <description>Recent content in Lunaticgeek Utilities on Lunatic Geek</description>
+    <description>Recent content in lunaticgeek utilities on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 24 Apr 2013 11:37:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/lunaticgeek-utilities/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 24 Apr 2013 11:37:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/lunaticgeek-utilities/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lunaticgeek Utilities 13.04.01 renovada completamente</title>
       <link>https://lunaticgeek.com/2013-04-24-lunaticgeek-utilities-130401-renovada/</link>

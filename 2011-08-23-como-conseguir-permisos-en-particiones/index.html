@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -35,7 +35,7 @@ Probé con sudo nautilus, chmod 777 y nada.">
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ Probé con sudo nautilus, chmod 777 y nada.">
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -84,7 +85,8 @@ Probé con sudo nautilus, chmod 777 y nada.">
 </div>
 			</ul>
 			
-			<a href="http://4.bp.blogspot.com/-O3ptkNOZTBI/TlQmU4Z6bnI/AAAAAAAABWw/PvcFl8S46n4/s1600/ntfs-1.jpg"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5644178373182385778" src="http://4.bp.blogspot.com/-O3ptkNOZTBI/TlQmU4Z6bnI/AAAAAAAABWw/PvcFl8S46n4/s400/ntfs-1.jpg" style="cursor: hand; cursor: pointer; display: block; height: 225px; margin: 0px auto 10px; text-align: center; width: 300px;" /></a><br /><div><br /></div><div style="text-align: justify;">Llevaba mucho tiempo comiéndome la cabeza con un problema incapaz de solucionar, y es que no podía dar permisos a ningún archivo en particiones NTFS en Ubuntu 11.04, cuando daba propiedades--permisos y modificaba algo, automáticamente volvía a cambiarse anulándose los cambios, siendo un incordio sobretodo al instalar los juegos o aplicaciones Java que necesitan bit de ejecución en particiones diferentes a /.<br /><a name='more'></a></div><div style="text-align: justify;">Probé con sudo nautilus, chmod 777 y nada. y la verdad es que por internet hay mas bien poca información al respecto.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Después de muchos investigar, la solución ha sido la mas obvia: Ubuntu 11.04 no deja añadir por defecto particiones ntfs al /etc/fstab durante la instalación, cosa que se ha podido hacer de siempre en Ubuntu, por lo que no se obtienen permisos en esas particiones al montarlas, por lo que la solución es añadir las entradas manualmente. ¿Como? Os dejo un ejemplo muy sencillo para todos los que tengáis el mismo problema que tenia yo.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">En una terminal escribimos:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><i>sudo cp /etc/fstab /etc/fstab_copia</i> (con esto creamos una copia del fstab por si tuviéramos que restaurar el original alguna vez)</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><i>sudo gedit /etc/fstab </i>(con esto abrimos el editor para añadir unas lineas al final para automontar las particiones ntfs ya con los permisos)</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">En mi caso he tenido que añadir esta linea:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><i>/dev/sda1 /media/Datos ntfs umask=0000,utf8 0 0 </i></div><div style="text-align: justify;"><i></i></div><div style="text-align: justify;"><i>/dev/sda1 </i>debéis cambiarlo por el disco y la partición ntfs que corresponda. Consultar, por ejemplo, Gparted.</div><div style="text-align: justify;"><i>/media/Datos</i> cambiarlo por el directorio donde queréis montarlo por defecto.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Realizando estos pasos, la partición estará montada por defecto con el arranque del sistema, y con permisos totales, podrás modificar los permisos de archivos y modificar el bit de ejecución para poder ejecutar aplicaciones desde dichas particiones ntfs.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Agradezco a <b>eliashl</b>, <b>stone868</b>, <a href="http://www.redeszone.net/"><b>Redeszone</b></a> y <a href="http://www.linuxzone.es/"><b>Linuxzone</b></a>, ya que si no hubiera sido entre todos no hubiéramos podido ser capaces de haber conseguido esto.</div>
+			
+<a href="http://4.bp.blogspot.com/-O3ptkNOZTBI/TlQmU4Z6bnI/AAAAAAAABWw/PvcFl8S46n4/s1600/ntfs-1.jpg"><img alt="" border="0" id="BLOGGER_PHOTO_ID_5644178373182385778" src="http://4.bp.blogspot.com/-O3ptkNOZTBI/TlQmU4Z6bnI/AAAAAAAABWw/PvcFl8S46n4/s400/ntfs-1.jpg" style="cursor: hand; cursor: pointer; display: block; height: 225px; margin: 0px auto 10px; text-align: center; width: 300px;" /></a><br /><div><br /></div><div style="text-align: justify;">Llevaba mucho tiempo comiéndome la cabeza con un problema incapaz de solucionar, y es que no podía dar permisos a ningún archivo en particiones NTFS en Ubuntu 11.04, cuando daba propiedades--permisos y modificaba algo, automáticamente volvía a cambiarse anulándose los cambios, siendo un incordio sobretodo al instalar los juegos o aplicaciones Java que necesitan bit de ejecución en particiones diferentes a /.<br /><a name='more'></a></div><div style="text-align: justify;">Probé con sudo nautilus, chmod 777 y nada. y la verdad es que por internet hay mas bien poca información al respecto.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Después de muchos investigar, la solución ha sido la mas obvia: Ubuntu 11.04 no deja añadir por defecto particiones ntfs al /etc/fstab durante la instalación, cosa que se ha podido hacer de siempre en Ubuntu, por lo que no se obtienen permisos en esas particiones al montarlas, por lo que la solución es añadir las entradas manualmente. ¿Como? Os dejo un ejemplo muy sencillo para todos los que tengáis el mismo problema que tenia yo.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">En una terminal escribimos:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><i>sudo cp /etc/fstab /etc/fstab_copia</i> (con esto creamos una copia del fstab por si tuviéramos que restaurar el original alguna vez)</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><i>sudo gedit /etc/fstab </i>(con esto abrimos el editor para añadir unas lineas al final para automontar las particiones ntfs ya con los permisos)</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">En mi caso he tenido que añadir esta linea:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><i>/dev/sda1 /media/Datos ntfs umask=0000,utf8 0 0 </i></div><div style="text-align: justify;"><i></i></div><div style="text-align: justify;"><i>/dev/sda1 </i>debéis cambiarlo por el disco y la partición ntfs que corresponda. Consultar, por ejemplo, Gparted.</div><div style="text-align: justify;"><i>/media/Datos</i> cambiarlo por el directorio donde queréis montarlo por defecto.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Realizando estos pasos, la partición estará montada por defecto con el arranque del sistema, y con permisos totales, podrás modificar los permisos de archivos y modificar el bit de ejecución para poder ejecutar aplicaciones desde dichas particiones ntfs.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Agradezco a <b>eliashl</b>, <b>stone868</b>, <a href="http://www.redeszone.net/"><b>Redeszone</b></a> y <a href="http://www.linuxzone.es/"><b>Linuxzone</b></a>, ya que si no hubiera sido entre todos no hubiéramos podido ser capaces de haber conseguido esto.</div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -102,7 +104,7 @@ Probé con sudo nautilus, chmod 777 y nada.">
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -110,12 +112,12 @@ Probé con sudo nautilus, chmod 777 y nada.">
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

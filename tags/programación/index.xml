@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programación on Lunatic Geek</title>
+    <title>programación on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/programaci%C3%B3n/</link>
-    <description>Recent content in Programación on Lunatic Geek</description>
+    <description>Recent content in programación on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uso de Emojis como SVG en Favicons</title>
       <link>https://lunaticgeek.com/emoji-favicon/</link>
@@ -64,7 +60,7 @@ Cuando diseñamos el estilo de una web accesible, el contraste de los elementos 
       <pubDate>Mon, 27 Aug 2012 18:06:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</guid>
-      <description>Fuente:&amp;nbsp;xkcd.com</description>
+      <description>Fuente:&amp;nbsp;xkcd.</description>
     </item>
     
     <item>

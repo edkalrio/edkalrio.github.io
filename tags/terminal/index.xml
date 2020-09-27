@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal on Lunatic Geek</title>
+    <title>terminal on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/terminal/</link>
-    <description>Recent content in Terminal on Lunatic Geek</description>
+    <description>Recent content in terminal on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consejos de Vim para Novatos</title>
       <link>https://lunaticgeek.com/vim-para-novatos/</link>
@@ -26,8 +22,8 @@
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/positron/</guid>
-      <description>Electron es una tecnología completamente insidiosa. Puede confundir a un usuario, haciéndole creer que se trata de software nativo cuando en realidad no es más que una página web, con lo que esto conlleva.
-Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un editor web basado enteramente en tecnología web estaba cargado de una lógica bastante estética pero lo que hace años no me di cuenta (porque nunca llegué a probar Atom) es el precio que tenías que pagar por él.</description>
+      <description>Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un editor web basado enteramente en tecnología web estaba cargado de una lógica bastante estética pero lo que hace años no me di cuenta (porque nunca llegué a probar Atom) es el precio que tenías que pagar por él. Cantidades de RAM y disco duro desperdiciadas para conseguir unos resultados muy por detrás de la competencia.
+Sin embargo, no me molesta tanto que haya un editor de textos tan pródigo como el hecho de que se haya puesto de moda esta tecnología y que se estén desarrollando cantidad de herramientas inútiles e insostenibles.</description>
     </item>
     
     <item>
@@ -37,7 +33,8 @@ Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un 
       
       <guid>https://lunaticgeek.com/rfc-terminal/</guid>
       <description>Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la ietf porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete doc-rfc-std de Ubuntu nos trae todo el catálogo al directorio /usr/share/doc/RFC/ para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como less.
-Es demasiado farragoso tener que ejecutar</description>
+Es demasiado farragoso tener que ejecutar
+less /usr/share/doc/RFC/links/rfcXXXX.</description>
     </item>
     
   </channel>

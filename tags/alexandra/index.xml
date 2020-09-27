@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alexandra on Lunatic Geek</title>
+    <title>alexandra on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/alexandra/</link>
-    <description>Recent content in Alexandra on Lunatic Geek</description>
+    <description>Recent content in alexandra on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 10 Jan 2012 18:51:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/alexandra/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Jan 2012 18:51:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/alexandra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>alexandra. Mi nueva estación de trabajo</title>
       <link>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</link>

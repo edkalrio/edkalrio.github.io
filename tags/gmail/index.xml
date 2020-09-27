@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gmail on Lunatic Geek</title>
+    <title>gmail on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/gmail/</link>
-    <description>Recent content in Gmail on Lunatic Geek</description>
+    <description>Recent content in gmail on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 26 Aug 2010 16:08:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Aug 2010 16:08:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Llamadas telefónicas desde Gmail</title>
       <link>https://lunaticgeek.com/2010-08-26-google-prueba-el-hacer-y-recibir/</link>

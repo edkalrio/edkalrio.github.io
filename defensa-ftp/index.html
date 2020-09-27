@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -35,7 +35,7 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -46,6 +46,7 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -90,22 +91,18 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
 			</ul>
 			
 			<p>FTP es uno de los protocolos de internet atacados con mayor ferocidad en los últimos tiempos. En el siglo XXI ya no hay margen para un sistema tan &ldquo;inseguro&rdquo; como FTP, y los grandes navegadores llevan queriendo eliminarlo de su repertorio de soporte desde hace casi un lustro.</p>
-
 <p>Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra corriente de las tendencias informáticas actuales. FTP es un protocolo cuya transferencia de datos se produce en canales inseguros, como no podía ser de otra forma ya que se inventó hace más de 45 años. Sin embargo eso no supone demasiados problemas de seguridad e incluso puede verse como una mejora de la seguridad si se hace adecuadamente. Que el canal de transmisión no sea seguro no quiere decir que los archivos transferidos sean inseguros. De hecho, APT utiliza habitualmente direcciones http://, igualmente inseguras, porque verifica la autenticidad e integridad de los archivos de forma paralela a la transmisión mediante un mecanismo PGP.</p>
-
 <p>En mi opinión PGP es más seguro que TLS porque no depende de autoridades de certificación externas que validen la cadena de confianza hasta llegar a la clave raíz. Sólo en el caso de claves SSL autofirmadas, la seguridad de sendos protocolos se equiparan.</p>
-
 <p>Por ejemplo, la última versión estable de Ubuntu se encuentra en el servidor FTP <a href="ftp://releases.ubuntu.com/releases/18.04.1">ftp://releases.ubuntu.com/releases/18.04.1</a>. Tendríamos que bajar el <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS">hash</a> del archivo y su respectiva <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS.gpg">firma</a></p>
-
 <p>Para verificar que la imagen .iso que hemos descargado ha sido firmada por Canonical, tenemos que acudir a <code>gpg</code>. La clave pública de descargas de Canonical se encuentra instalada por defecto en Ubuntu, como es obvio, en el directorio <code>/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg</code>. Si no queremos importarla a nuestro llavero personal de <code>gpg</code>, ejecutamos directamente</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS</code></pre></div>
-<p>que verifica la autenticidad del hash de la imagen.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg: Firmado el jue <span class="m">26</span> jul <span class="m">2018</span> <span class="m">18</span>:56:03 CEST
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS
+</code></pre></div><p>que verifica la autenticidad del hash de la imagen.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg: Firmado el jue <span class="m">26</span> jul <span class="m">2018</span> 18:56:03 CEST
 gpg:                usando RSA clave D94AA3F0EFE21092
-gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;&#34;</span> <span class="o">[</span>desconocido<span class="o">]</span></code></pre></div>
-<p>Con el siguiente comando ya podemos comparar que el hash firmado coincide con el de la imagen que nos hemos descargado por las aguas turbulentas e infestadas de MitMs de FTP.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS <span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span></code></pre></div>
-<p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizase estas tareas. En todo el proceso no hay inseguridad por ninguna parte y me temo que se utiliza a aquella como excusa barata para abandonar proyectos que dejan de interesar a los desarrolladores. Unos programadores que por vagancia o desidia tampoco ofrecen alternativas viables como la implementación de FTPS. De todos modos, en la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que necesitan ser a prueba de idiotas.</p>
+gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;&#34;</span> <span class="o">[</span>desconocido<span class="o">]</span>
+</code></pre></div><p>Con el siguiente comando ya podemos comparar que el hash firmado coincide con el de la imagen que nos hemos descargado por las aguas turbulentas e infestadas de MitMs de FTP.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS 2&gt;<span class="p">&amp;</span><span class="m">1</span>
+</code></pre></div><p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizase estas tareas. En todo el proceso no hay inseguridad por ninguna parte y me temo que se utiliza a aquella como excusa barata para abandonar proyectos que dejan de interesar a los desarrolladores. Unos programadores que por vagancia o desidia tampoco ofrecen alternativas viables como la implementación de FTPS. De todos modos, en la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que necesitan ser a prueba de idiotas.</p>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -124,7 +121,7 @@ gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing K
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -132,12 +129,12 @@ gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing K
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

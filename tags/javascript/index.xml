@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on Lunatic Geek</title>
+    <title>JavaScript on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/javascript/</link>
-    <description>Recent content in Javascript on Lunatic Geek</description>
+    <description>Recent content in JavaScript on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Próximamente en JavaScript</title>
       <link>https://lunaticgeek.com/js-pipes/</link>

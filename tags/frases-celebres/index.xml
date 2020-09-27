@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Frases Celebres on Lunatic Geek</title>
+    <title>frases celebres on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/frases-celebres/</link>
-    <description>Recent content in Frases Celebres on Lunatic Geek</description>
+    <description>Recent content in frases celebres on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 07 Jun 2011 20:52:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/frases-celebres/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 07 Jun 2011 20:52:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/frases-celebres/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflexiones Frikis</title>
       <link>https://lunaticgeek.com/2011-06-07-reflexiones-frikis_07/</link>
@@ -26,7 +22,7 @@
       <pubDate>Sun, 05 Jun 2011 14:35:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-06-05-frases-celebres/</guid>
-      <description>&#34;Una de las razones por las que creo que existe el software privativo es porque los programadores mediocres se avergüenzan de haber escrito códigos tan chapuceros y no quieren que nadie se entere.&#34;Linus Torvalds</description>
+      <description> &#34;Una de las razones por las que creo que existe el software privativo es porque los programadores mediocres se avergüenzan de haber escrito códigos tan chapuceros y no quieren que nadie se entere.&#34;Linus Torvalds</description>
     </item>
     
     <item>
@@ -54,7 +50,7 @@ Richard Stallman, presidente de la Free Software Foundation y padre de GNU.</des
       <pubDate>Mon, 20 Sep 2010 20:13:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2010-09-20-frases-celebres/</guid>
-      <description>
+      <description> 
 &#34;Los usuarios son una cosa terrible. Los sistemas informáticos serían infinitamente más estables sin ellos.&#34;Michael Nygard&amp;nbsp;</description>
     </item>
     

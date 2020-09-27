@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Apple on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/apple/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 Jan 2016 13:37:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El Cero de Enero y Otros Hitos Informáticos</title>
       <link>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</link>
@@ -102,7 +98,7 @@ Biit es la nueva aplicación para iOS que está triunfando en la appstore. Sus f
       <pubDate>Fri, 09 Sep 2011 01:23:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/2011-09-09-blogger-para-ios/</guid>
-      <description>Ya era hora de que sacaran una app oficial. No es muy cómodo pero en iPad tiene que verse bien. Me despido por hoy desde mi iPod</description>
+      <description> Ya era hora de que sacaran una app oficial. No es muy cómodo pero en iPad tiene que verse bien. Me despido por hoy desde mi iPod</description>
     </item>
     
     <item>
@@ -169,7 +165,7 @@ En este blog nos fijamos en Thunderbolt hace año y medio, cuando intel lo intro
       <pubDate>Thu, 27 Jan 2011 22:59:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2011-01-27-apple-empieza-comercializar-comida/</guid>
-      <description>De apple todos conocemos los iPod, los iPhone, los iPad...Pues ahora la compañia ha decidido hacer honor a su logotipo, y se ha metido en el mundo alimenticioAqui os dejo uno de sus productos, que, fuera de coña, estaba bueno :D</description>
+      <description> De apple todos conocemos los iPod, los iPhone, los iPad...Pues ahora la compañia ha decidido hacer honor a su logotipo, y se ha metido en el mundo alimenticioAqui os dejo uno de sus productos, que, fuera de coña, estaba bueno :D</description>
     </item>
     
     <item>

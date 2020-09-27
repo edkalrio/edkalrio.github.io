@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Descargas on Lunatic Geek</title>
+    <title>descargas on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/descargas/</link>
-    <description>Recent content in Descargas on Lunatic Geek</description>
+    <description>Recent content in descargas on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 29 Jan 2011 14:04:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/descargas/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 29 Jan 2011 14:04:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/descargas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google y su censura de... ¿conveniencia?</title>
       <link>https://lunaticgeek.com/2011-01-29-google-y-su-censura-de-conveniencia/</link>
       <pubDate>Sat, 29 Jan 2011 14:04:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/2011-01-29-google-y-su-censura-de-conveniencia/</guid>
-      <description>Esta semana está siendo una semana movidita para todos los internautas.Primero se aprobó la ley Sinde, y ahora google ha empezado a censurar. Si intentáis buscar palabras como &#34;megaupload&#34; &#34;rapidshare&#34; &#34;torrent&#34; nos encontramos con la sorpresa de que el autocompletar no las marca, y la autobusqueda tampoco... habría que dar a enter e ir manualmente.Sin embargo, personalmente creo que google, un buscador para todos los públicos, debería centrarse antes en eliminar ciertos contenidos, como estos:Definitivamente, está claro que, cosas, como la droga o el sexo dan mas dinero que las descargas, por lo que si hay que censurar, empezaremos por los mas débiles: las descargas </description>
+      <description> Esta semana está siendo una semana movidita para todos los internautas.Primero se aprobó la ley Sinde, y ahora google ha empezado a censurar. Si intentáis buscar palabras como &#34;megaupload&#34; &#34;rapidshare&#34; &#34;torrent&#34; nos encontramos con la sorpresa de que el autocompletar no las marca, y la autobusqueda tampoco... habría que dar a enter e ir manualmente.Sin embargo, personalmente creo que google, un buscador para todos los públicos, debería centrarse antes en eliminar ciertos contenidos, como estos:Definitivamente, está claro que, cosas, como la droga o el sexo dan mas dinero que las descargas, por lo que si hay que censurar, empezaremos por los mas débiles: las descargas </description>
     </item>
     
   </channel>

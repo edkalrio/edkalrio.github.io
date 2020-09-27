@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spotify on Lunatic Geek</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Spotify on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 19 Nov 2012 21:07:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 19 Nov 2012 21:07:00 +0100</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Análisis de la beta privada de la web app de Spotify</title>
       <link>https://lunaticgeek.com/2012-11-19-analisis-de-la-beta-privada-de-la-web/</link>

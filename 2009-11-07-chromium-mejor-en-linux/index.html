@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -62,7 +63,8 @@
 </div>
 			</ul>
 			
-			<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Desde el<i> groups</i> de desarrolladores de Chromium me ha llegado la noticia de que este navegador es algo más rápido en sistemas operativos basados en Linux que en cualquier otro. Después de constatar la evidencia intentaron darle una explicación y las teorías fueron muy diversas.&nbsp;</span><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Se apuntó a que la creación de un proceso en windows requiere muchos más recursos y esto afecta a la creación de nuevos<i> tabs </i>que en Chromium tienen forma de nuevos procesos independientes mientras que en el caso de Linux es, en general, más ligero y utiliza menos recursos.&nbsp;</span></div><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Otro aspecto que señalaron es la forma en que se manejan los gráficos. El diseño de windows pone un límite artificial a la cantidad de gráficos que se pueden manejar como DDB (<i>Device-Dependent Bitmap</i>) y sin embargo en&nbsp;Linux este tipo de operaciones está muy optimizado, sobre todo en la última generación de drivers que utilizan gestión de memoria unificada en el kernel. En este caso las copias de bloques de memoria se reducen al mínimo mejorando el rendimiento en un 60% respecto a tecnologías anteriores. Esto explica que&nbsp;la forma en que se están creando los gráficos en windows no siempre use aceleración por hardware, mientras que en el caso de Linux todas las operaciones comunes ya se realizan con aceleración por hardware.</span></div></div></div>
+			
+<span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Desde el<i> groups</i> de desarrolladores de Chromium me ha llegado la noticia de que este navegador es algo más rápido en sistemas operativos basados en Linux que en cualquier otro. Después de constatar la evidencia intentaron darle una explicación y las teorías fueron muy diversas.&nbsp;</span><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Se apuntó a que la creación de un proceso en windows requiere muchos más recursos y esto afecta a la creación de nuevos<i> tabs </i>que en Chromium tienen forma de nuevos procesos independientes mientras que en el caso de Linux es, en general, más ligero y utiliza menos recursos.&nbsp;</span></div><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;"><br /></span><div><span style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;">Otro aspecto que señalaron es la forma en que se manejan los gráficos. El diseño de windows pone un límite artificial a la cantidad de gráficos que se pueden manejar como DDB (<i>Device-Dependent Bitmap</i>) y sin embargo en&nbsp;Linux este tipo de operaciones está muy optimizado, sobre todo en la última generación de drivers que utilizan gestión de memoria unificada en el kernel. En este caso las copias de bloques de memoria se reducen al mínimo mejorando el rendimiento en un 60% respecto a tecnologías anteriores. Esto explica que&nbsp;la forma en que se están creando los gráficos en windows no siempre use aceleración por hardware, mientras que en el caso de Linux todas las operaciones comunes ya se realizan con aceleración por hardware.</span></div></div></div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -80,7 +82,7 @@
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -88,12 +90,12 @@
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

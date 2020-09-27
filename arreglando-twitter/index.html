@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -33,7 +33,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,6 +44,7 @@
   </nav>
 </header>
 <hr class="site-header-bottom">
+
 
 	<div class="main" role="main">
 		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
@@ -72,18 +73,12 @@
 </div>
 			</ul>
 			
-			<p><img src="https://ewedit.files.wordpress.com/2015/01/back-to-the-future_l.jpg" alt="" /></p>
-
+			<p><img src="https://ewedit.files.wordpress.com/2015/01/back-to-the-future_l.jpg" alt=""></p>
 <p>La única forma sensata de consumir contenido web es a través de RSS, por eso todos nos sentimos traicionados cuando Google mató Reader por motivos económicos. Desde el principio estaba tan convencido de la superioridad de la sindicación de contenidos web que cuando creé este blog, lo hice enfocado a su distribución por RSS. Fue lo primero que configuré cuando empecé hace casi una década y la forma en la que recomiendo a todo el mundo acceder a su información.</p>
-
 <p>Debería aclarar que siempre denomino RSS a lo que en realidad se llama Atom. El problema es que Atom es un nombre demasiado genérico y que personalmente no me gusta. El verdadero RSS es un protocolo totalmente obsoleto y horrendo. RSS 1.0 es uno de los peores estándares de la historia de la informática que solo se solucionó parcialmente con RSS 2.0, pero no fue hasta Atom cuando arreglaron su defectuoso diseño. No voy a entrar en más detalles porque hace unos años, <a href="http://nullprogram.com/blog/2013/09/23/">Chris Wellons</a> escribió un post con todas las críticas que yo le le hago a RSS y alguna más. Una lectura imprescindible. Y mi mala costumbre de llamarlo a todo RSS se extenderá al futuro si se difunde <a href="https://jsonfeed.org/version/1">Json Feed</a>, una iniciativa que eliminará el XML de Atom y modificará algunas claves. Este sí es mi formato preferido para la sindicación pero no es un standard.</p>
-
 <p>Últimamente estoy experimentando bastante con RSS y he encontrado posibilidades inexploradas que aprovechan la potencia de este formato. Me gustaría destacar XSL, un lenguaje infrautilizado que permite convertir el XML del RSS en una página XHTML, con su correspondiente CSS e incluso JS si quisiéramos. Esto nos permitiría programar páginas web sin HTML, utilizando el mismo archivo RSS como mecanismo de suscripción y de visionado.</p>
-
 <p>Con los últimos movimientos de Twitter, estoy empezando a aborrecer la red de microblogging, como ya comenté <a href="https://lunaticgeek.com/2017-12-08-twtxt/">anteriormente</a>, y en la búsqueda de una alternativa, me di cuenta de que la respuesta estaba en el RSS.</p>
-
 <p>El 99% del tiempo, mi actividad en Twitter se limita a leer los tweets de mis amigos. Ni interactúo con ellos, ni exploro trending topics. Sólo leo mi timeline, como todo el mundo. Como mi actitud en Twitter es tan <em>lurker</em>, he creado un servidor que llamo birdwath cuya única función es traducir mi timeline desde la API de Twitter a RSS. Esta solución acaba con los tweets promocionados, recomendados, desordenados, repetidos (por si te lo habías perdido) y favoritos (qué sentido tiene que los favoritos se difundan entre los seguidores? Para eso están los retweets). Es una solución tan eficaz que después de una semana de pruebas he desinstalado la app de Twitter de mi móvil.</p>
-
 <p>Si alguien quiere probar birdwatch, estará disponible próximamente en <a href="https://github.com/edkalrio/birdwatch">GitHub</a>, pero antes debo adecentar un poco el código y redactar la documentación.</p>
 
 			<div property="author" typeof="Person">
@@ -103,7 +98,7 @@
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -111,12 +106,12 @@
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>

@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leap on Lunatic Geek</title>
+    <title>leap on Lunatic Geek</title>
     <link>https://lunaticgeek.com/tags/leap/</link>
-    <description>Recent content in Leap on Lunatic Geek</description>
+    <description>Recent content in leap on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 22 May 2012 19:59:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://lunaticgeek.com/tags/leap/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 22 May 2012 19:59:00 +0200</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/leap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leap. Control gestual estilo Minority Report</title>
       <link>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</link>

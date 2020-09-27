@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -32,7 +32,7 @@
 <body>
 
 <header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp"></a></h1>
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
 	
   <nav class="site-navi">
     <ul class="site-navi-items">
@@ -44,14 +44,12 @@
 </header>
 <hr class="site-header-bottom">
 
-  <div class="breadcrumb">
-    <a href="/tags/">Tags</a> / Linux
-  </div>
+
   <link rel="prefetch" href="/tags/" as="document">
   <link rel="prefetch" href="/archives/" as="document">
   <link rel="prefetch" href="/about/" as="document">
   <div class="main" role="main">
-    <section class="list taxonomy-list">
+    <section class="list term-list">
       <article class="article">
         <link rel="prefetch" href="/2015-03-06-ubuntu-esta-confuso/" as="document">
         <a href="/2015-03-06-ubuntu-esta-confuso/" class="article-titles">
@@ -310,7 +308,7 @@ Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan 
         </ul>
         
         <div class="article-content">
-          <div class="separator" style="clear: both; text-align: center;"><a href="http://imgs.xkcd.com/comics/real_programmers.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="217" src="http://imgs.xkcd.com/comics/real_programmers.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: justify;">Fuente:&nbsp;<a href="http://xkcd.com/">xkcd.com</a></div>
+          Fuente:&nbsp;xkcd.
         </div>
         <div class="article-readmore"><a href="/2012-08-27-los-programadores-de-verdad/">Seguir leyendo</a></div>
         <div class="article-floatclear"></div>
@@ -344,125 +342,45 @@ Si en este blog no hemos escrito nada sobre el tema UEFI es porque no somos tan 
           El otro&nbsp;día&nbsp;os explicamos cómo&nbsp;podíais&nbsp;instalar Wine desde PPA en vuestro sistema Debian.
 Una de las cosas que también es importante a la hora de utilizar un sistema linux, sobretodo si vamos a dedicarlo a&nbsp;algún&nbsp;juego, es cómo instalar los drivers propietarios de Nvidia.
 Instalar los drivers de Nvidia en Debian 6 puede ser un poco lioso, pero si seguimos las siguientes instrucciones lo conseguiremos a la primera sin mucho trabajo.
-Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecutamos en un terminal:
         </div>
         <div class="article-readmore"><a href="/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/">Seguir leyendo</a></div>
         <div class="article-floatclear"></div>
       </article>
     </section>
     
-
 <ul class="pagination">
-    
-    <li>
-        <a href="/tags/linux/" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-    </li>
-    
-    <li
-    >
-    <a href="/tags/linux/page/2/" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li
-    ><a href="/tags/linux/">1</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li
-    ><a href="/tags/linux/page/2/">2</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li
-    class="active"><a href="/tags/linux/page/3/">3</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li
-    ><a href="/tags/linux/page/4/">4</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="disabled"><span aria-hidden="true">&hellip;</span></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li
-    ><a href="/tags/linux/page/8/">8</a></li>
-    
-    
-    <li
-    >
-    <a href="/tags/linux/page/4/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-    </li>
-    
-    <li>
-        <a href="/tags/linux/page/8/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-    </li>
-    
+  <li class="page-item">
+    <a href="/tags/linux/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/tags/linux/page/2/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/tags/linux/">1</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/tags/linux/page/2/">2</a>
+  </li>
+  <li class="page-item active">
+    <a class="page-link" href="/tags/linux/page/3/">3</a>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/tags/linux/page/4/">4</a>
+  </li>
+  <li class="page-item disabled">
+    <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
+  </li>
+  <li class="page-item">
+    <a class="page-link" href="/tags/linux/page/8/">8</a>
+  </li>
+  <li class="page-item">
+    <a href="/tags/linux/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+  </li>
+  <li class="page-item">
+    <a href="/tags/linux/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+  </li>
 </ul>
+
 
   </div>
 
@@ -471,7 +389,7 @@ Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecu
 <div class="site-footer">
   <div class="copyright">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa"></img>
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
     RW Labs 2020</div>
   <ul class="site-footer-items">
@@ -479,12 +397,12 @@ Paso 1 - Instalar los módulos correspondientes y configurarlos: para ello ejecu
     <li class="site-footer-item-rsslink">
       <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
         
-        <img src="/rss.svg" class="fa">
+        <img src="/rss.svg" class="fa" alt="feed" />
       </a>
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa"></img>
+        <img src="/tor.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>
