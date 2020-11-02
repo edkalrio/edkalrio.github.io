@@ -110,9 +110,27 @@ Cuando diseñamos el estilo de una web accesible, el contraste de los elementos 
                     <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&#34;#{R_8bit:02X}{G_8bit:02X}{B_8bit:02X}&#34;</span><span class="p">)</span>
 </code></pre></div><p>Este script en Python que programé en dos minutos en un trozo de papel recorre todo el cubo RGB, los 16.777.216 tonos, comparando su contraste con los colores blanco y negro, seleccionando cada vez los mejores. Las matemáticas detrás de este desarrollo se encuentran recogidas en la guía de <a href="https://www.w3.org/TR/WCAG20-TECHS/G18.html">WCAG 2.0</a>. No voy a comentarlas porque no entiendo nada de teoría del color y solo me he limitado a implementarlas en este pequeño script.</p>
 <p>El resultado es totalmente inesperado y en cierta forma decepcionante.</p>
-<!-- raw HTML omitted -->
+<div style="background:#CF0DCC;">
+    <p style="color:#000;">#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
 <p>El color <code>#CF0DCC</code> es el óptimo, aunque un color magenta como este es horroroso y no podría usarlo en ningún diseño. Sin embargo, el script también proporciona soluciones subóptimas, con resultados prácticamente iguales pero tonos mucho más útiles como son los siguientes, que he seleccionando entre todos.</p>
-<!-- raw HTML omitted -->
+<div style="background:#EC0408;">
+    <p style="color:#000;">#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div style="background:#038901;">
+    <p style="color:#000;">#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div style="background:#006DFB;">
+    <p style="color:#000;">#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div style="background:#6562F2;">
+    <p style="color:#000;">#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <p style="color:#FFF;">#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />

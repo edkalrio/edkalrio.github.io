@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pandoc</title>
+      <link>https://lunaticgeek.com/tags/pandoc/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdf</title>
+      <link>https://lunaticgeek.com/tags/pdf/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tipografía</title>
+      <link>https://lunaticgeek.com/tags/tipograf%C3%ADa/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/tipograf%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>libros</title>
       <link>https://lunaticgeek.com/tags/libros/</link>
@@ -710,15 +737,6 @@
     </item>
     
     <item>
-      <title>Pandoc</title>
-      <link>https://lunaticgeek.com/tags/pandoc/</link>
-      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/pandoc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>powerpoint</title>
       <link>https://lunaticgeek.com/tags/powerpoint/</link>
       <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
@@ -904,15 +922,6 @@
       <pubDate>Sat, 18 Jul 2015 20:48:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/tags/wget/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tipografía</title>
-      <link>https://lunaticgeek.com/tags/tipograf%C3%ADa/</link>
-      <pubDate>Sun, 03 May 2015 20:17:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/tipograf%C3%ADa/</guid>
       <description></description>
     </item>
     

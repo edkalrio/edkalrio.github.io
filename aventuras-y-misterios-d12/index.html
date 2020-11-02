@@ -93,7 +93,7 @@
 </div>
 			</ul>
 			
-			<!-- raw HTML omitted -->
+			<center><img src="https://bebeamordor.com/wp-content/uploads/2020/04/Aventuras-y-Misterios.png" /></center>
 <p>El <code>d12</code> es la oveja negra de la familia de dados roleros. En muchos juegos no se usa y en otros se infrautiliza. Aprovechando el concurso de módulos de <a href="https://grapasymapas.com/aym">grapas y mapas</a> para <a href="https://grapasymapas.com/post/167941550504">Aventuras y Misterios</a>, voy a portar este sencillo juego creado por los <a href="https://eltomocarmesi.blogspot.com/2017/11/aventuras-y-misterios-rol-para-peques.html">Enekos</a> y pensado para los padres que quieren iniciar a sus retoños en el mundo del rol a un sistema equivalente que solo necesita un <code>d12</code> en vez de los <code>6d6</code> que hay que rodar en ocasiones con las reglas originales.</p>
 <p>El <code>d12</code> es un dado con unas propiedades fantásticas que los diseñadores no han terminado de explorar. Por un lado el 12 es un número <a href="https://en.wikipedia.org/wiki/Highly_composite_number">antiprimo</a> y el dodecaedro es el sólido platónico más esférico, un 6% más que el icosaedro, por lo que rueda por mesa a la perfección. Al ser el doble del <code>d6</code> podemos escalar las mecánicas basadas en este (como <a href="https://github.com/amazingrando/blades-in-the-dark-srd-content/blob/master/Blades-in-the-Dark-SRD.md">blades in the dark</a>) afectando a la volatilidad de las tiradas pero también a su precisión, y lo mismo se puede decir de forma aproximada para los juegos que hacen uso de <code>2d6</code> como los <a href="https://rolepedia.rpgutilities.com/cdb-engine">CdB</a>.</p>
 <p>Las <a href="https://drive.google.com/file/d/1H3hZyVJkjWZdVoZVZqu1tqnsDm1kHaZ4/view">reglas</a> originales de Aventuras y Misterios son extremadamente breves pero voy a resumirlas aún más para poder compararlas con mi propuesta de d12.</p>
@@ -133,10 +133,97 @@
 </ul>
 <p>Si nos paramos a comprobar las nuevas reglas se aprecian ciertas irregularidades y huecos que podrían ser rellenados con nuevas dificultades o bonos con valores intermedios que nos dan más flexibilidad y un sentido de progresión lineal que no existía con el sistema 2d6. La solución planteada es, por tanto, más extensible y preciso sin perder la facilidad de utilizar un solo dado para todas las tiradas que ya solo se resuelven con una mecánica de <code>d12</code> + bonus ≥ DC, acercándose a los procedimientos utilizados en el juego de rol más popular del mundo. La única pega que encuentro en este nuevo procedimiento de combate es que no hace explícita la iniciativa que podría determinarse de forma narrativa, por orden del DM o de forma aleatoria.</p>
 <p>Por último, a modo de demostración de la bondad del ajuste del sistema d12 (azul) con el antiguo (rojo), he elaborado dos gráficas en las que aparecen todas las tiradas de resolución de acciones y enfrentamientos para que se aprecie que las probabilidades de éxito/fracaso son tan similares que en mesa difícilmente llegarían a apreciarse.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<blockquote>
+<center><img src="/d12_resolucion_acciones.png" /></center>
+<center><img src="/d12_enfrentamiento.png" /></center>
+<!--
+output 1@1d6 - 1@3d6>0
+output d12 >= 11
+output 1@2d6 - 1@3d6>0
+output d12 >= 10
+output 1@3d6 - 1@3d6>0
+output d12 >= 9
+
+output 1@1d6 - 1@2d6>0
+output d12 >= 10
+output 1@2d6 - 1@2d6>0
+output d12 >= 8
+output 1@3d6 - 1@2d6>0
+output d12 >= 7
+
+output 1@1d6 - 1@1d6>0
+output d12 >= 8
+output 1@2d6 - 1@1d6>0
+output d12 >= 6
+output 1@3d6 - 1@1d6>0
+output d12 >= 5
+
+
+output 1@1d6>=4
+output d12>=7
+output 1@1d6>=5
+output d12>=9
+output 1@1d6>=6
+output d12>=11
+
+output 1@2d6>=4
+output d12>=4
+output 1@2d6>=5
+output d12>=6
+output 1@2d6>=6
+output d12>=9
+
+output 1@3d6>=4
+output d12>=3
+output 1@3d6>=5
+output d12>=5
+output 1@3d6>=6
+output d12>=8
+
+
+
+output 1@1d6 - 1@3d6>0
+output 1@1d6 - 1@2d6>0
+output 1@2d6 - 1@3d6>0
+output 1@3d6 - 1@3d6>0
+output 1@2d6 - 1@2d6>0
+output 1@1d6 - 1@1d6>0
+output 1@3d6 - 1@2d6>0
+output 1@2d6 - 1@1d6>0
+output 1@3d6 - 1@1d6>0
+output d12 >= 11
+output d12 >= 10
+output d12 >= 10
+output d12 >= 9
+output d12 >= 8
+output d12 >= 8
+output d12 >= 7
+output d12 >= 6
+output d12 >= 5
+(17.3611111111, 25.462962963, 28.0735596708, 35.2301954733, 38.9660493827, 41.6666666667, 47.1579218107, 57.8703703704, 65.9722222222)
+(16.6666666667, 25, 25, 33.3333333333, 41.6666666667, 41.6666666667, 50, 58.3333333333, 66.6666666667)
+
+output 1@1d6>=6
+output 1@2d6>=6
+output 1@1d6>=5
+output 1@3d6>=6
+output 1@1d6>=4
+output 1@2d6>=5
+output 1@3d6>=5
+output 1@2d6>=4
+output 1@3d6>=4
+output d12>=11
+output d12>=9
+output d12>=9
+output d12>=8
+output d12>=7
+output d12>=6
+output d12>=5
+output d12>=4
+output d12>=3
+(16.6666666667, 30.5555555556, 33.3333333333, 42.1296296296, 50, 55.5555555556, 70.3703703704, 75, 87.5)
+(16.6666666667, 33.3333333333, 33.3333333333, 41.6666666667, 50, 58.3333333333, 66.6666666667, 75, 83.3333333333)
+
+--><blockquote>
 </blockquote>
 
 			<div property="author" typeof="Person">

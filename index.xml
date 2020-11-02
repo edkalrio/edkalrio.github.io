@@ -6,7 +6,26 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2020-07-31T00:00:00Z</updated>
+	<updated>2020-11-01T00:00:00Z</updated>
+	
+	<entry>
+		<title>La Norma ISO 216 en el Siglo XXI</title>
+		<link rel="alternate" href="https://lunaticgeek.com/a4/" />
+		<updated>2020-11-01T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/a4/</id>
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/A_size_illustration2_with_letter_and_legal.svg/1000px-A_size_illustration2_with_letter_and_legal.svg.png&#34; alt=&#34;A4&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Con este título pretendidamente anti-SEO quiero introducir un tema al que llevo dando vueltas un tiempo y sólo interesaría a las mentes más perturbadas y picajosas. La norma &lt;a href=&#34;https://www.iso.org/standard/36631.html&#34;&gt;ISO 216&lt;/a&gt; define el formato estándar del tamaño del papel, siguiendo una tradición que se remonta hasta 1786. En mi afán excesiva e innecesariamente racionalista me he planteado la manera de mejorar los parámetros que indica la norma para adaptarlos a un época en la que se ha relegado el papel a una posición marginal y el principal consumo de documentos es a través de archivos digitales en PDF.&lt;/p&gt;
+&lt;p&gt;La ISO 216 establece un papel primitivo (A0) con una superficie de un metro cuadrado y una relación de aspecto de √2:1 que es la única que permite una característica fundamental para el proceso reprográfico, los subsiguientes pliegos tienen la mitad de superficie pero conservan este mismo ratio. Doblando por la mitad un A0 obtenemos dos A1, que a su vez dan lugar a cuatro A2 y así, sucesivamente. Este bucle genera unas medidas de 297x210mm para el más habitual de los pliegos, el A4. La eficiencia de esta propiedad minimiza los desperdicios de papel en su producción y posterior procesamiento.&lt;/p&gt;
+&lt;p&gt;Sin embargo nada de esto interesa en la producción de PDFs, cuyos requerimientos deberían estar basados en la disposición y propiedades de las pantallas en las que van a mostrarse. Personalmente creo que los ratios más adecuados para este formato deberían estar entre el 3:2 y 7:4, pero esto sólo es una apreciación personal. En este intervalo se encuentra el número áureo pero por mucho que se empeñen algunos arquitectos y matemáticos en señalar ciertas virtudes esotéricas, la verdad es que su proporción no es intrínsecamente mejor que cualquier otra.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/iso_paper_size_golden_spiral.png&#34; alt=&#34;XKCD: the golden ratio is everywhere!&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Mi preferencia personal se situaría en una relación de aspecto de 5:3 pero después de meditarlo, se aleja bastante de √2:1 y se iba a notar demasiado. Después de todo, mi objetivo final es generar todos los PDFs que redacte en este formato, a modo de broma interna, sin que nadie se dé cuenta de esta estúpida travesura pseudointelectual. La elección definitiva ha recaído en 3:2, traducidas en unas medidas de 300x200mm, bastante más razonables que las impuestas por la ISO 216, y cuya relación de aspecto es coincidente con la de los &lt;em&gt;&lt;a href=&#34;https://en.m.wikipedia.org/wiki/Book_size#Common_formats_and_sizes&#34;&gt;octavos&lt;/a&gt;&lt;/em&gt;, formato de publicación de libros más utilizado en USA. Además, cuando se muestra la altura completa en una pantalla de 16:9, la página ocupa aproximadamente un tercio de la superficie.&lt;/p&gt;
+&lt;p&gt;Estaba terminando de escribir esta entrada cuando he recordado una de las mayores excentricidades de la informática: las medidas tipográficas también son un desastre. Así que, ya puestos, voy a aprovechar para tratar el tema en este mismo espacio. La idea principal en la métrica tipográfica es que un pixel no significa un pixel. &lt;a href=&#34;https://www.youtube.com/watch?v=NfJdL583-UA&#34;&gt;Qué país este!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A modo de resumen, se &lt;a href=&#34;https://www.w3.org/TR/css-values-3/#absolute-lengths&#34;&gt;definen&lt;/a&gt; los &amp;ldquo;pixels&amp;rdquo; como 1/96 de pulgada; las picas (pc) miden 1/6&amp;quot; y los puntos (pt) 1/72&amp;quot;. Teniendo en cuenta que desde 1933 las pulgadas están referenciadas al milímetro y que los únicos países que no han adoptado el sistema métrico decimal son Myanmar, Liberia y USA, creo que también voy a empezar a utilizar los mm como unidad principal para la tipografía. Esto no se recomienda para el diseño web ya que el CSS &lt;a href=&#34;https://www.w3.org/TR/css-values-3/#px&#34;&gt;no está calibrado&lt;/a&gt;, pero mis PDFs van a llevar un tamaño base de fuente de 4.5mm a partir de ahora.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Libros para el Verano</title>
@@ -16,7 +35,7 @@
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/libros-para-el-verano-2020/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/I/71bhZPLwHQL._AC_SL1000_.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Como todo lo relacionado con este funesto año, las vacaciones también van a caracterizarse por la extrañeza de la nueva normalidad a la que intentamos adaptarnos como podemos. Pero esta no es razón para abandonar nuestras lecturas estivales. Todo lo contrario. El confinamiento voluntario, la renuncia al ocio nocturno, la escasez de viajes y la situación de desempleo son buenos argumentos para aprovechar estos libros más que nunca.&lt;/p&gt;
 &lt;p&gt;No podía eludir esta oportunidad para hacer unas recomendaciones literarias —frikis, por supuesto— para disfrutar en un libro electrónico o tablet.&lt;/p&gt;
 &lt;p&gt;Este año he decidido ofrecer una selección variada, basada en mis intereses actuales, pero de la que cualquier informático puede sacar al menos un buen libro para relajarse y olvidarnos por un momento del mundo postapocalíptico en el que vivimos. No puedes perdértelos!&lt;/p&gt;
@@ -44,7 +63,7 @@
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/licencias-permisivas/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://opensource.org/files/OSIApproved.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Ha sido toda una sorpresa encontrar en &lt;a href=&#34;https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/&#34;&gt;Ars Technica&lt;/a&gt; una columna en la que desaconsejan el uso de la licencia MIT para proteger el software de código abierto:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Although software surveys performed by Github and Black Duck Software both list the MIT License as the most commonly encountered open source license, we strongly recommend against its usage due to the ambiguity involved. The MIT license does not grant (or restrict) usage significantly differently from the BSD two-clause license.&lt;/p&gt;
@@ -138,7 +157,7 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/aventuras-y-misterios-d12/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://bebeamordor.com/wp-content/uploads/2020/04/Aventuras-y-Misterios.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;El &lt;code&gt;d12&lt;/code&gt; es la oveja negra de la familia de dados roleros. En muchos juegos no se usa y en otros se infrautiliza. Aprovechando el concurso de módulos de &lt;a href=&#34;https://grapasymapas.com/aym&#34;&gt;grapas y mapas&lt;/a&gt; para &lt;a href=&#34;https://grapasymapas.com/post/167941550504&#34;&gt;Aventuras y Misterios&lt;/a&gt;, voy a portar este sencillo juego creado por los &lt;a href=&#34;https://eltomocarmesi.blogspot.com/2017/11/aventuras-y-misterios-rol-para-peques.html&#34;&gt;Enekos&lt;/a&gt; y pensado para los padres que quieren iniciar a sus retoños en el mundo del rol a un sistema equivalente que solo necesita un &lt;code&gt;d12&lt;/code&gt; en vez de los &lt;code&gt;6d6&lt;/code&gt; que hay que rodar en ocasiones con las reglas originales.&lt;/p&gt;
 &lt;p&gt;El &lt;code&gt;d12&lt;/code&gt; es un dado con unas propiedades fantásticas que los diseñadores no han terminado de explorar. Por un lado el 12 es un número &lt;a href=&#34;https://en.wikipedia.org/wiki/Highly_composite_number&#34;&gt;antiprimo&lt;/a&gt; y el dodecaedro es el sólido platónico más esférico, un 6% más que el icosaedro, por lo que rueda por mesa a la perfección. Al ser el doble del &lt;code&gt;d6&lt;/code&gt; podemos escalar las mecánicas basadas en este (como &lt;a href=&#34;https://github.com/amazingrando/blades-in-the-dark-srd-content/blob/master/Blades-in-the-Dark-SRD.md&#34;&gt;blades in the dark&lt;/a&gt;) afectando a la volatilidad de las tiradas pero también a su precisión, y lo mismo se puede decir de forma aproximada para los juegos que hacen uso de &lt;code&gt;2d6&lt;/code&gt; como los &lt;a href=&#34;https://rolepedia.rpgutilities.com/cdb-engine&#34;&gt;CdB&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Las &lt;a href=&#34;https://drive.google.com/file/d/1H3hZyVJkjWZdVoZVZqu1tqnsDm1kHaZ4/view&#34;&gt;reglas&lt;/a&gt; originales de Aventuras y Misterios son extremadamente breves pero voy a resumirlas aún más para poder compararlas con mi propuesta de d12.&lt;/p&gt;
@@ -178,10 +197,97 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 &lt;/ul&gt;
 &lt;p&gt;Si nos paramos a comprobar las nuevas reglas se aprecian ciertas irregularidades y huecos que podrían ser rellenados con nuevas dificultades o bonos con valores intermedios que nos dan más flexibilidad y un sentido de progresión lineal que no existía con el sistema 2d6. La solución planteada es, por tanto, más extensible y preciso sin perder la facilidad de utilizar un solo dado para todas las tiradas que ya solo se resuelven con una mecánica de &lt;code&gt;d12&lt;/code&gt; + bonus ≥ DC, acercándose a los procedimientos utilizados en el juego de rol más popular del mundo. La única pega que encuentro en este nuevo procedimiento de combate es que no hace explícita la iniciativa que podría determinarse de forma narrativa, por orden del DM o de forma aleatoria.&lt;/p&gt;
 &lt;p&gt;Por último, a modo de demostración de la bondad del ajuste del sistema d12 (azul) con el antiguo (rojo), he elaborado dos gráficas en las que aparecen todas las tiradas de resolución de acciones y enfrentamientos para que se aprecie que las probabilidades de éxito/fracaso son tan similares que en mesa difícilmente llegarían a apreciarse.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;blockquote&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d12_resolucion_acciones.png&#34; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d12_enfrentamiento.png&#34; /&gt;&lt;/center&gt;
+&lt;!--
+output 1@1d6 - 1@3d6&gt;0
+output d12 &gt;= 11
+output 1@2d6 - 1@3d6&gt;0
+output d12 &gt;= 10
+output 1@3d6 - 1@3d6&gt;0
+output d12 &gt;= 9
+
+output 1@1d6 - 1@2d6&gt;0
+output d12 &gt;= 10
+output 1@2d6 - 1@2d6&gt;0
+output d12 &gt;= 8
+output 1@3d6 - 1@2d6&gt;0
+output d12 &gt;= 7
+
+output 1@1d6 - 1@1d6&gt;0
+output d12 &gt;= 8
+output 1@2d6 - 1@1d6&gt;0
+output d12 &gt;= 6
+output 1@3d6 - 1@1d6&gt;0
+output d12 &gt;= 5
+
+
+output 1@1d6&gt;=4
+output d12&gt;=7
+output 1@1d6&gt;=5
+output d12&gt;=9
+output 1@1d6&gt;=6
+output d12&gt;=11
+
+output 1@2d6&gt;=4
+output d12&gt;=4
+output 1@2d6&gt;=5
+output d12&gt;=6
+output 1@2d6&gt;=6
+output d12&gt;=9
+
+output 1@3d6&gt;=4
+output d12&gt;=3
+output 1@3d6&gt;=5
+output d12&gt;=5
+output 1@3d6&gt;=6
+output d12&gt;=8
+
+
+
+output 1@1d6 - 1@3d6&gt;0
+output 1@1d6 - 1@2d6&gt;0
+output 1@2d6 - 1@3d6&gt;0
+output 1@3d6 - 1@3d6&gt;0
+output 1@2d6 - 1@2d6&gt;0
+output 1@1d6 - 1@1d6&gt;0
+output 1@3d6 - 1@2d6&gt;0
+output 1@2d6 - 1@1d6&gt;0
+output 1@3d6 - 1@1d6&gt;0
+output d12 &gt;= 11
+output d12 &gt;= 10
+output d12 &gt;= 10
+output d12 &gt;= 9
+output d12 &gt;= 8
+output d12 &gt;= 8
+output d12 &gt;= 7
+output d12 &gt;= 6
+output d12 &gt;= 5
+(17.3611111111, 25.462962963, 28.0735596708, 35.2301954733, 38.9660493827, 41.6666666667, 47.1579218107, 57.8703703704, 65.9722222222)
+(16.6666666667, 25, 25, 33.3333333333, 41.6666666667, 41.6666666667, 50, 58.3333333333, 66.6666666667)
+
+output 1@1d6&gt;=6
+output 1@2d6&gt;=6
+output 1@1d6&gt;=5
+output 1@3d6&gt;=6
+output 1@1d6&gt;=4
+output 1@2d6&gt;=5
+output 1@3d6&gt;=5
+output 1@2d6&gt;=4
+output 1@3d6&gt;=4
+output d12&gt;=11
+output d12&gt;=9
+output d12&gt;=9
+output d12&gt;=8
+output d12&gt;=7
+output d12&gt;=6
+output d12&gt;=5
+output d12&gt;=4
+output d12&gt;=3
+(16.6666666667, 30.5555555556, 33.3333333333, 42.1296296296, 50, 55.5555555556, 70.3703703704, 75, 87.5)
+(16.6666666667, 33.3333333333, 33.3333333333, 41.6666666667, 50, 58.3333333333, 66.6666666667, 75, 83.3333333333)
+
+--&gt;&lt;blockquote&gt;
 &lt;/blockquote&gt;
 </content>
 	</entry>
@@ -194,7 +300,7 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/rolling-rhino/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://raw.githubusercontent.com/wimpysworld/rolling-rhino/master/.github/logo.png&#34; style=&#34;transform: rotate(180deg)&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Las últimas noticias de Canonical nos anuncian el lanzamiento de una distro no oficial basada en Ubuntu Daily con un ciclo de actualizaciones continuo. Todo el mundo lleva años pidiendo una alternativa rolling release al actual modelo de actualizaciones de Ubuntu basado en LTS cada dos años y versiones &amp;ldquo;desechables&amp;rdquo; cada 6 meses. Como no podía ser de otra forma empecé a leer la presentación del &lt;a href=&#34;https://github.com/wimpysworld/rolling-rhino&#34;&gt;proyecto&lt;/a&gt; con el entusiasmo de un usuario que lleva doce años exigiendo este cambio pero el código revela la dura realidad del clickbait.&lt;/p&gt;
 &lt;p&gt;La verdad es que Rolling Rhino es un script de Bash que modifica los repositorios del sources.list para apuntar a la rama devel, que lleva existiendo años. Nada nuevo bajo el sol. De hecho recuerdo haber probado esta novedad hace más de 5 años! Ni siquiera hay que instalar el script; basta con ejecutar el comando, &lt;code&gt;sudo sed -i s/$(lsb_release --codename --short)/devel/g /etc/apt/sources.list&lt;/code&gt; como hice por aquel entonces.&lt;/p&gt;
 &lt;p&gt;Por lo visto, Martin Wimpress, encargado de desarrollo de escritorio en Canonical es el promotor de esta utilidad, surgida en el debate de un &lt;a href=&#34;https://ubuntupodcast.org/2020/06/25/s13e14-ace-of-spades/&#34;&gt;podcast&lt;/a&gt; y a la hora de afrontar la arquitectura de la nueva distro, un tal &lt;a href=&#34;https://twitter.com/sergiusens/status/1276479711372292096&#34;&gt;Sergio Schvezov&lt;/a&gt; le chivó que la rama devel existía desde tiempo inmemorial y decidió adoptar este modelo que se me antoja insuficiente y decepcionante.&lt;/p&gt;
@@ -211,7 +317,7 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/rdfa/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RDF_example_extended.svg/500px-RDF_example_extended.svg.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para &lt;a href=&#34;https://ogp.me/&#34;&gt;Open Graph&lt;/a&gt; y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.&lt;/p&gt;
 &lt;p&gt;Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en &lt;a href=&#34;https://www.w3.org/TR/rdfa-primer/&#34;&gt;RDFa&lt;/a&gt; para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la &lt;a href=&#34;https://composition-api.vuejs.org/&#34;&gt;Composition API&lt;/a&gt; de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior. Espero no arrepentirme de esta decisión pero en cualquier caso, no es grave y puedo dar marcha atrás en cualquier momento.&lt;/p&gt;
 &lt;p&gt;Escribo este post porque los datos estructurados en RDFa no son tan intuitivos como si los programáramos en JSON-LD. El principal problema radica en que nadie se ha leído la documentación y Google no ofrece ejemplos. Por esta razón he decidido resumir en un snippet básico la estructura que tendrían estos datos para que fueran aceptados como un &lt;a href=&#34;https://developers.google.com/search/docs/data-types/article&#34;&gt;artículo&lt;/a&gt; válido por el buscador.&lt;/p&gt;
@@ -246,7 +352,7 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/emoji-favicon/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img alt=&#34;Irónicamente esta imagen no es un SVG por problemas técnicos con mi CMS 😂&#34; src=&#34;https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/241/face-with-tears-of-joy_1f602.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Hace ya unos tres meses que actualicé a &lt;a href=&#34;https://www.chromestatus.com/feature/5180316371124224&#34;&gt;Chromium 80&lt;/a&gt; y me asombró ver que el changelog incluía una función largamente demandada por diseñadores web de todo el mundo, desde hace tantos años. Es el soporte de SVG como favicon que permite especificar en línea o en archivo a parte nuestros favicones a través del formato vectorial basado en XML.&lt;/p&gt;
 &lt;p&gt;Las ventajas de este cambio que más me interesan son la posibilidad de programar el favicon en vez de dibujarlo en un software de edición de gráficos (como ya he hecho en otras &lt;a href=&#34;https://github.com/edkalrio/handmade-svg&#34;&gt;ocasiones&lt;/a&gt;) y el dinamismo que esto permite. Por ejemplo, se podría cambiar su color en función del estado de la web, como hace &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis CI&lt;/a&gt; pero en vez de recurrir al backend para generar bajo demanda el favicon correcto en cada momento, se podría hacer en el frontend, sin necesidad de realizar una petición extra al servidor.&lt;/p&gt;
 &lt;p&gt;Otra posibilidad que nos brinda esta novedad es la inserción de texto en el SVG que va a ser nuestro favicon. Y cuando me refiero a texto, en realidad estoy pensando en emojis. La principal expresión de la comunicación online y favorita de la generación Z, los emojis encapsulan significado en un solo glifo como otros alfabetos logográficos pero sin perder la correlación intuitiva que existe entre significante y significado, al contrario que otros como el &lt;a href=&#34;https://en.wikipedia.org/wiki/Kanji&#34;&gt;kanji&lt;/a&gt; o el &lt;a href=&#34;https://en.wikipedia.org/wiki/Chinese_characters&#34;&gt;hanzi&lt;/a&gt; en cuya evolución milenaria han ido simplificando los trazos hasta perder su identidad primigenia.&lt;/p&gt;
@@ -267,8 +373,8 @@ DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/hex-flowers/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/hex-flower.png&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;a href=&#34;https://goblinshenchman.wordpress.com/&#34;&gt;Goblin&amp;rsquo;s Henchman&lt;/a&gt; es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: &lt;em&gt;&amp;ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos en función del resultado de una tirada de &lt;code&gt;2d6&lt;/code&gt;. Hay que aclarar que el desplazamiento no afecta a los PJs sino a una serie de eventos del juego. Se trata de una representación geométrica de una tabla aleatoria.&lt;/p&gt;
 &lt;p&gt;El autor señala que las Hex Flores tienen memoria, lo que es incorrecto. La memoria se refiere a los acontecimientos pasados mientras que estas flores evolucionan teniendo en cuenta sólo su posición actual, lo que en matemáticas hace que sean equivalentes a &lt;a href=&#34;https://en.wikipedia.org/wiki/Markov_chain&#34;&gt;cadenas de Markov&lt;/a&gt;, modelo estocástico cuya principal característica es esta capacidad para describir eventos futuros que sólo guardan una relación de dependencia con el presente. Formalmente se expresa como&lt;/p&gt;
@@ -751,7 +857,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;eigen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vectors&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s[&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s[&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Con los resultados obtenidos se podría emular el comportamiento de la Hex Flor sin el tablero y sin tener en cuenta la posición actual para calcular el siguiente evento. Habría que utilizar un &lt;code&gt;d100&lt;/code&gt; con las DC indicadas en la tabla que recoge el vector de estado estacionario.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;img style=&#34;float:right;width: 100%&#34; src=&#34;https://lunaticgeek.com/hex-flower-histogram.png&#34;&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -859,7 +965,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Como se ve en el histograma, la distribución estacionaria es algo irregular, con cierta exponencialidad en el sur y el resto más o menos uniforme. Toda la información generada en este post se podría resumir en el siguiente gráfico donde aparecen tanto las probabilidades de las transiciones entre eventos como las de cada uno en el estado estacionario para formar la cadena de Markov completa. En el próximo &lt;a href=&#34;https://lunaticgeek.com/graphviz/&#34;&gt;post&lt;/a&gt; explicaré la herramienta que utilizo para programar estos grafos y que permite automatizar y sistematizar gran parte de las complejidades relacionadas con la creación de esquemas técnicos de este tipo.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;img style=&#34;max-width: 100%&#34; src=&#34;https://lunaticgeek.com/hex-flower.svg&#34;&gt;
 </content>
 	</entry>
 	
@@ -871,7 +977,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/cuarentena/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/76/ICS_Lima.svg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Pese a lo que pueda parecer al lector de este blog enfocado a temas informáticos esotéricos, herméticos y oscuros, mi actividad profesional nada tiene que ver con eso. Las posibilidades de teletrabajar son nulas en mi sector y de hecho, mi trabajo ha sido expresamente prohibido por el &lt;a href=&#34;https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-3692&#34;&gt;Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma para la gestión de la situación de crisis sanitaria ocasionada por el COVID-19&lt;/a&gt;, lo que me va a dejar recluido en casa las próximas dos semanas &amp;mdash;al menos&amp;mdash;.&lt;/p&gt;
 &lt;p&gt;Estas van a ser las primeras vacaciones de los últimos cuatro años aunque la gente que me conoce sabe que trabajo más bien poco y estoy en un estado de semivacaciones permanente. Entiendo que la mayoría no considere una reclusión forzosa como unas vacaciones pero los informáticos estamos acostumbrados a la distancia social, la reclusión y el ocio casero. Lo único que lamento es el gran coste económico que va a suponer para mi bolsillo pero eso escapa a mi control por completo.&lt;/p&gt;
 &lt;p&gt;Recuerdo el verano de 2003. Mis amigos fueron escalonando sus vacaciones de tal modo que nunca nos quedamos por aquí el número suficiente como para jugar un partido de football, así que ese verano solo salí a la calle un total de tres días en los tres meses. No tenía nada que hacer en el exterior y preferí quedarme en casa lejos del asfixiante calor y de ese sol cegador que tanta gente busca en las playas españolas. Ese año fue el caso más extremo pero nunca me he caracterizado por ser callejero. Si tengo mi kindle, mi chromecast y mi batamanta puedo pasar cualquier enclaustramiento.&lt;/p&gt;
@@ -922,7 +1028,8 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/mecanicas-roleras/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20.png&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
 &lt;p&gt;Podría empezar criticando la excesiva complejidad de Pathfinder pero no es mi intención. Aquel es un juego diseñado con la complejidad en mente y que parece que sus jugadores disfrutan pleiteando reglas y discutiendo con el GM. Prefiero dar esa batalla por perdida para centrarme en mecánicas que he ido encontrando en otros más sencillos que pretenden simplificar los reglamentos para recuperar las raíces del rol. En ciertos juegos he encontrado mecánicas innovadoras que intentan aportar un toque de originalidad, introduciendo nuevas variables innecesarias y que solo se pueden entender desde el punto de vista estético o si no somos tan optimistas, podríamos pensar que los diseñadores no saben en el fondo lo que están haciendo y no son capaces de discernir las alternativas de las que disponen. De ahí parte mi explicación para que tanto diseñadores como jugadores comprendan mejor los juegos y puedan elaborar reglas de la casa que los modifiquen a su gusto para mejorar la experiencia en mesa.&lt;/p&gt;
 &lt;h3 id=&#34;the-black-hackhttpsthe-black-hackjehaisleprintempsnetenglish&#34;&gt;&lt;a href=&#34;https://the-black-hack.jehaisleprintemps.net/english/&#34;&gt;The Black Hack&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Este juego utiliza una peculiar forma de registrar el inventario de ciertos consumibles. Como podemos leer en su reglamento:&lt;/p&gt;
@@ -982,7 +1089,9 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 &lt;p&gt;To determine initiative, each side rolls 1d6. The side with the higher roll may move first and attack first in combat for that round. If both sides roll the same number, th DM may either have both sides roll again, or may consider movement and combat for both sides to occur at the same time (known as simultaneous combat). [&amp;hellip;] If both sides tie on their initiative rolls, and combat is simulateneous, it is possible for both sides to be killed!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;El claro problema de este método es que una de cada seis veces se va a empatar. El manual contempla la posibilidad de un combate simultáneo pero esa me parece una solución bastante pobre e ilógica. Cómo es posible que un monstruo ataque a un personaje si ha sido inmediatamente asesinado por otro PC? porque hay efectivamente una iniciativa implícita en el juego o si se prefiere un orden en el que se suceden los acontecimientos en el lado del jugador y que no pueden traducirse al personaje porque el combate simultaneo es contradictorio. Volver a tirar en caso de empate es una chapuza, así que la solución evidente es tan aburrida como efectiva: tirar &lt;code&gt;1d2&lt;/code&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://i0.wp.com/mystara.thorfmaps.com/wp-content/uploads/2018/04/expert-known-world-24.png&#34; /&gt;&lt;/center&gt;
+### [Hex Map](https://en.wikipedia.org/wiki/Hex_map)
+Desde el [Cook](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Expert_Set) las campañas a cielo abierto de tipo sandbox se llevan a cabo en mapas formados por una grilla hexagonal. La popularidad de este sistema lo ha llevado a convertirse en algo tan característico de los RPGs que difícilmente sería separable de cualquier juego que se precie. Sin embargo, estos mapas tienen ciertos inconvenientes que es imprescindible conocer. Nuestros puntos cardinales están basados en cuatro direcciones básicas y subdivisiones de estas. Los hexágonos no son ortogonales y esto significa que podemos ir al norte o al sur pero no al este u oeste. Las direcciones intermedias tampoco coinciden con las que estamos acostumbrados ya que se sitúan a 30º en lugar de los 45º.
 &lt;p&gt;Estos pequeños obstáculos no son en realidad demasiado problemáticos porque los cartógrafos de juegos de rol los tienen en cuenta a la hora de dibujar sus mapas. Pero también esto tiene margen para la modificación. Una teselación hexagonal presenta una configuración de caras V3.3.3.3.3.3 y vértices 6.6.6. Si intercambiamos estos dos valores obtenemos su figura dual, la teselación triangular. En este caso tendríamos que jugar moviéndonos sobre las líneas entre vértices en vez de sobre su superficie como en el caso hexagonal. Esta simplificación no parece muy útil pero si la llevamos más allá, encontramos la &lt;a href=&#34;https://en.wikipedia.org/wiki/Lattice_(group)#/media/File:Equilateral_Triangle_Lattice.svg&#34;&gt;retícula triangular equilátera&lt;/a&gt;. Esto es una malla de puntos que se corresponden con los vértices de la teselación triangular, eliminando las molestas líneas entre ellos. Esta retícula se podría superponer en cualquier mapa para dar una referencia en el movimiento de los personajes sin necesidad de acudir a cintas métricas como en algunos wargames. Cada punto de la retícula coincide también con el centro de los hexágonos de una teselación de aquel tipo pero preserva la estética del mapa con menos elementos añadidos y desdibuja las fronteras entre casillas adyacentes, lo que puede ser una ventaja o un inconveniente que solo descubrirás cuando lo hayas probado.&lt;/p&gt;
 </content>
 	</entry>
@@ -995,7 +1104,7 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/js-pipes/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Mi relación con JavaScript no empezó con buen pie. Hace años aprendí algo del lenguaje más popular del mundo para programar una trivialidad y la experiencia no fue nada edificante, lo que hizo que me alejara de JavaScript para dedicar mi tiempo a lenguajes más atractivos. Por casualidades de la vida que escapan a mi control, he tenido que retomar mi formación en JS y he de confesar que esta vez ha sido menos traumático. La principal diferencia se produce por los cambios introducidos en 2015 cuando publican el standard de referencia ES6 y las posteriores reformas que nos han traído funciones flecha, clases, promesas, async/await y un largo etcétera que hace de JavaScript una herramienta mucho más atractiva. Ciertamente, es lamentable que el lenguaje de programación número uno en el mundo solo se haya puesto las pilas en el último lustro pero le espera un futuro cargado de novedades interesantes entre las que voy a destacar dos que me parecen fundamentales.&lt;/p&gt;
 &lt;p&gt;Aunque se encuentran en la primera etapa de su desarrollo, estoy seguro de que vamos a poder disfrutar de &lt;a href=&#34;https://github.com/tc39/proposal-pipeline-operator&#34;&gt;pipes&lt;/a&gt; y &lt;a href=&#34;https://github.com/tc39/proposal-partial-application&#34;&gt;placeholders&lt;/a&gt; en el corto plazo. El &lt;a href=&#34;https://github.com/tc39&#34;&gt;comité técnico 39&lt;/a&gt; de Ecma se encarga de revisar las propuestas que cualquier candidato puede plantear y publica todo el proceso para conocer los objetivos que persigue JavaScript. Si bien hay algunas que no me interesan, como la introducción de decoradores, que potenciarían la orientación a objetos del lenguaje y lo acercarían a dialectos como TypeScript en los que ya es una realidad, es importante estar informados para tomar las decisiones de diseño y planificación de software más inteligentes.&lt;/p&gt;
 &lt;p&gt;El operador pipeline &lt;strong&gt;|&amp;gt;&lt;/strong&gt; es una gran propuesta para cualquier lenguaje por la utilidad demostrada en la última mitad de siglo. Como dijo Brian Kernighan: &amp;ldquo;los pipes son la quintaesencia de Unix&amp;rdquo;. Mi experiencia al respecto no se centra en el shell donde su uso es evidentemente imprescindible. Los pipes son herramientas potentísimas en cualquier entorno de desarrollo. Recuerdo cuando empecé a utilizarlos en R mediante la librería &lt;a href=&#34;https://magrittr.tidyverse.org/&#34;&gt;magrittr&lt;/a&gt; del tidyverse. En ese momento tuve una revelación y adquirí el convencimiento de que deberían formar parte de todos los lenguajes.&lt;/p&gt;
@@ -1047,13 +1156,27 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/hats-2019/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://1.bp.blogspot.com/_9wXppEgBFo8/S07-RKPgOSI/AAAAAAAAADs/244IwN1FVwk/s320/Mad-Hatter-Hat1.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Con el fin de año, llega la 11ª edición de los premios HATS (Hats Awards of Technology &amp;amp; Science), del 2019.&lt;/p&gt;
 &lt;p&gt;Mis esperanzas y temores respecto a este año 2019 que ya ha terminado se han cumplido casi al pie de la letra y eso me alegra porque nunca me han gustado las sorpresas. Siempre recordaré el 2019 como el año en el que me reconcilié con la industria informática. Después de años de escepticismo respecto del rumbo que estaba adoptando, he terminado aceptando —no sé si con cierta resignación— las últimas novedades de hardware gracias al simposio de &lt;a href=&#34;https://www.hotchips.org/&#34;&gt;Hot Chips&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Por supuesto, hay temas que no se han resuelto este año. HTTP/3 sigue siendo un &lt;a href=&#34;https://tools.ietf.org/html/draft-ietf-quic-http-24&#34;&gt;borrador&lt;/a&gt; porque la hoja de ruta de la IETF era infinitamente optimista y sin embargo, ya estamos &lt;a href=&#34;https://lunaticgeek.com/http3/&#34;&gt;publicando&lt;/a&gt; a través de la &lt;a href=&#34;https://github.com/cloudflare/quiche&#34;&gt;implementación&lt;/a&gt; parcial de Cloudflare, que ya incluye &lt;a href=&#34;https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/&#34;&gt;0RTT&lt;/a&gt;. Las redes 5G ya han demostrado ser tan decepcionantes como previmos aunque aseguran que van a mejorar cuando tengan acceso a la bandas superiores a 24 GHz, aunque no creo que lleguen a superar el máximo teórico de 4G en muchos años.&lt;/p&gt;
 &lt;p&gt;Una de mis grandes esperanzas y deseos para el año nuevo es que las baterías de materiales alternativos empiecen a comercializarse y ganar terreno a las de ion-litio y polímero de litio en una sociedad cada vez más dependiente de este tipo de almacenamiento energético. Las nuevas baterías de litio-silicio y de estado sólido (litio-sulfuro) son muy prometedoras y espero empezar a verlas de forma masiva junto a los cargadores de nitruro de galio que ya hemos estrenado este año.&lt;/p&gt;
 &lt;p&gt;A todos los amantes y defensores del software libre nos importa la licencia bajo la que se distribuye cierto programa pero no siempre le prestamos la atención merecida a los estándares que implementa el software y que suelen ser fundamentales. Dice un viejo aforismo: &lt;em&gt;&amp;ldquo;build protocols, not platforms&amp;rdquo;&lt;/em&gt; y parece que la industria empieza a escuchar. El proyecto &lt;a href=&#34;https://twitter.com/bluesky&#34;&gt;bluesky&lt;/a&gt; de Twitter para desarrollar un standard abierto y descentralizado para las redes sociales y &lt;a href=&#34;https://www.connectedhomeip.com/&#34;&gt;Project Connected Home over IP&lt;/a&gt; que trata de solucionar la fragmentación de los protocolos del ámbito de la domótica. Estaremos atentos a la evolución de estos prometedores proyectos con todo el hype del mundo.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;dl&gt;&lt;dt&gt;Software del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://github.com/cloudflare/quiche&#34;&gt;quiche&lt;/a&gt; por convertirse en la implementación canónica del protocolo QUIC y HTTP/3.
+&lt;/dd&gt;&lt;dt&gt;Hardware del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.cerebras.net/product/#chip&#34;&gt;Cerebras Wafer Scale Engine&lt;/a&gt; por ser el circuito más bizarro de toda la historia de la humanidad.
+&lt;/dd&gt;&lt;dt&gt;PC del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;PINEBOOK Pro&lt;/a&gt; por conseguir crear un ordenador ARM de aspecto premium a 200$.
+&lt;/dd&gt;&lt;dt&gt;Gadget del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;http://retroflag.com/GPi-CASE.html&#34;&gt;GPi CASE&lt;/a&gt; por ser mejor sucesora de la Game Boy que una hipotética versión oficial.
+&lt;/dd&gt;&lt;dt&gt;Videojuego del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.crashbandicoot.com/es/crashteamracing&#34;&gt;CTR Nitro-Fueled&lt;/a&gt; porque la nostalgia mueve montañas.	
+&lt;/dd&gt;&lt;dt&gt;Avance científico-tecnológico del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.nature.com/articles/s41586-019-1666-5&#34;&gt;Google&lt;/a&gt; por lograr la supremacía cuántica.
+&lt;/dd&gt;&lt;dt&gt;Personaje del año 2019:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Greta_Thunberg&#34;&gt;Greta Thunderb&lt;/a&gt; por ser la voz de una generación.
+&lt;/dd&gt;&lt;/dl&gt;
 &lt;p&gt;Feliz año 50!!&lt;/p&gt;
 </content>
 	</entry>
@@ -1082,14 +1205,15 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/mythic/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://www.wordmillgames.com/images/gmecoverlarger.jpg&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
 &lt;p&gt;El Emulador del Director de Juego de &lt;a href=&#34;https://www.wordmillgames.com/&#34;&gt;Mythic&lt;/a&gt; es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.&lt;/p&gt;
 &lt;p&gt;El emulador de Mythic, si bien no es innovador porque recuerda a la clásica tabla universal de resultados del sistema &lt;a href=&#34;https://en.wikipedia.org/wiki/Marvel_Super_Heroes:_The_Heroic_Role-Playing_Game&#34;&gt;FASERIP&lt;/a&gt;, ha sabido abrirse paso hasta posicionarse como una de las herramientas fundamentales para jugar en solitario a juegos de rol.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://s3.amazonaws.com/files.d20.io/images/23716813/bz-XbzLdia8ee0XMlp5myQ/original.jpg?1475346608&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Todo el reglamento que permite adaptar este modelo a cualquier RPG se basa principalmente en una tabla del destino que actúa como oráculo para responder a preguntas binarias del jugador sobre el transcurso de la aventura. Por un lado tenemos descriptores de probabilidad, que debemos asignar a la situación objeto de consulta al oráculo. Esas posibilidades están asociadas, igualmente, a un ranking de caos, que irá variando dependiendo de la dificultad que adquiera la aventura, para equilibrar los encuentros y desafíos.&lt;/p&gt;
 &lt;p&gt;Mythic es un accesorio perfectamente jugable en su edición original, si bien un análisis en profundidad de esta tabla del destino nos muestra claramente la improvisación y desconocimiento del autor.&lt;/p&gt;
 &lt;p&gt;A cualquier persona normal le daría igual esta inconsistencia en la lógica que fundamenta el oráculo pero yo soy muy maniático y creo que puedo mejorar la mecánica de Mythic, simplificando y regularizando las estadísticas del modelo para conseguir un juego ligeramente distinto pero más elegante, matemáticamente.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_before.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Para descomponer el sistema de juego y adentrarnos en las intenciones subyacentes del autor, vamos a hacer ingeniería inversa, buscando los fundamentos que construyen este emulador y que quizás ni siquiera el creador conociera, si surgieron de la prueba-error a través de un ajuste continuo hasta obtener los resultados deseados.&lt;/p&gt;
 &lt;p&gt;La intuición me dice que este sistema sigue una distribución de probabilidad normal. No es una hipótesis demasiado extraña ya que la mayor parte de procesos aleatorios sigue esta distribución —de ahí su nombre—. Simplemente observando el gráfico anterior podríamos confirmarlo pero para asegurar el resultado vamos a calcular el test de &lt;a href=&#34;https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test&#34;&gt;Shapiro&lt;/a&gt; para los distintos escenarios de Caos.&lt;/p&gt;
 &lt;table&gt;
@@ -1159,10 +1283,10 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Como era de esperar, el oráculo es normal. Ya que estamos, voy a dibujar también los &lt;a href=&#34;https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot&#34;&gt;gráficos Q-Q&lt;/a&gt;, simplemente porque me gusta cómo quedan.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/qqplot.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;El siguiente paso es analizar la incidencia del Caos en las estadísticas. Este Caos no es el concepto que cualquiera que haya estudiado física tiene en mente. Según el autor es una variable que aumenta las probabilidades de éxito de un suceso. Habría sido mejor denominarlo suerte, fortuna, &lt;del&gt;Homer Simpson&lt;/del&gt; aunque entiendo que el término desprende cierto carácter épico y es más comercial.&lt;/p&gt;
 &lt;p&gt;En definitiva, el Caos de Mythic es una variación en la media de las distribuciones normales que lo forman. Si seguimos profundizando vemos que esa variación es lineal, de unos 9 puntos como se aprecia de una sencilla regresión lineal. Curiosamente, la varianza de las distribuciones apenas cambia entre escenarios y se sitúa en unos 28 puntos.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_means.png&#34; /&gt;&lt;/center&gt;
 &lt;pre&gt;&lt;code&gt;Residuals:
     Min      1Q  Median      3Q     Max 
 -4.0556 -1.0328 -0.0783  1.1263  4.7172 
@@ -1176,86 +1300,83 @@ seq(1, 9)    -8.7955     0.3409  -25.80 3.36e-08 ***
 Residual standard error: 2.64 on 7 degrees of freedom
 Multiple R-squared:  0.9896,	Adjusted R-squared:  0.9881 
 F-statistic: 665.8 on 1 and 7 DF,  p-value: 3.358e-08
-&lt;/code&gt;&lt;/pre&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;seq1-9-----04098-----03136---1307----0233&#34;&gt;Coefficients:
-Estimate Std. Error t value Pr(&amp;gt;|t|) &lt;br&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_sds.png&#34; /&gt;&lt;/center&gt;
+&lt;pre&gt;&lt;code&gt;Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.1067 -2.2005  0.2479  1.7868  2.9188 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&amp;gt;|t|)    
 (Intercept)  27.9231     1.7649  15.821 9.77e-07 ***
-seq(1, 9)     0.4098     0.3136   1.307    0.233&lt;/h2&gt;
-&lt;p&gt;Residual standard error: 2.429 on 7 degrees of freedom
-Multiple R-squared:  0.1961,	Adjusted R-squared:  0.08124
-F-statistic: 1.707 on 1 and 7 DF,  p-value: 0.2326&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
-Finalmente, si adoptamos una hipótesis de equidistancia entre los escenarios de probabilidad —nada nos indica lo contrario— podremos reconstruir la distribución de probabilidad utilizada para formar la tabla original, aproximadamente. Sin embargo vamos a cambiar ligeramente los parámetros para obtener resultados similares en los desafíos de tirada pero que estadísticamente van a presentar ciertas características beneficiosas. Por tanto la distribución adoptada es *N(10ci, 30)*.
+seq(1, 9)     0.4098     0.3136   1.307    0.233    
+---
 
-Las celdas de la tabla representan los valores aleatorios, por lo que tendremos que invertir su función de probabilidad, es decir, utilizaremos la función cuantil para obtener los nuevos valores asociados a las probabilidades acumuladas equivalentes a los descriptores de probabilidad.
-
-$$10c_i+30\Phi^{-1}(p_j)$$
-$$p=\left \\{ \frac{1}{n+1}:\frac{n}{n+1} \right \\}$$
-
-Aplicando la fórmula generamos la tabla corregida de Myhtic: GME.
-
-&amp;lt;table&amp;gt;
-	&amp;lt;thead&amp;gt;
-	&amp;lt;tr&amp;gt;
-		&amp;lt;th&amp;gt;Chaos Rank&amp;lt;/th&amp;gt;
-		&amp;lt;th&amp;gt;5&amp;lt;/th&amp;gt;
-	&amp;lt;/tr&amp;gt;
-	&amp;lt;/thead&amp;gt;
-	&amp;lt;tbody&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Impossible&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt;9&amp;lt;sub&amp;gt;83&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;No way&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;21&amp;lt;sub&amp;gt;85&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Very Unlikely&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;6&amp;lt;/sub&amp;gt;30&amp;lt;sub&amp;gt;87&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Unlikely&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;7&amp;lt;/sub&amp;gt;37&amp;lt;sub&amp;gt;88&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;50/50&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;9&amp;lt;/sub&amp;gt;44&amp;lt;sub&amp;gt;90&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Somewhat likely&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;10&amp;lt;/sub&amp;gt;50&amp;lt;sub&amp;gt;91&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Likely&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;11&amp;lt;/sub&amp;gt;56&amp;lt;sub&amp;gt;92&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Very Likely&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;13&amp;lt;/sub&amp;gt;63&amp;lt;sub&amp;gt;94&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Near sure thing&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;14&amp;lt;/sub&amp;gt;70&amp;lt;sub&amp;gt;95&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;A sure thing&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;16&amp;lt;/sub&amp;gt;79&amp;lt;sub&amp;gt;97&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-		&amp;lt;tr&amp;gt;
-			&amp;lt;td&amp;gt;Has to be&amp;lt;/td&amp;gt;
-			&amp;lt;td&amp;gt;&amp;lt;sub&amp;gt;18&amp;lt;/sub&amp;gt;91&amp;lt;sub&amp;gt;99&amp;lt;/sub&amp;gt;&amp;lt;/td&amp;gt;
-		&amp;lt;/tr&amp;gt;
-	&amp;lt;/tbody&amp;gt;
-&amp;lt;/table&amp;gt;
-
-El efecto secundario de haber redondeado la β de la distribución de las medias a 10 es que obtenemos una variación exacta y constante entre las columnas que representan los estados de Caos. Para movernos a izquierda y derecha de la columna inicial (Caos = 5) solo hay que sumar o restar 10 —respectivamente— a los valores de cada fila. Otra ventaja de esta tabla es que ahora es simétrica en lo que se refiere a
-
-$$p\_{i,n/2-k} + p\_{i,n/2+k} = 100$$
-
-Por lo que se podrían resumir los 99 valores de esta en media docena de números, haciendo factible su memorización. Puede llamar la atención que el 50 no corresponda con el descriptor 50/50, pero la inconsistencia se encuentra en estas últimas ya que el autor presenta unas situaciones no equilibradas, con cuatro descriptores por debajo y seis por encima. Salvo en este apartado, creo que se ha logrado una tabla más consistente para consultar como oráculo de Myhthic, respetando en todo momento la intención original del autor, pero aplicando las técnicas estadísticas adecuadas, como se puede comprobar en la gráfica final. Parece el antes y después de un anuncio de la teletienda.
-
-&amp;lt;center&amp;gt;![](/mythic_after.png)&amp;lt;/center&amp;gt;&lt;/code&gt;&lt;/pre&gt;</content>
+Residual standard error: 2.429 on 7 degrees of freedom
+Multiple R-squared:  0.1961,	Adjusted R-squared:  0.08124 
+F-statistic: 1.707 on 1 and 7 DF,  p-value: 0.2326
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Finalmente, si adoptamos una hipótesis de equidistancia entre los escenarios de probabilidad —nada nos indica lo contrario— podremos reconstruir la distribución de probabilidad utilizada para formar la tabla original, aproximadamente. Sin embargo vamos a cambiar ligeramente los parámetros para obtener resultados similares en los desafíos de tirada pero que estadísticamente van a presentar ciertas características beneficiosas. Por tanto la distribución adoptada es &lt;em&gt;N(10ci, 30)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Las celdas de la tabla representan los valores aleatorios, por lo que tendremos que invertir su función de probabilidad, es decir, utilizaremos la función cuantil para obtener los nuevos valores asociados a las probabilidades acumuladas equivalentes a los descriptores de probabilidad.&lt;/p&gt;
+&lt;p&gt;$$10c_i+30\Phi^{-1}(p_j)$$
+$$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$&lt;/p&gt;
+&lt;p&gt;Aplicando la fórmula generamos la tabla corregida de Myhtic: GME.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Chaos Rank&lt;/th&gt;
+		&lt;th&gt;5&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Impossible&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;2&lt;/sub&gt;9&lt;sub&gt;83&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;No way&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;4&lt;/sub&gt;21&lt;sub&gt;85&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Very Unlikely&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;6&lt;/sub&gt;30&lt;sub&gt;87&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Unlikely&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;7&lt;/sub&gt;37&lt;sub&gt;88&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;50/50&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;9&lt;/sub&gt;44&lt;sub&gt;90&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Somewhat likely&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;10&lt;/sub&gt;50&lt;sub&gt;91&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Likely&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;11&lt;/sub&gt;56&lt;sub&gt;92&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Very Likely&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;13&lt;/sub&gt;63&lt;sub&gt;94&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Near sure thing&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;14&lt;/sub&gt;70&lt;sub&gt;95&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;A sure thing&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;16&lt;/sub&gt;79&lt;sub&gt;97&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Has to be&lt;/td&gt;
+			&lt;td&gt;&lt;sub&gt;18&lt;/sub&gt;91&lt;sub&gt;99&lt;/sub&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;El efecto secundario de haber redondeado la β de la distribución de las medias a 10 es que obtenemos una variación exacta y constante entre las columnas que representan los estados de Caos. Para movernos a izquierda y derecha de la columna inicial (Caos = 5) solo hay que sumar o restar 10 —respectivamente— a los valores de cada fila. Otra ventaja de esta tabla es que ahora es simétrica en lo que se refiere a&lt;/p&gt;
+&lt;p&gt;$$p_{i,n/2-k} + p_{i,n/2+k} = 100$$&lt;/p&gt;
+&lt;p&gt;Por lo que se podrían resumir los 99 valores de esta en media docena de números, haciendo factible su memorización. Puede llamar la atención que el 50 no corresponda con el descriptor 50/50, pero la inconsistencia se encuentra en estas últimas ya que el autor presenta unas situaciones no equilibradas, con cuatro descriptores por debajo y seis por encima. Salvo en este apartado, creo que se ha logrado una tabla más consistente para consultar como oráculo de Myhthic, respetando en todo momento la intención original del autor, pero aplicando las técnicas estadísticas adecuadas, como se puede comprobar en la gráfica final. Parece el antes y después de un anuncio de la teletienda.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_after.png&#34; /&gt;&lt;/center&gt;</content>
 	</entry>
 	
 	<entry>
@@ -1266,7 +1387,7 @@ Por lo que se podrían resumir los 99 valores de esta en media docena de número
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/http3/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/http3.png&#34; alt=&#34;like a sir&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Lo &lt;a href=&#34;https://lunaticgeek.com/feliz-no-cumplea%C3%B1os/&#34;&gt;prometido&lt;/a&gt; es deuda.&lt;/p&gt;
 &lt;p&gt;Si esperabas un artículo didáctico en el que explicase HTTP/3 te equivocas de página. No pretendo hacerme eco del &lt;a href=&#34;https://blog.cloudflare.com/http3-the-past-present-and-future/&#34;&gt;lanzamiento&lt;/a&gt; público de la versión preliminar de este protocolo, como haría cualquier blog de noticias, sino anunciar que ya lo hemos activado en Lunatic Geek porque aquí siempre intentamos &lt;a href=&#34;https://lunaticgeek.com/2018-07-13-rtfm/&#34;&gt;predicar con el ejemplo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Después de un año haciendo cola, ya estamos sirviendo todo nuestro contenido a través del protocolo HTTP/3 gracias al titánico esfuerzo de los ingenieros de &lt;a href=&#34;https://cloudflare.com/&#34;&gt;Cloudflare&lt;/a&gt;, que han trabajado junto con informáticos de Google, Mozilla y otros agentes de las principales organizaciones que forman internet para redactar e implementar un &lt;a href=&#34;https://tools.ietf.org/html/draft-ietf-quic-http-23&#34;&gt;standard&lt;/a&gt; que se convertirá en el futuro de internet cuando resuelvan los últimos cabos sueltos. Pero que nadie se equivoque, aunque el protocolo no esté terminado, eso no implica que el trabajo ya hecho esté plagado de bugs. Simplemente faltan partes, como la migración transparente entre conexiones para no tener que establecer una nueva cuando cambiemos de red, y el zero round trip, a imitación del que ya podemos establecer en TLS 1.3.&lt;/p&gt;
@@ -1283,7 +1404,7 @@ Por lo que se podrían resumir los 99 valores de esta en media docena de número
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/compila-i3wm/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://i3wm.org/img/logo.svg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.&lt;/p&gt;
 &lt;p&gt;Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos &lt;a href=&#34;https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/&#34;&gt;años&lt;/a&gt;. Me sorprendió gratamente encontrar en el &lt;a href=&#34;https://i3wm.org/downloads/RELEASE-NOTES-4.17.txt&#34;&gt;changelog&lt;/a&gt; una característica que llevo deseando desde que me topé con i3wm, la &lt;a href=&#34;https://i3wm.org/docs/userguide.html#_transparency&#34;&gt;transparencia de i3bar&lt;/a&gt;. Nunca he tenido problemas con las actualizaciones de este paquete a pesar de estar mantenidas por un tercero ajeno al desarrollo del programa, pero ya ha salido incluso una revisión, v4.17.1 y sigo sin tener noticias, así que toca compilar desde el código fuente. Compilar es una tarea odiosa. Siempre quedan cabos sueltos, hay que pelearse con los distintos sistemas de configuración, árboles de dependencias que dinamitan el resto del sistema y sobre todo, la sensación de estar profanando la máxima de &lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;&gt;DRY&lt;/a&gt;. En el caso de i3wm, el propio programador desaconseja compilarlo.&lt;/p&gt;
 &lt;p&gt;Sin embargo, estoy harto de esperar y después de un par de intentos fallidos, ahí va la receta para compilar i3wm v4.17.1 en Ubuntu 18.04.&lt;/p&gt;
@@ -1307,7 +1428,8 @@ sudo make install
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/rol/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20.png&#34; /&gt;&lt;/center&gt;
+&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
 &lt;p&gt;Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como &lt;em&gt;nerds&lt;/em&gt; pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.&lt;/p&gt;
 &lt;p&gt;El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme. Aunque si hay algo que caracteriza al rol es la cantidad de dados que utiliza; en este mismo sistema se hace uso del &lt;code&gt;d6&lt;/code&gt; para la creación de los personajes y otros eventos que requieren menos volatilidad. El uso de un solo dado, sea del valor que sea, supone la subordinación a una distribución de máxima entropía, totalmente imprevisible.&lt;/p&gt;
 &lt;p&gt;Los generadores de números aleatorios (RNG) son el pilar fundamental del rol sobre el que se construyen las estadísticas de los personajes y monstruos, encuentros y cualquier circunstancia no determinista. Un mayor control de los RNG facilitaría la tarea de diseño de juegos de rol y simplificaría los mismos, mejorando la experiencia de juego. El problema es que los diseñadores no son expertos en combinatoria y probabilidad, e históricamente han recurrido a soluciones improvisadas y basadas en prueba-error para ir refinando las mecánicas aleatorias. Los resultados son innecesariamente tediosos y no se llega a tener el control total de las distribuciones generadas.&lt;/p&gt;
@@ -1529,10 +1651,10 @@ si no
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;A veces una imagen vale más que mil palabras, así que he elaborado los siguientes gráficos de las distribuciones anteriormente tratadas, obviando el hecho de que son generalizaciones de los verdaderos resultados y que las originales son discretas. Se muestra la PDF original en línea discontinua para que contraste con la estimación verdaderamente obtenida.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lunaticgeek.com/3d6.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://lunaticgeek.com/4d6d1.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://lunaticgeek.com/4dF.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;https://lunaticgeek.com/d6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lunaticgeek.com/3d6.png&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/4d6d1.png&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/4dF.png&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/d6.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Finalmente y a modo de conclusión se recoge en la siguiente tabla las tiradas de dificultad (D) y alias (A) para los casos tratados. Esta es la única que necesitamos para jugar.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1784,7 +1906,7 @@ si no
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/libros-para-el-verano-2019/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/G/30/kindle/dp/2019/82430725/advanced-pack.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Miles de personas comienzan mañana sus vacaciones estivales para disfrutar de un merecido descanso después de un largo año de trabajo. Se ha convertido en &lt;a href=&#34;https://lunaticgeek.com/tags/libros/&#34;&gt;tradición&lt;/a&gt; que escriba este post para hacer unas recomendaciones literarias —frikis, por supuesto— para disfrutar durante las vacaciones en un libro electrónico o tablet.&lt;/p&gt;
 &lt;p&gt;Este año he decidido centrar mis recomendaciones en programación web, que últimamente estoy revisando para expandir mis conocimientos de desarrollo Full Stack. No puedes perdértelos!&lt;/p&gt;
 &lt;ul&gt;
@@ -1827,7 +1949,7 @@ si no
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/wsl2/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://www.windowscentral.com/sites/wpcentral.com/files/styles/w830/public/field/image/2015/06/hero-unicorn.JPG&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Hemos ganado. Windows 10 incluirá un kernel Linux completo como base para el &lt;a href=&#34;https://devblogs.microsoft.com/commandline/announcing-wsl-2/&#34;&gt;Windows Subsystem for Linux&lt;/a&gt; que permitirá una compatibilidad total con las llamadas al sistema, haciendo posible la ejecución de Docker y el manejo de FUSE de forma nativa. La licencia GPLv2 del kernel les obliga a mantener un repositorio con todos los cambios que hagan para que la comunidad del software libre pueda beneficiarse de ellos. Aunque Microsoft lleva años siendo uno de los principales contribuyentes de Linux tanto en el aspecto financiero como en el técnico, ahora tendrán que mantener el proyecto completo. Las contribuciones de Microsoft al kernel siempre han sido muy endogámicas, centrándose en Azure e Hyper-V pero esto es un gran paso al frente que beneficiará enormemente a los usuarios de Windows.&lt;/p&gt;
 &lt;p&gt;Me parece necesario reflexionar algo más en profundidad sobre este avance. Hace un mes, Microsoft presentó sus cuentas trimestrales con unos &lt;a href=&#34;https://www.nytimes.com/2019/04/24/technology/microsoft-earnings.html&#34;&gt;resultados&lt;/a&gt; sorprendentes: 30.6 mil millones de ingresos, que supone un aumento del 14% respecto del ejercicio anterior, y un aumento del beneficio de un 19%, hasta los 8.8 mil millones. Todo esto ha provocado un aumento de la capitalización bursátil hasta alcanzar el tan ansiado billón. Una de las razones de este éxito es su concepción de la nube híbrida, que parece que facilita la migración de la infraestructura de sus clientes. En total, los ingresos del negocio de cloud de Microsoft han aumentado un 27%.&lt;/p&gt;
 &lt;p&gt;Retrocedamos algo más en el tiempo. Hace año y medio que &lt;a href=&#34;https://www.redhat.com/en/about/press-releases/red-hat-acquire-coreos-expanding-its-kubernetes-and-containers-leadership&#34;&gt;Red Hat&lt;/a&gt; compró CoreOS, sistema del que ya hablé en su &lt;a href=&#34;https://lunaticgeek.com/2017-07-11-distrohopping-util/&#34;&gt;momento&lt;/a&gt;, por 250 millones para reforzar su cartera con uno de los sistemas que más ha innovado en el desarrollo de Kubernetes y Docker. El propio presidente de Red Hat reconocía su objetivo de acelerar la adopción y desarrollo de la plataforma de nube híbrida líder en la industria.&lt;/p&gt;
@@ -1846,7 +1968,7 @@ si no
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/agregador-noticias-opml/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Opml-icon.svg/240px-Opml-icon.svg.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;&lt;a href=&#34;https://lobste.rs/&#34;&gt;Lobsters&lt;/a&gt; y &lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;Hacker News&lt;/a&gt; son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del &lt;a href=&#34;https://lunaticgeek.com/arreglando-twitter/&#34;&gt;RSS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Para abordar el tema, voy a establecer una alternativa para &lt;a href=&#34;https://victorhck.gitlab.io/planetalibre/&#34;&gt;PlanetaLibre&lt;/a&gt;, el agregador mantenido por el compañero &lt;a href=&#34;https://victorhckinthefreeworld.com/&#34;&gt;victorhck&lt;/a&gt;, que tiene el tamaño y características perfectas para modificarlo sin demasiado esfuerzo por mi parte.&lt;/p&gt;
 &lt;p&gt;La gran carencia de este servicio es que sólo se actualiza dos veces al día porque tiene que ejecutarse un cronjob en un servidor Python que recopila las fuentes y actualiza la página. Esta arquitectura monolítica no permite una selección de las fuentes (a no ser que se apliquen filtros en el cliente RSS) e incluso modifica los posts originales, eliminando el contenido para conservar y difundir exclusivamente el título y la descripción.&lt;/p&gt;
@@ -1867,7 +1989,7 @@ si no
 		<content type="html">&lt;p&gt;No voy a pretender por un segundo que sé algo de electrónica porque estaría mintiendo de forma descarada. Sin embargo, la tecnología es el remedio perfecto para la incompetencia humana y nos permite realizar tareas que hasta hace unos años parecían inimaginables, como el diseño de PCBs de la forma más simple, como si se tratara de un videojuego, uniendo y reordenando piezas hasta alcanzar un producto de aspecto profesional.&lt;/p&gt;
 &lt;p&gt;Look Mum No Computer es un músico loco que fabrica sus propios sintetizadores modulares de una forma muy amateur y descuidada siguiendo una estética punk bastante graciosa. Se hizo famoso con la creación del &lt;a href=&#34;https://www.lookmumnocomputer.com/projects#/furby-organ&#34;&gt;órgano de furbies&lt;/a&gt; y ahora se dedica en exclusiva a desarrollar sus ideas bizarras.&lt;/p&gt;
 &lt;p&gt;Look Mum No Computer ha presentado un nuevo &lt;a href=&#34;https://www.lookmumnocomputer.com/projects#/simple-filter&#34;&gt;módulo&lt;/a&gt; casero de &lt;em&gt;low pass filter&lt;/em&gt; basado en el circuito de &lt;a href=&#34;https://www.schmitzbits.de/ms20.html&#34;&gt;René Schimtz&lt;/a&gt;, que recrea el Korg MS20. El circuito en sí se presenta con esa apariencia pretendidamente descuidada de la que ya hablaba:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://static1.squarespace.com/static/5912db7ee6f2e1435dbab4fd/t/5be836080e2e721437a5231f/1541944859288/MS202FIX.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;No tengo pensado construir uno. De hecho, opino que la síntesis modular es una pijada anacrónica, pero proyectar PCBs es uno de mis últimos hobbies y creo que puedo cambiar la apariencia de este circuito para que parezca más profesional. Por eso he intentado conseguir los siguientes objetivos de diseño:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Placa de dos capas.&lt;/li&gt;
@@ -1878,9 +2000,9 @@ si no
 &lt;li&gt;Vías ocultas (preferencia personal).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Los resultados han sido bastante satisfactorios y podría producirlos por menos de 12€/15 unidades. Os dejo el esquemático, el diseño del PCB y una renderización 3D. El resto de archivos necesarios para la fabricación están disponibles en &lt;a href=&#34;https://github.com/edkalrio/low-pass-filter&#34;&gt;Git&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/lpf.svg&#34; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/lpf-brd.svg&#34; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/lpf.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Nada de esto habría sido posible sin &lt;a href=&#34;http://kicad-pcb.org/&#34;&gt;KiCad&lt;/a&gt;, un software tremendamente potente en cuyo desarrollo colabora nada menos que el CERN. Una verdadera joya del software libre que no me cansaré de promocionar y recomendar a todos los que quieran iniciarse en el mundo de la electrónica o hacer el bobo con circuitos, como yo.&lt;/p&gt;
 </content>
 	</entry>
@@ -1893,7 +2015,7 @@ si no
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/vim-para-novatos/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&#34;http://www.viemu.com/vi-vim-cheat-sheet.gif&#34; alt=&#34;Cheatsheet&#34;&gt;&lt;/p&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;http://www.viemu.com/vi-vim-cheat-sheet.gif&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Este no es un blog para novatos. Siempre lo he escrito pensando en informáticos que quisieran expandir sus conocimientos pero que partieran de una sólida base de habilidades en la línea de comandos y en las peculiaridades y características de los sistemas basados en UNIX. Sin embargo un compañero me pidió consejo sobre Vim porque quería empezar a usarlo (creo que ahora edita con Notepad++) y le mandé un email con una serie de pautas que me gustaría compartir públicamente por si pudieran ser útiles a alguien más. No soy un experto en Vim. De hecho, utilizo solo las funciones de Vintage en Sublime Text 3.&lt;/p&gt;
 &lt;h3 id=&#34;consejos-basados-en-mi-aprendizaje&#34;&gt;Consejos basados en mi aprendizaje&lt;/h3&gt;
 &lt;p&gt;Mi proceso de aprendizaje de Vim, hace ya una década todavía parece aceptable. Afortunadamente, la atemporalidad de Vim es una de sus mayores virtudes. Nunca pasará de moda. Los materiales que utilicé para familiarizarme con él son los siguientes:&lt;/p&gt;
@@ -1919,7 +2041,8 @@ si no
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/positron/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://camo.githubusercontent.com/627c774e3070482b180c3abd858ef2145d46303b/68747470733a2f2f656c656374726f6e6a732e6f72672f696d616765732f656c656374726f6e2d6c6f676f2e737667&#34; /&gt;&lt;/center&gt;
+Electron es una tecnología completamente insidiosa. Puede confundir a un usuario, haciéndole creer que se trata de software nativo cuando en realidad no es más que una página web, con lo que esto conlleva. 
 &lt;p&gt;Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un editor web basado enteramente en tecnología web estaba cargado de una lógica bastante estética pero lo que hace años no me di cuenta (porque nunca llegué a probar Atom) es el precio que tenías que pagar por él. Cantidades de RAM y disco duro desperdiciadas para conseguir unos resultados muy por detrás de la competencia.&lt;/p&gt;
 &lt;p&gt;Sin embargo, no me molesta tanto que haya un editor de textos tan pródigo como el hecho de que se haya puesto de moda esta tecnología y que se estén desarrollando cantidad de herramientas inútiles e insostenibles. Siguiendo nuestra tradición de criticar de forma constructiva, vamos a ofrecer alternativas más razonables en forma de aplicaciones nativas o oneliners de Bash.&lt;/p&gt;
 &lt;p&gt;No me parece mal que la gente programe estas apps como meros ejercicios para practicar sus conocimientos y aprender el uso de las tecnologías web pero no es necesario que los distribuyan públicamente y menos aún que los blogs informáticos contribuyan a su difusión. Por eso, con una finalidad profiláctica, no voy a poner links hacia estos programas que nunca deberían haber existido.&lt;/p&gt;
@@ -1966,7 +2089,7 @@ t&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&l
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/rfc-terminal/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/rfc-terminal.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la &lt;a href=&#34;https://tools.ietf.org/rfc/&#34;&gt;ietf&lt;/a&gt; porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete &lt;code&gt;doc-rfc-std&lt;/code&gt; de Ubuntu nos trae todo el catálogo al directorio &lt;code&gt;/usr/share/doc/RFC/&lt;/code&gt; para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como &lt;code&gt;less&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Es demasiado farragoso tener que ejecutar&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;less /usr/share/doc/RFC/links/rfcXXXX.txt.gz
@@ -2052,14 +2175,14 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config
 		</author>
 		<id>https://lunaticgeek.com/wordstar4/</id>
 		<content type="html">&lt;p&gt;Estoy leyendo el último &lt;a href=&#34;https://tubrujuladigital.com/download.php?id=3784&amp;amp;token=fJXH0rO4Zj44i5LEmwZOzN6G9Ll52hg7&amp;amp;download&#34;&gt;libro&lt;/a&gt; de G. R. R. Martin y con cada página que termino me doy cuenta de la labor titánica de cohesión entre genealogía, historia, política, geografía y cultura que ha tenido que entretejer para dar forma un universo coherente y funcional. Un trabajo complejísimo, sobre todo si tenemos en cuenta que utiliza las &lt;a href=&#34;https://grrm.livejournal.com/197075.html&#34;&gt;herramientas&lt;/a&gt; más rudimentarias para escribir sus novelas, WordStar 4.0 en un viejo ordenador con MS-DOS.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/ws4.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Sentía curiosidad por este software que quedó obsoleto antes de que yo naciera así que lo instalé para probarlo. Es muy sencillo ejecutarlo en un emulador o en una máquina virtual aunque su utilidad está bastante limitada. Para juzgar sus características como procesador de texto, he empezado a escribir este post y tengo que reconocer que es una experiencia bastante gratificante. Su mayor virtud está en los atajos de teclado, mucho más intuitivos y naturales que los de &lt;code&gt;vi&lt;/code&gt; o &lt;code&gt;emacs&lt;/code&gt;. Se aprenden casi instantáneamente y siempre podemos acudir al menú en pantalla que nos chiva alguna combinación desconocida, al más puro estilo &lt;code&gt;nano&lt;/code&gt; o &lt;code&gt;pico&lt;/code&gt;. El problema, sin embargo es el archivo resultante. Aunque está escrito en texto plano, WordStar no es un editor de textos e incluye cierta información en el texto, que lo deja inservible para su exportación, por lo que deberemos utilizar algún &lt;a href=&#34;https://github.com/kbarni/wsconvert&#34;&gt;software&lt;/a&gt; moderno si queremos usar el formato &lt;code&gt;.ws&lt;/code&gt; más allá de las fronteras de DOS. Es obvio que estos archivos tampoco están codificados en UTF-8, que por aquel entonces ni siquiera estaba en la mente de Ken Thompson. Además la resolución máxima de WordStar es VGA. No voy a mostrar cómo se ve en mi monitor ultrapanorámico de 29&amp;quot; pero os podéis hacer una idea de la escena tan ridícula.&lt;/p&gt;
 &lt;p&gt;Martin no es el único escritor que sigue utilizando WordStar. Roger MacBride Allen, Gerald Brandt, Jeffrey A. Carver, Arthur C. Clarke, David Gerrold, Terence M. Green, James Gunn, Matthew Hughes, Donald Kingsbury, Eric Kotani, Paul Levinson, Vonda McIntyre, Kit Reed, Jennifer Roberson y Edo van Belkom son fans y usuarios de esta leyenda informática. Es Robert J. Sawyer, ganador del Hugo y del Nebula, el que hace mayor defensa y promoción de las ventajas que presenta WordStar. En un &lt;a href=&#34;https://sfwriter.com/wordstar.htm&#34;&gt;ensayo&lt;/a&gt; de 1990 instruye sobre su interfaz, que le permite seguir escribiendo sin parar gracias a la flexibilidad que le dan los bloques de texto.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;WordStar&amp;rsquo;s &lt;code&gt;^Q &lt;/code&gt; (Quick cursor movement) and &lt;code&gt;^K &lt;/code&gt; (block) commands give me more of what I used to have when I wrote in long hand than any other product does. WordStar&amp;rsquo;s powerful suite of cursor commands lets me fly all over my manuscript, without ever getting lost. That&amp;rsquo;s because WordStar isconstantly keeping track of where I&amp;rsquo;ve been and where I&amp;rsquo;m likely to want to go. &lt;code&gt;^QB&lt;/code&gt; will take me to the beginning of the marked block; &lt;code&gt;^QK&lt;/code&gt; will take me to the end; &lt;code&gt;^QV&lt;/code&gt; will take me to where the marked block was moved from; &lt;code&gt;^QP&lt;/code&gt; will take me to my previous cursor position. And, just as I used to juggle up to ten fingers inserted into various places in my paper manuscript, WordStar provides me with ten bookmarks, set with &lt;code&gt;^K0&lt;/code&gt; through&lt;code&gt;^K9&lt;/code&gt;, and ten commands to jump to them, &lt;code&gt;^Q0&lt;/code&gt; to &lt;code&gt;^Q9&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;WordStar deja un sabor agridulce. Es un software potente pero tiene demasiados bordes afilados. En el siglo XXI se hace imprescindible contar con una alternativa moderna que ofrezca soporte nativo.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/joe.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Por supuesto, hay muchos programadores que aman este software y han preparado desde modos de &lt;a href=&#34;https://github.com/dfr62/wormstar&#34;&gt;emacs&lt;/a&gt; hasta archivos de configuración de &lt;a href=&#34;https://groups.google.com/forum/m/#!msg/comp.editors/882crMSedW8/54JtnwmvTlEJ&#34;&gt;vim&lt;/a&gt; que transforman los editores de texto más populares en copias exactas del viejo WordStar. &lt;a href=&#34;https://joe-editor.sourceforge.io/&#34;&gt;Joe&lt;/a&gt; va más allá y se podría considerar como un descendiente directo, preparado también para ser usado en programación y no solo en prosa. He probado este último programa y debo recomendar a todos los usuarios del WordStar original que migren a &lt;code&gt;joe&lt;/code&gt;. Su vida será más fácil a la vez que conservan todas las funcionalidades y aspecto original.&lt;/p&gt;
 </content>
 	</entry>
@@ -2072,12 +2195,26 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/hats-2018/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://1.bp.blogspot.com/_9wXppEgBFo8/S07-RKPgOSI/AAAAAAAAADs/244IwN1FVwk/s320/Mad-Hatter-Hat1.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Con el fin de año, llega la 10ª edición de los premios HATS (Hats Awards of Technology &amp;amp; Science), del 2018.&lt;/p&gt;
 &lt;p&gt;Me falta la perspectiva que aporta el tiempo y la reflexión sobre el pasado pero es muy probable que 2018 termine siendo recordado como una año de transición. La calma que precede la tempestad que puede caracterizar 2019, marcado por la guerra comercial entre USA y China y el Brexit. Si los mercados resisten los bandazos políticos, veremos la superación de los 14nm por varios procesadores ARM que ha venido atascando su evolución las últimas generaciones. Estos avances en la fabricación también facilitarán la producción y mayor difusión de procesadores RISC-V en los que hemos depositado grandes esperanzas aquí, en Lunatic Geek.&lt;/p&gt;
 &lt;p&gt;En el mundo de las redes, esperamos probar la nueva tecnología 5G para desmitificarla y desenmascarar a los operadores que empiecen a ofrecer un redes que no se acerquen a los mínimos exigidos por el standard de la ITU. El último de los grandes acontecimiento que hemos anotado en nuestros calendarios es la implementación de HTTP/3, que si no se retrasa llegará en seis meses para proveer este blog a través de QUIC.&lt;/p&gt;
 &lt;p&gt;Pero vamos a lo importante, los ganadores de esta 10ª edición son&amp;hellip;:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;dl&gt;&lt;dt&gt;Software del año 2018:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://tools.ietf.org/html/rfc8446&#34;&gt;TLS 1.3&lt;/a&gt; aunque sea un poco tramposo dar un premio de software a un protocolo genérico en vez de a una implementación concreta, TLS 1.3 era la evolución necesaria que simplifica, agiliza y mejora la seguridad de la tecnología de encriptación que gobierna internet.
+&lt;/dd&gt;&lt;dt&gt;Hardware del año 2018:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.anandtech.com/show/13392/the-iphone-xs-xs-max-review-unveiling-the-silicon-secrets/2&#34;&gt;Apple A12&lt;/a&gt; por romper la barrera de los 14nm y darnos esperanza a los que queremos ver que los procesadores ARM desplacen a los AMD64 en el escritorio y servidores.
+&lt;/dd&gt;&lt;dt&gt;PC del año 2018:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.lenovo.com/es/es/laptops/thinkpad/p-series/ThinkPad-P1/p/22WS2WPP101&#34;&gt;ThinkPad P1&lt;/a&gt; por traer la potencia de Intel Xeon a un formato portátil.
+&lt;/dd&gt;&lt;dt&gt;Gadget del año 2018:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;http://retroflag.com/SUPERPi-CASE-J.html&#34;&gt;SUPERPi CASE-J&lt;/a&gt; por ofrecer una alternativa superior a las consolas retro para el Raspberry Pi.  
+&lt;!-- &lt;/dd&gt;&lt;dt&gt;Videojuego del año 2018:&lt;/dt&gt;&lt;dd&gt;
+Fortnite :( --&gt;
+&lt;/dd&gt;&lt;dt&gt;Avance científico-tecnológico del año 2018:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://sci-hub.tw/10.1038/s41586-018-0051-0&#34;&gt;Nicolas C. Rivron et al.&lt;/a&gt; por el desarrollo de blastocitos a partir de células madre.
+&lt;dd&gt;&lt;dt&gt;Personaje del año 2018:&lt;/dt&gt;&lt;dd&gt;
+&lt;a href=&#34;https://www.marvel.com/remembering_stan_lee&#34;&gt;Stan Lee&lt;/a&gt;. &#39;Nuff said!
+&lt;/dd&gt;&lt;/dl&gt;
 &lt;p&gt;Feliz año 49!!&lt;/p&gt;
 </content>
 	</entry>
@@ -2093,7 +2230,7 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config
 		<content type="html">&lt;p&gt;No hay blog que se precie en el campo de la informática y las tecnologías que no inunde sus páginas con ridículas entradas sobre esteganografía.&lt;/p&gt;
 &lt;p&gt;La esteganografía es la codificación de información que se inserta en imágenes o audios para ocultarla. Nótese que en ningún momento utilizo términos criptográficos porque la esteganografía no solo no tiene nada que ver con la encriptación sino que va en contra de esta. La criptografía es una ciencia exacta basada en el principio de Kerckhoffs, que postula que un sistema criptográfico debe ser seguro incluso si todo en el sistema, excepto la clave, es conocido. Esto impide considerar la esteganografía como método criptográfico porque solo oculta la información donde no pueda ser vista. Por supuesto podrían combinarse los dos sistemas, encriptando previamente la información para luego ser ocultada, pero sería una pérdida de tiempo porque no ganaríamos nada en seguridad con respecto a la aplicación del cifrado inicial.&lt;/p&gt;
 &lt;p&gt;La esteganografía es solo una anécdota curiosa que llama la atención la primera vez que te encuentras con ella. Pero estamos en 2018 y ya basta de seguir dando vueltas al tema. A no ser que tengas doce años, es imposible que no te hayas topado con innumerables artículos sobre esta idiotez que además no es tratada adecuadamente. Si un blog pretende divulgar el conocimiento tecnológico, hablar de un método que no es seguro como si lo fuera, es totalmente pseudocientífico. Pero las alternativas no son tan atractivas, no generan tantos clicks y eso afecta a la rentabilidad de la publicidad que gobierna estos blogs. La criptografía es aburrida y complicada; la mayoría de bloggers no está cualificados para exponer sus postulados (yo tampoco) y las instrucciones más pragmáticas no son lo suficientemente extensas como para rellenar toda la longitud requerida para mejorar el SEO de sus webs.&lt;/p&gt;
-&lt;p&gt;Lo responsable es informar sobre los mejores métodos de encriptar archivos, con algoritmos como &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf&#34;&gt;AES-256&lt;/a&gt;, implementados en &lt;a href=&#34;&#34;&gt;gpg&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Lo responsable es informar sobre los mejores métodos de encriptar archivos, con algoritmos como &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf&#34;&gt;AES-256&lt;/a&gt;, implementados en &lt;a href=&#34;file:///usr/share/man/man1/gpg.1.gz&#34;&gt;gpg&lt;/a&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -o cipher.txt -c plain.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y descifrarlo con&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -d cipher.txt
@@ -2192,7 +2329,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/whatsapp-stickers/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&#34;https://obs.line-scdn.net/0h77N7YnTTaBhzTkRhIzMXT1kMc3YdKjEdH3d4KhVQZildKnsdSCglKwVMZCAOKSlJR30megIeNHpdfy5OSSEndgQdMyxeempPSSx3d1NOZg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://obs.line-scdn.net/0h77N7YnTTaBhzTkRhIzMXT1kMc3YdKjEdH3d4KhVQZildKnsdSCglKwVMZCAOKSlJR30megIeNHpdfy5OSSEndgQdMyxeempPSSx3d1NOZg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Tras años de desarrollo, WhatsApp ha lanzado su servicio de &lt;a href=&#34;https://blog.whatsapp.com/10000653/Introducing-Stickers&#34;&gt;stickers&lt;/a&gt;, función disponible en la práctica totalidad de aplicaciones de chat móvil y que es &lt;em&gt;leitmotiv&lt;/em&gt; y principal fuente de ingresos de su rival, Line.&lt;/p&gt;
 &lt;p&gt;Por extraño que parezca, formo parte de ese porcentaje marginal de personas que no utiliza WhatsApp. Al principio, la falta de seguridad fue el principal motivo para elegir Line como app de mensajería y obligar a todos mis amigos a utilizar este canal de comunicación si querían mantener el contacto conmigo. Sin embargo, esta razón hace mucho que &lt;a href=&#34;https://lunaticgeek.com/2012-08-29-por-que-whatsapp-ya-no-es-una-mierda/&#34;&gt;dejó de aplicarse&lt;/a&gt; y su colaboración con &lt;a href=&#34;https://signal.org/blog/whatsapp-complete/&#34;&gt;Signal&lt;/a&gt; ha convertido a WhatsApp en una aplicación de referencia en cuanto a privacidad. Aunque WhatsApp debería llevar a cabo una serie de &lt;a href=&#34;https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/&#34;&gt;medidas&lt;/a&gt; para mejorar su diseño, ya considero que resulta una app viable y recomendable para cualquier usuario. Entonces, la razón por la que no migraba a este servicio en el que está todo el mundo es tan absurda que resulta embarazosa. Con el tiempo he llegado a encariñarme con los stickers de Line e incluso he cometido la ignominia de gastarme dinero en comprar algunos paquetes de stickers como si fuera una vulgar y frívola JK japonesa.&lt;/p&gt;
 &lt;p&gt;No estaba dispuesto a renunciar a los stickers de Line así que hasta que no he podido llevarlos a WhatsApp, no he migrado. Aunque el proceso no es intuitivo, hay que reconocer que Line nos lo pone muy fácil, como explicaré a continuación.&lt;/p&gt;
@@ -2207,7 +2344,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;convert tab_off@2x.png -gravity center -background none -extent 96x96 tray.png
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Personalmente, no me gusta la denominación de los archivos de stickers de Line, así que voy a renombrarlos en lote&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; mv &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/@2x/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ya solo falta seguir las &lt;a href=&#34;https://github.com/WhatsApp/stickers/tree/master/android&#34;&gt;instrucciones&lt;/a&gt; oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del &lt;code&gt;contents.json&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ya solo falta seguir las &lt;a href=&#34;https://github.com/WhatsApp/stickers/tree/master/Android&#34;&gt;instrucciones&lt;/a&gt; oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del &lt;code&gt;contents.json&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\{\&amp;#34;&lt;/span&gt;image_file&lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;: &lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\&amp;#34;\}&lt;/span&gt;, &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La metodología que sigue WhatsApp para distribuir stickers a través de apps nativas me parece totalmente desproporcionada y supongo que en el futuro sea tan sencillo como Telegram, si permiten a los usuarios finales agregar sus propios packs. Hasta que llegue ese momento, esta es la mejor forma de disfrutar de nuestros stickers de Line en WhatsApp y aprovechar así las ventajas de esta app en términos de la Ley de Metcalfe.&lt;/p&gt;
 </content>
@@ -2221,7 +2358,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/20-juegos-ps/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&#34;https://psmedia.playstation.com/is/image/psmedia/ps-classic-old-vs-new-two-column-01-en-14sep18_1536938378589?$Icon$&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://psmedia.playstation.com/is/image/psmedia/ps-classic-old-vs-new-two-column-01-en-14sep18_1536938378589?$Icon$&#34;/&gt;&lt;/center&gt;
 &lt;p&gt;No voy a comprar la &lt;a href=&#34;https://www.playstation.com/es-es/explore/playstation-classic/&#34;&gt;PlayStation Classic&lt;/a&gt; porque mi PlayStation original (pirateada) sigue funcionando como el primer día a pesar de sus casi 20 años de edad. Además, tengo un fantástico RPI 3 con &lt;a href=&#34;https://retropie.org.uk/&#34;&gt;RetroPie&lt;/a&gt; que hace las veces de emulador de PlayStation y de otras tantas consolas retro.&lt;/p&gt;
 &lt;p&gt;La última razón para no adquirir la PlayStation Classic es la selección de juegos. Solo conocemos cinco de los 20 que finalmente formarán parte del catálogo pero me temo que la lista no va a ser todo lo buena que esperamos, por problemas de royalties o simplemente para no canibalizar las ventas de las versiones remasterizadas para PS4. De cualquier forma, la enumeración de los juegos que me gustaría que incluyera, y que son el motivo que me ha llevado a escribir esta entrada son los siguientes:&lt;/p&gt;
 &lt;ul&gt;
@@ -2287,7 +2424,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 &lt;p&gt;Sariel Har-Peled: (P≠NP) There are good reasons to believe the question is NOT relevant. In particular, assume that tomorrow I came up with a A(10) ∗ n time algorithm for solving SAT [&amp;hellip;]. It is completely useless, as this implies that the problem can not be solved for any reasonable size instance, although P=NP. [&amp;hellip;] so&amp;hellip; Why is this question so important?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Vladik Kreinovich: (P≠NP) [&amp;hellip;] However, it is also highly possible that P will be proven to be equal to NP —but without the ability of solving all problems from NP easily, [&amp;hellip;] because the coefficients of the corresponding polynomial P(n) will likely be on un-physical (like 10&lt;!-- raw HTML omitted --&gt;40&lt;!-- raw HTML omitted --&gt; or more).&lt;/p&gt;
+&lt;p&gt;Vladik Kreinovich: (P≠NP) [&amp;hellip;] However, it is also highly possible that P will be proven to be equal to NP —but without the ability of solving all problems from NP easily, [&amp;hellip;] because the coefficients of the corresponding polynomial P(n) will likely be on un-physical (like 10&lt;sup&gt;40&lt;/sup&gt; or more).&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Karl Papadantonakis: [&amp;hellip;] Clearly these are just quick opinions. Nobody really knows.&lt;/p&gt;
@@ -2334,7 +2471,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/arreglando-twitter/</id>
-		<content type="html">&lt;p&gt;&lt;img src=&#34;https://ewedit.files.wordpress.com/2015/01/back-to-the-future_l.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://ewedit.files.wordpress.com/2015/01/back-to-the-future_l.jpg&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;La única forma sensata de consumir contenido web es a través de RSS, por eso todos nos sentimos traicionados cuando Google mató Reader por motivos económicos. Desde el principio estaba tan convencido de la superioridad de la sindicación de contenidos web que cuando creé este blog, lo hice enfocado a su distribución por RSS. Fue lo primero que configuré cuando empecé hace casi una década y la forma en la que recomiendo a todo el mundo acceder a su información.&lt;/p&gt;
 &lt;p&gt;Debería aclarar que siempre denomino RSS a lo que en realidad se llama Atom. El problema es que Atom es un nombre demasiado genérico y que personalmente no me gusta. El verdadero RSS es un protocolo totalmente obsoleto y horrendo. RSS 1.0 es uno de los peores estándares de la historia de la informática que solo se solucionó parcialmente con RSS 2.0, pero no fue hasta Atom cuando arreglaron su defectuoso diseño. No voy a entrar en más detalles porque hace unos años, &lt;a href=&#34;http://nullprogram.com/blog/2013/09/23/&#34;&gt;Chris Wellons&lt;/a&gt; escribió un post con todas las críticas que yo le le hago a RSS y alguna más. Una lectura imprescindible. Y mi mala costumbre de llamarlo a todo RSS se extenderá al futuro si se difunde &lt;a href=&#34;https://jsonfeed.org/version/1&#34;&gt;Json Feed&lt;/a&gt;, una iniciativa que eliminará el XML de Atom y modificará algunas claves. Este sí es mi formato preferido para la sindicación pero no es un standard.&lt;/p&gt;
 &lt;p&gt;Últimamente estoy experimentando bastante con RSS y he encontrado posibilidades inexploradas que aprovechan la potencia de este formato. Me gustaría destacar XSL, un lenguaje infrautilizado que permite convertir el XML del RSS en una página XHTML, con su correspondiente CSS e incluso JS si quisiéramos. Esto nos permitiría programar páginas web sin HTML, utilizando el mismo archivo RSS como mecanismo de suscripción y de visionado.&lt;/p&gt;
@@ -2386,9 +2523,27 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
                     &lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#{R_8bit:02X}{G_8bit:02X}{B_8bit:02X}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Este script en Python que programé en dos minutos en un trozo de papel recorre todo el cubo RGB, los 16.777.216 tonos, comparando su contraste con los colores blanco y negro, seleccionando cada vez los mejores. Las matemáticas detrás de este desarrollo se encuentran recogidas en la guía de &lt;a href=&#34;https://www.w3.org/TR/WCAG20-TECHS/G18.html&#34;&gt;WCAG 2.0&lt;/a&gt;. No voy a comentarlas porque no entiendo nada de teoría del color y solo me he limitado a implementarlas en este pequeño script.&lt;/p&gt;
 &lt;p&gt;El resultado es totalmente inesperado y en cierta forma decepcionante.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div style=&#34;background:#CF0DCC;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#CF0DCC: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;El color &lt;code&gt;#CF0DCC&lt;/code&gt; es el óptimo, aunque un color magenta como este es horroroso y no podría usarlo en ningún diseño. Sin embargo, el script también proporciona soluciones subóptimas, con resultados prácticamente iguales pero tonos mucho más útiles como son los siguientes, que he seleccionando entre todos.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div style=&#34;background:#EC0408;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#EC0408: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;background:#038901;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#038901: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;background:#006DFB;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#006DFB: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;background:#6562F2;&#34;&gt;
+    &lt;p style=&#34;color:#000;&#34;&gt;#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+    &lt;p style=&#34;color:#FFF;&#34;&gt;#6562F2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+&lt;/div&gt;
 </content>
 	</entry>
 	
@@ -2400,8 +2555,8 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/feliz-no-cumplea%C3%B1os/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/6/69/Alice_par_John_Tenniel_25.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+		<content type="html">&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+&lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/6/69/Alice_par_John_Tenniel_25.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.&lt;/p&gt;
 &lt;p&gt;Aunque mis posts han ido evolucionando desde los generalistas del principio hasta los más oscuros y herméticos que escribo últimamente, pero siempre he estado orgulloso del contenido de mi blog. Sin embargo, el continente ha estado por debajo de mis expectativas. Empecé en blogger porque era inmediato y parte de la infraestructura de Google. Desde el principio, esta decisión precipitada me ocasionó problemas si intentaba modificar mínimamente el CSS.&lt;/p&gt;
 &lt;p&gt;Llevo ya mucho tiempo estudiando una forma de superar las severas limitaciones de blogger y por primera vez, puedo estar orgulloso del resultado gracias a WIT. WIT es un ecosistema de publicación basado en una configuración personalizada de &lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;Hugo&lt;/a&gt;, el generador de webs estáticas y de una serie de scripts propios que consiguen automatizar y personalizar la regeneración del blog hasta publicar desde Sublime pulsando F7 sin preocuparme por los metadatos ni el despliegue en Github Pages y el resto de procesos tediosos que implica publicar.&lt;/p&gt;
@@ -2459,7 +2614,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/rtfm/</id>
-		<content type="html">&lt;!-- raw HTML omitted --&gt;
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://2019.www.torproject.org/images/tor-logo.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto &lt;a href=&#34;http://binario5yvaed5ie.onion/&#34;&gt;Elbinario&lt;/a&gt;). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.
 El caso es que mientras desplegaba el servidor se me ocurrió que sería buena idea escribir un tutorial sobre la configuración y montaje de los onion services. A pesar de eso, reflexionando sobre el tema me di cuenta de que los tutoriales no son la mejor opción didáctica si seguimos la filosofía UNIX. Porque ya está todo inventado y mucho antes de cualquier HowTo de youtubers existía el manual en &lt;code&gt;man&lt;/code&gt;, uno de mis programas favoritos. Así que a partir de ahora, los pocos tutoriales que publique estarán disponibles en formato man para su disfrute offline en nuestro emulador de terminal favorito.&lt;/p&gt;
 &lt;p&gt;Para obtener estos manuales, clonamos el proyecto de Github&lt;/p&gt;

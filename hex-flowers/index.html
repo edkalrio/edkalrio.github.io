@@ -85,8 +85,8 @@ Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos e
 </div>
 			</ul>
 			
-			<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+			<center><img src="/hex-flower.png" /></center>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
 <p><a href="https://goblinshenchman.wordpress.com/">Goblin&rsquo;s Henchman</a> es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: <em>&ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&rdquo;</em>.</p>
 <p>Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos en función del resultado de una tirada de <code>2d6</code>. Hay que aclarar que el desplazamiento no afecta a los PJs sino a una serie de eventos del juego. Se trata de una representación geométrica de una tabla aleatoria.</p>
 <p>El autor señala que las Hex Flores tienen memoria, lo que es incorrecto. La memoria se refiere a los acontecimientos pasados mientras que estas flores evolucionan teniendo en cuenta sólo su posición actual, lo que en matemáticas hace que sean equivalentes a <a href="https://en.wikipedia.org/wiki/Markov_chain">cadenas de Markov</a>, modelo estocástico cuya principal característica es esta capacidad para describir eventos futuros que sólo guardan una relación de dependencia con el presente. Formalmente se expresa como</p>
@@ -569,7 +569,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 <div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="n">s</span> <span class="o">&lt;-</span> <span class="nf">eigen</span><span class="p">(</span><span class="nf">t</span><span class="p">(</span><span class="n">Q</span><span class="p">))</span><span class="o">$</span><span class="n">vectors</span>
 <span class="n">s</span> <span class="o">&lt;-</span> <span class="n">s[</span><span class="p">,</span><span class="m">1</span><span class="n">]</span><span class="o">/</span><span class="nf">sum</span><span class="p">(</span><span class="n">s[</span><span class="p">,</span><span class="m">1</span><span class="n">]</span><span class="p">)</span>
 </code></pre></div><p>Con los resultados obtenidos se podría emular el comportamiento de la Hex Flor sin el tablero y sin tener en cuenta la posición actual para calcular el siguiente evento. Habría que utilizar un <code>d100</code> con las DC indicadas en la tabla que recoge el vector de estado estacionario.</p>
-<!-- raw HTML omitted -->
+<img style="float:right;width: 100%" src="/hex-flower-histogram.png">
 <table>
 <thead>
 <tr>
@@ -677,7 +677,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 </tbody>
 </table>
 <p>Como se ve en el histograma, la distribución estacionaria es algo irregular, con cierta exponencialidad en el sur y el resto más o menos uniforme. Toda la información generada en este post se podría resumir en el siguiente gráfico donde aparecen tanto las probabilidades de las transiciones entre eventos como las de cada uno en el estado estacionario para formar la cadena de Markov completa. En el próximo <a href="/graphviz/">post</a> explicaré la herramienta que utilizo para programar estos grafos y que permite automatizar y sistematizar gran parte de las complejidades relacionadas con la creación de esquemas técnicos de este tipo.</p>
-<!-- raw HTML omitted -->
+<img style="max-width: 100%" src="/hex-flower.svg">
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />

@@ -83,7 +83,7 @@
 </div>
 			</ul>
 			
-			<!-- raw HTML omitted -->
+			<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Opml-icon.svg/240px-Opml-icon.svg.png" /></center>
 <p><a href="https://lobste.rs/">Lobsters</a> y <a href="https://news.ycombinator.com/">Hacker News</a> son servicios cada vez más populares, que permiten centralizar todas las noticias sobre informática y descubrir nuevos temas y autores. Entiendo el atractivo de los agregadores de noticias y de alguna manera, utilizo mi cuenta de Twitter para difundir ciertos contenidos ajenos, de una forma muy similar a aquellos pero reconozco que no son la mejor solución desde la perspectiva de la filosofía UNIX. Estos servicios cuentan con interfaces web prescindibles y backends que sólo complican una tarea resuelta hace años con la llegada del <a href="/arreglando-twitter/">RSS</a>.</p>
 <p>Para abordar el tema, voy a establecer una alternativa para <a href="https://victorhck.gitlab.io/planetalibre/">PlanetaLibre</a>, el agregador mantenido por el compañero <a href="https://victorhckinthefreeworld.com/">victorhck</a>, que tiene el tamaño y características perfectas para modificarlo sin demasiado esfuerzo por mi parte.</p>
 <p>La gran carencia de este servicio es que sólo se actualiza dos veces al día porque tiene que ejecutarse un cronjob en un servidor Python que recopila las fuentes y actualiza la página. Esta arquitectura monolítica no permite una selección de las fuentes (a no ser que se apliquen filtros en el cliente RSS) e incluso modifica los posts originales, eliminando el contenido para conservar y difundir exclusivamente el título y la descripción.</p>

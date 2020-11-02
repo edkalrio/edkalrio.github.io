@@ -42,8 +42,7 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/positron/</guid>
-      <description>Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un editor web basado enteramente en tecnología web estaba cargado de una lógica bastante estética pero lo que hace años no me di cuenta (porque nunca llegué a probar Atom) es el precio que tenías que pagar por él. Cantidades de RAM y disco duro desperdiciadas para conseguir unos resultados muy por detrás de la competencia.
-Sin embargo, no me molesta tanto que haya un editor de textos tan pródigo como el hecho de que se haya puesto de moda esta tecnología y que se estén desarrollando cantidad de herramientas inútiles e insostenibles.</description>
+      <description>Electron es una tecnología completamente insidiosa. Puede confundir a un usuario, haciéndole creer que se trata de software nativo cuando en realidad no es más que una página web, con lo que esto conlleva. Cuando GitHub lanzó Atom, me pareció un experimento muy interesante. Crear un editor web basado enteramente en tecnología web estaba cargado de una lógica bastante estética pero lo que hace años no me di cuenta (porque nunca llegué a probar Atom) es el precio que tenías que pagar por él.</description>
     </item>
     
     <item>
@@ -53,8 +52,7 @@ Sin embargo, no me molesta tanto que haya un editor de textos tan pródigo como 
       
       <guid>https://lunaticgeek.com/rfc-terminal/</guid>
       <description>Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la ietf porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete doc-rfc-std de Ubuntu nos trae todo el catálogo al directorio /usr/share/doc/RFC/ para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como less.
-Es demasiado farragoso tener que ejecutar
-less /usr/share/doc/RFC/links/rfcXXXX.</description>
+Es demasiado farragoso tener que ejecutar</description>
     </item>
     
     <item>

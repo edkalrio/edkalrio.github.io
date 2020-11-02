@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/a4/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/pandoc/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/pdf/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/tipograf%C3%ADa/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/tags/libros/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://lunaticgeek.com/libros-para-el-verano-2020/</loc>
-    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -653,11 +673,6 @@
   </url>
   
   <url>
-    <loc>https://lunaticgeek.com/tags/pandoc/</loc>
-    <lastmod>2017-10-31T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lunaticgeek.com/tags/powerpoint/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
   </url>
@@ -854,11 +869,6 @@
   
   <url>
     <loc>https://lunaticgeek.com/2015-05-03-mis-tipografias-favoritas/</loc>
-    <lastmod>2015-05-03T20:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/tipograf%C3%ADa/</loc>
     <lastmod>2015-05-03T20:17:00+02:00</lastmod>
   </url>
   
