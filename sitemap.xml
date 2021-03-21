@@ -3,27 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/fate/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/fate-condensado-d12/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/r/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/rol/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/a4/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/pandoc/</loc>
+    <loc>https://lunaticgeek.com/tags/pandoc&#43;/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://lunaticgeek.com/tags/pdf/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,27 +103,7 @@
   </url>
   
   <url>
-    <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lunaticgeek.com/tags/grapas-y-mapas/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/r/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/rol/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -669,6 +679,11 @@
   
   <url>
     <loc>https://lunaticgeek.com/2017-10-31-ofimatica-lunatica/</loc>
+    <lastmod>2017-10-31T12:03:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/pandoc/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
   </url>
   

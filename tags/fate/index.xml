@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fate on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/fate/</link>
+    <description>Recent content in Fate on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/fate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fate Condensado</title>
+      <link>https://lunaticgeek.com/fate-condensado-d12/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/fate-condensado-d12/</guid>
+      <description>Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los dados personalizados por su motivación únicamente mercantilista, pero los de Fate, heredados de su predecesor Fudge tienen la ventaja de estar normalizados, es decir, que el resultado de la suma está centrado en cero, al contrario que en cualquier otro dado, y esta es una característica que me encanta.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,13 +6,58 @@
     <description>Recent content in Tags on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pandoc</title>
-      <link>https://lunaticgeek.com/tags/pandoc/</link>
+      <title>estadística</title>
+      <link>https://lunaticgeek.com/tags/estad%C3%ADstica/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/estad%C3%ADstica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fate</title>
+      <link>https://lunaticgeek.com/tags/fate/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/fate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matemáticas</title>
+      <link>https://lunaticgeek.com/tags/matem%C3%A1ticas/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/matem%C3%A1ticas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://lunaticgeek.com/tags/r/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rol</title>
+      <link>https://lunaticgeek.com/tags/rol/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/rol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandoc&#43;</title>
+      <link>https://lunaticgeek.com/tags/pandoc&#43;/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lunaticgeek.com/tags/pandoc/</guid>
+      <guid>https://lunaticgeek.com/tags/pandoc&#43;/</guid>
       <description></description>
     </item>
     
@@ -80,47 +125,11 @@
     </item>
     
     <item>
-      <title>estadística</title>
-      <link>https://lunaticgeek.com/tags/estad%C3%ADstica/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/estad%C3%ADstica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Grapas y Mapas</title>
       <link>https://lunaticgeek.com/tags/grapas-y-mapas/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/grapas-y-mapas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>matemáticas</title>
-      <link>https://lunaticgeek.com/tags/matem%C3%A1ticas/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/matem%C3%A1ticas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://lunaticgeek.com/tags/r/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rol</title>
-      <link>https://lunaticgeek.com/tags/rol/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/rol/</guid>
       <description></description>
     </item>
     
@@ -733,6 +742,15 @@
       <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
       
       <guid>https://lunaticgeek.com/tags/office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandoc</title>
+      <link>https://lunaticgeek.com/tags/pandoc/</link>
+      <pubDate>Tue, 31 Oct 2017 12:03:00 +0100</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/pandoc/</guid>
       <description></description>
     </item>
     

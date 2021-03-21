@@ -6,7 +6,93 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2020-11-01T00:00:00Z</updated>
+	<updated>2021-03-21T00:00:00Z</updated>
+	
+	<entry>
+		<title>Fate Condensado</title>
+		<link rel="alternate" href="https://lunaticgeek.com/fate-condensado-d12/" />
+		<updated>2021-03-21T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/fate-condensado-d12/</id>
+		<content type="html">&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+&lt;center&gt;&lt;img src=&#34;https://1d12monos.com/wp-content/uploads/Portada_descarga_FC.png&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Con motivo del lanzamiento de la edición en español de la versión condensada
+de &lt;a href=&#34;https://fate.1d12monos.com/&#34;&gt;Fate&lt;/a&gt; me ha parecido gracioso escribir unas pocas líneas sobre la mecánica
+de sus dados. Nunca me han gustado los dados personalizados por su motivación únicamente mercantilista, pero los de Fate, heredados de su predecesor Fudge tienen la
+ventaja de estar normalizados, es decir, que el resultado de la suma está
+centrado en cero, al contrario que en cualquier otro dado, y esta es una
+característica que me encanta. Desde que se propusieron los dados Fudge,
+se aclaró que su uso era equivalente al de los &lt;code&gt;d6&lt;/code&gt;, mapeando su puntuación con
+la función&lt;/p&gt;
+&lt;p&gt;$$4dF = \sum_{i=1}^{4} \left \lfloor \frac{d_{i}6-3}{2} \right \rfloor$$&lt;/p&gt;
+&lt;p&gt;o parafraseando a los autores de Fate:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Los dados Fate son dados de seis caras con dos caras con 𓂃, dos con ⊞ y dos con ⊟. Con un juego de cuatro dados es suficiente, pero lo ideal es tener un juego de dados por jugador. Existen otras alternativas, como usar dados estándar de seis caras (1-2 = ⊟, 3-4 = 𓂃, 5-6 = ⊞)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Pero esta operativa es demasiado evidente. Viendo la distribución de probabilidad de
+una tirada de &lt;code&gt;4dF&lt;/code&gt; parece que la pendiente es suficientemente constante
+como para aproximar el dibujo con unas rectas, en lo que formaría una
+distribución triangular. Resulta que podemos obtener una distribución muy
+similar con una tirada de dos dados, lo que es tremendamente inusual y nunca
+pensé que pudiera producirse. Esta es&lt;/p&gt;
+&lt;p&gt;$$4dF \approx \left \lfloor \frac{2d6}{3} \right \rfloor -4$$&lt;/p&gt;
+&lt;p&gt;Nuestra aproximación es bastante acertada, como se puede ver a continuación. El código que he utilizado en &lt;a href=&#34;https://lunaticgeek.com/tags/r/&#34;&gt;R&lt;/a&gt; para generar el gráfico está comentado en el código HTML de esta misma página.&lt;/p&gt;
+&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/4dF_vs_2d6_3-4.png&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Estoy convencido de que una tirada así haría llorar a cualquier jugador
+&lt;em&gt;indie&lt;/em&gt; pero, por otro lado, sirve para reivindicar &lt;a href=&#34;https://lunaticgeek.com/aventuras-y-misterios-d12/&#34;&gt;una vez más&lt;/a&gt; el uso del
+gran olvidado del mundo del rol como es el dodecaédrico &lt;code&gt;d12&lt;/code&gt; y como homenaje involuntario al &lt;a href=&#34;https://1d12monos.com/&#34;&gt;grupo creativo&lt;/a&gt; encargado de la traducción de este juego de rol de licencia abierta.&lt;/p&gt;
+&lt;!--
+output 4d{-1,0,1} 
+output 2d12/3-4
+
+&#34;output 1&#34;,-6.217248937900877e-17,1.6329931618542681,-4,4
+#,%
+-4,1.23456790123
+-3,4.93827160494
+-2,12.3456790123
+-1,19.7530864198
+0,23.4567901235
+1,19.7530864198
+2,12.3456790123
+3,4.93827160494
+4,1.23456790123
+
+&#34;output 2&#34;,-4.884981308350689e-17,1.6499158227685677,-4,4
+#,%
+-4,0.694444444444
+-3,6.25
+-2,12.5
+-1,18.75
+0,23.6111111111
+1,18.75
+2,12.5
+3,6.25
+4,0.694444444444
+
+```{r, fig.width=9, fig.height=9}
+fate &lt;- data.frame(
+        dF = c(0.0123456790123,0.0493827160494,0.123456790123,0.197530864198,0.234567901235,0.197530864198,0.123456790123,0.0493827160494,0.0123456790123),
+        d12 = c(0.00694444444444,0.0625,0.125,0.1875,0.236111111111,0.1875,0.125,0.0625,0.00694444444444)
+)
+# set up the plot
+plot(0,0,xlim = c(-4.5,4.5),ylim = c(0,0.25),type = &#34;n&#34;, xlab = &#34;&#34;, ylab = &#34;&#34;)
+#colors &lt;- rainbow(ntrees)
+#linetype &lt;- c(1:ntrees)
+#plotchar &lt;- seq(18,18+ntrees,1)
+
+# add lines
+x &lt;- seq(-4,4,1)
+lines(x, fate$dF, type=&#34;l&#34;,lty=&#34;dashed&#34;, lwd=1.5, xlab = &#34;&#34;, ylab = &#34;&#34;)
+lines(x, fate$d12, type=&#34;l&#34;, lwd=1.5, xlab = &#34;&#34;, ylab = &#34;&#34;)
+```
+
+
+--&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>La Norma ISO 216 en el Siglo XXI</title>
