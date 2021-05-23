@@ -6,7 +6,26 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2021-03-21T00:00:00Z</updated>
+	<updated>2021-05-23T00:00:00Z</updated>
+	
+	<entry>
+		<title>Acceso a Libera.Chat mediante Certificado de la FNMT</title>
+		<link rel="alternate" href="https://lunaticgeek.com/libera/" />
+		<updated>2021-05-23T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/libera/</id>
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://libera.chat/static/img/libera-color.svg&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Me imagino que no soy el único que se ha visto obligado a añadir a su lista de servidores IRC a &lt;a href=&#34;ircs://irc.libera.chat:6697/&#34;&gt;Libera.Chat&lt;/a&gt; después del &lt;a href=&#34;https://www.kline.sh/&#34;&gt;culebrón&lt;/a&gt; formado por la dimisión en bloque de administradores y operadores de Freenode, que no han tolerado que los intereses corporativos tomasen el control de la plataforma para transformarla en un mero vehículo publicitario para la compañía propietaria, que se estaría aprovechando del trabajo desinteresado de todos estos voluntarios.&lt;/p&gt;
+&lt;p&gt;Voy a aprovechar que toca configurar otra vez mi cliente de IRC para compartir un truco bastante bizarro sobre CertFP. Este método de autentificación mediante certificado autofirmado SSL se utiliza externamente, junto con SASL como identificador, para acceder de forma automática y segura, encriptado de extremo a extremo. En las guías de todos los servidores IRC se explica su activación para los clientes más comunes y yo no voy a hacer un tutorial; me remito a dicha &lt;a href=&#34;https://libera.chat/guides/certfp/&#34;&gt;documentación&lt;/a&gt;. De lo que trata esta entrada es de dejar claro que CertFP funciona con cualquier certificado SSL en formato &lt;code&gt;pem&lt;/code&gt;, como nuestro certificado digital de la &lt;a href=&#34;https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/&#34;&gt;FNMT&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Es posible convertir el certificado original, encriptado en &lt;code&gt;p12&lt;/code&gt; en un &lt;code&gt;pem&lt;/code&gt; que reconozca Libera.Chat o cualquier otro servidor IRC moderno. Para ello sólo tenemos que ejecutar&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;openssl pkcs12 -in fnmt.p12 -out libera.pem -nodes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;en lugar de crear un certificado autofirmado nuevo, para moverlo al directorio apropiado del cliente IRC. En caso de error, lo más probable es que el back end SSL del servidor no entienda el orden de la cadena de confianza del &lt;code&gt;pem&lt;/code&gt;. Hay que asegurarse de que el primer certificado inmediatemente después de la clave privada es el de persona física.&lt;/p&gt;
+&lt;p&gt;Lo he probado en &lt;code&gt;irssi&lt;/code&gt; y &lt;code&gt;weechat&lt;/code&gt;. Funciona perfectamente. Puede que no sea mejor que crear uno autofirmado sobre el que tengamos plena libertad para prescindir de autoridades certificadoras, de asignar valores a los campos, decidir la fecha de expiración y el nivel de seguridad.&lt;/p&gt;
+&lt;p&gt;Sobre la seguridad quería hacer un último apunte. Quizás tener nuestro certificado digital de la FNMT desencriptado en el ordenador no sea la mejor idea. Por defecto, SSL le asigna los permisos &lt;code&gt;600&lt;/code&gt;, que son los mismos que tiene cualquier clave privada SSH. En principio no debería de haber ningún problema si somos mínimamente cuidadosos y tratamos con la debida diligencia nuestros datos, pero es un punto a tener en cuenta y no quería terminar sin señalarlo.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Fate Condensado</title>

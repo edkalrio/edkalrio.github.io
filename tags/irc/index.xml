@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IRC on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/irc/</link>
+    <description>Recent content in IRC on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/irc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acceso a Libera.Chat mediante Certificado de la FNMT</title>
+      <link>https://lunaticgeek.com/libera/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/libera/</guid>
+      <description>Me imagino que no soy el único que se ha visto obligado a añadir a su lista de servidores IRC a Libera.Chat después del culebrón formado por la dimisión en bloque de administradores y operadores de Freenode, que no han tolerado que los intereses corporativos tomasen el control de la plataforma para transformarla en un mero vehículo publicitario para la compañía propietaria, que se estaría aprovechando del trabajo desinteresado de todos estos voluntarios.</description>
+    </item>
+    
+  </channel>
+</rss>
