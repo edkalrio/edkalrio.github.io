@@ -6,7 +6,30 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2021-05-23T00:00:00Z</updated>
+	<updated>2021-07-31T00:00:00Z</updated>
+	
+	<entry>
+		<title>Libros para el Verano</title>
+		<link rel="alternate" href="https://lunaticgeek.com/libros-para-el-verano-2021/" />
+		<updated>2021-07-31T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/libros-para-el-verano-2021/</id>
+		<content type="html">&lt;center&gt;&lt;img style=&#34;max-width: 100%&#34; src=&#34;https://m.media-amazon.com/images/G/01/kindle/dp/2019/rb26dett/s/S_Desktop_Pack_1_Image_v1._CB441119230_.jpg&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Por primera vez en mi vida laboral he podido disfrutar de unas escasas dos semanas de vacaciones, en las que he aprovechado para desconectar y relajarme, sin dejar de lado el estudio e investigación de algunos temas informáticos.&lt;/p&gt;
+&lt;p&gt;Como todos los años, os dejo unas cuantas recomendaciones literarias —frikis, por supuesto— para disfrutar en un libro electrónico o tablet.&lt;/p&gt;
+&lt;p&gt;El eclecticismo de la selección que he elegido está basado en mis intereses actuales, pero de la que cualquier informático puede sacar al menos un buen libro para relajarse y expandir sus conocimientos en áreas diversas que durante el año no pueda acometer. No puedes perdértelos!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://allitbooks.net/download-file-5320.html&#34;&gt;The Way To Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://allitbooks.net/download-file-301.html&#34;&gt;The Rust Programming Language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://allitbooks.net/download-file-794.html&#34;&gt;Good Habits for Great Coding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://allitbooks.net/download-file-5450.html&#34;&gt;Wireless Transceiver Circuits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://allitbooks.net/download-file-5472.html&#34;&gt;XSLT, 2nd Edition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No podía dejar escapar este momento para confirmar que &lt;a href=&#34;https://lunaticgeek.com&#34;&gt;lunaticgeek.com&lt;/a&gt; no se va de vacaciones aunque mi actual ritmo de edición es muy pausado y puede que finalmente no escriba nada, seguiré estudiando y documentándome para ofrecer los mejores artículos que sea capaz de publicar. Feliz verano a todos y gracias por seguirnos un año más.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Acceso a Libera.Chat mediante Certificado de la FNMT</title>

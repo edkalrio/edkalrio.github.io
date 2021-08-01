@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>libros</title>
+      <link>https://lunaticgeek.com/tags/libros/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/libros/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>criptografía</title>
       <link>https://lunaticgeek.com/tags/criptograf%C3%ADa/</link>
@@ -121,15 +130,6 @@
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/tipograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>libros</title>
-      <link>https://lunaticgeek.com/tags/libros/</link>
-      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/libros/</guid>
       <description></description>
     </item>
     

@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lunaticgeek.com/tags/libros/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/libros-para-el-verano-2021/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lunaticgeek.com/tags/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lunaticgeek.com/libera/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url>
@@ -28,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lunaticgeek.com/tags/openssl/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -90,11 +100,6 @@
   <url>
     <loc>https://lunaticgeek.com/tags/tipograf%C3%ADa/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lunaticgeek.com/tags/libros/</loc>
-    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
