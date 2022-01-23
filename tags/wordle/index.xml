@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordle on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/wordle/</link>
+    <description>Recent content in Wordle on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/wordle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordle en Terminal</title>
+      <link>https://lunaticgeek.com/wordle/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/wordle/</guid>
+      <description>Llevo jugando al pasatiempo de moda en internet desde crank y debo reconocer que ya en el primer momento me enganchó su mecánica tan simple y el ritmo característico que solo permite jugar una palabra al día.
+lo primero que hago nada más llegar a la oficina es abrir el Wordle y empezar a jugar. Mi estrategia consiste en probar el mayor número posible de vocales en la primera palabra y algunas consonantes muy habituales en la segunda.</description>
+    </item>
+    
+  </channel>
+</rss>
