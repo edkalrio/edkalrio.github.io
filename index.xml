@@ -10,12 +10,12 @@
 	
 	<entry>
 		<title>Wordle en Terminal</title>
-		<link rel="alternate" href="https://lunaticgeek.com/wordle/" />
+		<link rel="alternate" href="https://lunaticgeek.com/bash-wordle/" />
 		<updated>2022-01-23T00:00:00Z</updated>
 		<author>
 			<name>edkalrio</name>
 		</author>
-		<id>https://lunaticgeek.com/wordle/</id>
+		<id>https://lunaticgeek.com/bash-wordle/</id>
 		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/wordle.sh.png&#34; alt=&#34;Wordle en Terminal&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Llevo jugando al &lt;a href=&#34;https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html&#34;&gt;pasatiempo&lt;/a&gt; de moda en internet desde &lt;strong&gt;crank&lt;/strong&gt; y debo reconocer que ya en el primer momento me enganchó su mecánica tan simple y el ritmo característico que solo permite jugar una palabra al día.&lt;/p&gt;
 &lt;p&gt;lo primero que hago nada más llegar a la oficina es abrir el &lt;a href=&#34;https://www.powerlanguage.co.uk/wordle/&#34;&gt;Wordle&lt;/a&gt; y empezar a jugar. Mi estrategia consiste en probar el mayor número posible de vocales en la primera palabra y algunas consonantes muy habituales en la segunda. Empecé con &lt;strong&gt;audio&lt;/strong&gt; y &lt;strong&gt;bolts&lt;/strong&gt; pero en una semana me di cuenta de que funciona mejor la estrategia &lt;strong&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aureus&#34;&gt;aurei&lt;/a&gt;&lt;/strong&gt; y &lt;strong&gt;colts&lt;/strong&gt;. Desde luego no son las mejores opciones, pero es una táctica que valoro por haberla ideado yo mismo. Si quisiera la máxima eficiencia ya sé que empezar con &lt;strong&gt;roate&lt;/strong&gt; es &lt;a href=&#34;https://medium.com/@tglaiel/the-mathematically-optimal-first-guess-in-wordle-cbcb03c19b0a&#34;&gt;óptimo&lt;/a&gt;, pero ya puestos a hacer &amp;ldquo;trampas&amp;rdquo;, todas las soluciones pasadas y futuras se encuentran almacenadas en el array &lt;code&gt;&lt;a href=&#34;https://www.powerlanguage.co.uk/wordle/main.e65ce0a5.js&#34;&gt;La&lt;/a&gt;&lt;/code&gt;, ordenadas secuencialmente y en cleartext.&lt;/p&gt;

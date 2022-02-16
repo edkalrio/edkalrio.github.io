@@ -1,131 +1,134 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="robots" content="nofollow">
-  <title>Wordle en Terminal - Lunatic Geek</title>
-  <meta property="og:title" content="Wordle en Terminal - Lunatic Geek" />
-  <meta name="twitter:title" content="Wordle en Terminal - Lunatic Geek" />
-  <meta name="description" content="Llevo jugando al pasatiempo de moda en internet desde crank y debo reconocer que ya en el primer momento me enganchó su mecánica tan simple y el ritmo característico que solo permite jugar una palabra al día.
-lo primero que hago nada más llegar a la oficina es abrir el Wordle y empezar a jugar. Mi estrategia consiste en probar el mayor número posible de vocales en la primera palabra y algunas consonantes muy habituales en la segunda.">
-  <meta property="og:description" content="Llevo jugando al pasatiempo de moda en internet desde crank y debo reconocer que ya en el primer momento me enganchó su mecánica tan simple y el ritmo característico que solo permite jugar una palabra al día.
-lo primero que hago nada más llegar a la oficina es abrir el Wordle y empezar a jugar. Mi estrategia consiste en probar el mayor número posible de vocales en la primera palabra y algunas consonantes muy habituales en la segunda.">
-  <meta name="twitter:description" content="Llevo jugando al pasatiempo de moda en internet desde crank y debo reconocer que ya en el primer momento me enganchó su mecánica tan simple y el ritmo característico que solo permite jugar una palabra …">
-  <meta name="author" content="edkalrio"/>
-  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
-  <meta property="og:site_name" content="Lunatic Geek" />
-  <meta property="og:url" content="/wordle/" />
-  <meta property="og:type" content="article" />
-    <meta property="og:image" content="/wordle.sh.png" />
-    <meta name="twitter:image" content="/wordle.sh.png" />
-  
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="generator" content="WIT" />
-  <meta http-equiv="onion-location" content="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion/" />
-  <link rel="stylesheet" href="/css/style.css" media="all" />
-  <link rel="stylesheet" href="/css/syntax.css" media="all" />
-  <link rel="stylesheet" href="/css/custom.css" media="all" />
-  
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
+    <title>Wordle - A daily word game</title>
+    <meta name="description" content="Guess the hidden word in 6 tries. A new puzzle is available each day.">
 
+    <!-- FB Meta Tags -->
+    <meta property="og:url" content="https://www.powerlanguage.co.uk/wordle/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wordle - A daily word game">
+    <meta property="og:description" content="Guess the hidden word in 6 tries. A new puzzle is available each day.">
+    <meta property="og:image" content="https://www.dailywordle.com/images/wordle_og_1200x630.png">
 
-</head>
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="powerlanguage.co.uk">
 
-<body>
+    <meta name="theme-color" content="#6aaa64" />
+    <link rel="manifest" href="manifest.json" />
+    <link href="images/wordle_logo_32x32.png" rel="icon shortcut" sizes="3232" />
+    <link href="images/wordle_logo_192x192.png" rel="apple-touch-icon" />
 
-<header class="site-header">
-  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
-	
-  <nav class="site-navi">
-    <ul class="site-navi-items">
-      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
-      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
-      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
-    </ul>
-  </nav>
-</header>
-<hr class="site-header-bottom">
-
-
-	<div class="main" role="main">
-		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
-			
-			<meta property="image" content="/wordle.sh.png" />
-			
-			<h1 class="article-title" property="headline">Wordle en Terminal</h1>
-			
-			<hr class="article-title-bottom">
-			<ul class="article-meta">
-				<li class="article-meta-date"><time property="datePublished">2022-01-23</time></li>
-				<li class="article-meta-tags">
-					<a href="/tags/bash/">
-						<b>#</b>Bash
-					</a> 
-				</li>
-				<li class="article-meta-tags">
-					<a href="/tags/wordle/">
-						<b>#</b>Wordle
-					</a> 
-				</li>
-				<li class="article-meta-tags">
-					<a href="/tags/unix/">
-						<b>#</b>Unix
-					</a> 
-				</li>
-				<div class="twitter">
-	<a href="https://twitter.com/intent/tweet?text=Wordle%20en%20Terminal%20-%20Lunatic%20Geek&url=https%3a%2f%2flunaticgeek.com%2fwordle%2f" target="_blank">
-		<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> Tweet
-	</a>
-</div>
-			</ul>
-			
-			<center><img src="/wordle.sh.png" alt="Wordle en Terminal" /></center>
-<p>Llevo jugando al <a href="https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html">pasatiempo</a> de moda en internet desde <strong>crank</strong> y debo reconocer que ya en el primer momento me enganchó su mecánica tan simple y el ritmo característico que solo permite jugar una palabra al día.</p>
-<p>lo primero que hago nada más llegar a la oficina es abrir el <a href="https://www.powerlanguage.co.uk/wordle/">Wordle</a> y empezar a jugar. Mi estrategia consiste en probar el mayor número posible de vocales en la primera palabra y algunas consonantes muy habituales en la segunda. Empecé con <strong>audio</strong> y <strong>bolts</strong> pero en una semana me di cuenta de que funciona mejor la estrategia <strong><a href="https://en.wikipedia.org/wiki/Aureus">aurei</a></strong> y <strong>colts</strong>. Desde luego no son las mejores opciones, pero es una táctica que valoro por haberla ideado yo mismo. Si quisiera la máxima eficiencia ya sé que empezar con <strong>roate</strong> es <a href="https://medium.com/@tglaiel/the-mathematically-optimal-first-guess-in-wordle-cbcb03c19b0a">óptimo</a>, pero ya puestos a hacer &ldquo;trampas&rdquo;, todas las soluciones pasadas y futuras se encuentran almacenadas en el array <code><a href="https://www.powerlanguage.co.uk/wordle/main.e65ce0a5.js">La</a></code>, ordenadas secuencialmente y en cleartext.</p>
-<p>Encontrar esta lista me dio la idea de crear una versión para terminal, escrita en un par de funciones de Bash, que estuviera sincronizada con el original y pudiera jugarse totalmente offline. El resultado es un pequeño programa de cincuenta líneas, que si bien es mejorable en algunas partes, es totalmente operativo.</p>
-<p>Aunque mi opinión al respecto está completamente sesgada, me parece que esta forma de jugar mejora incluso la experiencia del original. Si alguien quiere probarlo, lo dejo alojado en <a href="https://github.com/edkalrio/wordle.sh">GitHub</a>. La principal ventaja de esta implementación es que sigue la filosofía Unix en cuanto a utilizar el texto plano como interfaz universal. Esto permitiría expandir fácilmente el juego: se podría crear un bot para <a href="../tags/irc/">IRC</a>, guardar las partidas con <code>tee</code> y cientos de ideas que no soy capaz de imaginar.</p>
-
-			<div property="author" typeof="Person">
-				<meta property="name" content="edkalrio" />
-			</div>
-			<div property="publisher" typeof="Organization">
-				<meta property="name" content="Lunatic Geek Blog" />
-				<div property="logo" typeof="ImageObject">
-					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
-				</div>
-			</div>
-		</article>
-
-	</div>
-
-
-<div class="site-footer">
-  <div class="copyright">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
-    </a>
-    RW Labs 2022</div>
-  <ul class="site-footer-items">
-    
-    <li class="site-footer-item-rsslink">
-      <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
-        
-        <img src="/rss.svg" class="fa" alt="feed" />
-      </a>
-    </li>
-    <li>
-      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa" alt="tor" />
-      </a>
-    </li>
-  </ul>
-  <div class="powerdby">
-    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
-  </div>
-</div>
-
-
-
-</body>
+    <style>
+      /* Global Styles & Colors */
+      :root {
+        --green: #6aaa64;
+        --darkendGreen: #538d4e;
+        --yellow: #c9b458;
+        --darkendYellow: #b59f3b;
+        --lightGray: #d8d8d8;
+        --gray: #86888a;
+        --darkGray: #939598;
+        --white: #fff;
+        --black: #212121;
+        /* Colorblind colors */
+        --orange: #f5793a;
+        --blue: #85c0f9;
+        font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 16px;
+        --header-height: 50px;
+        --keyboard-height: 200px;
+        --game-max-width: 500px;
+      }
+      /* Light theme colors */
+      :root {
+        --color-tone-1: #1a1a1b;
+        --color-tone-2: #787c7e;
+        --color-tone-3: #878a8c;
+        --color-tone-4: #d3d6da;
+        --color-tone-5: #edeff1;
+        --color-tone-6: #f6f7f8;
+        --color-tone-7: #ffffff;
+        --opacity-50: rgba(255, 255, 255, 0.5);
+      }
+      /* Dark Theme Colors */
+      .nightmode {
+        --color-tone-1: #d7dadc;
+        --color-tone-2: #818384;
+        --color-tone-3: #565758;
+        --color-tone-4: #3a3a3c;
+        --color-tone-5: #272729;
+        --color-tone-6: #1a1a1b;
+        --color-tone-7: #121213;
+        --opacity-50: rgba(0, 0, 0, 0.5);
+      }
+      /* Constant colors and colors derived from theme */
+      :root,
+      .nightmode {
+        --color-background: var(--color-tone-7);
+      }
+      :root {
+        --color-present: var(--yellow);
+        --color-correct: var(--green);
+        --color-absent: var(--color-tone-2);
+        --tile-text-color: var(--color-tone-7);
+        --key-text-color: var(--color-tone-1);
+        --key-evaluated-text-color: var(--color-tone-7);
+        --key-bg: var(--color-tone-4);
+        --key-bg-present: var(--color-present);
+        --key-bg-correct: var(--color-correct);
+        --key-bg-absent: var(--color-absent);
+        --modal-content-bg: var(--color-tone-7);
+      }
+      .nightmode {
+        --color-present: var(--darkendYellow);
+        --color-correct: var(--darkendGreen);
+        --color-absent: var(--color-tone-4);
+        --tile-text-color: var(--color-tone-1);
+        --key-text-color: var(--color-tone-1);
+        --key-evaluated-text-color: var(--color-tone-1);
+        --key-bg: var(--color-tone-2);
+        --key-bg-present: var(--color-present);
+        --key-bg-correct: var(--color-correct);
+        --key-bg-absent: var(--color-absent);
+        --modal-content-bg: var(--color-tone-7);
+      }
+      .colorblind {
+        --color-correct: var(--orange);
+        --color-present: var(--blue);
+        --tile-text-color: var(--white);
+        --key-bg-present: var(--color-present);
+        --key-bg-correct: var(--color-correct);
+        --key-bg-absent: var(--color-absent);
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        background-color: var(--color-background);
+        margin: 0;
+        padding: 0;
+        /* Prevent scrollbar appearing on page transition */
+        overflow-y: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SSGMHY3NP"></script>
+    <script>
+      (function () {
+        // Defining the hash before the main bundle allows the bundle access window.hash
+        window.wordle = window.wordle || {};
+        window.wordle.hash = 'e65ce0a5';
+      })();
+    </script>
+    <script src="main.e65ce0a5.js"></script>
+    <game-app></game-app>
+  </body>
 </html>
+
