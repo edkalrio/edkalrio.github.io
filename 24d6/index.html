@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Generador de PJs basado en 24d6 - Lunatic Geek</title>
+  <meta property="og:title" content="Generador de PJs basado en 24d6 - Lunatic Geek" />
+  <meta name="twitter:title" content="Generador de PJs basado en 24d6 - Lunatic Geek" />
+  <meta name="description" content="Entre las mecánicas más características de los juegos de rol clásicos y los retroclones de la que se ha venido denominando OSR, se encuentra el método para crear personajes tirando 3d6 para cada atributo, que genera una distribución N(10.5, 2.96) con un rango entre 3 y 18. Simple y efectivo&hellip; Demasiado para algunos.
+Esta forma de generar PJs no tiene ningún defecto pero como es sabido, las reglas caseras son tan comunes que llegan a desplazar los pilares fundamentales del sistema d20.">
+  <meta property="og:description" content="Entre las mecánicas más características de los juegos de rol clásicos y los retroclones de la que se ha venido denominando OSR, se encuentra el método para crear personajes tirando 3d6 para cada atributo, que genera una distribución N(10.5, 2.96) con un rango entre 3 y 18. Simple y efectivo&hellip; Demasiado para algunos.
+Esta forma de generar PJs no tiene ningún defecto pero como es sabido, las reglas caseras son tan comunes que llegan a desplazar los pilares fundamentales del sistema d20.">
+  <meta name="twitter:description" content="Entre las mecánicas más características de los juegos de rol clásicos y los retroclones de la que se ha venido denominando OSR, se encuentra el método para crear personajes tirando 3d6 para cada …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/24d6/" />
+  <meta property="og:type" content="article" />
+    <meta property="og:image" content="/palm.png" />
+    <meta name="twitter:image" content="/palm.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <meta http-equiv="onion-location" content="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion/" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+
+	<div class="main" role="main">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
+			
+			<meta property="image" content="/palm.png" />
+			
+			<h1 class="article-title" property="headline">Generador de PJs basado en 24d6</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time property="datePublished">2022-04-15</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/rol/">
+						<b>#</b>rol
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/estad%C3%ADstica/">
+						<b>#</b>estadística
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/matem%C3%A1ticas/">
+						<b>#</b>matemáticas
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/r/">
+						<b>#</b>R
+					</a> 
+				</li>
+				<div class="twitter">
+	<a href="https://twitter.com/intent/tweet?text=Generador%20de%20PJs%20basado%20en%2024d6%20-%20Lunatic%20Geek&url=https%3a%2f%2flunaticgeek.com%2f24d6%2f" target="_blank">
+		<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> Tweet
+	</a>
+</div>
+			</ul>
+			
+			<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xpH4bhYYFwI?start=234" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<p>Entre las mecánicas más características de los juegos de <a href="/tags/rol/">rol</a> clásicos y los retroclones de la que se ha venido denominando OSR, se encuentra el método para crear personajes tirando <code>3d6</code> para cada atributo, que genera una distribución N(10.5, 2.96) con un rango entre 3 y 18. Simple y efectivo&hellip; Demasiado para algunos.</p>
+<p>Esta forma de generar PJs no tiene ningún defecto pero como es sabido, las reglas caseras son tan comunes que llegan a desplazar los pilares fundamentales del sistema d20. Y yo tengo la extraña afición de indagar en sus estadísticas para demostrar lo poco sistemáticas que son la mayor parte de ellas, como ya he hecho <a href="/mecanicas-roleras/">anteriormente</a>.</p>
+<p><a href="https://www.youtube.com/c/captcorajusRPGRetroReviews/about">Captcorajus</a> lleva un canal especializado en revisiones de manuales y aventuras OSR. Veo su contenido de vez en cuando y la última vez que miré, había subido un vídeo con un título tan pretencioso como <em>Best Character Generation Method YOU Don&rsquo;t Know About</em>, no podía perdérmelo.</p>
+<p>El algoritmo que plantea es el siguiente:</p>
+<ul>
+<li>tirar <code>24d6</code></li>
+<li>ordenarlos</li>
+<li>quitar los cuatro mínimos y los dos máximos</li>
+<li>agruparlos de tres en tres, de menor a mayor</li>
+<li>sumar esos subconjuntos para obtener los 6 atributos</li>
+</ul>
+<p>Desde luego no es una mecánica que hubiera visto antes en ninguna parte y parecía interesante, así que no tardé en hacer unas simulaciones para analizar su funcionamiento.</p>
+<p>Como hace bastante que no programo nada en R, he decidido pasar de mi querido Python para recordar los viejos tiempos, y escribir un pequeño script, bastante chapucero y nada funcional porque en este caso me parecía incómodo usar los <code>*apply()</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="nf">set.seed</span><span class="p">(</span><span class="m">123</span><span class="p">)</span>
+<span class="n">generator24d6</span> <span class="o">&lt;-</span> <span class="nf">function</span><span class="p">(){</span>
+    <span class="n">roll</span> <span class="o">&lt;-</span> <span class="nf">sample</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">6</span><span class="p">,</span> <span class="m">24</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
+    <span class="n">r</span> <span class="o">&lt;-</span> <span class="nf">sort</span><span class="p">(</span><span class="n">roll</span><span class="p">)</span>
+
+    <span class="nf">for </span><span class="p">(</span><span class="n">i</span> <span class="n">in</span> <span class="m">1</span><span class="o">:</span><span class="m">6</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">g</span><span class="nf">[</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="n">]</span> <span class="o">&lt;-</span> <span class="nf">sum</span><span class="p">(</span><span class="n">r</span><span class="nf">[</span><span class="p">(</span><span class="m">3</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="m">2</span><span class="p">)</span><span class="o">:</span><span class="p">(</span><span class="m">3</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="m">4</span><span class="p">)</span><span class="n">]</span><span class="p">)</span>
+    <span class="p">}</span>
+    <span class="nf">return</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="n">experiment</span> <span class="o">&lt;-</span> <span class="nf">replicate</span><span class="p">(</span><span class="m">100000</span><span class="p">,</span> <span class="nf">generator24d6</span><span class="p">())</span>
+
+<span class="n">palm</span> <span class="o">&lt;-</span> <span class="nf">hist</span><span class="p">(</span><span class="n">experiment</span><span class="p">,</span> <span class="n">freq</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span> <span class="n">breaks</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">2.5</span><span class="o">:</span><span class="m">18.5</span><span class="p">),</span>
+                <span class="n">main</span><span class="o">=</span><span class="s">&#34;&#39;Best&#39; Character Generation Method YOU Don&#39;t Know About&#34;</span><span class="p">,</span>
+                <span class="n">xlab</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">,</span> <span class="n">ylab</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">,</span>
+                <span class="n">xaxt</span> <span class="o">=</span> <span class="s">&#34;n&#34;</span>
+            <span class="p">)</span>
+<span class="nf">axis</span><span class="p">(</span><span class="n">side</span><span class="o">=</span><span class="m">1</span><span class="p">,</span> <span class="n">at</span><span class="o">=</span><span class="m">3</span><span class="o">:</span><span class="m">18</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="m">3</span><span class="o">:</span><span class="m">18</span><span class="p">)</span>
+</code></pre></div><p>La distribución obtenida es horripilante, informe, multimodal y parece una mano ✋. Personalmente no me gusta nada. Es tan innecesariamente complicada que preferiría repartir los valores {3,6,9,12,15,18} y que cada uno los asignase al atributo que prefiera.</p>
+<center><img src="/24d6.png" /></center>
+<p>La intención del autor era que los personajes tuvieran unos atributos más variados, que no estuvieran concentrados en los mismos valores de siempre. Es decir, generar distribuciones con &ldquo;colas gordas&rdquo; en las que se incrementara la varianza. Aunque esto se puede hacer con dados, las mecánicas se hacen cada vez más exóticas. Personalmente, recomendaría tirar <code>1d10+3dF</code> por cada atributo. Otra forma sería simular una distribución uniforme con <code>1d16+2</code> que podríamos emular con <code>1d4*4+1d4+2</code>, pero teniendo ordenadores a mano, me parece un desperdicio no hacerlo de forma óptima con R</p>
+<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="nf">rtruncnorm</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="m">6</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="m">3</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="m">18</span><span class="p">,</span> <span class="n">mean</span><span class="o">=</span><span class="m">10.5</span><span class="p">,</span> <span class="n">sd</span><span class="o">=</span><span class="m">4</span><span class="p">)</span>
+</code></pre></div><p>Esta línea nos devolvería una lista con los seis atributos del juego de rol más famoso de la historia, distribuidos según una Normal con desviación típica igual a cuatro, que es aproximadamente la que se obtiene con el método este raro de los <code>24d6</code> y ligéramente menor a los 4.6 que nos daría la uniforme, que es el mayor valor posible para este rango.</p>
+<p>La moraleja de esta historia, sin embargo, es que estas mecánicas son todas una porquería y más valdría quedarse con la original. Una de las máximas fundamentales de la OSR es que las puntuaciones de los PJs no importan tanto como la habilidad de los propios jugadores, o al menos así es como yo lo entiendo, por lo que todo este debate no tiene ningún sentido y se deberían priorizar otras facetas del juego más relevantes.</p>
+
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
+		</article>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
+    </a>
+    RW Labs 2022</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
+        
+        <img src="/rss.svg" class="fa" alt="feed" />
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <img src="/tor.svg" class="fa" alt="tor" />
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

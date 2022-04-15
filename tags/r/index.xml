@@ -6,7 +6,17 @@
     <description>Recent content in R on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generador de PJs basado en 24d6</title>
+      <link>https://lunaticgeek.com/24d6/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/24d6/</guid>
+      <description>Entre las mecánicas más características de los juegos de rol clásicos y los retroclones de la que se ha venido denominando OSR, se encuentra el método para crear personajes tirando 3d6 para cada atributo, que genera una distribución N(10.5, 2.96) con un rango entre 3 y 18. Simple y efectivo&amp;hellip; Demasiado para algunos.
+Esta forma de generar PJs no tiene ningún defecto pero como es sabido, las reglas caseras son tan comunes que llegan a desplazar los pilares fundamentales del sistema d20.</description>
+    </item>
+    
     <item>
       <title>Fate Condensado</title>
       <link>https://lunaticgeek.com/fate-condensado-d12/</link>

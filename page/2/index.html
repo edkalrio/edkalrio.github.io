@@ -54,6 +54,33 @@
   <div class="main" role="main">
     <section class="list home-list">
       <article class="article">
+        <link rel="prefetch" href="/rdfa/" as="document">
+        <a href="/rdfa/" class="article-titles">
+          <h2 class="article-title">Soporte para Búsqueda Enriquecida con RDFa</h2>
+          
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>2020-06-11</time></li>
+          <li class="article-meta-tags">
+            <a href="/tags/html/">
+              <b>#</b>HTML
+            </a> 
+          </li>
+          <li class="article-meta-tags">
+            <a href="/tags/web/">
+              <b>#</b>Web
+            </a> 
+          </li>
+        </ul>
+        
+        <div class="article-content">
+          Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para Open Graph y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.
+Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en RDFa para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la Composition API de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior.
+        </div>
+        <div class="article-readmore"><a href="/rdfa/">Seguir leyendo</a></div>
+        <div class="article-floatclear"></div>
+      </article>
+      <article class="article">
         <link rel="prefetch" href="/emoji-favicon/" as="document">
         <a href="/emoji-favicon/" class="article-titles">
           <h2 class="article-title">Uso de Emojis como SVG en Favicons</h2>
@@ -320,43 +347,6 @@ Si esperabas un artículo didáctico en el que explicase HTTP/3 te equivocas de 
 Después de un año haciendo cola, ya estamos sirviendo todo nuestro contenido a través del protocolo HTTP/3 gracias al titánico esfuerzo de los ingenieros de Cloudflare, que han trabajado junto con informáticos de Google, Mozilla y otros agentes de las principales organizaciones que forman internet para redactar e implementar un standard que se convertirá en el futuro de internet cuando resuelvan los últimos cabos sueltos.
         </div>
         <div class="article-readmore"><a href="/http3/">Seguir leyendo</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      <article class="article">
-        <link rel="prefetch" href="/compila-i3wm/" as="document">
-        <a href="/compila-i3wm/" class="article-titles">
-          <h2 class="article-title">Compilación de i3wm en Ubuntu 18.04</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>2019-09-09</time></li>
-          <li class="article-meta-tags">
-            <a href="/tags/i3wm/">
-              <b>#</b>i3wm
-            </a> 
-          </li>
-          <li class="article-meta-tags">
-            <a href="/tags/linux/">
-              <b>#</b>Linux
-            </a> 
-          </li>
-          <li class="article-meta-tags">
-            <a href="/tags/unix/">
-              <b>#</b>Unix
-            </a> 
-          </li>
-          <li class="article-meta-tags">
-            <a href="/tags/ubuntu/">
-              <b>#</b>Ubuntu
-            </a> 
-          </li>
-        </ul>
-        
-        <div class="article-content">
-          La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.
-Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos años. Me sorprendió gratamente encontrar en el changelog una característica que llevo deseando desde que me topé con i3wm, la transparencia de i3bar.
-        </div>
-        <div class="article-readmore"><a href="/compila-i3wm/">Seguir leyendo</a></div>
         <div class="article-floatclear"></div>
       </article>
     </section>
