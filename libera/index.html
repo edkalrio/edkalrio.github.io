@@ -92,7 +92,7 @@
 <p>Me imagino que no soy el único que se ha visto obligado a añadir a su lista de servidores IRC a <a href="ircs://irc.libera.chat:6697/">Libera.Chat</a> después del <a href="https://www.kline.sh/">culebrón</a> formado por la dimisión en bloque de administradores y operadores de Freenode, que no han tolerado que los intereses corporativos tomasen el control de la plataforma para transformarla en un mero vehículo publicitario para la compañía propietaria, que se estaría aprovechando del trabajo desinteresado de todos estos voluntarios.</p>
 <p>Voy a aprovechar que toca configurar otra vez mi cliente de IRC para compartir un truco bastante bizarro sobre CertFP. Este método de autentificación mediante certificado autofirmado SSL se utiliza externamente, junto con SASL como identificador, para acceder de forma automática y segura, encriptado de extremo a extremo. En las guías de todos los servidores IRC se explica su activación para los clientes más comunes y yo no voy a hacer un tutorial; me remito a dicha <a href="https://libera.chat/guides/certfp/">documentación</a>. De lo que trata esta entrada es de dejar claro que CertFP funciona con cualquier certificado SSL en formato <code>pem</code>, como nuestro certificado digital de la <a href="/2017-05-03-fracasos-con-el-certificado-digital-de/">FNMT</a>.</p>
 <p>Es posible convertir el certificado original, encriptado en <code>p12</code> en un <code>pem</code> que reconozca Libera.Chat o cualquier otro servidor IRC moderno. Para ello sólo tenemos que ejecutar</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">openssl pkcs12 -in fnmt.p12 -out libera.pem -nodes
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">openssl pkcs12 -in fnmt.p12 -out libera.pem -nodes
 </code></pre></div><p>en lugar de crear un certificado autofirmado nuevo, para moverlo al directorio apropiado del cliente IRC. En caso de error, lo más probable es que el back end SSL del servidor no entienda el orden de la cadena de confianza del <code>pem</code>. Hay que asegurarse de que el primer certificado inmediatemente después de la clave privada es el de persona física.</p>
 <p>Lo he probado en <code>irssi</code> y <code>weechat</code>. Funciona perfectamente. Puede que no sea mejor que crear uno autofirmado sobre el que tengamos plena libertad para prescindir de autoridades certificadoras, de asignar valores a los campos, decidir la fecha de expiración y el nivel de seguridad.</p>
 <p>Sobre la seguridad quería hacer un último apunte. Quizás tener nuestro certificado digital de la FNMT desencriptado en el ordenador no sea la mejor idea. Por defecto, SSL le asigna los permisos <code>600</code>, que son los mismos que tiene cualquier clave privada SSH. En principio no debería de haber ningún problema si somos mínimamente cuidadosos y tratamos con la debida diligencia nuestros datos, pero es un punto a tener en cuenta y no quería terminar sin señalarlo.</p>
@@ -116,7 +116,7 @@
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

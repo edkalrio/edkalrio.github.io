@@ -7,9 +7,9 @@
   <title>Fate Condensado - Lunatic Geek</title>
   <meta property="og:title" content="Fate Condensado - Lunatic Geek" />
   <meta name="twitter:title" content="Fate Condensado - Lunatic Geek" />
-  <meta name="description" content="Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los dados personalizados por su motivación únicamente mercantilista, pero los de Fate, heredados de su predecesor Fudge tienen la ventaja de estar normalizados, es decir, que el resultado de la suma está centrado en cero, al contrario que en cualquier otro dado, y esta es una característica que me encanta.">
-  <meta property="og:description" content="Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los dados personalizados por su motivación únicamente mercantilista, pero los de Fate, heredados de su predecesor Fudge tienen la ventaja de estar normalizados, es decir, que el resultado de la suma está centrado en cero, al contrario que en cualquier otro dado, y esta es una característica que me encanta.">
-  <meta name="twitter:description" content="Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los dados …">
+  <meta name="description" content="--  Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los dados personalizados por su motivación únicamente mercantilista, pero los de Fate, heredados de su predecesor Fudge tienen la ventaja de estar normalizados, es decir, que el resultado de la suma está centrado en cero, al contrario que en cualquier otro dado, y esta es una característica que me encanta.">
+  <meta property="og:description" content="--  Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los dados personalizados por su motivación únicamente mercantilista, pero los de Fate, heredados de su predecesor Fudge tienen la ventaja de estar normalizados, es decir, que el resultado de la suma está centrado en cero, al contrario que en cualquier otro dado, y esta es una característica que me encanta.">
+  <meta name="twitter:description" content="--  Con motivo del lanzamiento de la edición en español de la versión condensada de Fate me ha parecido gracioso escribir unas pocas líneas sobre la mecánica de sus dados. Nunca me han gustado los …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
   <meta property="og:site_name" content="Lunatic Geek" />
@@ -88,7 +88,7 @@
 </div>
 			</ul>
 			
-			<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
+			<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script> -->
 <center><img src="https://1d12monos.com/wp-content/uploads/Portada_descarga_FC.png" /></center>
 <p>Con motivo del lanzamiento de la edición en español de la versión condensada
 de <a href="https://fate.1d12monos.com/">Fate</a> me ha parecido gracioso escribir unas pocas líneas sobre la mecánica
@@ -98,7 +98,42 @@ centrado en cero, al contrario que en cualquier otro dado, y esta es una
 característica que me encanta. Desde que se propusieron los dados Fudge,
 se aclaró que su uso era equivalente al de los <code>d6</code>, mapeando su puntuación con
 la función</p>
-<p>$$4dF = \sum_{i=1}^{4} \left \lfloor \frac{d_{i}6-3}{2} \right \rfloor$$</p>
+<!-- $$4dF = \sum_{i=1}^{4} \left \lfloor \frac{d_{i}6-3}{2} \right \rfloor$$ -->
+<math display="block">
+  <mrow>
+    <mn>4</mn>
+    <mi>d</mi>
+    <mi>F</mi>
+    <mo>=</mo>
+    <mrow>
+      <munderover>
+        <mo movablelimits="false">∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mn>4</mn>
+      </munderover>
+    </mrow>
+    <mrow>
+      <mo fence="true" form="prefix">⌊</mo>
+      <mfrac>
+        <mrow>
+          <msub>
+            <mi>d</mi>
+            <mi>i</mi>
+          </msub>
+          <mn>6</mn>
+          <mo>−</mo>
+          <mn>3</mn>
+        </mrow>
+        <mn>2</mn>
+      </mfrac>
+      <mo fence="true" form="postfix">⌋</mo>
+    </mrow>
+  </mrow>
+</math>
 <p>o parafraseando a los autores de Fate:</p>
 <blockquote>
 <p>Los dados Fate son dados de seis caras con dos caras con 𓂃, dos con ⊞ y dos con ⊟. Con un juego de cuatro dados es suficiente, pero lo ideal es tener un juego de dados por jugador. Existen otras alternativas, como usar dados estándar de seis caras (1-2 = ⊟, 3-4 = 𓂃, 5-6 = ⊞)</p>
@@ -109,7 +144,29 @@ como para aproximar el dibujo con unas rectas, en lo que formaría una
 distribución triangular. Resulta que podemos obtener una distribución muy
 similar con una tirada de dos dados, lo que es tremendamente inusual y nunca
 pensé que pudiera producirse. Esta es</p>
-<p>$$4dF \approx \left \lfloor \frac{2d12}{3} \right \rfloor -4$$</p>
+<!-- $$4dF \approx \left \lfloor \frac{2d12}{3} \right \rfloor -4$$ -->
+<math display="block">
+  <mrow>
+    <mn>4</mn>
+    <mi>d</mi>
+    <mi>F</mi>
+    <mo>≈</mo>
+    <mrow>
+      <mo fence="true" form="prefix">⌊</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mi>d</mi>
+          <mn>12</mn>
+        </mrow>
+        <mn>3</mn>
+      </mfrac>
+      <mo fence="true" form="postfix">⌋</mo>
+    </mrow>
+    <mo>−</mo>
+    <mn>4</mn>
+  </mrow>
+</math>
 <p>Nuestra aproximación es bastante acertada, como se puede ver a continuación. El código que he utilizado en <a href="/tags/r/">R</a> para generar el gráfico está comentado en el código HTML de esta misma página.</p>
 <center><img src="/4dF_vs_2d6_3-4.png" /></center>
 <p>Estoy convencido de que una tirada así haría llorar a cualquier jugador
@@ -183,7 +240,7 @@ lines(x, fate$d12, type="l", lwd=1.5, xlab = "", ylab = "")
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

@@ -1,3670 +1,2204 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/24d6/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/r/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rol/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/bash/</loc>
     <lastmod>2022-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/unix/</loc>
     <lastmod>2022-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wordle/</loc>
     <lastmod>2022-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/bash-wordle/</loc>
     <lastmod>2022-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/libros/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/libros-para-el-verano-2021/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/libera/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/criptograf%C3%ADa/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/freenode/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/irc/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/libera.chat/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/openssl/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/fate/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/fate-condensado-d12/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/a4/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/pandoc/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/pdf/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tipograf%C3%ADa/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/libros-para-el-verano-2020/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/licencias/</loc>
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/licencias-permisivas/</loc>
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/open-source/</loc>
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/software/</loc>
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/aventuras-y-misterios/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/aventuras-y-misterios-d12/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/grapas-y-mapas/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/rolling-rhino/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/linux/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ubuntu/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/html/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/rdfa/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/web/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/programaci%C3%B3n/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/svg/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/emoji-favicon/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/hex-flowers/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/cuarentena/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/cuarentena/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/mecanicas-roleras/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/javascript/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/js-pipes/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/hats/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/hats-2019/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/chrome/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ftp/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/chrome-ftp/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/google/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/mythic/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/cloudflare/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/red/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/http3/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/compila-i3wm/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/i3wm/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/rol/</loc>
     <lastmod>2019-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/python/</loc>
     <lastmod>2019-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/libros-para-el-verano-2019/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/fichar-unix/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/cloud-computing/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/microsoft/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/windows/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/wsl2/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/opml/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rss/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/agregador-noticias-opml/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/xml/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/xsl/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/low-pass-filter/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/eda/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/kicad/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/pcb/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/vim-para-novatos/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/neovim/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/terminal/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/vim/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/electron/</loc>
     <lastmod>2019-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/positron/</loc>
     <lastmod>2019-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/rfc-terminal/</loc>
     <lastmod>2019-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rfc/</loc>
     <lastmod>2019-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/gnu/</loc>
     <lastmod>2019-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/symlink-dotfiles/</loc>
     <lastmod>2019-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rice/</loc>
     <lastmod>2019-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/emacs/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/joe/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ms-dos/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/nano/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/pico/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/retro/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wordstar/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/wordstar4/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/hats-2018/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/esteganograf%C3%ADa/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/esteganografia/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/inform%C3%A1tica/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/css/</loc>
     <lastmod>2018-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/puntos-debiles-chrome/</loc>
     <lastmod>2018-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/rss3/</loc>
     <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/defensa-ftp/</loc>
     <lastmod>2018-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/firefox/</loc>
     <lastmod>2018-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/android/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/line/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/stickers/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/whatsapp-stickers/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/whatsapp/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/20-juegos-ps/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/juegos/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/computaci%C3%B3n/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/pvsnp/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/unix-toolbox/</loc>
     <lastmod>2018-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/arreglando-twitter/</loc>
     <lastmod>2018-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/twitter/</loc>
     <lastmod>2018-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/problema-tres-colores/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rgb/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/feliz-no-cumplea%C3%B1os/</loc>
     <lastmod>2018-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/lunatic-geek/</loc>
     <lastmod>2018-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wit/</loc>
     <lastmod>2018-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-07-23-libros-para-el-verano/</loc>
     <lastmod>2018-07-23T13:28:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/rtfm/</loc>
     <lastmod>2018-07-13T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tor/</loc>
     <lastmod>2018-07-13T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-04-24-entropia-inconmensurable/</loc>
     <lastmod>2018-04-24T14:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rng/</loc>
     <lastmod>2018-04-24T14:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/dns/</loc>
     <lastmod>2018-04-11T14:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-04-11-dns-raiz-alternativo/</loc>
     <lastmod>2018-04-11T14:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ip/</loc>
     <lastmod>2018-04-03T13:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-04-03-okupando-ips/</loc>
     <lastmod>2018-04-03T13:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-03-22-calendar/</loc>
     <lastmod>2018-03-22T12:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-02-27-bintrue/</loc>
     <lastmod>2018-02-27T13:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/c/</loc>
     <lastmod>2018-02-27T13:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/bitcoin/</loc>
     <lastmod>2018-02-03T14:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/econom%C3%ADa/</loc>
     <lastmod>2018-02-03T14:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-02-03-la-ultima-crisis-del-bitcoin/</loc>
     <lastmod>2018-02-03T14:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-01-30-fanboys-de-la-programacion-orientada/</loc>
     <lastmod>2018-01-30T13:52:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2018-01-01-hats-2017/</loc>
     <lastmod>2018-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/mastodon/</loc>
     <lastmod>2017-12-08T14:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/twtxt/</loc>
     <lastmod>2017-12-08T14:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-12-08-twtxt/</loc>
     <lastmod>2017-12-08T14:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/excel/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/office/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-10-31-ofimatica-lunatica/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/powerpoint/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/word/</loc>
     <lastmod>2017-10-31T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-08-23-hasta-la-vista-godaddy/</loc>
     <lastmod>2017-08-23T13:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/lunaticgeek/</loc>
     <lastmod>2017-08-23T13:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/namecheap/</loc>
     <lastmod>2017-08-23T13:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tld/</loc>
     <lastmod>2017-08-23T13:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-08-15-simplemente-bash/</loc>
     <lastmod>2017-08-15T13:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-08-01-libros-para-el-verano/</loc>
     <lastmod>2017-08-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-07-11-distrohopping-util/</loc>
     <lastmod>2017-07-11T12:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/docker/</loc>
     <lastmod>2017-07-11T12:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ai/</loc>
     <lastmod>2017-05-23T13:56:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-05-23-alphago-derrota-ke-jie/</loc>
     <lastmod>2017-05-23T13:56:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/</loc>
     <lastmod>2017-05-03T20:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ssh/</loc>
     <lastmod>2017-05-03T20:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2017-01-01-hats-2016/</loc>
     <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-09-17-mi-prompt-de-bash/</loc>
     <lastmod>2016-09-17T13:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/terminal.-shell/</loc>
     <lastmod>2016-09-17T13:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-08-01-libros-para-el-verano/</loc>
     <lastmod>2016-08-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-04-28-http2/</loc>
     <lastmod>2016-04-28T19:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/http2/</loc>
     <lastmod>2016-04-28T19:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/nginx/</loc>
     <lastmod>2016-04-28T19:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/servidor/</loc>
     <lastmod>2016-04-28T19:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-03-03-gira-el-monitor/</loc>
     <lastmod>2016-03-03T19:31:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/</loc>
     <lastmod>2016-01-28T19:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/elementary-project/</loc>
     <lastmod>2016-01-28T19:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/gnome/</loc>
     <lastmod>2016-01-28T19:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/i3/</loc>
     <lastmod>2016-01-28T19:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/unity/</loc>
     <lastmod>2016-01-28T19:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-01-15-farbfeld/</loc>
     <lastmod>2016-01-15T19:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/apple/</loc>
     <lastmod>2016-01-06T13:37:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-01-06-el-cero-de-enero-y-otros-hitos/</loc>
     <lastmod>2016-01-06T13:37:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/osx/</loc>
     <lastmod>2016-01-06T13:37:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2016-01-01-hats-2015/</loc>
     <lastmod>2016-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-09-07-el-regalo-mas-friki-para-el-informatico/</loc>
     <lastmod>2015-09-07T19:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/teclado/</loc>
     <lastmod>2015-09-07T19:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-07-31-libros-para-el-verano/</loc>
     <lastmod>2015-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-07-18-descarga-este-blog/</loc>
     <lastmod>2015-07-18T20:48:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wget/</loc>
     <lastmod>2015-07-18T20:48:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-05-03-mis-tipografias-favoritas/</loc>
     <lastmod>2015-05-03T20:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-04-01-linux-vs-gnulinux-fight/</loc>
     <lastmod>2015-04-01T12:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-03-06-ubuntu-esta-confuso/</loc>
     <lastmod>2015-03-06T19:14:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-02-24-generador-cuantico-de-contrasenas/</loc>
     <lastmod>2015-02-24T12:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-01-21-los-limites-de-la-computacion/</loc>
     <lastmod>2015-01-21T13:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/moore/</loc>
     <lastmod>2015-01-21T13:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/pc/</loc>
     <lastmod>2015-01-21T13:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2015-01-01-hats-2014/</loc>
     <lastmod>2015-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-12-17-resucitando-google-news/</loc>
     <lastmod>2014-12-17T11:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/sgae/</loc>
     <lastmod>2014-12-17T11:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/sinde/</loc>
     <lastmod>2014-12-17T11:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</loc>
     <lastmod>2014-10-21T20:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/kindle/</loc>
     <lastmod>2014-10-21T20:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/mac/</loc>
     <lastmod>2014-10-21T20:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-10-01-grabar-datos-en-un-cassette-de-audio/</loc>
     <lastmod>2014-10-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-09-22-swatch-internet-time/</loc>
     <lastmod>2014-09-22T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wikipedia/</loc>
     <lastmod>2014-09-22T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-08-20-el-futuro-de-las-aplicaciones-de/</loc>
     <lastmod>2014-08-20T19:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/torrent/</loc>
     <lastmod>2014-08-20T19:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-07-31-libros-para-el-verano/</loc>
     <lastmod>2014-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/debian/</loc>
     <lastmod>2014-07-25T18:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-07-25-mania-de-apt-get/</loc>
     <lastmod>2014-07-25T18:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-07-16-divagando-sobre-raspberry-pi-b-y-20/</loc>
     <lastmod>2014-07-16T18:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/raspberry-pi/</loc>
     <lastmod>2014-07-16T18:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-07-01-the-internets-own-boy-la-pelicula-sobre/</loc>
     <lastmod>2014-07-01T13:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-06-03-webs-en-comic-sans/</loc>
     <lastmod>2014-06-03T12:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-05-23-guia-electoral-para-informaticos/</loc>
     <lastmod>2014-05-23T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-03-26-calculo-mental-para-informaticos/</loc>
     <lastmod>2014-03-26T20:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/maths/</loc>
     <lastmod>2014-03-26T20:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2014-01-01-hats-2013/</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-12-05-mi-router-consola/</loc>
     <lastmod>2013-12-05T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ps4/</loc>
     <lastmod>2013-12-05T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/xbox/</loc>
     <lastmod>2013-12-05T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-09-13-la-salida-bolsa-de-twitter/</loc>
     <lastmod>2013-09-13T17:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-08-22-analisis-tecnico-del-fracaso-de-ubuntu/</loc>
     <lastmod>2013-08-22T17:09:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-07-31-libros-para-el-verano/</loc>
     <lastmod>2013-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-07-26-agpl-la-licencia-marginada/</loc>
     <lastmod>2013-07-26T19:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/gpl/</loc>
     <lastmod>2013-07-26T19:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-07-19-usar-google-como-proxy/</loc>
     <lastmod>2013-07-19T19:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/#wttf/</loc>
     <lastmod>2013-05-07T19:22:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-05-07-poyecto-write-to-future-wttf/</loc>
     <lastmod>2013-05-07T19:22:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/lunaticgeek-utilities/</loc>
     <lastmod>2013-04-24T11:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-04-24-lunaticgeek-utilities-130401-renovada/</loc>
     <lastmod>2013-04-24T11:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-04-11-bitcoin-una-vision-economica-para/</loc>
     <lastmod>2013-04-11T20:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/p2p/</loc>
     <lastmod>2013-04-11T20:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/april-fools-day/</loc>
     <lastmod>2013-04-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-04-01-entrevista-concedida-lifehacker/</loc>
     <lastmod>2013-04-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/prank/</loc>
     <lastmod>2013-04-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-03-20-a-quien-donar-los-089-de-whatsapp/</loc>
     <lastmod>2013-03-20T23:32:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-02-22-playstation-4-la-vision-de-edkalrio/</loc>
     <lastmod>2013-02-22T17:08:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/sony/</loc>
     <lastmod>2013-02-22T17:08:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-02-21-playstation-4-la-vision-de-ruvelro/</loc>
     <lastmod>2013-02-21T18:29:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/smartphone/</loc>
     <lastmod>2013-01-03T19:01:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-01-03-ubuntu-for-phones/</loc>
     <lastmod>2013-01-03T19:01:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2013-01-01-hats-2012/</loc>
     <lastmod>2013-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-11-19-analisis-de-la-beta-privada-de-la-web/</loc>
     <lastmod>2012-11-19T21:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/spotify/</loc>
     <lastmod>2012-11-19T21:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/steam/</loc>
     <lastmod>2012-11-11T20:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-11-11-steam-for-linux-probamos-la-beta-privada/</loc>
     <lastmod>2012-11-11T20:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-10-27-el-libro-de-cocina-de-tanenbaum/</loc>
     <lastmod>2012-10-27T18:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-10-12-la-solucion-de-linux-para-uefi/</loc>
     <lastmod>2012-10-12T12:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/suse/</loc>
     <lastmod>2012-10-12T12:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-09-11-milagros-informaticos/</loc>
     <lastmod>2012-09-11T19:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-08-29-por-que-whatsapp-ya-no-es-una-mierda/</loc>
     <lastmod>2012-08-29T18:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-08-27-los-programadores-de-verdad/</loc>
     <lastmod>2012-08-27T18:06:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-08-26-instalar-los-drivers-de-nvidia-en-debian/</loc>
     <lastmod>2012-08-26T23:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/nvidia/</loc>
     <lastmod>2012-08-26T23:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-08-23-instalar-wine-en-debian/</loc>
     <lastmod>2012-08-23T16:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wine/</loc>
     <lastmod>2012-08-23T16:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-08-11-helenos-un-sistema-operativo-con/</loc>
     <lastmod>2012-08-11T17:06:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-07-31-libros-para-el-verano/</loc>
     <lastmod>2012-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-07-24-curso-html5-de-microsoft/</loc>
     <lastmod>2012-07-24T12:49:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-07-16-magpi-la-revista-sobre-raspberry-pi/</loc>
     <lastmod>2012-07-16T18:49:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/minipc/</loc>
     <lastmod>2012-07-09T17:26:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-07-09-raspberry-pi/</loc>
     <lastmod>2012-07-09T17:26:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/e3/</loc>
     <lastmod>2012-06-25T13:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-06-25-la-decadencia-de-la-industria-del/</loc>
     <lastmod>2012-06-25T13:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/nintendo/</loc>
     <lastmod>2012-06-25T13:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ps3/</loc>
     <lastmod>2012-06-25T13:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/videojuego/</loc>
     <lastmod>2012-06-25T13:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-06-22-friki/</loc>
     <lastmod>2012-06-22T17:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-06-16-inception-version-lego/</loc>
     <lastmod>2012-06-16T11:28:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-06-05-solucion-al-error-de-flash-en-ubutu/</loc>
     <lastmod>2012-06-05T16:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-29-lunaticgeek-utilities120402/</loc>
     <lastmod>2012-05-29T17:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-23-eliminar-el-envio-de-informes-de-error/</loc>
     <lastmod>2012-05-23T19:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/kinect/</loc>
     <lastmod>2012-05-22T19:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/leap/</loc>
     <lastmod>2012-05-22T19:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-22-leap-control-gestual-estilo-minority/</loc>
     <lastmod>2012-05-22T19:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-20-hack-pokemon-blanconegro-con-mayor/</loc>
     <lastmod>2012-05-20T18:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/disqueteras/</loc>
     <lastmod>2012-05-18T12:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/floppy/</loc>
     <lastmod>2012-05-18T12:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/juego-de-tronos/</loc>
     <lastmod>2012-05-18T12:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-18-juego-de-tronos-interpretado-por-8/</loc>
     <lastmod>2012-05-18T12:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-16-reflexiones-sobre-la-8-generacion-de/</loc>
     <lastmod>2012-05-16T20:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-15-experiencia-con-el-sat-de-sony-xperia/</loc>
     <lastmod>2012-05-15T22:43:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ios/</loc>
     <lastmod>2012-05-13T23:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/nexus-one/</loc>
     <lastmod>2012-05-13T23:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-13-opiniones-referentes-los-diferentes/</loc>
     <lastmod>2012-05-13T23:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-10-guacamole-servidor-vnc-para-acceso-web/</loc>
     <lastmod>2012-05-10T17:09:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-05-07-terasology-clon-open-source-de/</loc>
     <lastmod>2012-05-07T13:31:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-04-29-como-solucionar-el-problema-de-los/</loc>
     <lastmod>2012-04-29T20:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-04-25-prince-of-persia/</loc>
     <lastmod>2012-04-25T17:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-04-25-lunaticgeek-utilities-120401/</loc>
     <lastmod>2012-04-25T13:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-04-18-sony-xperia-s-primeras-y-segundas/</loc>
     <lastmod>2012-04-18T13:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-04-17-versiones-de-windows-8/</loc>
     <lastmod>2012-04-17T15:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-04-07-la-venganza-de-los-servidores/</loc>
     <lastmod>2012-04-07T18:53:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-03-30-feliz-cumpleanos-ps3/</loc>
     <lastmod>2012-03-30T13:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/playstation/</loc>
     <lastmod>2012-03-30T13:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-03-19-low-orbit-server-stations/</loc>
     <lastmod>2012-03-19T12:35:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/thepiratebay/</loc>
     <lastmod>2012-03-19T12:35:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-03-15-la-paranoia-de-windows-8-server/</loc>
     <lastmod>2012-03-15T13:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/geek/</loc>
     <lastmod>2012-03-05T17:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/intel/</loc>
     <lastmod>2012-03-05T17:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/reflexiones/</loc>
     <lastmod>2012-03-05T17:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-03-05-reflexiones-sobre-la-refrigeracion/</loc>
     <lastmod>2012-03-05T17:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-02-21-ubuntu-para-android/</loc>
     <lastmod>2012-02-21T19:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-02-18-el-frikismo-de-las-disqueteras/</loc>
     <lastmod>2012-02-18T13:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-02-08-chrome-para-android/</loc>
     <lastmod>2012-02-08T18:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-30-el-pirata-coelho/</loc>
     <lastmod>2012-01-30T16:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/pirata/</loc>
     <lastmod>2012-01-30T16:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/sopa/</loc>
     <lastmod>2012-01-30T16:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-26-hall-of-fame/</loc>
     <lastmod>2012-01-26T13:17:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-20-comunicado-de-prensa-de-pirate-bay/</loc>
     <lastmod>2012-01-20T13:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-19-cronica-de-un-apagon-sopastrike/</loc>
     <lastmod>2012-01-19T20:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-12-el-lado-oscuro-de-windows-8/</loc>
     <lastmod>2012-01-12T20:31:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/alexandra/</loc>
     <lastmod>2012-01-10T18:51:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-10-alexandra-mi-nueva-estacion-de-trabajo/</loc>
     <lastmod>2012-01-10T18:51:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tv/</loc>
     <lastmod>2012-01-09T20:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-09-ubuntu-tv-for-human-beings/</loc>
     <lastmod>2012-01-09T20:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2012-01-01-hats-2011/</loc>
     <lastmod>2012-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-31-lunaticgeek-utilities-13/</loc>
     <lastmod>2011-12-31T00:22:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-26-top-10-errores-en-windows/</loc>
     <lastmod>2011-12-26T22:49:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-15-nominaciones-hats-2011/</loc>
     <lastmod>2011-12-15T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-09-2-oportunidad-spotify/</loc>
     <lastmod>2011-12-09T20:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/onlive/</loc>
     <lastmod>2011-12-09T00:21:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-09-onlive-llega-el-futuro-de-los/</loc>
     <lastmod>2011-12-09T00:21:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/diciembre/</loc>
     <lastmod>2011-12-01T21:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-01-diciembre-resumen-anual/</loc>
     <lastmod>2011-12-01T21:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-01-por-que-playstation-4-deberia-llevar/</loc>
     <lastmod>2011-12-01T19:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-12-01-traslada-el-dock-de-unity/</loc>
     <lastmod>2011-12-01T18:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-11-19-comic-de-memes-propio/</loc>
     <lastmod>2011-11-19T11:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/memes/</loc>
     <lastmod>2011-11-19T11:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-11-16-tyrs-twitter-en-cli/</loc>
     <lastmod>2011-11-16T16:14:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/biit/</loc>
     <lastmod>2011-11-15T13:28:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-11-15-biit-el-nuevo-spotify/</loc>
     <lastmod>2011-11-15T13:28:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/steve-jobs/</loc>
     <lastmod>2011-10-31T17:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-31-steve-jobs-de-walter-isaacson/</loc>
     <lastmod>2011-10-31T17:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-31-el-futuro-de-ubuntu/</loc>
     <lastmod>2011-10-31T17:47:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-25-octubre-un-mes-negro/</loc>
     <lastmod>2011-10-25T13:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/galaxy-nexus/</loc>
     <lastmod>2011-10-19T13:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-19-galaxy-nexus-android-4/</loc>
     <lastmod>2011-10-19T13:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/nexus-s/</loc>
     <lastmod>2011-10-19T13:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-13-ubuntu-1110/</loc>
     <lastmod>2011-10-13T16:09:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-13-dennis-ritchie-1941-2011/</loc>
     <lastmod>2011-10-13T14:22:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-11-de-lts-lts-y-no-hay-rolling-release/</loc>
     <lastmod>2011-10-11T11:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-10-dart-lo-nuevo-de-google/</loc>
     <lastmod>2011-10-10T14:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-08-lunaticgeek-utilities-12/</loc>
     <lastmod>2011-10-08T17:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-10-06-thankyousteve/</loc>
     <lastmod>2011-10-06T11:23:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-28-frases-celebres/</loc>
     <lastmod>2011-09-28T19:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/google-code/</loc>
     <lastmod>2011-09-27T14:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-27-lunaticgeek-utilities-11/</loc>
     <lastmod>2011-09-27T14:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/it-crowd/</loc>
     <lastmod>2011-09-26T20:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-26-spot-antipirateria-it-crowd/</loc>
     <lastmod>2011-09-26T20:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/youtube/</loc>
     <lastmod>2011-09-26T20:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-21-encerrando-el-software-libre/</loc>
     <lastmod>2011-09-21T11:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/world-of-goo/</loc>
     <lastmod>2011-09-20T16:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-20-world-of-goo-para-todos/</loc>
     <lastmod>2011-09-20T16:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-16-aplicaciones-imprescindibles-para/</loc>
     <lastmod>2011-09-16T13:57:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-14-windows-8-developer-preview/</loc>
     <lastmod>2011-09-14T20:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ibm/</loc>
     <lastmod>2011-09-13T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-13-lo-que-costaba-un-ordenador-hace-25/</loc>
     <lastmod>2011-09-13T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ordenador/</loc>
     <lastmod>2011-09-13T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-09-oda-al-rolling-release/</loc>
     <lastmod>2011-09-09T20:12:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/blogger/</loc>
     <lastmod>2011-09-09T01:23:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-09-09-blogger-para-ios/</loc>
     <lastmod>2011-09-09T01:23:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-26-el-fin-de-una-era/</loc>
     <lastmod>2011-08-26T18:24:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/hp/</loc>
     <lastmod>2011-08-26T18:24:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-25-cronica-de-una-dimision-anunciada/</loc>
     <lastmod>2011-08-25T18:28:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/jobs/</loc>
     <lastmod>2011-08-25T18:28:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-23-como-conseguir-permisos-en-particiones/</loc>
     <lastmod>2011-08-23T23:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/fstab/</loc>
     <lastmod>2011-08-23T23:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ntfs/</loc>
     <lastmod>2011-08-23T23:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-16-microsoft-descarta-linux-como-rival/</loc>
     <lastmod>2011-08-16T22:47:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-14-distribuciones-de-linux-mas-populares/</loc>
     <lastmod>2011-08-14T11:29:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-12-llegan-los-juegos-google/</loc>
     <lastmod>2011-08-12T21:58:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-11-otro-rage-comic-de-cosecha-propia/</loc>
     <lastmod>2011-08-11T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-11-video-abiendo-50-app-en-ubuntu-con-el/</loc>
     <lastmod>2011-08-11T11:23:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-09-suse-studio/</loc>
     <lastmod>2011-08-09T18:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-05-angry-google/</loc>
     <lastmod>2011-08-05T11:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/rwlabs/</loc>
     <lastmod>2011-08-04T17:41:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ssd/</loc>
     <lastmod>2011-08-04T17:41:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-04-ssd-la-velocidad-en-tus-manos/</loc>
     <lastmod>2011-08-04T17:41:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-03-nuevo-ubuntu-software-centre/</loc>
     <lastmod>2011-08-03T23:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/game/</loc>
     <lastmod>2011-08-01T11:33:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-08-01-ubuntu-game-pack/</loc>
     <lastmod>2011-08-01T11:33:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-31-libros-para-el-verano/</loc>
     <lastmod>2011-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-28-ubuntu-one-aumenta-de-tamano/</loc>
     <lastmod>2011-07-28T20:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/cuantocabron/</loc>
     <lastmod>2011-07-28T16:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-28-rage-comic/</loc>
     <lastmod>2011-07-28T16:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-28-origen-de-los-nombres-de-empresas-geek/</loc>
     <lastmod>2011-07-28T13:14:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-27-ms-dos-cumple-30-anos/</loc>
     <lastmod>2011-07-27T16:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tecnolog%C3%ADa/</loc>
     <lastmod>2011-07-26T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-26-tecnologia-hace-30-anos/</loc>
     <lastmod>2011-07-26T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-26-b2g-lo-nuevo-de-mozilla/</loc>
     <lastmod>2011-07-26T16:58:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/mozilla/</loc>
     <lastmod>2011-07-26T16:58:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-25-para-los-amantes-de-la-virtualizacion/</loc>
     <lastmod>2011-07-25T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/virtualizacion/</loc>
     <lastmod>2011-07-25T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/real-time/</loc>
     <lastmod>2011-07-24T20:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-24-vuelve-rt-linux/</loc>
     <lastmod>2011-07-24T20:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-20-desktopnova/</loc>
     <lastmod>2011-07-20T18:16:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/canon/</loc>
     <lastmod>2011-07-17T18:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-17-conferencia-de-david-bravo/</loc>
     <lastmod>2011-07-17T18:10:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-11-artixtx-11-ubuntu-para-artistas/</loc>
     <lastmod>2011-07-11T22:23:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-11-10-razones-para-odiar-facebook/</loc>
     <lastmod>2011-07-11T21:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-09-acabo-de-enterarme-por-absoluta/</loc>
     <lastmod>2011-07-09T20:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-09-la-mayor-coleccion-de-juegos-de-ps2/</loc>
     <lastmod>2011-07-09T19:56:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ps2/</loc>
     <lastmod>2011-07-09T19:56:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-08-ubuntu-1010-alhpa2/</loc>
     <lastmod>2011-07-08T15:55:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-07-apple-es-carisimo/</loc>
     <lastmod>2011-07-07T20:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-07-06-reflexiones-frikis/</loc>
     <lastmod>2011-07-06T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-30-google-la-nueva-y-definitiva-red-social/</loc>
     <lastmod>2011-06-30T11:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/red-social/</loc>
     <lastmod>2011-06-30T11:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tuenti-facebook/</loc>
     <lastmod>2011-06-30T11:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-28-world-of-goo/</loc>
     <lastmod>2011-06-28T16:53:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-23-informatica-de-la-vieja-escuela/</loc>
     <lastmod>2011-06-23T16:28:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-22-el-odio-windows/</loc>
     <lastmod>2011-06-22T16:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-21-firefox-acelera-su-crecimiento/</loc>
     <lastmod>2011-06-21T23:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/doodle/</loc>
     <lastmod>2011-06-16T00:44:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-16-doodle-google/</loc>
     <lastmod>2011-06-16T00:44:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-14-dirndl/</loc>
     <lastmod>2011-06-14T13:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/dirndl/</loc>
     <lastmod>2011-06-14T13:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-10-mal-empieza/</loc>
     <lastmod>2011-06-10T18:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/wii/</loc>
     <lastmod>2011-06-10T18:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/frases-celebres/</loc>
     <lastmod>2011-06-07T20:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-07-reflexiones-frikis_07/</loc>
     <lastmod>2011-06-07T20:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-05-e3-2011-fechas-y-horarios/</loc>
     <lastmod>2011-06-05T19:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-05-frases-celebres/</loc>
     <lastmod>2011-06-05T14:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-06-04-reflexiones-frikis/</loc>
     <lastmod>2011-06-04T17:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-05-30-linux-3/</loc>
     <lastmod>2011-05-30T13:48:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-05-18-calendario-de-ubuntu-1110/</loc>
     <lastmod>2011-05-18T16:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-05-14-manual-de-desobediencia-la-ley-sinde/</loc>
     <lastmod>2011-05-14T10:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-05-08-frases-celebres/</loc>
     <lastmod>2011-05-08T20:56:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-05-08-eduroam/</loc>
     <lastmod>2011-05-08T13:42:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-05-01-cuidado-con-sony-quiere-comprarnos/</loc>
     <lastmod>2011-05-01T18:26:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-28-ubuntu-1104/</loc>
     <lastmod>2011-04-28T16:42:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-27-sony-nos-roba-parte-2/</loc>
     <lastmod>2011-04-27T22:41:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-27-ubuntu-en-la-nube/</loc>
     <lastmod>2011-04-27T13:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/anonymous/</loc>
     <lastmod>2011-04-26T23:19:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-26-sony-nos-vende/</loc>
     <lastmod>2011-04-26T23:19:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/n3ds/</loc>
     <lastmod>2011-04-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-24-nintendo-3ds-review/</loc>
     <lastmod>2011-04-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-23-adios-psn/</loc>
     <lastmod>2011-04-23T13:14:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/psn/</loc>
     <lastmod>2011-04-23T13:14:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/cafe/</loc>
     <lastmod>2011-04-21T15:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/hd/</loc>
     <lastmod>2011-04-21T15:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-21-project-cafe/</loc>
     <lastmod>2011-04-21T15:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/3d/</loc>
     <lastmod>2011-04-21T10:58:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-21-nintendo-3ds/</loc>
     <lastmod>2011-04-21T10:58:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-19-how-to-fix-any-computer/</loc>
     <lastmod>2011-04-19T13:48:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-16-el-extrano-caso-de-werlisa/</loc>
     <lastmod>2011-04-16T19:12:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-15-anonymous-vuelve-contra-sony/</loc>
     <lastmod>2011-04-15T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/geohot/</loc>
     <lastmod>2011-04-15T17:27:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-15-el-chiste-del-dia/</loc>
     <lastmod>2011-04-15T15:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-15-traicion/</loc>
     <lastmod>2011-04-15T12:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-13-el-fin-del-proceso/</loc>
     <lastmod>2011-04-13T20:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-07-gnome-30/</loc>
     <lastmod>2011-04-07T17:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-07-el-retorno-del-pinguino/</loc>
     <lastmod>2011-04-07T16:42:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-06-una-vez-mas-sony-demuestra-su/</loc>
     <lastmod>2011-04-06T21:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-06-shipit-llega-su-fin/</loc>
     <lastmod>2011-04-06T20:33:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-04-anonymous-planta-cara-sony/</loc>
     <lastmod>2011-04-04T12:55:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-04-01-april-fools-day/</loc>
     <lastmod>2011-04-01T16:12:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-26-no-los-votes/</loc>
     <lastmod>2011-03-26T19:13:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-24-canon-anulado-fuck-yeah/</loc>
     <lastmod>2011-03-24T17:56:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-23-firefox-4/</loc>
     <lastmod>2011-03-23T17:22:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-20-miedo-o-fama/</loc>
     <lastmod>2011-03-20T20:02:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/humor/</loc>
     <lastmod>2011-03-17T19:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-17-la-chubasqueromanta/</loc>
     <lastmod>2011-03-17T19:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/snuggie/</loc>
     <lastmod>2011-03-17T19:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-13-sindecop/</loc>
     <lastmod>2011-03-13T16:34:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-07-elementary-gtk/</loc>
     <lastmod>2011-03-07T16:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-07-me-parecio-ver-un-lindo-gatito/</loc>
     <lastmod>2011-03-07T16:16:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-03-ubuntu-juega-con-sony/</loc>
     <lastmod>2011-03-03T23:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-03-una-google-bomb-para-los-politicos/</loc>
     <lastmod>2011-03-03T18:26:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-03-02-frases-celebres/</loc>
     <lastmod>2011-03-02T21:08:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/thunderbolt/</loc>
     <lastmod>2011-02-24T20:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-24-thunderbolt-en-los-nuevos-macbook-pro/</loc>
     <lastmod>2011-02-24T20:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-21-programando-en-la-oscuridad/</loc>
     <lastmod>2011-02-21T14:02:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-20-hecha-la-ley-hecha-la-trampa/</loc>
     <lastmod>2011-02-20T18:01:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/serieyonkis/</loc>
     <lastmod>2011-02-20T18:01:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-17-aprobada-la-ley-sinde/</loc>
     <lastmod>2011-02-17T20:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-15-con-todo-lo-que-esta-pasando/</loc>
     <lastmod>2011-02-15T20:38:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-12-arrancar-una-iso-en-grub/</loc>
     <lastmod>2011-02-12T19:22:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-02-05-otra-iniciativa-anti-sinde/</loc>
     <lastmod>2011-02-05T18:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ngp/</loc>
     <lastmod>2011-01-29T17:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-29-ngp/</loc>
     <lastmod>2011-01-29T17:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/psp/</loc>
     <lastmod>2011-01-29T17:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-29-seriesyonkis-nunca-morira/</loc>
     <lastmod>2011-01-29T16:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/descargas/</loc>
     <lastmod>2011-01-29T14:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-29-google-y-su-censura-de-conveniencia/</loc>
     <lastmod>2011-01-29T14:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-29-cuando-una-persona-derrota-una/</loc>
     <lastmod>2011-01-29T00:54:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/jailbreak/</loc>
     <lastmod>2011-01-29T00:54:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/sudo/</loc>
     <lastmod>2011-01-29T00:45:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-29-windows-modo-sudo/</loc>
     <lastmod>2011-01-29T00:45:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-27-apple-empieza-comercializar-comida/</loc>
     <lastmod>2011-01-27T22:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-26-el-mundo-al-reves/</loc>
     <lastmod>2011-01-26T19:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ipad/</loc>
     <lastmod>2011-01-26T16:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-26-reflexiones-frikis/</loc>
     <lastmod>2011-01-26T16:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-17-steve-jobs-coge-una-baja-medica/</loc>
     <lastmod>2011-01-17T19:38:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-04-reflexiones-geek/</loc>
     <lastmod>2011-01-04T16:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/fail0verflow/</loc>
     <lastmod>2011-01-01T20:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-01-llegan-claves/</loc>
     <lastmod>2011-01-01T20:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2011-01-01-hats-2010/</loc>
     <lastmod>2011-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-29-el-retorno-de-linux-la-ps3/</loc>
     <lastmod>2010-12-29T20:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/editorial/</loc>
     <lastmod>2010-12-19T14:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/manifiesto/</loc>
     <lastmod>2010-12-19T14:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-19-no-la-ley-sinde/</loc>
     <lastmod>2010-12-19T14:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-18-app-de-playstation/</loc>
     <lastmod>2010-12-18T15:37:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-15-hats-2010/</loc>
     <lastmod>2010-12-15T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-13-si-la-vida-fuera-un-videojuego/</loc>
     <lastmod>2010-12-13T21:16:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/vida/</loc>
     <lastmod>2010-12-13T21:16:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/chrome-os/</loc>
     <lastmod>2010-12-08T20:29:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/cr-48/</loc>
     <lastmod>2010-12-08T20:29:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-08-llega-chrome-os/</loc>
     <lastmod>2010-12-08T20:29:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-06-google-nexus-s/</loc>
     <lastmod>2010-12-06T19:52:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-12-04-psphone/</loc>
     <lastmod>2010-12-04T16:15:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/16-bits/</loc>
     <lastmod>2010-11-30T16:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-30-crossover-race/</loc>
     <lastmod>2010-11-30T16:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-24-ubuntu-rolling-release/</loc>
     <lastmod>2010-11-24T20:01:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-18-el-wallpaper-de-chrome-os/</loc>
     <lastmod>2010-11-18T20:44:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-16-nexus-s/</loc>
     <lastmod>2010-11-16T13:35:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/bill-gates/</loc>
     <lastmod>2010-11-12T23:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-12-las-11-reglas-de-oro-de-bill-gates/</loc>
     <lastmod>2010-11-12T23:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-11-ayer-han-sacado-la-luz-una/</loc>
     <lastmod>2010-11-11T21:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-11-07-los-usuarios-de-smartphones/</loc>
     <lastmod>2010-11-07T13:13:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-25-lo-ultimo-de-ubuntu/</loc>
     <lastmod>2010-10-25T19:09:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/synapse/</loc>
     <lastmod>2010-10-24T18:55:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-24-synapse-one/</loc>
     <lastmod>2010-10-24T18:55:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-22-hackeada-la-web-de-kaspersky/</loc>
     <lastmod>2010-10-22T12:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-21-de-un-leon-y-un-suricato/</loc>
     <lastmod>2010-10-21T17:24:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-21-el-canon-ilegal/</loc>
     <lastmod>2010-10-21T16:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/coche/</loc>
     <lastmod>2010-10-12T00:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-12-el-coche-de-google-que-se-conduce-solo/</loc>
     <lastmod>2010-10-12T00:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-11-el-duelo-final/</loc>
     <lastmod>2010-10-11T13:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/goku/</loc>
     <lastmod>2010-10-11T13:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/mario/</loc>
     <lastmod>2010-10-11T13:36:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/blender/</loc>
     <lastmod>2010-10-03T17:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/sintel/</loc>
     <lastmod>2010-10-03T17:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-03-sintel/</loc>
     <lastmod>2010-10-03T17:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/software-libre/</loc>
     <lastmod>2010-10-03T17:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-10-03-reflexiones-geek/</loc>
     <lastmod>2010-10-03T16:42:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-26-falsos-mandos-de-ps3-podrian-explotar/</loc>
     <lastmod>2010-09-26T21:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/directx/</loc>
     <lastmod>2010-09-23T18:06:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-23-directx-11-nativo-para-linux/</loc>
     <lastmod>2010-09-23T18:06:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-20-frases-celebres/</loc>
     <lastmod>2010-09-20T20:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/custom-firmware/</loc>
     <lastmod>2010-09-19T21:22:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-19-destino-ps3-custom-firmware/</loc>
     <lastmod>2010-09-19T21:22:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/blueray/</loc>
     <lastmod>2010-09-16T14:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-16-sony-ha-anunciado-que-el-proximo-martes/</loc>
     <lastmod>2010-09-16T14:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-09-infinite-mario-bros/</loc>
     <lastmod>2010-09-09T17:40:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/gay/</loc>
     <lastmod>2010-09-09T17:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-09-microsoft-discrimina-los-gays/</loc>
     <lastmod>2010-09-09T17:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-08-reflexiones-geek_08/</loc>
     <lastmod>2010-09-08T02:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-05-curiosa-similitud/</loc>
     <lastmod>2010-09-05T13:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/backup-manager/</loc>
     <lastmod>2010-09-03T16:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-03-se-anuncia-backup-manager-11-con-varias/</loc>
     <lastmod>2010-09-03T16:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-03-reflexiones-geek_03/</loc>
     <lastmod>2010-09-03T14:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-02-microsoft-patenta-el-apagado-del/</loc>
     <lastmod>2010-09-02T12:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-01-psgroove-carga-copias-de-juegos-en/</loc>
     <lastmod>2010-09-01T23:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/usb/</loc>
     <lastmod>2010-09-01T23:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/chromium/</loc>
     <lastmod>2010-09-01T23:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-01-chromium-empezara-usar-la-gpu-para/</loc>
     <lastmod>2010-09-01T23:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/gpu/</loc>
     <lastmod>2010-09-01T23:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-01-reflexiones-geek/</loc>
     <lastmod>2010-09-01T19:29:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/jailbreal/</loc>
     <lastmod>2010-09-01T16:14:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-09-01-psjailbreak-codigo-liberado-y/</loc>
     <lastmod>2010-09-01T16:14:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/live/</loc>
     <lastmod>2010-08-31T14:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-31-xbox-live-se-encarece-un-20/</loc>
     <lastmod>2010-08-31T14:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-30-reflexiones-geek/</loc>
     <lastmod>2010-08-30T19:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/mantenimiento/</loc>
     <lastmod>2010-08-28T16:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-28-mantenimiento-tras-mantenimiento-en/</loc>
     <lastmod>2010-08-28T16:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/towner/</loc>
     <lastmod>2010-08-28T16:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/tuenti/</loc>
     <lastmod>2010-08-28T16:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-28-kinect-en-mexicano-y-190/</loc>
     <lastmod>2010-08-28T13:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-27-surf-waves/</loc>
     <lastmod>2010-08-27T00:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-26-hara-mas-o-menos-un-mes-movistar-compro/</loc>
     <lastmod>2010-08-26T23:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-26-todas-las-adquisiciones-de-google/</loc>
     <lastmod>2010-08-26T16:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/gmail/</loc>
     <lastmod>2010-08-26T16:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-26-google-prueba-el-hacer-y-recibir/</loc>
     <lastmod>2010-08-26T16:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/m%C3%B3vil/</loc>
     <lastmod>2010-08-26T16:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/ajedrez/</loc>
     <lastmod>2010-08-25T19:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-25-cual-es-el-mejor-programa-jamas-escrito/</loc>
     <lastmod>2010-08-25T19:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/programacion/</loc>
     <lastmod>2010-08-25T19:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/caleidoscopios/</loc>
     <lastmod>2010-08-25T19:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-25-caleidoscopios-virtuales/</loc>
     <lastmod>2010-08-25T19:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-23-lunatic-geek-cumple-un-ano/</loc>
     <lastmod>2010-08-23T17:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-20-tuenti-chat-tuenti-juegos-y-ahora/</loc>
     <lastmod>2010-08-20T17:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-20-chat-de-video-de-google-para-linux/</loc>
     <lastmod>2010-08-20T15:44:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-19-llegan-los-piratas-ps3/</loc>
     <lastmod>2010-08-19T18:39:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/modchip/</loc>
     <lastmod>2010-08-19T18:39:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-18-ubuntu-1104/</loc>
     <lastmod>2010-08-18T12:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-16-frases-celebres/</loc>
     <lastmod>2010-08-16T14:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-10-la-ultima-gran-mentira-de-microsoft/</loc>
     <lastmod>2010-08-10T20:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-06-resurreccion/</loc>
     <lastmod>2010-08-06T18:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/disco-duro/</loc>
     <lastmod>2010-08-02T17:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-08-02-filosofia-de-unos-bits/</loc>
     <lastmod>2010-08-02T17:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/maxtor/</loc>
     <lastmod>2010-08-02T17:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/move/</loc>
     <lastmod>2010-07-28T14:03:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-28-te-dejarias-operar-usando-move/</loc>
     <lastmod>2010-07-28T14:03:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-28-sony-springfield-para-frikis/</loc>
     <lastmod>2010-07-28T13:41:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-27-tipos-de-personas-que-se-dedican-la/</loc>
     <lastmod>2010-07-27T17:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/humor-chrome/</loc>
     <lastmod>2010-07-27T16:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/navegadores/</loc>
     <lastmod>2010-07-27T16:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-27-y-si-los-navegadores-fueran-alumnos-de/</loc>
     <lastmod>2010-07-27T16:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-27-back-to-back-to-future/</loc>
     <lastmod>2010-07-27T13:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/back-to-the-future/</loc>
     <lastmod>2010-07-27T13:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/regreso-al-futuro/</loc>
     <lastmod>2010-07-27T13:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-24-tab-candy/</loc>
     <lastmod>2010-07-24T17:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-24-raymodeler-3d/</loc>
     <lastmod>2010-07-24T16:41:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-18-qube/</loc>
     <lastmod>2010-07-18T16:28:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-12-spotify-para-linux/</loc>
     <lastmod>2010-07-12T18:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-07-04-para-que-copias-de-seguridad/</loc>
     <lastmod>2010-07-04T13:57:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-06-30-chrome-fastball/</loc>
     <lastmod>2010-06-30T18:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-06-30-probar-el-nuevo-menu-de-chromium/</loc>
     <lastmod>2010-06-30T12:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-06-30-mitos-sobre-virus/</loc>
     <lastmod>2010-06-30T01:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-06-29-extension-de-tuenti-para-chrome/</loc>
     <lastmod>2010-06-29T13:48:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-06-15-e3-conferencia-de-microoft/</loc>
     <lastmod>2010-06-15T08:48:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-05-20-hasta-el-infinito-y-mas-alla/</loc>
     <lastmod>2010-05-20T13:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-05-18-sheldon-says/</loc>
     <lastmod>2010-05-18T12:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-05-18-fanboys-informaticos/</loc>
     <lastmod>2010-05-18T09:47:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-05-17-frases-celebres/</loc>
     <lastmod>2010-05-17T20:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-05-17-si-el-assassins-tuviera-modo/</loc>
     <lastmod>2010-05-17T10:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-05-13-linux-is-sexy/</loc>
     <lastmod>2010-05-13T11:59:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-30-hp-slate/</loc>
     <lastmod>2010-04-30T13:04:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-26-calendario-de-ubuntu-1010/</loc>
     <lastmod>2010-04-26T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-13-sony-elimina-linux-de-ps3-de-forma/</loc>
     <lastmod>2010-04-13T09:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-13-un-interesante-simil/</loc>
     <lastmod>2010-04-13T09:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-10-la-pertinente-demanda/</loc>
     <lastmod>2010-04-10T12:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-08-renderizando-o/</loc>
     <lastmod>2010-04-08T12:21:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-06-frases-celebres-vi/</loc>
     <lastmod>2010-04-06T12:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-02-bazinga-para-sony/</loc>
     <lastmod>2010-04-02T21:19:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-02-la-inocentada-de-sony/</loc>
     <lastmod>2010-04-02T13:58:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-04-02-ubuntu-1010/</loc>
     <lastmod>2010-04-02T13:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-30-frases-celebres-v/</loc>
     <lastmod>2010-03-30T13:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-28-razones-por-las-que-los-que-trabajamos/</loc>
     <lastmod>2010-03-28T15:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-28-citas-celebres-iv/</loc>
     <lastmod>2010-03-28T15:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-26-hackean-internet-explorer-mozilla/</loc>
     <lastmod>2010-03-26T10:47:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-24-frases-celebres-iii/</loc>
     <lastmod>2010-03-24T12:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-20-nuevo-windows-virtual-pc/</loc>
     <lastmod>2010-03-20T17:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-20-ie9/</loc>
     <lastmod>2010-03-20T13:11:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-19-el-conflicto-de-los-botones/</loc>
     <lastmod>2010-03-19T19:37:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-15-si-los-navegadores-fueran-vehiculos/</loc>
     <lastmod>2010-03-15T12:22:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-14-redisenando/</loc>
     <lastmod>2010-03-14T19:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-09-wallpaper-de-ubuntu/</loc>
     <lastmod>2010-03-09T14:09:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-06-poderes-de-super-vaca/</loc>
     <lastmod>2010-03-06T17:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-04-el-lavado-de-cara-de-ubuntu/</loc>
     <lastmod>2010-03-04T11:38:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-03-wallpaper-del-8001050f/</loc>
     <lastmod>2010-03-03T18:31:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-02-blog-post/</loc>
     <lastmod>2010-03-02T12:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-02-el-efecto-ps3y2k/</loc>
     <lastmod>2010-03-02T11:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-03-01-frases-celebres-ii/</loc>
     <lastmod>2010-03-01T10:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-28-eagle-mode/</loc>
     <lastmod>2010-02-28T12:50:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-28-autodestruccion/</loc>
     <lastmod>2010-02-28T12:09:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-25-rumores-sobre-ubuntu/</loc>
     <lastmod>2010-02-25T10:47:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-23-evolution-of-species/</loc>
     <lastmod>2010-02-23T09:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-22-la-muerte-de-ie/</loc>
     <lastmod>2010-02-22T12:51:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-19-super-mario-forever/</loc>
     <lastmod>2010-02-19T13:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-15-aprende-navi/</loc>
     <lastmod>2010-02-15T11:47:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-12-lo-nuevo-de-youtube/</loc>
     <lastmod>2010-02-12T18:51:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-03-ipad-vs-telesketch/</loc>
     <lastmod>2010-02-03T17:07:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-02-01-hats-09/</loc>
     <lastmod>2010-02-01T12:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-28-hats/</loc>
     <lastmod>2010-01-28T17:29:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-28-espanoles-en-un-anuncio-japones/</loc>
     <lastmod>2010-01-28T16:18:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-27-malas-noticias-para-sony-o-buenas-para/</loc>
     <lastmod>2010-01-27T22:54:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-27-web-como-windows-31/</loc>
     <lastmod>2010-01-27T09:43:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-26-frases-celebres/</loc>
     <lastmod>2010-01-26T13:25:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-25-ps3-media-server/</loc>
     <lastmod>2010-01-25T12:35:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-24-el-exitazo-de-ventas-sobre-todo-para/</loc>
     <lastmod>2010-01-24T12:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-22-tu-avatar-de-south-park/</loc>
     <lastmod>2010-01-22T20:14:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-22-youtube-con-html5/</loc>
     <lastmod>2010-01-22T19:52:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-17-portable-ubuntu-remix/</loc>
     <lastmod>2010-01-17T17:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-14-chromium-os-zero/</loc>
     <lastmod>2010-01-14T12:02:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-09-ubuntu-1004-vendra-con-manual/</loc>
     <lastmod>2010-01-09T15:57:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-05-nexus-one/</loc>
     <lastmod>2010-01-05T20:58:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-04-el-legado-de-spotify/</loc>
     <lastmod>2010-01-04T13:16:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2010-01-01-evolucion-y-tendencias-en-el-mercado/</loc>
     <lastmod>2010-01-01T05:12:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-29-trailer-del-nuevo-kingdom-hearts-de-psp/</loc>
     <lastmod>2009-12-29T14:04:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-29-el-netbook-de-google/</loc>
     <lastmod>2009-12-29T13:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-18-regala-chrome/</loc>
     <lastmod>2009-12-18T12:12:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-18-mark-shuttleworth-dimite/</loc>
     <lastmod>2009-12-18T12:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-13-huele-google-phone/</loc>
     <lastmod>2009-12-13T13:16:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-12-ligando-con-la-xbox/</loc>
     <lastmod>2009-12-12T17:08:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-12-webgl/</loc>
     <lastmod>2009-12-12T16:47:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-08-yahoo-owned/</loc>
     <lastmod>2009-12-08T16:45:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-05-la-nueva-interfaz-de-google/</loc>
     <lastmod>2009-12-05T13:36:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-12-05-lcd-vs-oled/</loc>
     <lastmod>2009-12-05T13:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-26-prueba-chromium-os/</loc>
     <lastmod>2009-11-26T12:09:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-16-piratear-windows-7/</loc>
     <lastmod>2009-11-16T13:12:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-16-la-resurreccion-de-sega-mega-drive/</loc>
     <lastmod>2009-11-16T12:40:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-13-el-nuevo-protocolo-spdy/</loc>
     <lastmod>2009-11-13T11:55:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-11-go-lo-nuevo-de-google/</loc>
     <lastmod>2009-11-11T11:46:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-10-doodles-de-barrio-sesamo/</loc>
     <lastmod>2009-11-10T20:49:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-08-un-posible-nuevo-iphone/</loc>
     <lastmod>2009-11-08T16:59:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-08-distintas-interpretaciones-de-is-it/</loc>
     <lastmod>2009-11-08T13:41:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-07-kde-44/</loc>
     <lastmod>2009-11-07T14:24:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-07-chromium-mejor-en-linux/</loc>
     <lastmod>2009-11-07T14:10:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-11-01-probando-ubuntu-910/</loc>
     <lastmod>2009-11-01T13:03:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-28-calendario-de-ubuntu-1004-lucid-lynx/</loc>
     <lastmod>2009-10-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-25-lo-mejor-de-mario/</loc>
     <lastmod>2009-10-25T19:48:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-24-el-ocaso-de-los-idolos/</loc>
     <lastmod>2009-10-24T13:24:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-23-linus/</loc>
     <lastmod>2009-10-23T20:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-23-themes/</loc>
     <lastmod>2009-10-23T12:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-21-hace-poco-ea-games-ha-sacado-al-mercado/</loc>
     <lastmod>2009-10-21T12:02:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-17-la-mejor-definicion-de-linux/</loc>
     <lastmod>2009-10-17T12:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-17-los-cds-de-ubuntu-910/</loc>
     <lastmod>2009-10-17T12:29:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-16-eres-chrome-os/</loc>
     <lastmod>2009-10-16T12:43:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-12-los-rumores-sobre-chrome-os/</loc>
     <lastmod>2009-10-12T12:26:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-06-mas-temas-para-chrome/</loc>
     <lastmod>2009-10-06T11:54:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-05-psp-go-pirateada/</loc>
     <lastmod>2009-10-05T11:47:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-10-02-lo-que-opino-de-steve-ballmer/</loc>
     <lastmod>2009-10-02T11:32:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-29-el-cable-de-intel/</loc>
     <lastmod>2009-09-29T12:01:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-25-wii-mas-barata-y-bronca-al-nintendero/</loc>
     <lastmod>2009-09-25T17:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-24-gnome-228/</loc>
     <lastmod>2009-09-24T19:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-24-google-salva-internet-explorer/</loc>
     <lastmod>2009-09-24T10:57:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-22-big-bang-theory-3-temporada/</loc>
     <lastmod>2009-09-22T19:45:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-20-yellow-light-of-death/</loc>
     <lastmod>2009-09-20T19:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-20-intel-colaborara-en-chrome-os/</loc>
     <lastmod>2009-09-20T19:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-20-ubuntu-1004/</loc>
     <lastmod>2009-09-20T13:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-19-big-bnag/</loc>
     <lastmod>2009-09-19T18:25:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-16-acabara-google-con-google/</loc>
     <lastmod>2009-09-16T18:53:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-16-chromeexperiments/</loc>
     <lastmod>2009-09-16T18:08:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-16-ubuntu-religioso-o-satanico/</loc>
     <lastmod>2009-09-16T17:51:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-14-win7-ads/</loc>
     <lastmod>2009-09-14T12:46:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-12-malas-noticas-para-microsoft/</loc>
     <lastmod>2009-09-12T16:37:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-11-declaracion-de-intenciones/</loc>
     <lastmod>2009-09-11T18:13:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-11-xbill/</loc>
     <lastmod>2009-09-11T18:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-11-open-sonic/</loc>
     <lastmod>2009-09-11T18:06:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-11-psp-go/</loc>
     <lastmod>2009-09-11T18:05:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-10-jobs-vuelve-al-trabajo/</loc>
     <lastmod>2009-09-10T12:07:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-09-el-chat-de-tuenti/</loc>
     <lastmod>2009-09-09T17:38:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-09-llegera-el-porno-la-ps3/</loc>
     <lastmod>2009-09-09T12:53:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-08-monopoly-city-streets/</loc>
     <lastmod>2009-09-08T18:17:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-08-ps3-en-japon/</loc>
     <lastmod>2009-09-08T12:09:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-07-bill-gates-vs-steve-jobs/</loc>
     <lastmod>2009-09-07T18:54:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-04-linux-vs-windows/</loc>
     <lastmod>2009-09-04T19:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-01-actualizacion-del-software-de-ps3/</loc>
     <lastmod>2009-09-01T20:52:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-09-01-god-of-war-collection-ps3/</loc>
     <lastmod>2009-09-01T20:44:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-08-26-opera-10/</loc>
     <lastmod>2009-08-26T17:11:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-08-24-mac-os-x-106-snow-leopard_24/</loc>
     <lastmod>2009-08-24T19:19:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/2009-08-23-yahoo-microsoft/</loc>
     <lastmod>2009-08-23T17:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/about/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lunaticgeek.com/archives/</loc>
     <priority>0</priority>
   </url>
-  
 </urlset>

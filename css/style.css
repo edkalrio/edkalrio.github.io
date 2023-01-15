@@ -54,7 +54,7 @@ html {
 body {
 	/*font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;*/
 	font-family: sans-serif;
-	color: #444444;
+	color: black;
 	overflow-y: scroll;
 	line-height: 1.2;
 	hyphens: auto;
@@ -63,21 +63,22 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		color: #ddd;
+		color: white;
 		background-color: black;
 	}
 	h1 img {
-		filter: invert(.25);
+		filter: invert();
 	}
 }
 
 a {
-	color: #2060d0;
+	color: #006DFB;
 	text-decoration: none;
 }
 a:hover, a:active {
 	color: #5090ff;
 }
+
 hr {
 	height: 1px;
 	border: 0;
@@ -126,6 +127,7 @@ blockquote blockquote blockquote blockquote {
 	justify-content: flex-end;
 	-webkit-align-items: baseline;
 	align-items: baseline;
+	margin-top: -2.5rem;
 	padding-bottom: 8px;
 }
 .site-navi a {
@@ -266,7 +268,7 @@ blockquote blockquote blockquote blockquote {
 .article-meta a {
 	color: inherit;
 }
-.article-meta a:hover, .article-meta a:active {
+.article-meta li a:hover, .article-meta li a:active {
 	color: gray;
 }
 .article-meta li{
@@ -550,9 +552,6 @@ blockquote blockquote blockquote blockquote {
 	-webkit-flex-grow: 0;
 	flex-grow: 0;
 }
-.archives .archives-item > a:visited {
-	color: #a8a8a8;
-}
 .archives .archives-item time {
 	-webkit-flex-grow: 1;
 	flex-grow: 1;
@@ -678,7 +677,7 @@ img {
 }
 
 .twitter {
-	color: #2060d0;
+	color: #006DFB;
 }
 
 .twitter:hover a, .twitter:active a {

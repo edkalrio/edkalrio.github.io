@@ -80,7 +80,7 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
 <p>La industria informática no ha tardado en dar solución a este problema inexistente, para que los pobres empresarios dejen de llorar, con apps para fichar y máquinas de control biométrico.</p>
 <p>Afortunadamente nosotros somos usuarios de sistemas basados en Unix y sabemos que nada de eso es necesario porque conocemos el comando <code>last</code> cuyo existencia puede remontarse hasta mediados de los 70, cuando se empleaba el archivo <code>/usr/adm/wtmp</code> para almacenar datos de inicio y fin de sesión en servidores Unix. En la actualidad <code>last</code> forma parte del paquete <code>util-linux</code> en las distros Linux y se encarga de leer el archivo binario <code>/var/log/wtmp</code>. No ha cambiado gran cosa en 45 años&hellip;</p>
 <p>Personalmente utilizo el siguiente one-liner para obtener el registro con un formato más ordenado y estético:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">last <span class="nv">$USER</span> --time-format iso -s <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span> -d <span class="s2">&#34;-1 month&#34;</span><span class="k">)</span> -t <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span><span class="k">)</span> <span class="p">|</span> cut -f 28-30 -d <span class="s1">&#39; &#39;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">last <span class="nv">$USER</span> --time-format iso -s <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span> -d <span class="s2">&#34;-1 month&#34;</span><span class="k">)</span> -t <span class="k">$(</span>date <span class="s2">&#34;+%Y-%m-01&#34;</span><span class="k">)</span> <span class="p">|</span> cut -f 28-30 -d <span class="s1">&#39; &#39;</span>
 </code></pre></div><p>Cualquier administrador de sistemas puede obtener estos datos de todos los usuarios que se conecten al servidor central de la empresa para trabajar por SSH. El problema de este método es que las empresas no suelen trabajar así. Han abandonado el ecosistema de Unix y ahora tienen que enmendar su falta comprando cacharros o contratando apps de terceros que tienen acceso a sus datos. Ellos se lo pierden.</p>
 
 			<div property="author" typeof="Person">
@@ -102,7 +102,7 @@ Son estos honrados empresarios los que llevan quejándose de esta medida durante
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

@@ -30,7 +30,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Desde luego no es una mecánica que hubiera visto antes en ninguna parte y parecía interesante, así que no tardé en hacer unas simulaciones para analizar su funcionamiento.&lt;/p&gt;
 &lt;p&gt;Como hace bastante que no programo nada en R, he decidido pasar de mi querido Python para recordar los viejos tiempos, y escribir un pequeño script, bastante chapucero y nada funcional porque en este caso me parecía incómodo usar los &lt;code&gt;*apply()&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;nf&#34;&gt;set.seed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;123&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;nf&#34;&gt;set.seed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;123&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;generator24d6&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
     &lt;span class=&#34;n&#34;&gt;roll&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;sample&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;TRUE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
     &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;roll&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -51,7 +51,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La distribución obtenida es horripilante, informe, multimodal y parece una mano ✋. Personalmente no me gusta nada. Es tan innecesariamente complicada que preferiría repartir los valores {3,6,9,12,15,18} y que cada uno los asignase al atributo que prefiera.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/24d6.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;La intención del autor era que los personajes tuvieran unos atributos más variados, que no estuvieran concentrados en los mismos valores de siempre. Es decir, generar distribuciones con &amp;ldquo;colas gordas&amp;rdquo; en las que se incrementara la varianza. Aunque esto se puede hacer con dados, las mecánicas se hacen cada vez más exóticas. Personalmente, recomendaría tirar &lt;code&gt;1d10+3dF&lt;/code&gt; por cada atributo. Otra forma sería simular una distribución uniforme con &lt;code&gt;1d16+2&lt;/code&gt; que podríamos emular con &lt;code&gt;1d4*4+1d4+2&lt;/code&gt;, pero teniendo ordenadores a mano, me parece un desperdicio no hacerlo de forma óptima con R&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;nf&#34;&gt;rtruncnorm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mean&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;nf&#34;&gt;rtruncnorm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mean&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Esta línea nos devolvería una lista con los seis atributos del juego de rol más famoso de la historia, distribuidos según una Normal con desviación típica igual a cuatro, que es aproximadamente la que se obtiene con el método este raro de los &lt;code&gt;24d6&lt;/code&gt; y ligéramente menor a los 4.6 que nos daría la uniforme, que es el mayor valor posible para este rango.&lt;/p&gt;
 &lt;p&gt;La moraleja de esta historia, sin embargo, es que estas mecánicas son todas una porquería y más valdría quedarse con la original. Una de las máximas fundamentales de la OSR es que las puntuaciones de los PJs no importan tanto como la habilidad de los propios jugadores, o al menos así es como yo lo entiendo, por lo que todo este debate no tiene ningún sentido y se deberían priorizar otras facetas del juego más relevantes.&lt;/p&gt;
 </content>
@@ -108,7 +108,7 @@
 &lt;p&gt;Me imagino que no soy el único que se ha visto obligado a añadir a su lista de servidores IRC a &lt;a href=&#34;ircs://irc.libera.chat:6697/&#34;&gt;Libera.Chat&lt;/a&gt; después del &lt;a href=&#34;https://www.kline.sh/&#34;&gt;culebrón&lt;/a&gt; formado por la dimisión en bloque de administradores y operadores de Freenode, que no han tolerado que los intereses corporativos tomasen el control de la plataforma para transformarla en un mero vehículo publicitario para la compañía propietaria, que se estaría aprovechando del trabajo desinteresado de todos estos voluntarios.&lt;/p&gt;
 &lt;p&gt;Voy a aprovechar que toca configurar otra vez mi cliente de IRC para compartir un truco bastante bizarro sobre CertFP. Este método de autentificación mediante certificado autofirmado SSL se utiliza externamente, junto con SASL como identificador, para acceder de forma automática y segura, encriptado de extremo a extremo. En las guías de todos los servidores IRC se explica su activación para los clientes más comunes y yo no voy a hacer un tutorial; me remito a dicha &lt;a href=&#34;https://libera.chat/guides/certfp/&#34;&gt;documentación&lt;/a&gt;. De lo que trata esta entrada es de dejar claro que CertFP funciona con cualquier certificado SSL en formato &lt;code&gt;pem&lt;/code&gt;, como nuestro certificado digital de la &lt;a href=&#34;https://lunaticgeek.com/2017-05-03-fracasos-con-el-certificado-digital-de/&#34;&gt;FNMT&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Es posible convertir el certificado original, encriptado en &lt;code&gt;p12&lt;/code&gt; en un &lt;code&gt;pem&lt;/code&gt; que reconozca Libera.Chat o cualquier otro servidor IRC moderno. Para ello sólo tenemos que ejecutar&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;openssl pkcs12 -in fnmt.p12 -out libera.pem -nodes
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;openssl pkcs12 -in fnmt.p12 -out libera.pem -nodes
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;en lugar de crear un certificado autofirmado nuevo, para moverlo al directorio apropiado del cliente IRC. En caso de error, lo más probable es que el back end SSL del servidor no entienda el orden de la cadena de confianza del &lt;code&gt;pem&lt;/code&gt;. Hay que asegurarse de que el primer certificado inmediatemente después de la clave privada es el de persona física.&lt;/p&gt;
 &lt;p&gt;Lo he probado en &lt;code&gt;irssi&lt;/code&gt; y &lt;code&gt;weechat&lt;/code&gt;. Funciona perfectamente. Puede que no sea mejor que crear uno autofirmado sobre el que tengamos plena libertad para prescindir de autoridades certificadoras, de asignar valores a los campos, decidir la fecha de expiración y el nivel de seguridad.&lt;/p&gt;
 &lt;p&gt;Sobre la seguridad quería hacer un último apunte. Quizás tener nuestro certificado digital de la FNMT desencriptado en el ordenador no sea la mejor idea. Por defecto, SSL le asigna los permisos &lt;code&gt;600&lt;/code&gt;, que son los mismos que tiene cualquier clave privada SSH. En principio no debería de haber ningún problema si somos mínimamente cuidadosos y tratamos con la debida diligencia nuestros datos, pero es un punto a tener en cuenta y no quería terminar sin señalarlo.&lt;/p&gt;
@@ -123,7 +123,7 @@
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/fate-condensado-d12/</id>
-		<content type="html">&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+		<content type="html">&lt;!-- &lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt; --&gt;
 &lt;center&gt;&lt;img src=&#34;https://1d12monos.com/wp-content/uploads/Portada_descarga_FC.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Con motivo del lanzamiento de la edición en español de la versión condensada
 de &lt;a href=&#34;https://fate.1d12monos.com/&#34;&gt;Fate&lt;/a&gt; me ha parecido gracioso escribir unas pocas líneas sobre la mecánica
@@ -133,7 +133,42 @@ centrado en cero, al contrario que en cualquier otro dado, y esta es una
 característica que me encanta. Desde que se propusieron los dados Fudge,
 se aclaró que su uso era equivalente al de los &lt;code&gt;d6&lt;/code&gt;, mapeando su puntuación con
 la función&lt;/p&gt;
-&lt;p&gt;$$4dF = \sum_{i=1}^{4} \left \lfloor \frac{d_{i}6-3}{2} \right \rfloor$$&lt;/p&gt;
+&lt;!-- $$4dF = \sum_{i=1}^{4} \left \lfloor \frac{d_{i}6-3}{2} \right \rfloor$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mn&gt;4&lt;/mn&gt;
+    &lt;mi&gt;d&lt;/mi&gt;
+    &lt;mi&gt;F&lt;/mi&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mrow&gt;
+      &lt;munderover&gt;
+        &lt;mo movablelimits=&#34;false&#34;&gt;∑&lt;/mo&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;i&lt;/mi&gt;
+          &lt;mo&gt;=&lt;/mo&gt;
+          &lt;mn&gt;1&lt;/mn&gt;
+        &lt;/mrow&gt;
+        &lt;mn&gt;4&lt;/mn&gt;
+      &lt;/munderover&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;prefix&#34;&gt;⌊&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mrow&gt;
+          &lt;msub&gt;
+            &lt;mi&gt;d&lt;/mi&gt;
+            &lt;mi&gt;i&lt;/mi&gt;
+          &lt;/msub&gt;
+          &lt;mn&gt;6&lt;/mn&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mn&gt;3&lt;/mn&gt;
+        &lt;/mrow&gt;
+        &lt;mn&gt;2&lt;/mn&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;postfix&#34;&gt;⌋&lt;/mo&gt;
+    &lt;/mrow&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;o parafraseando a los autores de Fate:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Los dados Fate son dados de seis caras con dos caras con 𓂃, dos con ⊞ y dos con ⊟. Con un juego de cuatro dados es suficiente, pero lo ideal es tener un juego de dados por jugador. Existen otras alternativas, como usar dados estándar de seis caras (1-2 = ⊟, 3-4 = 𓂃, 5-6 = ⊞)&lt;/p&gt;
@@ -144,7 +179,29 @@ como para aproximar el dibujo con unas rectas, en lo que formaría una
 distribución triangular. Resulta que podemos obtener una distribución muy
 similar con una tirada de dos dados, lo que es tremendamente inusual y nunca
 pensé que pudiera producirse. Esta es&lt;/p&gt;
-&lt;p&gt;$$4dF \approx \left \lfloor \frac{2d12}{3} \right \rfloor -4$$&lt;/p&gt;
+&lt;!-- $$4dF \approx \left \lfloor \frac{2d12}{3} \right \rfloor -4$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mn&gt;4&lt;/mn&gt;
+    &lt;mi&gt;d&lt;/mi&gt;
+    &lt;mi&gt;F&lt;/mi&gt;
+    &lt;mo&gt;≈&lt;/mo&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;prefix&#34;&gt;⌊&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mrow&gt;
+          &lt;mn&gt;2&lt;/mn&gt;
+          &lt;mi&gt;d&lt;/mi&gt;
+          &lt;mn&gt;12&lt;/mn&gt;
+        &lt;/mrow&gt;
+        &lt;mn&gt;3&lt;/mn&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;postfix&#34;&gt;⌋&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mo&gt;−&lt;/mo&gt;
+    &lt;mn&gt;4&lt;/mn&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;Nuestra aproximación es bastante acertada, como se puede ver a continuación. El código que he utilizado en &lt;a href=&#34;https://lunaticgeek.com/tags/r/&#34;&gt;R&lt;/a&gt; para generar el gráfico está comentado en el código HTML de esta misma página.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/4dF_vs_2d6_3-4.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Estoy convencido de que una tirada así haría llorar a cualquier jugador
@@ -274,7 +331,7 @@ lines(x, fate$d12, type=&#34;l&#34;, lwd=1.5, xlab = &#34;&#34;, ylab = &#34;&#3
 &lt;li&gt;Descargo&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;bsd-2-clause&#34;&gt;BSD-2-Clause&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;COPYRIGHT HOLDER&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;COPYRIGHT HOLDER&amp;gt;
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -284,7 +341,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &amp;quot;AS IS&amp;quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;mit&#34;&gt;MIT&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;COPYRIGHT HOLDER&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;COPYRIGHT HOLDER&amp;gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -294,7 +351,7 @@ THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Analizando detenidamente las licencias he podido corroborar mi idea original de que Ars Technica se equivoca. No encuentro ambiguedad en la redacción de la MIT ni mayor claridad en la BSD-2-Clause. Las concesiones de la MIT amplían los conceptos del derecho de redistribución y uso de la BSD-2-Clause con los de copia, modificación, mezcla, publicación, distribución, venta y subrogación. Las cláusulas de la BSD-2-Clause son lígeramente más claras porque explicitan la inclusión de la licencia en redistribuciones de binarios aunque en la MIT se sobreentiende que deben figurar en la documentación asociada. Además encuentro el descargo de responsabilidad de la BSD-2-Clause innecesariamente farragoso.&lt;/p&gt;
 &lt;p&gt;Este análisis es muy similar al que debieron de hacer en la NCSA cuando decidieron mezclar las mejores partes de estas dos licencias para crear otra nueva, porque nunca hay demasiadas licencias cuando sufres del síndrome de &lt;a href=&#34;https://en.wikipedia.org/wiki/Not_invented_here&#34;&gt;NIH&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ncsa&#34;&gt;NCSA&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Copyright (c) &amp;lt;YEAR&amp;gt; &amp;lt;OWNER ORGANIZATION NAME&amp;gt;.  All rights reserved.
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Copyright (c) &amp;lt;YEAR&amp;gt; &amp;lt;OWNER ORGANIZATION NAME&amp;gt;.  All rights reserved.
 
 
 Developed by: &amp;lt;NAME OF DEVELOPMENT GROUP&amp;gt;
@@ -326,14 +383,14 @@ SOFTWARE.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;La NCSA combina el apartado de concesiones y el descargo de la MIT con las cláusulas de la BSD-3-Clause.
 Incluso si le concediésemos a Ars Technica la razón, su recomendación de la BSD-2-Clause no parece la alternativa óptima. Si se busca la claridad en el texto no me parece que haya ninguna mejor que la licencia ISC, desarrollada por el Internet Systems Consortium, aprobada por la FSF y la OSI.&lt;/p&gt;
 &lt;h3 id=&#34;isc&#34;&gt;ISC&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;OWNER&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Copyright &amp;lt;YEAR&amp;gt; &amp;lt;OWNER&amp;gt;
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
 THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;La moraleja de toda esta revisión es que como economista especializado en derecho mercantil, recomiendo utilizar la licencia permisiva que cada cual prefiera. Todas presentan los mismos derechos y obligaciones con redacciones suficientemente similares y son igualmente válidas ante los tribunales en caso de conflicto entre partes. Personalmente mi preferida es la ISC pero nunca la he utilizado porque la MIT es la elección estándar. Todos los programadores la conocen y saben utilizarla. Si queremos ponernos exóticos podríamos incluso acudir a la licencia Fair.&lt;/p&gt;
 &lt;h3 id=&#34;fair&#34;&gt;Fair&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;Copyright Information&amp;gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;Copyright Information&amp;gt;
 
 Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.
 
@@ -514,7 +571,7 @@ output d12&gt;=3
 &lt;p&gt;Hace mucho tiempo que llevo queriendo añadir soporte para resultados enriquecidos de búsqueda de Google al blog y por fin me he puesto a ello. Desde que migré de Blogger tengo habilitado el soporte para &lt;a href=&#34;https://ogp.me/&#34;&gt;Open Graph&lt;/a&gt; y la búsqueda enriquecida es más de lo mismo, transformar la web en objetos con contenido semántico que puedan interpretarse de forma estandarizada.&lt;/p&gt;
 &lt;p&gt;Google recomienda encarecidamente el uso de JSON-LD como lenguaje para expresar estos datos estructurados pero yo he decidido hacerlo en &lt;a href=&#34;https://www.w3.org/TR/rdfa-primer/&#34;&gt;RDFa&lt;/a&gt; para ser coherente con el diseño de Open Graph, o puede que sea porque ahora está de moda la &lt;a href=&#34;https://composition-api.vuejs.org/&#34;&gt;Composition API&lt;/a&gt; de Vue 3 y veo en la solución de JSON-LD un formato que tiende a la redundancia innecesaria de la información, aunque su presentación es claramente superior. Espero no arrepentirme de esta decisión pero en cualquier caso, no es grave y puedo dar marcha atrás en cualquier momento.&lt;/p&gt;
 &lt;p&gt;Escribo este post porque los datos estructurados en RDFa no son tan intuitivos como si los programáramos en JSON-LD. El principal problema radica en que nadie se ha leído la documentación y Google no ofrece ejemplos. Por esta razón he decidido resumir en un snippet básico la estructura que tendrían estos datos para que fueran aceptados como un &lt;a href=&#34;https://developers.google.com/search/docs/data-types/article&#34;&gt;artículo&lt;/a&gt; válido por el buscador.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;article&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;vocab&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://schema.org/&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;BlogPosting&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;article&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;vocab&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://schema.org/&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;typeof&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;BlogPosting&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;property&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;image&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://example.com/image.png&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
 	&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;property&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;headline&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Title&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;property&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;datePublished&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;YYYY-MM-DDTHH:MM:SS&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
@@ -550,7 +607,7 @@ output d12&gt;=3
 &lt;p&gt;Las ventajas de este cambio que más me interesan son la posibilidad de programar el favicon en vez de dibujarlo en un software de edición de gráficos (como ya he hecho en otras &lt;a href=&#34;https://github.com/edkalrio/handmade-svg&#34;&gt;ocasiones&lt;/a&gt;) y el dinamismo que esto permite. Por ejemplo, se podría cambiar su color en función del estado de la web, como hace &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis CI&lt;/a&gt; pero en vez de recurrir al backend para generar bajo demanda el favicon correcto en cada momento, se podría hacer en el frontend, sin necesidad de realizar una petición extra al servidor.&lt;/p&gt;
 &lt;p&gt;Otra posibilidad que nos brinda esta novedad es la inserción de texto en el SVG que va a ser nuestro favicon. Y cuando me refiero a texto, en realidad estoy pensando en emojis. La principal expresión de la comunicación online y favorita de la generación Z, los emojis encapsulan significado en un solo glifo como otros alfabetos logográficos pero sin perder la correlación intuitiva que existe entre significante y significado, al contrario que otros como el &lt;a href=&#34;https://en.wikipedia.org/wiki/Kanji&#34;&gt;kanji&lt;/a&gt; o el &lt;a href=&#34;https://en.wikipedia.org/wiki/Chinese_characters&#34;&gt;hanzi&lt;/a&gt; en cuya evolución milenaria han ido simplificando los trazos hasta perder su identidad primigenia.&lt;/p&gt;
 &lt;p&gt;Después de experimentar con distintos valores, he encontrado que el óptimo es un viewBox de 19x19. Normalmente se utilizan los de base 100 pero luego habría que reajustar el tamaño del texto y me parece una operación innecesaria. El tamaño indicado maximiza el área del emoji sin que se produzcan recortes en los bordes. El ajuste vertical de 15 parece ser el más centrado pero lo he hecho a ojo y puede que haya que ajustar un pixel más en algunos emojis concretos.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;icon&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;data:image/svg+xml,&amp;lt;svg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 19 19&amp;#39;&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;icon&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;data:image/svg+xml,&amp;lt;svg xmlns=&amp;#39;http://www.w3.org/2000/svg&amp;#39; viewBox=&amp;#39;0 0 19 19&amp;#39;&amp;gt;
 &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;	&amp;lt;text y=&amp;#39;15&amp;#39;&amp;gt;
 &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;		😂
 &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;	&amp;lt;/text&amp;gt;
@@ -567,11 +624,38 @@ output d12&gt;=3
 		</author>
 		<id>https://lunaticgeek.com/hex-flowers/</id>
 		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/hex-flower.png&#34; /&gt;&lt;/center&gt;
-&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+&lt;!-- &lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt; --&gt;
 &lt;p&gt;&lt;a href=&#34;https://goblinshenchman.wordpress.com/&#34;&gt;Goblin&amp;rsquo;s Henchman&lt;/a&gt; es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: &lt;em&gt;&amp;ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos en función del resultado de una tirada de &lt;code&gt;2d6&lt;/code&gt;. Hay que aclarar que el desplazamiento no afecta a los PJs sino a una serie de eventos del juego. Se trata de una representación geométrica de una tabla aleatoria.&lt;/p&gt;
 &lt;p&gt;El autor señala que las Hex Flores tienen memoria, lo que es incorrecto. La memoria se refiere a los acontecimientos pasados mientras que estas flores evolucionan teniendo en cuenta sólo su posición actual, lo que en matemáticas hace que sean equivalentes a &lt;a href=&#34;https://en.wikipedia.org/wiki/Markov_chain&#34;&gt;cadenas de Markov&lt;/a&gt;, modelo estocástico cuya principal característica es esta capacidad para describir eventos futuros que sólo guardan una relación de dependencia con el presente. Formalmente se expresa como&lt;/p&gt;
-&lt;p&gt;$$\Pr(X_{n+1}=j\mid X_n=i)$$&lt;/p&gt;
+&lt;!-- $$\Pr(X_{n+1}=j\mid X_n=i)$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mrow&gt;
+      &lt;mi&gt;Pr&lt;/mi&gt;
+      &lt;mo&gt;⁡&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;X&lt;/mi&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mi&gt;j&lt;/mi&gt;
+    &lt;mo lspace=&#34;0.22em&#34; rspace=&#34;0.22em&#34; stretchy=&#34;false&#34;&gt;|&lt;/mo&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;X&lt;/mi&gt;
+      &lt;mi&gt;n&lt;/mi&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mi&gt;i&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;Las Hex Flores son cadenas de Markov en tiempo-homogéneo finito, irreducibles, aperiódicas y regulares. Fijándose en las probabilidades que dirigen el movimiento entre eventos podemos deducir una matriz de transición (&lt;em&gt;Q&lt;/em&gt;). En la siguiente tabla he expresado las probabilidades multiplicadas por 36 para mayor claridad y simplicidad, en una matriz que ya es de por sí suficientemente grande.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1023,7 +1107,7 @@ output d12&gt;=3
 &lt;p&gt;La Hex Flor es irreducible porque todos sus estados son recurrentes, es decir, que se puede navegar entre cualquier par de estados en un número finito de pasos porque la probabilidad entre ellos es siempre positiva. Esto implica que su comportamiento a largo plazo va a tender a una situación de equilibrio denominado estado estacionario, independiente de las condiciones iniciales de la cadena. Como existe un estado estacionario, la distribución de probabilidad marginal un movimiento después coincide con la del estado estacionario, e incluso con la del movimiento anterior porque el estado estacionario supone que la cadena sea reversible en el tiempo. Entonces &lt;em&gt;sQ=s&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Esto es como decir que &lt;em&gt;∞+1=∞&lt;/em&gt; y &lt;em&gt;∞-1=∞&lt;/em&gt; pero no hablo muy alto porque no quiero buscarme problemas con matemáticos.&lt;/p&gt;
 &lt;p&gt;Para hallar el valor de &lt;em&gt;s&lt;/em&gt; hay que darse cuenta de que no es otra cosa que el &lt;a href=&#34;https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors&#34;&gt;vector propio izquierdo&lt;/a&gt; de la matriz &lt;em&gt;Q&lt;/em&gt;. La ventaja de tener una matriz de 19 estados es que no hay posibilidad de calcularlo de forma algebraica y tendremos que recurrir a nuestro ordenador con R.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;36&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;rbind&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;36&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;rbind&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
 	&lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
 	&lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
 	&lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
@@ -1044,10 +1128,32 @@ output d12&gt;=3
 	&lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
 	&lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Como casi todos los paquetes estadísticos, R calcula sólo el vector propio derecho, pero nosotros necesitamos el izquierdo (en operaciones matriciales no existe la propiedad conmutativa), luego tendremos que trasponer la matriz.
-$$sQ=s\leftrightarrow Q&amp;rsquo;s&#39;=s&#39;$$
-Además hay que normalizar el vector propio para que sus componentes sumen uno, expresando las probabilidades de cada estado en la distribución estacionaria.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;eigen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vectors&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Como casi todos los paquetes estadísticos, R calcula sólo el vector propio derecho, pero nosotros necesitamos el izquierdo (en operaciones matriciales no existe la propiedad conmutativa), luego tendremos que trasponer la matriz.&lt;/p&gt;
+&lt;!-- $$sQ=s\leftrightarrow Q&#39;s&#39;=s&#39;$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+    &lt;mi&gt;Q&lt;/mi&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+    &lt;mo stretchy=&#34;false&#34;&gt;↔&lt;/mo&gt;
+    &lt;msup&gt;
+      &lt;mi&gt;Q&lt;/mi&gt;
+      &lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34; class=&#34;tml-prime&#34;&gt;′&lt;/mo&gt;
+    &lt;/msup&gt;
+    &lt;msup&gt;
+      &lt;mi&gt;s&lt;/mi&gt;
+      &lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34; class=&#34;tml-prime&#34;&gt;′&lt;/mo&gt;
+    &lt;/msup&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;msup&gt;
+      &lt;mi&gt;s&lt;/mi&gt;
+      &lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34; class=&#34;tml-prime&#34;&gt;′&lt;/mo&gt;
+    &lt;/msup&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+&lt;p&gt;Además hay que normalizar el vector propio para que sus componentes sumen uno, expresando las probabilidades de cada estado en la distribución estacionaria.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;eigen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Q&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vectors&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s[&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s[&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Con los resultados obtenidos se podría emular el comportamiento de la Hex Flor sin el tablero y sin tener en cuenta la posición actual para calcular el siguiente evento. Habría que utilizar un &lt;code&gt;d100&lt;/code&gt; con las DC indicadas en la tabla que recoge el vector de estado estacionario.&lt;/p&gt;
 &lt;img style=&#34;float:right;width: 100%&#34; src=&#34;https://lunaticgeek.com/hex-flower-histogram.png&#34;&gt;
@@ -1222,7 +1328,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
 		</author>
 		<id>https://lunaticgeek.com/mecanicas-roleras/</id>
 		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20.png&#34; /&gt;&lt;/center&gt;
-&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+&lt;!-- &lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt; --&gt;
 &lt;p&gt;Podría empezar criticando la excesiva complejidad de Pathfinder pero no es mi intención. Aquel es un juego diseñado con la complejidad en mente y que parece que sus jugadores disfrutan pleiteando reglas y discutiendo con el GM. Prefiero dar esa batalla por perdida para centrarme en mecánicas que he ido encontrando en otros más sencillos que pretenden simplificar los reglamentos para recuperar las raíces del rol. En ciertos juegos he encontrado mecánicas innovadoras que intentan aportar un toque de originalidad, introduciendo nuevas variables innecesarias y que solo se pueden entender desde el punto de vista estético o si no somos tan optimistas, podríamos pensar que los diseñadores no saben en el fondo lo que están haciendo y no son capaces de discernir las alternativas de las que disponen. De ahí parte mi explicación para que tanto diseñadores como jugadores comprendan mejor los juegos y puedan elaborar reglas de la casa que los modifiquen a su gusto para mejorar la experiencia en mesa.&lt;/p&gt;
 &lt;h3 id=&#34;the-black-hackhttpsthe-black-hackjehaisleprintempsnetenglish&#34;&gt;&lt;a href=&#34;https://the-black-hack.jehaisleprintemps.net/english/&#34;&gt;The Black Hack&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Este juego utiliza una peculiar forma de registrar el inventario de ciertos consumibles. Como podemos leer en su reglamento:&lt;/p&gt;
@@ -1233,7 +1339,37 @@ When you roll a 1-2 on a d4 the item is expended and the character has no more o
 &lt;/blockquote&gt;
 &lt;p&gt;En un juego ultrasimple parece contradictorio una regla tan elaborada. Obviamente no se quería recurrir a un número fijo de artículos pero se ha hecho de tal forma que nadie sabe ni siquiera cuantos objetos puede tener porque el cálculo no es tan inmediato como el de otras tiradas aleatorias más habituales.&lt;/p&gt;
 &lt;p&gt;En el fondo, lo que plantea este problema es la unión de distribuciones de probabilidad independientes de tipo &lt;a href=&#34;https://en.wikipedia.org/wiki/Geometric_distribution&#34;&gt;geométrico&lt;/a&gt; ya que se busca el número de tiradas que tenemos hasta agotar el artículo.&lt;/p&gt;
-&lt;p&gt;$$\sum_{i}^{D}p_i(1-p_i)^{k-1}$$&lt;/p&gt;
+&lt;!-- $$\sum_{i}^{D}p_i(1-p_i)^{k-1}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mrow&gt;
+      &lt;munderover&gt;
+        &lt;mo movablelimits=&#34;false&#34;&gt;∑&lt;/mo&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mi&gt;D&lt;/mi&gt;
+      &lt;/munderover&gt;
+    &lt;/mrow&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;p&lt;/mi&gt;
+      &lt;mi&gt;i&lt;/mi&gt;
+    &lt;/msub&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+    &lt;mo&gt;−&lt;/mo&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;p&lt;/mi&gt;
+      &lt;mi&gt;i&lt;/mi&gt;
+    &lt;/msub&gt;
+    &lt;msup&gt;
+      &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;k&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/msup&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;La solución de este problema, si partimos de un dado &lt;code&gt;d20&lt;/code&gt; es un inventario de 24 unidades con una desviación típica de 12.5. Realmente esta mecánica no se puede mejorar sin eliminar parte de sus características probabilísticas. Si se prefiriera un sistema sin memoria, se podría tirar 1d100 y para resultados menores de cinco nos quedamos sin el artículo. Esto se asemeja bastante a una pifia en un simple 1d20 pero de nuevo estamos modificando tanto el valor esperado como la varianza de la distribución resultante. Con la cantidad de amenazas letales en los juegos OSR me parece que una regla así es totalmente prescindible y pediría al GM que mantuviese un inventario determinístico. Ya es suficientemente difícil sobrevivir así como para que el inventario desaparezca por una mala tirada.&lt;/p&gt;
 &lt;h3 id=&#34;savage-worldshttpswwwpeginccomstoresavage-worlds-adventure-edition-core-rules-pdf-swade&#34;&gt;&lt;a href=&#34;https://www.peginc.com/store/savage-worlds-adventure-edition-core-rules-pdf-swade/&#34;&gt;Savage Worlds&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Este juego puede considerarse una alternativa sencilla al Gurps, un juego genérico inconmensurable, con una temática muy aventurera y cinemática. La forma de llevar iniciativa en este RPG es mediante cartas de una baraja francesa con los jokers.&lt;/p&gt;
@@ -1252,16 +1388,231 @@ When you roll a 1-2 on a d4 the item is expended and the character has no more o
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;En esta ocasión no podremos utilizar el mismo método que en anteriores ocasiones ya que no se produce reemplazamiento con cada carta retirada del mazo y la probabilidad va modificándose en cada paso. Las posibilidades de sacar un joker en la primera carta serían de 2/54, mientras que en la segunda supone un fallo en la primera 52/54 y el acierto en la segunda 2/53, en general,&lt;/p&gt;
-&lt;p&gt;$$\frac{(N-K)(N-K-1)\dots (N-K-n+1)}{N(N-1)\dots(N-n+1)}= \frac{\binom{N-n}{K}}{\binom{N}{K}}$$&lt;/p&gt;
+&lt;!-- $$\frac{(N-K)(N-K-1)\dots (N-K-n+1)}{N(N-1)\dots(N-n+1)}= \frac{\binom{N-n}{K}}{\binom{N}{K}}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+        &lt;mo&gt;…&lt;/mo&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+        &lt;mo&gt;…&lt;/mo&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+        &lt;mfrac linethickness=&#34;0px&#34;&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;N&lt;/mi&gt;
+            &lt;mo&gt;−&lt;/mo&gt;
+            &lt;mi&gt;n&lt;/mi&gt;
+          &lt;/mrow&gt;
+          &lt;mi&gt;K&lt;/mi&gt;
+        &lt;/mfrac&gt;
+        &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+        &lt;mfrac linethickness=&#34;0px&#34;&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mi&gt;K&lt;/mi&gt;
+        &lt;/mfrac&gt;
+        &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;nos permite evaluar las probabilidades de fallo en n cartas. Si fallásemos en la carta anterior&lt;/p&gt;
-&lt;p&gt;$$\frac{\binom{N-(n-1)}{K}}{\binom{N}{K}}$$&lt;/p&gt;
+&lt;!-- $$\frac{\binom{N-(n-1)}{K}}{\binom{N}{K}}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mfrac&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+      &lt;mfrac linethickness=&#34;0px&#34;&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+          &lt;mi&gt;n&lt;/mi&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mn&gt;1&lt;/mn&gt;
+          &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+        &lt;/mrow&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+    &lt;/mrow&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+      &lt;mfrac linethickness=&#34;0px&#34;&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+    &lt;/mrow&gt;
+  &lt;/mfrac&gt;
+&lt;/math&gt;
 &lt;p&gt;para sacar un joker a continuación&lt;/p&gt;
-&lt;p&gt;$$\frac{K}{N-n+1}$$&lt;/p&gt;
+&lt;!-- $$\frac{K}{N-n+1}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mfrac&gt;
+    &lt;mi&gt;K&lt;/mi&gt;
+    &lt;mrow&gt;
+      &lt;mi&gt;N&lt;/mi&gt;
+      &lt;mo&gt;−&lt;/mo&gt;
+      &lt;mi&gt;n&lt;/mi&gt;
+      &lt;mo&gt;+&lt;/mo&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+    &lt;/mrow&gt;
+  &lt;/mfrac&gt;
+&lt;/math&gt;
 &lt;p&gt;obtenemos la función de densidad&lt;/p&gt;
-&lt;p&gt;$$P(n)=\frac{\binom{N-n+1)}{K}}{\binom{N}{K}}\frac{K}{N-n+1}$$&lt;/p&gt;
+&lt;!-- $$P(n)=\frac{\binom{N-n+1)}{K}}{\binom{N}{K}}\frac{K}{N-n+1}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;P&lt;/mi&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;n&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+        &lt;mfrac linethickness=&#34;0px&#34;&gt;
+          &lt;mrow&gt;
+            &lt;mi&gt;N&lt;/mi&gt;
+            &lt;mo&gt;−&lt;/mo&gt;
+            &lt;mi&gt;n&lt;/mi&gt;
+            &lt;mo&gt;+&lt;/mo&gt;
+            &lt;mn&gt;1&lt;/mn&gt;
+            &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+          &lt;/mrow&gt;
+          &lt;mi&gt;K&lt;/mi&gt;
+        &lt;/mfrac&gt;
+        &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+        &lt;mfrac linethickness=&#34;0px&#34;&gt;
+          &lt;mi&gt;N&lt;/mi&gt;
+          &lt;mi&gt;K&lt;/mi&gt;
+        &lt;/mfrac&gt;
+        &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+    &lt;mfrac&gt;
+      &lt;mi&gt;K&lt;/mi&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;A partir de ahí se obtiene la fórmula del valor esperado y varianza&lt;/p&gt;
-&lt;p&gt;$$E(X)=\frac{N+1}{K+1}$$&lt;/p&gt;
-&lt;p&gt;$$Var(X)\frac{K(N-K)(N+1)}{(K+2)(K+1)^2}$$&lt;/p&gt;
+&lt;!-- $$E(X)=\frac{N+1}{K+1}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;E&lt;/mi&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;X&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+&lt;br&gt;
+&lt;!-- $$Var(X)\frac{K(N-K)(N+1)}{(K+2)(K+1)^2}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;V&lt;/mi&gt;
+    &lt;mi&gt;a&lt;/mi&gt;
+    &lt;mi&gt;r&lt;/mi&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;X&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;N&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;2&lt;/mn&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;K&lt;/mi&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;msup&gt;
+          &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+          &lt;mn&gt;2&lt;/mn&gt;
+        &lt;/msup&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;Para una demostración exhaustiva de estos resultados, recomiendo acudir a &lt;a href=&#34;https://arxiv.org/pdf/1404.1161.pdf&#34;&gt;Ahlgren (2014)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Todo esto nos lleva a una distribución con esperanza 18.3 y desviación típica 2.94. A pesar de que &lt;em&gt;N&lt;/em&gt; no es suficientemente grande como para converger a una distribución geométrica, se podría llevar la cuenta de la iniciativa con 3d6, repetición en empates y aplicación de los efectos de los jokers cuando el resultado sume más de 15.&lt;/p&gt;
 &lt;h3 id=&#34;tales-from-the-loophttpsfrialiganseengamestales-from-the-loop&#34;&gt;&lt;a href=&#34;https://frialigan.se/en/games/tales-from-the-loop/&#34;&gt;Tales from the Loop&lt;/a&gt;&lt;/h3&gt;
@@ -1270,10 +1621,55 @@ When you roll a 1-2 on a d4 the item is expended and the character has no more o
 &lt;p&gt;The kids have numeric ratings for what they are good at: understanding machines, fast talking, climbing trees, and running fast. The ratings indicates how many six-sided dice you get to roll when trying to overcome Trouble. A six means success. You rarely need more than one success.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Esta mecánica se remonta a juegos míticos como el &lt;a href=&#34;https://en.wikipedia.org/wiki/Ghostbusters_(role-playing_game)&#34;&gt;cazafantasmas&lt;/a&gt; pero en Tales from the Loop se contabiliza de otra forma. El problema de este sistema es la poca granularidad que ofrece a la hora de ajustar las estadísticas. El salto cuantitativo que se produce al añadir un solo dado más a la reserva modifica severamente el resultado de la tirada y lo hace de forma no lineal. En los primeros niveles, el salto es enorme mientras que a partir de reservas con 6 dados, la modificación de las posibilidades es marginal y lleva a un estancamiento del proceso evolutivo de los personajes. En términos matemáticos, la probabilidad sería&lt;/p&gt;
-&lt;p&gt;$$P(X&amp;gt;0)$$
-$$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
+&lt;!-- $$P(X&gt;0)$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;P&lt;/mi&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;X&lt;/mi&gt;
+    &lt;mo&gt;&amp;gt;&lt;/mo&gt;
+    &lt;mn&gt;0&lt;/mn&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+&lt;br&gt;
+&lt;!-- $$X \sim B\left (n,\frac{1}{6}\right )$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;X&lt;/mi&gt;
+    &lt;mo&gt;∼&lt;/mo&gt;
+    &lt;mi&gt;B&lt;/mi&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;
+      &lt;mi&gt;n&lt;/mi&gt;
+      &lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mn&gt;6&lt;/mn&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;
+    &lt;/mrow&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;para una reserva de tamaño &lt;em&gt;n&lt;/em&gt; tendríamos que obtener al menos un acierto con probabilidad 1/6, al ser una suma de experimentos de Bernoulli independientes, adoptaría una distribución Binomial, que podemos resolver en función del número de dados que forman la reserva. Esto nos da una función&lt;/p&gt;
-&lt;p&gt;$$1-\left (\frac{5}{6}\right )^n$$&lt;/p&gt;
+&lt;!-- $$1-\left (\frac{5}{6}\right )^n$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+    &lt;mo&gt;−&lt;/mo&gt;
+    &lt;msup&gt;
+      &lt;mrow&gt;
+        &lt;mo fence=&#34;true&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;
+        &lt;mfrac&gt;
+          &lt;mn&gt;5&lt;/mn&gt;
+          &lt;mn&gt;6&lt;/mn&gt;
+        &lt;/mfrac&gt;
+        &lt;mo fence=&#34;true&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+      &lt;mi&gt;n&lt;/mi&gt;
+    &lt;/msup&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;que podría considerarse como la función acumulada de una distribución geométrica con p=1/6. Esta presenta un crecimiento logarítmico que puede suavizarse por distintos procedimientos aunque el resultado sería inviable en cuanto a su implementación en dados. Por eso recomiendo linealizar la función para transformarla en una distribución uniforme volviendo irónicamente a un modelo básico de d20. Las probabilidades de este nuevo modelo no tienen nada que ver con el original pero facilitan al GM el control del azar con mayor granularidad a la hora de otorgar modificadores a la tirada.&lt;/p&gt;
 &lt;p&gt;Si por el contrario nos empeñamos en tener un sistema de reserva de dados, recomiendo acudir al ya citado cazafantasmas, cuyo sistema pasó a denominarse OpenD6. Este es aditivo, al contrario que el tipo comparativo que ofrece Tales from the Loop. Habría que sumar todos los dados de la reserva y compararlos con una dificultad. Obviamente esta solución es más difícil sobre todo para reservas de gran tamaño pero es la mejor forma de ajustar la sensibilidad del sistema.&lt;/p&gt;
 &lt;h3 id=&#34;iniciativa-con-dados-opuestos&#34;&gt;Iniciativa con Dados Opuestos&lt;/h3&gt;
@@ -1302,7 +1698,7 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 &lt;p&gt;Aunque se encuentran en la primera etapa de su desarrollo, estoy seguro de que vamos a poder disfrutar de &lt;a href=&#34;https://github.com/tc39/proposal-pipeline-operator&#34;&gt;pipes&lt;/a&gt; y &lt;a href=&#34;https://github.com/tc39/proposal-partial-application&#34;&gt;placeholders&lt;/a&gt; en el corto plazo. El &lt;a href=&#34;https://github.com/tc39&#34;&gt;comité técnico 39&lt;/a&gt; de Ecma se encarga de revisar las propuestas que cualquier candidato puede plantear y publica todo el proceso para conocer los objetivos que persigue JavaScript. Si bien hay algunas que no me interesan, como la introducción de decoradores, que potenciarían la orientación a objetos del lenguaje y lo acercarían a dialectos como TypeScript en los que ya es una realidad, es importante estar informados para tomar las decisiones de diseño y planificación de software más inteligentes.&lt;/p&gt;
 &lt;p&gt;El operador pipeline &lt;strong&gt;|&amp;gt;&lt;/strong&gt; es una gran propuesta para cualquier lenguaje por la utilidad demostrada en la última mitad de siglo. Como dijo Brian Kernighan: &amp;ldquo;los pipes son la quintaesencia de Unix&amp;rdquo;. Mi experiencia al respecto no se centra en el shell donde su uso es evidentemente imprescindible. Los pipes son herramientas potentísimas en cualquier entorno de desarrollo. Recuerdo cuando empecé a utilizarlos en R mediante la librería &lt;a href=&#34;https://magrittr.tidyverse.org/&#34;&gt;magrittr&lt;/a&gt; del tidyverse. En ese momento tuve una revelación y adquirí el convencimiento de que deberían formar parte de todos los lenguajes.&lt;/p&gt;
 &lt;p&gt;Por ejemplo si tenemos las siguientes funciones&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;doubleSay&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;doubleSay&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;, &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;capitalize&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -1312,14 +1708,14 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;!&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y quisiéramos componerlas de forma que el resultado fuese&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;exclaim&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;capitalize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;doubleSay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;exclaim&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;capitalize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;doubleSay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)));&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;se aprecia claramente que esta no es la sintaxis más inteligible. Los pipes permiten un estilo de programación más funcional mediante lo que podría considerarse un postfijo. Cualquiera acostumbrado a trabajar en Bash podría traducir inmediatamente estas funciones anidadas&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;doubleSay&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;capitalize&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;exclaim&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El segundo operador está íntimamente relacionado con la anterior propuesta. Resuelve el problema producido al tener funciones con más de un argumento. Como señalan en la documentación, si partimos del código&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;double&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;double&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
 &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;boundScore&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -1328,12 +1724,12 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 
 &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;person&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;tendríamos que utilizar una función flecha para ir conectando los distintos tramos&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;newScore&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;newScore&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;double&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;boundScore&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Esta es una solución tan frágil que personalmente preferiría no usar pipes en este caso concreto. Afortunadamente, el operador placeholder &lt;strong&gt;?&lt;/strong&gt; soluciona este problema sin mayor complicación, indicando el lugar que debería ocupar el valor desplazado a lo largo de la función anidada&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;newScore&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;newScore&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;score&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;double&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 	&lt;span class=&#34;o&#34;&gt;|&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;boundScore&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -1399,7 +1795,7 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 		</author>
 		<id>https://lunaticgeek.com/mythic/</id>
 		<content type="html">&lt;center&gt;&lt;img src=&#34;https://www.wordmillgames.com/images/gmecoverlarger.jpg&#34; /&gt;&lt;/center&gt;
-&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+&lt;!-- &lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt; --&gt;
 &lt;p&gt;El Emulador del Director de Juego de &lt;a href=&#34;https://www.wordmillgames.com/&#34;&gt;Mythic&lt;/a&gt; es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.&lt;/p&gt;
 &lt;p&gt;El emulador de Mythic, si bien no es innovador porque recuerda a la clásica tabla universal de resultados del sistema &lt;a href=&#34;https://en.wikipedia.org/wiki/Marvel_Super_Heroes:_The_Heroic_Role-Playing_Game&#34;&gt;FASERIP&lt;/a&gt;, ha sabido abrirse paso hasta posicionarse como una de las herramientas fundamentales para jugar en solitario a juegos de rol.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&#34;https://s3.amazonaws.com/files.d20.io/images/23716813/bz-XbzLdia8ee0XMlp5myQ/original.jpg?1475346608&#34; /&gt;&lt;/center&gt;
@@ -1480,7 +1876,7 @@ $$X \sim B\left (n,\frac{1}{6}\right )$$&lt;/p&gt;
 &lt;p&gt;El siguiente paso es analizar la incidencia del Caos en las estadísticas. Este Caos no es el concepto que cualquiera que haya estudiado física tiene en mente. Según el autor es una variable que aumenta las probabilidades de éxito de un suceso. Habría sido mejor denominarlo suerte, fortuna, &lt;del&gt;Homer Simpson&lt;/del&gt; aunque entiendo que el término desprende cierto carácter épico y es más comercial.&lt;/p&gt;
 &lt;p&gt;En definitiva, el Caos de Mythic es una variación en la media de las distribuciones normales que lo forman. Si seguimos profundizando vemos que esa variación es lineal, de unos 9 puntos como se aprecia de una sencilla regresión lineal. Curiosamente, la varianza de las distribuciones apenas cambia entre escenarios y se sitúa en unos 28 puntos.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_means.png&#34; /&gt;&lt;/center&gt;
-&lt;pre&gt;&lt;code&gt;Residuals:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Residuals:
     Min      1Q  Median      3Q     Max 
 -4.0556 -1.0328 -0.0783  1.1263  4.7172 
 
@@ -1494,7 +1890,7 @@ Residual standard error: 2.64 on 7 degrees of freedom
 Multiple R-squared:  0.9896,	Adjusted R-squared:  0.9881 
 F-statistic: 665.8 on 1 and 7 DF,  p-value: 3.358e-08
 &lt;/code&gt;&lt;/pre&gt;&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_sds.png&#34; /&gt;&lt;/center&gt;
-&lt;pre&gt;&lt;code&gt;Residuals:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Residuals:
     Min      1Q  Median      3Q     Max 
 -3.1067 -2.2005  0.2479  1.7868  2.9188 
 
@@ -1509,8 +1905,62 @@ Multiple R-squared:  0.1961,	Adjusted R-squared:  0.08124
 F-statistic: 1.707 on 1 and 7 DF,  p-value: 0.2326
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Finalmente, si adoptamos una hipótesis de equidistancia entre los escenarios de probabilidad —nada nos indica lo contrario— podremos reconstruir la distribución de probabilidad utilizada para formar la tabla original, aproximadamente. Sin embargo vamos a cambiar ligeramente los parámetros para obtener resultados similares en los desafíos de tirada pero que estadísticamente van a presentar ciertas características beneficiosas. Por tanto la distribución adoptada es &lt;em&gt;N(10ci, 30)&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Las celdas de la tabla representan los valores aleatorios, por lo que tendremos que invertir su función de probabilidad, es decir, utilizaremos la función cuantil para obtener los nuevos valores asociados a las probabilidades acumuladas equivalentes a los descriptores de probabilidad.&lt;/p&gt;
-&lt;p&gt;$$10c_i+30\Phi^{-1}(p_j)$$
-$$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$&lt;/p&gt;
+&lt;!-- $$10c_i+30\Phi^{-1}(p_j)$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mn&gt;10&lt;/mn&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;c&lt;/mi&gt;
+      &lt;mi&gt;i&lt;/mi&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;+&lt;/mo&gt;
+    &lt;mn&gt;30&lt;/mn&gt;
+    &lt;msup&gt;
+      &lt;mrow&gt;
+        &lt;mi mathvariant=&#34;normal&#34;&gt;Φ&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mrow&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/msup&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;p&lt;/mi&gt;
+      &lt;mi&gt;j&lt;/mi&gt;
+    &lt;/msub&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+&lt;br&gt;
+&lt;!-- $$p=\left \\{ \frac{1}{n+1}:\frac{n}{n+1} \right \\}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;p&lt;/mi&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;prefix&#34;&gt;{&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;n&lt;/mi&gt;
+          &lt;mo&gt;+&lt;/mo&gt;
+          &lt;mn&gt;1&lt;/mn&gt;
+        &lt;/mrow&gt;
+      &lt;/mfrac&gt;
+      &lt;mo lspace=&#34;0.2222em&#34; rspace=&#34;0.2222em&#34;&gt;:&lt;/mo&gt;
+      &lt;mfrac&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;n&lt;/mi&gt;
+          &lt;mo&gt;+&lt;/mo&gt;
+          &lt;mn&gt;1&lt;/mn&gt;
+        &lt;/mrow&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34; form=&#34;postfix&#34;&gt;}&lt;/mo&gt;
+    &lt;/mrow&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;Aplicando la fórmula generamos la tabla corregida de Myhtic: GME.&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -1567,7 +2017,38 @@ $$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$&lt;/p&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;El efecto secundario de haber redondeado la β de la distribución de las medias a 10 es que obtenemos una variación exacta y constante entre las columnas que representan los estados de Caos. Para movernos a izquierda y derecha de la columna inicial (Caos = 5) solo hay que sumar o restar 10 —respectivamente— a los valores de cada fila. Otra ventaja de esta tabla es que ahora es simétrica en lo que se refiere a&lt;/p&gt;
-&lt;p&gt;$$p_{i,n/2-k} + p_{i,n/2+k} = 100$$&lt;/p&gt;
+&lt;!-- $$p\_{i,n/2-k} + p\_{i,n/2+k} = 100$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;p&lt;/mi&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;⁄&lt;/mo&gt;
+        &lt;mn&gt;2&lt;/mn&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;k&lt;/mi&gt;
+      &lt;/mrow&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;+&lt;/mo&gt;
+    &lt;msub&gt;
+      &lt;mi&gt;p&lt;/mi&gt;
+      &lt;mrow&gt;
+        &lt;mi&gt;i&lt;/mi&gt;
+        &lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+        &lt;mo lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;⁄&lt;/mo&gt;
+        &lt;mn&gt;2&lt;/mn&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;mi&gt;k&lt;/mi&gt;
+      &lt;/mrow&gt;
+    &lt;/msub&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mn&gt;100&lt;/mn&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;p&gt;Por lo que se podrían resumir los 99 valores de esta en media docena de números, haciendo factible su memorización. Puede llamar la atención que el 50 no corresponda con el descriptor 50/50, pero la inconsistencia se encuentra en estas últimas ya que el autor presenta unas situaciones no equilibradas, con cuatro descriptores por debajo y seis por encima. Salvo en este apartado, creo que se ha logrado una tabla más consistente para consultar como oráculo de Myhthic, respetando en todo momento la intención original del autor, pero aplicando las técnicas estadísticas adecuadas, como se puede comprobar en la gráfica final. Parece el antes y después de un anuncio de la teletienda.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/mythic_after.png&#34; /&gt;&lt;/center&gt;</content>
 	</entry>
@@ -1601,7 +2082,7 @@ $$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$&lt;/p&gt;
 &lt;p&gt;La paciencia es —seguramente— la única virtud de la que puedo presumir, pero todo tiene un límite y llega el momento de remangarse y ponerse a trabajar para actualizar nuestro sistema.&lt;/p&gt;
 &lt;p&gt;Hace cinco semanas que se liberó la versión 4.17 de i3wm, el gestor de ventanas que llevo usando desde hace ya unos cuantos &lt;a href=&#34;https://lunaticgeek.com/2016-01-28-5-anos-de-involucion-personal-en-el/&#34;&gt;años&lt;/a&gt;. Me sorprendió gratamente encontrar en el &lt;a href=&#34;https://i3wm.org/downloads/RELEASE-NOTES-4.17.txt&#34;&gt;changelog&lt;/a&gt; una característica que llevo deseando desde que me topé con i3wm, la &lt;a href=&#34;https://i3wm.org/docs/userguide.html#_transparency&#34;&gt;transparencia de i3bar&lt;/a&gt;. Nunca he tenido problemas con las actualizaciones de este paquete a pesar de estar mantenidas por un tercero ajeno al desarrollo del programa, pero ya ha salido incluso una revisión, v4.17.1 y sigo sin tener noticias, así que toca compilar desde el código fuente. Compilar es una tarea odiosa. Siempre quedan cabos sueltos, hay que pelearse con los distintos sistemas de configuración, árboles de dependencias que dinamitan el resto del sistema y sobre todo, la sensación de estar profanando la máxima de &lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;&gt;DRY&lt;/a&gt;. En el caso de i3wm, el propio programador desaconseja compilarlo.&lt;/p&gt;
 &lt;p&gt;Sin embargo, estoy harto de esperar y después de un par de intentos fallidos, ahí va la receta para compilar i3wm v4.17.1 en Ubuntu 18.04.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt install libxcb1-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xinerama0-dev libpango1.0-dev libxcursor-dev libxcb-cursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xrm-dev
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt install libxcb1-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xinerama0-dev libpango1.0-dev libxcursor-dev libxcb-cursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xrm-dev
 
 wget https://i3wm.org/downloads/i3-4.17.1.tar.bz2 -O - &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; tar -xj
 &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; i3-4.17.1
@@ -1622,7 +2103,7 @@ sudo make install
 		</author>
 		<id>https://lunaticgeek.com/rol/</id>
 		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/d20.png&#34; /&gt;&lt;/center&gt;
-&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+&lt;!-- &lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt; --&gt;
 &lt;p&gt;Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como &lt;em&gt;nerds&lt;/em&gt; pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.&lt;/p&gt;
 &lt;p&gt;El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme. Aunque si hay algo que caracteriza al rol es la cantidad de dados que utiliza; en este mismo sistema se hace uso del &lt;code&gt;d6&lt;/code&gt; para la creación de los personajes y otros eventos que requieren menos volatilidad. El uso de un solo dado, sea del valor que sea, supone la subordinación a una distribución de máxima entropía, totalmente imprevisible.&lt;/p&gt;
 &lt;p&gt;Los generadores de números aleatorios (RNG) son el pilar fundamental del rol sobre el que se construyen las estadísticas de los personajes y monstruos, encuentros y cualquier circunstancia no determinista. Un mayor control de los RNG facilitaría la tarea de diseño de juegos de rol y simplificaría los mismos, mejorando la experiencia de juego. El problema es que los diseñadores no son expertos en combinatoria y probabilidad, e históricamente han recurrido a soluciones improvisadas y basadas en prueba-error para ir refinando las mecánicas aleatorias. Los resultados son innecesariamente tediosos y no se llega a tener el control total de las distribuciones generadas.&lt;/p&gt;
@@ -1630,9 +2111,9 @@ sudo make install
 &lt;p&gt;La forma más habitual de generar distribuciones no-uniformes a partir de uniformes es mediante el &lt;a href=&#34;https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform&#34;&gt;algoritmo de Box-Muller&lt;/a&gt;. El problema es que está diseñado para ser calculado por un ordenador, no por un dado. Es absolutamente inviable. En las asignaturas de estadística se estudia el &lt;a href=&#34;https://en.wikipedia.org/wiki/Inverse_transform_sampling&#34;&gt;método de la transformada inversa&lt;/a&gt;, bastante sencillo pero que generaría una tabla guía enorme.&lt;/p&gt;
 &lt;p&gt;Afortunadamente, profundizando en el tema, encontré un algoritmo no muy popular pero que según dicen es uno de los más elegantes e ingeniosos que existen. Se trata del &lt;a href=&#34;http://www.keithschwarz.com/darts-dice-coins/&#34;&gt;algoritmo de Vose&lt;/a&gt; que genera tablas de tamaño &lt;em&gt;n&lt;/em&gt; y el resultado se obtiene de forma inmediata.&lt;/p&gt;
 &lt;p&gt;Keith Schawarz publicó una extensa explicación del algoritmo y lo compara con otros métodos similares. También ofrece una implementación en &lt;a href=&#34;http://www.keithschwarz.com/interesting/code/?dir=alias-method&#34;&gt;Java&lt;/a&gt; pero como soy alérgico a este lenguaje, me he tomado la molestia de traducirlo a Python, en lo que es casi una copia línea por línea de las partes que me interesaban, si bien adaptando el algoritmo al caso del &lt;code&gt;d20&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python3&#34; data-lang=&#34;python3&#34;&gt;&lt;span class=&#34;ch&#34;&gt;#!/usr/bin/python&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python3&#34; data-lang=&#34;python3&#34;&gt;&lt;span class=&#34;ch&#34;&gt;#!/usr/bin/python&lt;/span&gt;
 
-&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;decimal&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;decimal&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;
 
 &lt;span class=&#34;n&#34;&gt;dice&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;span class=&#34;s2&#34;&gt;&amp;#34;01&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -1803,7 +2284,7 @@ sudo make install
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;El procedimiento para utilizar esta tabla es muy sencillo&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;tiramos d20
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tiramos d20
 nos colocamos en la fila correspondiente al resultado
 tiramos d20
 si superamos la dificultad de aquella fila
@@ -1844,10 +2325,10 @@ si no
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;A veces una imagen vale más que mil palabras, así que he elaborado los siguientes gráficos de las distribuciones anteriormente tratadas, obviando el hecho de que son generalizaciones de los verdaderos resultados y que las originales son discretas. Se muestra la PDF original en línea discontinua para que contraste con la estimación verdaderamente obtenida.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lunaticgeek.com/3d6.png&#34; /&gt;
+&lt;img src=&#34;https://lunaticgeek.com/3d6.png&#34; /&gt;
 &lt;img src=&#34;https://lunaticgeek.com/4d6d1.png&#34; /&gt;
 &lt;img src=&#34;https://lunaticgeek.com/4dF.png&#34; /&gt;
-&lt;img src=&#34;https://lunaticgeek.com/d6.png&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://lunaticgeek.com/d6.png&#34; /&gt;
 &lt;p&gt;Finalmente y a modo de conclusión se recoge en la siguiente tabla las tiradas de dificultad (D) y alias (A) para los casos tratados. Esta es la única que necesitamos para jugar.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -2087,8 +2568,78 @@ si no
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;P.S. Para calcular las probabilidades de la suma de los valores de los dados, se ha utilizado la intimidante fórmula&lt;/p&gt;
-&lt;p&gt;$$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$&lt;/p&gt;
-</content>
+&lt;!-- $$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;P&lt;/mi&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;p&lt;/mi&gt;
+    &lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;
+    &lt;mi&gt;n&lt;/mi&gt;
+    &lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+      &lt;msup&gt;
+        &lt;mi&gt;s&lt;/mi&gt;
+        &lt;mi&gt;n&lt;/mi&gt;
+      &lt;/msup&gt;
+    &lt;/mfrac&gt;
+    &lt;mrow&gt;
+      &lt;munderover&gt;
+        &lt;mo movablelimits=&#34;false&#34;&gt;∑&lt;/mo&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;k&lt;/mi&gt;
+          &lt;mo&gt;=&lt;/mo&gt;
+          &lt;mn&gt;0&lt;/mn&gt;
+        &lt;/mrow&gt;
+        &lt;mrow&gt;
+          &lt;mo fence=&#34;true&#34; form=&#34;prefix&#34;&gt;⌊&lt;/mo&gt;
+          &lt;mfrac&gt;
+            &lt;mrow&gt;
+              &lt;mi&gt;p&lt;/mi&gt;
+              &lt;mo&gt;−&lt;/mo&gt;
+              &lt;mi&gt;n&lt;/mi&gt;
+            &lt;/mrow&gt;
+            &lt;mi&gt;s&lt;/mi&gt;
+          &lt;/mfrac&gt;
+          &lt;mo fence=&#34;true&#34; form=&#34;postfix&#34;&gt;⌋&lt;/mo&gt;
+        &lt;/mrow&gt;
+      &lt;/munderover&gt;
+    &lt;/mrow&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mo&gt;−&lt;/mo&gt;
+    &lt;mn&gt;1&lt;/mn&gt;
+    &lt;msup&gt;
+      &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+      &lt;mi&gt;k&lt;/mi&gt;
+    &lt;/msup&gt;
+    &lt;mrow&gt;
+      &lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;
+      &lt;mfrac linethickness=&#34;0px&#34;&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;p&lt;/mi&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mi&gt;s&lt;/mi&gt;
+          &lt;mi&gt;k&lt;/mi&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mn&gt;1&lt;/mn&gt;
+        &lt;/mrow&gt;
+        &lt;mrow&gt;
+          &lt;mi&gt;p&lt;/mi&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mi&gt;s&lt;/mi&gt;
+          &lt;mi&gt;k&lt;/mi&gt;
+          &lt;mo&gt;−&lt;/mo&gt;
+          &lt;mi&gt;n&lt;/mi&gt;
+        &lt;/mrow&gt;
+      &lt;/mfrac&gt;
+      &lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;
+    &lt;/mrow&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;</content>
 	</entry>
 	
 	<entry>
@@ -2129,7 +2680,7 @@ si no
 &lt;p&gt;La industria informática no ha tardado en dar solución a este problema inexistente, para que los pobres empresarios dejen de llorar, con apps para fichar y máquinas de control biométrico.&lt;/p&gt;
 &lt;p&gt;Afortunadamente nosotros somos usuarios de sistemas basados en Unix y sabemos que nada de eso es necesario porque conocemos el comando &lt;code&gt;last&lt;/code&gt; cuyo existencia puede remontarse hasta mediados de los 70, cuando se empleaba el archivo &lt;code&gt;/usr/adm/wtmp&lt;/code&gt; para almacenar datos de inicio y fin de sesión en servidores Unix. En la actualidad &lt;code&gt;last&lt;/code&gt; forma parte del paquete &lt;code&gt;util-linux&lt;/code&gt; en las distros Linux y se encarga de leer el archivo binario &lt;code&gt;/var/log/wtmp&lt;/code&gt;. No ha cambiado gran cosa en 45 años&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Personalmente utilizo el siguiente one-liner para obtener el registro con un formato más ordenado y estético:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;last &lt;span class=&#34;nv&#34;&gt;$USER&lt;/span&gt; --time-format iso -s &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date &lt;span class=&#34;s2&#34;&gt;&amp;#34;+%Y-%m-01&amp;#34;&lt;/span&gt; -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;-1 month&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; -t &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date &lt;span class=&#34;s2&#34;&gt;&amp;#34;+%Y-%m-01&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; cut -f 28-30 -d &lt;span class=&#34;s1&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;last &lt;span class=&#34;nv&#34;&gt;$USER&lt;/span&gt; --time-format iso -s &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date &lt;span class=&#34;s2&#34;&gt;&amp;#34;+%Y-%m-01&amp;#34;&lt;/span&gt; -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;-1 month&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; -t &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;date &lt;span class=&#34;s2&#34;&gt;&amp;#34;+%Y-%m-01&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; cut -f 28-30 -d &lt;span class=&#34;s1&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cualquier administrador de sistemas puede obtener estos datos de todos los usuarios que se conecten al servidor central de la empresa para trabajar por SSH. El problema de este método es que las empresas no suelen trabajar así. Han abandonado el ecosistema de Unix y ahora tienen que enmendar su falta comprando cacharros o contratando apps de terceros que tienen acceso a sus datos. Ellos se lo pierden.&lt;/p&gt;
 </content>
 	</entry>
@@ -2243,12 +2794,12 @@ Electron es una tecnología completamente insidiosa. Puede confundir a un usuari
 &lt;p&gt;Es obvio que tenía que empezar con el chat corporativo más popular del mundo. Se han hecho tantos chistes sobre el rendimiento de Slack, que poco más tengo que añadir a parte de mi recomendación de &lt;a href=&#34;https://github.com/wee-slack/wee-slack&#34;&gt;wee-slack&lt;/a&gt;, el plugin que trae Slack a WeeChat, uno de los mejores y más populares clientes IRC.&lt;/p&gt;
 &lt;h3 id=&#34;etcher&#34;&gt;Etcher&lt;/h3&gt;
 &lt;p&gt;Etcher parece haberse convertido en la herramienta favorita de los distrohoppers que plagan los blogs de Linux ya que les permite flashear imágenes .iso o .img en memorias USB o SD de la forma más &amp;ldquo;elegante&amp;rdquo;, entendiendo como tal una elegancia meramente superficial. Nada que el clásico &lt;code&gt;dd&lt;/code&gt; no pueda hacer de forma más eficiente, sencilla y rápida.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo dd &lt;span class=&#34;nv&#34;&gt;bs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16M &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;linux_distro.iso &lt;span class=&#34;nv&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/dev/sdX &lt;span class=&#34;nv&#34;&gt;status&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;progress &lt;span class=&#34;nv&#34;&gt;conv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;fsync
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo dd &lt;span class=&#34;nv&#34;&gt;bs&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16M &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;linux_distro.iso &lt;span class=&#34;nv&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/dev/sdX &lt;span class=&#34;nv&#34;&gt;status&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;progress &lt;span class=&#34;nv&#34;&gt;conv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;fsync
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cpod&#34;&gt;CPod&lt;/h3&gt;
 &lt;p&gt;Un cliente de podcast que a pesar de su desmesurado consumo, es incapaz de solucionar el principal problema de este tipo de software, que es el descubrimiento de podcasts. Para lidiar con esto, se apoya en el directorio de podcast de &lt;a href=&#34;https://itunes.apple.com/genre/podcasts/id26?mt=2&#34;&gt;iTunes&lt;/a&gt; así que recomiendo ir directamente ahí para encontrar podcast y luego reproducirlos en cualquier reproductor de música nativo o lector de RSS.&lt;/p&gt;
 &lt;h3 id=&#34;chronobreak&#34;&gt;Chronobreak&lt;/h3&gt;
 &lt;p&gt;Un cronómetro que implementa el método &lt;a href=&#34;https://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;Pomodoro&lt;/a&gt; para superar la procrastinación. Aunque si el aumento de productividad que persigue tiene como resultado que se programen más aplicaciones con Electron, es preferible que los programadores se queden vagueando. Hace unos meses programé un temporizador pomodoro que ocupaba menos de un tweet, en Bash. Ofrece la misma funcionalidad que Chronobreak, o incluso más, al seguir las imposiciones de flexibilidad de la filosofía UNIX.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/env bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/env bash
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
 t&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
 	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;*60&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;i&amp;gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;i--&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; 
@@ -2285,9 +2836,9 @@ t&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&l
 		<content type="html">&lt;center&gt;&lt;img src=&#34;https://lunaticgeek.com/rfc-terminal.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la &lt;a href=&#34;https://tools.ietf.org/rfc/&#34;&gt;ietf&lt;/a&gt; porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete &lt;code&gt;doc-rfc-std&lt;/code&gt; de Ubuntu nos trae todo el catálogo al directorio &lt;code&gt;/usr/share/doc/RFC/&lt;/code&gt; para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como &lt;code&gt;less&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Es demasiado farragoso tener que ejecutar&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;less /usr/share/doc/RFC/links/rfcXXXX.txt.gz
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;less /usr/share/doc/RFC/links/rfcXXXX.txt.gz
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;así que vamos a crear una función de Bash para facilitar la tarea&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;rfc() { less /usr/share/doc/RFC/links/rfc&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.txt.gz; }&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;rfc() { less /usr/share/doc/RFC/links/rfc&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;.txt.gz; }&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
 	</entry>
 	
@@ -2300,10 +2851,10 @@ t&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&l
 		</author>
 		<id>https://lunaticgeek.com/symlink-dotfiles/</id>
 		<content type="html">&lt;p&gt;El omnisciente algoritmo de YouTube me ha recomendado el vídeo &lt;a href=&#34;https://www.youtube.com/watch?v=MJBVA4LeJKA&#34;&gt;Manage Your Dotfiles With Style!&lt;/a&gt; sobre la utilización de &lt;a href=&#34;https://www.gnu.org/software/stow/&#34;&gt;GNU Stow&lt;/a&gt; para gestionar la ordenación y despliegue de dotfiles. Stow es una de las herramientas más populares para llevar a cabo este tipo de tareas pero nunca la he usado porque me parece absolutamente innecesaria. Es un abuso espurio de un software que está pensado para instalar paquetes en sus propios árboles de directorios que, mediante enlaces simbólicos aparentan estar instalados en el árbol común. De hecho, el uso que se hace de Stow es tan simple que se puede emular con un oneliner de Bash que he programado para la ocasión&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;find -type f&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; ln -sf &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;realpath &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$i&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; ~/&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;#??&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;find -type f&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; ln -sf &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;realpath &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$i&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; ~/&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;#??&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Aunque el código es bastante deficiente ya que no debería emplearse &lt;code&gt;find&lt;/code&gt; en un bucle &lt;code&gt;for&lt;/code&gt; y la expansión de variables es un bashismo intolerable, no me apetecía usar &lt;code&gt;xargs&lt;/code&gt; ni extender un comando que funciona con menos de 80 caracteres. Así podríamos desplegar los dotfiles sin necesidad de instalar &lt;code&gt;stow&lt;/code&gt; que, por lo general, no viene incluido por defecto en ningún sistema operativo.&lt;/p&gt;
 &lt;p&gt;De todas formas, no me parece la mejor forma de abordar el problema. Hace más de cuatro años que se me ocurrió una solución superior, si bien nunca la he publicado porque es demasiado manual y carente de ingenio, pero ahora voy a explicarla para establecer una comparación con Stow. Mi alternativa se basa en un script &lt;code&gt;dotfiles.sh&lt;/code&gt; que crea enlaces simbólicos. A diferencia de Stow, las direcciones de estos no se basan en la jerarquía de los archivos sino que están codificadas a mano. Aunque suena bastante tedioso, solo hay que añadir una linea cada vez que creemos un nuevo dotfile. El resultado concreto es el siguiente&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/sh
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/sh
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
 ln -sf ~/dotfiles/alias ~/.bash_aliases
 ln -sf ~/dotfiles/bash ~/.bashrc
@@ -2318,7 +2869,7 @@ ln -sf ~/dotfiles/git ~/.gitconfig
 ln -sf ~/dotfiles/dunst ~/.config/dunst/dunstrc
 ln -sf ~/dotfiles/newsboat ~/.newsboat/config
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si leemos con atención se verán las que considero ventajas de este método. No hay que crear una falsa jerarquía de archivos, pudiendo almacenarlos todos en la misma carpeta para mejorar el orden y permite renombrar los dotfiles como queramos ya que su denominación obligatoria se pospone hasta la creación de los symlinks. Concretamente, mi script se ejecuta sobre la siguiente lista de archivos&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;~/dotfiles
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~/dotfiles
 ├── alias
 ├── bash
 ├── dunst
@@ -2332,7 +2883,7 @@ ln -sf ~/dotfiles/newsboat ~/.newsboat/config
 ├── xresources
 └── zathura
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;En contraposición a esta simplicidad, podemos generar la estructura que Stow exigiría a los mismos dotfiles para funcionar.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;~/dotfiles
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~/dotfiles
 ├── .bash_aliases
 ├── .bashrc
 ├── .config
@@ -2424,9 +2975,9 @@ Fortnite :( --&gt;
 &lt;p&gt;La esteganografía es la codificación de información que se inserta en imágenes o audios para ocultarla. Nótese que en ningún momento utilizo términos criptográficos porque la esteganografía no solo no tiene nada que ver con la encriptación sino que va en contra de esta. La criptografía es una ciencia exacta basada en el principio de Kerckhoffs, que postula que un sistema criptográfico debe ser seguro incluso si todo en el sistema, excepto la clave, es conocido. Esto impide considerar la esteganografía como método criptográfico porque solo oculta la información donde no pueda ser vista. Por supuesto podrían combinarse los dos sistemas, encriptando previamente la información para luego ser ocultada, pero sería una pérdida de tiempo porque no ganaríamos nada en seguridad con respecto a la aplicación del cifrado inicial.&lt;/p&gt;
 &lt;p&gt;La esteganografía es solo una anécdota curiosa que llama la atención la primera vez que te encuentras con ella. Pero estamos en 2018 y ya basta de seguir dando vueltas al tema. A no ser que tengas doce años, es imposible que no te hayas topado con innumerables artículos sobre esta idiotez que además no es tratada adecuadamente. Si un blog pretende divulgar el conocimiento tecnológico, hablar de un método que no es seguro como si lo fuera, es totalmente pseudocientífico. Pero las alternativas no son tan atractivas, no generan tantos clicks y eso afecta a la rentabilidad de la publicidad que gobierna estos blogs. La criptografía es aburrida y complicada; la mayoría de bloggers no está cualificados para exponer sus postulados (yo tampoco) y las instrucciones más pragmáticas no son lo suficientemente extensas como para rellenar toda la longitud requerida para mejorar el SEO de sus webs.&lt;/p&gt;
 &lt;p&gt;Lo responsable es informar sobre los mejores métodos de encriptar archivos, con algoritmos como &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf&#34;&gt;AES-256&lt;/a&gt;, implementados en &lt;a href=&#34;file:///usr/share/man/man1/gpg.1.gz&#34;&gt;gpg&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -o cipher.txt -c plain.txt
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -o cipher.txt -c plain.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;y descifrarlo con&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -d cipher.txt
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg -d cipher.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si lo que se pretende es cifrar todo el disco duro, se puede recurrir a &lt;a href=&#34;https://gitlab.com/cryptsetup/cryptsetup&#34;&gt;LUKS&lt;/a&gt; y si queremos comunicarnos o transmitir archivos de forma segura, nada mejor que cualquier software basado en el protocolo &lt;a href=&#34;https://en.wikipedia.org/wiki/Signal_Protocol&#34;&gt;signal&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
@@ -2464,7 +3015,7 @@ Fortnite :( --&gt;
 		<content type="html">&lt;p&gt;He descubierto en el blog de &lt;a href=&#34;https://alexschroeder.ch/wiki/2018-12-01_Thinking_about_the_real_RSS_3.0&#34;&gt;Alex Schroeder&lt;/a&gt;, uno de mis compañeros de &lt;a href=&#34;irc://irc.sdf.org&#34;&gt;IRC&lt;/a&gt;, una referencia casi distópica, redactada por el mismísimo &lt;a href=&#34;https://lunaticgeek.com/2014-07-01-the-internets-own-boy-la-pelicula-sobre/&#34;&gt;Aaron Swartz&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Corría el año 2002 y yo estaba muy ocupado jugando al Counter-Strike mientras el jovencísimo genio Aaron Swartz ya formaba parte del grupo de trabajo &lt;a href=&#34;http://web.resource.org/&#34;&gt;RSS-DEV&lt;/a&gt;. Por aquel entonces, &lt;a href=&#34;https://lunaticgeek.com/arreglando-twitter/&#34;&gt;RSS 2.0 era un desastre&lt;/a&gt; anterior a la aparición ATOM, y a Aaron se le ocurrió promulgar la siguiente iteración del standard. En un tono bastante jocoso expone las principales características de &lt;a href=&#34;http://www.aaronsw.com/weblog/000574&#34;&gt;RSS 3.0&lt;/a&gt; que romperán con todo lo propuesto hasta entonces: Nada de XML, que sería reemplazado por campos similares a los de los correos electrónicos &lt;a href=&#34;https://tools.ietf.org/html/rfc822&#34;&gt;RFC822&lt;/a&gt;. También propone eliminar los espacios de nombres, que sin XML tampoco tendrían sentido, y el HTML porque &amp;ldquo;nadie necesita HTML&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;La descripción completa y pormenorizada de su borrador sigue disponible en su &lt;a href=&#34;http://www.aaronsw.com/2002/rss30&#34;&gt;blog&lt;/a&gt; personal. Para visualizar su idea, nada mejor que copiar aquí el ejemplo que plantea.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;title: RSS 3.0 News
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title: RSS 3.0 News
 description: Latest updates on RSS 3.0.
 link: http://www.aaronsw.com/2002/rss30
 creator: me@aaronsw.com Aaron Swartz
@@ -2485,7 +3036,7 @@ GUID: 0894CB2F-C1E0-11D6-9649-003065F376B6
 Description: Zooko says he likes the spec.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;La simplicidad de RSS 3.0 rompe con la herencia recibida y se acerca a lo que unos años más tarde sería YAML, el formato de serialización de datos más popular en la actualidad. De hecho, RSS 3.0 es compatible con YAML en todos los campos excepto en los que ocupan múltiples líneas, ya que YAML exige que vengan precedidos por &amp;ldquo;&lt;code&gt;|&lt;/code&gt;&amp;rdquo; o &amp;ldquo;&lt;code&gt;&amp;gt;&lt;/code&gt;&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Aunque este borrador nunca llegó a discutirse en el grupo de trabajo, hubo ciertos desarrollos de terceros como el parser en una línea de python que programó &lt;a href=&#34;https://lists.w3.org/Archives/Public/www-archive/2002Sep/0089&#34;&gt;Sean B. Palmer&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;(?s)([^&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;:]+): (.*?)(?=&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;[^ &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\t&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;]|\Z)&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;findall&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;item&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;item&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)]&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dict&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;(?s)([^&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;:]+): (.*?)(?=&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;[^ &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\t&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;]|\Z)&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;findall&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;item&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;item&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n\n&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Es una pena que nadie se tomara en serio RSS 3.0. A pesar de su apariencia reduccionista, habría sido el reemplazo perfecto para un deficiente RSS 2.0.&lt;/p&gt;
 </content>
 	</entry>
@@ -2503,13 +3054,13 @@ Description: Zooko says he likes the spec.
 &lt;p&gt;En mi opinión PGP es más seguro que TLS porque no depende de autoridades de certificación externas que validen la cadena de confianza hasta llegar a la clave raíz. Sólo en el caso de claves SSL autofirmadas, la seguridad de sendos protocolos se equiparan.&lt;/p&gt;
 &lt;p&gt;Por ejemplo, la última versión estable de Ubuntu se encuentra en el servidor FTP &lt;a href=&#34;ftp://releases.ubuntu.com/releases/18.04.1&#34;&gt;ftp://releases.ubuntu.com/releases/18.04.1&lt;/a&gt;. Tendríamos que bajar el &lt;a href=&#34;ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS&#34;&gt;hash&lt;/a&gt; del archivo y su respectiva &lt;a href=&#34;ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS.gpg&#34;&gt;firma&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Para verificar que la imagen .iso que hemos descargado ha sido firmada por Canonical, tenemos que acudir a &lt;code&gt;gpg&lt;/code&gt;. La clave pública de descargas de Canonical se encuentra instalada por defecto en Ubuntu, como es obvio, en el directorio &lt;code&gt;/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg&lt;/code&gt;. Si no queremos importarla a nuestro llavero personal de &lt;code&gt;gpg&lt;/code&gt;, ejecutamos directamente&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;que verifica la autenticidad del hash de la imagen.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg: Firmado el jue &lt;span class=&#34;m&#34;&gt;26&lt;/span&gt; jul &lt;span class=&#34;m&#34;&gt;2018&lt;/span&gt; 18:56:03 CEST
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gpg: Firmado el jue &lt;span class=&#34;m&#34;&gt;26&lt;/span&gt; jul &lt;span class=&#34;m&#34;&gt;2018&lt;/span&gt; 18:56:03 CEST
 gpg:                usando RSA clave D94AA3F0EFE21092
 gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image Automatic Signing Key (2012) &amp;lt;cdimage@ubuntu.com&amp;gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;desconocido&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Con el siguiente comando ya podemos comparar que el hash firmado coincide con el de la imagen que nos hemos descargado por las aguas turbulentas e infestadas de MitMs de FTP.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sha256sum -c SHA256SUMS 2&amp;gt;&lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sha256sum -c SHA256SUMS 2&amp;gt;&lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizase estas tareas. En todo el proceso no hay inseguridad por ninguna parte y me temo que se utiliza a aquella como excusa barata para abandonar proyectos que dejan de interesar a los desarrolladores. Unos programadores que por vagancia o desidia tampoco ofrecen alternativas viables como la implementación de FTPS. De todos modos, en la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: &lt;em&gt;&amp;ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&amp;rdquo;&lt;/em&gt;. Todo ello en favor de los noobs que utilizan estos sistemas que necesitan ser a prueba de idiotas.&lt;/p&gt;
 </content>
 	</entry>
@@ -2528,17 +3079,17 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 &lt;p&gt;No estaba dispuesto a renunciar a los stickers de Line así que hasta que no he podido llevarlos a WhatsApp, no he migrado. Aunque el proceso no es intuitivo, hay que reconocer que Line nos lo pone muy fácil, como explicaré a continuación.&lt;/p&gt;
 &lt;p&gt;Para empezar, hay que obtener el ID de los stickers. No hay que hacer ingeniería inversa del binario ni un sniff de la red; Line nos deja buscarlos en su &lt;a href=&#34;https://store.line.me/home&#34;&gt;tienda&lt;/a&gt;. Voy a utilizar a lo largo de todo este ejemplo el paquete de stickers de &lt;a href=&#34;https://store.line.me/stickershop/product/1228/&#34;&gt;Alicia en el País de las Maravillas&lt;/a&gt;. En la URL encontramos su ID, 1228.&lt;/p&gt;
 &lt;p&gt;Aunque podríamos descargar de esa dirección todos los stickers, vamos a irnos a un directorio que no han ocultado adecuadamente, donde podemos descargar el paquete original, desde sus propios servidores. Las negligencias de Line nos facilitan el trabajo enormemente. Podemos descargarlo directamente ejecutando&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;curl -s https://dl.stickershop.line.naver.jp/products/0/0/1/1228/iphone/stickers@2x.zip
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;curl -s https://dl.stickershop.line.naver.jp/products/0/0/1/1228/iphone/stickers@2x.zip
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Después de descomprimirlo con &lt;code&gt;unzip&lt;/code&gt; obtenemos una carpeta con stickers en formato PNG. WhatsApp nos obliga a utilizar imágenes WEBP de 512x512. Previamente vamos a eliminar las imágenes duplicadas que sirven de thumbnail para evitar convertirlas sin motivo.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;rm *_key@2x.png 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;rm *_key@2x.png 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;También podemos aprovechar para seleccionar los stickers definitivos ya que WhatsApp no admite más de 30 por paquete y los de Line suelen contener 40. Una vez terminado este proceso, ya podemos empezar con la conversión, de la mano de &lt;a href=&#34;https://www.imagemagick.org&#34;&gt;ImageMagick&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;mogrify -resize 512x512 -gravity center -background none -extent 512x512 -format webp *.png
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;mogrify -resize 512x512 -gravity center -background none -extent 512x512 -format webp *.png
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El icono de la bandeja necesita unos parámetros específicos&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;convert tab_off@2x.png -gravity center -background none -extent 96x96 tray.png
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;convert tab_off@2x.png -gravity center -background none -extent 96x96 tray.png
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Personalmente, no me gusta la denominación de los archivos de stickers de Line, así que voy a renombrarlos en lote&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; mv &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/@2x/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; mv &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/@2x/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ya solo falta seguir las &lt;a href=&#34;https://github.com/WhatsApp/stickers/tree/master/Android&#34;&gt;instrucciones&lt;/a&gt; oficiales para construir la app en Android Studio. A partir de este punto solo voy a facilitar un oneliner para generar el array de hashes del &lt;code&gt;contents.json&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\{\&amp;#34;&lt;/span&gt;image_file&lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;: &lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\&amp;#34;\}&lt;/span&gt;, &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in *.webp&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\{\&amp;#34;&lt;/span&gt;image_file&lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;: &lt;span class=&#34;se&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\&amp;#34;\}&lt;/span&gt;, &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La metodología que sigue WhatsApp para distribuir stickers a través de apps nativas me parece totalmente desproporcionada y supongo que en el futuro sea tan sencillo como Telegram, si permiten a los usuarios finales agregar sus propios packs. Hasta que llegue ese momento, esta es la mejor forma de disfrutar de nuestros stickers de Line en WhatsApp y aprovechar así las ventajas de esta app en términos de la Ley de Metcalfe.&lt;/p&gt;
 </content>
 	</entry>
@@ -2686,7 +3237,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 &lt;p&gt;Cuando diseñamos el estilo de una web accesible, el contraste de los elementos que la forman es uno de los principales puntos a tener en cuenta. No hay que ser experto en óptica para darse cuenta de que si queremos maximizar el contraste de un fondo blanco debemos colorear el texto en negro y viceversa. El problema planteado era hallar el color de fondo que maximice el contraste para un texto blanco y negro, simultáneamente.&lt;/p&gt;
 &lt;p&gt;En un primer momento me decanté por el gris &lt;code&gt;#808080&lt;/code&gt; por ser el color central del cubo RGB y del cilindro HSL. Esta respuesta geométrica es la más intuitiva pero errónea. La representación del color en esos espacios está totalmente manipulada para que pueda usarse más fácilmente, pero en realidad, la percepción del color es no lineal por lo que todas las representaciones simétricas no captan de forma consistente las diferencias entre tonos.&lt;/p&gt;
 &lt;p&gt;Afortunadamente, me di cuenta de mi error e intenté calcular el óptimo. Como decía Ken Thompson: &amp;ldquo;en caso de duda, usar la fuerza bruta&amp;rdquo;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
 &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.01&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;D&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 
@@ -2713,7 +3264,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
                 &lt;span class=&#34;n&#34;&gt;C&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;abs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_B&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;C_W&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
                 &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
                     &lt;span class=&#34;n&#34;&gt;F&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C&lt;/span&gt;
-                    &lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#{R_8bit:02X}{G_8bit:02X}{B_8bit:02X}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+                    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R_8bit&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;02X&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;G_8bit&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;02X&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;B_8bit&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;02X&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Este script en Python que programé en dos minutos en un trozo de papel recorre todo el cubo RGB, los 16.777.216 tonos, comparando su contraste con los colores blanco y negro, seleccionando cada vez los mejores. Las matemáticas detrás de este desarrollo se encuentran recogidas en la guía de &lt;a href=&#34;https://www.w3.org/TR/WCAG20-TECHS/G18.html&#34;&gt;WCAG 2.0&lt;/a&gt;. No voy a comentarlas porque no entiendo nada de teoría del color y solo me he limitado a implementarlas en este pequeño script.&lt;/p&gt;
 &lt;p&gt;El resultado es totalmente inesperado y en cierta forma decepcionante.&lt;/p&gt;
 &lt;div style=&#34;background:#CF0DCC;&#34;&gt;
@@ -2748,7 +3299,7 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/feliz-no-cumplea%C3%B1os/</id>
-		<content type="html">&lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt;
+		<content type="html">&lt;!-- &lt;script src=&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML&#39;&gt;&lt;/script&gt; --&gt;
 &lt;center&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/6/69/Alice_par_John_Tenniel_25.png&#34; /&gt;&lt;/center&gt;
 &lt;p&gt;Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.&lt;/p&gt;
 &lt;p&gt;Aunque mis posts han ido evolucionando desde los generalistas del principio hasta los más oscuros y herméticos que escribo últimamente, pero siempre he estado orgulloso del contenido de mi blog. Sin embargo, el continente ha estado por debajo de mis expectativas. Empecé en blogger porque era inmediato y parte de la infraestructura de Google. Desde el principio, esta decisión precipitada me ocasionó problemas si intentaba modificar mínimamente el CSS.&lt;/p&gt;
@@ -2763,12 +3314,99 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 &lt;li&gt;Control total del CSS.&lt;/li&gt;
 &lt;li&gt;Soporte nativo para &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$ \zeta (s)={\frac {1}{\Gamma (s)}}\int _{0}^{\infty }{\frac {1}{e^{x}-1}},x^{s}{\frac {\mathrm {d} x}{x}} $$&lt;/p&gt;
-&lt;p&gt;$$ \Gamma (s)=\int _{0}^{\infty }e^{-x},x^{s}{\frac {\mathrm {d} x}{x}} $$&lt;/p&gt;
+&lt;!-- $$ \zeta (s)={\frac {1}{\Gamma (s)}}\int _{0}^{\infty }{\frac {1}{e^{x}-1}}\,x^{s}{\frac {\mathrm {d} x}{x}} $$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mi&gt;ζ&lt;/mi&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;mfrac&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+      &lt;mrow&gt;
+        &lt;mrow&gt;
+          &lt;mi mathvariant=&#34;normal&#34;&gt;Γ&lt;/mi&gt;
+        &lt;/mrow&gt;
+        &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+        &lt;mi&gt;s&lt;/mi&gt;
+        &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+    &lt;msubsup&gt;
+      &lt;mo movablelimits=&#34;false&#34;&gt;∫&lt;/mo&gt;
+      &lt;mn&gt;0&lt;/mn&gt;
+      &lt;mi&gt;∞&lt;/mi&gt;
+    &lt;/msubsup&gt;
+    &lt;mfrac&gt;
+      &lt;mn&gt;1&lt;/mn&gt;
+      &lt;mrow&gt;
+        &lt;msup&gt;
+          &lt;mi&gt;e&lt;/mi&gt;
+          &lt;mi&gt;x&lt;/mi&gt;
+        &lt;/msup&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mn&gt;1&lt;/mn&gt;
+      &lt;/mrow&gt;
+    &lt;/mfrac&gt;
+    &lt;mspace width=&#34;0.1667em&#34;&gt;&lt;/mspace&gt;
+    &lt;msup&gt;
+      &lt;mi&gt;x&lt;/mi&gt;
+      &lt;mi&gt;s&lt;/mi&gt;
+    &lt;/msup&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mrow&gt;
+          &lt;mi mathvariant=&#34;normal&#34;&gt;d&lt;/mi&gt;
+        &lt;/mrow&gt;
+        &lt;mi&gt;x&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mi&gt;x&lt;/mi&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
+&lt;!-- $$ \Gamma (s)=\int _{0}^{\infty }e^{-x}\,x^{s}{\frac {\mathrm {d} x}{x}} $$ --&gt;
+&lt;math display=&#34;block&#34;&gt;
+  &lt;mrow&gt;
+    &lt;mrow&gt;
+      &lt;mi mathvariant=&#34;normal&#34;&gt;Γ&lt;/mi&gt;
+    &lt;/mrow&gt;
+    &lt;mo form=&#34;prefix&#34; stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;
+    &lt;mi&gt;s&lt;/mi&gt;
+    &lt;mo form=&#34;postfix&#34; stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;
+    &lt;mo&gt;=&lt;/mo&gt;
+    &lt;msubsup&gt;
+      &lt;mo movablelimits=&#34;false&#34;&gt;∫&lt;/mo&gt;
+      &lt;mn&gt;0&lt;/mn&gt;
+      &lt;mi&gt;∞&lt;/mi&gt;
+    &lt;/msubsup&gt;
+    &lt;msup&gt;
+      &lt;mi&gt;e&lt;/mi&gt;
+      &lt;mrow&gt;
+        &lt;mo&gt;−&lt;/mo&gt;
+        &lt;mi&gt;x&lt;/mi&gt;
+      &lt;/mrow&gt;
+    &lt;/msup&gt;
+    &lt;mspace width=&#34;0.1667em&#34;&gt;&lt;/mspace&gt;
+    &lt;msup&gt;
+      &lt;mi&gt;x&lt;/mi&gt;
+      &lt;mi&gt;s&lt;/mi&gt;
+    &lt;/msup&gt;
+    &lt;mfrac&gt;
+      &lt;mrow&gt;
+        &lt;mrow&gt;
+          &lt;mi mathvariant=&#34;normal&#34;&gt;d&lt;/mi&gt;
+        &lt;/mrow&gt;
+        &lt;mi&gt;x&lt;/mi&gt;
+      &lt;/mrow&gt;
+      &lt;mi&gt;x&lt;/mi&gt;
+    &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+&lt;/math&gt;
 &lt;ul&gt;
 &lt;li&gt;Snippets de código con el tema solarized por defecto.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -2811,11 +3449,11 @@ gpg: Firma correcta de &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu CD Image A
 &lt;p&gt;Siempre me ha resultado llamativo que los blogs más populares de Linux en Español defiendan tanto la seguridad, privacidad y el software libre promoviendo el uso de Tor, publicando cada actualización del router de la cebolla y de Tails, pero todos estos autodenominados hacktivistas no utilizan Tor (excepto &lt;a href=&#34;http://binario5yvaed5ie.onion/&#34;&gt;Elbinario&lt;/a&gt;). A mí, sin embargo, me gusta predicar con el ejemplo y no necesito rellenar páginas con changelogs triviales. Por eso nunca he publicado nada sobre Tor pero voy a hacer algo más importante, distribuir Lunatic Geek en la red Tor con un onion service.
 El caso es que mientras desplegaba el servidor se me ocurrió que sería buena idea escribir un tutorial sobre la configuración y montaje de los onion services. A pesar de eso, reflexionando sobre el tema me di cuenta de que los tutoriales no son la mejor opción didáctica si seguimos la filosofía UNIX. Porque ya está todo inventado y mucho antes de cualquier HowTo de youtubers existía el manual en &lt;code&gt;man&lt;/code&gt;, uno de mis programas favoritos. Así que a partir de ahora, los pocos tutoriales que publique estarán disponibles en formato man para su disfrute offline en nuestro emulador de terminal favorito.&lt;/p&gt;
 &lt;p&gt;Para obtener estos manuales, clonamos el proyecto de Github&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;sudo git clone https://github.com/edkalrio/man.git /usr/share/man/tutoriales
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;sudo git clone https://github.com/edkalrio/man.git /usr/share/man/tutoriales
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Cuando cuelgue algún tutorial más, solo hay que actualizar con&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;sudo git pull
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;sudo git pull
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para ver mi dichoso tutorial, que provocó toda esta locura hay que ejecutar&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;man &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; tor
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;man &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; tor
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y ya podéis acceder a través de Tor &lt;a href=&#34;http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion&#34;&gt;http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion&lt;/a&gt; o si os resulta más cómodo &lt;a href=&#34;https://tor.lunaticgeek.com&#34;&gt;https://tor.lunaticgeek.com&lt;/a&gt; os redirige automáticamente.&lt;/p&gt;
 </content>
 	</entry>

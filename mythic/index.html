@@ -7,9 +7,9 @@
   <title>Análisis Estadístico de Mythic: GME - Lunatic Geek</title>
   <meta property="og:title" content="Análisis Estadístico de Mythic: GME - Lunatic Geek" />
   <meta name="twitter:title" content="Análisis Estadístico de Mythic: GME - Lunatic Geek" />
-  <meta name="description" content="El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.">
-  <meta property="og:description" content="El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.">
-  <meta name="twitter:description" content="El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a …">
+  <meta name="description" content="-- El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.">
+  <meta property="og:description" content="-- El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.">
+  <meta name="twitter:description" content="-- El Emulador del Director de Juego de Mythic es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
   <meta property="og:site_name" content="Lunatic Geek" />
@@ -84,7 +84,7 @@
 			</ul>
 			
 			<center><img src="https://www.wordmillgames.com/images/gmecoverlarger.jpg" /></center>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script> -->
 <p>El Emulador del Director de Juego de <a href="https://www.wordmillgames.com/">Mythic</a> es un suplemento universal para juegos de rol que permite al game master improvisar circunstancias azarosas en las escenas de la partida para quitar peso a su intervención, lo que puede llevar a una situación de juego sin director y en ultimo término a partidas en solitario, cuya trama va surgiendo de la aleatoriedad del sistema y a la interpretación del único jugador.</p>
 <p>El emulador de Mythic, si bien no es innovador porque recuerda a la clásica tabla universal de resultados del sistema <a href="https://en.wikipedia.org/wiki/Marvel_Super_Heroes:_The_Heroic_Role-Playing_Game">FASERIP</a>, ha sabido abrirse paso hasta posicionarse como una de las herramientas fundamentales para jugar en solitario a juegos de rol.</p>
 <center><img src="https://s3.amazonaws.com/files.d20.io/images/23716813/bz-XbzLdia8ee0XMlp5myQ/original.jpg?1475346608" /></center>
@@ -165,7 +165,7 @@
 <p>El siguiente paso es analizar la incidencia del Caos en las estadísticas. Este Caos no es el concepto que cualquiera que haya estudiado física tiene en mente. Según el autor es una variable que aumenta las probabilidades de éxito de un suceso. Habría sido mejor denominarlo suerte, fortuna, <del>Homer Simpson</del> aunque entiendo que el término desprende cierto carácter épico y es más comercial.</p>
 <p>En definitiva, el Caos de Mythic es una variación en la media de las distribuciones normales que lo forman. Si seguimos profundizando vemos que esa variación es lineal, de unos 9 puntos como se aprecia de una sencilla regresión lineal. Curiosamente, la varianza de las distribuciones apenas cambia entre escenarios y se sitúa en unos 28 puntos.</p>
 <center><img src="/mythic_means.png" /></center>
-<pre><code>Residuals:
+<pre tabindex="0"><code>Residuals:
     Min      1Q  Median      3Q     Max 
 -4.0556 -1.0328 -0.0783  1.1263  4.7172 
 
@@ -179,7 +179,7 @@ Residual standard error: 2.64 on 7 degrees of freedom
 Multiple R-squared:  0.9896,	Adjusted R-squared:  0.9881 
 F-statistic: 665.8 on 1 and 7 DF,  p-value: 3.358e-08
 </code></pre><center><img src="/mythic_sds.png" /></center>
-<pre><code>Residuals:
+<pre tabindex="0"><code>Residuals:
     Min      1Q  Median      3Q     Max 
 -3.1067 -2.2005  0.2479  1.7868  2.9188 
 
@@ -194,8 +194,62 @@ Multiple R-squared:  0.1961,	Adjusted R-squared:  0.08124
 F-statistic: 1.707 on 1 and 7 DF,  p-value: 0.2326
 </code></pre><p>Finalmente, si adoptamos una hipótesis de equidistancia entre los escenarios de probabilidad —nada nos indica lo contrario— podremos reconstruir la distribución de probabilidad utilizada para formar la tabla original, aproximadamente. Sin embargo vamos a cambiar ligeramente los parámetros para obtener resultados similares en los desafíos de tirada pero que estadísticamente van a presentar ciertas características beneficiosas. Por tanto la distribución adoptada es <em>N(10ci, 30)</em>.</p>
 <p>Las celdas de la tabla representan los valores aleatorios, por lo que tendremos que invertir su función de probabilidad, es decir, utilizaremos la función cuantil para obtener los nuevos valores asociados a las probabilidades acumuladas equivalentes a los descriptores de probabilidad.</p>
-<p>$$10c_i+30\Phi^{-1}(p_j)$$
-$$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$</p>
+<!-- $$10c_i+30\Phi^{-1}(p_j)$$ -->
+<math display="block">
+  <mrow>
+    <mn>10</mn>
+    <msub>
+      <mi>c</mi>
+      <mi>i</mi>
+    </msub>
+    <mo>+</mo>
+    <mn>30</mn>
+    <msup>
+      <mrow>
+        <mi mathvariant="normal">Φ</mi>
+      </mrow>
+      <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </msup>
+    <mo form="prefix" stretchy="false">(</mo>
+    <msub>
+      <mi>p</mi>
+      <mi>j</mi>
+    </msub>
+    <mo form="postfix" stretchy="false">)</mo>
+  </mrow>
+</math>
+<br>
+<!-- $$p=\left \\{ \frac{1}{n+1}:\frac{n}{n+1} \right \\}$$ -->
+<math display="block">
+  <mrow>
+    <mi>p</mi>
+    <mo>=</mo>
+    <mrow>
+      <mo fence="true" form="prefix">{</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+      <mo lspace="0.2222em" rspace="0.2222em">:</mo>
+      <mfrac>
+        <mi>n</mi>
+        <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </mfrac>
+      <mo fence="true" form="postfix">}</mo>
+    </mrow>
+  </mrow>
+</math>
 <p>Aplicando la fórmula generamos la tabla corregida de Myhtic: GME.</p>
 <table>
 	<thead>
@@ -252,7 +306,38 @@ $$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$</p>
 	</tbody>
 </table>
 <p>El efecto secundario de haber redondeado la β de la distribución de las medias a 10 es que obtenemos una variación exacta y constante entre las columnas que representan los estados de Caos. Para movernos a izquierda y derecha de la columna inicial (Caos = 5) solo hay que sumar o restar 10 —respectivamente— a los valores de cada fila. Otra ventaja de esta tabla es que ahora es simétrica en lo que se refiere a</p>
-<p>$$p_{i,n/2-k} + p_{i,n/2+k} = 100$$</p>
+<!-- $$p\_{i,n/2-k} + p\_{i,n/2+k} = 100$$ -->
+<math display="block">
+  <mrow>
+    <msub>
+      <mi>p</mi>
+      <mrow>
+        <mi>i</mi>
+        <mo separator="true">,</mo>
+        <mi>n</mi>
+        <mo lspace="0em" rspace="0em">⁄</mo>
+        <mn>2</mn>
+        <mo>−</mo>
+        <mi>k</mi>
+      </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+      <mi>p</mi>
+      <mrow>
+        <mi>i</mi>
+        <mo separator="true">,</mo>
+        <mi>n</mi>
+        <mo lspace="0em" rspace="0em">⁄</mo>
+        <mn>2</mn>
+        <mo>+</mo>
+        <mi>k</mi>
+      </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>100</mn>
+  </mrow>
+</math>
 <p>Por lo que se podrían resumir los 99 valores de esta en media docena de números, haciendo factible su memorización. Puede llamar la atención que el 50 no corresponda con el descriptor 50/50, pero la inconsistencia se encuentra en estas últimas ya que el autor presenta unas situaciones no equilibradas, con cuatro descriptores por debajo y seis por encima. Salvo en este apartado, creo que se ha logrado una tabla más consistente para consultar como oráculo de Myhthic, respetando en todo momento la intención original del autor, pero aplicando las técnicas estadísticas adecuadas, como se puede comprobar en la gráfica final. Parece el antes y después de un anuncio de la teletienda.</p>
 <center><img src="/mythic_after.png" /></center>
 			<div property="author" typeof="Person">
@@ -274,7 +359,7 @@ $$p=\left \{ \frac{1}{n+1}:\frac{n}{n+1} \right \}$$</p>
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

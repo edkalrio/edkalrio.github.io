@@ -7,11 +7,11 @@
   <title>Cadenas de Markov en Hex Flores - Lunatic Geek</title>
   <meta property="og:title" content="Cadenas de Markov en Hex Flores - Lunatic Geek" />
   <meta name="twitter:title" content="Cadenas de Markov en Hex Flores - Lunatic Geek" />
-  <meta name="description" content="Goblin&rsquo;s Henchman es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: &ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&rdquo;.
+  <meta name="description" content="-- Goblin&rsquo;s Henchman es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: &ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&rdquo;.
 Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos en función del resultado de una tirada de 2d6.">
-  <meta property="og:description" content="Goblin&rsquo;s Henchman es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: &ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&rdquo;.
+  <meta property="og:description" content="-- Goblin&rsquo;s Henchman es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: &ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&rdquo;.
 Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos en función del resultado de una tirada de 2d6.">
-  <meta name="twitter:description" content="Goblin&rsquo;s Henchman es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En …">
+  <meta name="twitter:description" content="-- Goblin&rsquo;s Henchman es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
   <meta property="og:site_name" content="Lunatic Geek" />
@@ -86,11 +86,38 @@ Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos e
 			</ul>
 			
 			<center><img src="/hex-flower.png" /></center>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script> -->
 <p><a href="https://goblinshenchman.wordpress.com/">Goblin&rsquo;s Henchman</a> es el creador de una curiosa forma de generar eventos aleatorios que pueden ser usados como oráculo, autogenerador de mapas o mazmorras y cualquier cosa que se nos ocurra. En palabras del propio autor: <em>&ldquo;A versatile game engine using 2D6 and a 19-Hex Flower (it’s like a random table, but with a memory&rdquo;</em>.</p>
 <p>Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos en función del resultado de una tirada de <code>2d6</code>. Hay que aclarar que el desplazamiento no afecta a los PJs sino a una serie de eventos del juego. Se trata de una representación geométrica de una tabla aleatoria.</p>
 <p>El autor señala que las Hex Flores tienen memoria, lo que es incorrecto. La memoria se refiere a los acontecimientos pasados mientras que estas flores evolucionan teniendo en cuenta sólo su posición actual, lo que en matemáticas hace que sean equivalentes a <a href="https://en.wikipedia.org/wiki/Markov_chain">cadenas de Markov</a>, modelo estocástico cuya principal característica es esta capacidad para describir eventos futuros que sólo guardan una relación de dependencia con el presente. Formalmente se expresa como</p>
-<p>$$\Pr(X_{n+1}=j\mid X_n=i)$$</p>
+<!-- $$\Pr(X_{n+1}=j\mid X_n=i)$$ -->
+<math display="block">
+  <mrow>
+    <mrow>
+      <mi>Pr</mi>
+      <mo>⁡</mo>
+    </mrow>
+    <mo form="prefix" stretchy="false">(</mo>
+    <msub>
+      <mi>X</mi>
+      <mrow>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>j</mi>
+    <mo lspace="0.22em" rspace="0.22em" stretchy="false">|</mo>
+    <msub>
+      <mi>X</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>=</mo>
+    <mi>i</mi>
+    <mo form="postfix" stretchy="false">)</mo>
+  </mrow>
+</math>
 <p>Las Hex Flores son cadenas de Markov en tiempo-homogéneo finito, irreducibles, aperiódicas y regulares. Fijándose en las probabilidades que dirigen el movimiento entre eventos podemos deducir una matriz de transición (<em>Q</em>). En la siguiente tabla he expresado las probabilidades multiplicadas por 36 para mayor claridad y simplicidad, en una matriz que ya es de por sí suficientemente grande.</p>
 <table>
 <thead>
@@ -542,7 +569,7 @@ Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos e
 <p>La Hex Flor es irreducible porque todos sus estados son recurrentes, es decir, que se puede navegar entre cualquier par de estados en un número finito de pasos porque la probabilidad entre ellos es siempre positiva. Esto implica que su comportamiento a largo plazo va a tender a una situación de equilibrio denominado estado estacionario, independiente de las condiciones iniciales de la cadena. Como existe un estado estacionario, la distribución de probabilidad marginal un movimiento después coincide con la del estado estacionario, e incluso con la del movimiento anterior porque el estado estacionario supone que la cadena sea reversible en el tiempo. Entonces <em>sQ=s</em></p>
 <p>Esto es como decir que <em>∞+1=∞</em> y <em>∞-1=∞</em> pero no hablo muy alto porque no quiero buscarme problemas con matemáticos.</p>
 <p>Para hallar el valor de <em>s</em> hay que darse cuenta de que no es otra cosa que el <a href="https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors">vector propio izquierdo</a> de la matriz <em>Q</em>. La ventaja de tener una matriz de 19 estados es que no hay posibilidad de calcularlo de forma algebraica y tendremos que recurrir a nuestro ordenador con R.</p>
-<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="n">Q</span><span class="o">&lt;-</span><span class="m">1</span><span class="o">/</span><span class="m">36</span><span class="o">*</span><span class="nf">rbind</span><span class="p">(</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="n">Q</span><span class="o">&lt;-</span><span class="m">1</span><span class="o">/</span><span class="m">36</span><span class="o">*</span><span class="nf">rbind</span><span class="p">(</span>
 	<span class="nf">c</span><span class="p">(</span><span class="m">11</span><span class="p">,</span><span class="m">14</span><span class="p">,</span><span class="m">10</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">),</span>
 	<span class="nf">c</span><span class="p">(</span><span class="m">7</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">3</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">11</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">),</span>
 	<span class="nf">c</span><span class="p">(</span><span class="m">9</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">3</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">11</span><span class="p">,</span><span class="m">0</span><span class="p">),</span>
@@ -563,10 +590,32 @@ Las Hex Flores son teselaciones de 19 hexágonos sobre los que nos desplazamos e
 	<span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">3</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">11</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">5</span><span class="p">),</span>
 	<span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">11</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="m">9</span><span class="p">)</span>
 <span class="p">)</span>
-</code></pre></div><p>Como casi todos los paquetes estadísticos, R calcula sólo el vector propio derecho, pero nosotros necesitamos el izquierdo (en operaciones matriciales no existe la propiedad conmutativa), luego tendremos que trasponer la matriz.
-$$sQ=s\leftrightarrow Q&rsquo;s'=s'$$
-Además hay que normalizar el vector propio para que sus componentes sumen uno, expresando las probabilidades de cada estado en la distribución estacionaria.</p>
-<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="n">s</span> <span class="o">&lt;-</span> <span class="nf">eigen</span><span class="p">(</span><span class="nf">t</span><span class="p">(</span><span class="n">Q</span><span class="p">))</span><span class="o">$</span><span class="n">vectors</span>
+</code></pre></div><p>Como casi todos los paquetes estadísticos, R calcula sólo el vector propio derecho, pero nosotros necesitamos el izquierdo (en operaciones matriciales no existe la propiedad conmutativa), luego tendremos que trasponer la matriz.</p>
+<!-- $$sQ=s\leftrightarrow Q's'=s'$$ -->
+<math display="block">
+  <mrow>
+    <mi>s</mi>
+    <mi>Q</mi>
+    <mo>=</mo>
+    <mi>s</mi>
+    <mo stretchy="false">↔</mo>
+    <msup>
+      <mi>Q</mi>
+      <mo lspace="0em" rspace="0em" class="tml-prime">′</mo>
+    </msup>
+    <msup>
+      <mi>s</mi>
+      <mo lspace="0em" rspace="0em" class="tml-prime">′</mo>
+    </msup>
+    <mo>=</mo>
+    <msup>
+      <mi>s</mi>
+      <mo lspace="0em" rspace="0em" class="tml-prime">′</mo>
+    </msup>
+  </mrow>
+</math>
+<p>Además hay que normalizar el vector propio para que sus componentes sumen uno, expresando las probabilidades de cada estado en la distribución estacionaria.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="n">s</span> <span class="o">&lt;-</span> <span class="nf">eigen</span><span class="p">(</span><span class="nf">t</span><span class="p">(</span><span class="n">Q</span><span class="p">))</span><span class="o">$</span><span class="n">vectors</span>
 <span class="n">s</span> <span class="o">&lt;-</span> <span class="n">s[</span><span class="p">,</span><span class="m">1</span><span class="n">]</span><span class="o">/</span><span class="nf">sum</span><span class="p">(</span><span class="n">s[</span><span class="p">,</span><span class="m">1</span><span class="n">]</span><span class="p">)</span>
 </code></pre></div><p>Con los resultados obtenidos se podría emular el comportamiento de la Hex Flor sin el tablero y sin tener en cuenta la posición actual para calcular el siguiente evento. Habría que utilizar un <code>d100</code> con las DC indicadas en la tabla que recoge el vector de estado estacionario.</p>
 <img style="float:right;width: 100%" src="/hex-flower-histogram.png">
@@ -698,7 +747,7 @@ Además hay que normalizar el vector propio para que sus componentes sumen uno, 
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

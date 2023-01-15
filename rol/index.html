@@ -7,11 +7,11 @@
   <title>Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol - Lunatic Geek</title>
   <meta property="og:title" content="Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol - Lunatic Geek" />
   <meta name="twitter:title" content="Generación de Distribuciones No-Uniformes mediante el algoritmo Alias de Vose en Juegos de Rol - Lunatic Geek" />
-  <meta name="description" content="Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.
+  <meta name="description" content="-- Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.
 El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme.">
-  <meta property="og:description" content="Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.
+  <meta property="og:description" content="-- Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.
 El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme.">
-  <meta name="twitter:description" content="Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad …">
+  <meta name="twitter:description" content="-- Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como nerds pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
   <meta property="og:site_name" content="Lunatic Geek" />
@@ -86,7 +86,7 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 			</ul>
 			
 			<center><img src="/d20.png" /></center>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script> -->
 <p>Hay cierto prejuicio generalizado contra los jugadores de rol que los califica como <em>nerds</em> pero por lo que he podido comprobar, la realidad se aleja bastante de esta idea preconcebida. La complejidad matemática de los juegos de rol es muy básica, lo que es una ventaja si uno está jugando, pero es un serio límite impuesto a los diseñadores de juegos.</p>
 <p>El sistema d20 es uno de los más populares y está basado en el dado del mismo nombre que genera una distribución uniforme. Aunque si hay algo que caracteriza al rol es la cantidad de dados que utiliza; en este mismo sistema se hace uso del <code>d6</code> para la creación de los personajes y otros eventos que requieren menos volatilidad. El uso de un solo dado, sea del valor que sea, supone la subordinación a una distribución de máxima entropía, totalmente imprevisible.</p>
 <p>Los generadores de números aleatorios (RNG) son el pilar fundamental del rol sobre el que se construyen las estadísticas de los personajes y monstruos, encuentros y cualquier circunstancia no determinista. Un mayor control de los RNG facilitaría la tarea de diseño de juegos de rol y simplificaría los mismos, mejorando la experiencia de juego. El problema es que los diseñadores no son expertos en combinatoria y probabilidad, e históricamente han recurrido a soluciones improvisadas y basadas en prueba-error para ir refinando las mecánicas aleatorias. Los resultados son innecesariamente tediosos y no se llega a tener el control total de las distribuciones generadas.</p>
@@ -94,9 +94,9 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 <p>La forma más habitual de generar distribuciones no-uniformes a partir de uniformes es mediante el <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform">algoritmo de Box-Muller</a>. El problema es que está diseñado para ser calculado por un ordenador, no por un dado. Es absolutamente inviable. En las asignaturas de estadística se estudia el <a href="https://en.wikipedia.org/wiki/Inverse_transform_sampling">método de la transformada inversa</a>, bastante sencillo pero que generaría una tabla guía enorme.</p>
 <p>Afortunadamente, profundizando en el tema, encontré un algoritmo no muy popular pero que según dicen es uno de los más elegantes e ingeniosos que existen. Se trata del <a href="http://www.keithschwarz.com/darts-dice-coins/">algoritmo de Vose</a> que genera tablas de tamaño <em>n</em> y el resultado se obtiene de forma inmediata.</p>
 <p>Keith Schawarz publicó una extensa explicación del algoritmo y lo compara con otros métodos similares. También ofrece una implementación en <a href="http://www.keithschwarz.com/interesting/code/?dir=alias-method">Java</a> pero como soy alérgico a este lenguaje, me he tomado la molestia de traducirlo a Python, en lo que es casi una copia línea por línea de las partes que me interesaban, si bien adaptando el algoritmo al caso del <code>d20</code>.</p>
-<div class="highlight"><pre class="chroma"><code class="language-python3" data-lang="python3"><span class="ch">#!/usr/bin/python</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python3" data-lang="python3"><span class="ch">#!/usr/bin/python</span>
 
-<span class="kn">from</span> <span class="nn">decimal</span> <span class="k">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="n">dice</span> <span class="o">=</span> <span class="p">{</span>
 <span class="s2">&#34;01&#34;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span>
@@ -267,7 +267,7 @@ El sistema d20 es uno de los más populares y está basado en el dado del mismo 
 </tbody>
 </table>
 <p>El procedimiento para utilizar esta tabla es muy sencillo</p>
-<pre><code>tiramos d20
+<pre tabindex="0"><code>tiramos d20
 nos colocamos en la fila correspondiente al resultado
 tiramos d20
 si superamos la dificultad de aquella fila
@@ -308,10 +308,10 @@ si no
 </tbody>
 </table>
 <p>A veces una imagen vale más que mil palabras, así que he elaborado los siguientes gráficos de las distribuciones anteriormente tratadas, obviando el hecho de que son generalizaciones de los verdaderos resultados y que las originales son discretas. Se muestra la PDF original en línea discontinua para que contraste con la estimación verdaderamente obtenida.</p>
-<p><img src="/3d6.png" />
+<img src="/3d6.png" />
 <img src="/4d6d1.png" />
 <img src="/4dF.png" />
-<img src="/d6.png" /></p>
+<img src="/d6.png" />
 <p>Finalmente y a modo de conclusión se recoge en la siguiente tabla las tiradas de dificultad (D) y alias (A) para los casos tratados. Esta es la única que necesitamos para jugar.</p>
 <table>
 <thead>
@@ -551,8 +551,78 @@ si no
 </tbody>
 </table>
 <p>P.S. Para calcular las probabilidades de la suma de los valores de los dados, se ha utilizado la intimidante fórmula</p>
-<p>$$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$</p>
-
+<!-- $$P(p, n, s)=\frac{1}{s^n}\sum_{k=0}^{\left \lfloor \frac{p-n}{s} \right \rfloor}(-1)^k\binom{p-sk-1}{p-sk-n}$$ -->
+<math display="block">
+  <mrow>
+    <mi>P</mi>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mi>p</mi>
+    <mo separator="true">,</mo>
+    <mi>n</mi>
+    <mo separator="true">,</mo>
+    <mi>s</mi>
+    <mo form="postfix" stretchy="false">)</mo>
+    <mo>=</mo>
+    <mfrac>
+      <mn>1</mn>
+      <msup>
+        <mi>s</mi>
+        <mi>n</mi>
+      </msup>
+    </mfrac>
+    <mrow>
+      <munderover>
+        <mo movablelimits="false">∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </mrow>
+        <mrow>
+          <mo fence="true" form="prefix">⌊</mo>
+          <mfrac>
+            <mrow>
+              <mi>p</mi>
+              <mo>−</mo>
+              <mi>n</mi>
+            </mrow>
+            <mi>s</mi>
+          </mfrac>
+          <mo fence="true" form="postfix">⌋</mo>
+        </mrow>
+      </munderover>
+    </mrow>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mo>−</mo>
+    <mn>1</mn>
+    <msup>
+      <mo form="postfix" stretchy="false">)</mo>
+      <mi>k</mi>
+    </msup>
+    <mrow>
+      <mo fence="true">(</mo>
+      <mfrac linethickness="0px">
+        <mrow>
+          <mi>p</mi>
+          <mo>−</mo>
+          <mi>s</mi>
+          <mi>k</mi>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+        <mrow>
+          <mi>p</mi>
+          <mo>−</mo>
+          <mi>s</mi>
+          <mi>k</mi>
+          <mo>−</mo>
+          <mi>n</mi>
+        </mrow>
+      </mfrac>
+      <mo fence="true">)</mo>
+    </mrow>
+  </mrow>
+</math>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
 			</div>
@@ -572,7 +642,7 @@ si no
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

@@ -95,13 +95,13 @@ Pero me gustaría romper una lanza en favor de FTP, aunque eso suponga ir contra
 <p>En mi opinión PGP es más seguro que TLS porque no depende de autoridades de certificación externas que validen la cadena de confianza hasta llegar a la clave raíz. Sólo en el caso de claves SSL autofirmadas, la seguridad de sendos protocolos se equiparan.</p>
 <p>Por ejemplo, la última versión estable de Ubuntu se encuentra en el servidor FTP <a href="ftp://releases.ubuntu.com/releases/18.04.1">ftp://releases.ubuntu.com/releases/18.04.1</a>. Tendríamos que bajar el <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS">hash</a> del archivo y su respectiva <a href="ftp://releases.ubuntu.com/releases/18.04.1/SHA256SUMS.gpg">firma</a></p>
 <p>Para verificar que la imagen .iso que hemos descargado ha sido firmada por Canonical, tenemos que acudir a <code>gpg</code>. La clave pública de descargas de Canonical se encuentra instalada por defecto en Ubuntu, como es obvio, en el directorio <code>/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg</code>. Si no queremos importarla a nuestro llavero personal de <code>gpg</code>, ejecutamos directamente</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">gpg --no-default-keyring --keyring /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg --verify SHA256SUMS.gpg SHA256SUMS
 </code></pre></div><p>que verifica la autenticidad del hash de la imagen.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">gpg: Firmado el jue <span class="m">26</span> jul <span class="m">2018</span> 18:56:03 CEST
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">gpg: Firmado el jue <span class="m">26</span> jul <span class="m">2018</span> 18:56:03 CEST
 gpg:                usando RSA clave D94AA3F0EFE21092
 gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing Key (2012) &lt;cdimage@ubuntu.com&gt;&#34;</span> <span class="o">[</span>desconocido<span class="o">]</span>
 </code></pre></div><p>Con el siguiente comando ya podemos comparar que el hash firmado coincide con el de la imagen que nos hemos descargado por las aguas turbulentas e infestadas de MitMs de FTP.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS 2&gt;<span class="p">&amp;</span><span class="m">1</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sha256sum -c SHA256SUMS 2&gt;<span class="p">&amp;</span><span class="m">1</span>
 </code></pre></div><p>Nadie dijo que fuera fácil pero se podría programar un script muy sencillo que automatizase estas tareas. En todo el proceso no hay inseguridad por ninguna parte y me temo que se utiliza a aquella como excusa barata para abandonar proyectos que dejan de interesar a los desarrolladores. Unos programadores que por vagancia o desidia tampoco ofrecen alternativas viables como la implementación de FTPS. De todos modos, en la actualidad se está perdiendo el espíritu original de UNIX materializado en la famosa cita de Terry Lambert: <em>&ldquo;It is not UNIX’s job to stop you from shooting your foot. If you so choose to do so, then it is UNIX’s job to deliver Mr. Bullet to Mr Foot in the most efficient way it knows&rdquo;</em>. Todo ello en favor de los noobs que utilizan estos sistemas que necesitan ser a prueba de idiotas.</p>
 
 			<div property="author" typeof="Person">
@@ -123,7 +123,7 @@ gpg: Firma correcta de <span class="s2">&#34;Ubuntu CD Image Automatic Signing K
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

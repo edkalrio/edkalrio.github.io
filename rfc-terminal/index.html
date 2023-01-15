@@ -83,9 +83,9 @@ Es demasiado farragoso tener que ejecutar">
 			<center><img src="/rfc-terminal.png" /></center>
 <p>Seré breve. Últimamente estoy leyendo bastantes RFCs y siempre acudo a la web de la <a href="https://tools.ietf.org/rfc/">ietf</a> porque tiene un formato sobresaliente y sin frivolidades, aunque me gustaría una alternativa de emergencia para estudiar offline. El paquete <code>doc-rfc-std</code> de Ubuntu nos trae todo el catálogo al directorio <code>/usr/share/doc/RFC/</code> para poder consultar desde nuestro emulador de terminal favorito estos documentos, con herramientas UNIX como <code>less</code>.</p>
 <p>Es demasiado farragoso tener que ejecutar</p>
-<div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">less /usr/share/doc/RFC/links/rfcXXXX.txt.gz
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash">less /usr/share/doc/RFC/links/rfcXXXX.txt.gz
 </code></pre></div><p>así que vamos a crear una función de Bash para facilitar la tarea</p>
-<div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash"><span class="nb">echo</span> <span class="s2">&#34;rfc() { less /usr/share/doc/RFC/links/rfc</span><span class="nv">$1</span><span class="s2">.txt.gz; }&#34;</span> &gt;&gt; ~/.bashrc
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="nb">echo</span> <span class="s2">&#34;rfc() { less /usr/share/doc/RFC/links/rfc</span><span class="nv">$1</span><span class="s2">.txt.gz; }&#34;</span> &gt;&gt; ~/.bashrc
 </code></pre></div>
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -106,7 +106,7 @@ Es demasiado farragoso tener que ejecutar">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

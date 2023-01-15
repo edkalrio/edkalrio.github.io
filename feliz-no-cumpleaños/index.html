@@ -7,9 +7,9 @@
   <title>Feliz No cumpleaños - Lunatic Geek</title>
   <meta property="og:title" content="Feliz No cumpleaños - Lunatic Geek" />
   <meta name="twitter:title" content="Feliz No cumpleaños - Lunatic Geek" />
-  <meta name="description" content="Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.">
-  <meta property="og:description" content="Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.">
-  <meta name="twitter:description" content="Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, …">
+  <meta name="description" content="--  Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.">
+  <meta property="og:description" content="--  Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.">
+  <meta name="twitter:description" content="--  Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias …">
   <meta name="author" content="edkalrio"/>
   <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
   <meta property="og:site_name" content="Lunatic Geek" />
@@ -73,7 +73,7 @@
 </div>
 			</ul>
 			
-			<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script>
+			<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'></script> -->
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Alice_par_John_Tenniel_25.png" /></center>
 <p>Este blog nació hace ya nueve años como punto de reunión de tres amigos que se separaban para continuar con sus estudios en diferentes lugares. El blog nos permitía comentar las noticias tecnológicas, más allá de las posibilidades que nos ofrecía el malogrado Google Reader. Con el tiempo nos volvimos a reunir y la utilidad del blog quedó obsoleta, así que me lo adueñé para reconvertirlo en mi columna de opinión sobre cualquier tema informático, centrándome en el software de código abierto, Linux, los microkernels, la filosofía UNIX, los sistema y redes federados y distribuidos.</p>
 <p>Aunque mis posts han ido evolucionando desde los generalistas del principio hasta los más oscuros y herméticos que escribo últimamente, pero siempre he estado orgulloso del contenido de mi blog. Sin embargo, el continente ha estado por debajo de mis expectativas. Empecé en blogger porque era inmediato y parte de la infraestructura de Google. Desde el principio, esta decisión precipitada me ocasionó problemas si intentaba modificar mínimamente el CSS.</p>
@@ -88,12 +88,99 @@
 <li>Control total del CSS.</li>
 <li>Soporte nativo para <a href="https://www.mathjax.org/">MathJax</a>.</li>
 </ul>
-<p>$$ \zeta (s)={\frac {1}{\Gamma (s)}}\int _{0}^{\infty }{\frac {1}{e^{x}-1}},x^{s}{\frac {\mathrm {d} x}{x}} $$</p>
-<p>$$ \Gamma (s)=\int _{0}^{\infty }e^{-x},x^{s}{\frac {\mathrm {d} x}{x}} $$</p>
+<!-- $$ \zeta (s)={\frac {1}{\Gamma (s)}}\int _{0}^{\infty }{\frac {1}{e^{x}-1}}\,x^{s}{\frac {\mathrm {d} x}{x}} $$ -->
+<math display="block">
+  <mrow>
+    <mi>ζ</mi>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mi>s</mi>
+    <mo form="postfix" stretchy="false">)</mo>
+    <mo>=</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mrow>
+        <mrow>
+          <mi mathvariant="normal">Γ</mi>
+        </mrow>
+        <mo form="prefix" stretchy="false">(</mo>
+        <mi>s</mi>
+        <mo form="postfix" stretchy="false">)</mo>
+      </mrow>
+    </mfrac>
+    <msubsup>
+      <mo movablelimits="false">∫</mo>
+      <mn>0</mn>
+      <mi>∞</mi>
+    </msubsup>
+    <mfrac>
+      <mn>1</mn>
+      <mrow>
+        <msup>
+          <mi>e</mi>
+          <mi>x</mi>
+        </msup>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </mfrac>
+    <mspace width="0.1667em"></mspace>
+    <msup>
+      <mi>x</mi>
+      <mi>s</mi>
+    </msup>
+    <mfrac>
+      <mrow>
+        <mrow>
+          <mi mathvariant="normal">d</mi>
+        </mrow>
+        <mi>x</mi>
+      </mrow>
+      <mi>x</mi>
+    </mfrac>
+  </mrow>
+</math>
+<!-- $$ \Gamma (s)=\int _{0}^{\infty }e^{-x}\,x^{s}{\frac {\mathrm {d} x}{x}} $$ -->
+<math display="block">
+  <mrow>
+    <mrow>
+      <mi mathvariant="normal">Γ</mi>
+    </mrow>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mi>s</mi>
+    <mo form="postfix" stretchy="false">)</mo>
+    <mo>=</mo>
+    <msubsup>
+      <mo movablelimits="false">∫</mo>
+      <mn>0</mn>
+      <mi>∞</mi>
+    </msubsup>
+    <msup>
+      <mi>e</mi>
+      <mrow>
+        <mo>−</mo>
+        <mi>x</mi>
+      </mrow>
+    </msup>
+    <mspace width="0.1667em"></mspace>
+    <msup>
+      <mi>x</mi>
+      <mi>s</mi>
+    </msup>
+    <mfrac>
+      <mrow>
+        <mrow>
+          <mi mathvariant="normal">d</mi>
+        </mrow>
+        <mi>x</mi>
+      </mrow>
+      <mi>x</mi>
+    </mfrac>
+  </mrow>
+</math>
 <ul>
 <li>Snippets de código con el tema solarized por defecto.</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-C" data-lang="C"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C" data-lang="C"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
 </span><span class="cp"></span>
 <span class="n">main</span><span class="p">()</span>
 <span class="p">{</span>
@@ -129,7 +216,7 @@
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">

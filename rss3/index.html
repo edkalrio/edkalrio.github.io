@@ -74,7 +74,7 @@ Corría el año 2002 y yo estaba muy ocupado jugando al …">
 			<p>He descubierto en el blog de <a href="https://alexschroeder.ch/wiki/2018-12-01_Thinking_about_the_real_RSS_3.0">Alex Schroeder</a>, uno de mis compañeros de <a href="irc://irc.sdf.org">IRC</a>, una referencia casi distópica, redactada por el mismísimo <a href="https://lunaticgeek.com/2014-07-01-the-internets-own-boy-la-pelicula-sobre/">Aaron Swartz</a>.</p>
 <p>Corría el año 2002 y yo estaba muy ocupado jugando al Counter-Strike mientras el jovencísimo genio Aaron Swartz ya formaba parte del grupo de trabajo <a href="http://web.resource.org/">RSS-DEV</a>. Por aquel entonces, <a href="https://lunaticgeek.com/arreglando-twitter/">RSS 2.0 era un desastre</a> anterior a la aparición ATOM, y a Aaron se le ocurrió promulgar la siguiente iteración del standard. En un tono bastante jocoso expone las principales características de <a href="http://www.aaronsw.com/weblog/000574">RSS 3.0</a> que romperán con todo lo propuesto hasta entonces: Nada de XML, que sería reemplazado por campos similares a los de los correos electrónicos <a href="https://tools.ietf.org/html/rfc822">RFC822</a>. También propone eliminar los espacios de nombres, que sin XML tampoco tendrían sentido, y el HTML porque &ldquo;nadie necesita HTML&rdquo;.</p>
 <p>La descripción completa y pormenorizada de su borrador sigue disponible en su <a href="http://www.aaronsw.com/2002/rss30">blog</a> personal. Para visualizar su idea, nada mejor que copiar aquí el ejemplo que plantea.</p>
-<pre><code>title: RSS 3.0 News
+<pre tabindex="0"><code>title: RSS 3.0 News
 description: Latest updates on RSS 3.0.
 link: http://www.aaronsw.com/2002/rss30
 creator: me@aaronsw.com Aaron Swartz
@@ -95,7 +95,7 @@ GUID: 0894CB2F-C1E0-11D6-9649-003065F376B6
 Description: Zooko says he likes the spec.
 </code></pre><p>La simplicidad de RSS 3.0 rompe con la herencia recibida y se acerca a lo que unos años más tarde sería YAML, el formato de serialización de datos más popular en la actualidad. De hecho, RSS 3.0 es compatible con YAML en todos los campos excepto en los que ocupan múltiples líneas, ya que YAML exige que vengan precedidos por &ldquo;<code>|</code>&rdquo; o &ldquo;<code>&gt;</code>&rdquo;.</p>
 <p>Aunque este borrador nunca llegó a discutirse en el grupo de trabajo, hubo ciertos desarrollos de terceros como el parser en una línea de python que programó <a href="https://lists.w3.org/Archives/Public/www-archive/2002Sep/0089">Sean B. Palmer</a></p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="p">[</span><span class="nb">dict</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s1">&#39;(?s)([^</span><span class="se">\n</span><span class="s1">:]+): (.*?)(?=</span><span class="se">\n</span><span class="s1">[^ </span><span class="se">\t</span><span class="s1">]|\Z)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">item</span><span class="p">))</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">&#39;</span><span class="p">)]</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="p">[</span><span class="nb">dict</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s1">&#39;(?s)([^</span><span class="se">\n</span><span class="s1">:]+): (.*?)(?=</span><span class="se">\n</span><span class="s1">[^ </span><span class="se">\t</span><span class="s1">]|\Z)&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">item</span><span class="p">))</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">&#39;</span><span class="p">)]</span>
 </code></pre></div><p>Es una pena que nadie se tomara en serio RSS 3.0. A pesar de su apariencia reduccionista, habría sido el reemplazo perfecto para un deficiente RSS 2.0.</p>
 
 			<div property="author" typeof="Person">
@@ -117,7 +117,7 @@ Description: Zooko says he likes the spec.
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
       <img src="/creative-commons.svg" class="fa" alt="creative commons" />
     </a>
-    RW Labs 2022</div>
+    RW Labs 2023</div>
   <ul class="site-footer-items">
     
     <li class="site-footer-item-rsslink">
