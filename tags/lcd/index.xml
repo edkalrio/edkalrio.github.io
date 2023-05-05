@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LCD on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/lcd/</link>
+    <description>Recent content in LCD on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/lcd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EPUB en LCD</title>
+      <link>https://lunaticgeek.com/lcd/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/lcd/</guid>
+      <description>La comodidad que aportan los libros electrónicos a la lectura es inigualable. Ni siquiera sus ancestros de papel son capaces de rivalizar con la tinta electrónica, muy a pesar de las infundadas opiniones de los más nostálgicos, que echan de menos el olor a imprenta y las sensaciones táctiles que les aportan.
+Sin embargo, tras más de una década disfrutando de la lectura en distintas iteraciones de Kindle, veo que cada vez leo más en el móvil.</description>
+    </item>
+    
+  </channel>
+</rss>

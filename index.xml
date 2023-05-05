@@ -6,7 +6,43 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2022-04-15T00:00:00Z</updated>
+	<updated>2023-05-05T00:00:00Z</updated>
+	
+	<entry>
+		<title>EPUB en LCD</title>
+		<link rel="alternate" href="https://lunaticgeek.com/lcd/" />
+		<updated>2023-05-05T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/lcd/</id>
+		<content type="html">&lt;p&gt;La comodidad que aportan los libros electrónicos a la lectura es inigualable. Ni siquiera sus ancestros de papel son capaces de rivalizar con la tinta electrónica, muy a pesar de las infundadas opiniones de los más nostálgicos, que echan de menos el olor a imprenta y las sensaciones táctiles que les aportan.&lt;/p&gt;
+&lt;p&gt;Sin embargo, tras más de una década disfrutando de la lectura en distintas iteraciones de Kindle, veo que cada vez leo más en el móvil. Ya sea por llevarlo siempre a mano, por la superioridad al manejar PDF o porque su pantalla ya es mayor que la de mis kindle, se ha convertido con el tiempo en una dura competencia para mis ebooks.&lt;/p&gt;
+&lt;p&gt;Me paso todo el día delante de la pantalla, con los perjuicios oculares que eso conlleva, así que he intentado minimizar su impacto. Es obvio que no se pueden alcanzar las características de la tinta electrónica en un panel LCD o LED, pero he conseguido aumentar la comodidad de lectura modificando el contraste.&lt;/p&gt;
+&lt;p&gt;Se podría reducir el brillo, aunque los resultados que he obtenido con ese experimento no han sido nada satisfactorios. Casi todas las apps de lectura tienen un tema invertido &amp;mdash;que detesto&amp;mdash; y uno con tonos sepias para reducir las luces azules que sin demasiadas evidencias científicas alteran nuestros ciclos circadianos&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Personalmente, soy una persona bastante monocromática y prefiero adoptar un fondo grisáceo con letras negras, que además le da un cierto toque de periódico antiguo. El tono concreto depende mucho de la iluminación del ambiente, de la pantalla, su brillo, tamaño, tipografía, etc. por lo que se me ha ocurrido convertir esta entrada del blog en una hoja de prueba con la que calibrar cada dispositivo hasta encontrar el tono óptimo.&lt;/p&gt;
+&lt;p&gt;Sólo hay que utilizar el &lt;em&gt;slider&lt;/em&gt; para cambiar todo el fondo del blog, de forma no persistente, con una breve función de JavaScript.&lt;/p&gt;
+&lt;p&gt;Me resulta curioso haber encontrado tanta variabilidad en los resultados, con tonos que van desde el &lt;code&gt;#AAA&lt;/code&gt; hasta el &lt;code&gt;#666&lt;/code&gt;, pero lo importante es que en cualquier caso lo prefiero antes que un fondo blanco y radiante.&lt;/p&gt;
+&lt;div&gt;
+    &lt;center&gt;
+        &lt;input type=&#34;range&#34; id=&#34;slider&#34; min=&#34;0&#34; max=&#34;255&#34; value=&#34;255&#34; style=&#34;width: 80%&#34;&gt;
+        &lt;span id=&#34;slider-value&#34;&gt;#FFFFFF&lt;/span&gt;
+    &lt;/center&gt;
+    &lt;script&gt;
+        const body = document.getElementsByTagName(&#39;body&#39;)[0];
+        const slider = document.getElementById(&#39;slider&#39;);
+        const sliderValue = document.getElementById(&#39;slider-value&#39;);
+        slider.addEventListener(&#39;input&#39;, () =&gt; {
+            const value = Number(slider.value);
+            const hexValue = value.toString(16).toUpperCase().padStart(2, &#39;0&#39;);
+            const sliderColor = `#${hexValue}${hexValue}${hexValue}`;
+            body.style.backgroundColor = sliderColor;
+            sliderValue.textContent = sliderColor;
+        });
+    &lt;/script&gt;
+&lt;/div&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Generador de PJs basado en 24d6</title>

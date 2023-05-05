@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lunaticgeek.com/lcd/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/kindle/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/lcd/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/estad%C3%ADstica/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/24d6/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/matem%C3%A1ticas/</loc>
@@ -18,9 +30,6 @@
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/rol/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/bash/</loc>
@@ -585,9 +594,6 @@
     <lastmod>2014-12-17T11:46:00+01:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/2014-10-21-el-panel-5k-del-imac/</loc>
-    <lastmod>2014-10-21T20:20:00+02:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/kindle/</loc>
     <lastmod>2014-10-21T20:20:00+02:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/mac/</loc>
