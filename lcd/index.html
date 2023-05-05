@@ -95,6 +95,7 @@ Sin embargo, tras más de una década disfrutando de la lectura en distintas ite
             const value = Number(slider.value);
             const hexValue = value.toString(16).toUpperCase().padStart(2, '0');
             const sliderColor = `#${hexValue}${hexValue}${hexValue}`;
+            body.style.colorScheme = 'only light';
             body.style.backgroundColor = sliderColor;
             sliderValue.textContent = sliderColor;
         });
