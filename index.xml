@@ -36,8 +36,8 @@
             const value = Number(slider.value);
             const hexValue = value.toString(16).toUpperCase().padStart(2, &#39;0&#39;);
             const sliderColor = `#${hexValue}${hexValue}${hexValue}`;
-            body.style.colorScheme = &#39;only light&#39;;
             body.style.backgroundColor = sliderColor;
+            body.style.color = &#34;black&#34;;
             sliderValue.textContent = sliderColor;
         });
     &lt;/script&gt;
