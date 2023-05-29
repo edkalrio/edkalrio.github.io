@@ -16,7 +16,8 @@
 			<name>edkalrio</name>
 		</author>
 		<id>https://lunaticgeek.com/portada/</id>
-		<content type="html">&lt;table&gt;
+		<content type="html">&lt;p&gt;Se celebra estos días la &lt;a href=&#34;https://ferialibromadrid.com/&#34;&gt;82 Feria del Libro de Madrid&lt;/a&gt;, &amp;mdash;algo pasada por agua&amp;mdash; y a pesar de que yo soy más proclive a la lectura de libros de dominio público, sacados de la Biblioteca Pública o comprados de segunda mano, he de reconocer que el ambiente de las ferias del libro es inigualable. Ese ha sido el detonante que me ha recordado una anécdota ocurrida hace ya más de una década, mientras andaba editando EPUBs pirata en un foro &amp;mdash;desaparecido ya&amp;mdash; de internet.&lt;/p&gt;
+&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Título&lt;/th&gt;
@@ -121,7 +122,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Se celebra estos días la &lt;a href=&#34;https://ferialibromadrid.com/&#34;&gt;82 Feria del Libro de Madrid&lt;/a&gt;, &amp;mdash;algo pasada por agua&amp;mdash; y a pesar de que yo soy más proclive a la lectura de libros de dominio público, sacados de la Biblioteca Pública o comprados de segunda mano, he de reconocer que el ambiente de las ferias del libro es inigualable. Ese ha sido el detonante que me ha recordado una anécdota ocurrida hace ya más de una década, mientras andaba editando EPUBs pirata en un foro &amp;mdash;desaparecido ya&amp;mdash; de internet.&lt;/p&gt;
 &lt;p&gt;La mayor parte del tiempo, me lo pasaba discutiendo con apasionados de la lectura, que no tenían demasiada idea de informática, sobre tipografías y maquetación. Una de las más sonadas discusiones se dio por el afán desmedido a la hora de reducir el tamaño del XHTML. Si bien comparto ese punto de vista, no parece muy razonable que esas prácticas de recorte no se aplicaran a la portada de los libros, casi siempre PNGs de resoluciones innecesarias (e imposibles de apreciar con los paneles de la época) convertidos directamente de PSD, después de aplicarles alguna marca de agua, logo u otras pijadas.&lt;/p&gt;
 &lt;p&gt;He llegado a ver libros cuya portada ocupaba 20 veces más que todo su texto. No pretendo que los libros se comercialicen como &lt;a href=&#34;https://www.gutenberg.org/&#34;&gt;TXT&lt;/a&gt;, y reconozco que si alguien no ha comprado nunca un libro por su portada es porque no ha comprado demasiados libros&amp;hellip; Sin embargo, siempre he opinado que se puede llegar a un equilibrio en este asunto sin molestar a nadie, aplicando las mismas buenas prácticas que rigen el diseño web en cuanto al tratamiento de imágenes.&lt;/p&gt;
 &lt;p&gt;A pesar de tanta discusión, los libros que produjimos en el foro salían con una calidad superior a la de las editoriales, que en aquel entonces no prestaban demasiada atención a los libros electrónicos (Amazon no había desembarcado en España aún). Me parece relevante repasar los criterios que siguen ahora esas editoriales. He seleccionado diez libros entre los más vendidos de 2023, de ficción y no ficción, a los que he reventado el DRM para poder comprobar el tamaño (KB) del EPUB (que en realidad es un ZIP con cierta estructura de archivos determinada en su &lt;a href=&#34;https://www.w3.org/TR/epub-33/&#34;&gt;especificación&lt;/a&gt;), el tamaño sin comprimir, así como su ratio; el tamaño de la portada y su relación con la del resto del texto.&lt;/p&gt;
