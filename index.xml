@@ -6,7 +6,43 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2023-05-29T00:00:00Z</updated>
+	<updated>2023-06-10T00:00:00Z</updated>
+	
+	<entry>
+		<title>El DDNS de Cloudflare</title>
+		<link rel="alternate" href="https://lunaticgeek.com/ddns/" />
+		<updated>2023-06-10T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/ddns/</id>
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://archives.bulbagarden.net/media/upload/2/24/Spr_2c_054.png&#34; alt=&#34;psyduck sprite&#34;/&gt;&lt;/center&gt;
+&lt;p&gt;Llevo reivindicando la creación de un servidor DDNS público por parte de Cloudflare desde hace más de cinco años, pero ese escenario me parece cada vez más improbable. Para ellos no sería más que un &lt;em&gt;toy project&lt;/em&gt; que asignarían a un becario, como forma de promocionar su negocio serverless.&lt;/p&gt;
+&lt;p&gt;Por mi parte, estoy muy contento con el servidor que ofrece &lt;a href=&#34;https://www.duckdns.org/&#34;&gt;duckdns.org&lt;/a&gt;. Los uso desde que empecé a montar webs, y es el que recomiendo a todo el mundo. Sin embargo, me he animado a dar el paso y migrar el DDNS a la plataforma de Cloudflare, a pesar de que no existe tal cosa. Paradójicamente, Cloudflare expone una completa y perfectamente estructurada &lt;a href=&#34;https://developers.cloudflare.com/api/&#34;&gt;API&lt;/a&gt; con la que podemos manejar los registros DNS de nuestros dominios.&lt;/p&gt;
+&lt;p&gt;La estrategia a seguir sería configurar un subdominio, cuyo registro &lt;code&gt;A&lt;/code&gt; fuéramos actualizando mediante peticiones a la API. Luego sólo tendríamos que apuntar el &lt;code&gt;cname&lt;/code&gt; del resto de subdominios al que actúa como DDNS. Las diferencias con un servicio nativo son mínimas. En vez de utilizar un hipotético &lt;a href=&#34;https://lunaticgeek.com/&#34;&gt;lunaticgeek.cloudflare.com&lt;/a&gt;, entramos a través de &lt;a href=&#34;https://lunaticgeek.com/&#34;&gt;ddns.lunaticgeek.com&lt;/a&gt;. La forma de actualizar nuestra IP pública también es ligeramente más farragosa que con un servicio nativo, pero siguiendo su &lt;a href=&#34;https://developers.cloudflare.com/api/operations/dns-records-for-a-zone-update-dns-record/&#34;&gt;documentación&lt;/a&gt;, me he construido un breve script que &amp;mdash;añadido a un cronjob&amp;mdash; nos facilita la tarea y nos permite prescindir del servicio de un tercero. Reitero que duckdns es un DDNS fantástico, pero puede desaparecer en cualquier momento. A largo plazo, esta solución me parece la más prudente y acertada.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;ZONE_IDENTIFIER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;################################&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;IDENTIFIER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;################################&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;nv&#34;&gt;X_AUTH_EMAIL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;edkalrio@gmail.com&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;X_AUTH_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#####################################&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;PUBLIC_IP&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -s https://icanhazip.com/&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;RECORD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;ddns.lunaticgeek.com&amp;#34;&lt;/span&gt;
+
+curl --request PUT &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;	--url https://api.cloudflare.com/client/v4/zones/&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;ZONE_IDENTIFIER&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;/dns_records/&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;IDENTIFIER&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;	--header &lt;span class=&#34;s1&#34;&gt;&amp;#39;Content-Type: application/json&amp;#39;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;	--header &lt;span class=&#34;s2&#34;&gt;&amp;#34;X-Auth-Email: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;X_AUTH_EMAIL&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;	--header &lt;span class=&#34;s2&#34;&gt;&amp;#34;X-Auth-Key: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;X_AUTH_KEY&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;	--data &lt;span class=&#34;s2&#34;&gt;&amp;#34;{
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	\&amp;#34;content\&amp;#34;: \&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;PUBLIC_IP&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;,
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	\&amp;#34;name\&amp;#34;: \&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;RECORD&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;,
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;	\&amp;#34;type\&amp;#34;: \&amp;#34;A\&amp;#34;
+&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;}&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;P.S. Los más avispados se habrán dado cuenta de que mi intención de ser independiente de servicios de terceros en la administración de DDNS choca con el hecho de tener que averiguar la IP pública del servidor de origen. En mi caso, he recurrido a &lt;a href=&#34;https://icanhazip.com/&#34;&gt;icanzip.com&lt;/a&gt;, que sí forma parte de la infraestructura de Cloudflare, por lo que no me desvío de mi objetivo inicial, aunque pudiera parecer lo contrario.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Juzgar un Libro por su Portada</title>

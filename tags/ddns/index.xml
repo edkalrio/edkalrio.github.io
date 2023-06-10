@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DDNS on Lunatic Geek</title>
+    <link>https://lunaticgeek.com/tags/ddns/</link>
+    <description>Recent content in DDNS on Lunatic Geek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/ddns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El DDNS de Cloudflare</title>
+      <link>https://lunaticgeek.com/ddns/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/ddns/</guid>
+      <description>Llevo reivindicando la creación de un servidor DDNS público por parte de Cloudflare desde hace más de cinco años, pero ese escenario me parece cada vez más improbable. Para ellos no sería más que un toy project que asignarían a un becario, como forma de promocionar su negocio serverless.
+Por mi parte, estoy muy contento con el servidor que ofrece duckdns.org. Los uso desde que empecé a montar webs, y es el que recomiendo a todo el mundo.</description>
+    </item>
+    
+  </channel>
+</rss>

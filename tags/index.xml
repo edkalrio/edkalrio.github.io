@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 29 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash</title>
+      <link>https://lunaticgeek.com/tags/bash/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>https://lunaticgeek.com/tags/cloudflare/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDNS</title>
+      <link>https://lunaticgeek.com/tags/ddns/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/ddns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>https://lunaticgeek.com/tags/dns/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/dns/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DRM</title>
       <link>https://lunaticgeek.com/tags/drm/</link>
@@ -85,15 +121,6 @@
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/rol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bash</title>
-      <link>https://lunaticgeek.com/tags/bash/</link>
-      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/bash/</guid>
       <description></description>
     </item>
     
@@ -355,15 +382,6 @@
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloudflare</title>
-      <link>https://lunaticgeek.com/tags/cloudflare/</link>
-      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/cloudflare/</guid>
       <description></description>
     </item>
     
@@ -751,15 +769,6 @@
       <pubDate>Tue, 24 Apr 2018 14:02:00 +0200</pubDate>
       
       <guid>https://lunaticgeek.com/tags/rng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DNS</title>
-      <link>https://lunaticgeek.com/tags/dns/</link>
-      <pubDate>Wed, 11 Apr 2018 14:10:00 +0200</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/dns/</guid>
       <description></description>
     </item>
     
