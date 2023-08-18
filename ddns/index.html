@@ -78,14 +78,10 @@ Por mi parte, estoy muy contento con el servidor que ofrece duckdns.org. Los uso
 						<b>#</b>Bash
 					</a> 
 				</li>
-				<div class="twitter">
-	<a href="https://twitter.com/intent/tweet?text=El%20DDNS%20de%20Cloudflare%20-%20Lunatic%20Geek&url=https%3a%2f%2flunaticgeek.com%2fddns%2f" target="_blank">
-		<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> Tweet
-	</a>
-</div>
+				
 			</ul>
 			
-			<center><img src="https://archives.bulbagarden.net/media/upload/2/24/Spr_2c_054.png" alt="psyduck sprite"/></center>
+			<center><img src="/psyduck.png" alt="psyduck sprite"/></center>
 <p>Llevo reivindicando la creación de un servidor DDNS público por parte de Cloudflare desde hace más de cinco años, pero ese escenario me parece cada vez más improbable. Para ellos no sería más que un <em>toy project</em> que asignarían a un becario, como forma de promocionar su negocio serverless.</p>
 <p>Por mi parte, estoy muy contento con el servidor que ofrece <a href="https://www.duckdns.org/">duckdns.org</a>. Los uso desde que empecé a montar webs, y es el que recomiendo a todo el mundo. Sin embargo, me he animado a dar el paso y migrar el DDNS a la plataforma de Cloudflare, a pesar de que no existe tal cosa. Paradójicamente, Cloudflare expone una completa y perfectamente estructurada <a href="https://developers.cloudflare.com/api/">API</a> con la que podemos manejar los registros DNS de nuestros dominios.</p>
 <p>La estrategia a seguir sería configurar un subdominio, cuyo registro <code>A</code> fuéramos actualizando mediante peticiones a la API. Luego sólo tendríamos que apuntar el <code>cname</code> del resto de subdominios al que actúa como DDNS. Las diferencias con un servicio nativo son mínimas. En vez de utilizar un hipotético <a href="/">lunaticgeek.cloudflare.com</a>, entramos a través de <a href="/">ddns.lunaticgeek.com</a>. La forma de actualizar nuestra IP pública también es ligeramente más farragosa que con un servicio nativo, pero siguiendo su <a href="https://developers.cloudflare.com/api/operations/dns-records-for-a-zone-update-dns-record/">documentación</a>, me he construido un breve script que &mdash;añadido a un cronjob&mdash; nos facilita la tarea y nos permite prescindir del servicio de un tercero. Reitero que duckdns es un DDNS fantástico, pero puede desaparecer en cualquier momento. A largo plazo, esta solución me parece la más prudente y acertada.</p>
@@ -109,7 +105,7 @@ curl --request PUT <span class="se">\
 </span><span class="s2">	\&#34;name\&#34;: \&#34;</span><span class="si">${</span><span class="nv">RECORD</span><span class="si">}</span><span class="s2">\&#34;,
 </span><span class="s2">	\&#34;type\&#34;: \&#34;A\&#34;
 </span><span class="s2">}&#34;</span>
-</code></pre></div><p>P.S. Los más avispados se habrán dado cuenta de que mi intención de ser independiente de servicios de terceros en la administración de DDNS choca con el hecho de tener que averiguar la IP pública del servidor de origen. En mi caso, he recurrido a <a href="https://icanhazip.com/">icanzip.com</a>, que sí forma parte de la infraestructura de Cloudflare, por lo que no me desvío de mi objetivo inicial, aunque pudiera parecer lo contrario.</p>
+</code></pre></div><p>P.S. Los más avispados se habrán dado cuenta de que mi intención de ser independiente de servicios de terceros en la administración de DDNS choca con el hecho de tener que averiguar la IP pública del servidor de origen. En mi caso, he recurrido a <a href="https://icanhazip.com/">icanhazip.com</a>, que sí forma parte de la infraestructura de Cloudflare, por lo que no me desvío de mi objetivo inicial, aunque pudiera parecer lo contrario.</p>
 
 			<div property="author" typeof="Person">
 				<meta property="name" content="edkalrio" />
@@ -141,7 +137,7 @@ curl --request PUT <span class="se">\
     </li>
     <li>
       <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
-        <img src="/tor.svg" class="fa" alt="tor" />
+        <img src="/tor-logo.svg" class="fa" alt="tor" />
       </a>
     </li>
   </ul>
