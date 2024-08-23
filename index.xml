@@ -6,7 +6,36 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2023-06-10T00:00:00Z</updated>
+	<updated>2024-08-23T00:00:00Z</updated>
+	
+	<entry>
+		<title>Monitores DFHD</title>
+		<link rel="alternate" href="https://lunaticgeek.com/dfhd-monitor/" />
+		<updated>2024-08-23T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/dfhd-monitor/</id>
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://hardzone.es/app/uploads-hardzone.es/2017/04/Samsung-32-9-800x388.jpg&#34; alt=&#34;Monitor DFHD con un fondo de escritorio de Vernazza&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Los monitores super ultra panorámicos tienen un ratio de aspecto de 32:9, es decir, equivalen a dos monitores 16:9. Este formato existe gracias a su popularización en el entorno &lt;em&gt;gaming&lt;/em&gt;, pero también es la causa del sobrecoste injustificado de los mismos. Los niños rata no tienen reparos en pagar el impuesto RGB, por una experiencia de juego más inmersiva.&lt;/p&gt;
+&lt;p&gt;Hace seis años que uso un monitor 21:9 UWFHD para tareas estrictamente productivas: programación, análisis de datos, administración de sistemas, etc. y si bien estoy contento con la elección de formato, y el precio que en su día pagué por el monitor, con el tiempo se me está quedando pequeño y es hora de plantearse alternativas.&lt;/p&gt;
+&lt;p&gt;Comprar dos monitores 16:9 de 27&amp;quot; parece una posibilidad bastante atractiva y no excesivamente costosa, pero perdería toda la flexibilidad a la que estoy acostumbrado al contar con un solo monitor ultra panorámico. La alternativa para pasar de mi actual 21:9 al ansiado 32:9 que se me ha ocurrido es tan efectiva como esperpéntica. Reutilizar una TV 4K de 55&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Esta TV tiene aproximadamente la misma superficie que 4 monitores de 27&amp;quot;, pero conectarlo tal cual no basta. La altura es tan grande que vulnera todas las recomendaciones de ergonomía, y no necesito tanta superficie de pantalla, así que solo voy a conservar una franja de 3280x1080, o lo que es lo mismo, la mitad de la TV, que resulta ser equivalente a un monitor 32:9 de 49&amp;quot;!&lt;/p&gt;
+&lt;p&gt;Es terrible que una TV de 55&amp;quot; cueste menos de la mitad que ese monitor equivalente, por ser &lt;em&gt;gaming&lt;/em&gt;. Yo, desde luego, no voy a ser el que fomente este consumismo absurdo, para lucrar a una industria que cada vez aprecio menos. Entiendo que poner una TV de 55&amp;quot; sobre el escritorio puede ser motivo de discusiones con esposas/madres, y estéticamente es terrible, pero me parece un uso perfecto para una TV vieja que fuéramos a retirar, dándole un nuevo propósito y alargando su vida útil.&lt;/p&gt;
+&lt;p&gt;La configuración para lograr nuestro objetivo en Linux depende de los drivers de la gráfica y el escritorio o gestor de ventanas utilizado, pero generalmente, pasa por los siguientes pasos.&lt;/p&gt;
+&lt;p&gt;Identificamos el puerto que estamos usando para conectarnos a la pantalla con &lt;code&gt;xrandr&lt;/code&gt;. Normalmente será &lt;code&gt;HDMI-0&lt;/code&gt; o &lt;code&gt;HDMI-1&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Creamos la configuración de resolución para 60Hz. No creo que sorprenda a nadie el hecho de que no exista por defecto una configuración tan absurda para el caso de uso que tenemos entre manos.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;cvt &lt;span class=&#34;m&#34;&gt;3280&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1080&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;60&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;El resultado es totalmente críptico, pero eso es irrelevante. Sólo tenemos que pasárselo a &lt;code&gt;xrandr&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;xrandr --newmode &lt;span class=&#34;s2&#34;&gt;&amp;#34;3280x1080_60.00&amp;#34;&lt;/span&gt;  295.50  &lt;span class=&#34;m&#34;&gt;3280&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;3496&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;3840&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;4400&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;1080&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1083&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1093&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1120&lt;/span&gt; -hsync +vsync
+xrandr --addmode HDMI-0 3280x1080_60.00
+xrandr --output HDMI-0 --mode 3280x1080_60.00
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En mi caso, añadiría la última línea a mi archivo de configuración de &lt;a href=&#34;../tags/i3wm/&#34;&gt;i3wm&lt;/a&gt; para hacer los cambios persistentes, pero se puede configurar también en &lt;code&gt;.xinitrc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Otra ventaja de esta idea es que podemos ajustar la altura de la ventana dentro de la pantalla con una precisión de un pixel. Mucho mejor que cualquier brazo o soporte para monitores.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;xrandr --output HDMI-0 --mode 3280x1080_60.00 --pos 0x&lt;span class=&#34;nv&#34;&gt;$HEIGHT&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Donde &lt;code&gt;$HEIGHT&lt;/code&gt; representa el ajuste del eje Y en pixels.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>El DDNS de Cloudflare</title>
