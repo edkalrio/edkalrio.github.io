@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>Autentificación con Certificado X.509 de Cliente - Lunatic Geek</title>
+  <meta property="og:title" content="Autentificación con Certificado X.509 de Cliente - Lunatic Geek" />
+  <meta name="twitter:title" content="Autentificación con Certificado X.509 de Cliente - Lunatic Geek" />
+  <meta name="description" content="Passkeys El futuro prometedor que auguraba la adopción y difusión del uso de Passkeys ha resultado tan distópico como los coches voladores, el metaverso, o incluso Matter. La amigabilidad para el usuario queda reducida a cenizas cuando el entorno de este no se encuentra monopolizado por un único proveedor de servicios. La interoperabilidad entre fabricantes a través de códigos QR y Bluetooth parece una ocurrencia de última hora sin ningún tipo de reflexión.">
+  <meta property="og:description" content="Passkeys El futuro prometedor que auguraba la adopción y difusión del uso de Passkeys ha resultado tan distópico como los coches voladores, el metaverso, o incluso Matter. La amigabilidad para el usuario queda reducida a cenizas cuando el entorno de este no se encuentra monopolizado por un único proveedor de servicios. La interoperabilidad entre fabricantes a través de códigos QR y Bluetooth parece una ocurrencia de última hora sin ningún tipo de reflexión.">
+  <meta name="twitter:description" content="Passkeys El futuro prometedor que auguraba la adopción y difusión del uso de Passkeys ha resultado tan distópico como los coches voladores, el metaverso, o incluso Matter. La amigabilidad para el …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/mtls/" />
+  <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.cloudflare.com/resources/images/slt3lc6tev37/5SjaQfZzDLEGqyzFkA0AA4/d227a26bbd7bc6d24363e9b9aaabef55/how_mtls_works-what_is_mutual_tls.png" />
+    <meta name="twitter:image" content="https://www.cloudflare.com/resources/images/slt3lc6tev37/5SjaQfZzDLEGqyzFkA0AA4/d227a26bbd7bc6d24363e9b9aaabef55/how_mtls_works-what_is_mutual_tls.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <meta http-equiv="onion-location" content="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion/" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+
+	<div class="main" role="main">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
+			
+			<meta property="image" content="https://www.cloudflare.com/resources/images/slt3lc6tev37/5SjaQfZzDLEGqyzFkA0AA4/d227a26bbd7bc6d24363e9b9aaabef55/how_mtls_works-what_is_mutual_tls.png" />
+			
+			<h1 class="article-title" property="headline">Autentificación con Certificado X.509 de Cliente</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time property="datePublished">2025-03-28</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/openssl/">
+						<b>#</b>openssl
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/criptograf%C3%ADa/">
+						<b>#</b>criptografía
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/nginx/">
+						<b>#</b>NGINX
+					</a> 
+				</li>
+				
+			</ul>
+			
+			<center><img src="https://www.cloudflare.com/resources/images/slt3lc6tev37/5SjaQfZzDLEGqyzFkA0AA4/d227a26bbd7bc6d24363e9b9aaabef55/how_mtls_works-what_is_mutual_tls.png" style="background: white; max-width: 100%" /></center>
+<h3 id="passkeys">Passkeys</h3>
+<p>El futuro prometedor que auguraba la adopción y difusión del uso de <a href="https://fidoalliance.org/passkeys/">Passkeys</a> ha resultado tan <a href="https://arstechnica.com/security/2024/12/passkey-technology-is-elegant-but-its-most-definitely-not-usable-security/">distópico</a> como los coches voladores, el metaverso, o incluso <a href="https://www.theverge.com/23997548/matter-smart-home-2023-platforms">Matter</a>. La amigabilidad para el usuario queda reducida a cenizas cuando el entorno de este no se encuentra monopolizado por un único proveedor de servicios. La interoperabilidad entre fabricantes a través de códigos QR y Bluetooth parece una ocurrencia de última hora sin ningún tipo de reflexión.</p>
+<p>Pero más allá de las aparentes deficiencias en las distintas implementaciones del protocolo, el concepto mismo de las Passkeys es &mdash;una vez más&mdash; sólo otra muestra del adanismo de una industria que tiene que reinventar la rueda continuamente ante la falta de objetivos tangibles que mejoren la utilidad. Porque todo esto ya existía hace años. La autentificación con certificados de cliente (CBA), no es sino otro mecanismo de clave pública, equivalente a las Passkeys, aunque personalmente lo considero superior. Desde un punto de vista conceptual, creo que si la autentificación del servidor se produce en la capa de TLS, la del usuario debería establecerse en esa misma operación, para que ambos quedasen segura y mutuamente identificados (<a href="https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/">mTLS</a>). La implementación de este tipo de soluciones no requeriría el uso de bibliotecas externas y cambios tanto en el backend como en el frontend. El punto débil de la autentificación con certificados de cliente es la generación y gestión de los mismos, pero eso veremos a continuación que no es tan complejo como parece, y tampoco creo que las Passkeys sean mejores en ese aspecto.</p>
+<p>Para demostrar el valor de esta CBA me propuse mejorar la seguridad de alguno de mis servidores privados con este método. El mecanismo que usaba anteriormente en <code>nginx</code> es el de <a href="https://www.w3.org/Protocols/HTTP/1.0/spec.html#BasicAA">autentificación básica de HTTP</a>, perfectamente válido para mis casos de uso aunque infravalorado por la mayoría. Básicamente, el proceso consiste en la creación de una autoridad certificadora (CA) para firmar los distintos certificados de cliente que haya que generar. Todo ello puede hacerse fácilmente con <code>openssl</code>.</p>
+<h3 id="diy">DIY</h3>
+<center><img src="/mtls.png" style="max-width: 100%" /></center>
+<p>Generamos una clave privada RSA para la CA porque las de curva elíptica me están dando problemas con la importación del PKCS#12 en navegadores.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">openssl genpkey -algorithm RSA -out lunaticgeek_ca.key
+</code></pre></div><p>y su clave pública en formato X.509</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">openssl req -new -x509 -days <span class="m">3650</span> -key lunaticgeek_ca.key -out lunaticgeek_ca.crt
+</code></pre></div><p>De igual forma se procede con la del cliente</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">openssl genpkey -algorithm RSA -out edkalrio.key
+</code></pre></div><p>esta vez, la clave pública irá firmada por la CA, siguiendo el criterio normal de cadena de confianza</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">openssl req -new -key edkalrio.key -out edkalrio.csr
+openssl x509 -req -days <span class="m">3650</span> -in edkalrio.csr -CA lunaticgeek_ca.crt -CAkey lunaticgeek_ca.key -set_serial <span class="m">01</span> -out edkalrio.crt
+</code></pre></div><p>empaquetamos el juego de claves del cliente para que pueda instalarse en cualquier dispositivo</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">openssl pkcs12 -export -clcerts -inkey edkalrio.key -in edkalrio.crt -out edkalrio.p12
+</code></pre></div><p>La configuración de <code>nginx</code> es trivial. Sólo hay que incluirle el certificado de la CA y activar la función en la sección de <em>server</em></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="k">ssl_client_certificate</span> <span class="s">/etc/ssl/lunaticgeek_ca.crt</span><span class="p">;</span>
+<span class="k">ssl_verify_client</span> <span class="no">on</span><span class="p">;</span>
+</code></pre></div><p>Me parece que es un procedimiento bastante sensato y mucho más sencillo que la integración de Passkeys &mdash;a juzgar por su baja adopción&mdash;. El despliegue de esta solución en un entorno de producción, para un uso generalizado por usuarios finales conllevaría mucha más burocracia, para cumplir con sus requisitos de <em>compliance</em>, pero la parte técnica no cambiaría mucho, más allá de la utilización de un servidor de OCSP para revocar certificados.</p>
+<h3 id="one-more-thing">One more thing&hellip;</h3>
+<p>Hay una forma incluso más sencilla de usar esta autentificación&hellip; y mucho más bizarra. El certificado digital de la FNMT, con el que ya he lidiado en otras <a href="/2017-05-03-fracasos-con-el-certificado-digital-de/">ocasiones</a>, es precisamente la materialización de este método para identificarse y firmar documentos con la Administración Pública española. Este certificado se puede usar sin ningún problema en nuestros servidores, sin necesidad de ejecutar ni un sólo comando de <code>openssl</code>. Para ello bastaría con cambiar la referencia de nuestro certificado de CA por el <a href="https://www.sede.fnmt.gob.es/documents/10445900/10526749/AC_Raiz_FNMT-RCM_SHA256.cer">raíz</a> de la FNMT dentro de la configuración de <code>nginx</code>. Al no tener pleno control sobre la CA, si no queremos que cualquiera con certificado digital acceda al servidor, habría que añadir un requisito de acceso, por ejemplo, con el número de serie del certificado, en la configuración de <em>location</em>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nginx" data-lang="nginx"><span class="k">proxy_set_header</span> <span class="s">X-Client-Serial</span> <span class="nv">$ssl_client_serial</span><span class="p">;</span>
+<span class="k">if</span> <span class="s">(</span><span class="nv">$ssl_client_serial</span> <span class="s">!=</span> <span class="s">&#34;********************************&#34;)</span> <span class="p">{</span><span class="kn">return</span> <span class="mi">403</span><span class="p">;}</span>
+</code></pre></div><p>Siguiendo la misma lógica, se podría configurar la identificación mediante DNIe, con la consiguiente mejora de seguridad, al estar la clave privada ligada al hardware. Aunque, en cualquier caso, estos certificados se pueden gestionar con <a href="https://github.com/polhenarejos/pico-openpgp">llaves de seguridad</a>, exactamente igual que las Passkeys.</p>
+
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
+		</article>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
+    </a>
+    RW Labs 2025</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
+        
+        <img src="/rss.svg" class="fa" alt="feed" />
+      </a>
+    </li>
+    <li>
+      <a href="http://mdoovnnifyqyl6jmgdibrsbq6tpk22npjhntsjkwvh7syrxgepxdejad.onion">
+        <img src="/tor-logo.svg" class="fa" alt="tor" />
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

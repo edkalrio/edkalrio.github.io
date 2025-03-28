@@ -6,7 +6,16 @@
     <description>Recent content in criptografía on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/criptograf%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/criptograf%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autentificación con Certificado X.509 de Cliente</title>
+      <link>https://lunaticgeek.com/mtls/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/mtls/</guid>
+      <description>Passkeys El futuro prometedor que auguraba la adopción y difusión del uso de Passkeys ha resultado tan distópico como los coches voladores, el metaverso, o incluso Matter. La amigabilidad para el usuario queda reducida a cenizas cuando el entorno de este no se encuentra monopolizado por un único proveedor de servicios. La interoperabilidad entre fabricantes a través de códigos QR y Bluetooth parece una ocurrencia de última hora sin ningún tipo de reflexión.</description>
+    </item>
+    
     <item>
       <title>Acceso a Libera.Chat mediante Certificado de la FNMT</title>
       <link>https://lunaticgeek.com/libera/</link>

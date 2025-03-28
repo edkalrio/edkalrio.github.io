@@ -64,7 +64,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		color: white;
+		color: #EEE;
 		background-color: black;
 	}
 	h1 img {
@@ -128,7 +128,7 @@ blockquote blockquote blockquote blockquote {
 	justify-content: flex-end;
 	-webkit-align-items: baseline;
 	align-items: baseline;
-	margin-top: -2.5rem;
+	margin-top: 0;
 	padding-bottom: 8px;
 }
 .site-navi a {

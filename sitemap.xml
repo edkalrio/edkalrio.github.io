@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lunaticgeek.com/mtls/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/criptograf%C3%ADa/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/nginx/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/openssl/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lunaticgeek.com/tags/i3wm/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/lcd/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lunaticgeek.com/dfhd-monitor/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2024-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/tv/</loc>
@@ -86,9 +98,6 @@
     <loc>https://lunaticgeek.com/libera/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lunaticgeek.com/tags/criptograf%C3%ADa/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lunaticgeek.com/tags/freenode/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -96,9 +105,6 @@
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/libera.chat/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/openssl/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/fate/</loc>
@@ -528,9 +534,6 @@
     <lastmod>2016-04-28T19:35:00+02:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/http2/</loc>
-    <lastmod>2016-04-28T19:35:00+02:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/nginx/</loc>
     <lastmod>2016-04-28T19:35:00+02:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/servidor/</loc>
