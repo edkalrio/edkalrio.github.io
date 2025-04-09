@@ -67,7 +67,7 @@ body {
 		color: #EEE;
 		background-color: black;
 	}
-	h1 img {
+	h1 img, .fa {
 		filter: invert();
 	}
 }
@@ -684,3 +684,4 @@ img {
 .twitter:hover a, .twitter:active a {
 	color: #5090ff;
 }
+
