@@ -67,7 +67,7 @@ body {
 		color: #EEE;
 		background-color: black;
 	}
-	h1 img, .fa {
+	h1 img, .fa, .fas {
 		filter: invert();
 	}
 }
