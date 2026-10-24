@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lunaticgeek.com/tags/javascript/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/kiss/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/locker/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/qr/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lunaticgeek.com/tags/web/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lunaticgeek.com/mtls/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/criptograf%C3%ADa/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lunaticgeek.com/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lunaticgeek.com/tags/nginx/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/openssl/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/tags/i3wm/</loc>
@@ -164,9 +179,6 @@
     <loc>https://lunaticgeek.com/rdfa/</loc>
     <lastmod>2020-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lunaticgeek.com/tags/web/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lunaticgeek.com/tags/programaci%C3%B3n/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -187,9 +199,6 @@
   </url><url>
     <loc>https://lunaticgeek.com/mecanicas-roleras/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lunaticgeek.com/tags/javascript/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lunaticgeek.com/js-pipes/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>

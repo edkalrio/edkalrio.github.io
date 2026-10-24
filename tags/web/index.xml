@@ -6,7 +6,17 @@
     <description>Recent content in Web on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Decadencia de los Códigos QR</title>
+      <link>https://lunaticgeek.com/locker/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/locker/</guid>
+      <description>Recientemente han instalado unas taquillas de recogida de paquetes 24h en un parking cerca de mi casa. Hace años que hay casilleros similares desperdigados por aquí, pero ninguno lo suficientemente cerca de mi zona como para que me apeteciera usarlo. Finalmente probé este y la experiencia de uso deja mucho que desear.
+Me acerqué de madrugada a retirar mi paquete con el PIN de 6 cifras preparado (que imagino que hayan generado de cualquier manera, sin tener en cuenta la RFC 4226).</description>
+    </item>
+    
     <item>
       <title>Soporte para Búsqueda Enriquecida con RDFa</title>
       <link>https://lunaticgeek.com/rdfa/</link>
