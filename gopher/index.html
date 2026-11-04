@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="robots" content="nofollow">
+  <title>La Madriguera de Gopher - Lunatic Geek</title>
+  <meta property="og:title" content="La Madriguera de Gopher - Lunatic Geek" />
+  <meta name="twitter:title" content="La Madriguera de Gopher - Lunatic Geek" />
+  <meta name="description" content="Buscando unos documentos antiguos en mi servidor, encontré los archivos &mdash;ya olvidados&mdash; de mi gopherhole. Totalmente abandonado, pero todavía disponible, un breve manifiesto sobre esta tecnología obsoleta, que algunos consideran el eslabón perdido entre FTP y la WWW.
+Hace casi una década conocí de la mano de los impulsores del proyecto bitreich este protocolo, que implementa de forma no demasiado rigurosa la RFC 1436, como alternativa una web cada vez más excesiva, sobrecargada y mediocre.">
+  <meta property="og:description" content="Buscando unos documentos antiguos en mi servidor, encontré los archivos &mdash;ya olvidados&mdash; de mi gopherhole. Totalmente abandonado, pero todavía disponible, un breve manifiesto sobre esta tecnología obsoleta, que algunos consideran el eslabón perdido entre FTP y la WWW.
+Hace casi una década conocí de la mano de los impulsores del proyecto bitreich este protocolo, que implementa de forma no demasiado rigurosa la RFC 1436, como alternativa una web cada vez más excesiva, sobrecargada y mediocre.">
+  <meta name="twitter:description" content="Buscando unos documentos antiguos en mi servidor, encontré los archivos &mdash;ya olvidados&mdash; de mi gopherhole. Totalmente abandonado, pero todavía disponible, un breve manifiesto sobre esta …">
+  <meta name="author" content="edkalrio"/>
+  <link rel="icon" type="image/png" href="https://lunaticgeek.com/favicon.png" />
+  <meta property="og:site_name" content="Lunatic Geek" />
+  <meta property="og:url" content="/gopher/" />
+  <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://gopher.floodgap.com/overbite/ourdude.gif" />
+    <meta name="twitter:image" content="https://gopher.floodgap.com/overbite/ourdude.gif" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="WIT" />
+  <meta http-equiv="onion-location" content="http://jmkpass6sz3mgq4u5cxzqvzu2zckfafuiy5pqhnibeamoo7ahjwmq5id.onion/" />
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+  
+
+
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 class="site-title"><a href="/"><img src="/lunaticgeek.webp" alt="Lunatic Geek"></a></h1>
+	
+  <nav class="site-navi">
+    <ul class="site-navi-items">
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archivo">Archivo</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Yo">Yo</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+
+	<div class="main" role="main">
+		<article class="article" vocab="https://schema.org/" typeof="BlogPosting">
+			
+			<meta property="image" content="https://gopher.floodgap.com/overbite/ourdude.gif" />
+			
+			<h1 class="article-title" property="headline">La Madriguera de Gopher</h1>
+			
+			<hr class="article-title-bottom">
+			<ul class="article-meta">
+				<li class="article-meta-date"><time property="datePublished">2026-11-04</time></li>
+				<li class="article-meta-tags">
+					<a href="/tags/web/">
+						<b>#</b>Web
+					</a> 
+				</li>
+				<li class="article-meta-tags">
+					<a href="/tags/html/">
+						<b>#</b>HTML
+					</a> 
+				</li>
+				
+			</ul>
+			
+			<center><img src="https://gopher.floodgap.com/overbite/ourdude.gif" style="background: white; max-width: 100%" /></center>
+<p>Buscando unos documentos antiguos en mi servidor, encontré los archivos &mdash;ya olvidados&mdash; de mi <a href="gopher://gopher.lunaticgeek.com:70">gopherhole</a>. Totalmente abandonado, pero todavía disponible, un breve manifiesto sobre esta tecnología obsoleta, que algunos consideran el eslabón perdido entre FTP y la WWW.</p>
+<p>Hace casi una década conocí de la mano de los impulsores del proyecto <a href="gopher://bitreich.org:70">bitreich</a> este protocolo, que implementa de forma no demasiado rigurosa la <a href="https://www.rfc-editor.org/rfc/rfc1436.html">RFC 1436</a>, como alternativa una web cada vez más excesiva, sobrecargada y mediocre.</p>
+<p>Sin embargo, la simplicidad de Gopher no me pareció que estuviera bien enfocada y así lo reflejé en mi servidor. Servidor que desarrollé personalmente en <code>micropython</code> y tuve alojado un tiempo en un ESP32 aunque finalmente lo migré a mi RPI. Quizás migración no sea el concepto más adecuado porque lo que hice &mdash;desde el sarcasmo&mdash; fue implementar un servidor en <code>Bash</code> sobre un socket de <code>systemd</code>, en lo que me pareció la combinación más esperpéntica y paradójica que se me ocurrió.</p>
+<p>Creo que en el momento en el que vivimos, con una web destruida por la endogamia de las redes sociales y la voracidad de la IA, cobra mayor relevancia una búsqueda de alternativas al <em>statu quo</em> imperante, como los fans de gopher llevan persiguiendo todos estos años y posteriormente los partidarios de <a href="https://geminiprotocol.net/">Gemini</a> y los proselitistas de la <a href="https://smolweb.org/">smolweb</a>.</p>
+<p>Recojo el manifiesto que publiqué en mi gopherhole hace tantos años, bajo el título <em>Minimal Viable Web</em></p>
+<pre tabindex="0"><code>I'm a dissident. I don't like gopher.
+
+RFC 1436 is a weak protocol. Item number types are useless, obsolete
+(2, 4, 5), incomplete (i, h are not standard) and confusing (what
+about pdf?). The structure of a gophermap is so weird that several
+servers are using gph files instead. Some people are expanding gopher
+the wrong way. They use ugly tags for metadata and they stop writing
+txt files because they realize they need hyperlinks everywhere. This
+is insane.
+
+IMHO gopher is just ftp with a fancy index. I agree the web sucks with
+its banners, cookies, DPGR and javascript. However, gopher fixes these
+annoyances with an inferior solution. The real deal is making the web
+simple and uncluttered.
+
+html must be used carefully. We just need a &lt;pre&gt; tag at the top and
+&lt;a&gt; tags in the footer. If we don't use inline a tags, we don't even
+need to close them. Forget the &lt;!DOCTYPE 
+html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt; and all the closing
+tags. Resulting html is not valid but it should work in any browser.
+
+You may not like it but I prefer it over gopher. We can keep all the
+bells and whistles of a multiplexed http2, tls1.3 encryption and
+compatibility with upcoming protocols.
+</code></pre>
+			<div property="author" typeof="Person">
+				<meta property="name" content="edkalrio" />
+			</div>
+			<div property="publisher" typeof="Organization">
+				<meta property="name" content="Lunatic Geek Blog" />
+				<div property="logo" typeof="ImageObject">
+					<meta property="url" content="https://lunaticgeek.com/lunaticgeek.webp" />
+				</div>
+			</div>
+		</article>
+
+	</div>
+
+
+<div class="site-footer">
+  <div class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <img src="/creative-commons.svg" class="fa" alt="creative commons" />
+    </a>
+    RW Labs 2026</div>
+  <ul class="site-footer-items">
+    
+    <li class="site-footer-item-rsslink">
+      <a href="https://feed.lunaticgeek.com" type="application/rss+xml" target="_blank" title="RSS">
+        
+        <img src="/rss.svg" class="fa" alt="feed" />
+      </a>
+    </li>
+    <li>
+      <a href="http://jmkpass6sz3mgq4u5cxzqvzu2zckfafuiy5pqhnibeamoo7ahjwmq5id.onion">
+        <img src="/tor-logo.svg" class="fa" alt="tor" />
+      </a>
+    </li>
+  </ul>
+  <div class="powerdby">
+    Powered by WIT, based on <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>

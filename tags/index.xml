@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Lunatic Geek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 31 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lunaticgeek.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>html</title>
+      <link>https://lunaticgeek.com/tags/html/</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://lunaticgeek.com/tags/web/</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://lunaticgeek.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>criptografía</title>
       <link>https://lunaticgeek.com/tags/criptograf%C3%ADa/</link>
@@ -49,15 +67,6 @@
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/qr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://lunaticgeek.com/tags/web/</link>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/web/</guid>
       <description></description>
     </item>
     
@@ -364,15 +373,6 @@
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://lunaticgeek.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://lunaticgeek.com/tags/html/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaticgeek.com/tags/html/</guid>
       <description></description>
     </item>
     

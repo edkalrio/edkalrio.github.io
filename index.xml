@@ -6,7 +6,48 @@
 	<id>https://lunaticgeek.com/</id>
 	<subtitle>El blog sobre informática y tecnología más irreverente y transgresor de la red</subtitle>
 	<generator>Made with WIT</generator>
-	<updated>2026-10-31T00:00:00Z</updated>
+	<updated>2026-11-04T00:00:00Z</updated>
+	
+	<entry>
+		<title>La Madriguera de Gopher</title>
+		<link rel="alternate" href="https://lunaticgeek.com/gopher/" />
+		<updated>2026-11-04T00:00:00Z</updated>
+		<author>
+			<name>edkalrio</name>
+		</author>
+		<id>https://lunaticgeek.com/gopher/</id>
+		<content type="html">&lt;center&gt;&lt;img src=&#34;https://gopher.floodgap.com/overbite/ourdude.gif&#34; style=&#34;background: white; max-width: 100%&#34; /&gt;&lt;/center&gt;
+&lt;p&gt;Buscando unos documentos antiguos en mi servidor, encontré los archivos &amp;mdash;ya olvidados&amp;mdash; de mi &lt;a href=&#34;gopher://gopher.lunaticgeek.com:70&#34;&gt;gopherhole&lt;/a&gt;. Totalmente abandonado, pero todavía disponible, un breve manifiesto sobre esta tecnología obsoleta, que algunos consideran el eslabón perdido entre FTP y la WWW.&lt;/p&gt;
+&lt;p&gt;Hace casi una década conocí de la mano de los impulsores del proyecto &lt;a href=&#34;gopher://bitreich.org:70&#34;&gt;bitreich&lt;/a&gt; este protocolo, que implementa de forma no demasiado rigurosa la &lt;a href=&#34;https://www.rfc-editor.org/rfc/rfc1436.html&#34;&gt;RFC 1436&lt;/a&gt;, como alternativa una web cada vez más excesiva, sobrecargada y mediocre.&lt;/p&gt;
+&lt;p&gt;Sin embargo, la simplicidad de Gopher no me pareció que estuviera bien enfocada y así lo reflejé en mi servidor. Servidor que desarrollé personalmente en &lt;code&gt;micropython&lt;/code&gt; y tuve alojado un tiempo en un ESP32 aunque finalmente lo migré a mi RPI. Quizás migración no sea el concepto más adecuado porque lo que hice &amp;mdash;desde el sarcasmo&amp;mdash; fue implementar un servidor en &lt;code&gt;Bash&lt;/code&gt; sobre un socket de &lt;code&gt;systemd&lt;/code&gt;, en lo que me pareció la combinación más esperpéntica y paradójica que se me ocurrió.&lt;/p&gt;
+&lt;p&gt;Creo que en el momento en el que vivimos, con una web destruida por la endogamia de las redes sociales y la voracidad de la IA, cobra mayor relevancia una búsqueda de alternativas al &lt;em&gt;statu quo&lt;/em&gt; imperante, como los fans de gopher llevan persiguiendo todos estos años y posteriormente los partidarios de &lt;a href=&#34;https://geminiprotocol.net/&#34;&gt;Gemini&lt;/a&gt; y los proselitistas de la &lt;a href=&#34;https://smolweb.org/&#34;&gt;smolweb&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Recojo el manifiesto que publiqué en mi gopherhole hace tantos años, bajo el título &lt;em&gt;Minimal Viable Web&lt;/em&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I&#39;m a dissident. I don&#39;t like gopher.
+
+RFC 1436 is a weak protocol. Item number types are useless, obsolete
+(2, 4, 5), incomplete (i, h are not standard) and confusing (what
+about pdf?). The structure of a gophermap is so weird that several
+servers are using gph files instead. Some people are expanding gopher
+the wrong way. They use ugly tags for metadata and they stop writing
+txt files because they realize they need hyperlinks everywhere. This
+is insane.
+
+IMHO gopher is just ftp with a fancy index. I agree the web sucks with
+its banners, cookies, DPGR and javascript. However, gopher fixes these
+annoyances with an inferior solution. The real deal is making the web
+simple and uncluttered.
+
+html must be used carefully. We just need a &amp;lt;pre&amp;gt; tag at the top and
+&amp;lt;a&amp;gt; tags in the footer. If we don&#39;t use inline a tags, we don&#39;t even
+need to close them. Forget the &amp;lt;!DOCTYPE 
+html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt; and all the closing
+tags. Resulting html is not valid but it should work in any browser.
+
+You may not like it but I prefer it over gopher. We can keep all the
+bells and whistles of a multiplexed http2, tls1.3 encryption and
+compatibility with upcoming protocols.
+&lt;/code&gt;&lt;/pre&gt;</content>
+	</entry>
 	
 	<entry>
 		<title>SSH Postcuántico</title>
@@ -31,11 +72,11 @@
 +----[SHA256]-----+
 &lt;/pre&gt;&lt;/center&gt;
 &lt;p&gt;He compilado &lt;a href=&#34;https://www.openssh.org/releasenotes.html#10.6&#34;&gt;OpenSSH 10.6&lt;/a&gt; desde la fuente porque esta última versión incluye el algoritmo de firma híbrida postcuántica &lt;code&gt;ssh-mldsa44-ed25519&lt;/code&gt;.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-mldsa44-ed25519 AAAAE3NzaC1tbGRzYTQ0LWVkMjU1MTkAAAVAjwUTQt3U23gSNOOSQ12FwuL03l3PVDTRoSxg/9Cj4PxyaVX80S90f/4Hpm9F5Ew3oWtiQdGwaQnoOUtIvP4Ngd72MY72g0vanqlenw0G15SSUJHRkQHL2zRlMfhLG/YNX42cRYmspJ0dAJZ1zYBmjxGeAjJsT4Qm8zpdGSTBdJmYVNH+42Z1mAd0vmoc80QOLiuQfTkaiqR8pgBzulj4OnSbznQkp+GAsYgaexj+M1u8kv6u1lT5laKWnygLAu/PloF2cTqYAQhjv3P9uqacWKtK525Na1vfz8PsBkZ+BxQjUnNvi/KHmFexi3z4qx35b+mKgJVLWnQ2ADn0pEX95qVjDEJOiOU8lcm16VT9oYOLjuoUOZWuEGn+HAtdnzle0CupPP9SYGQ/m8gYnLM9yHByznJwLZATKJpSRtJ9BUP45JelIeM6+s8reKgjoA0d7Mpo6RUwd5y+DTOsIgKP4TsJL+prezM7ekRfCze9KgK2cLWWRm+t8YZznrXgJ7z1oPfpYhVv3vgLOYpYlJfZ8tx0b7flq22x203f1dioWuGY3yW1qdW55N+/i3aDuIbQA+RrDMYKTTfUXoG8xiuns4NGKrsom9PabAfHtltbw6x0CYhiWIFOo2TgOHwMdemaKzKKhifJBya4lnAe3TvL97hsuffcEy2pSuNyoaVYgZ4tOtGGWoqWac7yQ+2HzoV/mFHM8O1CY3XQEjMj9ynapclbGM6636HiAj4zt+UPXJew1jW3U+Kggz/tOqThS30z+xva9e7QVhSGjy//OMGgZn9esTHfB8l9odrmPcf8/PQeLaNWtx1AXrssNRrkJtTQD67EP3OWAlZOAoYs1TjABm88FNdNHohmMqHLsY85sow6be7foepEtSsKSjHhjWTEzivWvTAfoMsrAzFAaBsyq3EZqic5rnhpz56Nn9QjOZ8R7CQdZDyx9lyBMx7xMBEpb28sHTpVWVx13d0eFbgy6oqESSVWFDUhP158mI9UuU11sKiuRXlMn8vRPwlLrPmLYyn8VDeJDKvqUiUssiEMp7JPEcB2JYE3f76BckbMbaVhHPujr4Y4fqi/pBo92IXaEI67yKn0wabfh+Z6KqXnEBE5qKGYawZ2Z6dXAJh8BS3k1zfC1zMXmKqxawXHTPWD+LQNZx0jxF3M98vINKBtVlj+0u+R1aBoip0Tb7xP3HH/7kDaTVmu45FlQCpOZGAa4PZjLiYpc/IXTes2svmE8MEHCi/TnuUMI9O06f4VeKxXkGJD+xwI4ONktg6cjv9aakIsm0dp+N/W+VEXsD59Wa5DqEZratplbRM7M/28HLLBEqYhyoab9iMpUMwHbWYECfASpe814oVpBj9uhKIXubmn12hW91xYhirpKjtKc/zgkofQ6vy2UrnU2YEt7FFPLhTuCGrVYxZ75rfe2J/CAYOOYA9Tvd/QoqWK2QDSJg0K0BLeBneQV4bXkKvDjdx2OopxwJm5iB39ldO/kM7msZEJ/ALQdZH2G4wLXbUoyn6Z64fvwFHjyTpNPnUyOtyWQEQB67gKasd+7HjlQDUk1XbVIRlFf/uqWN39Uaw4EW/VCiBPMkcW/pYGnnuCXqKwPmCWfTkP255yN0aeAUwD+VmwiwuDTZqsdCoAqwOm8jzNh9LB6h29yjUT3Zr4vFhwj9iVtvok1RgD4131pS64IcVq0bMp2lbVddvLFBjbgrQFqwmJfcGqx34/YtdSWzY6LBiZP2UKpMrWQ9L/JReeYCc8GZ+NPYZ1XgrPkzXgJ+RPP0qB4cjHq6a7qGm4spni
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Las claves resultantes son larguísimas, pero es el precio que hay que pagar por asegurarnos una protección a largo plazo contra ordenadores que puedan ejecutar el algoritmo de Shor.&lt;/p&gt;
+&lt;p&gt;Las claves resultantes son larguísimas, pero es el precio que hay que pagar por asegurarnos una protección a largo plazo contra ordenadores que puedan ejecutar el algoritmo de Shor.&lt;/p&gt;
 &lt;p&gt;Como dice el dicho: &amp;ldquo;no por mucho madrugar amanece más temprano&amp;rdquo;. Este algoritmo de firma no está soportado por ningún servidor al que pueda conectarme fuera de mi LAN. No he podido subir la clave pública a GitHub, ni he podido guardar adecuadamente mi firma en &lt;code&gt;KeePassXC&lt;/code&gt;, el gestor de contraseñas que uso, que además se encarga de gestionar mi &lt;code&gt;SSH-agent&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;A pesar de todo, creo que la transición postcuántica va a muy buen ritmo, principalmente gracias al trabajo de Cloudflare y Google. Hace bastante tiempo que a este blog se accede mediante un algoritmo de intercambio de claves &lt;code&gt;X25519MLKEM768&lt;/code&gt;, y los certificados TLS postcuánticos basados en &lt;code&gt;ML-DSA&lt;/code&gt; llegarán en el próximo año. En este sentido, la reciente &lt;a href=&#34;https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/&#34;&gt;noticia&lt;/a&gt; de que Cloudflare se va a posicionar como autoridad certificadora anima al optimismo.&lt;/p&gt;
-</content>
+&lt;p&gt;A pesar de todo, creo que la transición postcuántica va a muy buen ritmo, principalmente gracias al trabajo de Cloudflare y Google. Hace bastante tiempo que a este blog se accede mediante un algoritmo de intercambio de claves &lt;code&gt;X25519MLKEM768&lt;/code&gt;, y los certificados TLS postcuánticos basados en &lt;code&gt;ML-DSA&lt;/code&gt; llegarán el próximo año. En este sentido, la reciente &lt;a href=&#34;https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/&#34;&gt;noticia&lt;/a&gt; de que Cloudflare se va a posicionar como autoridad certificadora anima al optimismo.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-mldsa44-ed25519 AAAAE3NzaC1tbGRzYTQ0LWVkMjU1MTkAAAVAjwUTQt3U23gSNOOSQ12FwuL03l3PVDTRoSxg/9Cj4PxyaVX80S90f/4Hpm9F5Ew3oWtiQdGwaQnoOUtIvP4Ngd72MY72g0vanqlenw0G15SSUJHRkQHL2zRlMfhLG/YNX42cRYmspJ0dAJZ1zYBmjxGeAjJsT4Qm8zpdGSTBdJmYVNH+42Z1mAd0vmoc80QOLiuQfTkaiqR8pgBzulj4OnSbznQkp+GAsYgaexj+M1u8kv6u1lT5laKWnygLAu/PloF2cTqYAQhjv3P9uqacWKtK525Na1vfz8PsBkZ+BxQjUnNvi/KHmFexi3z4qx35b+mKgJVLWnQ2ADn0pEX95qVjDEJOiOU8lcm16VT9oYOLjuoUOZWuEGn+HAtdnzle0CupPP9SYGQ/m8gYnLM9yHByznJwLZATKJpSRtJ9BUP45JelIeM6+s8reKgjoA0d7Mpo6RUwd5y+DTOsIgKP4TsJL+prezM7ekRfCze9KgK2cLWWRm+t8YZznrXgJ7z1oPfpYhVv3vgLOYpYlJfZ8tx0b7flq22x203f1dioWuGY3yW1qdW55N+/i3aDuIbQA+RrDMYKTTfUXoG8xiuns4NGKrsom9PabAfHtltbw6x0CYhiWIFOo2TgOHwMdemaKzKKhifJBya4lnAe3TvL97hsuffcEy2pSuNyoaVYgZ4tOtGGWoqWac7yQ+2HzoV/mFHM8O1CY3XQEjMj9ynapclbGM6636HiAj4zt+UPXJew1jW3U+Kggz/tOqThS30z+xva9e7QVhSGjy//OMGgZn9esTHfB8l9odrmPcf8/PQeLaNWtx1AXrssNRrkJtTQD67EP3OWAlZOAoYs1TjABm88FNdNHohmMqHLsY85sow6be7foepEtSsKSjHhjWTEzivWvTAfoMsrAzFAaBsyq3EZqic5rnhpz56Nn9QjOZ8R7CQdZDyx9lyBMx7xMBEpb28sHTpVWVx13d0eFbgy6oqESSVWFDUhP158mI9UuU11sKiuRXlMn8vRPwlLrPmLYyn8VDeJDKvqUiUssiEMp7JPEcB2JYE3f76BckbMbaVhHPujr4Y4fqi/pBo92IXaEI67yKn0wabfh+Z6KqXnEBE5qKGYawZ2Z6dXAJh8BS3k1zfC1zMXmKqxawXHTPWD+LQNZx0jxF3M98vINKBtVlj+0u+R1aBoip0Tb7xP3HH/7kDaTVmu45FlQCpOZGAa4PZjLiYpc/IXTes2svmE8MEHCi/TnuUMI9O06f4VeKxXkGJD+xwI4ONktg6cjv9aakIsm0dp+N/W+VEXsD59Wa5DqEZratplbRM7M/28HLLBEqYhyoab9iMpUMwHbWYECfASpe814oVpBj9uhKIXubmn12hW91xYhirpKjtKc/zgkofQ6vy2UrnU2YEt7FFPLhTuCGrVYxZ75rfe2J/CAYOOYA9Tvd/QoqWK2QDSJg0K0BLeBneQV4bXkKvDjdx2OopxwJm5iB39ldO/kM7msZEJ/ALQdZH2G4wLXbUoyn6Z64fvwFHjyTpNPnUyOtyWQEQB67gKasd+7HjlQDUk1XbVIRlFf/uqWN39Uaw4EW/VCiBPMkcW/pYGnnuCXqKwPmCWfTkP255yN0aeAUwD+VmwiwuDTZqsdCoAqwOm8jzNh9LB6h29yjUT3Zr4vFhwj9iVtvok1RgD4131pS64IcVq0bMp2lbVddvLFBjbgrQFqwmJfcGqx34/YtdSWzY6LBiZP2UKpMrWQ9L/JReeYCc8GZ+NPYZ1XgrPkzXgJ+RPP0qB4cjHq6a7qGm4spni
+&lt;/code&gt;&lt;/pre&gt;</content>
 	</entry>
 	
 	<entry>
